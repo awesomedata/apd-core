@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Reverse Geocoder using OSM data
+homepage: https://github.com/kno10/reversegeocode
+category: GIS
 description:
 version:
 keywords:

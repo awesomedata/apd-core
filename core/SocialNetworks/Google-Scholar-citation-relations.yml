@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Google Scholar citation relations
+homepage: http://www3.cs.stonybrook.edu/~leman/data/gscholar.db
+category: SocialNetworks
 description:
 version:
 keywords:

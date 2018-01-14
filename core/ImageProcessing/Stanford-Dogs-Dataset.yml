@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Stanford Dogs Dataset
+homepage: http://vision.stanford.edu/aditya86/ImageNetDogs/
+category: ImageProcessing
 description:
 version:
 keywords:

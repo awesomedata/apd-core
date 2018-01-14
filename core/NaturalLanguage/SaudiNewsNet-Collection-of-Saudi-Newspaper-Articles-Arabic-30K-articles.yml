@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: SaudiNewsNet Collection of Saudi Newspaper Articles (Arabic, 30K articles)
+homepage: https://github.com/ParallelMazen/SaudiNewsNet
+category: NaturalLanguage
 description:
 version:
 keywords:

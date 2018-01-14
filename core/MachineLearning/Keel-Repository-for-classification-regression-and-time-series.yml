@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Keel Repository for classification, regression and time series
+homepage: http://sci2s.ugr.es/keel/datasets.php
+category: MachineLearning
 description:
 version:
 keywords:

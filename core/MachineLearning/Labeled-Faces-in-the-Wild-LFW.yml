@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Labeled Faces in the Wild (LFW)
+homepage: http://vis-www.cs.umass.edu/lfw/
+category: MachineLearning
 description:
 version:
 keywords:

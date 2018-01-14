@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Context-aware data sets from five domains
+homepage: https://github.com/irecsys/CARSKit/tree/master/context-aware_data_sets
+category: MachineLearning
 description:
 version:
 keywords:

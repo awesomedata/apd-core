@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Climate Data from UEA (updated monthly)
+homepage: https://crudata.uea.ac.uk/cru/data/temperature/#datter and ftp://ftp.cmdl.noaa.gov/
+category: Climate+Weather
 description:
 version:
 keywords:

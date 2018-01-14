@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Toronto Bike Share Stations (XML file)
+homepage: http://www.bikesharetoronto.com/data/stations/bikeStations.xml
+category: Transportation
 description:
 version:
 keywords:

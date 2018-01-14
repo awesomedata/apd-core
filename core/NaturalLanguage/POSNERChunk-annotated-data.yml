@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: POS/NER/Chunk annotated data
+homepage: https://github.com/aritter/twitter_nlp/tree/master/data/annotated
+category: NaturalLanguage
 description:
 version:
 keywords:

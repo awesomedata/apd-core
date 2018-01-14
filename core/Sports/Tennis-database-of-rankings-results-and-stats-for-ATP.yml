@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Tennis database of rankings, results, and stats for ATP
+homepage: https://github.com/JeffSackmann/tennis_atp
+category: Sports
 description:
 version:
 keywords:

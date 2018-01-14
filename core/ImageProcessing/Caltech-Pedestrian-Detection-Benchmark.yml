@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Caltech Pedestrian Detection Benchmark
+homepage: http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/
+category: ImageProcessing
 description:
 version:
 keywords:

@@ -1,7 +1,8 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Google MC-AFP, generated based on the public available Gigaword dataset using
+  Paragraph Vectors
+homepage: https://github.com/google/mcafp
+category: NaturalLanguage
 description:
 version:
 keywords:

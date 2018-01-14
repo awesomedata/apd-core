@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Visual genome
+homepage: http://visualgenome.org/api/v0/api_home.html
+category: ImageProcessing
 description:
 version:
 keywords:

@@ -1,7 +1,7 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: EOSDIS - NASA's earth observing system data
+homepage: http://sedac.ciesin.columbia.edu/data/sets/browse
+category: EarthScience
 description:
 version:
 keywords:

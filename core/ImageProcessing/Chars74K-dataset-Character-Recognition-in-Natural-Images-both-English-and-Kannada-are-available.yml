@@ -1,7 +1,8 @@
 ---
-title: 1000 Genomes
-homepage: http://www.1000genomes.org/data
-category: Biology
+title: Chars74K dataset, Character Recognition in Natural Images (both English and
+  Kannada are available)
+homepage: http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+category: ImageProcessing
 description:
 version:
 keywords:
