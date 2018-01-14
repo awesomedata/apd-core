@@ -17,7 +17,7 @@ def scan_core_data(core_dir):
         if category not in categories:
             categories[category] = list()
 
-        for data_item in os.listdir(os.path.join(core_dir, category)):
+        for data_item in sorted(os.listdir(os.path.join(core_dir, category))):
             data_file = os.path.join(core_dir, category, data_item)
             try:
                 data_obj = yaml.load(open(data_file))
