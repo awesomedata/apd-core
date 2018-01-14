@@ -10,7 +10,7 @@ temporal:
 spatial:
 access_level:
 copyrights:
-accrual_periodicity:
+accrual_periodicity: monthly
 specification:
 data_quality: false
 data_dictionary:

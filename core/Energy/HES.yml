@@ -2,7 +2,7 @@
 title: HES
 homepage: http://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&ProjectID=17359&FromSearch=Y&Publisher=1&SearchText=EV0702&SortString=ProjectCode&SortOrder=Asc&Paging=10#Description
 category: Energy
-description:
+description: Household Electricity Study, UK
 version:
 keywords:
 image:
@@ -18,5 +18,6 @@ language:
 license:
 publisher:
 organization:
+  country: UK
 issued_time:
 sources: []

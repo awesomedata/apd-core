@@ -19,4 +19,10 @@ license:
 publisher:
 organization:
 issued_time:
-sources: []
+sources:
+  - title: IMOS data on Amazon S3
+    access_url: http://imos-data.s3-website-ap-southeast-2.amazonaws.com/
+    download_url:
+    format: Amazon S3
+    media_type:
+    schema:

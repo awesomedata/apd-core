@@ -1,9 +1,8 @@
 ---
-title: Chars74K dataset, Character Recognition in Natural Images (both English and
-  Kannada are available)
-homepage: http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
-category: ImageProcessing
-description:
+title: EveryPolitician
+homepage: http://everypolitician.org/
+category: Government
+description: Ongoing project collating and sharing data on every politician.
 version:
 keywords:
 image:

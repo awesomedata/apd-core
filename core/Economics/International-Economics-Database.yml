@@ -20,3 +20,6 @@ publisher:
 organization:
 issued_time:
 sources: []
+references:
+  - title: Related data tools of Widukind
+    reference: https://github.com/Widukind

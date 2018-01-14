@@ -19,4 +19,11 @@ license:
 publisher:
 organization:
 issued_time:
-sources: []
+sources:
+  - title: 2GB of Photos of Cats on Web Archive
+    access_url: https://web.archive.org/web/20150520175645/http://137.189.35.203/WebUI/CatDatabase/catData.html
+    download_url:
+    format:
+    media_type:
+    schema:
+

@@ -1,5 +1,5 @@
 ---
-title: Stanford GraphBase (Steven Skiena)
+title: Stanford GraphBase
 homepage: http://www3.cs.stonybrook.edu/~algorith/implement/graphbase/implement.shtml
 category: ComplexNetworks
 description:
@@ -17,6 +17,8 @@ data_dictionary:
 language:
 license:
 publisher:
+  name: Steven Skiena
 organization:
+  name: Stanford University
 issued_time:
 sources: []

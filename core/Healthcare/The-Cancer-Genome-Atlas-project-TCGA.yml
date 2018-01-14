@@ -1,0 +1,27 @@
+---
+title: The Cancer Genome Atlas project (TCGA)
+homepage: https://portal.gdc.cancer.gov/
+category: Healthcare
+description:
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources:
+  - title: TCGA Cancer Genomics Data in the Cloud
+    access_url: http://google-genomics.readthedocs.io/en/latest/use_cases/discover_public_data/isb_cgc_data.html
+    format: Google BigQuery Table
+    media_type:
+    schema:

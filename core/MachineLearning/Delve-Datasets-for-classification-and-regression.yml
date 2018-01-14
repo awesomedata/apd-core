@@ -1,7 +1,7 @@
 ---
-title: Where can I find large datasets open to the public?
-homepage: http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
-category: ComplementaryCollections
+title: Delve Datasets for classification and regression
+homepage: http://www.cs.toronto.edu/~delve/data/datasets.html
+category: MachineLearning
 description:
 version:
 keywords:
@@ -18,5 +18,6 @@ language:
 license:
 publisher:
 organization:
+  name: Univ. of Toronto
 issued_time:
 sources: []

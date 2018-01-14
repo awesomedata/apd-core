@@ -19,4 +19,11 @@ license:
 publisher:
 organization:
 issued_time:
-sources: []
+sources:
+  - title: Titanic Survival Data Set on Kaggle
+    access_url: https://www.kaggle.com/c/titanic/data
+    download_url:
+    format:
+    media_type:
+    schema:
+

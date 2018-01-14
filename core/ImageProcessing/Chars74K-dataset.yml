@@ -1,8 +1,9 @@
 ---
-title: CoolDatasets.
-homepage: http://cooldatasets.com/
-category: ComplementaryCollections
-description:
+title: Chars74K dataset
+homepage: http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+category: ImageProcessing
+description: Character Recognition in Natural Images (both English and
+  Kannada are available)
 version:
 keywords:
 image:

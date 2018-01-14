@@ -19,4 +19,10 @@ license:
 publisher:
 organization:
 issued_time:
-sources: []
+sources:
+  - title: Public genetic data
+    access_url: https://my.pgp-hms.org/public_genetic_data
+    download_url:
+    format:
+    media_type:
+    schema:

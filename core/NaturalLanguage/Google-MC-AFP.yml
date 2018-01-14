@@ -1,8 +1,9 @@
 ---
-title: Some Datasets Available on the Web
-homepage: http://www.datawrangling.com/some-datasets-available-on-the-web
-category: ComplementaryCollections
-description:
+title: Google MC-AFP
+homepage: https://github.com/google/mcafp
+category: NaturalLanguage
+description: Generated based on the public available Gigaword dataset using
+  Paragraph Vectors
 version:
 keywords:
 image:
