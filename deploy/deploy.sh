@@ -18,6 +18,8 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 # Save some useful information
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
 
 # Run our compile script
@@ -36,13 +38,13 @@ ssh-add deploy/deploy_key
 # Clone the target repo into target_repo
 git clone --depth=50 --branch=master $TARGET_REPO target_repo
 
-# Update generated data file
-cp deploy/index.rst target_repo/README.rst
-
 # Set useful signature info.
 cd target_repo
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
+
+# Update generated data file
+cp ../deploy/index.rst README.rst
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if git diff --quiet; then
@@ -56,4 +58,4 @@ git add README.rst
 git commit -m "Update README from APD2: ${SHA}"
 
 # Now that we're all set up, we can push.
-git push $SSH_REPO master
+git push origin master
