@@ -1,0 +1,14 @@
+language: python
+python:
+- '3.5'
+branches:
+  only:
+  - master@awesomedata/apd2
+before_install:
+script:
+  - bash ./tests/testing.sh
+  - bash ./deploy/deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: 9269116cf2c3
+  - COMMIT_AUTHOR_EMAIL: chenxm35@gmail.com
