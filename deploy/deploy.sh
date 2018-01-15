@@ -31,7 +31,7 @@ ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in deploy/deploy_key.enc -out deploy/deploy_key -d
 chmod 600 $THISPATH/deploy_key
 eval `ssh-agent -s`
-ssh-add deploy_key
+ssh-add deploy/deploy_key
 
 # Clone the target repo into target_repo
 git clone --depth=50 --branch=master $TARGET_REPO target_repo
