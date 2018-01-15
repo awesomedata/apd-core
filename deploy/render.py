@@ -56,9 +56,10 @@ def do_validate_link(link):
     if link:
         if link.startswith('http') or link.startswith('https'):
             try:
-                rsp = session.get(link)
+                # TODO: validate redirection
+                rsp = session.get(link, timeout=15)
                 _status = False if 400 <= rsp.status_code < 600 else True
-                time.sleep(0.1)  # Be nice to servers
+                time.sleep(0.2)  # Be nice to servers
             except Exception as e:
                 logger.warning('Failed to validate link {}, caused by {}'.format(link, e))
         else:
