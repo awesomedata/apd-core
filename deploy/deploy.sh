@@ -1,11 +1,9 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="master"
-TARGET_BRANCH="master"
-
-TARGET_REPO="git@github.com:caesar0301/awesome-public-datasets.git"
 THISPATH=`dirname $0`
+SOURCE_BRANCH="master"
+TARGET_REPO="git@github.com:caesar0301/awesome-public-datasets.git"
 
 function doCompile {
     pip install -r $THISPATH/requirements.txt
@@ -58,4 +56,4 @@ git add README.rst
 git commit -m "Update README from APD2: ${SHA}"
 
 # Now that we're all set up, we can push.
-git push $SSH_REPO $TARGET_BRANCH
+git push $SSH_REPO master
