@@ -34,7 +34,7 @@ eval `ssh-agent -s`
 ssh-add deploy_key
 
 # Clone the target repo into target_repo
-git clone $TARGET_REPO target_repo
+git clone --depth=50 --branch=master $TARGET_REPO target_repo
 
 # Update generated data file
 cp deploy/index.rst target_repo/README.rst
