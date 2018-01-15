@@ -1,9 +1,7 @@
 language: python
-python:
-  - '3.5'
 branches:
   only:
-    - master@awesomedata/apd2
+    - master
 before_install:
 script:
   - bash ./tests/testing.sh
