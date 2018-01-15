@@ -47,7 +47,7 @@ ${underline}
 
             status = OK if _status else FIXME
         %>
-* `${ex_title} <${link}>`_ ${status}
+* ${status} `${ex_title} <${link}>`_
     % endfor
 % endfor
 
