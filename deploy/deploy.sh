@@ -3,7 +3,7 @@ set -e # Exit with nonzero exit code if anything fails
 
 THISPATH=`dirname $0`
 SOURCE_BRANCH="master"
-TARGET_REPO="git@github.com:caesar0301/awesome-public-datasets.git"
+TARGET_REPO="git@github.com:awesomedata/awesome-public-datasets.git"
 
 function doCompile {
     pip install -r $THISPATH/requirements.txt
