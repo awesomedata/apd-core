@@ -1,0 +1,30 @@
+---
+title: Gitential Datasets for Open Source Projects
+homepage: https://gitential.com/datasets
+category: Software
+description: Full Git history, containing commits, patches, blames and tags.
+version: 1.0
+keywords: dataset, git, git-history, commit, blame
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license:
+publisher:
+  - name: Gitential
+    web: gitential.com
+organization:
+  - name: Gitential
+    web: gitential.com
+issued_time: 2018.01
+sources:
+  - name: Github
+    access_url: https://github.com/gitential/datasets
+references:
+
