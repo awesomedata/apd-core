@@ -1,22 +1,31 @@
 ---
-title:
-homepage:
-category:
-description:
-version:
-keywords:
-image:
+title: Data set name
+homepage: www.example.com
+category: Government
+description: Long description of dataset
+version: 1.0
+keywords: keyword1, keyword2
+image: www.example.com/image.jpg
 temporal:
 spatial:
-access_level:
+access_level: public
 copyrights:
-accrual_periodicity:
+accrual_periodicity: monthly
 specification:
-data_quality:
-data_dictionary:
-language:
-license:
+data_quality: false
+data_dictionary: www.example.com/dictionary.html
+language: en
+license: Apache License
 publisher:
+  - name: Publisher name
+    web: www.example.com/publisher
 organization:
-issued_time:
-sources: []
+  - name: Org. name
+    web: www.example.com/organization
+issued_time: 2017.01
+sources:
+  - name: source name
+    access_url: www.example.com
+references:
+  - title: related story
+    reference: www.example.com

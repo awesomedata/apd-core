@@ -20,3 +20,6 @@ publisher:
 organization:
 issued_time:
 sources: []
+references:
+  - title: Backblaze dataset analytics scripts
+    reference: https://github.com/KOLANICH/backblaze_analytics
