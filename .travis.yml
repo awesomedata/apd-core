@@ -1,13 +1,24 @@
 language: python
+
 python:
   - "3.5"
+
 branches:
   only:
     - master
-before_install:
-script:
-  - bash ./tests/testing.sh
-  - bash ./deploy/deploy.sh
+
+jobs:
+  include:
+    - stage: test
+      script: "bash ./tests/testing.sh"
+    - stage: deploy
+      script: "bash ./deploy/deploy.sh"
+
+stages:
+  - test
+  - name: deploy
+    if: (branch = master) AND (type IN (push))
+    
 env:
   global:
   - ENCRYPTION_LABEL: 9269116cf2c3
