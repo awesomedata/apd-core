@@ -4,6 +4,6 @@
 
 Next iteration of APD project.
 
-# Contact
+# Donate
 
-Xiaming Chen <chen_xm@outlook.com>
+* [PAYPAL](https://www.paypal.me/xiamingc)
