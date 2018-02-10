@@ -13,6 +13,8 @@ Please **DO NOT** modify this file directly. We have provided
 `a new way <https://github.com/awesomedata/apd-core/wiki/HOW_TO_CONTRIBUTE-%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE>`_
 to contribute to Awesome Public Datasets. The original PR entrance directly on repo is closed forever.
 
+* |OK_ICON| I am well.
+* |FIXME_ICON| Please fix me.
 
 `This list of a topic-centric public data sources <https://github.com/awesomedata/awesome-public-datasets>`_
 in high quality. They are collected and tidied from blogs, answers, and user responses.
