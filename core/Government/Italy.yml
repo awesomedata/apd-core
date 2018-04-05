@@ -1,0 +1,27 @@
+---
+title: Italy
+homepage: https://www.dati.gov.it/
+category: Government
+description: Il Portale dati.gov.it è il catalogo nazionale dei metadati relativi ai dati rilasciati in formato aperto dalle pubbliche amministrazioni italiane. Il Portale è promosso dal Governo Italiano e gestito dall’Agenzia per l’Italia digitale con il supporto di FormezPA.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: it
+license:
+publisher:
+  - name: AgID - Agenzia per l'Italia Digitale
+    web: http://www.agid.gov.it/
+organization:
+  - name: AgID - Agenzia per l'Italia Digitale
+    web: http://www.agid.gov.it/
+issued_time:
+sources:
+references:
