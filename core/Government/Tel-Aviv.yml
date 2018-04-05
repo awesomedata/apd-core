@@ -1,0 +1,23 @@
+---
+title: Tel-Aviv Open Data
+homepage: https://opendata.tel-aviv.gov.il/index_en.html#/
+category: Government
+description: 
+version: 1.0
+keywords:
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+organization:
+issued_time: 2018.01
+sources:
+references:
