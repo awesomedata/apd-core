@@ -1,0 +1,30 @@
+---
+title: Composition of Foods Raw, Processed, Prepared USDA National Nutrient Database for Standard Reference
+homepage: https://data.nal.usda.gov/dataset/composition-foods-raw-processed-prepared-usda-national-nutrient-database-standard-reference-release-27
+category: Healthcare
+description: "The database consists of several sets of data: food descriptions, nutrients, weights and measures, footnotes, and sources of data. The Nutrient Data file contains mean nutrient values per 100 g of the edible portion of food, along with fields to further describe the mean value."
+version: Release 27
+keywords: nutrition, food, food composition
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://data.nal.usda.gov/dataset/composition-foods-raw-processed-prepared-usda-national-nutrient-database-standard-1
+language: en
+license: Creative Commons CCZero
+publisher:
+  - name: United States Department of Agriculture
+    web: https://www.usda.gov/
+organization:
+  - name: United States Department of Agriculture
+    web: https://www.usda.gov/
+issued_time: 2014.08
+sources:
+  - name: ASCII (ISO/IEC 8859-1), delimited files
+    access_url: https://data.nal.usda.gov/dataset/composition-foods-raw-processed-prepared-usda-national-nutrient-database-standard-referenc-1\
+  - name: READ ME - Documentation and User Guide
+    access_url: https://data.nal.usda.gov/dataset/composition-foods-raw-processed-prepared-usda-national-nutrient-database-standard-referenc-0
