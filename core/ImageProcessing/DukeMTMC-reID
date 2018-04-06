@@ -1,5 +1,5 @@
 ---
-title: DukeMTMC-reID: Person Re-identification
+title: DukeMTMC-reID Person Re-identification
 homepage: https://github.com/layumi/DukeMTMC-reID_evaluation
 category: imageprocessing
 description: DukeMTMC-reID is for image-based re-identification. It contains pedestrain images from the videos every 120 frames, yielding in total 36,411 bounding boxes with IDs. 
