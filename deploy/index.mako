@@ -36,9 +36,12 @@ ${category}
 ${underline}
     % for entry in data_entries:
         <%
+            core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
+
             title = entry['title']
             description = entry['description']
             link = entry['homepage']
+            raw_file_name = entry.pop('_rawFileName', None)
 
             if description is not None:
                 ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 79))
@@ -51,8 +54,13 @@ ${underline}
             FIXME = '|FIXME_ICON|'
 
             status = OK if _status else FIXME
+            fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name) if not _status else None
         %>
+        % if fixme_link is not None:
+* ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
+        % else:
 * ${status} `${ex_title} <${link}>`_
+        % endif
     % endfor
 % endfor
 
