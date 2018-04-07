@@ -26,8 +26,6 @@ Other amazingly awesome lists can be found in `sindresorhus's awesome <https://g
 
 .. contents:: **Table of Contents**
 
-% import textwrap
-
 % for category, data_entries in categories.items():
     <%
         underline = len(category) * '-'
@@ -36,6 +34,8 @@ ${category}
 ${underline}
     % for entry in data_entries:
         <%
+            import textwrap
+
             title = entry['title']
             description = entry['description']
             link = entry['homepage']
