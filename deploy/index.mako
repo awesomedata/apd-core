@@ -36,8 +36,6 @@ ${category}
 ${underline}
     % for entry in data_entries:
         <%
-            core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
-
             title = entry['title']
             description = entry['description']
             link = entry['homepage']
@@ -54,9 +52,14 @@ ${underline}
             FIXME = '|FIXME_ICON|'
 
             status = OK if _status else FIXME
-            fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name) if not _status else None
+
+            if not raw_file_name and not _status:
+                core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
+                fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name)
+            else:
+                fixme_link = None
         %>
-        % if fixme_link is not None:
+        % if not fixme_link:
 * ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
         % else:
 * ${status} `${ex_title} <${link}>`_
