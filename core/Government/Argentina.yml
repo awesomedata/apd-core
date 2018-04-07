@@ -1,11 +1,11 @@
 ---
-title: Argentina
-homepage: http://datos.argentina.gob.ar/
+title: Datos Argentina
+homepage: http://datos.gob.ar/
 category: Government
-description:
-version:
-keywords:
-image:
+description: Portal de datos abiertos de la República Argentina. Encontrá datos públicos en formatos abiertos. Son tuyos ¡usalos, modificalos y compartilos!
+version: 1
+keywords: 
+image: http://datos.gob.ar/img/twitter_card.png
 temporal:
 spatial:
 access_level:
@@ -14,9 +14,9 @@ accrual_periodicity:
 specification:
 data_quality: false
 data_dictionary:
-language:
+language: es
 license:
-publisher:
-organization:
+publisher: https://github.com/datosgobar
+organization: https://github.com/datosgobar
 issued_time:
 sources: []
