@@ -33,7 +33,7 @@ def scan_core_data(core_dir, validate_link=False):
 
             try:
                 data_obj = yaml.load(open(data_file))
-                data_obj['_rawFileName'] = date_item
+                data_obj['_rawFileName'] = data_item
             except Exception as e:
                 raise RuntimeError('Failed to read YAML data: {}'.format(e))
 
