@@ -2,8 +2,8 @@ Awesome Public Datasets
 =======================
 
 .. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
-:alt: Awesome
-:target: https://github.com/sindresorhus/awesome
+   :alt: Awesome
+   :target: https://github.com/sindresorhus/awesome
 
 
 .. |OK_ICON| image:: https://raw.githubusercontent.com/awesomedata/apd-core/master/deploy/ok-24.png
@@ -53,7 +53,7 @@ ${underline}
 
             status = OK if _status else FIXME
 
-            if not raw_file_name and not _status:
+            if raw_file_name is not None and not _status:
                 core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
                 fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name)
             else:
