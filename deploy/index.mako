@@ -59,7 +59,7 @@ ${underline}
             else:
                 fixme_link = None
         %>
-        % if not fixme_link:
+        % if fixme_link is not None:
 * ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
         % else:
 * ${status} `${ex_title} <${link}>`_
