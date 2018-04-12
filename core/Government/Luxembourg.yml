@@ -1,0 +1,23 @@
+---
+title: Luxembourg
+homepage: https://data.public.lu/en/
+category: Government
+description: Luxembourgish Open Data Portal
+version: 1.0
+keywords: luxembourg
+image: https://data.public.lu/_themes/gouvlu/img/logo-bloc-borderless.svg?_=1.0.1
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: fr, en
+license: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/deed.fr
+publisher:
+organization:
+issued_time:
+sources:
+references:
