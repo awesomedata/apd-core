@@ -1,0 +1,22 @@
+---
+title: OpenDataPhilly
+homepage: https://www.opendataphilly.org/
+category: Government
+description: OpenDataPhilly is a catalog of open data in the Philadelphia region. In addition to being the official open data repository for the City, it includes data sets from many organizations in the region.
+version:
+keywords: Philadelphia
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
