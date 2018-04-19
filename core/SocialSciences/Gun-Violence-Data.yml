@@ -1,0 +1,22 @@
+---
+title: Gun Violence Data
+homepage: https://github.com/jamesqo/gun-violence-data
+category: SocialSciences
+description: A comprehensive, accessible database that contains records of over 260k US gun violence incidents from 2013 to the present.
+version:
+keywords: gun, violence
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+issued_time: 2017.04
+sources:
+  - name: Gun Violence Archive
+    access_url: http://www.gunviolencearchive.org/
