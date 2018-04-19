@@ -1,0 +1,27 @@
+---
+title: Global Power Plant Database
+homepage: http://datasets.wri.org/dataset/globalpowerplantdatabase
+category: Energy
+description: The Global Power Plant Database is a comprehensive, open source database of power plants around the world. It centralizes power plant data to make it easier to navigate, compare and draw insights. Each power plant is geolocated and entries contain information on plant capacity, generation, ownership, and fuel type. As of April 2018, the database includes around 25,500 power plants from 162 countries. It will be continuously updated as data becomes available. 
+version: 1.0.0
+keywords: energy, climate, power sector, power plants
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: World Resources Institute and data providers
+accrual_periodicity: twice a year
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Creative Commons Attribution 4.0 (CC-BY)
+publisher:
+  - name: World Resources Institute
+    web: wri.org
+organization:
+  - name: World Resources Institute
+    web: wri.org
+issued_time: 2018.04
+sources:
+references:
