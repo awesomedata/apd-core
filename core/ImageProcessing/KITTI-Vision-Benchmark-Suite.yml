@@ -1,0 +1,23 @@
+---
+title: KITTI Vision Benchmark Suite
+homepage: http://www.cvlibs.net/datasets/kitti/
+category: ImageProcessing
+description:
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 
+publisher:
+organization:
+issued_time: 2018.05
+sources: []
+references:
