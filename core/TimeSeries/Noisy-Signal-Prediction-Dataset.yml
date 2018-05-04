@@ -2,7 +2,7 @@
 title: Noisy Signal Prediction Dataset
 homepage: https://www.kaggle.com/gchevalier/noisy-signal-prediction-dataset
 category: TimeSeries
-description: Noisy synthetic data. There are 4 sub-datasets to this dataset. 1: A sine and a cosine with a random phase offset, X is of length 10 and Y is of length 10. 2: Two frequencies added together, X is of length 15, and Y is of length 15. Each frequency has a random phase, amplitude, and frequency (see the code for details). 3: Same as sub-dataset 2, however, a random noise is added to X, and X is rather of length 30, Y is of length 30. 4: Financial data for the bitcoin (BTC/USD or BTC/EUR), from Coindesk's API. The Requests package is required, and an internet access. 
+description: Noisy synthetic data to try to predict future values from seen values
 version: 1.0
 keywords: noisy, signal, sinus, cosinus, frequencies, autoregressive, autoencoder, prediction
 image: https://kaggle2.blob.core.windows.net/datasets-images/15262/20321/9c355d615b1c36590eca9b683b69a405/dataset-cover.png
