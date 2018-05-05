@@ -1,6 +1,6 @@
 ---
 title: Toronto, ON, Canada
-homepage: http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD
+homepage: https://portal0.cf.opendata.inter.sandbox-toronto.ca/
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: true
 data_dictionary:
 language:
 license:
