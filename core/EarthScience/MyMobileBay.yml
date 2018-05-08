@@ -1,0 +1,31 @@
+---
+title: Alabama Real-Time Coastal Observing System
+homepage: http://mymobilebay.com
+category: EarthScience
+description: 
+version: 
+keywords: water quality, weather
+image:
+temporal: 2003-present
+spatial: coastal Alabama
+access_level: public
+copyrights:
+accrual_periodicity: hourly
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: Dauphin Island Sea Lab
+    web: http://mymobilebay.com
+organization:
+  - name: Dauphin Island Sea Lab
+    web: http://mymobilebay.com
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
