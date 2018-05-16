@@ -1,0 +1,31 @@
+---
+title: International Skin Imaging Collaboration melanoma images
+homepage: https://isic-archive.com/#images
+category: Healthcare
+description: Images of melanomas and benign lesions for training cancer-detection imaging tools
+version:
+keywords: melanoma, cancer, machine learning
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: Creative Commons
+publisher:
+  - name:
+    web:
+organization:
+  - name: The International Society for Digital Imaging of the Skin
+    web: https://isdis.net/
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
