@@ -1,0 +1,27 @@
+---
+title: DocGraph Data Sets
+homepage: careset.com/datasets/
+category: Healthcare
+description: Provider Referral Graph in United States
+version: 1.0
+keywords: graph, NPI, Medicare
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: varies
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Varies
+publisher:
+  - name: CareSet
+    web: www.careset.com
+organization:
+  - name: CareSet
+    web: www.careset.com/
+issued_time: 2017.01
+sources:
+references:
