@@ -1,0 +1,27 @@
+---
+title: Propublica Health Data Sets
+homepage: www.propublica.org/datastore/datasets/health
+category: Healthcare
+description: Multiple datasets modeling the healthcare system
+version: 1.0
+keywords: prescribing, hospitals, nursing homes, Medicare
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: varies
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Varies
+publisher:
+  - name: Propublica
+    web: www.example.com/publisher
+organization:
+  - name: Org. name
+    web: www.propublica.org/
+issued_time: 2017.01
+sources:
+references:
