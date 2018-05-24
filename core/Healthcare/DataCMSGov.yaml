@@ -1,0 +1,27 @@
+---
+title: CMS Datasets
+homepage: data.cms.gov
+category: Healthcare
+description: Meta repository from Centers for Medicare and Medicaid Services
+version: 1.0
+keywords: Medicare, Medicaid
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: varies
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Varies
+publisher:
+  - name: Centers for Medicare and Medicaid Services
+    web: www.cms.com
+organization:
+  - name: CMS
+    web: www.cms.com/
+issued_time: 2017.01
+sources:
+references:
