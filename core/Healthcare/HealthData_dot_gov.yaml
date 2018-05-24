@@ -1,0 +1,27 @@
+---
+title: HealthData.gov
+homepage: www.healthdata.gov
+category: Healthcare
+description: Meta repository of healthcare data in the US
+version: 1.0
+keywords: HHS, NLM, CDC
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: varies
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Varies
+publisher:
+  - name: Health and Human Services
+    web: www.hhs.gov
+organization:
+  - name: HHS
+    web: www.hhs.gov/
+issued_time: 2017.01
+sources:
+references:
