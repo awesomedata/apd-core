@@ -1,11 +1,11 @@
 ---
-title: Data set name
-homepage: www.example.com
+title: Spain's Open Data Initiative
+homepage: http://datos.gob.es/en/catalogo
 category: Government
-description: Long description of dataset
+description: Open Data Portal for the Spanish government
 version: 1.0
-keywords: keyword1, keyword2
-image: www.example.com/image.jpg
+keywords: spain, open
+image: http://datos.gob.es/images/test_site/logo.png
 temporal:
 spatial:
 access_level: public
@@ -13,19 +13,10 @@ copyrights:
 accrual_periodicity: monthly
 specification:
 data_quality: false
-data_dictionary: www.example.com/dictionary.html
-language: en
-license: Apache License
-publisher:
-  - name: Publisher name
-    web: www.example.com/publisher
+data_dictionary:
+language: es
+license: 
 organization:
-  - name: Org. name
-    web: www.example.com/organization
+  - name: Spain's Administration
+    web: https://administracion.gob.es
 issued_time: 2017.01
-sources:
-  - name: source name
-    access_url: www.example.com
-references:
-  - title: related story
-    reference: www.example.com
