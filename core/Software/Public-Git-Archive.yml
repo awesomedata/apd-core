@@ -1,0 +1,31 @@
+---
+title: Public Git Archive
+homepage: https://github.com/src-d/datasets/tree/master/PublicGitArchive
+category: Software
+description: Top-starred Git repositories from GitHub.
+version: 1.0
+keywords: github, git, open source
+image: https://raw.githubusercontent.com/vmarkovtsev/shower-presentations/msr-2018-gothenburg/pictures/pga_red.svg
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: yearly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: ODbL-1.0
+publisher:
+  - name: source{d}
+    web: https://sourced.tech
+organization:
+  - name: source{d}
+    web: https://sourced.tech
+issued_time: 2018.04
+sources:
+  - name: GitHub
+    access_url: https://github.com
+references:
+  - title: Public Git Archive: a Big Code dataset for all
+    reference: https://arxiv.org/abs/1803.10144
