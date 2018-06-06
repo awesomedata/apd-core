@@ -27,5 +27,5 @@ sources:
   - name: GitHub
     access_url: https://github.com
 references:
-  - title: Public Git Archive: a Big Code dataset for all
+  - title: Public Git Archive - a Big Code dataset for all
     reference: https://arxiv.org/abs/1803.10144
