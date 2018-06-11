@@ -1,0 +1,37 @@
+---
+title: German Political Speeches Corpus
+homepage: purl.org/corpus/german-speeches
+category: NaturalLanguage
+description: Collection of political speeches from the German Presidency, Presidency of the Bundestag, Chancellery, and Ministry of Foreign Affairs
+version: 3.0
+keywords: German language, Political science
+image: 
+temporal: 1998-2017
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: de
+license: CC BY-SA 4.0
+publisher:
+  - name: Adrien Barbaresi
+    web: adrien.barbaresi.eu/
+organization:
+  - name: Berlin-Brandenburg Academy of Sciences (BBAW)
+    web: bbaw.de/
+issued_time: 2018.05
+sources:
+  - name: German Presidency
+    access_url: bundespraesident.de
+  - name: Presidency of the Bundestag
+    access_url: bundestag.de
+  - name: German Chancellery
+    access_url: bundesregierung.de
+  - name: Foreign Affairs
+    access_url: auswaertiges-amt.de
+references:
+  - title: Scientific article
+    reference: https://hal.archives-ouvertes.fr/hal-01798703/document
