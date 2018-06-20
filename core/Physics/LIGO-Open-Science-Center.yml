@@ -3,25 +3,20 @@ title: LOSC: Ligo Open Science Center
 homepage: https://losc.ligo.org
 category: Physics
 description: Gravitational wave data from the LIGO Hanford and Livingston observatories.
-version: 1.0
-keywords: gravitational waves, LIGO, physics
-image: https://losc.ligo.org/s/events/GW150914/P150914/fig1-waveform-H.png
-temporal: true
+version:
+keywords:
+image:
+temporal:
 spatial:
-access_level: public
+access_level:
 copyrights:
 accrual_periodicity:
 specification:
 data_quality: false
 data_dictionary:
-language: en
+language:
 license:
 publisher:
-  - name: LIGO Scientific Collaboration
-    web: https://www.ligo.org/
 organization:
-  - name: LIGO Scientific Collaboration
-    web: https://www.ligo.org/
-issued_time: 2018.06
-sources:
-references:
+issued_time:
+sources: []
