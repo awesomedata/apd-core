@@ -20,5 +20,5 @@ publisher:
   - name: Hamburg Bit-Bots
     web: bit-bots.de
 references:
-  - title: ImageTagger: An Open Source Online Platform for Collaborative Image Labeling
-    reference: https://github.com/bit-bots/imagetagger
+  - title: ImageTagger - An Open Source Online Platform for Collaborative Image Labeling
+    reference: www.github.com/bit-bots/imagetagger
