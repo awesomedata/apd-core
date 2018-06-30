@@ -1,0 +1,24 @@
+---
+title: Bit-Bots ImageTagger
+homepage: imagetagger.bit-bots.de
+category: ImageProcessing
+description: Images of and from humanoid soccer robots participating in RoboCup Soccer
+version: 1.0
+keywords: RoboCup, Humanoid Robot Soccer, Ball
+image: 
+temporal:
+spatial:
+access_level: public after registration
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: MIT
+publisher:
+  - name: Hamburg Bit-Bots
+    web: bit-bots.de
+references:
+  - title: ImageTagger: An Open Source Online Platform for Collaborative Image Labeling
+    reference: https://github.com/bit-bots/imagetagger
