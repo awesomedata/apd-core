@@ -1,6 +1,6 @@
 ---
 title: National Estuarine Research Reserves System-Wide Monitoring Program
-homepage: www.nerrsdata.org
+homepage: http://nerrsdata.org
 category: EarthScience
 description: long-term estuarine monitoring data
 version: 
@@ -18,7 +18,7 @@ language: en
 license: 
 publisher:
   - name: NOAA NERRS Centralized Data Management Office
-    web: www.nerrsdata.org
+    web: http://nerrsdata.org
 organization:
   - name: NOAA Natioanal Estuarine Research Reserve System
     web: https://coast.noaa.gov/nerrs/
