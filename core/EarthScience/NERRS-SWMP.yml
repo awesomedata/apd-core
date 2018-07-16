@@ -1,0 +1,31 @@
+---
+title: National Estuarine Research Reserves System-Wide Monitoring Program
+homepage: www.nerrsdata.org
+category: EarthScience
+description: long-term estuarine monitoring data
+version: 
+keywords: water quality, weather, nutrients, NERR, SWMP
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: hourly
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: NOAA NERRS Centralized Data Management Office
+    web: www.nerrsdata.org
+organization:
+  - name: NOAA Natioanal Estuarine Research Reserve System
+    web: https://coast.noaa.gov/nerrs/
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
