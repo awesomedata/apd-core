@@ -1,0 +1,22 @@
+---
+title: WorldTree Corpus of Explanation Graphs for Elementary Science Questions
+homepage: http://www.cognitiveai.org/explanationbank
+category: NaturalLanguage
+description: a corpus of manually-constructed explanation graphs, explanatory role ratings, and associated semistructured tablestore for most publicly available elementary science exam questions in the US
+version: 1.0
+keywords: explanation, science
+image: 
+temporal:
+spatial:
+access_level: 
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+organization:
+issued_time: 
+sources: []
