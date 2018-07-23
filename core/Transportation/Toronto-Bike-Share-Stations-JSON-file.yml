@@ -1,0 +1,24 @@
+---
+title: Toronto Bike Share Stations (JSON file)
+homepage: https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_information
+category: Transportation
+description: This dataset contains BIXI bike stations and station sizes in the City of Toronto.
+version: 1
+keywords: biking, Toronto
+image:
+temporal:
+spatial:
+access_level:
+copyrights: This data is collected in partnership with the Public Bicycle System Company (PBSC) and the City of Toronto. It is used for (a) to track the location of BIXI bike stations; and (b) bike and docking availability in each bike station. It is used by PBSC for operational purposes.
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
+
+NOTE: This dataset is also available in the GBFS (General Bikeshare Feed Specification) standard for Bike Share Toronto.
