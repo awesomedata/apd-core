@@ -1,6 +1,6 @@
 ---
 title: Quebec Province of Canada
-homepage: http://donnees.gouv.qc.ca/
+homepage: https://www.donneesquebec.ca/fr/
 category: Government
 description:
 version:
@@ -14,7 +14,7 @@ accrual_periodicity:
 specification:
 data_quality: false
 data_dictionary:
-language:
+language: fr
 license:
 publisher:
 organization:
