@@ -2,9 +2,7 @@
 title: The Peer-to-Peer Trace Archive
 homepage: http://p2pta.ewi.tudelft.nl/
 category: ComputerNetworks
-description: Real-world measurements play a key role in studying the characteristics and improving the design of Peer-to-Peer (P2P) systems. Although many P2P measurements have been carried out in the last decade, few traces are publicly accessible, and the available traces are available online in different formats. This situation hampers researchers in exchanging, studying, and reusing existing traces. As a result, many P2P studies have been based on unrealistic assumptions about the characteristics of P2P systems, and many P2P algorithms and methods still lack a realistic evaluation.
-
-To address this situation, we build the Peer-to-Peer (P2P) Trace Archive, which is designed as a virtual meeting place for the community to exchange P2P traces. To achieve this goal, we adopt a unified trace format to represent all traces included in the Archive, and we also provide tools for trace conversion and analysis.
+description: Real-world measurements play a key role in studying the characteristics and improving the design of Peer-to-Peer (P2P) systems. Although many P2P measurements have been carried out in the last decade, few traces are publicly accessible, and the available traces are available online in different formats. This situation hampers researchers in exchanging, studying, and reusing existing traces. As a result, many P2P studies have been based on unrealistic assumptions about the characteristics of P2P systems, and many P2P algorithms and methods still lack a realistic evaluation. To address this situation, we build the Peer-to-Peer (P2P) Trace Archive, which is designed as a virtual meeting place for the community to exchange P2P traces. To achieve this goal, we adopt a unified trace format to represent all traces included in the Archive, and we also provide tools for trace conversion and analysis.
 version:
 keywords:
 image:
