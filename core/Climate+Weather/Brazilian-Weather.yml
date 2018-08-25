@@ -1,10 +1,10 @@
 ---
 title: Brazilian Weather - Historical data (In Portuguese)
-homepage: http://sinda.crn2.inpe.br/PCD/SITE/novo/site/
+homepage: http://sinda.crn.inpe.br/PCD/SITE/novo/site/historico/index.php
 category: Climate+Weather
-description:
+description: Data related to climate and weather several stations around Brazil
 version:
-keywords:
+keywords: climate, weather
 image:
 temporal:
 spatial:
@@ -14,9 +14,9 @@ accrual_periodicity:
 specification:
 data_quality: false
 data_dictionary:
-language:
+language: Portuguese
 license:
 publisher:
-organization:
+organization: National Institute for Space Research (INPE)
 issued_time:
 sources: []
