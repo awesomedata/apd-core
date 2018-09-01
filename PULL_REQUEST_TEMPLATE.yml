@@ -1,31 +1,24 @@
 ---
-title: Data set name
-homepage: www.example.com
-category: Government
-description: Long description of dataset
-version: 1.0
-keywords: keyword1, keyword2
-image: www.example.com/image.jpg
+title: OpenNeuro
+homepage: https://openneuro.org/
+category: Neuroscience
+description: New version of OpenMRI
+version: 2.1.5
+keywords: 
+image: 
 temporal:
 spatial:
 access_level: public
 copyrights:
-accrual_periodicity: monthly
+accrual_periodicity: 
 specification:
 data_quality: false
-data_dictionary: www.example.com/dictionary.html
-language: en
-license: Apache License
+data_dictionary: 
+language: 
+license: 
 publisher:
-  - name: Publisher name
-    web: www.example.com/publisher
+  - name: Stanford Center for Reproducible Neuroscience
 organization:
-  - name: Org. name
-    web: www.example.com/organization
-issued_time: 2017.01
+issued_time:
 sources:
-  - name: source name
-    access_url: www.example.com
 references:
-  - title: related story
-    reference: www.example.com
