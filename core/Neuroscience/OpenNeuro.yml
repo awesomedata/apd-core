@@ -1,0 +1,24 @@
+---
+title: OpenNeuro
+homepage: https://openneuro.org/
+category: Neuroscience
+description: New version of OpenMRI
+version: 2.1.5
+keywords: 
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: 
+license: 
+publisher:
+  - name: Stanford Center for Reproducible Neuroscience
+organization:
+issued_time:
+sources:
+references:
