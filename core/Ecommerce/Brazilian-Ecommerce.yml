@@ -1,0 +1,27 @@
+---
+title: Brazilian E-Commerce Public Dataset by Olist
+homepage: https://www.kaggle.com/olistbr/brazilian-ecommerce
+category: E-commerce
+description: This is a Brazilian ecommerce public dataset of orders made at Olist Store. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its 21 supportive features allows viewing an order from multiple dimensions: from order status, price and freight performance to customer location, product attributes and finally reviews written by customers.
+version: 4.0
+keywords: brazil, ecommerce, nlp, internet, shopping
+image: https://storage.googleapis.com/kaggle-datasets-images/55151/105464/d59245a7014a35a35cc7f7b721de4dae/data-original.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY-NC-SA 4.0
+publisher:
+  - name: Andre Sionek
+    web: https://www.sionek.com
+organization:
+  - name: Olist
+    web: https://olist.com/
+issued_time: 2018.09
+sources:
+references:
