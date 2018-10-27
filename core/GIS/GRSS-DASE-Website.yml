@@ -1,0 +1,25 @@
+---
+title: IEEE Geoscience and Remote Sensing Society DASE Website
+homepage: http://dase.ticinumaerospace.com
+category: GIS
+description: The Standardized Remote Sensing Data Website of the IEEE Geoscience and Remote Sensing Society (GRSS) provides a set of community data sets and algorithm evaluation standards for use by the Earth observation community to support research, development, and testing of algorithms for remote sensing data products.
+version:
+keywords: geoscience, remote sensing
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: 
+publisher:
+  - name: IEEE Geoscience and Remote Sensing Society (GRSS)
+    web: http://www.grss-ieee.org
+organization:
+  - name: IEEE
+    web: https://www.ieee.org
+
