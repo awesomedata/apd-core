@@ -1,0 +1,31 @@
+---
+title: Apertio Technologies (USA)
+homepage: http://bit.ly/2KbKa25
+category: Education
+description: A single point of access to thousands of Open Data portals worldwide
+version: 1.0
+keywords: opengove, opendata
+image: http://www.yissum.co.il/sites/default/files/imagecache/story_teaser_frame/content/apertio_0.jpg
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: http://bit.ly/2KbKa25
+language: en
+license: Apache License
+publisher:
+- name Apertiot Technologies
+web: http://bit.ly/2KbKa25
+organization:
+- name: Apertio-Tech
+web: https://apert.io/?utm_source=github
+issued_time: 2017.01
+sources:
+- name: Apertio-Tech
+access_url: https://apert.io/?utm_source=github
+references:
+- title: related story
+reference: https://apert.io/?utm_source=github
