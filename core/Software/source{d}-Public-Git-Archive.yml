@@ -1,0 +1,22 @@
+---
+title: Public Git Archive
+homepage: https://github.com/src-d/datasets/tree/master/PublicGitArchive
+category: Software
+description: a Big Code dataset for all – dataset of 182,014 top-bookmarked Git repositories from GitHub
+version:
+keywords: source code, git, GitHub, software repositories, development history, open dataset
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []

@@ -1,0 +1,22 @@
+---
+title: Source Code Identifiers
+homepage: https://github.com/src-d/datasets/tree/master/Identifiers
+category: Software
+description: 41.7 million distinct splittable identifiers collected from 182,014 open source projects in Public Git Archive
+version:
+keywords: source code, git, GitHub, software repositories, development history, open dataset
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
