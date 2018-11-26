@@ -1,6 +1,6 @@
 ---
-title: Bay Area Bike Share Data
-homepage: http://www.bayareabikeshare.com/open-data
+title: Ford Go Bike Data (formerly Bay Area Bike Share Data)
+homepage: https://www.fordgobike.com/system-data
 category: Transportation
 description:
 version:
@@ -15,7 +15,7 @@ specification:
 data_quality: false
 data_dictionary:
 language:
-license:
+license: https://assets.fordgobike.com/data-license-agreement.html
 publisher:
 organization:
 issued_time:
