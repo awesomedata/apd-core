@@ -1,0 +1,23 @@
+---
+title: Smart Meter Data Portal
+homepage: https://smda.github.io/smart-meter-data-portal
+category: Energy
+description: The Smart Meter Data Portal is part of the National Science Foundation (NSF) Smart Grid Data Analytics Spoke Project, providing researchers a platform to access public data sets related to smart meter.
+version: 1.0
+keywords: power, energy, smart meter
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: rolling release
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Varies
+publisher:
+organization:
+issued_time: 2018.04
+sources:
+references:

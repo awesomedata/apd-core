@@ -1,0 +1,31 @@
+---
+title: LJ Speech
+homepage: https://keithito.com/LJ-Speech-Dataset
+category: NaturalLanguage
+description: Speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours.
+version: 1.1
+keywords: LJ, TTS
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: 
+publisher:
+  - name: keithito name
+    web: https://keithito.com
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:

@@ -1,0 +1,29 @@
+---
+title: GHTorrent
+homepage: ghtorrent.org
+category: Software
+description: Scalable, queriable, offline mirror of data offered through the Github REST API.
+version: 1.0
+keywords: github, open source
+image: https://pbs.twimg.com/profile_images/580387012341010432/LpYCqgLJ_400x400.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-SA-4.0
+publisher:
+  - name: Georgios Gousios
+    web: http://gousios.org/
+organization:
+issued_time: 2013.05
+sources:
+  - name: GitHub
+    access_url: https://github.com
+references:
+  - title: The GHTorrent dataset and tool suite
+    reference: http://dl.acm.org/citation.cfm?id=2487085.2487132
