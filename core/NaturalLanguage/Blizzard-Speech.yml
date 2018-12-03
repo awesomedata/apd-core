@@ -1,0 +1,31 @@
+---
+title: Blizzard Challenge Speech
+homepage: https://www.synsig.org/index.php/Blizzard_Challenge_2018
+category: NaturalLanguage
+description: The speech + text data comes from professional audiobooks produced by Usborne Publishing. about 6.5 hours of British English speech data in from a single female talke
+version:
+keywords: Blizzard, TTS
+image: 
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: 
+publisher:
+  - name: The Centre for Speech Technology Research
+    web: http://www.cstr.ed.ac.uk
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:

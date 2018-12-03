@@ -1,0 +1,31 @@
+---
+title: M-AILabs Speech
+homepage: http://www.m-ailabs.bayern/en/the-mailabs-speech-dataset/
+category: NaturalLanguage
+description: The M-AILABS Speech Dataset is the first large dataset that we are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis. Most of the data is based on LibriVox and Project Gutenberg. The training data consist of nearly thousand hours of audio and the text-files in prepared format. A transcription is provided for each clip. Clips vary in length from 1 to 20 seconds
+version:
+keywords: M-AILabs, TTS
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: 
+publisher:
+  - name: m-ailabs
+    web: www.m-ailabs.bayern
+organization:
+  - name: m-ailabs
+    web: www.m-ailabs.bayern
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
