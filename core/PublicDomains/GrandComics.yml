@@ -1,0 +1,23 @@
+---
+title: Grand Comics Database
+homepage: https://www.comics.org
+category: PublicDomains
+description: The Grand Comics Database (GCD) is a nonprofit, internet-based organization of international volunteers dedicated to building an open database covering all printed comics throughout the world.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality:
+data_dictionary: https://www.comics.org/download
+language:
+license: Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)
+publisher:
+organization:
+issued_time:
+sources:
+references:
