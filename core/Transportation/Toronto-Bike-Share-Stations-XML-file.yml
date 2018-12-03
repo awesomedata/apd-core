@@ -1,6 +1,6 @@
 ---
-title: Toronto Bike Share Stations (XML file)
-homepage: http://www.bikesharetoronto.com/data/stations/bikeStations.xml
+title: Toronto Bike Share Stations (JSON and GBFS files)
+homepage: https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#84045f23-7465-0892-8889-7b6f91049b29
 category: Transportation
 description:
 version:
@@ -14,7 +14,7 @@ accrual_periodicity:
 specification:
 data_quality: false
 data_dictionary:
-language:
+language: en
 license:
 publisher:
 organization:
