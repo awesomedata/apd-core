@@ -1,9 +1,9 @@
 ---
 title: Global Administrative Areas Database (GADM)
-homepage: http://www.gadm.org/
+homepage: https://gadm.org/
 category: GIS
-description:
-version:
+description: Geospatial data organized by country. Includes administrative areas, weather, elevation and more.
+version: 3.6
 keywords:
 image:
 temporal:
@@ -15,7 +15,7 @@ specification:
 data_quality: false
 data_dictionary:
 language:
-license:
+license: https://gadm.org/license.html
 publisher:
 organization:
 issued_time:
