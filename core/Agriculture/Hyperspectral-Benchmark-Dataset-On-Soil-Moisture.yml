@@ -2,7 +2,7 @@
 title: Hyperspectral benchmark dataset on soil moisture
 homepage: https://doi.org/10.5281/zenodo.1227837
 category: Agriculture
-description: EuroSAT: Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.
+description: Hyperspectral and soil-moisture data from a field campaign based on a soil sample
 version: 1.0
 keywords: hyperspectral, soil moisture, field campaign
 image:
