@@ -4,6 +4,4 @@
 
 Next iteration of APD project.
 
-# Donate
-
 * [PAYPAL](https://www.paypal.me/xiamingc)
