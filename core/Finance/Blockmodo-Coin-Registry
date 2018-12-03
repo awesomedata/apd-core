@@ -1,0 +1,22 @@
+---
+title: Blockmodo Coin Registry
+homepage: https://github.com/Blockmodo/coin_registry
+category: Finance
+description: A registry of JSON formatted information files that is primarily used by website developers, exchange operators, terminal developers, and news publications to show accurate information on different coins.
+version: 1.0
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification: JSON
+data_quality: false
+data_dictionary:
+language: EN
+license: MIT
+publisher:
+organization:
+issued_time:
+sources: []
