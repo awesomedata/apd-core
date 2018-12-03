@@ -2,27 +2,21 @@
 title: Hyperspectral benchmark dataset on soil moisture
 homepage: https://doi.org/10.5281/zenodo.1227837
 category: Agriculture
-description: Hyperspectral and soil-moisture data from a field campaign based on a soil sample
-version: 1.0
-keywords: hyperspectral, soil moisture, field campaign
+description:
+version:
+keywords:
 image:
 temporal:
 spatial:
-access_level: public
+access_level:
 copyrights:
 accrual_periodicity: 
 specification:
 data_quality: false
 data_dictionary:
-language: en
-license: GNU GPLv2
+language:
+license:
 publisher:
-  - name: Felix M. Riese, Sina Keller
-    web: http://www.ipf.kit.edu/english/staff_riese_felix.php
 organization:
-  - name: Karlsruhe Institute of Technology (KIT) 
-    web: http://www.ipf.kit.edu/english/index.php
-issued_time: 2018.04
-references:
-  - title: Introducing a Framework of Self-Organizing Maps for Regression of Soil Moisture with Hyperspectral Data
-    reference: https://www.igarss2018.org
+issued_time:
+sources: []
