@@ -1,0 +1,22 @@
+---
+title: HumanEva Dataset
+homepage: http://humaneva.is.tue.mpg.de/
+category: ImageProcessing
+description: The HumanEva-I dataset contains 7 calibrated video sequences (4 grayscale and 3 color) that are synchronized with 3D body poses obtained from a motion capture system. The database contains 4 subjects performing a 6 common actions (e.g. walking, jogging, gesturing, etc.). The error metrics for computing error in 2D and 3D pose are provided to participants. The dataset contains training, validation and testing (with withheld ground truth) sets.
+version:
+keywords: human pose estimation, human motion tracking
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: English
+license:
+publisher: 
+organization: Max Planck Institute for Intelligent Systems Perceiving Systems 
+issued_time:
+sources: []
