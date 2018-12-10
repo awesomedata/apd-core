@@ -1,0 +1,31 @@
+---
+title: DukeMTMC Data Set
+homepage: http://vision.cs.duke.edu/DukeMTMC/
+category: University
+description: DukeMTMC aims to accelerate advances in multi-target multi-camera tracking. It provides a tracking system that works within and across cameras, a new large scale HD video data set recorded by 8 synchronized cameras with more than 7,000 single camera trajectories and over 2,000 unique identities, and a new performance evaluation method that measures how often a system is correct about who is where.
+version: 1.0
+keywords: person detection, multi-tracking, multi-camera
+image: http://vision.cs.duke.edu/DukeMTMC/img/dataset.jpg
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: www.example.com/dictionary.html
+language: en
+license: Apache License
+publisher:
+  - name: Ergys Ristani, Francesco Solera, Roger S. Zou, Rita Cucchiara, Carlo Tomasi.
+    web: www.example.com/publisher
+organization:
+  - name: Org. name
+    web: www.example.com/organization
+issued_time: 2017.01
+sources:
+  - name: source name
+    access_url: www.example.com
+references:
+  - title: related story
+    reference: www.example.com
