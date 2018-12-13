@@ -1,0 +1,32 @@
+---
+title: Noisy speech database for training speech enhancement algorithms and TTS models
+homepage: https://datashare.is.ed.ac.uk/handle/10283/2791
+category: NaturalLanguage
+description: Clean and noisy parallel speech database. The database was designed to train and test speech enhancement methods that operate at 48kHz. A more detailed description can be found in the papers associated with the database.
+version:
+keywords: Noisy, TTS
+image: 
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: 
+publisher:
+  - name: Edinburgh DataShare
+    web: https://datashare.is.ed.ac.uk
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
+
