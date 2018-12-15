@@ -1,4 +1,4 @@
-# Code of Conduct
+# CONTRIBUTING
 
 The AwesomeData community consists primarily, although not solely, of its online presence in mailing lists and activities such as blog postings and comments, the GitHub repository, and so on. The vision of the AwesomeData community is contributing a pure list of `high quality` datasets for open communities such as academia, research, education etc.
 
