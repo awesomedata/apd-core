@@ -3,7 +3,7 @@ title: 38-Cloud (Cloud Detection)
 homepage: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset
 category: EarthScience
 description: Contains 38 Landsat 8 scene images and their manually extracted pixel-level ground truths for cloud detection. They are cropped into multiple 384*384 patches. It has 8400 patches for training and 9201 patches for testing.
-version:1.0
+version: 1.0
 keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
 image: 
 temporal:
