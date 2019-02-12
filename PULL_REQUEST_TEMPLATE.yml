@@ -1,31 +1,31 @@
 ---
-title: Data set name
-homepage: www.example.com
-category: Government
-description: Long description of dataset
+title: 38-Cloud
+homepage: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset
+category: EarthScience
+description: Contains 38 Landsat 8 scene images and their manually extracted pixel-level ground truths for cloud detection. They are cropped into multiple 384*384 patches. It has 8400 patches for training and 9201 patches for testing.
 version: 1.0
-keywords: keyword1, keyword2
-image: www.example.com/image.jpg
+keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
+image: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/sample/blue_patch_192_10_by_12_LC08_L1TP_002053_20160520_20170324_01_T1.jpg
 temporal:
-spatial:
+spatial:384*384
 access_level: public
 copyrights:
-accrual_periodicity: monthly
+accrual_periodicity: 
 specification:
 data_quality: false
-data_dictionary: www.example.com/dictionary.html
+data_dictionary: 
 language: en
 license: Apache License
 publisher:
-  - name: Publisher name
-    web: www.example.com/publisher
+  - name: 
+    web: 
 organization:
-  - name: Org. name
-    web: www.example.com/organization
-issued_time: 2017.01
+  - name: Labratory for Robotic Vision (LRV), School of Engineering Sceince, Simon Fraser University
+    web: 
+issued_time: 2019.02
 sources:
-  - name: source name
-    access_url: www.example.com
+  - name: 
+    access_url: 
 references:
-  - title: related story
-    reference: www.example.com
+  - title: 
+    reference: 
