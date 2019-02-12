@@ -7,7 +7,7 @@ version: 1.0
 keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
 image: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/sample/blue_patch_192_10_by_12_LC08_L1TP_002053_20160520_20170324_01_T1.jpg
 temporal:
-spatial:384*384
+spatial: 384*384
 access_level: public
 copyrights:
 accrual_periodicity: 
