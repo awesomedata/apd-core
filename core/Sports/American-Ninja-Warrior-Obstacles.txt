@@ -1,0 +1,22 @@
+---
+title: American Ninja Warrior Obstacles
+homepage: hhttps://data.world/ninja/anw-obstacle-history
+category: Sports
+description: Contains every obstacle in the history of American Ninja Warrior from season 1 to 10.
+version: 1.0
+keywords: sports, tv, television, anw.
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: CC-BY
+publisher:
+organization:
+issued_time:
+sources: []
