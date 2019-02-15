@@ -1,0 +1,31 @@
+---
+title: PLCO-Prostate-Screening
+homepage: https://biometry.nci.nih.gov/cdas/plco/
+category: Prostate Cancer
+description: The Prostate Screening dataset (177,315 records, 35,875 subjects, one record per year of screening) contains additional information from PSA and Digital Rectal Exam (DRE) cancer screens. This includes details of the blood draw, QA DRE results, reasons for inadequate exams, and additional findings that were not suspicious for cancer.
+version: 2018
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: National Cancer Institute, Bethesda, MD, USA
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
