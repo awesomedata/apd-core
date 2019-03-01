@@ -1,0 +1,31 @@
+---
+title: All-Age-Faces Dataset
+homepage: https://github.com/JingchunCheng/All-Age-Faces-Dataset
+category: MachineLearning
+description: Contains 13'322 Asian face images distributed across all ages (from 2 to 80), including 7381 females and 5941 males.
+version: 1.0
+keywords: Face images, gender recognition, age prediction.
+image: https://github.com/JingchunCheng/All-Age-Faces-Dataset/blob/master/illu_AAF.png
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Research Institute of Image and Graphics, Tsinghua University, China
+    web: 
+issued_time: 2019.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
