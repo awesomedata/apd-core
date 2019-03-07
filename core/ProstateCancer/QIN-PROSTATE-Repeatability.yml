@@ -2,7 +2,7 @@
 title: QIN-PROSTATE-Repeatability
 homepage: https://wiki.cancerimagingarchive.net/display/Public/QIN-PROSTATE-Repeatability
 category: ProstateCancer
-description: The QIN-PROSTATE-Repeatability dataset is a dataset with multiparametric prostate MRI applied in a test-retest setting, allowing to evaluate repeatability of the MRI-based measurements in the prostate. The imaging data is accompanied by two types of derived data: 1) manual segmentations of the total prostate gland, peripheral zone of the prostate gland, suspected tumor and normal regions (where applicable) and 2) volume measurements (for axial T2w images and ADC images) and mean ADC (for ADC images) corresponding to the segmented regions.
+description: The QIN-PROSTATE-Repeatability dataset is a dataset with multiparametric prostate MRI applied in a test-retest setting, allowing to evaluate repeatability of the MRI-based measurements in the prostate. The imaging data is accompanied by two types of derived data. 1) manual segmentations of the total prostate gland, peripheral zone of the prostate gland, suspected tumor and normal regions (where applicable) and 2) volume measurements (for axial T2w images and ADC images) and mean ADC (for ADC images) corresponding to the segmented regions.
 version: 2018
 keywords: 
 image: 
