@@ -1,7 +1,7 @@
 ---
 title: Prostate-Adenocarcinoma-Organoids-MSKCC
 homepage: http://www.cbioportal.org/study?id=prad_mskcc_cheny1_organoids_2014
-category: Prostate Cancer
+category: ProstateCancer
 description: Exome profiling of prostate cancer samples and matched organoids.
 version: 2014
 keywords: 

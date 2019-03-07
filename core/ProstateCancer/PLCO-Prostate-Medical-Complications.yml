@@ -1,7 +1,7 @@
 ---
 title: PLCO-Prostate-Medical-Complications
 homepage: https://biometry.nci.nih.gov/cdas/plco/
-category: Prostate Cancer
+category: ProstateCancer
 description: The Prostate Medical Complications dataset (3,350 records, 2,164 subjects, one record per medical complication) contains information about the medical complications caused by diagnostic workup for prostate cancer.
 version: 2018
 keywords: 

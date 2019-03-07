@@ -1,7 +1,7 @@
 ---
 title: PLCO-Prostate-Screening-Abnormalities
 homepage: https://biometry.nci.nih.gov/cdas/plco/
-category: Prostate Cancer
+category: ProstateCancer
 description: The Prostate Screening Abnormalities dataset (10,527 records, 5,743 subjects, one record per abnormality) contains information for each induration found during the DRE screen. This includes the location, type, size, grade, and extent of each induration.
 version: 2018
 keywords: 

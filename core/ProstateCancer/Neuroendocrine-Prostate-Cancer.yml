@@ -1,7 +1,7 @@
 ---
 title: Neuroendocrine-Prostate-Cancer
 homepage: http://www.cbioportal.org/study?id=nepc_wcm_2016
-category: Prostate Cancer
+category: ProstateCancer
 description: Whole exome and RNA Seq data of castration resistant adenocarcinoma and castration resistant neuroendocrine prostate cancer (somatic mutations and copy number aberrations, 114 samples).
 version: 2016
 keywords: 

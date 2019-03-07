@@ -1,7 +1,7 @@
 ---
 title: PLCO-Prostate-Treatments
 homepage: https://biometry.nci.nih.gov/cdas/plco/
-category: Prostate Cancer
+category: ProstateCancer
 description: The Prostate Treatments dataset (13,409 records, 7,614 subjects, one record per treatment procedure) contains specifics of the initial treatment following the diagnosis of prostate cancer.
 version: 2018
 keywords: 

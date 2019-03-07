@@ -1,7 +1,7 @@
 ---
 title: NPCR-2005-2015
 homepage: https://www.cdc.gov/cancer/uscs/public-use
-category: Prostate Cancer
+category: ProstateCancer
 description: Database from CDC's National Program of Cancer Registries (NPCR). The database includes data by demographic characteristics (for example, age, sex, race, and year of diagnosis) and tumor characteristics (for example, site, histology, stage, and behavior). Hospitals, physicians, and laboratories across the nation report these data to central cancer registries supported by CDC and NCI.
 version: 2018
 keywords: 

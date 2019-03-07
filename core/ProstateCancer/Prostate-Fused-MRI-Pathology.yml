@@ -1,7 +1,7 @@
 ---
 title: Prostate-Fused-MRI-Pathology
 homepage: https://wiki.cancerimagingarchive.net/display/Public/Prostate+Fused-MRI-Pathology
-category: Prostate Cancer
+category: ProstateCancer
 description: The Prostate Fused-MRI-Pathology collection is a combination of MRI images and histopathology slides. It comprises a set of 3 Tesla T1-weighted, T2-weighted, Diffusion weighted and Dynamic Contrast Enhanced prostate MRI along with accompanying digitized histopathology (H&E stained) images of corresponding radical prostatectomy specimens. The MRI scans also have a mapping of extent of prostate cancer on them.
 version: 2011
 keywords: 

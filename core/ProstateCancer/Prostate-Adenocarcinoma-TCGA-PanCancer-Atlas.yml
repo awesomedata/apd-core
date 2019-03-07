@@ -1,7 +1,7 @@
 ---
 title: Prostate-Adenocarcinoma-TCGA-PanCancer-Atlas
 homepage: http://www.cbioportal.org/study?id=prad_tcga_pan_can_atlas_2018
-category: Prostate Cancer
+category: ProstateCancer
 description: Comprehensive TCGA PanCanAtlas data from 11k cases and all TCGA tumor types.
 version: 2018
 keywords: 
