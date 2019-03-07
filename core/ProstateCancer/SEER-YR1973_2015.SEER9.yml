@@ -1,0 +1,31 @@
+---
+title: SEER-YR1973_2015.SEER9
+homepage: https://seer.cancer.gov/data/seerstat/nov2017/
+category: Prostate Cancer
+description: The SEER November 2017 Research Data files from nine SEER registries (Atlanta, Connecticut, Detroit, Hawaii, Iowa, New Mexico, San Francisco-Oakland, Seattle-Puget Sound, and Utah) for 1973-2015.
+version: 2018
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: National Cancer Institute, Bethesda, MD, USA
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

@@ -1,0 +1,31 @@
+---
+title: Genomic-Hallmarks-Prostate-Adenocarcinoma-CPC-GENE
+homepage: http://www.cbioportal.org/study?id=prad_cpcg_2017
+category: Prostate Cancer
+description: Comprehensive genomic profiling of 477 Prostate Adenocarcinoma samples from CPC-GENE and public data sets, including TCGA-PRAD.
+version: 2017
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

@@ -1,0 +1,31 @@
+---
+title: Prostate-MRI
+homepage: https://wiki.cancerimagingarchive.net/display/Public/Prostate-MRI
+category: Prostate Cancer
+description: The Prostate-MRI collection of prostate Magnetic Resonance Images (MRIs) was obtained with an endorectal and phased array surface coil at 3T (Philips Achieva). Each patient had biopsy confirmation of cancer and underwent a robotic-assisted radical prostatectomy. A mold was generated from each MRI, and the prostatectomy specimen was first placed in the mold, then cut in the same plane as the MRI. The data was generated at the National Cancer Institute, Bethesda, Maryland, USA between 2008 and 2010.
+version: 2010
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

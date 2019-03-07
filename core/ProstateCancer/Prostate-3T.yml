@@ -1,0 +1,31 @@
+---
+title: Prostate-3T
+homepage: https://wiki.cancerimagingarchive.net/display/Public/PROSTATE-3T
+category: Prostate Cancer
+description: The Prostate-3T project provided imaging data to TCIA as part of an ISBI challenge competition in 2013. Prostate transversal T2-weighted magnetic resonance images (MRIs) acquired on a 3.0T Siemens TrioTim using only a pelvic phased-array coil were acquired for prostate cancer detection.
+version: 2013
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

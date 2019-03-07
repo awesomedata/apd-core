@@ -1,0 +1,31 @@
+---
+title: GENIE
+homepage: https://www.synapse.org/genie
+category: Prostate Cancer
+description: Data from the Genomics Evidence Neoplasia Information Exchange (GENIE) project of the American Association for Cancer Research (AACR). The GENIE project seeks to identify and validate genomic biomarkers relevant to cancer treatment by linking tumor genomic data from clinical sequencing efforts with longitudinal clinical outcomes. The project includes data from eleven cancer centers from the USA (7x), Canada, the Netherlands, France and the United Kingdom. GENIE version 5.0 contains data from 2214 PCa samples (from 2008 patients): 2172x Prostate Adenocarcinoma, 28x Prostate Neuroendocrine Carcinoma, 13x Prostate Small Cell Carcinoma and 1x Prostate Squamous Cell Carcinoma.
+version: 2019
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: American Association for Cancer Research, Philadelphia, PA, USA
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
