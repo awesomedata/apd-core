@@ -1,0 +1,31 @@
+---
+title: Prostate Adenocarcinoma (MSKCC/DFCI)
+homepage: http://www.cbioportal.org/study?id=prad_p1000
+category: ProstateCancer
+description: Whole Exome Sequencing of 1013 prostate cancer samples.
+version: 2018
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

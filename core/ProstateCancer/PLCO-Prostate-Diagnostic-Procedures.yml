@@ -1,0 +1,31 @@
+---
+title: PLCO-Prostate-Diagnostic-Procedures
+homepage: https://biometry.nci.nih.gov/cdas/plco/
+category: ProstateCancer
+description: The Prostate Diagnostic Procedures dataset (95,837 records, 15,307 subjects, one record per procedure) contains information about the diagnostic procedures prompted by positive prostate cancer screens, as well as diagnostic/staging procedures associated with any prostate cancers diagnosed during the 13 years of follow-up.
+version: 2018
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: National Cancer Institute, Bethesda, MD, USA
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

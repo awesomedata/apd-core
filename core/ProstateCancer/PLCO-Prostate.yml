@@ -1,0 +1,31 @@
+---
+title: PLCO-Prostate
+homepage: https://biometry.nci.nih.gov/cdas/plco/
+category: ProstateCancer
+description: The Prostate dataset is a comprehensive dataset that contains nearly all the PLCO study data available for prostate cancer screening, incidence, and mortality analyses. The dataset contains one record for each of the 76,682 male participants in the PLCO trial.
+version: 2018
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: National Cancer Institute, Bethesda, MD, USA
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

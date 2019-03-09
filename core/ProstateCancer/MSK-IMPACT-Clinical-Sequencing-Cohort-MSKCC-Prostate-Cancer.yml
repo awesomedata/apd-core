@@ -1,0 +1,31 @@
+---
+title: MSK-IMPACT-Clinical-Sequencing-Cohort-MSKCC-Prostate-Cancer
+homepage: http://www.cbioportal.org/study?id=prad_mskcc_2017
+category: ProstateCancer
+description: Targeted sequencing of clinical cases via MSK-IMPACT for prostate cancer.
+version: 2017
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

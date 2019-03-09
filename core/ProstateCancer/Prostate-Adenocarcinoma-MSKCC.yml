@@ -1,0 +1,31 @@
+---
+title: Prostate-Adenocarcinoma-MSKCC
+homepage: http://www.cbioportal.org/study?id=prad_mskcc
+category: ProstateCancer
+description: MSKCC Prostate Oncogenome Project. 181 primary, 37 metastatic prostate cancer samples, 12 prostate cancer cell lines and xenografts.
+version: 2010
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

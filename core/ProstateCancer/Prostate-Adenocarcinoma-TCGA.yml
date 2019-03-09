@@ -1,0 +1,31 @@
+---
+title: Prostate-Adenocarcinoma-TCGA
+homepage: http://www.cbioportal.org/study?id=prad_tcga_pub
+category: ProstateCancer
+description: Integrated profiling of 333 primary prostate adenocarcinoma samples.
+version: 2015
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

@@ -1,0 +1,31 @@
+---
+title: TCGA-PRAD-US
+homepage: http://www.cbioportal.org/study?id=prad_tcga
+category: ProstateCancer
+description: TCGA Prostate Adenocarcinoma (499 samples).
+version: 2014
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

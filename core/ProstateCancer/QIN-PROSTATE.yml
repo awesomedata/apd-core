@@ -1,0 +1,31 @@
+---
+title: QIN-PROSTATE
+homepage: https://wiki.cancerimagingarchive.net/display/Public/QIN+PROSTATE
+category: ProstateCancer
+description: The QIN PROSTATE collection of the Quantitative Imaging Network (QIN) contains multiparametric MRI images collected for the purposes of detection and/or staging of prostate cancer. The MRI parameters include T1- and T2-weighted sequences as well as Diffusion Weighted and Dynamic Contrast-Enhanced MRI. The images were obtained using endorectal and phased array surface coils at 3.0T (GE Signa HDx 15.0) The value of this collection is to provide clinical image data for the development and evaluation of quantitative methods for prostate cancer characterization using multiparametric MRI.
+version: 2014
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

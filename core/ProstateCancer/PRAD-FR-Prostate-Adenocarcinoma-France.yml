@@ -1,0 +1,31 @@
+---
+title: PRAD-FR-Prostate-Adenocarcinoma-France
+homepage: https://dcc.icgc.org/projects/PRAD-FR
+category: ProstateCancer
+description: Prostate Adenocarcinoma - France. Collected by ten French and one Spanish research organization.
+version: 2012
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
