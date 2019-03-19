@@ -1,0 +1,22 @@
+---
+title: Danbooru Tagged Anime Illustration Dataset
+homepage: https://www.gwern.net/Danbooru
+category: ImageProcessing
+description: A large-scale anime image database with 3.33m+ images annotated with 99.7m+ tags; it can be useful for machine learning purposes such as image recognition and generation.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
