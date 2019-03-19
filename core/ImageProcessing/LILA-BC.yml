@@ -1,0 +1,31 @@
+---
+title: Labeled Information Library of Alexandria - Biology and Conservation
+homepage: http://lila.science
+category: ImageProcessing
+description: Contains over 10 million labeled images related to biology and conservation, particularly images from motion-triggered camera traps.
+version: 1.0
+keywords: Camera trap, wildlife, animals, conservation.
+image: http://lila.science/wp-content/uploads/2018/10/IMG_1881_web.jpg
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: CDLA
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: LILA working group
+    web: 
+issued_time: 2019.03
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
