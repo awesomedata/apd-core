@@ -4,4 +4,10 @@
 
 Next iteration of APD project.
 
-* [PAYPAL](https://www.paypal.me/xiamingc)
+## How to contribute
+
+Please refer to the instructions of [CONTRIBUTING](https://github.com/awesomedata/apd-core/blob/master/CONTRIBUTING.md) or latest [Wiki](https://github.com/awesomedata/apd-core/wiki).
+
+## Contact
+
+Xiaming Chen <chenxm35@gmail.com>
