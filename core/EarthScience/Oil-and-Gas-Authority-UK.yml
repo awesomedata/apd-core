@@ -1,0 +1,26 @@
+---
+title: Oil and Gas Authority Open Data
+homepage: https://data-ogauthority.opendata.arcgis.com/
+category: EarthScience
+description: The dataset covers 12,500 offshore wellbores, 5,000 seismic surveys, and 3,000 pipelines over more than five decades.
+version:
+keywords:
+image: https://www.spe.org/media/filer_public/e3/31/e331595a-7594-423f-81d8-b31b2d38bcb5/jpt_2019_3_uk_data_repository_hero.jpg
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true 
+data_dictionary:
+language:
+license: Open Government Licence
+publisher: Oil and Gas Authority, UK
+organization: Oil and Gas Authority, UK
+issued_time: 2019-03-25
+sources:
+- name: [News] UK Releases 130 Terabytes of Oil and Gas Data
+  access_url: https://www.spe.org/en/jpt/jpt-article-detail/?art=5282
+- name: UK National Data Repository
+  access_url: https://ndr.ogauthority.co.uk/dp/controller/PLEASE_LOGIN_PAGE
