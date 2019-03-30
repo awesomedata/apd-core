@@ -5,7 +5,7 @@ category: Biology
 description: GO annotation files
 version:
 keywords: gene, ontology
-image:http://geneontology.org/assets/go-logo.large.png
+image: http://geneontology.org/assets/go-logo.large.png
 temporal:
 spatial:
 access_level:
