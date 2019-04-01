@@ -1,0 +1,22 @@
+---
+title: Pull Request review comments
+homepage: https://github.com/src-d/datasets/blob/master/ReviewComments
+category: Software
+description: 25.3 million GitHub PR review comments since January 2015 till December 2018
+version:
+keywords: source code, git, GitHub, software repositories, development history, open dataset
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: Apache 2.0
+publisher:
+organization: source{d}
+issued_time:
+sources: []
