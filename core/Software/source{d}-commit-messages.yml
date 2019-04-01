@@ -1,0 +1,22 @@
+---
+title: Commit messages
+homepage: https://github.com/src-d/datasets/blob/master/CommitMessages
+category: Software
+description: 1.3 billion GitHub commit messages till March 2019
+version:
+keywords: source code, git, GitHub, software repositories, development history, open dataset
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: Apache 2.0
+publisher:
+organization: source{d}
+issued_time:
+sources: []
