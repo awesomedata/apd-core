@@ -1,0 +1,22 @@
+---
+title: Code duplicates
+homepage: https://github.com/src-d/datasets/tree/master/Duplicates
+category: Software
+description: 2k Java file and 600 Java function pairs labeled as similar or different by several programmers
+version:
+keywords: source code, git, GitHub, software repositories, development history, open dataset, duplicates, similarity search, fuzzy-matching
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: Apache 2.0
+publisher:
+organization: source{d}
+issued_time:
+sources: []
