@@ -1,11 +1,11 @@
 ---
-title: International Economics Database
+title: DBnomics – the world's economic database
 homepage: https://db.nomics.world/
 category: Economics
-description:
+description: Aggregates hundreds of millions of time series from several dozen sources (INSEE, Eurostat, IMF, WTO, WB...) and makes them available via a single API.
 version:
 keywords:
-image:
+image: 
 temporal:
 spatial:
 access_level:
