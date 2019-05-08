@@ -1,6 +1,6 @@
 ---
 title: Titanic Survival Data Set
-homepage: https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+homepage: https://www.kaggle.com/c/titanic/data
 category: SocialSciences
 description:
 version:
@@ -22,8 +22,8 @@ issued_time:
 sources:
   - title: Titanic Survival Data Set on Kaggle
     access_url: https://www.kaggle.com/c/titanic/data
-    download_url:
-    format:
+    download_url: https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+    format: zip
     media_type:
     schema:
 
