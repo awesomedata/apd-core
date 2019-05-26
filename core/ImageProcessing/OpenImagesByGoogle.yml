@@ -1,0 +1,24 @@
+---
+title: Open Images From Google
+homepage: https://storage.googleapis.com/openimages/web/download.html
+category: ImageProcessing
+description: Pictures with segmentation masks for 2.8 million object instances in 350 categories.
+version: V5
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher: Google
+organization:
+issued_time: 2019-05-08
+sources:
+  - name: Announcing Open Images V5 and the ICCV 2019 Open Images Challenge
+    access_url: https://ai.googleblog.com/2019/05/announcing-open-images-v5-and-iccv-2019.html
