@@ -1,0 +1,32 @@
+---
+title: Dutch Weather
+homepage: https://data.knmi.nl/datasets
+category: Weather
+description: The KNMI Data Center (KDC) portal provides access to KNMI data on weather, climate and seismology. You will find KNMI data on various topicssuch as the most recent 10 minutes of automated weather observations, historical data, data on meteorological stations, model output, earthquake data and satellite products. 
+version: 1.0
+keywords: Weather, Climate, Seismology
+image: 
+temporal:
+spatial: 384*384
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Royal Netherlands Meteorological Institute
+    web: 
+issued_time: 2019.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference:
+
