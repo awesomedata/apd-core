@@ -1,0 +1,31 @@
+---
+title: Dutch Traffic Information
+homepage: https://www.ndw.nu/en/
+category: Transportation
+description:
+version: 1.0
+keywords: Dutch, Traffic
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: Apache License
+publisher:
+  - name:
+    web:
+organization:
+  - name: National Data Warehouse for Traffic Information.
+    web: https://www.ndw.nu/pagina/en/16/organisation/
+issued_time: 2019.05
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
