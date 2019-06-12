@@ -1,0 +1,31 @@
+---
+title: CADDY Underwater Stereo-Vision Dataset of divers' hand gestures
+homepage: http://caddy-underwater-datasets.ge.issia.cnr.it/
+category: ImageProcessing
+description: Contains 10K stereo pair images collected in 8 different scenarios plus 12K stereo pair images synchronized with diver body pose measurements.
+version: 1.0
+keywords: underwater, stereo, Vision, dataset, diver, hand, gesture, recognition, body, pose, estimation
+image: http://caddy-underwater-datasets.ge.issia.cnr.it//assets/caddy-gestures-dataset/biograd-B/true_positives/raw/biograd-B_00032_right.jpg
+temporal:
+spatial: 
+access_level: public
+copyrights: 
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited (CC BY 4.0).
+publisher:
+  - name: Andrea Ranieri & Arturo Gomez Chavez
+    web: 
+organization:
+  - name: CNR-INM (Institute of Marine Engineering) and Jacobs University
+    web: 
+issued_time: 2019.06
+sources:
+  - name: CADDY Underwater Stereo-Vision Dataset website
+    access_url: http://caddy-underwater-datasets.ge.issia.cnr.it/
+references:
+  - title: Caddy underwater stereo-vision dataset for human–robot interaction (HRI) in the context of diver activities
+    reference: A. Gomez Chavez, A. Ranieri, D. Chiarella, E. Zereik, A. Babić, and A. Birk, “Caddy underwater stereo-vision dataset for human–robot interaction (HRI) in the context of diver activities,” Journal of Marine Science and Engineering, vol. 7, no. 1, 2019. Available online at http://www.mdpi.com/2077-1312/7/1/16/pdf
