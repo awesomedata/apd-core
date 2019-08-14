@@ -1,0 +1,31 @@
+---
+title: 3W dataset
+homepage: https://github.com/ricardovvargas/3w_dataset
+category: TimeSeries
+description: To the best of its authors' knowledge, this is the first realistic and public dataset with rare undesirable real events in oil wells that can be readily used as a benchmark dataset for development of machine learning techniques related to inherent difficulties of actual data.
+version: 1.0
+keywords: Fault detection and diagnosis, Oil well monitoring, Abnormal event management, Multivariate time series classification.
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: MIT License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: A realistic and public dataset with rare undesirable real events in oil wells
+    reference: https://doi.org/10.1016/j.petrol.2019.106223
