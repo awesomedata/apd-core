@@ -1,0 +1,31 @@
+---
+title: Pro Kabadi season 1 to 7
+homepage: https://github.com/ranganadhkodali/Pro-Kabadi-season-1-7-Stats
+category: Sports
+description: Pro Kabadi League is a professional-level Kabaddi league in India. Data Set contains the match level stats from the seasion 1 to 7. data set include player level stats and match level stats including points earned and key match events.
+version: 1.0
+keywords: Pro Kabadi,ProKabadi,Kabadi,Sports DataSet,indian sports
+image: https://www.prokabaddi.com/static-assets/images/cssimages/prokabaddi-logo.png
+temporal:
+spatial: 384*384
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time: 2019.09
+sources:
+  - name: 
+    access_url: https://www.prokabaddi.com/
+references:
+  - title: 
+    reference: 
