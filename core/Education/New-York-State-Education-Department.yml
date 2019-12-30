@@ -1,0 +1,31 @@
+---
+title: New York State Education Department Data
+homepage: https://data.nysed.gov/downloads.php
+category: Education
+description: The New York State Education Department (NYSED) is committed to making data available and easy to use. This site provides a first step in publicly reporting educational data so all interested parties can be better informed as they work to advance student achievement.
+version: 
+keywords: higher education, school, county, district
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license:
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: New York State Education Department
+    web: https://data.nysed.gov/
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
