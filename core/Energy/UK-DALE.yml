@@ -1,6 +1,6 @@
 ---
 title: UK-DALE
-homepage: http://www.doc.ic.ac.uk/~dk3810/data/
+homepage: https://jack-kelly.com/data
 category: Energy
 description: UK Domestic Appliance-Level Electricity
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: true
 data_dictionary:
 language:
 license:
