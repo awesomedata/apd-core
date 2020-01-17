@@ -7,7 +7,7 @@ version:
 keywords: household, energy, consumption, load, profiles, residential, South, Africa
 image: https://github.com/wiebket/delprocess/blob/master/delprocess/data/images/DEL_logo.png
 temporal: 5 min
-spatial: 
+spatial: GPS coordinates, street level
 access_level: 
 copyrights:
 accrual_periodicity: 
@@ -17,12 +17,12 @@ data_dictionary:
 language: en
 license: CC BY-NC
 publisher:
+  - name: Data First
+    web: https://www.datafirst.uct.ac.za/
+organization:
   - name: 
     web: 
-organization:
-  - name: Laboratory for Robotic Vision (LRV), School of Engineering Science, Simon Fraser University, Canada
-    web: 
-issued_time: 2019.02
+issued_time: 2019.05
 sources:
   - name: 
     access_url: 
