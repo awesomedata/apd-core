@@ -1,0 +1,31 @@
+---
+title: DEL
+homepage: https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/DELS
+category: Energy
+description: Domestic Electrical Load study datsets for South Africa (1994 - 2014)
+version: 
+keywords: household, energy, consumption, load, profiles, residential, South, Africa
+image: https://github.com/wiebket/delprocess/blob/master/delprocess/data/images/DEL_logo.png
+temporal: 5 min
+spatial: GPS coordinates, street level
+access_level: 
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: true
+data_dictionary: 
+language: en
+license: CC BY-NC
+publisher:
+  - name: Data First
+    web: https://www.datafirst.uct.ac.za/
+organization:
+  - name: 
+    web: 
+issued_time: 2019.05
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
