@@ -1,0 +1,23 @@
+---
+title: Istanbul Municipality Open Data Portal
+homepage: https://data.ibb.gov.tr
+category: Government
+description:
+version: 1.0
+keywords: istanbul, municipality, transportation, environment, energy
+image: https://data.ibb.gov.tr/img/logo-ibb.png
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: tr, en
+license: Apache License
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
