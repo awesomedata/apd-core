@@ -1,0 +1,22 @@
+---
+title: U.S. National Highway Traffic Safety Administration - Fatalities since 1975
+homepage: ftp://nhtsa.gov/FARS/
+category: Transportation
+description: Contains CSV and SAS formatted traffic crash data per person, per vehicle, and per crash since 1975
+version:
+keywords:
+image: 
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
