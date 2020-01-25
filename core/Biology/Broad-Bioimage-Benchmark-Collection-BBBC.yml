@@ -2,7 +2,7 @@
 title: Broad Bioimage Benchmark Collection (BBBC)
 homepage: https://www.broadinstitute.org/bbbc
 category: Biology
-description:
+description: The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).
 version:
 keywords:
 image:

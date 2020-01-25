@@ -2,7 +2,7 @@
 title: Systems Science of Biological Dynamics (SSBD) Database
 homepage: http://ssbd.qbic.riken.jp
 category: Biology
-description:
+description: Systems Science of Biological Dynamics database (SSBD:database) provides a rich set of open resources for analyzing quantitative data and microscopy images of biological objects, such as single-molecule, cell, gene expression nuclei, etc. Quantitative biological data and microscopy image are collected from a variety of species, sources and methods. These include data obtained from both experiment and computational simulation.
 version:
 keywords:
 image:
