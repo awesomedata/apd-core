@@ -2,7 +2,7 @@
 title: Sequence Read Archive(SRA)
 homepage: http://www.ncbi.nlm.nih.gov/Traces/sra/
 category: Biology
-description:
+description: The Sequence Read Archive (SRA) stores raw sequence data from "next-generation" sequencing technologies including Illumina, 454, IonTorrent, Complete Genomics, PacBio and OxfordNanopores. In addition to raw sequence data, SRA now stores alignment information in the form of read placements on a reference sequence.
 version:
 keywords:
 image:

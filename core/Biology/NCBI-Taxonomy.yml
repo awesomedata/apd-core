@@ -2,7 +2,7 @@
 title: NCBI Taxonomy
 homepage: http://www.ncbi.nlm.nih.gov/taxonomy
 category: Biology
-description:
+description: The NCBI Taxonomy database is a curated set of names and classifications for all of the organisms that are represented in GenBank. When new sequences are submitted to GenBank, the submission is checked for new organism names, which are then classified and added to the Taxonomy database. As of April 2003, there were 176,890 total taxa represented.
 version:
 keywords:
 image:
