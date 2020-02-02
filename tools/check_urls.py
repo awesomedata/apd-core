@@ -33,7 +33,7 @@ def read_core_files():
 def check_url(category, file_name, url):
 
     try:
-        response = requests.head(url, allow_redirects=False, timeout=1)
+        response = requests.head(url, allow_redirects=False, timeout=5)
         if response.status_code in [301, 302]:
             return category, file_name, url, f'Redirects to {response.headers["Location"]}'
     except Exception as e:
