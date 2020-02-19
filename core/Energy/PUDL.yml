@@ -1,0 +1,22 @@
+---
+title: The Public Utility Data Liberation Project (PUDL)
+homepage: https://github.com/catalyst-cooperative/pudl
+category: Energy
+description: PUDL makes US energy data easier to access and use. Hundreds of gigabytes of information is available from government agencies, but it's often difficult to work with, and different sources can be hard to combine. PUDL takes the original spreadsheets, CSV files, and databases and turns them into unified tabular data packages that can be used to populate a database, or read in directly with Python, R, Microsoft Access, and many other tools.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
