@@ -1,0 +1,31 @@
+---
+title: Rfam
+homepage: https://docs.rfam.org/en/latest/database.html
+category: Biology
+description: The Rfam database is a collection of RNA families, each represented by multiple sequence alignments, consensus secondary structures and covariance models (CMs).
+version: 14.1
+keywords: biology, rna, dna
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: Elixir Service
+    web: https://elixir-europe.org/about-us/why-needed
+organization:
+  - name: European Molecular Biology Laboratory
+    web: 
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
