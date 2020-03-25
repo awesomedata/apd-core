@@ -1,0 +1,15 @@
+---
+title: 2019 Novel Coronavirus COVID-19 Data Repository by Johns Hopkins CSSE
+homepage: https://github.com/CSSEGISandData/COVID-19
+category: Healthcare
+description: This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL).
+version: 1.0
+keywords: covid-19
+access_level: public
+language: en
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Johns Hopkins University Center for Systems Science and Engineering
+    web: https://systems.jhu.edu/
