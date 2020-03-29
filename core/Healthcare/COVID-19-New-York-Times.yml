@@ -1,0 +1,18 @@
+---
+title: Coronavirus (Covid-19) Data in the United States
+homepage: https://github.com/nytimes/covid-19-data
+category: Healthcare
+description: The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
+version: 1.0
+keywords: covid-19
+image:
+language: en
+publisher:
+  - name: The New York Times
+    web: https://www.nytimes.com/
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
