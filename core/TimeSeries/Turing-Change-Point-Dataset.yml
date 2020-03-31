@@ -1,0 +1,33 @@
+---
+title: Turing Change Point Dataset
+homepage: https://github.com/alan-turing-institute/TCPD
+category: TimeSeries
+description: Contains 42 annotated time series collected for the development and evaluation of change point detection algorithms.
+version: 1.0
+keywords: change point detection, time series analysis, benchmark dataset
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: true
+language: en
+license: MIT License
+publisher:
+  - name: Gertjan van den Burg
+    web: https://gertjan.dev
+  - name: Chris Williams
+    web: https://homepages.inf.ed.ac.uk/ckiw/
+organization:
+  - name: The Alan Turing Institute, London, UK
+    web: https://turing.ac.uk
+issued_time: 2020.03
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: An Evaluation of Change Point Detection Algorithms
+    reference: arXiv:2003.06222
