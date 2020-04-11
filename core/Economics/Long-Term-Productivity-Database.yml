@@ -1,0 +1,30 @@
+---
+title: Long-Term Productivity Database
+homepage: http://longtermproductivity.com/download.html
+category: Economics
+description: The Long-Term Productivity database was created as a project at the Bank of France in 2013 by Antonin Bergeaud, Gilbert Cette and Remy Lecat. Following the work of Cette, Mairesse and Kocoglu (2009)
+version: 1.0
+keywords: 
+image: 
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality:
+data_dictionary: 
+language: en
+license:
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: La Banque de France
+    web: https://www.banque-france.fr/en
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
