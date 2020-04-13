@@ -1,0 +1,31 @@
+---
+title: SVIRO Synthetic Vehicle Interior Rear Seat Occupancy 
+homepage: https://sviro.kl.dfki.de
+category: ImageProcessing
+description: 25.000 synthetic sceneries across ten different vehicle interiors for several simulated sensor inputs and ground truth data
+version: 1.0
+keywords: Automotive, classification, object detection, instance segmentation, pose estimation, seat occupancy
+image: https://sviro.kl.dfki.de/wp-content/uploads/2019/11/web_front_rgb-768x512.png
+temporal:
+spatial: 960*640
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: IEE S.A. and German Research Center for Artificial Intelligence 
+    web: 
+issued_time: 2020.01
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
