@@ -1,0 +1,25 @@
+---
+title: AWS COVID-19 Datasets
+homepage: https://dj2taa9i652rf.cloudfront.net/
+category: Healthcare
+description: We're working with organizations who make COVID-19-related data available from various sources, such as public records, foot traffic and business visitation patterns, economic activity, and more. Some of the COVID-19 related data products available on AWS Data Exchange are outlined in https://aws.amazon.com/data-exchange/covid-19
+version: 1.0
+keywords: covid-19, aws
+temporal:
+copyrights:
+accrual_periodicity: 
+specification:
+data_dictionary: 
+language: en
+publisher:
+  - name: AWS
+    web: https://aws.amazon.com/data-exchange/covid-19
+organization:
+  - name: 
+    web: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
