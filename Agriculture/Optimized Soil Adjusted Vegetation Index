@@ -1,0 +1,31 @@
+---
+title: Optimized Soil Adjusted Vegetation Index
+homepage: https://www.indexdatabase.de/db/i-single.php?id=63
+category: Agriculture
+description: The IDB is a tool for working with remote sensing indices. It provides a quick overview of which indices are usable for a specific sensor and a specific topic. There is no such tool available at the moment as far as we know, despite the necessity to have a more structured overview of current research results in the area of remote sensing indices.
+version: 1.0
+keywords: remote sensing, agriculture, soil intelligence
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality:  
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: IDB Project
+    web: 
+issued_time:  
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
