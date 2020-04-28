@@ -1,0 +1,23 @@
+---
+title: Yahoo Knowledge Graph COVID-19 Datasets
+homepage: https://github.com/yahoo/covid-19-data
+category: Healthcare
+description: The Yahoo Knowledge Graph team at Verizon Media is responsible for providing critical COVID-19 data that feeds into Yahoo properties like Yahoo News, Yahoo Finance, and Yahoo Weather. The COVID-19 datasets include country, state, and county level information updated on a rolling basis, with updates occuring approximately hourly.
+version: 1.0
+keywords: covid-19
+access_level: public
+language: en
+license: Creative Commons CC-BY-NC 4.0
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
