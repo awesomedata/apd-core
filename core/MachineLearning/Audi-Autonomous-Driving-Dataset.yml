@@ -1,0 +1,26 @@
+---
+title: Audi Autonomous Driving Dataset
+homepage: https://www.a2d2.audi/a2d2/en.html
+category: MachineLearning
+description: We have published the Audi Autonomous Driving Dataset (A2D2) to support startups and academic researchers working on autonomous driving. Equipping a vehicle with a multimodal sensor suite, recording a large dataset, and labelling it, is time and labour intensive. Our dataset removes this high entry barrier and frees researchers and developers to focus on developing new technologies instead. The dataset features 2D semantic segmentation, 3D point clouds, 3D bounding boxes, and vehicle bus data.
+keywords: car, autonomous-driving
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_dictionary:
+language: en
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
