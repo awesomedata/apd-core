@@ -1,8 +1,8 @@
 ---
 title: Prostate-R
-homepage: https://cran.r-project.org/web/packages/ElemStatLearn/ElemStatLearn.pdf
+homepage: https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data
 category: ProstateCancer
-description: The popular statistical package R contains a prostate cancer dataset from Stamey et al. (1989) (19), available for analysis when using the ElemStatLearn package. It contains data from 97 patients for 9 clinical variables.
+description: The R package 'ElemStatLearn' contains a prostate cancer dataset from Stamey et al. (1989) (19), available for analysis when using the ElemStatLearn package. It contains data from 97 patients for 9 clinical variables. The dataset is given in R's  .RData file format, but it is also available onli 
 version: 2015
 keywords: 
 image: 
@@ -17,15 +17,15 @@ data_dictionary:
 language: en
 license: 
 publisher:
-  - name: 
+  - name:  
     web: 
 organization:
-  - name: 
-    web: 
+  - name: Stanford University
+    web: https://web.stanford.edu/~hastie/ElemStatLearn/
 issued_time:
 sources:
-  - name: 
-    access_url: 
+  - name: Info
+    access_url: https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.info.txt
 references:
   - title: 
     reference: 
