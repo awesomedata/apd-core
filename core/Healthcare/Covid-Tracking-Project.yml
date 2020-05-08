@@ -1,0 +1,27 @@
+---
+title: The COVID Tracking Project
+homepage: https://covidtracking.com/data
+category: Healthcare
+description: The COVID Tracking Project collects and publishes the most complete testing data available for US states and territories.
+version: 1.0
+keywords: covid-19
+image:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_dictionary:
+language: en
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2019.02
+sources:
+  - name: Public data api
+    access_url: https://covidtracking.com/api
+references:
+  - title:
+    reference:
