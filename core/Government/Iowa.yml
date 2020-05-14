@@ -1,0 +1,28 @@
+---
+title: Iowa
+homepage: https://data.iowa.gov/
+category: Government
+description: Welcome to the State of Iowa's data portal.  Please explore data about Iowa and your state government, discover answers to the questions you have, and share the information with others.
+version: 1.0
+keywords: state
+image:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_dictionary:
+language: en
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
