@@ -1,0 +1,31 @@
+---
+title: 43k+ Donald Trump Twitter Screenshots
+homepage: https://pikaso.me/blog/trump-twitter-archive
+category: SocialNetworks
+description: This archive contains screenshots of 43,475 Donald Trump tweets from May 2009 to May 2020.
+version: 1.0
+keywords: donald trump, twitter, screenshot
+image:
+temporal:
+spatial:
+access_level: public
+copyrights: Copyright https://pikaso.me
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Pikaso
+    web: https://pikaso.me
+organization:
+  - name: Pikaso
+    web: https://pikaso.me
+issued_time: 2020.06
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
