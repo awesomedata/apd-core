@@ -2,7 +2,7 @@
 title: The global dataset of historical yields for major crops 1981–2016
 homepage: https://doi.pangaea.de/10.1594/PANGAEA.909132
 category: Agriculture
-description: The Global Dataset of Historical Yield (GDHYv1.2+v1.3) offers annual time series data of 0.5-degree grid-cell yield estimates of major crops worldwide for the period 1981-2016. The crops considered in this dataset are maize, rice, wheat and soybean. The unit of yield data is t/ha. The grd-cell yield data were estimated using the satellite-derived crop-specific vegetation index and FAO-reported country yield statistics. Maize and rice have the data for each of two growing seasons (major/secondary). "Winter" and "spring" are used as the growing season categories for wheat. Only "major" growing season is available for soybean. These growing season categories are based on Sacks et al. (2010, DOI: 10.1111/j.1466-8238.2010.00551.x).
+description: "The Global Dataset of Historical Yield (GDHYv1.2+v1.3) offers annual time series data of 0.5-degree grid-cell yield estimates of major crops worldwide for the period 1981-2016. The crops considered in this dataset are maize, rice, wheat and soybean. The unit of yield data is t/ha. The grd-cell yield data were estimated using the satellite-derived crop-specific vegetation index and FAO-reported country yield statistics. Maize and rice have the data for each of two growing seasons (major/secondary). 'Winter' and 'spring' are used as the growing season categories for wheat. Only 'major' growing season is available for soybean. These growing season categories are based on Sacks et al. (2010, DOI: 10.1111/j.1466-8238.2010.00551.x)."
 version: 1.0
 keywords: crop
 temporal:

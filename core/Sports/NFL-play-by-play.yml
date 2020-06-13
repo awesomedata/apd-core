@@ -2,7 +2,7 @@
 title: NFL play-by-play data
 homepage: https://www.dolthub.com/repositories/Liquidata/nfl-play-by-play
 category: Sports
-description: NFL play-by-play data sourced from: https://github.com/guga31bb/nflfastR-data. This data was originally scraped using the nflfastR package. The data was scraped 2020-05-18. The data has three tables: teams, players, and plays.
+description: "NFL play-by-play data sourced from: https://github.com/guga31bb/nflfastR-data. This data was originally scraped using the nflfastR package. The data was scraped 2020-05-18. The data has three tables: teams, players, and plays."
 version: 1.0
 keywords: nfl
 temporal:
