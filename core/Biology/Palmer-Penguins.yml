@@ -1,0 +1,28 @@
+---
+title: Palmer Penguins
+homepage: https://allisonhorst.github.io/palmerpenguins/
+category: Biology
+description: The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.
+keywords: penguins
+image: https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/man/figures/logo.png
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
