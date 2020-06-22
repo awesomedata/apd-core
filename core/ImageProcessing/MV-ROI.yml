@@ -1,0 +1,31 @@
+---
+title: Multi-View Region of Interest Prediction Dataset for Autonomous Driving
+homepage: https://mediatum.ub.tum.de/1548761
+category: ImageProcessing
+description: Contains 16 driving scenarios with 6 camera views each. Manually ROI labels describe circular salient image regions in the driving context. It has about 16000 images and labels.
+version: 1.0
+keywords: region of interest prediction, autonomous driving, teleoperated driving.
+image: https://github.com/hofbi/mv-roi/blob/master/doc/pipeline.jpg
+temporal: 10Hz
+spatial: 640*480
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: http://creativecommons.org/licenses/by/4.0
+publisher:
+  - name:
+    web:
+organization:
+  - name: Chair of Media Technology (LMT), Department of Electrical and Computer Engineering, Technical University of Munich (TUM), Germany
+    web:
+issued_time: 2020.03
+sources:
+  - name: MV-ROI
+    access_url: https://github.com/hofbi/mv-roi
+references:
+  - title: Multi-View Region of Interest Prediction for Autonomous Driving Using Semi-Supervised Labeling
+    reference: https://mediatum.ub.tum.de/node?id=1545467
