@@ -27,7 +27,7 @@ def validate_classification(category_map):
     for category, entries in category_map.items():
         for entry in entries:
             try:
-                data_obj = yaml.load(open(entry))
+                data_obj = yaml.load(open(entry), Loader=yaml.Loader)
             except Exception as e:
                 raise RuntimeError('Failed to read YAML data: {}'.format(e))
 
