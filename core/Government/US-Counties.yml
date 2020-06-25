@@ -1,0 +1,28 @@
+---
+title: US Counties
+homepage: https://github.com/evangambit/JsonOfCounties
+category: Government
+description: This is a repository of various data, broken down by US county. While most of this repository is dedicated to providing the data and code that I used to produce the final dataset, the dataset itself is simply states.json.
+version:
+keywords: county
+image:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_dictionary:
+language: en
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
