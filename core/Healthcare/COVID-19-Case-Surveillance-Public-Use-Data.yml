@@ -1,0 +1,30 @@
+---
+title: COVID-19 Case Surveillance Public Use Data
+homepage: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf
+category: Healthcare
+description: The COVID-19 case surveillance system database includes patient-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and states. On April 5, 2020, COVID-19 was added to the Nationally Notifiable Condition List and classified as 'immediately notifiable, urgent (within 24 hours)' by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data are collected and reported voluntarily to CDC’s COVID-19 Response.
+version: 1.0
+keywords: covid-19, cases, surveillance
+image:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name: CDC Case Surveillance Task Force
+    web:
+issued_time: 2019.02
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
