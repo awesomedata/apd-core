@@ -1,6 +1,6 @@
 ---
 title: GHTorrent
-homepage: ghtorrent.org
+homepage: https://ghtorrent.org
 category: Software
 description: Scalable, queriable, offline mirror of data offered through the Github REST API.
 version: 1.0
