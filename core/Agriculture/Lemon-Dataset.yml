@@ -1,0 +1,15 @@
+---
+title: Lemons quality control dataset
+homepage: https://github.com/softwaremill/lemon-dataset
+category: Agriculture
+description: Lemon dataset has been prepared to investigate the possibilities to tackle the issue of fruit quality control. It contains 2690 annotated images (1056 x 1056 pixels)
+version: 1.0.0
+keywords: fruit, quality, lemon, segementation
+image: https://github.com/softwaremill/lemon-dataset/blob/master/docs/img/lemon-dataset-annotated-sprite.png
+access_level: public
+language: en
+license: MIT
+organization:
+  - name: SoftwareMill
+    web: https://softwaremill.com/
+issued_time: 2020.07

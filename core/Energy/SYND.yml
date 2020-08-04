@@ -1,5 +1,5 @@
 ---
-title: SYND: A synthetic energy dataset for non-intrusive load monitoring
+title: SYND - A synthetic energy dataset for non-intrusive load monitoring
 homepage: https://www.nature.com/articles/s41597-020-0434-6
 category: Energy
 description: With SynD, we present a synthetic energy dataset with focus on residential buildings. We release 180 days of synthetic power data on aggregate level (i.e. mains) and individual appliances. SynD is the result of a custom simulation process that relies on power traces of real household appliances.
