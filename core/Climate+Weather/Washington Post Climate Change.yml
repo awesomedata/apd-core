@@ -1,0 +1,29 @@
+---
+title: Wahington Post Climate Change
+homepage: https://github.com/washingtonpost/data-2C-beyond-the-limit-usa
+category: Climate+Weather
+description: To analyze warming temperatures in the United States, The Washington Post used the National Oceanic and Atmospheric Administration’s Climate Divisional Database (nClimDiv) and Gridded 5km GHCN-Daily Temperature and Precipitation Dataset (nClimGrid) data sets, which provide monthly temperature data between 1895 and 2019 for the Lower 48 states. We calculated annual mean temperature trends in each state and county in the Lower 48 using linear regression — analyzing both annual average temperatures and temperatures for the three-month winter season (December, January and February).
+version: 1.0
+keywords: climate change, state, county
+image:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT License
+publisher:
+  - name:
+    web:
+organization:
+  - name: Washington Post
+    web:
+sources:
+  - name: How to use The Post's climate data analysis
+    access_url: https://www.washingtonpost.com/climate-environment/2020/08/07/how-use-posts-climate-data-analysis/
+references:
+  - title:
+    reference:
