@@ -4,7 +4,7 @@ homepage: https://www.bis.org/statistics/full_data_sets.htm
 category: Finance
 description: BIS statistics, compiled in cooperation with central banks and other national authorities, are designed to inform analysis of financial stability, international monetary spillovers and global liquidity.
 version: 1.0
-keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
+keywords: banking, debt, credit, property, exchange, payment, consumer
 image: https://www.bis.org/img/bis-logo-short.gif
 temporal:
 access_level: public
