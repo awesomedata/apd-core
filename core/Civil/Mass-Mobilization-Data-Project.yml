@@ -22,8 +22,8 @@ organization:
     web:
 issued_time: 2020-06-22
 sources:
-  - name:
-    access_url:
+  - name: Homepage
+    access_url: https://massmobilization.github.io
 references:
   - title:
     reference:
