@@ -1,0 +1,29 @@
+---
+title: Authoritarian Ruling Elites Database
+homepage: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QZ9BSA
+category: SocialSciences
+description: The Authoritarian Ruling Elites Database (ARED) is a collection of biographical and professional information on the individuals who constitute the top elite of authoritarian regimes, generally referred to as the ruling or winning coalition. The sample coverage includes regimes identified by Geddes, Wright, and Frantz (2018) as authoritarian between 1950-2018. There are also a number of pre-1946 regimes covered that clearly constitute authoritarian rule. The unit of observation for the data set is the authoritarian elite, with each row covering a continuous spell of an individual within the ruling institution that is generally accepted as the 'winning coalition' group of the regime. The data sets also include a number of regime identification, professional, and personal biographical variables. This project draws upon a vast field of literature from history, political science/international relations, regional studies, and government/media reports on the regimes. This codebook and the overall ARED project are works-in-progress, with more sets to come. You may observe several bibliographical sections for authoritarian regimes that do not have corresponding data sets prepared yet. These are planned expansions. This document includes a codebook of variables and a bibliography of source materials organized by country and authoritarian regime spell. If you have any source information on any missing data highlighted in yellow or red within the sets, please feel free to contact me at: Austin.Matthews@du.edu Please cite the following if you utilize any data sets: Matthews, Austin S. 2020. Authoritarian Ruling Elites Database (ARED). Harvard Dataverse. Version 1.0. If any data sets on communist-era Eastern Europe are utilized, please cite the following dissertation: Matthews, Austin S. 2018. 'Conflict among Comrades: Elite Purges and Political Violence in Authoritarian Regimes.' LSU Doctoral Dissertations. 4531. https://digitalcommons.lsu.edu/gradschool_dissertations/4531.
+version: 1.0
+keywords: elites, authoritarian, dictatorship
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: Apache License
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2019-04-16
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
