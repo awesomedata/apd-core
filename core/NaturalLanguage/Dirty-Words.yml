@@ -1,0 +1,29 @@
+---
+title: Dirty Words
+homepage: https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words
+category: NaturalLanguage
+description: With millions of images in our library and billions of user-submitted keywords, we work hard at Shutterstock to make sure that bad words don't show up in places they shouldn't. This repo contains a list of words that we use to filter results from our autocomplete server and recommendation engine.
+version: 1.0
+keywords:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:  CC-BY-4.0 License
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2012-03-08
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
