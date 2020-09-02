@@ -1,0 +1,27 @@
+---
+title: China Biographical Database
+homepage: https://projects.iq.harvard.edu/cbdb
+category: SocialNetworks
+description: "The China Biographical Database is a freely accessible relational database with biographical information about approximately 470,000 individuals as of May 2020, primarily from the 7th through 19th centuries. With both online and offline versions, the data is meant to be useful for statistical, social network, and spatial analysis as well as serving as a kind of biographical reference. The image below shows the spatial distribution of a cross dynastic subset of 190,000 people in CBDB by basic affiliations (籍貫)."
+version: 1.0
+keywords: china, bibliography
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_dictionary:
+language: en
+license: CC BY-NC-SA 4.0
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
