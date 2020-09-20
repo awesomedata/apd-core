@@ -1,0 +1,31 @@
+---
+title: 'Cytology Dataset – CCAgT: Images of Cervical Cells with AgNOR Stain Technique'
+homepage: https://arquivos.ufsc.br/d/373be2177a33426a9e6c/
+category: ImageProcessing
+description: 'The dataset contains 2540 images (1600x1200 where each pixel is 0.111μm×0.111μm) from three different slides, having at least one nucleus per image. These images are from fields belonging to a sample cervical slide, colored with silver-stained, a method known as Argyrophilic Nucleolar Organizer Regions (AgNOR). These images were manually labeled with "objects" of four categories: Nuclei, Clusters, Satellites and Out of Focus. This annotations is available in COCO format, and in images masks.'
+version: 1.1
+keywords: Cytology, AgNOR, image segmentation, object detection, semantic segmentation.
+image: https://arquivos.ufsc.br/d/373be2177a33426a9e6c/files/?p=/images/train/2019_11_14__09_25__0165_s0c0x100661-1600y144473-1200m21402.png
+temporal: 2018-2019
+spatial: 1600*1200
+access_level: public
+copyrights: UFSC, LAPiX and the Authors Joao Gustavo A. Amorim, Luiz Antonio B. Macarini, Andre Victoria Matias, Allan Cerentini, Fabiana Botelho De Miranda Onofre, Alexandre Sherlley C. Onofre, Aldo Von Wangenheim
+accrual_periodicity: 
+specification: PNG, JSON
+data_quality: true
+data_dictionary: At readme from https://arquivos.ufsc.br/d/373be2177a33426a9e6c/
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Image Processing and Computer Graphics Lab (LAPiX), INCoD, Department of Informatics and Statistics, Federal University of Santa Catarina - UFSC, Brazil
+    web: www.lapix.ufsc.br/
+issued_time: 2020.08
+sources:
+  - name: 'Cytology Dataset – CCAgT: Images of Cervical Cells with AgNOR Stain Technique'
+    access_url: https://www.lapix.ufsc.br/agnor-dataset/
+references:
+  - title: A Novel Approach on Segmentation of AgNOR-Stained Cytology Images Using Deep Learning
+    reference: https://doi.org/10.1109/CBMS49503.2020.00110
