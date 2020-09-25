@@ -20,7 +20,7 @@ publisher:
   - name: NOAA NERRS Centralized Data Management Office
     web: http://nerrsdata.org
 organization:
-  - name: NOAA Natioanal Estuarine Research Reserve System
+  - name: NOAA National Estuarine Research Reserve System
     web: https://coast.noaa.gov/nerrs/
 issued_time: 
 sources:

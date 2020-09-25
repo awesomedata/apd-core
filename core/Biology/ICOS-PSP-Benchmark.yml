@@ -2,7 +2,7 @@
 title: ICOS PSP Benchmark
 homepage: http://ico2s.org/datasets/psp_benchmark.html
 category: Biology
-description: The ICOS PSP benchmarks repository contains an adjustable real-world family of benchmarks suitable for testing the scalability of classification/regression methods. When we test a machine learning method we usually choose a test suite containing datasets with a broad set of characteristics, as we are interested in knowing how the learning method reacts to a veriety of scenarios. The PSP field provides us with a whole family of real-world classification/regression problems that can be adjusted almost arbitrarily in terms of number of variables, number of classes, class balance, etc. Thus, these datasets are an ideal benchmark suite for data mining methods.
+description: The ICOS PSP benchmarks repository contains an adjustable real-world family of benchmarks suitable for testing the scalability of classification/regression methods. When we test a machine learning method we usually choose a test suite containing datasets with a broad set of characteristics, as we are interested in knowing how the learning method reacts to a variety of scenarios. The PSP field provides us with a whole family of real-world classification/regression problems that can be adjusted almost arbitrarily in terms of number of variables, number of classes, class balance, etc. Thus, these datasets are an ideal benchmark suite for data mining methods.
 version:
 keywords:
 image:
