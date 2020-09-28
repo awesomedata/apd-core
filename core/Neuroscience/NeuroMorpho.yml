@@ -3,7 +3,7 @@ title: NeuroMorpho
 homepage: http://neuromorpho.org/
 category: Neuroscience
 description: NeuroMorpho.Org is a centrally curated inventory of digitally reconstructed neurons associated with peer-reviewed publications. It contains contributions from over 400 laboratories worldwide and is continuously updated as new morphological reconstructions are collected, published, and shared. To date, NeuroMorpho.Org is the largest collection of publicly accessible 3D neuronal reconstructions and associated metadata.
-ersion: 7.5
+version: 7.5
 keywords: Neuron, morphology
 image:
 temporal:
