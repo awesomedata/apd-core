@@ -1,0 +1,28 @@
+---
+title: Jail deaths in America
+homepage: https://www.reuters.com/investigates/special-report/usa-jails-graphic/
+category: Government
+description: The U.S. government does not release jail by jail mortality data, keeping the public and policy makers in the dark about facilities with high rates of death. In a first-of-its-kind accounting, Reuters obtained and is releasing that data to the public.
+version: 1.0
+keywords: death, jail
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Reuters
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
