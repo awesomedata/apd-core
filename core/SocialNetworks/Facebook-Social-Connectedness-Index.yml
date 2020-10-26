@@ -1,0 +1,29 @@
+---
+title: Facebook Social Connectedness Index
+homepage: https://data.humdata.org/dataset/social-connectedness-index
+category: SocialNetworks
+description: We use an anonymized snapshot of all active Facebook users and their friendship networks to measure the intensity of connectedness between locations. The Social Connectedness Index (SCI) is a measure of the social connectedness between different geographies. Specifically, it measures the relative probability that two individuals across two locations are friends with each other on Facebook.
+version: 1.0
+keywords: facebook
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
