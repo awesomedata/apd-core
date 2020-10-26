@@ -1,0 +1,29 @@
+---
+title: Debt to the Penny
+homepage: https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny
+category: Government
+description: The Debt to the Penny dataset provides information about the total outstanding public debt and is reported each day. Debt to the Penny is made up of intragovernmental holdings and debt held by the public, including securities issued by the U.S. Treasury. Total public debt outstanding is composed of Treasury Bills, Notes, Bonds, Treasury Inflation-Protected Securities (TIPS), Floating Rate Notes (FRNs), and Federal Financing Bank (FFB) securities, as well as Domestic Series, Foreign Series, State and Local Government Series (SLGS), U.S. Savings Securities, and Government Account Series (GAS) securities. Debt to the Penny is updated at 3:00 PM EST each business day with data from the previous business day.
+version: 1.0
+keywords: treasury, public debt
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
