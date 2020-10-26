@@ -1,0 +1,29 @@
+---
+title: Global Wind Atlas
+homepage: https://globalwindatlas.info/
+category: EarthScience
+description: The Global Wind Atlas is a free, web-based application developed to help policymakers, planners, and investors identify high-wind areas for wind power generation virtually anywhere in the world, and then perform preliminary calculations. The Global Wind Atlas facilitates online queries and provides freely downloadable datasets based on the latest input data and modeling methodologies.
+version: 1.0
+keywords: wind
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
