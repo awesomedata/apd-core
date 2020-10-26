@@ -1,0 +1,29 @@
+---
+title: Newspaper Navigator
+homepage: https://news-navigator.labs.loc.gov/
+category: ImageProcessing
+description: This dataset consists of extracted visual content for 16,358,041 historic newspaper pages in Chronicling America. The visual content was identified using an object detection model trained on annotations of World War 1-era Chronicling America pages, including annotations made by volunteers as part of the Beyond Words crowdsourcing project. The dataset also includes text corresponding to the visual content, identified by extracting the Optical Character Recognition, or OCR, within each predicted bounding box. For example, if the visual content recognition model predicted a bounding box around a headline, the corresponding textual content provides a machine-readable version of the headline; likewise, for a photograph, illustration, or map, this textual representation often contains the title and caption.
+version: 1.0
+keywords: newspaper
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality:
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: Github
+    access_url: https://github.com/LibraryOfCongress/newspaper-navigator
+references:
+  - title: 
+    reference: 
