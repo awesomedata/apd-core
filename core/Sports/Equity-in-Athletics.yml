@@ -1,0 +1,28 @@
+---
+title: Equity in Athletics
+homepage: https://ope.ed.gov/athletics
+category: Sports
+description: The Equity in Athletics Data Analysis Cutting Tool is brought to you by the Office of Postsecondary Education of the U.S. Department of Education. This analysis cutting tool was designed to provide rapid customized reports for public inquiries relating to equity in athletics data. The data are drawn from the OPE Equity in Athletics Disclosure Website database. This database consists of athletics data that are submitted annually as required by the Equity in Athletics Disclosure Act (EADA), via a Web-based data collection, by all co-educational postsecondary institutions that receive Title IV funding (i.e., those that participate in federal student aid programs) and that have an intercollegiate athletics program.
+version: 1.0
+keywords: athletics
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: Data List
+    access_url: https://ope.ed.gov/athletics/#/datafile/list
+references:
+  - title: 
+    reference: 
