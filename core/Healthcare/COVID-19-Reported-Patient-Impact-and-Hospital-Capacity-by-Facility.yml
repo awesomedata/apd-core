@@ -1,0 +1,29 @@
+---
+title: COVID-19 Reported Patient Impact and Hospital Capacity by Facility 
+homepage: https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility?SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset
+category: Healthcare
+description: "The following dataset provides facility-level data for hospital utilization aggregated on a weekly basis (Friday to Thursday). These are derived from reports with facility-level granularity across two main sources: (1) HHS TeleTracking, and (2) reporting provided directly to HHS Protect by state/territorial health departments on behalf of their healthcare facilities. The hospital population includes all hospitals registered with Centers for Medicare & Medicaid Services (CMS) as of June 1, 2020. It includes non-CMS hospitals that have reported since July 15, 2020. It does not include psychiatric, rehabilitation, Indian Health Service (IHS) facilities, U.S. Department of Veterans Affairs (VA) facilities, Defense Health Agency (DHA) facilities, and religious non-medical facilities."
+version: 1.0
+keywords: covid-19, covid
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Open Data Commons Attribution License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time: 2020-12-07
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
