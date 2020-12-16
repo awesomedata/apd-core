@@ -1,0 +1,29 @@
+---
+title: Traffic and Log Data Captured During a Cyber Defense Exercise
+homepage: https://zenodo.org/record/3746129
+category: CyberSecurity
+description: "This dataset was acquired during Cyber Czech – a hands-on cyber defense exercise (Red Team/Blue Team) held in March 2019 at Masaryk University, Brno, Czech Republic. Network traffic flows and a high variety of event logs were captured in an exercise network deployed in the KYPO Cyber Range Platform."
+version: 1.0
+keywords: Cybersecurity, Cyber defense exercise, Network traffic, Network flow, Event log, Syslog, KYPO
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: Traffic and log data captured during a cyber defense exercise
+    reference: https://www.sciencedirect.com/science/article/pii/S2352340920306788
