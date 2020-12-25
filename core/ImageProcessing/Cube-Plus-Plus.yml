@@ -1,0 +1,40 @@
+---
+title: Cube++
+homepage: https://github.com/Visillect/CubePlusPlus
+category: ImageProcessing
+description: 4890 raw 18-megapixel images, each containing a SpyderCube color target in their scenes, manually labelled categories, and ground truth illumination chromaticities. The dataset was collected for illumination estimation problem.
+version: 2.0
+keywords: Color Constancy, Illumination Estimation, White Balance, Multiple Illumination, Mixed Illumination
+image: https://github.com/Visillect/CubePlusPlus/blob/master/description/examples.jpg
+temporal: 2014-2020
+spatial: 2592*1728
+access_level: public
+copyrights: 
+accrual_periodicity: 
+specification: 
+data_quality: 
+data_dictionary: 
+language: en
+license: CC BY 4.0
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Institute for Information Transmission Problems RAS, Moscow, Russia
+    web: http://iitp.ru/en/about
+  - name: Gideon Brothers, Radnička, Zagreb, Croatia
+    web: https://www.gideonbros.ai/
+  - name: Faculty of Electrical Engineering and Computing, University of Zagreb, Zagreb, Croatia
+    web: https://www.fer.unizg.hr/en
+issued_time: 2020.12
+sources:
+  - name: Zenodo page
+    access_url: https://zenodo.org/record/4153431
+  - name: Github repo
+    access_url: https://github.com/Visillect/CubePlusPlus/
+references:
+  - title: The Cube++ Illumination Estimation Dataset
+    reference: https://ieeexplore.ieee.org/document/9296220
+  - title: The Cube++ Illumination Estimation Dataset (preprint)
+    reference: https://arxiv.org/abs/2011.10028
+
