@@ -1,6 +1,6 @@
 ---
 title: RevolutionAnalytics Collection
-homepage: http://packages.revolutionanalytics.com/datasets/
+homepage: https://packages.revolutionanalytics.com/datasets/
 category: PublicDomains
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
