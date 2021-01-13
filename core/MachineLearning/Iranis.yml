@@ -1,0 +1,31 @@
+---
+title: Iranis
+homepage: https://alitourani.github.io/Iranis-dataset/
+category: MachineLearning
+description: A Large-scale Dataset of Farsi/Arabic License Plate Characters
+version: 1.0
+keywords: machine learning, deep learning, license plate, farsi character, arabic character.
+image: https://raw.githubusercontent.com/alitourani/Iranis-dataset/master/_doc/Iranis_License_Plates.png
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Technology Incubation Center of the University of Guilan, Guilan Province, Iran
+    web: 
+issued_time: 2021.01
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
