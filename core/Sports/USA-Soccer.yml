@@ -1,0 +1,31 @@
+---
+title: USA Soccer Teams and Locations
+homepage: https://github.com/gavinr/usa-soccer
+category: Sports
+description: USA soccer teams and locations. MLS, NWSL, and USL conferences. CSV and GeoJSON formats.
+version: 2021.1
+keywords: soccer,usa,locations
+image: https://raw.githubusercontent.com/gavinr/usa-soccer/master/map.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: MIT
+publisher:
+  - name: Gavin Rehkemper
+    web: https://gavinr.com
+organization:
+  - name: 
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
