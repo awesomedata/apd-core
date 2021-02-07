@@ -1,0 +1,28 @@
+---
+title: 2021 Portuguese Elections Twitter Dataset - 57M+ tweets, 1M+ users 
+homepage: https://github.com/msramalho/election-watch/blob/master/datasets/01_portuguese_presidential_elections_2021_01_24.md
+category: SocialNetworks
+description: This dataset contains 57.155.221 tweets and 1.115.491 users mostly from the Portuguese Twittersphere, collected from Sep 2nd 2020 to Jan 30 2021 (151 days). The watched users stem from a seed of political accounts and news sources. The dataset further contains 1857 suspended users, along with their time_suspended and time_unsuspended in case of reactivations. 
+version: 1.0
+keywords: twitter, elections, politics, portugal
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: MIT
+publisher:
+  - name: Miguel Sozinho Ramalho
+    web: https://github.com/msramalho
+issued_time: 2021.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
