@@ -1,6 +1,6 @@
 ---
 title: Google Scholar citation relations
-homepage: http://www3.cs.stonybrook.edu/~leman/data/gscholar.db
+homepage: https://web.archive.org/web/20190522043016/http://www3.cs.stonybrook.edu/~leman/data/gscholar.db
 category: SocialNetworks
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
