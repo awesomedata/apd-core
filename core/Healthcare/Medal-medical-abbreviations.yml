@@ -1,0 +1,28 @@
+---
+title: MeDAL - A large medical text dataset curated for abbreviation disambiguation
+homepage: https://github.com/BruceWen120/medal
+category: Healthcare
+description: Medical Dataset for Abbreviation Disambiguation for Natural Language Understanding (MeDAL) is a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
+version:
+keywords: healthcare, medicine, nlp, abbreviations
+image: https://raw.githubusercontent.com/BruceWen120/medal/master/figures/rs_illustration.svg
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: National Library of Medicine Terms and Conditions
+publisher: 
+  - name: Association for Computational Linguistics
+    web: https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/
+issued_time: 2020.11
+sources:
+  - name: U.S. National Library of Medicine
+    access_url: https://www.nlm.nih.gov/databases/download/pubmed_medline.html
+references:
+  - title: 
+    reference: 
