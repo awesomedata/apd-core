@@ -1,0 +1,31 @@
+---
+title: Awesome 3D Semantic City Models
+homepage: https://github.com/OloOcki/awesome-citygml
+category: GIS
+description: Collection of open 3D semantic city and region models.
+version: 1.0
+keywords: 3D models, 3D semantic city models, CityGML, CityJSON.
+image: https://raw.githubusercontent.com/OloOcki/awesome-citygml/main/img/awesomeGif.gif
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: MIT License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: 
+issued_time: 2021.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
