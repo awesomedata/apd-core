@@ -37,7 +37,7 @@ ${underline}
             import textwrap
 
             title = entry['title']
-            description = entry['description']
+            description = entry.get('description')
             link = entry['homepage']
             raw_file_name = entry.pop('_rawFileName', None)
 
