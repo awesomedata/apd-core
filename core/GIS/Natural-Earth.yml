@@ -1,6 +1,6 @@
 ---
 title: Natural Earth - vectors and rasters of the world
-homepage: http://www.naturalearthdata.com/
+homepage: https://www.naturalearthdata.com/downloads/
 category: GIS
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
