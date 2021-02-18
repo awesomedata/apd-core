@@ -1,6 +1,6 @@
 ---
 title: Earth Models
-homepage: http://www.earthmodels.org/
+homepage: https://earthmodels.org/
 category: EarthScience
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
