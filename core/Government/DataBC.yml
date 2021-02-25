@@ -1,6 +1,6 @@
 ---
 title: DataBC - data from the Province of British Columbia
-homepage: http://www.data.gov.bc.ca/
+homepage: https://www.data.gov.bc.ca/
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
