@@ -1,0 +1,31 @@
+---
+title: TikTok Dataset
+homepage: https://www.yasamin.page/hdnet_tiktok
+category: MachineLearning
+description: More than 300 dance videos that capture a single person performing dance moves from TikTok dance challenge compilations for each month, variety, type of dances, which are moderate movements that do not generate excessive motion blur.
+version: 1.0
+keywords: TikTok, Dataset, MachineLearning
+image: https://lh5.googleusercontent.com/NDacI03AI0tuVp-sk_wm_Lre4-aUyiSmeQRkpRg-GnABh0MeiXiejFYGI50wlyuOFvpwIAQYhVmjOWK2EO07PpwW2s5Tb4AL7uvu8MMGkvqAulWtATjTnqpLau0LfTim0A=w1280
+temporal:
+spatial: 1080x604
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: University of Minnesota
+    web: 
+issued_time: 2019.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
