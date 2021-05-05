@@ -1,0 +1,23 @@
+---
+title: Airborne Object Detection and Tracking
+homepage: https://www.aicrowd.com/challenges/airborne-object-tracking-challenge
+category: ImageProcessing
+description: The Airborne Object Tracking (AOT) dataset is a collection of flight sequences collected onboard aerial vehicles with high-resolution cameras. To generate those sequences, two aircraft are equipped with sensors and fly planned encounters (e.g., Helicopter1 in Figure 1(a)). The trajectories are designed to create a wide distribution of distances, closing velocities, and approach angles. In addition to the so-called planned aircraft, AOT also contains other unplanned airborne objects, which may be present in the sequences (e.g., Airborne1 in Figure 1(a)). Those objects are also labeled but their distance information is not available. Airborne objects usually appear quite small at the distances which are relevant for early detection: 0.01% of the image size on average, down to a few pixels in area (compared to common object detection datasets, which exhibit objects covering more considerable portion of the image). This makes AOT a new and challenging dataset for the detection and tracking of potential aerial approaching objects. In total, AOT includes close to 164 hours of flight data.
+version: 1.0
+keywords: object detection, tracking, autonomous navigation, automotive.
+image: https://images.aicrowd.com/uploads/ckeditor/pictures/400/493d98aa-b7e5-45f8-aed1-640e4768f647_video.gif
+temporal: true
+spatial: true
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: CDLA-Sharing-1.0
+publisher: []
+organization: []
+issued_time: 2021.04
+sources: []
+references: []
