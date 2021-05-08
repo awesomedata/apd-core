@@ -1,0 +1,31 @@
+---
+title: SEC EDGAR
+homepage: https://www.sec.gov/edgar/about
+category: Finance
+description: EDGAR, the Electronic Data Gathering, Analysis, and Retrieval system, is the primary system for companies and others submitting documents under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940. Containing millions of company and individual filings, EDGAR benefits investors, corporations, and the U.S. economy overall by increasing the efficiency, transparency, and fairness of the securities markets. The system processes about 3,000 filings per day, serves up 3,000 terabytes of data to the public annually, and accommodates 40,000 new filers per year on average.
+version: 1.0
+keywords: Finance, Finacial, Markets, SEC, EDGAR, Filing, Public.
+image: https://www.sec.gov/files/sec-logo.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://www.sec.gov/forms
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name: U.S. Securities and Exchange Commission
+    web:
+issued_time: 2021.05
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
