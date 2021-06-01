@@ -30,7 +30,7 @@ cd apd-core
 
 3. Create a new data entry from template `PULL_REQUEST_TEMPLATE.yml`. 
 
-For example, we want create `NEW_DATASET.yml` under category folder of `Government`:
+For example, we want to create `NEW_DATASET.yml` under category folder of `Government`:
 ```bash
 cp PULL_REQUEST_TEMPLATE.yml ./core/Government/NEW_DATASET.yml
 ```
