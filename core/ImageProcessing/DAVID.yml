@@ -1,0 +1,29 @@
+---
+title: Densely Annotated Video Driving Data Set
+homepage: https://mediatum.ub.tum.de/1596437
+category: ImageProcessing
+description: This data set consists of 28 video sequences of driving recorded in the CARLA simulator, resulting in a total of 10767 frames. For each frame, pixel-wise semantic labels are provided. The scenes are recorded in dynamic weather and traffic conditions.
+version: 1.0
+keywords: semantic segmentation, autonomous driving.
+image:
+temporal: 10Hz
+spatial: 640*480
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: http://creativecommons.org/licenses/by/4.0
+publisher:
+  - name:
+    web:
+organization:
+  - name: Chair of Media Technology (LMT), Department of Electrical and Computer Engineering, Technical University of Munich (TUM), Germany
+    web:
+issued_time: 2021.05
+sources: []
+references:
+  - title: Pixel-Wise Failure Prediction for Semantic Video Segmentation
+    reference: https://mediatum.ub.tum.de/node?id=1612342
