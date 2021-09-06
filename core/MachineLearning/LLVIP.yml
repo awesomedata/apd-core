@@ -1,0 +1,23 @@
+---
+title: LLVIP
+homepage: https://bupt-ai-cz.github.io/LLVIP/
+category: MachineLearning
+description: This dataset contains 30976 images, or 15488 pairs, most of which were taken at very dark scenes, and all of the images are strictly aligned in time and space. Pedestrians in the dataset are labeled. We compare the dataset with other visible-infrared datasets and evaluate the performance of some popular visual algorithms including image fusion, pedestrian detection and image-to-image translation on the dataset.
+version: 1.0
+keywords: image fusion, pedestrian detection, image-to-image translation.
+image: 
+temporal:
+spatial: 
+access_level: 
+copyrights: This LLVIP Dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation.
+accrual_periodicity: 
+specification:
+data_quality: 1280x1044
+data_dictionary: 
+language: en
+license: https://github.com/bupt-ai-cz/LLVIP/blob/main/Term%20of%20Use%20and%20License.md
+publisher:
+organization: Beijing University of Posts and Telecommunications
+issued_time: 
+sources:
+references:
