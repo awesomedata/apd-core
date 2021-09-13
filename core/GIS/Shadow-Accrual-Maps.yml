@@ -1,0 +1,13 @@
+---
+title: Shadow Accrual Maps
+homepage: https://github.com/VIDA-NYU/shadow-accrual-maps/
+category: GIS
+description: The repository contains the accumulated shadow information for New York City, Chicago, Los Angeles, Washington D.C., Boston and a script for retrieving the data.
+version: 1.0
+keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
+image: https://raw.githubusercontent.com/ViDA-NYU/shadow-accrual-maps/master/nyc-shadow.png
+access_level: public
+language: en
+organization:
+  - name: University of Illinois at Chicago and New York University
+issued_time: 2019
