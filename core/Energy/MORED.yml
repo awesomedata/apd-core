@@ -1,0 +1,31 @@
+---
+title: MORED: a Moroccan Buildings’ Electricity Consumption Dataset
+homepage: https://github.com/MOREDataset/MORED
+category: Energy
+description: Since spring of 2019, a data acquisition campaign is being conducted to collect data reflecting the electricity consumption of different urban premises in different Moroccan cities. MORED is the first open African dataset of buildings' electricity consumption. It contains labelled WP and IL ground-truth consumption data, labelled IL signatures, and WP consumption data of several Morccan households and Loads. The aim for providing such a dataset is to continue the progress that the field of energy disaggregation knew in the previous decade, by providing a dataset that has more data and utilises the field's recent advances.
+version: 1.3
+keywords: load disaggregation, NILM, load forecasting, residential electricity consumption.
+image: https://github.com/MOREDataset/MORED/raw/master/Header1.jpg
+temporal:
+spatial: 
+access_level: public
+copyrights: 
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: M. Aymane Ahajjam
+    web: 
+organization:
+  - name: TICLab, International University of Rabat, Morocco
+    web: https://www.uir.ac.ma/fr/page/tic-lab-technologies-de-linformation-et-de-la-communication
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: MORED: A Moroccan Buildings’ Electricity Consumption Dataset
+    reference: https://doi.org/10.3390/en13246737
