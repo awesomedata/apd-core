@@ -1,5 +1,5 @@
 ---
-title: MORED: a Moroccan Buildings’ Electricity Consumption Dataset
+title: "MORED: a Moroccan Buildings’ Electricity Consumption Dataset"
 homepage: https://github.com/MOREDataset/MORED
 category: Energy
 description: Since spring of 2019, a data acquisition campaign is being conducted to collect data reflecting the electricity consumption of different urban premises in different Moroccan cities. MORED is the first open African dataset of buildings' electricity consumption. It contains labelled WP and IL ground-truth consumption data, labelled IL signatures, and WP consumption data of several Morccan households and Loads. The aim for providing such a dataset is to continue the progress that the field of energy disaggregation knew in the previous decade, by providing a dataset that has more data and utilises the field's recent advances.
@@ -27,5 +27,5 @@ sources:
   - name: 
     access_url: 
 references:
-  - title: MORED: A Moroccan Buildings’ Electricity Consumption Dataset
+  - title: "MORED: A Moroccan Buildings’ Electricity Consumption Dataset"
     reference: https://doi.org/10.3390/en13246737
