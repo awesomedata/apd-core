@@ -1,0 +1,33 @@
+---
+title: Fluorescent Neuronal Cells
+homepage: http://amsacta.unibo.it/id/eprint/6706
+category: MachineLearning
+description: By releasing this dataset, we aim at providing a new testbed for computer vision techniques using Deep Learning. The main peculiarity is the shift from the domain of "natural images" proper of common benchmark datasets to biological imaging. We anticipate that the advantages of doing so could be two-fold; i) fostering research in biomedical-related fields - for which popular pre-trained models perform typically poorly - and ii) promoting methodological research in deep learning by addressing peculiar requirements of these images. Possible applications include but are not limited to semantic segmentation, object detection and object counting. The data consist of 283 high-resolution pictures (1600x1200 pixels) of mice brain slices acquired through a fluorescence microscope. The final goal is to individuate and count neurons highlighted in the pictures by means of a marker, so to assess the result of a biological experiment. The corresponding ground-truth labels were generated through a hybrid approach involving semi-automatic and manual semantic segmentation. The result consists of black (0) and white (255) images having pixel-level annotations of where the stained neurons are located. For more information, please refer to Morelli, R. et al., 2021. Automating cell counting in fluorescent microscopy through deep learning with c-ResUnet. Scientific reports, (in press). https://doi.org/10.1038/s41598-021-01929-5. The collection of original images was supported by funding from the University of Bologna (RFO 2018) and the European Space Agency (Research agreement collaboration 4000123556).
+version: 1.0
+keywords: semantic segmentation; object detection; object counting; neuronal cells; fluorescent microscopy
+image: https://www.nature.com/articles/s41598-021-01929-5/figures/1
+temporal:
+spatial: 1200x1600
+access_level: public
+copyrights: Copyright © Luca Clissa,  Roberto Morelli, Timna Hitrec, Marco Luppi, Lorenzo Rinaldi, Fabio Squarcio, Antonio Zoccoli, Stefano Bastianini, Chiara Berteotti, Viviana Lo Martire, Davide Martelli, Alessandra Occhinegro, Domenico Tupone, Giovanna Zoccoli (2021)
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License CC BY-SA 4.0
+publisher:
+  - name: AMS Acta, University of Bologna Digital Library
+    web: http://amsacta.unibo.it/
+organization:
+  - name: University of Bologna, Department of Physics and Astronomy, Department of Biomedical and Neuromotor Sciences, and National Institute for Nuclear Physics, Bologna, Italy
+    web: 
+issued_time: 2021.11
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: Automating cell counting in fluorescent microscopy through deep learning with c-ResUnet
+    reference: www.nature.com/articles/s41598-021-01929-5
+
+
