@@ -1,0 +1,31 @@
+---
+title: BCNB
+homepage: https://bupt-ai-cz.github.io/BCNB/
+category: Biology
+description: There are WSIs of 1058 patients, part of tumor regions are annotated in WSIs. Except for the WSIs, we have also provided the clinical data of each patient, which includes age, tumor size, tumor type, ER, PR, HER2, HER2 expression, histological grading, surgical, Ki67, molecular subtype, number of lymph node metastases, and ALN status.
+version:
+keywords: breast, image classification, multi-modal, clinical characteristics
+image: https://raw.githubusercontent.com/bupt-ai-cz/bupt-ai-cz/main/imgs/BCNB-logo.png
+temporal:
+spatial: 
+access_level: 
+copyrights: https://github.com/bupt-ai-cz/BALNMP#license
+accrual_periodicity: 
+specification:
+data_quality:
+data_dictionary: 
+language:
+license: https://github.com/bupt-ai-cz/BALNMP#license
+publisher:
+  - name: CVSM Group
+    web: https://github.com/bupt-ai-cz
+organization:
+  - name:
+    web: 
+issued_time:
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: Predicting Axillary Lymph Node Metastasis in Early Breast Cancer Using Deep Learning on Primary Tumor Biopsy Slides
+    reference: https://www.frontiersin.org/articles/10.3389/fonc.2021.759007/bibTex
