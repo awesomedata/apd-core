@@ -1,0 +1,31 @@
+---
+title: Covid-19 non-processed data of Ecuador
+homepage: https://github.com/andrab/ecuacovid
+category: Healthcare
+description: It's a project which provides non-processed datasets about Covid-19 in Ecuador. Data are extracted from official reports by SNGRE, MSP and Registro Civil del Ecuador. All of them are governmental organizations.
+version: 1.0
+keywords: Covid 19, Ecuador, Ecuacovid, Coronavirus.
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: true
+data_dictionary: 
+language: es
+license: MIT License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Andrab S.A.
+    web: 
+issued_time: 2021.12
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
