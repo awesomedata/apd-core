@@ -1,0 +1,25 @@
+---
+title: Transfermarkt Datasets
+homepage: https://github.com/dcaribou/transfermarkt-datasets
+category: Sports
+description: Clean, structured and automatically updated football (soccer) data from Transfermarkt
+version: 1.0
+keywords: football, soccer, players, games, matches
+image: https://raw.githubusercontent.com/dcaribou/transfermarkt-datasets/master/diagram.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Apache License
+publisher:
+  - name: dcaribou
+    web: https://github.com/dcaribou
+issued_time: 2022.04.08
+sources:
+  - name: Transfermarkt
+    access_url: https://www.transfermarkt.com/
