@@ -1,0 +1,31 @@
+---
+title: Marktstammdatenregister
+homepage: https://www.marktstammdatenregister.de/MaStR/Datendownload
+category: Energy
+description: The German Marktstammdatenregister (MaStR) is a database of all electricity and gas producing units and storages in Germany. Entries contain information on plant capacity, ownership, location, and installation date. As of May 2022, the database includes around 33.000 wind turbines, 2.3 million PV systems, and 21.000 biomass plants. It is updated on a daily base. 
+version: 1.0.2
+keywords: energy, climate, power sector, power plants.
+image: 
+temporal:
+spatial: Germany
+access_level: public
+copyrights: Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: de
+license: CC BY-ND 3.0 DE
+publisher:
+  - name: Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen
+    web: https://www.bundesnetzagentur.de/EN/
+organization:
+  - name: Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen
+    web: https://www.bundesnetzagentur.de/EN/
+issued_time: 2022.05
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
