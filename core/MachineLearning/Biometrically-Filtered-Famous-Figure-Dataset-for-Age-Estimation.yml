@@ -1,0 +1,8 @@
+---
+title: B3FD - Facial age (and gender) estimation dataset with 375k images
+homepage: https://github.com/kbesenic/B3FD
+category: MachineLearning
+description: The B3FD dataset is a publicly available unconstrained facial image dataset for age (and gender) estimation introduced in the paper Picking out the bad apples - unsupervised biometric data filtering for refined age estimation, consisting of 375,592 facial image samples with corresponding age labels.
+version: 1.0
+keywords: age estimation, gender estimation, face analysis, web scraping, biometric filtering.
+
