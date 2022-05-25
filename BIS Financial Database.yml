@@ -1,0 +1,8 @@
+---
+title: BIS Financial Database
+homepage: https://www.bis.org/statistics/full_data_sets.htm
+category: Economics
+description: The files contain the same data as in the BIS Statistics Explorer and BIS Statistics Warehouse. For more information about the series codes in each file, see the code structures in the BIS Statistics Explorer or BIS Statistics Warehouse. 
+organization:
+  - name: Bank for International Settlements
+    web: https://www.bis.org/about/index.htm
