@@ -1,21 +1,21 @@
 ---
 title: 'Cytology Dataset – CCAgT: Images of Cervical Cells with AgNOR Stain Technique'
-homepage: https://arquivos.ufsc.br/d/373be2177a33426a9e6c/
+homepage: https://doi.org/10.17632/wg4bpm33hj.2
 category: ImageProcessing
-description: 'The dataset contains 2540 images (1600x1200 where each pixel is 0.111μm×0.111μm) from three different slides, having at least one nucleus per image. These images are from fields belonging to a sample cervical slide, colored with silver-stained, a method known as Argyrophilic Nucleolar Organizer Regions (AgNOR). These images were manually labeled with "objects" of four categories: Nuclei, Clusters, Satellites and Out of Focus. This annotations is available in COCO format, and in images masks.'
-version: 1.1
+description: 'Contains 9339 images with resolution of 1600×1200 where each pixel is 0.111µmX0.111µm from 15 different slides stained with AgNOR technique, having at least one label per image. Have more than sixty-three thousand annotations. The images from patients of Gynecology and Colonoscopy Outpatient Clinic of the Polydoro Ernani de São Thiago University Hospital of the Universidade Federal de Santa Catarina (HU-UFSC). This research was approved by the UFSC Research Ethics Committee (CEPSH), protocol number 57423616.3.0000.0121. First, all patients involved were informed about the objectives of the study, and those who agreed to participate signed an informed consent form.'
+version: 2.0
 keywords: Cytology, AgNOR, image segmentation, object detection, semantic segmentation.
 image: https://arquivos.ufsc.br/d/373be2177a33426a9e6c/files/?p=/images/train/2019_11_14__09_25__0165_s0c0x100661-1600y144473-1200m21402.png
 temporal: 2018-2019
 spatial: 1600*1200
 access_level: public
-copyrights: UFSC, LAPiX and the Authors Joao Gustavo A. Amorim, Luiz Antonio B. Macarini, Andre Victoria Matias, Allan Cerentini, Fabiana Botelho De Miranda Onofre, Alexandre Sherlley C. Onofre, Aldo Von Wangenheim
+copyrights: UFSC, LAPiX and the Authors Joao Gustavo A. Amorim, Andre Victoria Matias, Tainee Bottamedi, Vinícius Sanches, Ane Francyne Costa, Fabiana Botelho De Miranda Onofre, Alexandre Sherlley C. Onofre, Aldo Von Wangenheim
 accrual_periodicity: 
 specification: PNG, JSON
 data_quality: true
-data_dictionary: At readme from https://arquivos.ufsc.br/d/373be2177a33426a9e6c/
+data_dictionary: At readme from https://doi.org/10.17632/wg4bpm33hj.2
 language: en
-license: Apache License
+license: CC BY NC 3.0
 publisher:
   - name: 
     web: 
@@ -26,6 +26,10 @@ issued_time: 2020.08
 sources:
   - name: 'Cytology Dataset – CCAgT: Images of Cervical Cells with AgNOR Stain Technique'
     access_url: https://www.lapix.ufsc.br/agnor-dataset/
+  - name: 'Images of Cervical Cells with AgNOR Stain Technique'
+    access_url: https://huggingface.co/datasets/lapix/CCAgT
 references:
   - title: A Novel Approach on Segmentation of AgNOR-Stained Cytology Images Using Deep Learning
     reference: https://doi.org/10.1109/CBMS49503.2020.00110
+  - title: Semantic Segmentation for the Detection of Very Small Objects on Cervical Cell Samples Stained with the AgNOR Technique
+    reference: https://dx.doi.org/10.2139/ssrn.4126881
