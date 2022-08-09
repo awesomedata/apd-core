@@ -1,0 +1,31 @@
+---
+title: CytoImageNet
+homepage: https://www.kaggle.com/stanleyhua/cytoimagenet
+category: Biology
+description: A large-scale dataset of microscopy images. Contains 890,737 total grayscale images. 894 classes (approx. 1000 images per class). Images belong to 40 openly-available datasets from Recursion, Image Data Resource, Broad Bioimage Benchmark Collection, Kaggle and the Cell Image Library.
+version: 1.0
+keywords: computer vision, microscopy images, biology, deep learning
+image: https://github.com/stan-hua/CytoImageNet/blob/c65f28d6ca27cb7ecb37dfa442576083b5496522/figures/github_images/cytoimagenet_plot.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Public Domain
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Moses Lab, Department of Cell and Systems Biology, University of Toronto, Canada
+    web: 
+issued_time: 2022.08
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
