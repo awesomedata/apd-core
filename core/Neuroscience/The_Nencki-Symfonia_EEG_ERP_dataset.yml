@@ -1,0 +1,31 @@
+---
+title: The Nencki-Symfonia EEG/ERP dataset
+homepage: http://gigadb.org/dataset/100990
+category: Neuroscience
+description:  A high-density electroencephalography (EEG) dataset from a sample of 42 healthy young adults while they performed three cognitive tasks; (1) an extended Multi-Source Interference Task (MSIT+) with control, Simon, Flanker, and multi-source interference trials; (2) a 3-stimuli oddball task with frequent standard, rare target, and rare distractor stimuli; (3) a control, simple reaction task (SRT); and additionally (4) a resting-state protocol (REST). Basic demographic and psychometric information are included within the dataset (including The Amsterdam Resting-state Questionnaire (ARSQ) and UWIST Mood Adjective Check List questionnaires).
+version: 1.0
+keywords: EEG, MSIT, oddball, resting-state, cognitive control, attention
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: 
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Nencki Institute of Experimental Biology PAS
+    web: 
+issued_time: 2019.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: The Nencki-Symfonia electroencephalography/event-related potential dataset; Multiple cognitive tasks and resting-state data collected in a sample of healthy adults 
+    reference: https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac015/6543635?login=true
