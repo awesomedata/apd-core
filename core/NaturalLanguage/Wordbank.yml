@@ -1,0 +1,25 @@
+---
+title: Wordbank
+homepage: http://wordbank.stanford.edu/
+category: NaturalLanguage
+description: Open, de-identified database of vocabulary development from 84,138 children and 93,955 CDI administrations, across 38 languages and 78 instruments. The data managers of this project request that all data be accessed through the R package wordbankr - https://github.com/langcog/wordbankr
+version:
+keywords: Language development, natural language, linguistics, linguistic research
+image: http://wordbank.stanford.edu/static/images/walrus.png
+temporal:
+spatial: 384*384
+access_level: public
+copyrights: Unless otherwise stated, Wordbank and its datasets are licensed under a Creative Commons Attribution 4.0 International License/ http://wordbank.stanford.edu/faq#what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site
+accrual_periodicity: 
+specification:
+data_quality:
+data_dictionary: 
+language: en
+license: Creative Commons Attribution 4.0 International License
+publisher:
+organization: Stanford University
+issued_time:
+sources:
+references:
+  - title: Wordbank - An open repository for developmental vocabulary data
+    reference: Frank, M. C., Braginsky, M., Yurovsky, D., & Marchman, V. A. (2016). Wordbank- An open repository for developmental vocabulary data. Journal of Child Language. doi- 10.1017/S0305000916000209.
