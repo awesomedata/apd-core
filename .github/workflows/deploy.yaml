@@ -13,7 +13,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run testing cases
-        run: "bash ./tests/testing.sh"
+        run: bash ./tests/testing.sh
+
+      - name: Render metadata
+        run: |
+          pip install -r ./deploy/requirements.tx
+          #python ./deploy/render.py
 
       - name: Decrypt secrets
         env:
@@ -30,6 +35,10 @@ jobs:
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
           chmod 0600 .github/workflows/secrets/id_rsa
           ssh-add .github/workflows/secrets/id_rsa
- 
-      - name: Publish to repo
-        run: "bash ./deploy/deploy.sh"
+
+      - name: Publish to awesome-public-datasets
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          git clone git@github.com:awesomedata/awesome-public-datasets.git 
+          bash ./deploy/deploy.sh
