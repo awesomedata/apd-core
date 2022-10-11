@@ -7,6 +7,7 @@ on:
 jobs:
   deployment:
     runs-on: ubuntu-latest
+    environment: deployment-key-pass
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
@@ -15,7 +16,6 @@ jobs:
         run: "bash ./tests/testing.sh"
 
       - name: Decrypt secrets
-        environment: deployment-key-pass
         env:
           ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
         run: |
