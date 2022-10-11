@@ -1,6 +1,6 @@
 # Awesome Public Datasets Core
 
-[![Deployment](https://github.com/awesomedata/apd-core/actions/workflows/main.yml/badge.svg)](https://github.com/awesomedata/apd-core/actions/workflows/main.yml)
+[![Deployment](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml/badge.svg)](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml)
 
 Next iteration of APD project.
 

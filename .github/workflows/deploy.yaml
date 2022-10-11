@@ -9,5 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Run testing cases
+        run: "bash ./tests/testing.sh"
       - name: Publish to repo
         run: "bash ./deploy/deploy.sh"
+        env:
+          ENCRYPTION_LABEL: 9269116cf2c3
+          COMMIT_AUTHOR_EMAIL: chenxm35@gmail.com
