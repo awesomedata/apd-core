@@ -1,10 +1,9 @@
-name: Deployment
+name: Precommit Testing
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-  workflow_dispatch:
 
 jobs:
   testing:
@@ -14,4 +13,4 @@ jobs:
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Run testing cases
-        run: bash ./tests/testing.sh
+        run: "bash ./tests/testing.sh"

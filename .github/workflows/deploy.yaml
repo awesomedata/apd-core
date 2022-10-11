@@ -1,0 +1,13 @@
+name: Deployment
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Publish to repo
+        run: "bash ./deploy/deploy.sh"
