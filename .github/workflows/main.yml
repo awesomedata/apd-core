@@ -1,0 +1,16 @@
+name: Publish APD
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: ls ${{ github.workspace }}
+      - name: Run testing cases
+        run: bash ./tests/testing.sh
