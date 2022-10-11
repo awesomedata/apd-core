@@ -15,11 +15,11 @@ specification:
 data_quality: Not curated
 data_dictionary: 
 language: multiple
-license: ODC-By v1.0: https://opendatacommons.org/licenses/by/1-0/
+license: "ODC-By v1.0: https://opendatacommons.org/licenses/by/1-0/"
 publisher: HuggingFace
 organization: Allen Institute for AI
 issued_time:
 sources:
 references:
   - title: Bitext Mining Using Distilled Sentence Representations for Low-Resource Languages
-    reference: NLLB Team et al, No Language Left Behind: Scaling Human-Centered Machine Translation, Arxiv https://arxiv.org/abs/2207.04672, 2022.
+    reference: "NLLB Team et al, No Language Left Behind: Scaling Human-Centered Machine Translation, Arxiv https://arxiv.org/abs/2207.04672, 2022."
