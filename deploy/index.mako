@@ -53,14 +53,14 @@ ${underline}
 
             status = OK if _status else FIXME
 
-            if raw_file_name is not None and not _status:
+            if raw_file_name is not None:
                 core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
                 fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name)
             else:
                 fixme_link = None
         %>
         % if fixme_link is not None:
-* ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
+* ${status} `${ex_title} <${link}>`_ [`Meta <${fixme_link}>`_]
         % else:
 * ${status} `${ex_title} <${link}>`_
         % endif
@@ -87,7 +87,7 @@ Complementary Collections
 
 * RS.io: `100+ Interesting Data Sets for Statistics <http://rs.io/100-interesting-data-sets-for-statistics/>`_
 
-* StaTrek: `Leveraging open data to understand urban lives <http://caesar0301.github.io/posts/2014/10/23/leveraging-open-data-to-understand-urban-lives/>`_
+* InnoTrek: `Leveraging open data to understand urban lives <https://caesar0301.github.io/2014/10/23/urban-open-data/>`_
 
 * CV Papers: `CV Datasets on the web <http://www.cvpapers.com/datasets.html/>`_
 
