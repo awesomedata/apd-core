@@ -8,11 +8,28 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
       - name: Run testing cases
         run: "bash ./tests/testing.sh"
+
+      - name: Decrypt secrets
+        environment: deployment-key-pass
+        env:
+          ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
+        run: |
+          openssl aes-256-cbc -in .github/workflows/secrets/id_rsa.enc -out .github/workflows/secrets/id_rsa -pass pass:$ENCRYPTION_KEY -d -md sha1
+
+      - name: Setup SSH agent
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          chmod 0600 .github/workflows/secrets/id_rsa
+          ssh-add .github/workflows/secrets/id_rsa
+ 
       - name: Publish to repo
         run: "bash ./deploy/deploy.sh"
-        env:
-          ENCRYPTION_LABEL: 9269116cf2c3
-          COMMIT_AUTHOR_EMAIL: chenxm35@gmail.com
