@@ -12,13 +12,13 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v3
 
-      - name: Run testing cases
+      - name: Validate metadata
         run: bash ./tests/testing.sh
 
       - name: Render metadata
         run: |
           pip install -r ./deploy/requirements.txt
-          #python ./deploy/render.py
+          python ./deploy/render.py
 
       - name: Decrypt secrets
         env:
