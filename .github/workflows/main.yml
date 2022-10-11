@@ -1,4 +1,4 @@
-name: Publish APD
+name: Deployment
 on:
   push:
     branches: [ "master" ]
@@ -10,6 +10,7 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Run testing cases
