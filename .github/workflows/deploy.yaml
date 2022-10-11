@@ -17,7 +17,7 @@ jobs:
 
       - name: Render metadata
         run: |
-          pip install -r ./deploy/requirements.tx
+          pip install -r ./deploy/requirements.txt
           #python ./deploy/render.py
 
       - name: Decrypt secrets
