@@ -42,3 +42,11 @@ jobs:
         run: |
           git clone git@github.com:awesomedata/awesome-public-datasets.git 
           bash ./deploy/deploy.sh
+          
+      - name: Cleanup
+        if: always()
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh-add -D
+          rm -Rf *
