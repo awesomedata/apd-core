@@ -42,7 +42,7 @@ ${underline}
             raw_file_name = entry.pop('_rawFileName', None)
 
             if description is not None:
-                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 79))
+                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 99))
             else:
                 ex_title = title
 
