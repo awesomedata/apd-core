@@ -1,0 +1,52 @@
+name: Deployment
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: deployment-key-pass
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Validate metadata
+        run: bash ./tests/testing.sh
+
+      - name: Render metadata
+        run: |
+          pip install -r ./deploy/requirements.txt
+          python ./deploy/render.py
+
+      - name: Decrypt secrets
+        env:
+          ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
+        run: |
+          openssl aes-256-cbc -in .github/workflows/secrets/id_rsa.enc -out .github/workflows/secrets/id_rsa -pass pass:$ENCRYPTION_KEY -d -md sha1
+
+      - name: Setup SSH agent
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          chmod 0600 .github/workflows/secrets/id_rsa
+          ssh-add .github/workflows/secrets/id_rsa
+
+      - name: Publish to awesome-public-datasets
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          git clone git@github.com:awesomedata/awesome-public-datasets.git 
+          bash ./deploy/deploy.sh
+          
+      - name: Cleanup
+        if: always()
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh-add -D
+          rm -Rf *

@@ -1,6 +1,6 @@
 # Awesome Public Datasets Core
 
-[![Build Status](https://travis-ci.org/awesomedata/apd-core.svg?branch=master)](https://travis-ci.org/awesomedata/apd-core)
+[![Deployment](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml/badge.svg)](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml)
 
 Next iteration of APD project.
 

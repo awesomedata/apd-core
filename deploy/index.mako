@@ -42,7 +42,7 @@ ${underline}
             raw_file_name = entry.pop('_rawFileName', None)
 
             if description is not None:
-                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 79))
+                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 99))
             else:
                 ex_title = title
 
@@ -53,14 +53,14 @@ ${underline}
 
             status = OK if _status else FIXME
 
-            if raw_file_name is not None and not _status:
+            if raw_file_name is not None:
                 core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
                 fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name)
             else:
                 fixme_link = None
         %>
         % if fixme_link is not None:
-* ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
+* ${status} `${ex_title} <${link}>`_ [`Meta <${fixme_link}>`_]
         % else:
 * ${status} `${ex_title} <${link}>`_
         % endif
@@ -73,22 +73,16 @@ Complementary Collections
 
 * `Data Packaged Core Datasets <https://github.com/datasets/>`_
 
-* `Database of Scientific Code Contributions <https://mozillascience.org/collaborate>`_
+* OpenDataMonitor: `An overview of available open data resources in Europe <https://opendatamonitor.eu/frontend/web/index.php?r=dashboard%2Findex>`_
 
-* A growing collection of public datasets: `CoolDatasets. <http://cooldatasets.com/>`_
+* Quora: `Where can I find large datasets open to the public? <https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public>`_
 
-* DataWrangling: `Some Datasets Available on the Web <http://www.datawrangling.com/some-datasets-available-on-the-web>`_
+* RS.io: `100+ Interesting Data Sets for Statistics <https://rs.io/100-interesting-data-sets-for-statistics/>`_
 
-* Inside-r: `Finding Data on the Internet <http://www.inside-r.org/howto/finding-data-internet>`_
+* CVonline: `Image Databases <https://homepages.inf.ed.ac.uk/rbf/CVonline/>`_
 
-* OpenDataMonitor: `An overview of available open data resources in Europe <http://opendatamonitor.eu>`_
+* InnoTrek: `Leveraging open data to understand urban lives <https://web.archive.org/web/20210427004644/http://caesar0301.github.io/posts/2014/10/23/leveraging-open-data-to-understand-urban-lives/>`_
 
-* Quora: `Where can I find large datasets open to the public? <http://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public>`_
+* CV Papers: `CV Datasets on the web <https://web.archive.org/web/20180318042653/http://cvpapers.com/datasets.html>`_
 
-* RS.io: `100+ Interesting Data Sets for Statistics <http://rs.io/100-interesting-data-sets-for-statistics/>`_
 
-* StaTrek: `Leveraging open data to understand urban lives <http://caesar0301.github.io/posts/2014/10/23/leveraging-open-data-to-understand-urban-lives/>`_
-
-* CV Papers: `CV Datasets on the web <http://www.cvpapers.com/datasets.html/>`_
-
-* CVonline: `Image Databases <http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm/>`_
