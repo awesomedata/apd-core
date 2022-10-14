@@ -42,7 +42,7 @@ ${underline}
             raw_file_name = entry.pop('_rawFileName', None)
 
             if description is not None:
-                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 79))
+                ex_title = textwrap.shorten('{} - {}'.format(title, description), width=max(len(title), 99))
             else:
                 ex_title = title
 
@@ -53,14 +53,14 @@ ${underline}
 
             status = OK if _status else FIXME
 
-            if raw_file_name is not None and not _status:
+            if raw_file_name is not None:
                 core_prefix = 'https://github.com/awesomedata/apd-core/tree/master/core/'
                 fixme_link = '{}/{}/{}'.format(core_prefix, category, raw_file_name)
             else:
                 fixme_link = None
         %>
         % if fixme_link is not None:
-* ${status} `${ex_title} <${link}>`_ [`fixme <${fixme_link}>`_]
+* ${status} `${ex_title} <${link}>`_ [`Meta <${fixme_link}>`_]
         % else:
 * ${status} `${ex_title} <${link}>`_
         % endif
@@ -80,3 +80,9 @@ Complementary Collections
 * RS.io: `100+ Interesting Data Sets for Statistics <http://rs.io/100-interesting-data-sets-for-statistics/>`_
 
 * CVonline: `Image Databases <https://homepages.inf.ed.ac.uk/rbf/CVonline/>`_
+
+* InnoTrek: `Leveraging open data to understand urban lives <https://web.archive.org/web/20210427004644/http://caesar0301.github.io/posts/2014/10/23/leveraging-open-data-to-understand-urban-lives/>`_
+
+* CV Papers: `CV Datasets on the web <http://www.cvpapers.com/datasets.html/>`_
+
+

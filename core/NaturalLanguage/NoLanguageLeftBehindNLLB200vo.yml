@@ -1,0 +1,25 @@
+---
+title: No Language Left Behind (NLLB - 200vo)
+homepage: https://huggingface.co/datasets/allenai/nllb
+category: NaturalLanguage
+description: Dataset based on Meta's metadata for mined bitext. Contains word-aligned text in 148 English-centric and 1465 non-English-centric language pairs.
+version:
+keywords: Natural Language Processing, bitext, word alignment
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights: This dataset contains crawled text from multiple sources. Text may be covered by individual copyright and discretion is advised.
+accrual_periodicity: 
+specification:
+data_quality: Not curated
+data_dictionary: 
+language: multiple
+license: "ODC-By v1.0: https://opendatacommons.org/licenses/by/1-0/"
+publisher: HuggingFace
+organization: Allen Institute for AI
+issued_time:
+sources:
+references:
+  - title: Bitext Mining Using Distilled Sentence Representations for Low-Resource Languages
+    reference: "NLLB Team et al, No Language Left Behind: Scaling Human-Centered Machine Translation, Arxiv https://arxiv.org/abs/2207.04672, 2022."
