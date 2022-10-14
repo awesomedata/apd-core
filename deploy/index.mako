@@ -75,8 +75,6 @@ Complementary Collections
 
 * `Database of Scientific Code Contributions <https://mozillascience.org/collaborate>`_
 
-* A growing collection of public datasets: `CoolDatasets. <http://cooldatasets.com/>`_
-
 * DataWrangling: `Some Datasets Available on the Web <http://www.datawrangling.com/some-datasets-available-on-the-web>`_
 
 * Inside-r: `Finding Data on the Internet <http://www.inside-r.org/howto/finding-data-internet>`_
