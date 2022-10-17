@@ -1,0 +1,31 @@
+---
+title: Wellhead Protection Area (protection zone) prediction using breakthrough curves
+homepage: https://www.kaggle.com/datasets/robustus/whpa-prediction
+category: EarthScience
+description: This dataset contains 4148 simulation results, i.e., 4148 pairs of predictor/target. bkt.npy contains the breakthrough curves from all 6 injection wells recorded at the pumping well. pz.npy contains the 2D coordinates of the backtracked particles' end points, used to delineate the WHPA.
+version: 1.0
+keywords: whpa, breakthrough curves, particle tracking, machine learning
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: 
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: Kaggle
+    web: https://www.kaggle.com/datasets/robustus/whpa-prediction
+organization:
+  - name: Laboratory for Applied Geology and Hydrogeology, Ghent University, Belgium
+    web: https://www.ugent.be/we/geologie/en/research/organization/applied-geology-and-hydrogeology
+issued_time: 2022.10
+sources:
+  - name:
+    access_url:
+references:
+  - title: A new framework for experimental design using Bayesian Evidential Learning--the case of wellhead protection area
+    reference: https://doi.org/10.1016/j.jhydrol.2021.126903
