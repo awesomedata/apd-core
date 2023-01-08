@@ -1,0 +1,22 @@
+---
+title: Bluesky API Global Forecast History
+homepage: https://blueskyapi.io/docs/api
+category: Climate+Weather
+description: Global weather data, both live forecasts and forecast history
+version:
+keywords: forecast history
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
