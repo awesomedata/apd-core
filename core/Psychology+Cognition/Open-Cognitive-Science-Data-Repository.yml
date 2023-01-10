@@ -1,0 +1,31 @@
+---
+title: Open Cognitive Science Data
+homepage: https://nivlab.github.io/opendata
+category: Psychology+Cognition
+description: Pubicly available behavioral datasets from across cognitive science (with a strong focus on learning & decision-making). Maintained by the Niv Lab at Princeton University.
+version: 1.0
+keywords: cognitive science, cognitive modeling, reinforcement learning, decision making, cognitive control, computational psychiatry
+image: false
+temporal: true
+spatial: false
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT license
+publisher:
+  - name:
+    web:
+organization:
+  - name: Niv Lab, Princeton University
+    web: https://nivlab.princeton.edu/
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
