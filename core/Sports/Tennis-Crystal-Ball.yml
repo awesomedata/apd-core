@@ -1,0 +1,31 @@
+---
+title: Tennis-Crystal-Ball
+homepage: https://github.com/mcekovic/tennis-crystal-ball
+category: Sports
+description: Ultimate Tennis Statistics and Tennis Crystal Ball - Tennis Big Data Analysis and Prediction
+version: 1.0
+keywords: Tennis, statistics, machine learning
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: 
+    web: https://www.ultimatetennisstatistics.com
+issued_time: 2023.01
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
