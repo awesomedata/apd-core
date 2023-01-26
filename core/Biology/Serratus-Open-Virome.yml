@@ -1,0 +1,31 @@
+---
+title: Serratus
+homepage: https://serratus.io/
+category: Biology
+description: Analysis of 7.1 million RNA/DNA sequencing datasets to uncover the known
+version: v230110
+keywords: bioinformatics, virology, RNA virus, sequencing, DNA, RNA, biology, computational biology, meta-data
+image: https://raw.githubusercontent.com/wiki/ababaian/serratus/img/splash.png
+temporal: yes
+spatial: yes
+access_level: public
+copyrights: cc0
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: public domain
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: The Laboratory for RNA-Based Lifeforms
+    web: http://rRNA.ca 
+issued_time: 
+sources:
+  - name: Sequence Read Archive (SRA)
+    access_url: https://www.ncbi.nlm.nih.gov/sra/
+references:
+  - title:  Petabase-scale sequence alignment catalyses viral discovery.
+    reference: https://doi.org/10.1038/s41586-021-04332-2
