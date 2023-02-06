@@ -1,6 +1,6 @@
 ---
 title: INFORUM - Interindustry Forecasting at the University of Maryland
-homepage: http://inforumweb.umd.edu/
+homepage: https://inforumecon.com/
 category: Economics
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
