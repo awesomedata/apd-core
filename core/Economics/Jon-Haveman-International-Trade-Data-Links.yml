@@ -1,6 +1,6 @@
 ---
 title: Jon Haveman International Trade Data Links
-homepage: http://www.macalester.edu/research/economics/PAGE/HAVEMAN/Trade.Resources/TradeData.html
+homepage: https://freit.org/TradeResources/TradeData.php
 category: Economics
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
