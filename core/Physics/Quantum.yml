@@ -1,0 +1,31 @@
+---
+title: Quantum simulations of an electron in a two dimensional potential well
+homepage: http://doi.org/10.4224/PhysRevA.96.042113.data
+category: Quantum simulation
+description: The data was generated in a numerical simulation of an electron in a 2 dimensional confining potential. It was used as a test case for training a deep neural network to reproduce the results of a partial differential equation (the time independent Schrödinger equation).
+version: 1.0
+keywords: quantum simulation, numerical modeling
+image: 150000
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: CC-BY
+publisher:
+  - name: American Physical Society
+    web: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.042113
+organization:
+  - name: National Research Council of Canada
+    web: www.nrc-cnrc.gc.ca
+issued_time: 2017.01
+sources:
+  - name: simulation
+    access_url: http://doi.org/10.4224/PhysRevA.96.042113.data
+references:
+  - title: Deep learning and the Schrödinger equation
+    reference: Kyle Mills, Michael Spanner, and Isaac Tamblyn Phys. Rev. A 96, 042113, 2017
