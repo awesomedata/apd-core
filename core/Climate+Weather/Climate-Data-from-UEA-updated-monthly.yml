@@ -1,6 +1,6 @@
 ---
 title: Climate Data from UEA (updated monthly)
-homepage: http://www.cru.uea.ac.uk/data/
+homepage: https://www.uea.ac.uk/web/groups-and-centres/climatic-research-unit/data
 category: Climate+Weather
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity: monthly
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
