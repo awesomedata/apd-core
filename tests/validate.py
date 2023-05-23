@@ -26,6 +26,7 @@ def scan_core_data(core_dir):
 def validate_classification(category_map):
     for category, entries in category_map.items():
         for entry in entries:
+            print(entry)
             try:
                 data_obj = yaml.load(open(entry), Loader=yaml.Loader)
             except Exception as e:
