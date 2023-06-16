@@ -1,0 +1,22 @@
+---
+title: CIMA
+homepage: https://cmp.felk.cvut.cz/~borovji3/?page=dataset
+category: Biology
+description: CIMA dataset includes images of 2D histological microscopy tissue slices.
+version:
+keywords: histology
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
