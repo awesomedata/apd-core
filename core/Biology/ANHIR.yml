@@ -1,0 +1,22 @@
+---
+title: ANHIR
+homepage: https://anhir.grand-challenge.org/
+category: Biology
+description: Automatic Non-rigid Histological Image Registration (ANHIR) consists of 2D histological microscopy images.
+version:
+keywords: histology
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
