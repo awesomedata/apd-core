@@ -1,0 +1,53 @@
+---
+title: Open-Meteo - Open-Source Weather API
+homepage: https://open-meteo.com
+category: Climate+Weather
+description: Open-source weather API with free access for non-commercial use. No API key required.
+version:
+keywords: weather, climate
+image:
+temporal: 80 years
+spatial: 1 km
+access_level: public
+copyrights:
+accrual_periodicity: hourly
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time:
+sources:
+  - name: NOAA GFS & HRRR Weather Model
+    access_url: https://www.nco.ncep.noaa.gov/pmb/products/gfs/
+  - name: DWD ICON Weather Model
+    access_url: https://opendata.dwd.de/weather/nwp/
+  - name: MeteoFrance AROME & ARPEGE Weather Model
+    access_url: https://mf-models-on-aws.org/en/doc/models/arpege-world/
+  - name: ECMWF IFS Weather Model
+    access_url: https://www.ecmwf.int/en/forecasts/datasets/open-data
+  - name: JMA Weather Model
+    access_url: https://www.jma.go.jp/jma/en/Activities/nwp.html
+  - name: Met Norway Weather Model
+    access_url: https://github.com/metno/NWPdocs/wiki/MET-Nordic-dataset
+  - name: Canadian Meteorological Centre GEM & HRDPS Weather Model
+    access_url: https://weather.gc.ca/grib/grib2_glb_25km_e.html
+  - name: ERA5 Historical Weather Reanalysis 
+    access_url: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview
+  - name: IPCC Climate Models from CMIP6 HighResMIP
+    access_url: https://hrcm.ceda.ac.uk/research/cmip6-highresmip/
+  - name: CAMS global atmospheric composition forecasts
+    access_url: https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=overview
+  - name: GeoNames Location database
+    access_url: https://www.geonames.org
+  - name: Copernicus DEM 2021 release GLO-90 Elevation Model
+    access_url: https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model
+  - name: Global Flood Awareness System (GloFAS)
+    access_url: https://www.globalfloods.eu
+references:
+  - title: Open-Meteo Source Code under AGL-3.0
+    reference: https://github.com/open-meteo/open-meteo
+  - title: Open-Meteo Zenodoo Publication DOI URL
+    reference: https://doi.org/10.5281/zenodo.7970649
