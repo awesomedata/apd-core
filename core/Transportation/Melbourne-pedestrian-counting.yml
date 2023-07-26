@@ -1,0 +1,31 @@
+---
+title: Melbourne Pedestrian Counting
+homepage: https://data.melbourne.vic.gov.au/explore/dataset/pedestrian-counting-system-monthly-counts-per-hour/
+category: Transportation
+description: This dataset contains hourly pedestrian counts since 2009 from pedestrian sensor devices located across the City of Melbourne. 
+version: 1.0
+keywords: pedestrian count, foot traffic, pedestrian sensors, covid-19,traffic flow
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: en
+license: CC BY 4.0
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: City of Melbourne  
+    web: https://www.melbourne.vic.gov.au/
+issued_time: 2014.05
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
