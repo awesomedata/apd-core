@@ -8,7 +8,8 @@ Awesome Public Datasets
 This is a list of `topic-centric public data sources <https://github.com/awesomedata/awesome-public-datasets>`_
 in high quality. They are collected and tidied from blogs, answers, and user responses.
 Most of the data sets listed below are free, however, some are not.
-This project was hatched at `OMNILab <https://github.com/OMNILab>`_ during my Ph.D. career, which is now part of `BaiYuLan Open AI community <https://github.com/Bai-Yu-Lan>`_.
+This project was incubated at `OMNILab <https://github.com/OMNILab>`_, Shanghai Jiao Tong University during Xiaming Chen's Ph.D. studies.
+OMNILab is now part of the `BaiYuLan Open AI community <https://github.com/Bai-Yu-Lan>`_.
 Other amazingly awesome lists can be found in `sindresorhus's awesome <https://github.com/sindresorhus/awesome>`_ list.
 
 Special thanks to
