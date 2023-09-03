@@ -5,6 +5,9 @@ Awesome Public Datasets
    :alt: Awesome
    :target: https://github.com/sindresorhus/awesome
 
+.. image:: https://raw.githubusercontent.com/awesomedata/apd-core/master/logo/baiyulan.PNG
+   :alt: BaiYuLanAI
+   :target: https://github.com/Bai-Yu-Lan
 
 .. |OK_ICON| image:: https://raw.githubusercontent.com/awesomedata/apd-core/master/deploy/ok-24.png
 .. |FIXME_ICON| image:: https://raw.githubusercontent.com/awesomedata/apd-core/master/deploy/fixme-24.png
