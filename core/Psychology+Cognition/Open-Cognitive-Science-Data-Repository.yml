@@ -2,9 +2,9 @@
 title: Open Cognitive Science Data
 homepage: https://nimh-dsst.github.io/OpenCogData/
 category: Psychology+Cognition
-description: Pubicly available cognitive task datasets from across cognitive science. Maintained by the Data Science and Sharing Team at the National Institute of Mental Health.
-version: 1.1
-keywords: cognitive science, cognitive modeling, computational neuroscience, computational psychiatry
+description: Publicly available behavioral datasets from across cognitive science (with a strong focus on learning & decision-making). Maintained by the Niv Lab at Princeton University.
+version: 1.0
+keywords: cognitive science, cognitive modeling, reinforcement learning, decision making, cognitive control, computational psychiatry
 image: false
 temporal: true
 spatial: false
