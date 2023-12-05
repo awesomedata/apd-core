@@ -1,10 +1,10 @@
 ---
-title: Brazil
-homepage: https://dados.gov.br/dados/conjuntos-dados
-category: Government
-description:
+title: CIMA
+homepage: https://cmp.felk.cvut.cz/~borovji3/?page=dataset
+category: Biology
+description: CIMA dataset includes images of 2D histological microscopy tissue slices.
 version:
-keywords:
+keywords: histology
 image:
 temporal:
 spatial:

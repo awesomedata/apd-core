@@ -1,6 +1,6 @@
 ---
 title: Open Cognitive Science Data
-homepage: https://nivlab.github.io/opendata
+homepage: https://nimh-dsst.github.io/OpenCogData/
 category: Psychology+Cognition
 description: Publicly available behavioral datasets from across cognitive science (with a strong focus on learning & decision-making). Maintained by the Niv Lab at Princeton University.
 version: 1.0
@@ -20,8 +20,8 @@ publisher:
   - name:
     web:
 organization:
-  - name: Niv Lab, Princeton University
-    web: https://nivlab.princeton.edu/
+  - name: Data Science and Sharing Team, National Institute of Mental Health
+    web: https://cmn.nimh.nih.gov/dsst
 issued_time:
 sources:
   - name:
