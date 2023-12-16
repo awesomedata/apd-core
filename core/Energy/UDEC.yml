@@ -6,7 +6,7 @@ description:
 version:
 keywords: electricity, fuel, natural gas, consumption, supply, energy
 image:
-temporal:m
+temporal:
 spatial:
 access_level:
 copyrights:
