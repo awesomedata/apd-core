@@ -1,0 +1,24 @@
+---
+title: BraTS
+homepage: https://www.med.upenn.edu/cbica/brats2020/data.html
+category: Healthcare
+description: Contains MRI images (T1w, T2w, T2-FLAIR and T1Gd) from 1251 glioma patients. It also contains the segmentation labels for 3 
+regions of the tumors: enhancing tumor, peritumoral edema and non-enhancing tumor core.
+patients.
+keywords: MRI, Glioma, image segmentation.
+image: https://www.med.upenn.edu/cbica/assets/user-content/images/BraTS/BRATS_banner_noCaption.png
+spatial: 240*240*155
+access_level: public
+language: en
+references:
+  - title: The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)
+    reference: B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image 
+Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
+  - title: Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features
+    reference: S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI 
+collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI: 10.1038/sdata.2017.117
+  - title: Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival 
+Prediction in the BRATS Challenge
+    reference: S. Bakas, M. Reyes, A. Jakab, S. Bauer, M. Rempfler, A. Crimi, et al., "Identifying the Best Machine Learning Algorithms for 
+Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge", arXiv preprint arXiv:1811.02629 
+(2018)
