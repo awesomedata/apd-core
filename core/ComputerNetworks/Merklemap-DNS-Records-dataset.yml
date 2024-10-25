@@ -1,0 +1,25 @@
+---
+title: Merklemap DNS records Dataset
+homepage: https://www.merklemap.com/dns-records-database
+category: ComputerNetworks
+description: Contains 4B+ DNS records accross 700 million unique hostnames. Includes A, AAAA, ANAME, CAA, CNAME, HINFO, HTTPS, MX, NAPTR, NS, PTR, SOA, SRV, SSHFP, SVCB, TLSA and TXT entries.
+version: 1.0
+keywords: 
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: 
+data_dictionary: 
+language: 
+license: CC BY-NC-SA 4.0
+publisher:
+  - name: Merklemap
+    web: https://www.merklemap.com/
+organization:
+issued_time: 
+sources:
+references:
