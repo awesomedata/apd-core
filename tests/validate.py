@@ -37,8 +37,8 @@ def validate_classification(category_map):
             assert data_obj.get('category', None) is not None
 
             assert data_obj.get('category') == category
-
-
+#MARI KITA CUBAA
+test
 if __name__ == '__main__':
     pdir = os.path.dirname(__file__)
     core_dir = os.path.join(pdir, '..', 'core')
