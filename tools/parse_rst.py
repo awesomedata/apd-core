@@ -7,7 +7,7 @@ from ruamel import yaml
 from ruamel.yaml import YAML
 
 # Load template
-template = yaml.load(open('dataset.yml.template', 'rb').read())
+template = yaml.load(open('dataset.yml.template', 'rb').read(), Loader=yaml.Loader)
 
 category = None
 categories = {}
