@@ -12,6 +12,14 @@ Please refer to the instructions of [CONTRIBUTING](https://github.com/awesomedat
 
 Xiaming Chen, chenxm35@gmail.com
 
+## Contributors
+
+Thank you all contributors ❤
+
+[![AwesomeData contributors](https://contrib.rocks/image?repo=awesomedata/apd-core "AwesomeData contributors")](https://github.com/awesomedata/apd-core/graphs/contributors)
+
+Special thanks to
+
 <a href="https://github.com/Bai-Yu-Lan">
 <img src="https://raw.githubusercontent.com/awesomedata/apd-core/master/logo/baiyulan.PNG" width="300">
 </a>
