@@ -29,7 +29,8 @@ def scan_core_data(core_dir, validate_link=False):
             data_file = os.path.join(core_dir, category, data_item)
 
             try:
-                data_obj = yaml.load(open(data_file))
+                with open(data_file, 'r') as f:
+                    data_obj = yaml.safe_load(f)
                 data_obj["_rawFileName"] = data_item
             except Exception as e:
                 raise RuntimeError("Failed to read YAML data: {}".format(e))
@@ -75,7 +76,8 @@ if __name__ == "__main__":
 
     categories = scan_core_data(core_dir, validate_link=True)
 
-    rendered = Template(open(template_file).read()).render(categories=categories)
+    with open(template_file, 'r') as f:
+        rendered = Template(f.read()).render(categories=categories)
     with open(os.path.join(pdir, "index.rst"), "w") as of:
         of.write(rendered)
         of.write("\n")
