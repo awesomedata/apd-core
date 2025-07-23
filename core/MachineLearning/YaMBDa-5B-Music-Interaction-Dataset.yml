@@ -1,0 +1,31 @@
+---
+title: Yambda-5B — A Large-Scale Multi-modal Dataset for Ranking And Retrieval
+homepage: https://huggingface.co/datasets/yandex/yambda
+category: MachineLearning
+description: Industrial-scale music recommendation dataset with organic/recommendation interactions and audio embeddings.
+version: 1.0
+keywords: music recommendation, implicit feedback, explicit feedback, parquet, embeddings
+image: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/yandex/yambda.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: static
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/yandex/yambda#data-fields
+language: en
+license: Apache License 2.0
+publisher:
+  - name: Yandex Research
+    web: https://research.yandex.com
+organization:
+  - name: Yandex
+    web: https://yandex.com
+issued_time: 2025‑05-28
+sources:
+  - name:
+    access_url:
+references:
+  - title: Yambda-5B -- A Large-Scale Multi-modal Dataset for Ranking And Retrieval
+    reference: https://arxiv.org/abs/2505.22238
