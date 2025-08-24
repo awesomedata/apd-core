@@ -1,0 +1,11 @@
+Name: Spanish Flu Dataset
+Description: Historical dataset about the 1918-1920 Spanish Flu pandemic, including case counts, mortality, and recovery data.
+Documentation: https://www.kaggle.com/datasets/thepodclub/spanish-flu-dataset
+Contact: https://www.kaggle.com/thepodclub
+UpdateFrequency: One-time dataset (historical data)
+Tags:
+  - healthcare
+  - epidemiology
+  - history
+  - pandemic
+License: CC0
