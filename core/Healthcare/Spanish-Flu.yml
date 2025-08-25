@@ -1,0 +1,21 @@
+title: Spanish Flu Dataset
+homepage: https://www.kaggle.com/datasets/thepodclub/spanish-flu-dataset
+category: Healthcare
+description: Historical dataset about the 1918–1920 Spanish Flu pandemic, including case counts, mortality, and recovery data.
+version: 1.0
+keywords: Spanish Flu, 1918 pandemic, epidemiology, healthcare, mortality, historical dataset
+temporal: 1918-1920
+spatial: Global
+access_level: public
+language: en
+license: CC0
+publisher:
+  name: ThePodClub (Kaggle Contributor)
+  web: https://www.kaggle.com/thepodclub
+issued_time: 2020
+sources:
+  - name: Kaggle Spanish Flu Dataset
+    access_url: https://www.kaggle.com/datasets/thepodclub/spanish-flu-dataset
+references:
+  - title: The Spanish Flu Pandemic of 1918
+    reference: https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html
