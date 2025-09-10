@@ -1,0 +1,22 @@
+---
+title: MAP-VERSE: MAP usability - Validated Empirical Research by Systematic Evaluation
+homepage: https://map-verse.github.io/Repository/
+category: GIS
+description: >
+  A curated metadata repository for map usability and spatial cognition studies.
+  Covers eye tracking, EEG/fMRI, and human sensing datasets collected during geospatial tasks.
+resources:
+  - name: GitHub Repository
+    url: https://github.com/MAP-VERSE/Repository
+  - name: Project Homepage
+    url: https://map-verse.github.io/Repository/
+tags:
+  - GIS
+  - maps
+  - eye-tracking
+  - EEG
+  - usability
+license: MIT
+notes: >
+  Index of external datasets and DOIs; does not host raw data.
+
