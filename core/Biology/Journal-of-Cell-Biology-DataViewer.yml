@@ -2,9 +2,9 @@
 title: Journal of Cell Biology DataViewer
 homepage: https://www.ebi.ac.uk/biostudies/JCB/studies
 category: Biology
-description: 
-version:
-keywords:
+description: All JCB data was moved to Biostudies 
+version: 1
+keywords: life science, health science 
 image:
 temporal:
 spatial:
