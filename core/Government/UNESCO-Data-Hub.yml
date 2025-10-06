@@ -1,0 +1,38 @@
+# UNESCO Official Data Hub
+# File: ./core/Government/UNESCO-Data-Hub.yml
+
+title: UNESCO Data Hub
+homepage: https://data.unesco.org
+category: Government
+description: UNESCO's official data catalog providing authoritative global statistics across all UNESCO domains including education, culture, science, communication and information. The comprehensive data hub offers interactive datasets, visualizations, and indicators supporting evidence-based policymaking and sustainable development goals monitoring.
+keywords:
+  - education
+  - culture
+  - science
+  - communication
+  - information
+  - sustainable development goals
+  - SDG
+  - international organizations
+  - UNESCO
+  - UN
+  - global statistics
+  - policy data
+  - cultural heritage
+  - scientific cooperation
+language:
+  - English
+  - French
+  - Spanish
+  - Arabic
+license: Open Data
+format:
+  - CSV
+  - Excel
+  - JSON
+  - API
+  - Parquet
+  - GeoJSON
+region: Global
+source: UNESCO
+contact: data.ai@unesco.org
