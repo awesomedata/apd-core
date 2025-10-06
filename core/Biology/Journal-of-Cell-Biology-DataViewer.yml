@@ -1,10 +1,10 @@
 ---
 title: Journal of Cell Biology DataViewer
-homepage: https://rupress.org/jcb/pages/jcb-dataviewer
+homepage: https://www.ebi.ac.uk/biostudies/JCB/studies
 category: Biology
-description:
-version:
-keywords:
+description: All JCB data was moved to Biostudies 
+version: 1
+keywords: life science, health science 
 image:
 temporal:
 spatial:
@@ -15,8 +15,8 @@ specification:
 data_quality: false
 data_dictionary:
 language:
-license:
-publisher:
+license: 
+publisher: 
 organization:
 issued_time:
 sources: []
