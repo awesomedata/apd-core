@@ -1,6 +1,6 @@
 ---
 title: Stanford GraphBase
-homepage: http://www3.cs.stonybrook.edu/~algorith/implement/graphbase/implement.shtml
+homepage: https://cs.stanford.edu/~knuth/sgb.html
 category: ComplexNetworks
 description:
 version:
@@ -17,7 +17,7 @@ data_dictionary:
 language:
 license:
 publisher:
-  name: Steven Skiena
+  name: Donald E Knuth
 organization:
   name: Stanford University
 issued_time:
