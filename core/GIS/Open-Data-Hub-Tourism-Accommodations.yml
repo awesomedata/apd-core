@@ -1,0 +1,28 @@
+title: Open Data Hub (South Tyrol, Italy)
+homepage: https://opendatahub.com/datasets/
+category: Mobility+Tourism+Environment
+description: >
+  The Open Data Hub is a regional open data platform from South Tyrol (Italy)
+  offering machine-readable datasets and APIs focused on mobility, tourism,
+  environment, and weather. Data includes public transport schedules, parking
+  and charging stations, accommodations, events, and regional points of interest.
+version: v2
+keywords: [open data, mobility, tourism, environment, weather, South Tyrol, Italy, geospatial]
+image: https://opendatahub.com/assets/images/logo.svg
+temporal: Real-time and historical data
+spatial: South Tyrol, Italy (46.47841°N, 11.33263°E)
+access_level: public
+copyrights: © Open Data Hub / NOI Techpark
+accrual_periodicity: Continuous / Real-time
+specification: RESTful APIs and open datasets (JSON, CSV, GeoJSON)
+data_quality: true
+data_dictionary: https://docs.opendatahub.com/en/latest/datasets.html
+language: en
+license: CC0 1.0 Universal (Public Domain)
+publisher: Open Data Hub
+organization: NOI Techpark South Tyrol / Alto Adige
+issued_time: 2017-01-01
+sources:
+  - https://docs.opendatahub.com/
+  - https://databrowser.opendatahub.com/
+  - https://tourism.api.opendatahub.com/swagger/index.html
