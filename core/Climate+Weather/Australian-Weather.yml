@@ -1,8 +1,8 @@
 ---
 title: Australian Weather
-homepage: http://www.bom.gov.au/climate/dwo/index.shtml
+homepage: https://www.bom.gov.au/climate/data/index.shtml??zoom=1&lat=-26.9635&lon=133.4635&layers=B0000TFFFFFFFFFTFFFFFFFFFFFFFFFFTTT&dp=IDC10001&p_nccObsCode=201&p_display_type=dailyDataFile
 category: Climate+Weather
-description:
+description: Updated webpage for Australian Weather data.
 version:
 keywords:
 image:
