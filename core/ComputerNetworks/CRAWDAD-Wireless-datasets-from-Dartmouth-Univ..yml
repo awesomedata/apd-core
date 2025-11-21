@@ -1,10 +1,10 @@
 ---
 title: RF Jamming Dataset for Vehicular Wireless Networks
-homepage: https://crawdad.cs.dartmouth.edu/
+homepage: https://ieee-dataport.org/documents/rf-jamming-dataset-vehicular-wireless-networks
 category: ComputerNetworks
-description:
+description: All the data from CRAWDAD has been moved to IEEE-dataport. This version is the updated version of the crawdad datasets.
 version:
-keywords:
+keywords: wireless network
 image:
 temporal:
 spatial:
@@ -15,8 +15,8 @@ specification:
 data_quality: false
 data_dictionary:
 language:
-license:
-publisher:
+license: open-access
+publisher: IEEE
 organization:
 issued_time:
 sources: []
