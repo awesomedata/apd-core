@@ -2,7 +2,7 @@
 title: RF Jamming Dataset for Vehicular Wireless Networks
 homepage: https://ieee-dataport.org/documents/rf-jamming-dataset-vehicular-wireless-networks
 category: ComputerNetworks
-description: All the data from CRAWDAD has been moved to IEEE-dataport. This version is the updated version of the crawdad datasets.
+description: The RF Jamming Dataset for Vehicular Wireless Networks presents a comprehensive collection of data used in the research paper titled RF Jamming Classification Using Relative Speed Estimation in Vehicular Wireless Networks. This dataset comprises diverse scenarios of RF jamming attacks and interference in Vehicular Ad-hoc Networks (VANETs), along with corresponding ground truth labels.
 version:
 keywords: wireless network
 image:
