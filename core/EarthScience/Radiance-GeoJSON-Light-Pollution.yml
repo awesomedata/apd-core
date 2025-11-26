@@ -1,31 +1,38 @@
 ---
-title: 38-Cloud
-homepage: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset
+title: Radiance GeoJSON — Global Light Pollution
+homepage: https://archive.org/details/radiance-geojson-data-2025
 category: EarthScience
-description: Contains 38 Landsat 8 scene images and their manually extracted pixel-level ground truths for cloud detection. They are cropped into multiple 384*384 patches. It has 8400 patches for training and 9201 patches for testing.
+description: Global nighttime light pollution dataset derived from VIIRS Nighttime Lights imagery, offering 0.5 km resolution radiance values, MPSAS sky brightness, and Bortle scale classifications for 173 countries. Available as compressed GeoJSON files (.json.gz) and a PostgreSQL/PostGIS database dump (3.2GB compressed, ~27GB when restored) containing 139,974,408 georeferenced points with full spatial indexing. Suitable for astronomy, dark-sky research, urban planning, and environmental studies.
 version: 1.0
-keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
-image: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/sample/blue_patch_192_10_by_12_LC08_L1TP_002053_20160520_20170324_01_T1.jpg
-temporal:
-spatial: 384*384
+keywords: night-time lights, light pollution, radiance, VIIRS, MPSAS, Bortle, GeoJSON, PostGIS, PostgreSQL, global, sampling 0.5km, spatial database
+image: https://archive.org/download/radiance-geojson-data-2025/Preview.jpeg
+temporal: 2025
+spatial: Global; ~0.5 km sampling resolution; 139,974,408 georeferenced points
 access_level: public
 copyrights:
-accrual_periodicity: 
-specification:
-data_quality: false
-data_dictionary: 
+accrual_periodicity:
+specification: GeoJSON (compressed .json.gz files); PostgreSQL/PostGIS database dump (full spatial database with indexes and metadata)
+data_quality: true
+data_dictionary: Included with the dataset and repository (see references)
 language: en
-license: Apache License
+license:
+  - name: CC BY 4.0 (VIIRS-derived data)
+    url: https://creativecommons.org/licenses/by/4.0/
+  - name: MIT (code)
+    url: https://opensource.org/licenses/MIT
 publisher:
-  - name: 
-    web: 
+  - name: Internet Archive
+    web: https://archive.org
 organization:
-  - name: Laboratory for Robotic Vision (LRV), School of Engineering Science, Simon Fraser University, Canada
-    web: 
-issued_time: 2019.02
+  - name: Radiance GeoJSON (project repository)
+    web: https://codeberg.org/imigueldiaz/radiance-geojson
+issued_time: 2025
 sources:
-  - name: 
-    access_url: 
+  - name: VIIRS nighttime radiance (original source data used)
+    web: https://www.nesdis.noaa.gov/
+access_url: https://archive.org/details/radiance-geojson-data-2025
 references:
-  - title: 
-    reference: 
+  - title: Radiance GeoJSON dataset (Internet Archive)
+    reference: https://archive.org/details/radiance-geojson-data-2025
+  - title: Radiance GeoJSON project repository
+    reference: https://codeberg.org/imigueldiaz/radiance-geojson
