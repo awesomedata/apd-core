@@ -1,0 +1,31 @@
+---
+title: Long duration stitched and unstitched 8K/30 fps stereoscopic 360° videos
+homepage: https://dx.doi.org/10.21227/6htp-py25
+category: ImageProcessing
+description: This 360° video dataset contains 20 stitched and unstitched 8K/30 fps stereoscopic videos, lasting from 248 to 1207 seconds.
+version: 1.0
+keywords: 360 degree video, 360° video, omnidirectional video, stereoscopic video.
+image: https://ieee-dataport.org/sites/default/files/styles/home/public/cats_cropped2.png.webp
+temporal: 29.97 fps
+spatial: 7680*3840
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification: MP4 files encoded using HEVC
+data_quality: true
+data_dictionary: 
+language: en
+license: CC BY 4.0
+publisher:
+  - name: 
+    web: 
+organization:
+  - name:
+    web: 
+issued_time: 2025.12
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
