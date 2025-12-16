@@ -1,10 +1,10 @@
 ---
 title: International Trade Statistics
-homepage: http://www.econostatistics.co.za/
+homepage: https://data.worldbank.org/topic/21
 category: Economics
-description:
+description: The new link contains trade based on filtered search on the worldbank data page
 version:
-keywords:
+keywords: Trade
 image:
 temporal:
 spatial:
@@ -17,6 +17,6 @@ data_dictionary:
 language:
 license:
 publisher:
-organization:
+organization: 
 issued_time:
 sources: []
