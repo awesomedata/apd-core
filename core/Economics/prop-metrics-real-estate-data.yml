@@ -1,0 +1,56 @@
+---
+title: Prop-Metrics — U.S. ZIP-Code-Level Real Estate Analytics Dataset
+homepage: https://www.prop-metrics.com
+category: Economics
+description: >
+  A comprehensive dataset providing ZIP-code-level real estate, rental, demographic,
+  and mortgage market analytics across the United States. Prop-Metrics aggregates
+  and normalizes open data from Zillow, Realtor.com, the U.S. Census Bureau (ACS),
+  HUD Section 8 payment standards, and HMDA mortgage disclosures to produce unified
+  time-series metrics such as median home values, rental trends, income-to-price
+  ratios, investor loan shares, and Section 8 coverage rates.
+version: 1.0
+keywords:
+  - real estate
+  - housing market
+  - rentals
+  - demographics
+  - mortgage data
+  - Section 8
+  - ZIP code analytics
+image: https://i.ibb.co/683QvpX/prop-metrics-twitter.png
+temporal: 2005-present (monthly to annual updates depending on source)
+spatial: U.S. ZIP Code Tabulation Areas (ZCTAs)
+access_level: public
+copyrights: >
+  © Prop-Metrics 2025. Derived data compiled from publicly available
+  and licensed open-data sources under their respective usage terms.
+accrual_periodicity: monthly, yearly
+specification: >
+  Metrics stored in wide-format tables keyed by (zcta, metric, date). Each record contains standardized
+  metric identifiers, value, and freshness metadata.
+data_quality: true
+data_dictionary: https://www.prop-metrics.com/about#download-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Prop-Metrics
+    web: https://www.prop-metrics.com
+organization:
+  - name: Prop-Metrics Analytics, LLC
+    web: https://www.prop-metrics.com
+issued_time: 2025-10
+sources:
+  - name: Zillow Home Value Index (ZHVI) & Zillow Observed Rent Index (ZORI)
+    access_url: https://www.zillow.com/research/data/
+  - name: Realtor.com Monthly Market Data
+    access_url: https://www.realtor.com/research/data/
+  - name: U.S. Census Bureau — American Community Survey (ACS)
+    access_url: https://www.census.gov/programs-surveys/acs
+  - name: HUD Fair Market Rents & Section 8 Payment Standards
+    access_url: https://www.huduser.gov/portal/datasets/fmr.html
+  - name: Home Mortgage Disclosure Act (HMDA)
+    access_url: https://ffiec.cfpb.gov/data-publication
+references:
+  - title: Prop-Metrics ZIP-Code Analytics Overview
+    reference: https://www.prop-metrics.com/about
