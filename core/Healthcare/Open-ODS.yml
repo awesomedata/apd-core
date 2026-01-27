@@ -1,6 +1,6 @@
 ---
 title: Open-ODS (structure of the UK NHS)
-homepage: http://www.openods.co.uk
+homepage: https://www.odsdatasearchandexport.nhs.uk/
 category: Healthcare
 description:
 version:
@@ -13,7 +13,7 @@ copyrights:
 accrual_periodicity:
 specification:
 data_quality: false
-data_dictionary:
+data_dictionary: https://www.odsdatasearchandexport.nhs.uk/referenceDataCatalogue/index.html
 language:
 license:
 publisher:
