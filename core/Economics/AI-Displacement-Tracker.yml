@@ -1,0 +1,31 @@
+---
+title: AI Displacement Tracker
+homepage: https://github.com/noahaust2/ai-displacement-tracker
+category: Economics
+description: Structured dataset tracking AI-attributed workforce displacement events. 86 events covering 445K+ workers across 11 sectors and 12 countries. Each record includes company, date, worker count, sector, country, AI system involved, and source URL. Available in JSON and CSV formats.
+version: 1.0
+keywords: artificial intelligence, workforce displacement, labor economics, automation, layoffs
+image:
+temporal: 2023-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026.02
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
