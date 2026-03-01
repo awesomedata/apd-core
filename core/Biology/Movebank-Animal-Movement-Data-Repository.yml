@@ -1,0 +1,22 @@
+---
+title: Movebank Animal Movement Data Repository
+homepage: https://www.movebank.org/
+category: Biology
+description: Open repository of animal movement data with 7B+ GPS and satellite telemetry records from 1,000+ species. Used widely in spatial ecology, conservation biology, and migration research.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license:
+publisher:
+organization:
+issued_time:
+sources: []
