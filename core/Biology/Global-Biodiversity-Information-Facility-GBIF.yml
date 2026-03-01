@@ -1,0 +1,22 @@
+---
+title: Global Biodiversity Information Facility (GBIF)
+homepage: https://www.gbif.org/occurrence/download
+category: Biology
+description: Open access to 2.4B+ species occurrence records aggregated from natural history museums, citizen science platforms, and research institutions worldwide. Records include GPS coordinates, species identifications, observation dates, and taxonomic classifications.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: CC BY 4.0
+publisher: Global Biodiversity Information Facility (GBIF)
+organization: GBIF Secretariat
+issued_time:
+sources: []

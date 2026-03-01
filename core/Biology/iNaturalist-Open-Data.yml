@@ -1,0 +1,22 @@
+---
+title: iNaturalist Open Data
+homepage: https://www.inaturalist.org/pages/developers
+category: Biology
+description: Millions of research-grade wildlife observations contributed by citizen scientists, with species identifications, GPS coordinates, photos, and community validation. Monthly AWS snapshots cover observations, taxa, photos, and observer metadata.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity: Monthly
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: CC BY-NC 4.0
+publisher: iNaturalist
+organization: California Academy of Sciences / National Geographic Society
+issued_time:
+sources: []

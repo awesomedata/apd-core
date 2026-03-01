@@ -1,0 +1,22 @@
+---
+title: Open Food Facts
+homepage: https://world.openfoodfacts.org/data
+category: Agriculture
+description: Open database of 3M+ food products worldwide with nutritional information, ingredient lists, allergens, additives, packaging, labels, and Nutri-Score/Eco-Score ratings. Available via API, CSV bulk download, and MongoDB export.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity: Daily
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: ODbL (data) / CC BY-SA (images)
+publisher: Open Food Facts
+organization: Open Food Facts (non-profit)
+issued_time:
+sources: []
