@@ -1,0 +1,10 @@
+---
+title: US Disasters Mashup
+homepage: https://github.com/lukeslp/us-disasters-mashup
+category: Government
+description: 48,592 disaster events from four US government sources — NTSB plane crashes, NOAA storm events, USGS earthquake records, and FEMA disaster declarations. Normalized to a common schema with event type, location, date, and casualties.
+keywords: disasters, NTSB, NOAA, USGS, FEMA, plane crashes, storms, earthquakes, government
+access_level: public
+license: CC0-1.0
+language: en
+issued_time: 2025
