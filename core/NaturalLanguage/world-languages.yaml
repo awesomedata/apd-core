@@ -1,0 +1,10 @@
+---
+title: World Languages
+homepage: https://huggingface.co/datasets/lukeslp/world-languages
+category: NaturalLanguage
+description: Structured dataset of world languages covering ISO 639 codes, speaker population estimates, language families, geographic distribution by country, and writing systems. Useful as a reference for NLP preprocessing and multilingual research.
+keywords: languages, ISO 639, speaker population, language families, writing systems, multilingual
+access_level: public
+license: CC-BY-4.0
+language: en
+issued_time: 2025

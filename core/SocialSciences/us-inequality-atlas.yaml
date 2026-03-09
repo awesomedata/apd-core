@@ -1,0 +1,10 @@
+---
+title: US Inequality Atlas
+homepage: https://github.com/lukeslp/us-inequality-atlas
+category: SocialSciences
+description: FIPS-keyed county-level US inequality data spanning food deserts, healthcare access, housing burden, veteran status, and poverty rates. Sources include Census ACS, CMS, USDA, and HRSA.
+keywords: inequality, food deserts, healthcare, housing, veterans, poverty, county-level, Census
+access_level: public
+license: CC-BY-4.0
+language: en
+issued_time: 2025
