@@ -1,0 +1,22 @@
+---
+title: USDA Phytochemical Database — Enriched v2.0
+homepage: https://github.com/wirthal1990-tech/USDA-Phytochemical-Database-JSON
+category: Biology
+description: Enriched version of the USDA Dr. Duke's Phytochemical and Ethnobotanical Database. Links 24,771 phytochemicals to 2,315 plant species with traditional-use annotations, PubMed publication counts, ClinicalTrials.gov study counts, ChEMBL bioactivity scores, and USPTO patent density since 2020. 104,388 records, 8 columns. Formats: JSON and Parquet. Free 400-row sample available.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: English
+license: CC BY-NC 4.0 (sample); Commercial (full dataset)
+publisher: Ethno-API
+organization:
+issued_time:
+sources: []
