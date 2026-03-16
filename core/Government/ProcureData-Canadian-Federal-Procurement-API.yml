@@ -1,0 +1,26 @@
+---
+title: ProcureData - Canadian Federal Procurement API
+homepage: https://procuredata.ca
+category: Government
+description: REST API for Canadian federal procurement data including contracts, tenders, and awards with 801K+ records sourced from CanadaBuys
+version:
+keywords: procurement, contracts, tenders, awards, Canada, federal, open data, API
+image:
+temporal:
+spatial: Canada
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources: []
