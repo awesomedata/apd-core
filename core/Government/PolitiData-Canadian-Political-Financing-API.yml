@@ -1,0 +1,26 @@
+---
+title: PolitiData - Canadian Political Financing and Lobbying API
+homepage: https://politidata.ca
+category: Government
+description: REST API for Canadian political financing contributions, lobbyist registrations, and lobbying communications with 1.87M+ records from Elections Canada and the Commissioner of Lobbying
+version:
+keywords: political financing, lobbying, elections, contributions, Canada, open data, API
+image:
+temporal:
+spatial: Canada
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources: []
