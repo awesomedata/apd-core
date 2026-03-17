@@ -1,0 +1,66 @@
+---
+title: StackData SaaS & B2B Software Pricing Intelligence Sample 2026
+homepage: https://github.com/Greg-RG-GIT/stackdata-store/releases/tag/v1.0-sample
+category: Economics
+description: >
+  Verified pricing data for 78 SaaS and B2B software tools across 13 categories,
+  hand-selected for decision relevance and surprise factor. Covers developer
+  infrastructure, AI/ML APIs, CRM, HR tech, ecommerce platforms, marketing tools,
+  project management, accounting software, design tools, no-code platforms,
+  affiliate programs, and agency freelance rates — all verified March 2026.
+  Each entry includes tool name, category, free-tier availability, starter and
+  enterprise price points, pricing model (per-seat/per-contact/usage-based/flat),
+  hidden costs, and notable 2025-2026 pricing changes. Free sample from StackData's
+  16-dataset full collection (40-90 tools per dataset).
+version: "1.0"
+keywords:
+  - SaaS pricing
+  - software pricing
+  - B2B software
+  - CRM pricing
+  - developer tools
+  - AI tools
+  - pricing intelligence
+  - marketing tools
+  - HR tech
+  - ecommerce platforms
+  - project management
+  - accounting software
+  - design tools
+  - no-code tools
+  - agency rates
+  - freelance rates
+temporal: March 2026 (point-in-time snapshot)
+spatial: Global (US-centric pricing; USD)
+access_level: public
+copyrights: >
+  CC BY 4.0 — Free to use with attribution to StackData
+  (https://greg-rg-git.github.io/stackdata-store/).
+accrual_periodicity: annual
+specification: >
+  CSV format with columns: tool_name, category, dataset_source, free_tier,
+  starter_price_monthly, enterprise_price_monthly, pricing_model, verified_date,
+  surprise_factor, full_dataset_url. 78 rows + header. UTF-8 encoded.
+data_quality: true
+data_dictionary: https://github.com/Greg-RG-GIT/stackdata-store/releases/download/v1.0-sample/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: StackData / RevOps Global
+    web: https://greg-rg-git.github.io/stackdata-store/
+organization:
+  - name: RevOps Global
+    web: https://greg-rg-git.github.io/stackdata-store/
+issued_time: 2026-03
+sources:
+  - name: Vendor pricing pages (primary source)
+    access_url: https://greg-rg-git.github.io/stackdata-store/
+  - name: G2 pricing reviews
+    access_url: https://www.g2.com
+  - name: Vendr SaaS pricing intelligence
+    access_url: https://www.vendr.com
+references:
+  - title: StackData Full Dataset Collection
+    reference: https://greg-rg-git.github.io/stackdata-store/
+  - title: Dataset README and Data Dictionary
+    reference: https://github.com/Greg-RG-GIT/stackdata-store/releases/download/v1.0-sample/README.md
