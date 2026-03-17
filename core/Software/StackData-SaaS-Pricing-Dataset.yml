@@ -1,0 +1,31 @@
+---
+title: SaaS Software Pricing Dataset 2026
+homepage: https://greg-rg-git.github.io/stackdata-store/
+category: Software
+description: A curated, hand-verified dataset of pricing information for major SaaS software categories, verified March 2026. Covers CRM, dev tools, AI/ML platforms, HR tech, e-commerce platforms, design tools, marketing automation, and more. Each entry includes vendor name, pricing tier, monthly/annual price in USD, free plan availability, and verification date. A free sample covering 50 popular B2B tools is available for download with no account required.
+version: 1.0
+keywords: SaaS pricing, software pricing, CRM pricing, dev tools, business intelligence, pricing benchmarks, pricing data, subscription software
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: Free sample available (CC0); full datasets available for purchase
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC0 (free sample); Commercial (full dataset)
+publisher:
+  - name: StackData
+    web: https://greg-rg-git.github.io/stackdata-store/
+organization:
+  - name: StackData
+    web: https://greg-rg-git.github.io/stackdata-store/
+issued_time: 2026.03
+sources:
+  - name: StackData Free Sample
+    access_url: https://github.com/Greg-RG-GIT/stackdata-store/releases/tag/v1.0-sample
+references:
+  - title: StackData Store
+    reference: https://greg-rg-git.github.io/stackdata-store/
