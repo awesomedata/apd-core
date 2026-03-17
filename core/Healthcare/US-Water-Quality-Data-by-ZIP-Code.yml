@@ -1,0 +1,35 @@
+---
+title: US Water Quality Data by ZIP Code
+homepage: https://github.com/artakulov/us-water-quality-data
+category: Healthcare
+description: Water quality violations, lead and copper levels, radon risk zones, and Home Safety Scores for 6,300+ US ZIP codes. Based on EPA SDWIS data. Available as CSV and Parquet.
+version:
+keywords: water quality, EPA, lead, copper, radon, public health, ZIP code, drinking water, SDWIS
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+organization:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+issued_time: 2026
+sources:
+  - name: GitHub
+    access_url: https://github.com/artakulov/us-water-quality-data
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/artakulov/us-water-quality-data
+  - name: HuggingFace
+    access_url: https://huggingface.co/datasets/artakulov/us-water-quality-data
+references:
+  - title: EPA Safe Drinking Water Information System (SDWIS)
+    reference: https://www.epa.gov/enviro/sdwis-search
