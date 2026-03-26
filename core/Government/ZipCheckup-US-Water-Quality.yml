@@ -1,0 +1,33 @@
+---
+title: ZipCheckup U.S. Water Quality Dataset
+homepage: https://github.com/artakulov/us-water-quality-data
+category: Government
+description: Water quality, safety scores, violations, and lead/copper levels for all 41,344 U.S. residential ZIP codes. Aggregated from 20+ federal data sources including EPA SDWIS, FEMA, Census, and USGS. Available as JSON, CSV, npm package, and REST API. CC BY 4.0 licensed. Updated weekly.
+version:
+keywords: water quality, EPA, SDWIS, drinking water, lead, contaminants, violations, ZIP code, public health, environmental data, open data
+image:
+temporal: 2020-present
+spatial: United States (all 50 states + DC)
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+organization:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+issued_time: 2026.03
+sources:
+  - name: EPA Safe Drinking Water Information System (SDWIS)
+    access_url: https://www.epa.gov/ground-water-and-drinking-water/safe-drinking-water-information-system-sdwis-federal-reporting
+  - name: GitHub repository
+    access_url: https://github.com/artakulov/us-water-quality-data
+references:
+  - title: npm package
+    reference: https://www.npmjs.com/package/us-water-quality-data
