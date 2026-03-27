@@ -1,0 +1,31 @@
+---
+title: AI Coding Tools Pricing
+homepage: https://github.com/lunacompsia-oss/ai-coding-tools-pricing
+category: Software
+description: Structured pricing data for AI coding assistants (Cursor, GitHub Copilot, Windsurf, Claude Code, etc.) with JSON Schema validation and TypeScript types. Covers 8 tools, 30+ pricing tiers, updated monthly.
+version: 1.1.0
+keywords: ai, coding assistants, pricing, json, developer tools
+image:
+temporal: 2024-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: JSON Schema
+data_quality: true
+data_dictionary: https://github.com/lunacompsia-oss/ai-coding-tools-pricing/blob/main/schema.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Lunacompsia OSS
+    web: https://github.com/lunacompsia-oss
+organization:
+  - name: Lunacompsia OSS
+    web: https://github.com/lunacompsia-oss
+issued_time: 2025.03
+sources:
+  - name: Official pricing pages of AI coding tools
+    access_url: https://github.com/lunacompsia-oss/ai-coding-tools-pricing
+references:
+  - title: AI Coding Tools Pricing Dataset
+    reference: https://github.com/lunacompsia-oss/ai-coding-tools-pricing
