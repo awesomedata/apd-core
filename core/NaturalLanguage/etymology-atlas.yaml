@@ -1,0 +1,10 @@
+---
+title: Etymology Atlas
+homepage: https://huggingface.co/datasets/lukeslp/etymology-atlas
+category: NaturalLanguage
+description: Word origins and etymological data covering millions of entries across multiple languages with historical roots, language family mappings, and borrowing chains. One of the most downloaded linguistics datasets on HuggingFace with 4.38 million downloads.
+keywords: etymology, word origins, linguistics, language families, borrowing, historical linguistics
+access_level: public
+license: CC-BY-SA-3.0
+language: en
+issued_time: 2025
