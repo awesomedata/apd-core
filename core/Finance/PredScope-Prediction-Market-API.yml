@@ -1,0 +1,22 @@
+---
+title: PredScope Prediction Market API
+homepage: https://predscope.com/api/
+category: Finance
+description: Free, real-time prediction market data from Polymarket covering 600+ events across politics, crypto, sports, and geopolitics. JSON API with live odds, volumes, and resolved market outcomes. Updated every 10 minutes.
+version:
+keywords: prediction markets, Polymarket, odds, forecasting, real-time data, JSON API
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: every 10 minutes
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+organization:
+issued_time:
+sources: []
