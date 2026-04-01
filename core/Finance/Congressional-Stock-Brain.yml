@@ -1,0 +1,33 @@
+---
+title: Congressional Stock Brain
+homepage: https://congressionalstockbrain.com
+category: Finance
+description: Congressional Stock Brain is an AI-powered platform that ingests every U.S. STOCK Act disclosure (publicly filed lawmaker trades) and converts them into machine-scored trade signals for retail investors. Every disclosure is ranked by committee relevance, timing vs. legislative activity, trade size vs. historical baseline, and disclosure delay. Free to use, no login required.
+version: 1.0
+keywords: Finance, Government, STOCK Act, Congress, Lawmakers, Stock Trades, AI, Political Trading, Disclosure, Signals.
+image: https://congressionalstockbrain.com/favicon.ico
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://congressionalstockbrain.com/HowItWorks
+language: en
+license:
+publisher:
+  - name: Congressional Stock Brain
+      web: https://congressionalstockbrain.com
+      organization:
+        - name: Congressional Stock Brain
+            web: https://congressionalstockbrain.com
+            issued_time: 2026.01
+            sources:
+              - name: U.S. Senate Financial Disclosures
+                  access_url: https://efts.senate.gov/public/index.cfm/filings
+                    - name: U.S. House of Representatives Financial Disclosures
+                        access_url: https://disclosures.house.gov
+                        references:
+                          - title: STOCK Act (Stop Trading on Congressional Knowledge Act)
+                              reference: https://www.congress.gov/bill/112th-congress/senate-bill/2038
