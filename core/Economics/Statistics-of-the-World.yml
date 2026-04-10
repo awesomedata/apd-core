@@ -1,0 +1,8 @@
+---
+title: Statistics of the World
+homepage: https://statisticsoftheworld.com/api-docs
+category: Economics
+description: Free API and interactive platform for 440+ economic, demographic, health, and environmental indicators across 218 countries. Data sourced from IMF World Economic Outlook, World Bank WDI, WHO Global Health Observatory, FRED, and United Nations. JSON API with no authentication required for basic use.
+organization:
+  - name: Statistics of the World
+    web: https://statisticsoftheworld.com
