@@ -8,17 +8,17 @@ access_level: public
 language: en
 license: Free (underlying STOCK Act data is public government data)
 publisher:
-- name: Congressional Stock Brain
-  web: https://congressionalstockbrain.com
-  organization:
-  - name: U.S. House Financial Disclosure Portal / U.S. Senate eFTS (data sources)
-    web: https://disclosures.house.gov/FinancialDisclosure
+  - name: Congressional Stock Brain
+    web: https://congressionalstockbrain.com
+    organization:
+      - name: U.S. House Financial Disclosure Portal / U.S. Senate eFTS (data sources)
+        web: https://disclosures.house.gov/FinancialDisclosure
     issued_time: 2023
     sources:
-    - name: U.S. House Financial Disclosures Portal
-      access_url: https://disclosures.house.gov/FinancialDisclosure
+      - name: U.S. House Financial Disclosures Portal
+        access_url: https://disclosures.house.gov/FinancialDisclosure
       - name: U.S. Senate Electronic Financial Disclosure
         access_url: https://efts.senate.gov/public/#/search
-        references:
-        - title: STOCK Act
-          reference: https://www.congress.gov/bill/112th-congress/senate-bill/2038
+    references:
+      - title: STOCK Act
+        reference: https://www.congress.gov/bill/112th-congress/senate-bill/2038
