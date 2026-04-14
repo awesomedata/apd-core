@@ -1,0 +1,27 @@
+---
+title: Helium
+homepage: https://heliumtrades.com/mcp-page/
+category: Finance
+description: Real-time news articles with political bias scoring (3.2M+ articles, 5,000+ sources), live stock, ETF, and cryptocurrency market data, AI-assisted options pricing, and multi-source news synthesis. Free API access; MCP integration available for programmatic use.
+version:
+keywords: news, bias, stocks, ETF, cryptocurrency, options, market data, API, MCP, finance
+image:
+temporal: real-time
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: real-time
+specification: https://heliumtrades.com/mcp-page/
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+  - name: Helium Trades
+    web: https://heliumtrades.com
+organization:
+issued_time:
+sources:
+references:
+  - title: Helium MCP server
+    reference: https://github.com/connerlambden/helium-mcp
