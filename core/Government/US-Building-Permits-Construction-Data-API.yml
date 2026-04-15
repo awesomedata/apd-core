@@ -1,0 +1,26 @@
+---
+title: US Building Permits and Construction Data API
+homepage: https://apify.com/pink_comic/building-permits-construction-leads
+category: Government
+description: API providing building permit records from 47 US cities via Socrata open data portals. Returns permit type, status, contractor, address, valuation, and dates for construction market analysis and contractor lead generation.
+version:
+keywords: building permits, construction, government data, open data, Socrata, contractor, real estate
+image:
+temporal:
+spatial: United States (47 cities)
+access_level: public
+copyrights:
+accrual_periodicity: real-time
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026.03
+sources: []

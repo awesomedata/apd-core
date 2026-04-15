@@ -1,0 +1,26 @@
+---
+title: SAM.gov Federal Contract Opportunities API
+homepage: https://apify.com/pink_comic/sam-gov-contract-opportunities
+category: Government
+description: API to search federal contract opportunities from SAM.gov (System for Award Management). Returns solicitation details, NAICS codes, set-aside types, deadlines, and contracting office information for government procurement analysis.
+version:
+keywords: SAM.gov, federal contracts, government procurement, solicitations, NAICS, set-aside, government data
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: real-time
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026.03
+sources: []

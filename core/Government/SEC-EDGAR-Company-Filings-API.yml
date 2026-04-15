@@ -1,0 +1,26 @@
+---
+title: SEC EDGAR Company Filings API
+homepage: https://apify.com/pink_comic/sec-edgar-company-filings
+category: Government
+description: API to search SEC EDGAR for company filings including 10-K, 10-Q, 8-K, and other form types. Returns filing date, company name, CIK, form type, and document links for financial research and compliance.
+version:
+keywords: SEC, EDGAR, company filings, 10-K, 10-Q, securities, financial data, government data
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: real-time
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name: U.S. Securities and Exchange Commission
+    web: https://www.sec.gov
+organization:
+  - name:
+    web:
+issued_time: 2026.03
+sources: []
