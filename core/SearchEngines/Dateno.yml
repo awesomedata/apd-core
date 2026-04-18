@@ -1,0 +1,31 @@
+---
+title: Dateno
+homepage: https://dateno.io
+category: SearchEngines
+description: Dataset search engine for for 5k data sources with 22m datasets across the World includes open data, statistics and geodata.
+version: 1.0
+keywords: open data, datasets, datasets search, data search, geodata, statistics
+image: https://avatars.githubusercontent.com/u/181207829?s=200&v=4
+temporal:
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: Dateno 
+    web: https://dateno.io
+organization:
+  - name: Dateno LLC
+    web: https://dateno.io
+issued_time: 2023.09
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
