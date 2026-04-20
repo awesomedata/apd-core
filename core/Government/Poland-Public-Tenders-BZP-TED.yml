@@ -1,0 +1,35 @@
+---
+title: Poland Public Tenders Dataset (BZP + TED)
+homepage: https://github.com/atlasprzetargow/polish-tenders-dataset
+category: Government
+description: Open dataset of Polish public procurement notices aggregated from official sources — BZP (Biuletyn Zamówień Publicznych, Polish national procurement bulletin) and TED (Tenders Electronic Daily, EU-wide procurement database). Covers 2024 onward with ~1.4 million tender notices, ~23k buyer profiles and ~82k contractor profiles. Natural-person contractors (sole proprietors) are anonymized via a stable salted SHA-256 hash to comply with Polish/EU data protection law. Deduplication between BZP and TED is flagged, province codes normalized to NUTS-2, cities geocoded. Parquet (git-tracked) + gzipped CSV (release assets).
+version: "2026.Q2"
+keywords: procurement, public procurement, government contracts, Poland, BZP, TED, OCDS, eForms, NUTS-2, CPV, open data, tenders, public sector, transparency
+image:
+temporal: 2024-present
+spatial: Poland (all 16 voivodeships / NUTS-2 regions)
+access_level: public
+copyrights: Atlas Przetargów
+accrual_periodicity: quarterly
+specification: https://github.com/atlasprzetargow/polish-tenders-dataset/tree/main/schema
+data_quality: true
+data_dictionary: https://github.com/atlasprzetargow/polish-tenders-dataset/blob/main/schema/tenders.md
+language: pl, en
+license: CC-BY-4.0
+publisher:
+  - name: Atlas Przetargów
+    web: https://atlasprzetargow.pl
+organization:
+issued_time: "2026-04-17"
+sources:
+  - name: BZP (Biuletyn Zamówień Publicznych)
+    web: https://ezamowienia.gov.pl
+  - name: TED (Tenders Electronic Daily)
+    web: https://ted.europa.eu
+references:
+  - title: Launch blog post (methodology, PII anonymization, use cases)
+    reference: https://atlasprzetargow.pl/blog/open-data-polskich-przetargow-2024-2025
+  - title: Getting started notebook (pandas + DuckDB, market concentration analysis)
+    reference: https://github.com/atlasprzetargow/polish-tenders-dataset/blob/main/notebooks/01_getting_started.ipynb
+  - title: CITATION.cff
+    reference: https://github.com/atlasprzetargow/polish-tenders-dataset/blob/main/CITATION.cff
