@@ -1,0 +1,25 @@
+---
+title: Deckaura Tarot Card Meanings
+homepage: https://deckaura.com/blogs/guide/tarot-card-meanings
+category: NaturalLanguage
+description: Complete 78-card tarot deck with structured interpretations across upright, reversed, love, career, and yes/no dimensions. Each card annotated with elemental and zodiac associations, and linked to full interpretive guides. Suitable for zero-shot classification, symbolic embedding research, and divinatory NLP applications.
+version: 1.0.0
+keywords: tarot, divination, symbolism, esoteric, semantic, cultural heritage
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: MIT
+publisher: Deckaura
+organization: Deckaura
+issued_time: 2026-04-08
+sources:
+  - https://deckaura.com
+  - https://huggingface.co/datasets/deckaura/tarot-card-meanings
+  - https://github.com/gokimedia/tarot-mcp-server
