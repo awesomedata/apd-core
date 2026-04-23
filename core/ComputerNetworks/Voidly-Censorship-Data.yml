@@ -1,0 +1,33 @@
+---
+title: 'Voidly Censorship Data: Global internet censorship measurements'
+homepage: https://huggingface.co/datasets/emperor-mew/global-censorship-index
+category: ComputerNetworks
+description: Live and historical internet censorship measurements aggregated from OONI and partner probe networks. Covers 19.6M data points across 126 countries (live JSON) plus a 1.6M-row 10-year historical archive in Parquet. Includes per-country block rates, per-domain reachability, ISP/ASN signals, and incident-level labels suitable for ML training and research.
+version:
+keywords: internet censorship, ooni, network interference, dns blocking, http blocking, tls, web connectivity, blocking detection, freedom of expression
+image:
+temporal: 2016-2026
+spatial: 126 countries
+access_level: public
+copyrights:
+accrual_periodicity: every 6 hours
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Voidly
+    web: https://voidly.ai
+organization:
+  - name: Voidly
+    web: https://voidly.ai
+issued_time: 2026
+sources:
+  - name: Live censorship index (JSON)
+    access_url: https://huggingface.co/datasets/emperor-mew/global-censorship-index
+  - name: 10-year historical archive (Parquet)
+    access_url: https://huggingface.co/datasets/emperor-mew/ooni-censorship-historical
+references:
+  - title: OONI (upstream raw measurements)
+    reference: https://ooni.torproject.org/data/
