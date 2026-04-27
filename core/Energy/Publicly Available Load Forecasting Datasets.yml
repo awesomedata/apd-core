@@ -1,0 +1,18 @@
+---
+title: Publicly Available Datasets For Electric Load Forecasting
+homepage: https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/
+category: Energy
+description: Contains an active maintained list of publicly available electrc load datasets (currently 43) with links, attributes (data resolution, spanned time periods, feature descriptions, regional information, etc.). Further, a pip package for easy access to the most-used datasets is available.
+version: 1.0
+keywords: load consumption, load data, load forecasting, open data
+image: "https://raw.githubusercontent.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/refs/heads/main/Images/logo_padelf_repo.png"
+temporal: 
+spatial: 
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Varies
