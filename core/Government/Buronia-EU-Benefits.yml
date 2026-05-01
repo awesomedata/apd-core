@@ -1,0 +1,33 @@
+---
+title: EU Government Benefits — Structural Dataset
+homepage: https://github.com/Buronia-com/eu-benefits-schema
+category: Government
+description: Catalogue of 106 government benefits across 27 EU member states. Each entry includes the native and English name, administering authority, official URL, average annual value (EUR), complexity score, processing-time estimate, official-form URLs, SEO keywords, and structured form-field schemas. Companion repository (eu-benefits-i18n) provides per-benefit translations across 27 languages. Both datasets are released under MIT.
+version: '0.1'
+keywords: european-union, benefits, social-security, government, eu, multilingual, schema-org, civic-tech
+image:
+temporal: 2026
+spatial: European Union
+access_level: public
+copyrights: Buronia (MIT License)
+accrual_periodicity: rolling
+specification: https://github.com/Buronia-com/eu-benefits-schema/blob/main/README.md
+data_quality: true
+data_dictionary: https://github.com/Buronia-com/eu-benefits-schema/blob/main/README.md
+language: en
+license: MIT License
+publisher:
+  - name: Buronia
+    web: https://buronia.com
+organization:
+  - name: Buronia
+    web: https://buronia.com
+issued_time: 2026.05
+sources:
+  - name: eu-benefits-schema (structural)
+    access_url: https://github.com/Buronia-com/eu-benefits-schema
+  - name: eu-benefits-i18n (translations)
+    access_url: https://github.com/Buronia-com/eu-benefits-i18n
+references:
+  - title: Schema.org reference templates for GovernmentService and Organization
+    reference: https://github.com/Buronia-com/eu-benefits-schema/tree/main/templates
