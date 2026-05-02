@@ -1,0 +1,34 @@
+---
+title: Road511
+homepage: https://road511.com
+category: Transportation
+description: Unified REST/GeoJSON API normalizing real-time traffic data from 65 US state and Canadian province 511 systems — events, cameras, DMS signs, bridge clearances, truck routes, weight restrictions, EV charging, weather stations, fuel prices. Free tier available.
+version: 1.0
+keywords: traffic, 511, cameras, bridges, trucking, GeoJSON, United States, Canada
+image:
+temporal: 2022-present, real-time
+spatial: United States, Canada
+access_level: public
+copyrights: © Road511
+accrual_periodicity: 1-5 minutes (real-time polling)
+specification: https://api.road511.com/api/v1/docs/doc.json
+data_quality:
+data_dictionary: https://road511.com/docs.html
+language: en
+license: Proprietary (free tier + paid plans)
+publisher:
+  - name: Road511
+    web: https://road511.com
+organization:
+  - name: Road511
+    web: https://road511.com
+issued_time: 2026.04
+sources:
+  - name: Public 511 systems across all 50 US states and 13 Canadian provinces
+    access_url: https://road511.com/docs.html
+references:
+  - title: Road511 API Documentation
+    reference: https://road511.com/docs.html
+  - title: OpenAPI spec
+    reference: https://api.road511.com/api/v1/docs/doc.json
+---
