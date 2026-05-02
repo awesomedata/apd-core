@@ -1,0 +1,42 @@
+---
+title: FedSalary - Global Government Salary Database
+homepage: https://fedsalary.com
+category: SocialSciences
+description: |
+  Verified federal and national government employee pay tables for 17 countries
+  (US OPM GS/SES/FS/JUD, UK Cabinet Office SCS, Canadian Treasury Board core
+  public service, Australian APSC, Japanese Jinjiin, Korean civil service,
+  German BBesG/TVoeD, Brazilian SIAPE, Indian CPC, and others). Approximately
+  19,000 verified pay cells. Every cell is anchored to the country's
+  authoritative compensation publisher with a SHA256 source manifest. Annual
+  base salary by grade and step, with the primary-source URL and retrieval
+  date for each cell. Refreshed annually via an automated fetch-and-validate
+  pipeline.
+version: '2026'
+keywords:
+  - government
+  - salary
+  - compensation
+  - public-sector
+  - civil-service
+  - reference-data
+  - structured
+  - canonical
+image:
+temporal: '2025/2026'
+spatial: 17 countries (US, CA, UK, AU, JP, KR, DE, BR, IN, NL, ES, AT, CH, TW, HK, MY, PT)
+access_level: Public
+copyrights: CC-BY-4.0
+accrual_periodicity: Annual (each May)
+specification: https://fedsalary.com/api/openapi.json
+data_quality: true
+data_dictionary: https://fedsalary.com/methodology
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher: FedSalary
+organization: FedSalary
+issued_time: '2026'
+sources:
+  - https://fedsalary.com/data/all
+  - https://github.com/dregon03/fedsalary-data
+  - https://huggingface.co/datasets/fedsalary/fedsalary
