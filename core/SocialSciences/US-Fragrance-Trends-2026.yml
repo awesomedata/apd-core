@@ -1,0 +1,24 @@
+---
+title: US Fragrance Trends 2026 — Most-Searched Fragrance by US State
+homepage: https://github.com/ahmad-khan-97/us-fragrance-trends-2026
+category: SocialSciences
+description: >-
+  A 12-month Google Trends analysis (May 2025 – April 2026) of US consumer interest in 30 top
+  designer, niche, and celebrity fragrances, broken down by state. Each row identifies the
+  single fragrance with the highest average Google search interest in each US state plus DC.
+  Open consumer-research dataset of fragrance preference geography.
+keywords: consumer-research,google-trends,fragrance,perfume,cologne,us-states,beauty,retail,time-series
+spatial: United States (50 states + DC)
+temporal: May 2025 - April 2026 (12-month window)
+access_level: public
+license: CC BY 4.0
+language: en
+publisher:
+  - name: PerfumeM
+    web: https://perfumem.com
+organization:
+  - name: PerfumeM
+    web: https://perfumem.com
+sources:
+  - name: Google Trends (public web)
+    access_url: https://trends.google.com
