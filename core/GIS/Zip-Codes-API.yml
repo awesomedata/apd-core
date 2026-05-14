@@ -1,0 +1,34 @@
+ ---
+  title: Zip-Codes API
+  homepage: https://www.zip-codes.com/api/
+  category: GIS
+  description: REST API delivering US ZIP, ZIP+4, and Canadian postal code data — address standardization, radius search
+   (centroid and spatial polygon), point-to-point distance, Census ACS demographics (2011–2024), and boundary lookups
+  (Census tracts, congressional districts, school districts) with computed intersection percentages.
+  version:
+  keywords:
+    - zip-code
+    - postal-code
+    - geocoding
+    - address-validation
+    - census
+    - demographics
+    - acs
+    - boundaries
+    - canada
+    - usa
+  image:
+  temporal: 2011–2024 (Census ACS); current (postal data, monthly)
+  spatial: United States, Canada
+  access_level: API key (free tier — 2,500 lookups/day, no credit card)
+  copyrights:
+  accrual_periodicity: Monthly (postal); annual (Census ACS); quarterly (boundaries)
+  specification: https://api.zip-codes.com/v2/openapi.json
+  data_quality: false
+  data_dictionary: https://api.zip-codes.com/docs
+  language: en
+  license:
+  publisher: Zip-Codes.com
+  organization: Zip-Codes.com
+  issued_time: 2026-03-12
+  sources: []
