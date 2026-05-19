@@ -1,0 +1,32 @@
+---
+title: BailleurVerif - French Non-Compliant Rental Listings Observatory
+homepage: https://www.data.gouv.fr/fr/datasets/annonces-de-location-francaises-non-conformes-observatoire-bailleurverif/
+category: Government
+description: Time-stamped longitudinal observatory of French rental listings flagged as non-compliant with the loi ELAN rent-cap (encadrement des loyers) and the DPE F/G rental ban (loi Climat-Résilience). Daily automated scrape across 7 French cities (Paris, Lille, Lyon, Marseille, Bordeaux, Montpellier, Plaisir), 11 git-timestamped waves to date, with cross-wave persistence chain demonstrating that 57.6% of listings flagged in wave-1 remain flagged in wave-3 (N=121 triple-persisted listings). Useful for academic research on landlord compliance, regulatory effectiveness, and housing market opacity.
+version: v1
+keywords:
+  - housing
+  - rental
+  - france
+  - real-estate
+  - regulatory-compliance
+  - loi-elan
+  - dpe
+  - encadrement-loyer
+image:
+temporal: 2026-05-13/ongoing (daily updates 03:00 UTC)
+spatial: France (Paris, Lille, Lyon, Marseille, Bordeaux, Montpellier, Plaisir)
+access_level: public
+copyrights: Open Licence v2.0 (Etalab)
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/Creariax5/bailleurverif/blob/main/README.md
+language: fr
+license: etalab-2.0
+publisher: Florian Demartini (BailleurVerif)
+organization: BailleurVerif
+issued_time: 2026-05-13
+sources:
+  - https://www.data.gouv.fr/fr/reuses/bailleurverif-observatoire-annonces-loyer-non-conformes-encadrement-dpe-f-g/
+  - https://github.com/Creariax5/bailleurverif
