@@ -1,8 +1,8 @@
 ---
-title: German train system by Deutsche Bahn
-homepage: https://data.deutschebahn.com/dataset.groups.datasets.html
+title: German transportation system by Deutsche Bahn
+homepage: https://www.opendata-oepnv.de/ht/de/datensaetze?tx_vrrkit_view%5Baction%5D=dataset&tx_vrrkit_view%5Bcontroller%5D=View&tx_vrrkit_view%5Bfilter%5D=soll-fahrplandaten&tx_vrrkit_view%5Bkey%5D=group
 category: Transportation
-description:
+description: This dataset contains data across organisation and routes of the german train and bus system.
 version:
 keywords:
 image:
