@@ -1,34 +1,29 @@
  ---
-  title: Zip-Codes API
-  homepage: https://www.zip-codes.com/api/
+  title: Zip-Codes Free Database
+  homepage: https://www.zip-codes.com/free-zip-code-database.asp
   category: GIS
-  description: REST API delivering US ZIP, ZIP+4, and Canadian postal code data — address standardization, radius search
-   (centroid and spatial polygon), point-to-point distance, Census ACS demographics (2011–2024), and boundary lookups
-  (Census tracts, congressional districts, school districts) with computed intersection percentages.
+  description: Free US ZIP code database covering core fields (ZIP, city, state, county, latitude/longitude,
+  classification) for every USPS ZIP. Account signup required for full download; no payment required. From the team
+  behind Zip-Codes.com.
   version:
   keywords:
     - zip-code
     - postal-code
-    - geocoding
-    - address-validation
-    - census
-    - demographics
-    - acs
-    - boundaries
-    - canada
     - usa
+    - usps
+    - geocoding
+    - reference-data
   image:
-  temporal: 2011–2024 (Census ACS); current (postal data, monthly)
-  spatial: United States, Canada
-  access_level: API key (free tier — 2,500 lookups/day, no credit card)
+  spatial: United States
+  access_level: Account signup required (no payment)
   copyrights:
-  accrual_periodicity: Monthly (postal); annual (Census ACS); quarterly (boundaries)
-  specification: https://api.zip-codes.com/v2/openapi.json
+  accrual_periodicity: Monthly
+  specification:
   data_quality: false
-  data_dictionary: https://api.zip-codes.com/docs
+  data_dictionary: https://www.zip-codes.com/free-zip-code-database.asp
   language: en
   license:
   publisher: Zip-Codes.com
   organization: Zip-Codes.com
-  issued_time: 2026-03-12
+  issued_time:
   sources: []
