@@ -1,0 +1,34 @@
+---
+title: Padel Snipe — World Padel Clubs Atlas
+homepage: https://padelsnipe.com/fr/world
+category: Sports
+description: Open database of all mapped padel clubs across 9 European countries with GPS coordinates, indoor/outdoor court counts, and booking platform info (Playtomic and Anybuddy). Approximately 4,000 clubs total, continuously updated by passive workers. JSON API, no authentication, CORS open.
+version:
+keywords:
+  - padel
+  - clubs
+  - sports
+  - geolocation
+  - europe
+  - playtomic
+  - anybuddy
+  - bookings
+image:
+temporal:
+spatial: Europe
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://padelsnipe.com/fr/world/api
+language: en, fr, es
+license: CC-BY-4.0
+publisher: Padel Snipe
+organization:
+issued_time: 2026-05-23
+sources:
+  - url: https://padelsnipe.com/api/world/clubs
+    title: World padel clubs — JSON endpoint
+  - url: https://padelsnipe.com/fr/world/api
+    title: API documentation
