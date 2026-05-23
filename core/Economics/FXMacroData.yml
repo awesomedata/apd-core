@@ -1,0 +1,31 @@
+---
+title: FXMacroData
+homepage: https://fxmacrodata.com/
+category: Economics
+description: Macroeconomic and FX data API sourced from central bank announcements with normalized indicator time series, release calendars, COT positioning, commodities, and forex spot coverage across 18 currencies.
+version: 1.0
+keywords: macroeconomics, foreign exchange, central banks, inflation, GDP, policy rate, labor market, COT, forex API
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: REST API
+data_quality: true
+data_dictionary: https://fxmacrodata.com/documentation/
+language: en
+license:
+publisher:
+  - name: FXMacroData
+    web: https://fxmacrodata.com/
+organization:
+  - name: FXMacroData
+    web: https://github.com/fxmacrodata/fxmacrodata
+issued_time: 2026.05
+sources:
+  - name: FXMacroData API
+    access_url: https://fxmacrodata.com/api/v1
+references:
+  - title: FXMacroData GitHub repository
+    reference: https://github.com/fxmacrodata/fxmacrodata
