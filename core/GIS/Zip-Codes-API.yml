@@ -1,29 +1,27 @@
- ---
+---
 title: Zip-Codes Free Database
 homepage: https://www.zip-codes.com/free-zip-code-database.asp
 category: GIS
-description: Free US ZIP code database covering core fields (ZIP, city, state, county, latitude/longitude,
-classification) for every USPS ZIP. Account signup required for full download; no payment required. From the team
-behind Zip-Codes.com.
-version:
+description: Free US ZIP code database covering core fields (ZIP, city, state, county, latitude/longitude, classification) for every USPS ZIP. Account signup required for full download; no payment required. From the team behind Zip-Codes.com.
+version: 
 keywords:
-    - zip-code
-    - postal-code
-    - usa
-    - usps
-    - geocoding
-    - reference-data
-image:
+  - zip-code
+  - postal-code
+  - usa
+  - usps
+  - geocoding
+  - reference-data
+image: 
 spatial: United States
 access_level: Account signup required (no payment)
-copyrights:
+copyrights: 
 accrual_periodicity: Monthly
-specification:
+specification: 
 data_quality: false
 data_dictionary: https://www.zip-codes.com/free-zip-code-database.asp
 language: en
-license:
+license: 
 publisher: Zip-Codes.com
 organization: Zip-Codes.com
-issued_time:
+issued_time: 
 sources: []
