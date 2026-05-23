@@ -1,0 +1,31 @@
+---
+title: Prestyj Lead Response, Video Advertising & AI Sales Statistics Dataset
+homepage: https://prestyj.com/data
+category: SocialSciences
+description: |
+  A curated dataset of 58+ cite-worthy statistics covering speed-to-lead, video
+  advertising performance, AI adoption in sales, lead conversion rates, and
+  cost-per-lead by industry. Each row carries its primary publisher (Harvard
+  Business Review, InsideSales, Wyzowl, HubSpot, WordStream, McKinsey, Gartner,
+  Salesforce, etc.), year of publication, and a stable permalink. Sourced and
+  dated 2024-2026.
+keywords:
+  - lead response time
+  - speed to lead
+  - video advertising
+  - AI in sales
+  - cost per lead
+  - marketing benchmarks
+  - sales operations
+temporal: "2024/2026"
+spatial: United States
+access_level: public
+copyrights: Prestyj
+data_quality: true
+license: CC BY 4.0
+publisher: Prestyj
+sources:
+  - title: Prestyj Statistics — CSV
+    url: https://prestyj.com/data/statistics.csv
+  - title: Prestyj Statistics — JSON
+    url: https://prestyj.com/data/statistics.json
