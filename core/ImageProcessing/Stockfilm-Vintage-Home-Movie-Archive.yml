@@ -1,0 +1,39 @@
+---
+title: Stockfilm Vintage Home Movie Archive
+homepage: https://stockfilm.com/ai-training
+category: ImageProcessing
+description: >
+  217,000+ authentic vintage 8mm and Super 8 home movie clips from the
+  1930s-1980s restored in 4K. Metadata includes keywords, descriptions,
+  shot dates, and location data (129 countries, 1,435+ cities). Suitable
+  for computer vision, temporal analysis, generative AI training, and
+  historical research. Real archival film — not AI-generated.
+version:
+keywords: vintage, archival, 8mm, super8, home-movie, video, 4K, historical, film
+image:
+temporal: 1930-1989
+spatial: worldwide (129 countries)
+access_level: commercial license
+copyrights: Stockfilm / Pond5
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: royalty-free commercial license per clip
+publisher: Stockfilm
+organization: Stockfilm
+issued_time:
+sources:
+  - title: Stockfilm AI Training Dataset
+    access_url: https://stockfilm.com/ai-training
+    download_url:
+    format: MP4
+    media_type: video/mp4
+    schema:
+  - title: Stockfilm API (free search)
+    access_url: https://api.stockfilm.com/x402/search
+    download_url:
+    format: JSON
+    media_type: application/json
+    schema: https://api.stockfilm.com/x402/openapi.json
