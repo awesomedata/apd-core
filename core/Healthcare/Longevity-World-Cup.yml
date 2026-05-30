@@ -1,0 +1,29 @@
+---
+title: Longevity World Cup
+homepage: https://longevityworldcup.com/
+category: Healthcare
+description: Public longevity competition dataset with participant-submitted athlete profiles, biological-age results, biomarker records, proof links, placements, crowd-age fields, and a JSON API for healthspan and age-reduction analytics.
+version: Live
+keywords: longevity, biomarkers, biological age, healthspan, quantified self
+temporal: live participant submissions
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: live-site-updated
+specification: https://longevityworldcup.com/llms.txt
+data_quality: false
+data_dictionary: https://longevityworldcup.com/llms.txt
+language: en
+license: Check source terms before redistributing public participant-submitted data
+publisher:
+  - name: Longevity World Cup
+    web: https://longevityworldcup.com/
+organization:
+  - name: Longevity World Cup
+    web: https://longevityworldcup.com/
+sources:
+  - name: Public athletes JSON API
+    access_url: https://longevityworldcup.com/api/data/athletes
+references:
+  - title: LLM-readable leaderboard summary
+    reference: https://longevityworldcup.com/ai/leaderboard.md
