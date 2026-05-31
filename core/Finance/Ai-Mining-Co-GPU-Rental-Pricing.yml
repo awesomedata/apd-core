@@ -1,0 +1,22 @@
+---
+title: Ai Mining Co. GPU Rental Pricing
+homepage: https://www.aiminingco.com/data-partners
+category: Finance
+description: Daily GPU rental pricing observations across 29 authorized marketplace partners, covering nearly 100 distinct NVIDIA and AMD GPU SKUs. Tracks on-demand, spot, reserved, and community pricing tiers in USD per GPU-hour with marketplace, region, and tier attribution.
+version:
+keywords: GPU, rental, pricing, compute, NVIDIA, H100, A100, market data
+image:
+temporal: 2025-01-01/..
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+organization:
+issued_time: 2026.05
+sources: []
