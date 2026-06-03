@@ -1,0 +1,33 @@
+---
+title: AI Career Threat Index
+homepage: https://github.com/Jott2121/ai-career-threat-index
+category: Economics
+description: An open dataset scoring 76 professions on AI displacement risk (0-100) across 10 occupational categories, using a transparent three-factor methodology (task-automation potential 50%, AI-tool maturity 30%, industry adoption 20%). Includes a quarterly time series (Q1 2025 to Q2 2026) showing how each role's risk changed over time, plus per-role task breakdowns. Sources include O*NET task lists, public AI benchmarks, employer surveys (BCG, Gallup, WEF, McKinsey), and BLS Occupational Employment Statistics. Available as JSON and CSV.
+version: 1.0
+keywords: artificial intelligence, labor economics, automation, occupational risk, workforce, future of work, O*NET, BLS
+image:
+temporal: 2025-2026
+spatial:
+access_level: public
+copyrights: MIT License
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://www.meritforgeai.com/methodology/threat-index/
+language: en
+license: MIT
+publisher:
+  - name: MeritForge AI
+    web: https://www.meritforgeai.com/
+organization:
+  - name: MeritForge AI
+    web: https://www.meritforgeai.com/
+issued_time: 2026.06
+sources:
+  - name: AI Career Threat Index (JSON)
+    access_url: https://www.meritforgeai.com/data/ai-career-threat-index.json
+  - name: AI Career Threat Index (CSV)
+    access_url: https://www.meritforgeai.com/data/ai-career-threat-index.csv
+references:
+  - title: Methodology - AI Career Threat Index
+    reference: https://www.meritforgeai.com/methodology/threat-index/
