@@ -1,0 +1,26 @@
+---
+title: Romanian Hazardous Medical Waste Procurement Dataset (CPV 9052*)
+homepage: https://licitatiimedicale.com/dataset
+category: Healthcare
+description: Open dataset of all publicly available contract award notices from the European Union's Tenders Electronic Daily (TED) for services related to hazardous medical waste management in Romania (CPV 9052*). 487+ contracts covering 155 hospitals and 49 operators, period 2019-2026, cumulative value 898 million RON. Includes Tukey IQR-based statistical outlier detection methodology, per-hospital and per-operator profiles, and free price-check calculator.
+version: 1.0
+keywords: medical waste, public procurement, Romania, CPV 9052, TED, hospital procurement, hazardous waste, market concentration, Tukey IQR
+access_level: public
+language: ro, en
+spatial: Romania
+temporal: 2019-2026
+copyrights: Creative Commons Attribution 4.0 International (CC BY 4.0)
+license: https://creativecommons.org/licenses/by/4.0/
+data_quality: true
+publisher:
+  - name: Licitații Medicale
+    web: https://licitatiimedicale.com
+organization:
+  - name: Licitații Medicale
+    web: https://licitatiimedicale.com
+issued_time: 2026-06-03
+sources:
+  - https://github.com/licitatiimedicale/data
+  - https://licitatiimedicale.com/api/v1/awards.csv
+  - https://licitatiimedicale.com/api/v1/awards
+  - https://www.wikidata.org/wiki/Q140042781
