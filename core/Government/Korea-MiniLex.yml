@@ -1,0 +1,33 @@
+---
+title: South Korea — MiniLex 7-domain Korean lawdata (wellsa-ai)
+homepage: https://minilex.wellsa.ai
+category: Government
+description: Korean public legal data (statutes, administrative rules, court precedents, statutory interpretations, constitutional court decisions, local ordinances, treaties) unified into 7 Markdown corpora. 397K+ documents indexed in production demo with source-cited Q&A. MIT licensed, daily cron updates with Git history provenance.
+version: '1.0'
+keywords:
+  - korea
+  - korean
+  - legal
+  - law
+  - statutes
+  - administrative-rules
+  - precedents
+  - constitutional
+  - local-ordinances
+  - treaties
+  - rag
+  - public-data
+  - markdown
+image:
+temporal: 1905-present
+spatial: South Korea
+access_level: Public
+copyrights:
+accrual_periodicity: Daily
+specification:
+data_quality: true
+data_dictionary:
+language: Korean
+license: MIT
+publisher: wellsa-ai (Korean Ministry of Government Legislation public OpenAPI)
+organization: wellsa-ai
