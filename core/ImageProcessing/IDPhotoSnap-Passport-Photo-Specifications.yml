@@ -1,0 +1,44 @@
+---
+title: IDPhotoSnap Passport Photo Specifications
+homepage: https://github.com/whitetirocket/passport-photo-specs
+category: ImageProcessing
+description: Open MIT-licensed dataset of passport, visa, residence permit, driving licence, and national ID photo specifications across 100+ countries (248 distinct document formats). Each entry includes pixel dimensions, millimeter dimensions, DPI, required background color, file-size caps for government upload portals (DS-160 240 KB, Saudi Enjaz 200 KB, India Sarathi 20-50 KB, China COVA 40 KB-1 MB), and a citation URL to the official issuing authority (US State Dept, UK HMPO, German Bundesdruckerei, Italian Polizia di Stato, Indian PSK, Chinese MFA COVA, ICAO 9303).
+version: latest
+keywords:
+  - passport photo
+  - visa photo
+  - biometric photo specifications
+  - ICAO 9303
+  - government upload portals
+  - DS-160
+  - Schengen
+  - K-ETA
+  - COVA
+  - Enjaz
+image:
+temporal: 2026
+spatial: global (100+ countries)
+access_level: public
+copyrights: MIT
+accrual_periodicity: monthly
+specification: JSON
+data_quality: true
+data_dictionary: https://github.com/whitetirocket/passport-photo-specs/blob/main/README.md
+language: en
+license: MIT
+publisher: IDPhotoSnap
+organization: IDPhotoSnap
+issued_time: 2026-04
+sources:
+  - title: GitHub repository (canonical)
+    path: https://github.com/whitetirocket/passport-photo-specs
+  - title: Zenodo DOI archive
+    path: https://doi.org/10.5281/zenodo.20409880
+  - title: Live JSON API endpoint
+    path: https://idphotosnap.com/api/specs
+  - title: npm package
+    path: https://www.npmjs.com/package/passport-photo-specs
+  - title: PyPI package
+    path: https://pypi.org/project/passport-photo-specs/
+  - title: Hugging Face Datasets mirror
+    path: https://huggingface.co/datasets/whitetirocket/passport-photo-specs
