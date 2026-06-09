@@ -1,0 +1,31 @@
+---
+title: Edges WC2026 Open Fixtures
+homepage: https://www.edges.co.za/data/wc2026-fixtures/
+category: Sports
+description: Open dataset of all 72 FIFA World Cup 2026 group-stage matches with kickoff times in UTC and South African Standard Time (SAST, UTC+2). CC-BY-4.0. Contains no betting odds, no predictions, no commercial links.
+version: 1.0.0
+keywords: FIFA, World Cup 2026, football, soccer, fixtures, South Africa, SAST, open data
+image:
+temporal: 2026-06-11/2026-06-27
+spatial: United States, Canada, Mexico
+access_level: public
+copyrights: Edges Media (Pty) Ltd
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/puntsza-web/wc2026-fixtures/blob/main/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Edges Media (Pty) Ltd
+    web: https://www.edges.co.za
+issued_time: 2026-05-28
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/puntsza-web/wc2026-fixtures
+  - name: Zenodo (DOI 10.5281/zenodo.20430767)
+    access_url: https://doi.org/10.5281/zenodo.20430767
+  - name: Figshare (DOI 10.6084/m9.figshare.32468952)
+    access_url: https://doi.org/10.6084/m9.figshare.32468952
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/puntszaza/edges-wc2026-open-fixtures
