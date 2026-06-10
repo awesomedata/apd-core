@@ -1,0 +1,28 @@
+---
+title: US Federal Contracts & Grants API
+homepage: https://government-data-api.onrender.com
+category: Government
+description: REST API providing access to millions of US federal contracts, grants, and agency data aggregated from SAM.gov and USASpending.gov. Updated daily. Endpoints cover contracts, grants, and agencies with filtering, pagination, and search. OpenAPI 3.1 spec available.
+version: "2.0"
+keywords: government, federal contracts, federal grants, procurement, SAM.gov, USASpending, open data, REST API
+access_level: public
+accrual_periodicity: daily
+specification: OpenAPI 3.1
+data_quality: true
+language: en
+license: MIT
+publisher:
+  - name: Roger Linder
+    web: https://government-data-api.onrender.com
+organization:
+  - name: Independent Developer
+    web: https://government-data-api.onrender.com
+issued_time: "2026"
+sources:
+  - name: USASpending.gov
+    access_url: https://api.usaspending.gov
+  - name: SAM.gov
+    access_url: https://api.sam.gov
+references:
+  - title: API Documentation
+    reference: https://government-data-api.onrender.com/docs
