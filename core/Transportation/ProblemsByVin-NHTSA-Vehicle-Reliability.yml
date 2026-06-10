@@ -1,0 +1,22 @@
+---
+title: US Vehicle Failure-Mileage & Reliability Datasets (NHTSA-derived)
+homepage: https://problemsbyvin.com/data/
+category: Transportation
+description: Open datasets derived from 800,000+ US NHTSA owner complaints and recalls across 5,600+ vehicles (model years 2005-2025). Includes failure-mileage quartiles (the odometer reading at which specific component failures are reported, parsed from the NHTSA ODI flat file), post-warranty failure patterns, engine and transmission complaint density, and a recall-gap index cross-checked against the live NHTSA recalls API. Direct CSV and JSON download, no login required.
+version:
+keywords: automotive, vehicles, reliability, NHTSA, owner complaints, recalls, failure mileage, defects
+image:
+temporal: 2005-2025
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://problemsbyvin.com/data/
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher: ProblemsByVin
+organization: ProblemsByVin
+issued_time: 2026
+sources: []
