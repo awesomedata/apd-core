@@ -1,0 +1,28 @@
+---
+title: OpenChainBench
+homepage: https://openchainbench.com
+category: Finance
+description: Live, reproducible benchmarks for crypto infrastructure. Continuously measured L1 finality times, free public RPC latency across 10 EVM chains, bridge fees and latency, gas estimation accuracy, stablecoin pegs and oracle deviation. Every benchmark has open methodology, an open-source Prometheus harness and a free JSON API. Data is CC-BY 4.0.
+version: 1.0
+keywords: blockchain, crypto, benchmark, rpc, finality, bridge, gas, stablecoin, oracle, latency
+image: https://openchainbench.com/icon.png
+temporal:
+access_level: public
+copyrights: CC-BY 4.0
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary:
+language: en
+publisher:
+  - name: OpenChainBench
+    web: https://openchainbench.com
+organization:
+  - name: OpenChainBench
+    web: https://github.com/ChainBench/OpenChainBench
+sources:
+  - name: OpenChainBench JSON API
+    access_url: https://openchainbench.com/api/stat/l1-finality
+references:
+  - title:
+    reference:
