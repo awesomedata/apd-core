@@ -1,0 +1,22 @@
+---
+title: InfraNode German City Infrastructure API
+homepage: https://infranode.dev
+category: Transportation
+description: Free unified REST API for German city infrastructure data covering 84 German cities with 48 endpoints, including live public transport with GTFS-RT delays, weather, air quality, water levels, EV chargers, demographics and boundaries. Aggregated from 35+ official sources (DWD, UBA, PEGELONLINE, Federal Network Agency, census). No API key required and every record carries source license and attribution.
+version:
+keywords: Germany, cities, public transport, GTFS-RT, weather, air quality, water levels, EV chargers, demographics, REST API
+image:
+temporal:
+spatial: 84 German cities
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://infranode.dev/api/v1/openapi.yaml
+data_quality: false
+data_dictionary:
+language: en
+license: Varies per record, each record carries source license and attribution
+publisher:
+organization:
+issued_time:
+sources: []
