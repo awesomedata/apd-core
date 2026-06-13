@@ -1,0 +1,36 @@
+---
+title: World Cup 2026 Tour Schedule Dataset
+homepage: https://ay-worldcup2026.zeabur.app/dataset
+category: Sports
+description: Free machine-readable fixture dataset for all 104 FIFA World Cup 2026 matches with UTC kickoff times, local-time API links, CSV/JSONL snapshots, OpenAPI, ICS calendar feed, and Hugging Face/Kaggle mirrors.
+version: 2026.06.13.29
+keywords: football, soccer, world cup 2026, fixtures, schedule, local time, calendar, sports data
+image: https://ay-worldcup2026.zeabur.app/assets/icons/icon-512.png
+temporal: 2026-06-11/2026-07-19
+spatial: United States, Canada, Mexico
+access_level: public
+copyrights:
+accrual_periodicity: as-needed
+specification: https://ay-worldcup2026.zeabur.app/dataset.json
+data_quality: true
+data_dictionary: https://ay-worldcup2026.zeabur.app/dataset/README.md
+language: en
+license: Other (specified in dataset description)
+publisher:
+  - name: World Cup 2026 Tour
+    web: https://ay-worldcup2026.zeabur.app/
+issued_time: 2026.06.13
+sources:
+  - name: Canonical dataset page
+    access_url: https://ay-worldcup2026.zeabur.app/dataset
+  - name: CSV snapshot
+    access_url: https://ay-worldcup2026.zeabur.app/dataset/matches.csv
+  - name: JSONL snapshot
+    access_url: https://ay-worldcup2026.zeabur.app/dataset/matches.jsonl
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/abaiii168/world-cup-2026-tour-match-schedule
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/ayworldcup2026/world-cup-2026-tour-match-schedule
+references:
+  - title: Public schedule API documentation
+    reference: https://ay-worldcup2026.zeabur.app/developers
