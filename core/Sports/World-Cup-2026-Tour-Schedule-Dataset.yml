@@ -3,7 +3,7 @@ title: World Cup 2026 Tour Schedule Dataset
 homepage: https://ay-worldcup2026.zeabur.app/dataset
 category: Sports
 description: Free machine-readable fixture dataset for all 104 FIFA World Cup 2026 matches with UTC kickoff times, local-time API links, CSV/JSONL snapshots, OpenAPI, ICS calendar feed, and Hugging Face/Kaggle mirrors.
-version: 2026.06.13.29
+version: 2026.06.14.69
 keywords: football, soccer, world cup 2026, fixtures, schedule, local time, calendar, sports data
 image: https://ay-worldcup2026.zeabur.app/assets/icons/icon-512.png
 temporal: 2026-06-11/2026-07-19
@@ -29,6 +29,8 @@ sources:
     access_url: https://ay-worldcup2026.zeabur.app/dataset/matches.jsonl
   - name: Hugging Face mirror
     access_url: https://huggingface.co/datasets/abaiii168/world-cup-2026-tour-match-schedule
+  - name: Hugging Face latest refresh commit
+    access_url: https://huggingface.co/datasets/abaiii168/world-cup-2026-tour-match-schedule/commit/cdc3e089dd269cde0b3e703d4c2f62594a6f4a72
   - name: Kaggle mirror
     access_url: https://www.kaggle.com/datasets/ayworldcup2026/world-cup-2026-tour-match-schedule
 references:
