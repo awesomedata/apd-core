@@ -1,0 +1,31 @@
+---
+title: Romance Scam Statistics (2024-2026)
+homepage: https://github.com/lovevalentin-droid/romance-scam-statistics
+category: CyberSecurity
+description: Verified, source-attributed statistics on romance scams (confidence fraud), compiled and fact-checked in June 2026. Aggregates figures from the FBI IC3 2025 Internet Crime Report, FTC, City of London Police, France's DGPN, Cybermalveillance.gouv.fr, GASA Global State of Scams and the Chainalysis Crypto Crime Report. Includes US/UK/France losses and complaint volumes, age-group breakdowns (60+), crypto-nexus and AI-nexus losses. Machine-readable JSON with the exact citation and source URL for every figure; figures that could not be traced to a primary source were excluded.
+version: 1.0
+keywords: romance scam, online fraud, social engineering, confidence fraud, cybercrime, FBI IC3, FTC, scam statistics
+image:
+temporal: 2024-2026
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: yearly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Arnaques-Rencontres.fr
+    web: https://www.arnaques-rencontres.fr/
+organization:
+  - name: Arnaques-Rencontres.fr
+    web: https://www.arnaques-rencontres.fr/
+issued_time: 2026.06
+sources:
+  - name: Romance Scam Statistics (JSON)
+    access_url: https://github.com/lovevalentin-droid/romance-scam-statistics/blob/main/data/romance-scam-statistics.json
+references:
+  - title: Romance scam statistics 2025-2026 (human-readable companion)
+    reference: https://www.arnaques-rencontres.fr/en/articles/romance-scam-statistics
