@@ -1,0 +1,37 @@
+---
+title: China Aluminum Daily Prices
+homepage: https://github.com/Fisher521/china-aluminum-daily-prices
+category: Economics
+description: Daily CSV snapshots of China-focused aluminum reference prices published by Aluminium China. The dataset includes aluminum price identifiers, source labels, numeric values, units, and day-over-day change fields, with a schema and raw CSV files available without login. It is intended for commodity-market research, trade-cost analysis, and B2B aluminum sourcing workflows.
+version: 1.0
+keywords: aluminum, aluminium, commodity prices, China, LME, SHFE, Changjiang, market data, CSV, trade, metals
+image:
+temporal: 2026-present
+spatial: China, global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://raw.githubusercontent.com/Fisher521/china-aluminum-daily-prices/main/data/schema.md
+data_quality: true
+data_dictionary: https://raw.githubusercontent.com/Fisher521/china-aluminum-daily-prices/main/data/schema.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Aluminium China
+    web: https://www.aluminium-china.com/en/prices
+organization:
+  - name: Aluminium China
+    web: https://www.aluminium-china.com/en/
+issued_time: 2026.06
+sources:
+  - name: Latest daily CSV API
+    access_url: https://www.aluminium-china.com/api/prices/today.csv
+  - name: Historical daily CSV files
+    access_url: https://github.com/Fisher521/china-aluminum-daily-prices/tree/main/data
+  - name: Example raw CSV snapshot
+    access_url: https://raw.githubusercontent.com/Fisher521/china-aluminum-daily-prices/main/data/prices-2026-06-15.csv
+references:
+  - title: Data schema
+    reference: https://raw.githubusercontent.com/Fisher521/china-aluminum-daily-prices/main/data/schema.md
+  - title: Dataset license
+    reference: https://github.com/Fisher521/china-aluminum-daily-prices/blob/main/LICENSE
