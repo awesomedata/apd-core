@@ -1,0 +1,30 @@
+---
+title: SCALA Score Global Company Database
+homepage: https://score.get-scala.com
+category: Economics
+description: 'The largest open company database: 250M+ business records from 50+ countries. Aggregated from official government business registries, chambers of commerce, and public filings. Includes company name, address, revenue, employees, credit score (0-100), NACE industry code, legal form, and active status. Top countries: Brazil 47M, USA 39M, Australia 20M, France 17M, UK 14M, Germany 10M. Free 1M-record samples on Kaggle and HuggingFace.'
+version: '2026-06'
+keywords: company data, business registry, B2B, financial data, credit score, firmographic data, lead generation
+image:
+temporal: 2020-2026
+spatial: Global (50+ countries)
+access_level: Freemium (994K sample free, API 50 lookups/month free)
+copyrights: CC BY-NC-SA 4.0 (sample), Proprietary (full database)
+accrual_periodicity: Monthly
+specification:
+data_quality: true
+data_dictionary:
+language: Multilingual
+license: CC BY-NC-SA 4.0
+publisher: S.C.A.L.A. AI OS
+organization: https://get-scala.com
+issued_time: 2026-06-12
+sources:
+  - title: Kaggle Sample (994K records)
+    access_url: https://www.kaggle.com/datasets/yorkiealfbroth/global-company-data-994k
+  - title: HuggingFace Sample (1M records)
+    access_url: https://huggingface.co/datasets/alf1990mi/global-company-database-1m
+  - title: CLI Tool (npm)
+    access_url: https://www.npmjs.com/package/enrich-companies
+  - title: MCP Server (npm)
+    access_url: https://www.npmjs.com/package/scala-mcp-server
