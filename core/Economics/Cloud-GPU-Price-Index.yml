@@ -1,0 +1,21 @@
+---
+title: Cloud GPU Price Index
+homepage: https://gpucloudcompare.com/data/
+category: Economics
+description: An open dataset tracking daily public list prices for cloud GPU instances (H100, A100, L40S, RTX, B200 and more) across major providers. Prices are captured daily and aggregated into a price index with min/median/max strictly separated by billing unit (hourly vs monthly), plus a multi-week time series of historical movement. Companion VPS and bare-metal server price datasets are also published. Delivered as JSON and CSV, with a free no-auth CORS-enabled API endpoint.
+version: 1.0
+keywords: cloud computing, GPU, pricing, price index, H100, A100, infrastructure, time series, IaaS
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://gpucloudcompare.com/data/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: GPU Cloud Compare
+    web: https://gpucloudcompare.com/
