@@ -1,0 +1,21 @@
+---
+title: NAS Drive Data
+homepage: https://www.nasdisks.com/data/
+category: Economics
+description: An open dataset of 140+ NAS and enterprise hard drives covering full specifications, verified CMR vs SMR recording-technology classification (judged per model, not per family - original research, since manufacturers publish no unified list), acoustic noise figures, and real-world annualized failure rates (AFR) derived from Backblaze Drive Stats. Maintained by a NAS drive comparison site that also tracks price-per-TB across seven Amazon regions. Delivered as JSON and CSV with a free no-auth CORS-enabled API endpoint.
+version: 1.0
+keywords: hard drives, NAS, storage, CMR, SMR, reliability, annualized failure rate, AFR, Backblaze, hardware specifications
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://www.nasdisks.com/data/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: NASdisks
+    web: https://www.nasdisks.com/
