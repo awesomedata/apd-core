@@ -23,6 +23,8 @@ organization:
 sources:
   - name: OpenChainBench JSON API
     access_url: https://openchainbench.com/api/stat/l1-finality
+  - name: Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/OpenChainBench/benchmarks
 references:
-  - title:
-    reference:
+  - title: Zenodo concept DOI
+    reference: https://doi.org/10.5281/zenodo.20800311
