@@ -1,0 +1,31 @@
+---
+title: FilingFirehose
+homepage: https://filingfirehose.com
+category: Finance
+description: Structured, normalized SEC EDGAR filings API with body-text parsing that goes beyond filer-reported items. Free public endpoints expose the last 72 hours of parsed 8-K filings (with classifier flagging suspected misclassifications under Item 8.01 — e.g. cyber incidents buried as Other Events, silent officer departures), Schedule 13D/G filings (tagged when filer matches known activist funds — Saba, Bulldog, Karpus, Icahn, Elliott, Starboard, Pershing, +14 more), and S-3 / 424B5 shelf and ATM-offering detection with sales-agent extraction. A free per-ticker forensic risk score (LOW / MODERATE / ELEVATED / HIGH) at /forensic/score?ticker=SYM aggregates buried cyber, dilution, restatement, officer departure, and bankruptcy signals across 8-K / 10-K / 10-Q / S-3 filings. OpenAPI spec at /openapi.json. MCP server at /mcp.
+version: 1.0
+keywords: Finance, SEC, EDGAR, Filings, 8-K, 13D, 10-K, S-3, ATM, Forensic, Activist
+image: https://filingfirehose.com/static/logo.png
+temporal: rolling 72-hour window on free tier; full archive on paid tier
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: https://filingfirehose.com/openapi.json
+data_quality: true
+data_dictionary: https://filingfirehose.com/docs
+language: en
+license:
+publisher:
+  - name: FilingFirehose
+    web: https://filingfirehose.com
+organization:
+  - name: FilingFirehose
+    web: https://filingfirehose.com
+issued_time: 2026.04
+sources:
+  - name: U.S. Securities and Exchange Commission EDGAR
+    access_url: https://www.sec.gov/edgar
+references:
+  - title: OpenAPI Specification
+    reference: https://filingfirehose.com/openapi.json
