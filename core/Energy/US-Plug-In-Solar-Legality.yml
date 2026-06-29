@@ -1,0 +1,31 @@
+---
+title: US Plug-In / Balcony Solar Legality (50 States)
+homepage: https://pluginsolarhub.org/developers/
+category: Energy
+description: Free, no-auth JSON dataset of plug-in / balcony solar legal status, average residential electricity rates and live legislation for all 50 U.S. states. Served over HTTPS, CORS-open, no API key and no rate limit.
+version: 1.0
+keywords: plug-in solar, balcony solar, legality, electricity rates, legislation, USA, 50 states
+image:
+temporal: 2026
+spatial: United States (50 states)
+access_level: public
+copyrights:
+accrual_periodicity: as legislation changes
+specification:
+data_quality: false
+data_dictionary: https://pluginsolarhub.org/developers/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PlugInSolarHub
+    web: https://pluginsolarhub.org/
+organization:
+  - name: PlugInSolarHub
+    web: https://pluginsolarhub.org/
+issued_time: 2026
+sources:
+  - name: Full dataset (JSON)
+    access_url: https://pluginsolarhub.org/data/plug-in-solar-laws.json
+references:
+  - title: Developer docs and schema
+    reference: https://pluginsolarhub.org/developers/
