@@ -1,0 +1,40 @@
+---
+title: AssessorSearch 2026 Property Tax Rates by State, County, and City
+homepage: https://assessorsearch.com/data/property-tax-rates-by-county
+category: Government
+description: >
+  Public AssessorSearch Data Lab release comparing effective property tax rates
+  across U.S. states, counties, and cities. The dataset is built from
+  property-record tax amounts and estimated market values, with downloadable CSV
+  files for 51 state rows, 3,115 county rows, and 24,360 city rows plus
+  methodology and citation guidance.
+version: 2026.06
+keywords: property tax, real estate, assessor records, county data, city data, effective tax rate, United States, public data
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: AssessorSearch
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://assessorsearch.com/data/property-tax-rates-by-county#downloads
+language: en
+license:
+publisher:
+  - name: AssessorSearch
+    web: https://assessorsearch.com
+organization:
+  - name: AssessorSearch
+    web: https://assessorsearch.com
+issued_time: 2026.06
+sources:
+  - name: AssessorSearch Data Lab
+    access_url: https://assessorsearch.com/data/property-tax-rates-by-county
+references:
+  - title: State CSV
+    reference: https://assessorsearch.com/data-downloads/property-tax-pressure/2026-06-18/property-tax-pressure-states.csv
+  - title: County CSV
+    reference: https://assessorsearch.com/data-downloads/property-tax-pressure/2026-06-18/property-tax-pressure-counties.csv
+  - title: City CSV
+    reference: https://assessorsearch.com/data-downloads/property-tax-pressure/2026-06-18/property-tax-pressure-cities.csv
