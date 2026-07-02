@@ -1,0 +1,46 @@
+---
+title: Zillapi — Zillow Property Data API
+homepage: https://zillapi.com
+category: Economics
+description: >
+  Zillapi is a hosted Zillow Data API for developers and AI agents. One REST
+  call returns 300+ structured fields per home — price, Zestimate, photos,
+  schools, taxes, agent contact, and full price history — across 160M+ U.S.
+  parcels. No scraping, no proxy farm: Zillapi handles proxy rotation,
+  captcha, schema normalization, retries, and 24-hour caching. Also available
+  as a hosted MCP server and MIT-0 Python agent skills. Free tier: 100
+  credits at signup, no credit card.
+version: 1.0
+keywords:
+  - zillow api
+  - real estate api
+  - property data
+  - zestimate
+  - proptech
+  - housing market
+image:
+temporal: current (data refreshed continuously, 24h cache)
+spatial: United States (160M+ parcels)
+access_level: public (free-tier API key required)
+copyrights:
+accrual_periodicity: continuous
+specification: >
+  JSON responses via REST API (OpenAPI 3.1 spec) and via a hosted MCP
+  server (streamable-http, 4 tools).
+data_quality: true
+data_dictionary: https://zillapi.com/openapi.json
+language: en
+license:
+publisher:
+  - name: Zillapi
+    web: https://zillapi.com
+organization:
+  - name: Zillapi
+    web: https://zillapi.com
+issued_time: 2026-07
+sources:
+  - name: Zillapi REST API
+    access_url: https://api.zillapi.com/v1
+references:
+  - title: Zillapi OpenAPI 3.1 specification
+    reference: https://zillapi.com/openapi.json
