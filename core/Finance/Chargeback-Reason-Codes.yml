@@ -1,0 +1,30 @@
+---
+title: Card-Network Chargeback Reason Codes
+homepage: https://github.com/small-business-software-maker/chargeback-reason-codes
+category: Finance
+description: Open reference dataset of all 64 active chargeback reason codes across the four major card networks (Visa, Mastercard, American Express, Discover). Each row covers the network, code, plain-English meaning, standard response deadline, key rebuttal evidence, and source document. Provided as CSV and JSON; directly downloadable with no login or paywall. CC BY 4.0.
+version: 1.0
+keywords: chargeback, reason codes, card networks, Visa, Mastercard, American Express, Discover, payments, disputes, finance.
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: as-needed
+specification:
+data_quality: false
+data_dictionary: https://github.com/small-business-software-maker/chargeback-reason-codes#schema
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: ChargebackKit
+    web: https://chargebackkit.app
+organization:
+  - name: ChargebackKit
+    web: https://chargebackkit.app
+issued_time: 2025
+sources:
+  - name: CSV
+    access_url: https://raw.githubusercontent.com/small-business-software-maker/chargeback-reason-codes/main/chargeback-reason-codes.csv
+  - name: JSON
+    access_url: https://raw.githubusercontent.com/small-business-software-maker/chargeback-reason-codes/main/chargeback-reason-codes.json
