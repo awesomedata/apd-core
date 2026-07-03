@@ -1,0 +1,22 @@
+---
+title: UK Home Improvement Costs
+homepage: https://costwiseuk.co.uk/cost-report/
+category: Economics
+description: Regional guide prices for 56 UK home-improvement jobs, from boilers to loft conversions, with regional multipliers for London, the South East/South West and the North, Scotland and Wales. CSV downloadable directly, no sign-up; also published on Kaggle. Reviewed and updated quarterly.
+version: '2026-06'
+keywords: uk,housing,construction,prices,renovation,home-improvement
+image: https://costwiseuk.co.uk/brand/og.png
+temporal: '2026'
+spatial: United Kingdom
+access_level: public
+copyrights: Costwise (costwiseuk.co.uk)
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://www.kaggle.com/datasets/thestephenevans/uk-home-improvement-costs-2026
+language: en
+license: CC-BY-4.0
+publisher: Costwise
+organization: Costwise
+issued_time: '2026-07-02'
+sources: []
