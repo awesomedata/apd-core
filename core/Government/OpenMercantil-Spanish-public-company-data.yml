@@ -1,0 +1,48 @@
+---
+title: OpenMercantil Spanish Public Company Data
+homepage: https://openmercantil.es/descargas
+category: Government
+description: Independent, non-official access layer for Spanish public mercantile data. OpenMercantil exposes searchable company records, BORME event timelines, source notes, sample CSV/JSON downloads and API/OpenAPI documentation for research, journalism, public procurement context, supplier/customer checks and business decision support. The project is built to contribute to open/public mercantile data access without profit-seeking intent and does not replace the BOE, BORME, Registro Mercantil, official certificates, legal advice or credit scoring.
+version: "2026-07"
+keywords:
+  - Spain
+  - company data
+  - mercantile data
+  - BORME
+  - public records
+  - open data
+  - business registry
+  - public procurement
+  - API
+image:
+temporal: Public mercantile events exposed through OpenMercantil; see methodology and source notes.
+spatial: Spain
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://openmercantil.es/openapi.json
+data_quality: true
+data_dictionary: https://openmercantil.es/api/documentacion
+language: es
+license:
+publisher:
+  - name: OpenMercantil
+    web: https://openmercantil.es/
+organization:
+issued_time: "2026-07-04"
+sources:
+  - name: OpenMercantil downloads
+    access_url: https://openmercantil.es/descargas
+  - name: OpenMercantil sample companies CSV
+    access_url: https://openmercantil.es/assets/samples/muestra_empresas_100.csv
+  - name: OpenMercantil sample new companies JSON
+    access_url: https://openmercantil.es/assets/samples/muestra_nuevas_50.json
+references:
+  - title: API documentation
+    reference: https://openmercantil.es/api/documentacion
+  - title: OpenAPI specification
+    reference: https://openmercantil.es/openapi.json
+  - title: Methodology
+    reference: https://openmercantil.es/metodologia
+  - title: Sources
+    reference: https://openmercantil.es/fuentes
