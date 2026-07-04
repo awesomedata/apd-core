@@ -1,0 +1,8 @@
+---
+title: US State Tax Lien and Tax Deed Dataset (2026)
+homepage: https://taxliensimple.com/dataset
+category: Finance
+description: A sourced, machine-readable dataset classifying all 50 U.S. states by property-tax-sale system (tax lien certificate vs tax deed vs redeemable deed), with statutory maximum interest/penalty rates, redemption periods, and the primary statute plus official source for every state. Each state is scored 0-100 across nine investing dimensions (effective yield, penalty structure, redemption speed, auction access, competition, capital entry, process safety, legal stability, OTC availability) with a composite score. CSV and JSON formats, CC-BY 4.0. Mirrors on GitHub and Kaggle.
+organization:
+  - name: TaxLienSimple
+    web: https://taxliensimple.com
