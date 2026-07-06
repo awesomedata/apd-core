@@ -1,0 +1,22 @@
+---
+title: Cron and Scheduled-Job Failure-Mode Taxonomy
+homepage: https://cronshield.com/data/cron-failure-taxonomy
+category: Software
+description: A taxonomy of cron and scheduled-job failure modes - exit code or signal, meaning, typical cause, and remediation - each source-cited. CSV and JSON.
+version: "1.0"
+keywords: cron, scheduled jobs, devops, monitoring, exit codes, signals, sysadmin
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: CronShield
+organization:
+issued_time: "2026-07-05"
+sources: []
