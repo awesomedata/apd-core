@@ -1,0 +1,22 @@
+---
+title: FMCSA New-Entrant Safety-Audit Violations
+homepage: https://newentrantauditkit.com/data/new-entrant-audit-violations
+category: Transportation
+description: The 103 CFR-cited violations checked in the US FMCSA new-entrant safety audit, each mapped to its audit factor, severity (acute/critical), and automatic-failure flag. CSV and JSON.
+version: "1.0"
+keywords: FMCSA, trucking, motor carrier, safety audit, new entrant, CFR, compliance
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: CarrierReady
+organization:
+issued_time: "2026-07-05"
+sources: []
