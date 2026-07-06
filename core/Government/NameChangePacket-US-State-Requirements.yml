@@ -1,0 +1,31 @@
+---
+title: US State Name-Change (DMV) Requirements
+homepage: https://namechangepacket.com/name-change-requirements-by-state
+category: Government
+description: State-by-state requirements for updating a driver's license or state ID after a legal name change across 46 verified US jurisdictions. Each record covers the DMV agency name, license fee, in-person requirement, deadline, required document count, and a link to the official .gov source. Downloadable as CSV or JSON.
+version:
+keywords: name change, DMV, driver license, state ID, government forms, US states
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: NameChangePacket
+    web: https://namechangepacket.com/
+organization:
+  - name: NameChangePacket
+    web: https://namechangepacket.com/
+issued_time:
+sources:
+  - name: US State Name-Change Requirements (CSV/JSON)
+    access_url: https://namechangepacket.com/name-change-requirements-by-state
+references:
+  - title:
+    reference:
