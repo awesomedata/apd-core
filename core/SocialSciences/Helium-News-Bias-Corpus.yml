@@ -1,0 +1,19 @@
+---
+title: Helium News Bias Corpus Snapshot
+homepage: https://huggingface.co/datasets/HeliumTrades/helium-news-bias-corpus
+category: SocialSciences
+description: Structured bias scores for 212 news outlets across 37 framing dimensions (fear, credibility, political lean, etc.). Model-derived source-level scores from analyzed article corpora. Reproducible fear-vs-extremism finding (r≈0.85) with Colab notebook.
+version: 2026-06-15
+keywords:
+  - news
+  - media bias
+  - journalism
+  - NLP
+  - misinformation
+language: en
+license: MIT
+publisher: Helium Trades
+organization: Helium Trades
+sources:
+  - https://heliumtrades.com/mcp_all_source_biases/
+  - https://github.com/connerlambden/helium-mcp-cookbook
