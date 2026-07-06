@@ -1,0 +1,22 @@
+---
+title: Short-Term-Rental Permit Ordinances (US Cities)
+homepage: https://strpermitkit.com/data/str-ordinances
+category: Government
+description: Short-term-rental registration and permit rules for US cities, each cited to the city's primary-source ordinance - the requirement, the fee, and the renewal cadence. CSV and JSON.
+version: "1.0"
+keywords: short-term rental, Airbnb, Vrbo, permit, ordinance, municipal, housing policy
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: STRPermitKit
+organization:
+issued_time: "2026-07-05"
+sources: []
