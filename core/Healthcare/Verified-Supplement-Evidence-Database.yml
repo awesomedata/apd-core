@@ -1,0 +1,37 @@
+---
+title: Verified Supplement Evidence Database
+homepage: https://huggingface.co/datasets/erinheit451/verified-supplement-evidence
+category: Healthcare
+description: Clinical evidence, dosing, form-bioavailability comparisons, medication-nutrient interactions, and cost-per-effective-dose data for dietary supplements. Every clinical claim carries a PubMed PMID. 7 CSV tables; also served as a free, no-auth, CORS-open JSON API.
+version: 1.0
+keywords: dietary supplements, clinical evidence, PubMed, dosage, bioavailability, drug-nutrient interactions, nutrition, vitamins, minerals
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/erinheit451/verified-supplement-evidence/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Verified Supplement Data
+    web: https://verifiedsupplementdata.com/
+organization:
+  - name: Verified Supplement Data
+    web: https://verifiedsupplementdata.com/
+issued_time: 2026
+sources:
+  - name: Hugging Face dataset (7 CSV tables, DOI 10.57967/hf/9356)
+    access_url: https://huggingface.co/datasets/erinheit451/verified-supplement-evidence
+  - name: Direct CSV downloads and dataset documentation
+    access_url: https://verifiedsupplementdata.com/data/
+  - name: Free JSON API (no auth, CORS-open)
+    access_url: https://verifiedsupplementdata.com/api/v1/recommend/index.json
+references:
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/roses451/verified-supplement-evidence-database
+  - title: Methodology
+    reference: https://verifiedsupplementdata.com/methodology/
