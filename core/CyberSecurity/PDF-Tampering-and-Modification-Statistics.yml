@@ -1,0 +1,31 @@
+---
+title: PDF Tampering & Modification Statistics
+homepage: https://htpbe.tech/statistics
+category: CyberSecurity
+description: Anonymized aggregate statistics from real-world PDFs analyzed in production by a structural PDF tamper-detection service. Covers the structural modification rate (share of PDFs that reached a confident verdict and showed post-creation structural editing — currently ~48%), the most-common producer/creator tools, PDF version distribution, incremental-update (multi-revision) counts, signed-but-modified cases, and a month-of-year modification pattern. It is a self-selected sample (documents users already suspect), so the rates describe files brought to a tamper-check, not a base rate for all PDFs. Aggregate rates and shares only — no per-document or personal data. Refreshed automatically every six hours from production traffic, with a "last updated" timestamp and schema.org/Dataset metadata.
+version: 1.0
+keywords: PDF tampering, document fraud, PDF forensics, tamper detection, PDF modification, document forgery, structural analysis
+image:
+temporal: 2001-2026
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: HTPBE
+    web: https://htpbe.tech
+organization:
+  - name: HTPBE
+    web: https://htpbe.tech
+issued_time: 2026.07
+sources:
+  - name: PDF Tampering & Modification Statistics
+    access_url: https://htpbe.tech/statistics
+references:
+  - title: How HTPBE detects tampered documents
+    reference: https://htpbe.tech/how
