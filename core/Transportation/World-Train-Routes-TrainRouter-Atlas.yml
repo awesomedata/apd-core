@@ -1,0 +1,24 @@
+---
+title: World Train Routes (TrainRouter Atlas)
+homepage: https://github.com/Flightmussy/trainrouter-atlas
+category: Transportation
+description: 744 of the world's notable train routes — high-speed, scenic and night trains — with route geometry (GeoJSON) plus structured facts for each route (distance, fastest journey time, top speed, operator, opening year, annual ridership). Provided as CSV, JSON and GeoJSON. Archived on Zenodo (DOI 10.5281/zenodo.21322031), mirrored on Kaggle and Hugging Face, browsable at trainrouter.com.
+version: 1.0.0
+keywords: trains, railways, rail routes, high-speed rail, night trains, scenic railways, GeoJSON, travel
+image:
+temporal:
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TrainRouter
+    web: https://trainrouter.com
+organization:
+issued_time: 2026.07
+sources: []
