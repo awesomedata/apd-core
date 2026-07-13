@@ -1,0 +1,31 @@
+---
+title: Castles of the World
+homepage: https://thecastlemap.com/data/
+category: GIS
+description: 2,400 documented castles, fortresses and palaces across 131 countries — name, type (castle/palace/fortress/ruin), country, coordinates, founding year and century, image and Wikipedia/Wikidata links. Curated from Wikidata and hand-checked. Direct GeoJSON and CSV downloads, no login required.
+version: 1.0
+keywords: castles, palaces, fortresses, medieval, heritage, landmarks, geojson, wikidata
+image:
+temporal:
+spatial: worldwide (131 countries)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0 1.0
+publisher:
+  - name: Castlemap
+    web: https://thecastlemap.com
+organization:
+  - name:
+    web:
+issued_time: 2026.07
+sources:
+  - name: Wikidata
+    access_url: https://www.wikidata.org
+references:
+  - title: Archived copy on Zenodo (DOI 10.5281/zenodo.21322360)
+    reference: https://doi.org/10.5281/zenodo.21322360
