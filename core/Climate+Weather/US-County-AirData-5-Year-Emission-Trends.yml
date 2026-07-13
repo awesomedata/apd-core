@@ -1,0 +1,35 @@
+---
+title: US County AirData 5-Year Emission Trends
+homepage: https://zenodo.org/records/20382475
+category: Climate+Weather
+description: Five-year change classification (decrease, increase, stable, insufficient_data) of facility-reported air emissions for 994 US counties, derived from EPA AirData annual AQI summaries 2020-2024. Each county carries a sensitivity gate, facility count, and an explicit skip reason where the change is withheld, so counties without a robust signal are marked rather than silently omitted. These are facility-reported emissions, not ambient air quality measurements. Available as JSON and CSV.
+version: 2026.5.26
+keywords: air quality, air emissions, EPA AirData, AQI, county, FIPS, environment, United States, open data
+image:
+temporal: 2020-2024
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: annually
+specification:
+data_quality: false
+data_dictionary: https://zenodo.org/records/20382475
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+organization:
+  - name: ZipCheckup
+    web: https://zipcheckup.com
+issued_time: 2026
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.20382474
+  - name: npm
+    access_url: https://www.npmjs.com/package/us-county-airdata-trends
+  - name: PyPI
+    access_url: https://pypi.org/project/us-county-airdata-trends/
+references:
+  - title: EPA Outdoor Air Quality Data (AirData)
+    reference: https://www.epa.gov/outdoor-air-quality-data
