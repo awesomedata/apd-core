@@ -1,0 +1,33 @@
+---
+title: 'AI-Crawler Blocking Index: robots.txt census of the top 1M domains'
+homepage: https://crawlora.net/ai-crawler-index
+category: ComputerNetworks
+description: A robots.txt census of the Tranco top 1,000,000 domains measuring what share of the web blocks major AI crawlers (GPTBot, CCBot, ClaudeBot, Bytespider, Amazonbot, Google-Extended, and more). Finds that 9.33% of all domains, and 14.8% of the 63% that serve a robots.txt, fully block at least one major AI crawler, with rates broken down by crawler, website category, and TLD.
+version: 1.0.0
+keywords: robots.txt, ai crawlers, gptbot, ccbot, claudebot, web scraping, ai training data, bot blocking, internet measurement
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/Crawlora-org/ai-crawler-blocking-index-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Dataset repository (results.jsonl.gz, ~1M rows)
+  access_url: https://github.com/Crawlora-org/ai-crawler-blocking-index-data
+- name: Interactive study page
+  access_url: https://crawlora.net/ai-crawler-index
+references:
+- title: Dataset also mirrored on Hugging Face, Kaggle, and Zenodo (DOI 10.5281/zenodo.20774249)
+  reference: https://doi.org/10.5281/zenodo.20774249
