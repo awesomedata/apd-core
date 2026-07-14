@@ -1,0 +1,40 @@
+---
+title: Evidaxis Momentum Snapshots
+homepage: https://evidaxis.org
+category: MachineLearning
+description: Weekly, hash-pinned point-in-time measurements of rising open-source
+  and research-native AI systems, scored by momentum (the rate of change of their
+  public signals) on a transparent, versioned public methodology. A system is marked
+  rising only when two independent axes converge (development velocity and citation
+  momentum). Append-only archive; every snapshot is content-addressed and
+  byte-reproducible from public inputs.
+version: 1.0
+keywords: open-source AI, momentum, longitudinal, time series, scientometrics
+image:
+temporal: 2026-06-27/2026-07-11
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC0-1.0
+publisher:
+  - name: Evidaxis
+    web: https://evidaxis.org
+organization:
+  - name: Evidaxis
+    web: https://evidaxis.org
+issued_time: 2026.06
+sources:
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/evidaxis/momentum-snapshots
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/evidaxis/ai-momentum-snapshots
+references:
+  - title: Evidaxis methodology
+    reference: https://evidaxis.org/methodology/current/
+  - title: Concept DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.21076012
