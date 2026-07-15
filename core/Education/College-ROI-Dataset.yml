@@ -1,0 +1,22 @@
+---
+title: College ROI Dataset
+homepage: https://github.com/thomasthinks/college-roi-data
+category: Education
+description: Lifetime return-on-investment estimates for ~29,700 US bachelor's-degree programs across ~3,392 colleges, combining FREOPP program-level ROI, IPEDS 2023-24 cost data, and BEA regional price parities. Five CSV tables: ROI by major category (with share of graduates who never break even), best-value colleges by state (30-year NPV), the out-of-state tuition penalty for 455 public universities, an AI-exposure score per major, and a 3,392-institution join table. Ships with datapackage.json and CITATION.cff. Mirrored on Hugging Face, Kaggle, and Zenodo (DOI 10.5281/zenodo.21351603).
+version: 1.0.0
+keywords: college, ROI, higher education, tuition, student debt, earnings, IPEDS, net present value
+image:
+temporal: 2021-2024
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/thomasthinks/college-roi-data#whats-inside
+language: English
+license: CC-BY-4.0
+publisher: LE TEEN
+organization:
+issued_time: 2026-07-14
+sources: []
