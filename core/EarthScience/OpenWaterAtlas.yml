@@ -1,0 +1,31 @@
+---
+title: OpenWaterAtlas Spot-Climate-Species-Routes Dataset
+homepage: https://openwateratlas.com/en/datasets/
+category: EarthScience
+description: 2,928 named dive, kite, surf and freedive sites joined to 112,548 OBIS + GBIF marine species occurrences within 5 km of each site (with a family-level terrestrial-noise filter), per-spot 5-year daily climate aggregates (Open-Meteo + ERA5), and 34,876 OpenFlights direct routes. One citable bundle, versioned Zenodo DOI, mirrored on Kaggle and HuggingFace.
+version: 1.0.0
+keywords: ocean, marine biodiversity, dive sites, species occurrences, OBIS, GBIF, climate, coral bleaching, OpenFlights
+image:
+temporal: 2019-2024 daily climate aggregates
+spatial: global, point sites
+access_level: public
+copyrights: CC-BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://openwateratlas.com/en/datasets/
+language: en
+license: CC-BY 4.0
+publisher:
+  - name: OpenWaterAtlas
+    web: https://openwateratlas.com
+organization:
+  - name: OpenWaterAtlas
+    web: https://openwateratlas.com
+issued_time: 2026.06
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.20668393
+references:
+  - title: OpenWaterAtlas datasets landing page and methodology
+    reference: https://openwateratlas.com/en/datasets/
