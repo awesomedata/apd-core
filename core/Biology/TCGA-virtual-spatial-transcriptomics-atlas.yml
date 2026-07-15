@@ -1,0 +1,31 @@
+---
+title: TCGA virtual spatial transcriptomics atlas
+homepage: https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas
+category: Biology
+description: Multimodal virtual spatial transcriptomics from DeepSpot-M on TCGA H&E (expression + spatial coords + gene names). 28,664 slides (17,372 FF + 11,292 FFPE), 10,865 patients, 32 cancers, 295.3M spots, transcriptome-wide (19,338 genes). Gated on Hugging Face (CC-BY-NC-SA-4.0). Paper https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1 ; code https://github.com/ratschlab/DeepSpotM
+version:
+keywords: spatial transcriptomics, histopathology, multimodal, TCGA, gene expression, deep learning
+image:
+temporal:
+spatial:
+access_level: gated
+copyrights: https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: CC-BY-NC-SA-4.0
+publisher:
+  - name: ratschlab
+    web: https://github.com/ratschlab
+organization:
+  - name: Ratschlab
+    web: https://www.ratschlab.org/
+issued_time: 2026
+sources:
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas
+references:
+  - title: DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology
+    reference: https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1
