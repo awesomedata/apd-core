@@ -1,0 +1,24 @@
+---
+title: Upwork Market Index - Weekly Freelance Job Market Statistics
+homepage: https://github.com/snipeworkapp-oss/upwork-market-data
+category: Economics
+description: Weekly aggregate statistics of the Upwork freelance job market computed from thousands of live job posts - average and median fixed budgets, hourly rates, category demand shares, experience-level mix and client-country breakdowns. CSV files, updated automatically every Monday.
+version:
+keywords: freelance, gig-economy, labor-market, upwork, csv, weekly
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/snipeworkapp-oss/upwork-market-data#column-reference--weeklycsv
+language: en
+license: CC-BY-4.0
+publisher:
+  name: SnipeWork
+  web: https://snipework.com
+organization:
+issued_time: 2026.07
+sources: []
