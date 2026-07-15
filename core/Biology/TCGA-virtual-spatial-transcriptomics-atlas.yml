@@ -27,5 +27,5 @@ sources:
   - name: Hugging Face
     access_url: https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas
 references:
-  - title: DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology
+  - title: "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology"
     reference: https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1
