@@ -1,0 +1,37 @@
+---
+title: Reboot Hub DJI Drone Specs and Used Price Index
+homepage: https://reboot-hub.com/pages/reboot-hub-data
+category: Economics
+description: A Q3 2026 baseline containing 43 aircraft model-level listed-price aggregates summarizing 251 published catalog configurations, plus four illustrative repair-risk records. The release reports low, high and median listed prices by model and includes CSV, JSON Lines, JSON Schema, Frictionless Data Package metadata, citation metadata and checksums. One accessory row and one unresolved pricing-anomaly row are excluded, and one customization listing is merged into its base aircraft model. The 251 underlying configuration-level rows are not distributed. Listed prices are not inventory claims, market-wide transaction prices or completed-sale prices. Files can be downloaded without login.
+version: '0.2.0'
+keywords: drones, UAV, DJI, used equipment, listed prices, price index, repair risk, CSV, JSONL
+image:
+temporal: '2026 Q3'
+spatial:
+access_level: public
+copyrights: Reboot Hub, CC BY 4.0
+accrual_periodicity:
+specification: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index
+data_quality: true
+data_dictionary: https://reboot-hub.github.io/dji-drone-specs-used-price-index/
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Reboot Hub
+    web: https://reboot-hub.com/pages/reboot-hub-data
+organization:
+  - name: Reboot Hub
+    web: https://reboot-hub.com/
+issued_time: '2026-07-16'
+sources:
+  - name: Exact version DOI and archived release files
+    access_url: https://doi.org/10.5281/zenodo.21387578
+  - name: GitHub v0.2.0 release
+    access_url: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
+  - name: Immutable model-level CSV
+    access_url: https://cdn.jsdelivr.net/gh/Reboot-Hub/dji-drone-specs-used-price-index@v0.2.0/model_price_summary_2026_q3.csv
+references:
+  - title: Dataset methodology and evidence boundaries
+    reference: https://reboot-hub.com/pages/reboot-hub-data
+  - title: CC BY 4.0 license
+    reference: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/v0.2.0/LICENSE
