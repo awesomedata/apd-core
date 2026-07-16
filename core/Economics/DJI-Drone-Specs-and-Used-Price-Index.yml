@@ -1,5 +1,5 @@
 ---
-title: Reboot Hub DJI Drone Specs and Used Price Index
+title: DJI Drone Specs and Pre-Owned Listed Price Index
 homepage: https://reboot-hub.com/pages/reboot-hub-data
 category: Economics
 description: A Q3 2026 baseline containing 43 aircraft model-level listed-price aggregates summarizing 251 published catalog configurations, plus four illustrative repair-risk records. The release reports low, high and median listed prices by model and includes CSV, JSON Lines, JSON Schema, Frictionless Data Package metadata, citation metadata and checksums. One accessory row and one unresolved pricing-anomaly row are excluded, and one customization listing is merged into its base aircraft model. The 251 underlying configuration-level rows are not distributed. Listed prices are not inventory claims, market-wide transaction prices or completed-sale prices. Files can be downloaded without login.
