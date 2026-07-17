@@ -1,0 +1,31 @@
+---
+title: AtlasPI
+homepage: https://atlaspi.it
+category: GIS
+description: Historical geography REST API & MCP — 1000+ polities with real GeoJSON borders, events, dynastic chains, cited sources, 4500 BCE-2024
+version: 1.0
+keywords: historical, geojson, borders, api, digital-humanities
+image:
+temporal: 4500 BCE - 2024
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: Apache-2.0
+publisher:
+  - name: AtlasPI
+    web: https://atlaspi.it
+organization:
+  - name:
+    web:
+issued_time: 2026.07
+sources:
+  - name: AtlasPI API docs
+    access_url: https://atlaspi.it/docs
+references:
+  - title: llms.txt
+    reference: https://atlaspi.it/llms.txt
