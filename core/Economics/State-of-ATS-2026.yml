@@ -1,0 +1,33 @@
+---
+title: State of ATS 2026 — Verified Employer ATS Dataset
+homepage: https://github.com/Kayvan-Zahiri/state-of-ats-2026
+category: Economics
+description: Which applicant tracking system (ATS) each of 743 large employers (Fortune 500, Global 2000, and late-stage private companies) uses for hiring — with 713 of 743 entries verified by hand against each company's live careers portal (June 2026). Fields include company, industry, ATS vendor, careers portal URL, and verification status. Corrects the widely repeated myth that ~75% of large employers use Workday - the portal-verified share is 38.6%, with the top 3 vendors (Workday, Greenhouse, SAP SuccessFactors) covering 60%. Available as CSV/JSON on GitHub, npm, Kaggle, and Hugging Face, plus a free JSON API.
+version: 1.2
+keywords: applicant tracking system, ATS, hiring, recruiting, labor market, human resources, jobs, Workday, Greenhouse, employment
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: MIT License
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/Kayvan-Zahiri/state-of-ats-2026#readme
+language: en
+license: MIT
+publisher:
+  - name: ResumeAI
+    web: https://withresumeai.com/
+organization:
+  - name: ResumeAI
+    web: https://withresumeai.com/
+issued_time: 2026.06
+sources:
+  - name: State of ATS 2026 (GitHub, CSV/JSON)
+    access_url: https://github.com/Kayvan-Zahiri/state-of-ats-2026
+  - name: Free JSON API
+    access_url: https://withresumeai.com/api/v1/ats
+references:
+  - title: The State of ATS 2026 (report + methodology)
+    reference: https://withresumeai.com/reports/state-of-ats-2026
