@@ -1,0 +1,39 @@
+---
+title: California Assisted Living Waiver County Availability Tracker 2026
+homepage: https://github.com/asafichaki/california-alw-open-data
+category: Healthcare
+description: County-level participating-facility and licensed-capacity data for California's Medi-Cal Assisted Living Waiver, plus statewide enrollment and waitlist totals published by the California Department of Health Care Services. Available as CSV and JSON with provenance and explicit limits on geographic interpretation.
+version: 2026.1
+keywords: California, Medi-Cal, Medicaid, Assisted Living Waiver, assisted living, HCBS, senior care, waitlist
+image:
+temporal: 2025-12
+spatial: California, United States
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/asafichaki/california-alw-open-data/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: California Care Compass
+    web: https://californiacarecompass.com/
+organization:
+  - name: California Care Compass
+    web: https://californiacarecompass.com/
+issued_time: 2026-05-30
+sources:
+  - name: GitHub release
+    access_url: https://github.com/asafichaki/california-alw-open-data/releases/tag/v2026.1
+  - name: CSV download
+    access_url: https://raw.githubusercontent.com/asafichaki/california-alw-open-data/main/california-alw-county-tracker-2026.csv
+  - name: JSON download
+    access_url: https://raw.githubusercontent.com/asafichaki/california-alw-open-data/main/california-alw-county-tracker-2026.json
+references:
+  - title: California ALW Waitlist and County Availability Tracker
+    reference: https://californiacarecompass.com/data/california-alw-county-tracker-2026
+  - title: DHCS Assisted Living Waiver enrollment and waitlist report
+    reference: https://www.dhcs.ca.gov/services/ltc/Documents/ALW-Enrollment-and-Waitlist.pdf
+  - title: DHCS Assisted Living Waiver participating facilities GIS dataset
+    reference: https://gis.dhcs.ca.gov/datasets/CADHCS::alw-assisted-living-facilities/about
