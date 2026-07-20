@@ -1,0 +1,45 @@
+---
+title: Phuket Condo Asking-Price Observation-Period URL Cohort
+homepage: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/
+category: Economics
+description: >
+  Aggregate statistics for 391 exact-URL-deduplicated Phuket condo sale-listing
+  records observed from 19 April to 20 July 2026. The downloadable CSV and JSON
+  report whole-unit asking-price medians and ranges by bedroom count and selected
+  districts, budget-band counts and shares, and bedroom-by-budget cross-tabs.
+  The release documents the observation period, denominator, missing-area
+  coverage and methodology. It contains aggregate records rather than the 391
+  underlying source URL rows. Asking prices are not registered transactions,
+  valuations, current active inventory or a time-series trend, and URL
+  deduplication does not prove distinct physical units. Downloads require no
+  login or payment.
+version: '2026-07-20-70e15d92c67e'
+keywords: Phuket, Thailand, condos, real estate, asking prices, housing, CSV, JSON
+image: https://kvartiry-phuket.com/en/phuket-condo-prices/phuket-condo-budget-bands-v1-2026-07-20-013f0576c243.png
+temporal: '2026-04-19 to 2026-07-20'
+spatial: Phuket, Thailand
+access_level: public
+copyrights: Kvartiry-Phuket, CC BY 4.0
+accrual_periodicity:
+specification: https://kvartiry-phuket.com/ceny/phuket-price-data-2026-07-20-70e15d92c67e.json
+data_quality: true
+data_dictionary: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/#downloads
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Kvartiry-Phuket
+    web: https://kvartiry-phuket.com/en/phuket-condo-prices/
+organization:
+  - name: Kvartiry-Phuket
+    web: https://kvartiry-phuket.com/
+issued_time: '2026-07-20'
+sources:
+  - name: Immutable aggregate CSV
+    access_url: https://kvartiry-phuket.com/ceny/phuket-price-data-2026-07-20-70e15d92c67e.csv
+  - name: Immutable aggregate JSON
+    access_url: https://kvartiry-phuket.com/ceny/phuket-price-data-2026-07-20-70e15d92c67e.json
+references:
+  - title: Immutable English methodology and limitations
+    reference: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/
+  - title: CC BY 4.0 licence
+    reference: https://creativecommons.org/licenses/by/4.0/
