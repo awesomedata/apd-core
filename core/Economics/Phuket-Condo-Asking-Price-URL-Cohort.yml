@@ -1,6 +1,6 @@
 ---
 title: Phuket Condo Asking-Price Observation-Period URL Cohort
-homepage: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/
+homepage: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r2/
 category: Economics
 description: >
   Aggregate statistics for 391 exact-URL-deduplicated Phuket condo sale-listing
@@ -21,9 +21,9 @@ spatial: Phuket, Thailand
 access_level: public
 copyrights: Kvartiry-Phuket, CC BY 4.0
 accrual_periodicity:
-specification: https://kvartiry-phuket.com/ceny/phuket-price-data-2026-07-20-70e15d92c67e.json
-data_quality: true
-data_dictionary: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/#downloads
+specification: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r2/#methodology
+data_quality: false
+data_dictionary: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r2/#data-dictionary
 language: en
 license: https://creativecommons.org/licenses/by/4.0/
 publisher:
@@ -40,6 +40,6 @@ sources:
     access_url: https://kvartiry-phuket.com/ceny/phuket-price-data-2026-07-20-70e15d92c67e.json
 references:
   - title: Immutable English methodology and limitations
-    reference: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r1/
+    reference: https://kvartiry-phuket.com/en/phuket-condo-prices/releases/2026-07-20-70e15d92c67e-html-r2/
   - title: CC BY 4.0 licence
     reference: https://creativecommons.org/licenses/by/4.0/
