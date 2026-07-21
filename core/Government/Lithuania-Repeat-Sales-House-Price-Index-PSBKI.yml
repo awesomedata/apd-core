@@ -2,7 +2,7 @@
 title: Lithuania Repeat-Sales House Price Index (PSBKI)
 homepage: https://www.lb.lt/lt/pasikartojanciu-sandoriu-busto-kainu-indeksas
 category: Government
-description: Monthly repeat-sales apartment price indices (2015=100) and monthly and annual changes for Lithuania and the Vilnius, Kaunas, and Klaipeda city municipalities, published by the Bank of Lithuania. A versioned normalization provides direct CSV and JSON downloads, source field codes, checksums, and provenance.
+description: Monthly repeat-sales house price indices for dwellings in multi-dwelling buildings (2015=100), with monthly and annual changes for Lithuania and the Vilnius, Kaunas, and Klaipeda city municipalities, published by the Bank of Lithuania. A versioned normalization provides direct CSV and JSON downloads, source field codes, checksums, and provenance.
 version: 2026.06
 keywords: housing prices, repeat sales index, Lithuania, Vilnius, Kaunas, Klaipeda, PSBKI
 image:
