@@ -1,0 +1,33 @@
+---
+title: Lithuania Repeat-Sales House Price Index (PSBKI)
+homepage: https://www.lb.lt/lt/pasikartojanciu-sandoriu-busto-kainu-indeksas
+category: Government
+description: Monthly repeat-sales house price indices for dwellings in multi-dwelling buildings (2015=100), with monthly and annual changes for Lithuania and the Vilnius, Kaunas, and Klaipeda city municipalities, published by the Bank of Lithuania. A versioned normalization provides direct CSV and JSON downloads, source field codes, checksums, and provenance.
+version: 2026.06
+keywords: housing prices, repeat sales index, Lithuania, Vilnius, Kaunas, Klaipeda, PSBKI
+image:
+temporal: 2006-01/2026-06
+spatial: Lithuania; Vilnius, Kaunas, and Klaipeda city municipalities
+access_level: public
+copyrights: Bank of Lithuania information use terms
+accrual_periodicity: monthly
+specification: https://github.com/matas-star/lt-real-estate-prices/releases/download/v2026.06/datapackage.json
+data_quality: false
+data_dictionary: https://github.com/matas-star/lt-real-estate-prices/releases/download/v2026.06/datapackage.json
+language: lt, en
+license: https://www.lb.lt/lt/informacijos-naudojimo-salygos
+publisher:
+  - name: Bank of Lithuania
+    web: https://www.lb.lt/
+organization:
+  - name: Bank of Lithuania
+    web: https://www.lb.lt/
+issued_time: 2026-07-13
+sources:
+  - name: Official Bank of Lithuania CSV export
+    access_url: https://www.lb.lt/lt/m_statistika/t-pasikartojanciu-sandoriu-busto-kainu-indeksai/?export=csv
+references:
+  - title: Versioned normalized release with CSV, JSON, checksums, and provenance
+    reference: https://github.com/matas-star/lt-real-estate-prices/releases/tag/v2026.06
+  - title: Immutable Software Heritage snapshot of the normalization repository
+    reference: https://archive.softwareheritage.org/swh:1:snp:200fae1b0c5049d631626d72c3df1fdc9b4a3cb6/
