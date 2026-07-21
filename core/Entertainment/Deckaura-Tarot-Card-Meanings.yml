@@ -1,0 +1,35 @@
+---
+title: "Tarot Card Meanings: A Complete 78-Card Semantic Dataset"
+homepage: https://doi.org/10.5281/zenodo.19475329
+category: Entertainment
+description: A machine-readable dataset covering all 78 Rider-Waite-Smith tarot cards, with upright, reversed, love, career, and yes-or-no interpretations plus elemental, astrological, and guide metadata. The dataset contains 78 records and is available in CSV, JSON, and JSONL formats for symbolic NLP, classification, semantic search, and application development.
+version: 1.0
+keywords: tarot, symbolism, divination, semantic data, natural language processing, cultural heritage
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://deckaura.com/pages/tarot-card-database
+language: en
+license: MIT License
+publisher:
+  - name: Deckaura
+    web: https://deckaura.com
+organization:
+  - name: Deckaura
+    web: https://deckaura.com
+issued_time: 2026.04.08
+sources:
+  - name: CSV download
+    access_url: https://zenodo.org/api/records/19475329/files/tarot_card_meanings.csv/content
+  - name: JSON download
+    access_url: https://zenodo.org/api/records/19475329/files/tarot_card_meanings.json/content
+  - name: JSONL download
+    access_url: https://zenodo.org/api/records/19475329/files/tarot_card_meanings.jsonl/content
+references:
+  - title: Dataset documentation and related developer resources
+    reference: https://deckaura.com/pages/ai-data-sources
