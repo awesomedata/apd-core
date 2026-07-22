@@ -1,0 +1,30 @@
+---
+title: The 250 Most-Funded Startups of 2026
+homepage: https://indexed.vc/reports/top-funded-startups-2026
+category: Finance
+description: The 250 private startups that raised the most venture capital in calendar year 2026, ranked by total disclosed new funding, with lead investor, largest-round date, country, and sector for each company. Source-verified against primary announcements (Reuters, Bloomberg, TechCrunch) with duplicate rounds de-duplicated and valuations-mistaken-for-raises corrected. Copy-as-Markdown export on the page.
+version: '1.0'
+keywords:
+  - venture capital
+  - startup funding
+  - 2026
+  - fundraising
+  - private markets
+  - investors
+image:
+temporal: '2026'
+spatial: Global
+access_level: public
+copyrights: Indexed (indexed.vc)
+accrual_periodicity: annually
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: Indexed
+organization: Indexed
+issued_time: '2026-07-22'
+sources:
+  - name: Indexed
+    web: https://indexed.vc
