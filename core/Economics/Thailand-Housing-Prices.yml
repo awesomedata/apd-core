@@ -1,0 +1,21 @@
+---
+title: Thailand Housing Prices
+homepage: https://github.com/kesar/thailand-housing-prices
+category: Economics
+description: Thailand and Bangkok residential property price indexes as clean, analysis-ready CSVs. Includes the Bank of Thailand's Residential Property Price Index (Bangkok condominiums, townhouses, single-detached houses, and nationwide, monthly since 2011) and the BIS/FRED long-run Bangkok house price series (nominal and inflation-adjusted, quarterly since 1991). Each file carries source attribution and retrieval date; refreshed as the central bank publishes. Interactive charts at baanscope.com/market.
+version: 1.0
+keywords: real estate, housing, property prices, Thailand, Bangkok, price index, time series, central bank
+image:
+temporal: 1991-2026
+spatial: Thailand
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/kesar/thailand-housing-prices#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: BaanScope
+    web: https://baanscope.com/market
