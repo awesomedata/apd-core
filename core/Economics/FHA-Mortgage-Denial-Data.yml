@@ -1,0 +1,37 @@
+---
+title: FHA Mortgage Denial Data (US Federal Record)
+homepage: https://financeratecalc.com/data-catalog.html
+category: Economics
+description: Institution-level, metro-level, state-level and profile-standardized FHA mortgage denial statistics computed from the complete US federal Home Mortgage Disclosure Act (HMDA) record. Covers 1,217,297 decisioned FHA applications in 2025 plus an eight-year series (2018-2025). Includes denial rates for the 100 largest FHA lenders (range 1.8% to 78.7%), 320 metropolitan areas with per-metro lender cells and small-vs-large loan splits, denial-reason distributions per lender, and a peer-adjusted measure produced by indirect standardization across 40,459 borrower-profile cells (state, loan amount, income, DTI band, LTV band) that quantifies how much lender denial dispersion applicant composition explains. Denominator rules are published so every figure is reproducible from the raw CFPB file. CSV and JSON.
+version: 1.0.0
+keywords: mortgage, FHA, HMDA, mortgage denial, fair lending, consumer finance, housing finance, lending, United States, indirect standardization, small-dollar mortgage
+image:
+temporal: 2018-2025
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://financeratecalc.com/methodology.html
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: FinanceRateCalc
+    web: https://financeratecalc.com/
+organization:
+  - name: FinanceRateCalc
+    web: https://financeratecalc.com/
+issued_time: 2026.07
+sources:
+  - name: Zenodo archive (all datasets, DOI)
+    access_url: https://doi.org/10.5281/zenodo.21575106
+  - name: Hugging Face datasets (CSV/JSON, one-line load)
+    access_url: https://huggingface.co/FinanceRateCalc
+  - name: Data catalog with schema.org markup
+    access_url: https://financeratecalc.com/data-catalog.html
+references:
+  - title: Methodology and denominator rules
+    reference: https://financeratecalc.com/methodology.html
+  - title: Source data - CFPB Home Mortgage Disclosure Act
+    reference: https://www.consumerfinance.gov/data-research/hmda/
