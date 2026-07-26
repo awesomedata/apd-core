@@ -1,0 +1,30 @@
+---
+title: Dealaka US Sign-Up Bonuses
+homepage: https://dealaka.com/data
+category: Finance
+description: Every US bank, credit card, brokerage, app, travel-loyalty and crypto sign-up bonus, with each figure verified against the institution's own published terms and carrying the date it was last checked. 260 offers across 146 institutions. Columns cover the bonus figure and its unit, the dollar requirement needed to unlock it, fee, keep and clawback period, payout timing, state footprint, hard-pull and ChexSystems posture, governing rules, and the source URL. CSV and JSON, no login or key, CORS enabled, regenerated from the live catalogue. Two caveats for analysis. The amount field records the FLOOR of a published range rather than the advertised ceiling, and the three units (cash, points, miles) must never be summed together. No affiliate placement. CC BY 4.0.
+version: 1.0
+keywords: sign-up bonus, bank bonus, credit card bonus, brokerage bonus, personal finance, promotions, banking, consumer finance.
+image:
+temporal: 2026-07-11/..
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: false
+data_dictionary: https://dealaka.com/data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Dealaka
+    web: https://dealaka.com
+organization:
+  - name: Dealaka
+    web: https://dealaka.com
+issued_time: 2026
+sources:
+  - name: CSV
+    access_url: https://dealaka.com/data/offers.csv
+  - name: JSON
+    access_url: https://dealaka.com/data/offers.json
