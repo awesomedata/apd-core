@@ -1,0 +1,35 @@
+---
+title: Russian and Belarusian Women in International Matchmaking (2026)
+homepage: https://github.com/lovevalentin-droid/russian-women-matchmaking-dataset
+category: SocialSciences
+description: Aggregated, anonymised demographic profile of 686 women registered with a Moscow-based international matchmaking agency, compiled 1 July 2026. Covers age distribution, education level, occupation, language proficiency, marital status, children, partner age range sought and nationality. Every percentage is computed only on the profiles that completed the relevant field, and the reference sample size is stated per indicator. Counters the common assumption about who seeks international marriage: mean age 42.7, 96 percent hold a higher-education degree, manager and teacher are the most common occupations. Published as CSV and JSON with methodology and stated limits, including that the sample is a subset of the agency base and that Belarus is under-represented.
+version: 1.0
+keywords: demography, sociology, international marriage, migration, gender, Russia, Belarus, family formation, survey data
+image:
+temporal: 2026
+spatial: Russia, Belarus
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Valentin Love
+    web: https://www.valentin.love/
+organization:
+  - name: Valentin Love
+    web: https://www.valentin.love/
+issued_time: 2026.07
+sources:
+  - name: Aggregated indicators (JSON)
+    access_url: https://github.com/lovevalentin-droid/russian-women-matchmaking-dataset/blob/main/data/observatoire-valentin-love-2026.json
+  - name: Aggregated indicators (CSV)
+    access_url: https://github.com/lovevalentin-droid/russian-women-matchmaking-dataset/blob/main/data/observatoire-valentin-love-2026.csv
+references:
+  - title: Observatory 2026, human-readable companion (EN)
+    reference: https://www.valentin.love/en/observatoire-rencontre-internationale
+  - title: Observatoire 2026, version francaise
+    reference: https://www.valentin.love/observatoire-rencontre-internationale
