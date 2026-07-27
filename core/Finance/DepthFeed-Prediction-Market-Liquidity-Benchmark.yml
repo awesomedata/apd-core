@@ -1,0 +1,39 @@
+---
+title: DepthFeed Prediction Market Liquidity Benchmark
+homepage: https://depthfeed.com/arena/liquidity
+category: Finance
+description: Reproducible 30-day order-book liquidity dataset with 34,560 lifecycle-aligned observations across Polymarket, Kalshi, Predict.fun via Binance Wallet, and Limitless. Includes CSV and JSON data, methodology, checksums, findings, and a standalone Node.js verifier.
+version: 2.0.0
+keywords: prediction markets, order book, liquidity, market data, polymarket, kalshi, limitless, backtesting, quantitative finance
+image:
+temporal: 30-day UTC window with three lifecycle checkpoints per contract
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: versioned releases
+specification: https://github.com/vcorp-dev/prediction-market-liquidity-benchmark/blob/v2.0.0/METHODS.md
+data_quality: true
+data_dictionary: https://github.com/vcorp-dev/prediction-market-liquidity-benchmark/blob/v2.0.0/README.md#use-the-dataset
+language: en
+license: CC BY 4.0
+publisher:
+  - name: DepthFeed Research
+    web: https://depthfeed.com
+organization:
+  - name: DepthFeed Research
+    web: https://depthfeed.com
+issued_time: 2026-07-27
+sources:
+  - name: Lifecycle observation panel CSV
+    access_url: https://raw.githubusercontent.com/vcorp-dev/prediction-market-liquidity-benchmark/v2.0.0/data/lifecycle.csv
+  - name: Summary CSV
+    access_url: https://raw.githubusercontent.com/vcorp-dev/prediction-market-liquidity-benchmark/v2.0.0/data/summary.csv
+  - name: Complete benchmark JSON
+    access_url: https://raw.githubusercontent.com/vcorp-dev/prediction-market-liquidity-benchmark/v2.0.0/data/benchmark.json
+references:
+  - title: Public repository and reproducibility verifier
+    reference: https://github.com/vcorp-dev/prediction-market-liquidity-benchmark/tree/v2.0.0
+  - title: Methodology
+    reference: https://github.com/vcorp-dev/prediction-market-liquidity-benchmark/blob/v2.0.0/METHODS.md
+  - title: Findings
+    reference: https://github.com/vcorp-dev/prediction-market-liquidity-benchmark/blob/v2.0.0/FINDINGS.md
