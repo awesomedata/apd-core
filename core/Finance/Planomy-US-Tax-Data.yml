@@ -1,0 +1,33 @@
+---
+title: Planomy US Tax and Retirement Figures
+homepage: https://planomy.net/data/
+category: Finance
+description: Current US federal tax and retirement figures published as JSON. Covers federal income tax brackets and standard deductions, contribution limits and catch-ups for 401(k)/403(b)/457(b)/TSP, IRA, SIMPLE, HSA, HDHP and health FSA, Roth and traditional IRA deduction phase-outs, Saver's Credit thresholds, the Social Security wage base, COLA and both earnings tests, Medicare Part A/B/D premiums with full IRMAA tier tables, RMD applicable ages by birth year, and income tax rates for the states modelled. Every figure carries a citation to the IRS, SSA or CMS publication it came from and the date it was retrieved. Directly downloadable over HTTPS with no login, no API key and no registration. It is served with a wildcard Access-Control-Allow-Origin header, so browser-side cross-origin fetch works as well as server-side clients.
+version: 1.0
+keywords: tax, tax brackets, IRS, SSA, CMS, retirement, 401k, IRA, HSA, contribution limits, Social Security, Medicare, IRMAA, RMD, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification: https://planomy.net/data/#schema
+data_quality: false
+data_dictionary: https://planomy.net/data/
+language: en
+license: Public domain (figures published by US federal agencies)
+publisher:
+  - name: Planomy
+    web: https://planomy.net
+organization:
+  - name: Planomy
+    web: https://planomy.net
+issued_time: 2026
+sources:
+  - name: Manifest of available years (JSON)
+    access_url: https://planomy.net/tax-data/index.json
+  - name: 2026 dataset (JSON)
+    access_url: https://planomy.net/tax-data/2026.json
+references:
+  - title: Planomy 2026 US Retirement and Tax Data Hub
+    reference: https://planomy.net/data/
