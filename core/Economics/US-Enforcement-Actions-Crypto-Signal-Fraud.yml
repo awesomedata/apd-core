@@ -1,0 +1,33 @@
+---
+title: US Enforcement Actions Against Crypto Trading-Signal Fraud
+homepage: https://realcryptosignals.com/research/enforcement-actions/
+category: Economics
+description: A structured, primary-source-cited dataset of eleven United States enforcement actions (SEC, DOJ, CFTC, FTC) against crypto trading-signal, managed-trading and signal-adjacent investment fraud schemes, covering documented investor losses of over six billion dollars. Each record contains the case id, the agencies involved, the period, the recurring red flags the scheme displayed (guaranteed-profit claims, fake track records, wallet-deposit requests, exit-liquidity mechanics), a factual summary, and direct links to the government filings or press releases it is based on. Compiled manually from published enforcement records; available as CSV and JSON under CC BY 4.0.
+version: 1.0
+keywords: cryptocurrency fraud, enforcement actions, SEC, CFTC, DOJ, investment fraud, consumer protection, financial crime, trading signals
+image:
+temporal: 2017-2025
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://realcryptosignals.com/research/enforcement-actions/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Real Crypto Signals
+    web: https://realcryptosignals.com/
+organization:
+  - name: Real Crypto Signals
+    web: https://realcryptosignals.com/
+issued_time: 2026.07
+sources:
+  - name: Enforcement cases (CSV)
+    access_url: https://realcryptosignals.com/research/enforcement-actions/cases.csv
+  - name: Enforcement cases (JSON)
+    access_url: https://realcryptosignals.com/research/enforcement-actions/cases.json
+references:
+  - title: Casebook with full case write-ups and sources
+    reference: https://realcryptosignals.com/research/enforcement-actions/
