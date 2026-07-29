@@ -1,0 +1,31 @@
+---
+title: 2026 U.S. Bathroom Remodel Permit and Planning Index
+homepage: https://www.remodelprojecthelp.com/bathroom-remodeling/us-bathroom-remodel-permit-planning-index/
+category: Government
+description: A reviewed open dataset covering official bathroom-remodel permit, department, trade-resource, jurisdiction, and contractor-verification sources for 50 selected U.S. cities across 24 states. The sample is not nationally representative and does not determine whether an individual project requires a permit; users must verify current requirements with the responsible agency.
+version: 1.0
+keywords: bathroom remodeling, building permits, local government, contractor verification, United States
+image:
+temporal: 2026
+spatial: 50 selected U.S. cities across 24 states
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/remodelprojecthelpseo-lab/us-bathroom-permit-planning-index/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Remodel Project Help
+    web: https://www.remodelprojecthelp.com/
+organization:
+  - name: Remodel Project Help
+    web: https://www.remodelprojecthelp.com/
+issued_time: 2026-07-23
+sources:
+  - name: Zenodo DOI record
+    access_url: https://doi.org/10.5281/zenodo.21501730
+  - name: Public dataset repository
+    access_url: https://github.com/remodelprojecthelpseo-lab/us-bathroom-permit-planning-index
+references: []
