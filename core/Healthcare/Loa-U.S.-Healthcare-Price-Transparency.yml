@@ -2,8 +2,8 @@
 title: Loa U.S. Healthcare Price Transparency Dataset
 homepage: https://www.loacare.com/methodology
 category: Healthcare
-description: Source-labeled U.S. healthcare pricing data and a public JSON API covering 207,000+ provider profiles, 4,700+ hospital profiles, 116,000+ current hospital price rows, and CPT/HCPCS procedure comparisons. Responses include source, provenance, confidence, and caveat fields.
-version: "2026.07"
+description: Source-labeled U.S. healthcare pricing data, a public JSON API, and a downloadable aggregate CSV covering 207,000+ provider profiles, 4,700+ hospital profiles, 116,000+ current hospital price rows, and 964 procedure-city benchmarks. Responses include source, provenance, confidence, and caveat fields.
+version: "2026-07-29"
 keywords: healthcare prices, hospital price transparency, medical costs, CPT, HCPCS, providers, hospitals, machine-readable files, API
 image:
 temporal: 2021-present
@@ -22,8 +22,10 @@ publisher:
 organization:
   - name: Loa
     web: https://www.loacare.com
-issued_time: "2026.07"
+issued_time: "2026-07-29"
 sources:
+  - name: Aggregate procedure-city benchmark CSV
+    access_url: https://www.loacare.com/datasets/loa-us-healthcare-price-benchmarks.csv
   - name: Public healthcare entity search example
     access_url: https://www.loacare.com/api/v1/entities/search?q=rainforest&limit=1
   - name: Public healthcare price guides
