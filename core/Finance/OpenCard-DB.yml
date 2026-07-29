@@ -3,7 +3,7 @@ title: OpenCard DB
 homepage: https://github.com/thedavidweng/opencard-db
 category: Finance
 description: Community-maintained open dataset of credit card product metadata covering 189 cards across the United States, Canada, and China. Each record covers issuer, network, network tier, annual fee, FX fee, APR ranges, rewards structure, signup bonus, benefits, and source citations. Published as one JSON file per card validated against a JSON Schema, with bulk exports in JSON, CSV, and YAML served from a CDN. No login, no API key, no rate limits on the CDN path. Data licensed CC BY 4.0.
-version: 1.0
+version: 0.3.0
 keywords: credit cards, card products, issuer, network, Visa, Mastercard, American Express, UnionPay, rewards, annual fee, benefits, finance.
 image:
 temporal:
@@ -22,7 +22,7 @@ publisher:
 organization:
   - name: OpenCard DB
     web: https://github.com/thedavidweng/opencard-db
-issued_time: 2025
+issued_time: 2026.07
 sources:
   - name: JSON (all cards)
     access_url: https://cdn.jsdelivr.net/gh/thedavidweng/opencard-db@main/exports/cards-all.json
