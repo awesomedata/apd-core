@@ -1,0 +1,26 @@
+---
+title: FAA Wildlife Strikes on Civil Aircraft 1990-2026 (aggregated)
+homepage: https://doi.org/10.5281/zenodo.21347859
+category: Transportation
+description: Versioned CC BY 4.0 aggregates of the U.S. FAA National Wildlife
+  Strike Database (347,575 reports, January 1990 - July 2026) as tidy CSVs by
+  year, airport, species, aircraft type and animal family, with a documented
+  damage-rate definition (DAMAGE_LEVEL M/M?/S/D). Interactive explorer at
+  https://himaxym.com/safety/wildlife-strikes
+version: 2026-07-04.2
+keywords: aviation,wildlife strikes,bird strikes,FAA,air safety
+image:
+temporal: 1990-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: Zenodo
+organization:
+issued_time: 2026-07-26
+sources: []
