@@ -1,0 +1,31 @@
+---
+title: Powerlifting Strength Percentiles by Sex, Age and Bodyweight
+homepage: https://github.com/arvidfcjarfalla-prog/liftgauge-strength-data
+category: Sports
+description: Pre-aggregated strength percentile, progression-trajectory and strength-by-age cubes derived from the OpenPowerlifting CC0 dataset — 8,500+ percentile cells (sex x lift x bodyweight class x single-year age x equipment) and a median-DOTS-by-age curve over 441,789 qualifying raw full-power entries. Ships the deterministic ETL scripts alongside the JSON outputs, with SHA-256 provenance back to the exact source CSV.
+version: 1.0
+keywords: powerlifting, strength standards, percentiles, aging, DOTS, OpenPowerlifting
+image:
+temporal: 1964-2026
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/arvidfcjarfalla-prog/liftgauge-strength-data#file-reference
+language: en
+license: CC0 1.0 (data), MIT (scripts)
+publisher:
+  - name: LiftGauge
+    web: https://liftgauge.com/strength-standards
+organization:
+  - name:
+    web:
+issued_time: 2026.07
+sources:
+  - name: GitHub repository (data + ETL)
+    access_url: https://github.com/arvidfcjarfalla-prog/liftgauge-strength-data
+references:
+  - title: Methodology writeup
+    reference: https://liftgauge.com/method
