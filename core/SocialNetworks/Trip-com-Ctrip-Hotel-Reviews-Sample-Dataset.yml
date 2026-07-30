@@ -1,0 +1,22 @@
+---
+title: Trip.com and Ctrip Hotel Reviews Sample Dataset (800 reviews)
+homepage: https://huggingface.co/datasets/fact-den/trip-com-and-ctrip-hotel-reviews-sample-2026
+category: SocialNetworks
+description: 800 hotel guest reviews from Trip.com and Ctrip (4 hotels) with sub-ratings, owner responses and English translations of Chinese reviews. CSV/JSON, also mirrored on Kaggle.
+version:
+keywords: reviews,hotels,travel,ratings,chinese
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en,zh
+license:
+publisher: FactDen
+organization:
+issued_time:
+sources: []
