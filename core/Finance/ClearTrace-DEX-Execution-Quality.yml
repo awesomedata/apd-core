@@ -1,0 +1,32 @@
+---
+title: ClearTrace DEX Execution Quality
+homepage: https://github.com/RantumBits/cleartrace-dex-execution-quality
+category: Finance
+description: Longitudinal dataset of DEX aggregator execution quality measured from on-chain data across Ethereum, Base, Arbitrum, and Optimism, including quotes, realized slippage, user revert rates, MEV sandwich events, and cross-frontend volume attribution. CSV, updated on a scheduled sync, citable DOI.
+version: 1.0
+keywords: cryptocurrency, defi, dex, ethereum, mev, slippage, trading, blockchain
+image:
+temporal:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+publisher:
+  - name: ClearTrace
+    web: https://cleartracedata.com
+organization:
+  - name: ClearTrace
+    web: https://cleartracedata.com
+sources:
+  - name: GitHub mirror
+    access_url: https://github.com/RantumBits/cleartrace-dex-execution-quality
+  - name: Zenodo (DOI 10.5281/zenodo.21089929)
+    access_url: https://doi.org/10.5281/zenodo.21089929
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/andrewmaury/cleartrace-dex-execution-quality
+references:
+  - title: Methodology
+    reference: https://cleartracedata.com/methodology
