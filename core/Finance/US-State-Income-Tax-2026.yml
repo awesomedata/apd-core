@@ -1,0 +1,38 @@
+---
+title: US State Income Tax 2026 (all 51 jurisdictions)
+homepage: https://github.com/mixseomin/us-state-income-tax
+category: Finance
+description: >
+  State individual income tax rules for tax year 2026 for all 50 US states plus
+  the District of Columbia, as structured JSON and CSV. Per jurisdiction: whether
+  it taxes income, flat vs graduated, full bracket thresholds and rates, standard
+  deductions (single and married filing jointly), and detailed notes on
+  retirement-income treatment, local taxes, and recent changes. 315 bracket rows.
+version: 2026
+keywords: taxes, state income tax, tax brackets, standard deduction, payroll, United States, personal finance
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: Public fact (state tax rates and brackets)
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/mixseomin/us-state-income-tax#whats-inside
+language: en
+license: Public fact (informational, not tax advice)
+publisher:
+  - name: govcalcs.com
+    web: https://govcalcs.com
+organization:
+  - name: State departments of revenue (source)
+    web: https://www.taxadmin.org/state-tax-agencies
+issued_time: 2026
+sources:
+  - name: State departments of revenue (2026 schedules)
+    access_url: https://www.taxadmin.org/state-tax-agencies
+references:
+  - title: State tax summary CSV
+    reference: https://raw.githubusercontent.com/mixseomin/us-state-income-tax/main/csv/state-tax-summary.csv
+  - title: State tax brackets CSV
+    reference: https://raw.githubusercontent.com/mixseomin/us-state-income-tax/main/csv/state-tax-brackets.csv
