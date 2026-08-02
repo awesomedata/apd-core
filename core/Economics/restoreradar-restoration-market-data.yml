@@ -1,0 +1,58 @@
+---
+title: RestoreRadar U.S. Emergency Restoration Provider Market Data (10-Metro Aggregates)
+homepage: https://restoreradar.com/restoration-market-data/
+category: Economics
+description: >
+  Metro-level aggregate statistics on the public storefront of the U.S. emergency
+  restoration industry (water, fire, mold, storm) across 10 selected metros in
+  Texas, Florida, and Louisiana. Derived from 550 published provider records:
+  provider-stated 24/7 availability and direct insurance billing, Google-rated
+  listing counts and review totals, domain-matched Google Business locations,
+  IICRC Certified Firm registry matches, and official state mold-credential
+  matches. Aggregate-only (10 metro rows), not a provider-level census and not a
+  national sample; methodology and limitations are published alongside the data.
+version: 1.0
+keywords:
+  - restoration industry
+  - water damage restoration
+  - contractor market data
+  - local services
+  - business verification
+  - credential verification
+image:
+temporal: 2026 snapshot (data last modified 2026-07-30; monthly refresh cadence)
+spatial: 10 U.S. metros in Texas, Florida, and Louisiana
+access_level: public
+copyrights: >
+  © 2026 RestoreRadar (ChairFlow Solutions LLC). Aggregates derived from
+  providers' own published websites and official registries; underlying
+  third-party rights are not licensed or waived by RestoreRadar. Reuse terms:
+  https://restoreradar.com/restoration-market-data/#reuse-terms
+accrual_periodicity: monthly
+specification: >
+  CSV/JSON keyed by metro_slug; columns: city, state, listed_providers,
+  provider_stated_24_7, provider_stated_insurance_direct_billing,
+  google_rated_listings, google_review_total,
+  domain_matched_google_business_locations, iicrc_certified_firms,
+  official_state_mold_credentials, date_modified, license_url.
+data_quality: true
+data_dictionary: https://restoreradar.com/restoration-market-data/
+language: en
+license: RestoreRadar custom attribution/reuse terms
+publisher:
+  - name: RestoreRadar
+    web: https://restoreradar.com
+organization:
+  - name: ChairFlow Solutions LLC
+    web: https://restoreradar.com/about/
+issued_time: 2026-08
+sources:
+  - name: RestoreRadar restoration market data (CSV)
+    access_url: https://restoreradar.com/data/restoration-market-data.csv
+  - name: RestoreRadar restoration market data (JSON)
+    access_url: https://restoreradar.com/data/restoration-market-data.json
+references:
+  - title: Methodology, limitations, and reuse terms
+    reference: https://restoreradar.com/restoration-market-data/
+  - title: Reuse terms (mirror)
+    reference: https://raw.githubusercontent.com/chrishowardtx/restoreradar-market-data/main/REUSE_TERMS.md
