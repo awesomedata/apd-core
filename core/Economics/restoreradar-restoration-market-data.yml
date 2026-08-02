@@ -6,7 +6,7 @@ description: >
   Metro-level aggregate statistics on the public storefront of the U.S. emergency
   restoration industry (water, fire, mold, storm) across 10 selected metros in
   Texas, Florida, and Louisiana. Derived from 550 published provider records:
-  provider-stated 24/7 availability and direct insurance billing, Google-rated
+  provider-stated 24/7 response and direct insurance billing, Google-rated
   listing counts and review totals, domain-matched Google Business locations,
   IICRC Certified Firm registry matches, and official state mold-credential
   matches. Aggregate-only (10 metro rows), not a provider-level census and not a
@@ -20,7 +20,7 @@ keywords:
   - business verification
   - credential verification
 image:
-temporal: 2026 snapshot (data last modified 2026-07-30; monthly refresh cadence)
+temporal: 2026 snapshot (data last modified 2026-07-30; no fixed calendar schedule)
 spatial: 10 U.S. metros in Texas, Florida, and Louisiana
 access_level: public
 copyrights: >
@@ -28,7 +28,7 @@ copyrights: >
   providers' own published websites and official registries; underlying
   third-party rights are not licensed or waived by RestoreRadar. Reuse terms:
   https://restoreradar.com/restoration-market-data/#reuse-terms
-accrual_periodicity: monthly
+accrual_periodicity: irregular; recomputed with each published RestoreRadar data refresh; no fixed calendar schedule
 specification: >
   CSV/JSON keyed by metro_slug; columns: city, state, listed_providers,
   provider_stated_24_7, provider_stated_insurance_direct_billing,
