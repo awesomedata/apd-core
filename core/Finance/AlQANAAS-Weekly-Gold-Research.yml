@@ -1,0 +1,33 @@
+---
+title: AlQANAAS Weekly Gold Research
+homepage: https://alqanaas.com/en/research
+category: Finance
+description: A reproducible weekly XAUUSD dataset containing open, high, low, close, range, percentage change, close position, ATR20, session counts, and the strongest up and down sessions. Records include stable ISO week keys, observation dates, and direct JSON and CSV downloads.
+version: "2026.08"
+keywords: gold, XAUUSD, OHLC, ATR, volatility, weekly market data, financial research.
+image: https://alqanaas.com/og-2026.png
+temporal: 2025-01 / present
+spatial: global
+access_level: public
+copyrights: AlQANAAS PRO; use and redistribution are subject to the published terms.
+accrual_periodicity: weekly
+specification: https://alqanaas.com/en/developers/gold-data-api
+data_quality: true
+data_dictionary: https://alqanaas.com/en/developers/gold-data-api#fields
+language: en, ar
+license: AlQANAAS Terms of Use
+publisher:
+  - name: AlQANAAS Research Desk
+    web: https://alqanaas.com/en/team
+organization:
+  - name: AlQANAAS PRO
+    web: https://alqanaas.com
+issued_time: 2026.07
+sources:
+  - name: Weekly XAUUSD research JSON
+    access_url: https://alqanaas.com/gold-research-data.json
+  - name: Weekly XAUUSD research CSV
+    access_url: https://alqanaas.com/gold-research-data.csv
+references:
+  - title: Calculation methodology and data sources
+    reference: https://alqanaas.com/en/data-sources
