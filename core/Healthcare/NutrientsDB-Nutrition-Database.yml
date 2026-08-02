@@ -15,8 +15,12 @@ organization:
   - name: NutrientsDB
     web: https://www.nutrientsdb.com/
 sources:
+  - name: NutrientsDB JSON sample on GitHub
+    access_url: https://raw.githubusercontent.com/colinearstudio/nutrientsdb-sample/main/sample.json
   - name: NutrientsDB JSON sample on Hugging Face
     access_url: https://huggingface.co/datasets/colinearstudio/nutrientsdb/resolve/main/sample.json?download=true
 references:
-  - title: NutrientsDB sample dataset page
+  - title: NutrientsDB sample repository on GitHub
+    reference: https://github.com/colinearstudio/nutrientsdb-sample
+  - title: NutrientsDB sample dataset on Hugging Face
     reference: https://huggingface.co/datasets/colinearstudio/nutrientsdb
