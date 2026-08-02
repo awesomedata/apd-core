@@ -1,0 +1,17 @@
+---
+title: NutrientsDB Nutrition Database
+homepage: https://www.nutrientsdb.com/
+category: Healthcare
+description: Nutrition database containing 2.9M+ food records with global coverage, normalized to a common schema of 86 nutrient fields and standard units. A public 1,000-record JSON sample uses the same schema.
+keywords: nutrition,food composition,nutrients,standardized units,JSON
+access_level: Public sample; full dataset requires purchase
+language: en
+publisher:
+  - name: NutrientsDB
+    web: https://www.nutrientsdb.com/
+organization:
+  - name: NutrientsDB
+    web: https://www.nutrientsdb.com/
+sources:
+  - name: NutrientsDB JSON sample
+    access_url: https://huggingface.co/datasets/colinearstudio/nutrientsdb
