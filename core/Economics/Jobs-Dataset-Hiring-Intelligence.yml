@@ -1,0 +1,33 @@
+---
+title: 'Jobs Dataset: 69,826 company career boards, 1.93M live postings'
+homepage: https://crawlora.net/datasets/jobs
+category: Economics
+description: A normalized hiring-market index built from 69,826 discovered company career-site boards across 16 applicant-tracking-system providers (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Recruitee, Rippling, Personio, Teamtailor, Oracle, UKG, iCIMS, Eightfold, Gem, Pinpoint), plus 5 single-company big-tech careers platforms (Amazon, Apple, Google, Meta, Tesla) — 1,934,195 live public job postings in total, normalized into one cross-provider JSON shape with company, department, location, employment type, remote flag, and compensation where disclosed. Public postings only, no login required.
+version: 1.0.0
+keywords: jobs dataset, hiring data, ats job postings, labor market data, company career pages, greenhouse workday lever, remote jobs data, compensation data
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://crawlora.net/datasets/jobs
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Interactive dataset page and live query API
+  access_url: https://crawlora.net/datasets/jobs
+- name: API documentation
+  access_url: https://crawlora.net/docs/datasets/datasets-jobs-search
+references:
+- title: The Job Market Runs on Workday (Crawlora blog)
+  reference: https://crawlora.net/blog/job-market-runs-on-workday-2026

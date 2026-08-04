@@ -1,0 +1,33 @@
+---
+title: 'US Housing Markets Dataset: 52,051 regions, monthly since 2012'
+homepage: https://crawlora.net/datasets/housing
+category: Economics
+description: Redfin market statistics for 52,051 US regions (metro, county, city, and ZIP level), tracked monthly since 2012 and joined to Census income data to derive price-to-income ratios and the salary needed to buy the median home in each region. Aggregate market data only, queryable over one REST API.
+version: 1.0.0
+keywords: housing market dataset, home price to income, housing affordability data, redfin data, us home prices by zip, real estate market data, salary to buy a house
+image:
+temporal: 2012-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://crawlora.net/datasets/housing
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Interactive dataset page and live query API
+  access_url: https://crawlora.net/datasets/housing
+- name: API documentation
+  access_url: https://crawlora.net/docs/datasets/datasets-housing-markets-search
+references:
+- title: Housing Is Unaffordable in America (Crawlora blog)
+  reference: https://crawlora.net/blog/housing-unaffordable-america-2026

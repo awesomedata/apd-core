@@ -1,0 +1,33 @@
+---
+title: 'X (Twitter) Users Dataset: 796,611 public profiles'
+homepage: https://crawlora.net/datasets/x-users
+category: SocialNetworks
+description: A seeded index of 796,611 public X (Twitter) profiles, sourced from independent public lists (Wikidata entities, public GitHub developers, startup founders, journalists) and kept updated against live profiles — followers, bio, external link, blue-check status, and account age, queryable over one REST API. Public profile fields only; no login required and not a random sample of X.
+version: 1.0.0
+keywords: x users dataset, twitter users dataset, x profile data, twitter follower dataset, social profile intelligence, twitter account age, blue check dataset
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://crawlora.net/datasets/x-users
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Interactive dataset page and live query API
+  access_url: https://crawlora.net/datasets/x-users
+- name: API documentation
+  access_url: https://crawlora.net/docs/datasets/datasets-x-users-search
+references:
+- title: What X Bios Reveal About Who's Building AI (Crawlora blog)
+  reference: https://crawlora.net/blog/x-bios-mention-ai-labs-2026

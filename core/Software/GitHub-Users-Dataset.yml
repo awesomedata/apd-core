@@ -1,0 +1,33 @@
+---
+title: 'GitHub Users Dataset: 982,618 enriched developer profiles'
+homepage: https://crawlora.net/datasets/github-users
+category: Software
+description: 982,618 enriched public GitHub developer profiles — followers, company, stated interests, activity signals, and clean resolved geo on 97.1% of located accounts — queryable over one REST API. Public profile fields only.
+version: 1.0.0
+keywords: github users dataset, github developer data, developer profiles, github followers dataset, developer intelligence, developer geo dataset, open source contributor data
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://crawlora.net/datasets/github-users
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Interactive dataset page and live query API
+  access_url: https://crawlora.net/datasets/github-users
+- name: API documentation
+  access_url: https://crawlora.net/docs/datasets/datasets-github-users-search
+references:
+- title: Where Developers Live, By GitHub Followers (Crawlora blog)
+  reference: https://crawlora.net/blog/where-developers-live-github-2026
