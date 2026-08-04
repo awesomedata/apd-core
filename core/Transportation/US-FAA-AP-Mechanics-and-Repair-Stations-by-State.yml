@@ -1,0 +1,31 @@
+---
+title: US FAA A&P Mechanics and Repair Stations by State
+homepage: https://apnearme.com/data
+category: Transportation
+description: State-level counts of all 233,886 FAA-certificated Airframe & Powerplant (A&P) mechanics and Inspection Authorization holders, all 3,965 FAA Part 145 repair stations with ratings and geocoded coordinates, and A&P mechanics per 100 based aircraft (FAA TAF FY2024) for the 50 US states + DC. Cleaned and consolidated from public FAA source data; direct CSV/JSON downloads, no login.
+version: 2026-07
+keywords: aviation, FAA, aircraft maintenance, A&P mechanic, Part 145 repair station, based aircraft, United States
+image:
+temporal: 2026
+spatial: United States (50 states + DC)
+access_level: public
+copyrights: Public domain (US government source data, 17 U.S.C. 105); compilation CC0 1.0
+accrual_periodicity: irregular (refreshed with each FAA data pull, roughly monthly)
+specification:
+data_quality: true
+data_dictionary: https://apnearme.com/data
+language: en
+license: CC0 1.0
+publisher:
+  - name: APNearMe
+    web: https://apnearme.com
+organization:
+  - name: APNearMe
+    web: https://apnearme.com
+issued_time: 2026.06
+sources:
+  - name: Federal Aviation Administration
+    access_url: https://www.faa.gov/licenses_certificates/airmen_certification/releasable_airmen_download
+references:
+  - title: The State of U.S. Aircraft Maintenance (dataset hub and methodology)
+    reference: https://apnearme.com/data
