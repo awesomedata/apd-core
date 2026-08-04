@@ -3,16 +3,16 @@ title: Donald Trump Truth Social Posts Archive
 homepage: https://huggingface.co/datasets/Cameronk199/donald-trump-truth-social-posts
 category: SocialNetworks
 description: >
-  A source-linked archive of 35,891 public Truth Social posts associated with
+  A source-linked archive of 35,882 public Truth Social posts associated with
   Donald J. Trump's @realDonaldTrump account, covering February 2022 through
   August 2026. The release includes timestamps, post types, original HTML,
   extracted text, source URLs, analysis-ready Parquet and JSONL tables, 8,004
   verified image derivatives with provenance indexes, and metadata or
-  transcripts for 5,757 video attachments.
-version: 2026.08.03
+  transcripts for 5,756 video attachments.
+version: 2026.08.02
 keywords: truth social, donald trump, social media, politics, nlp, text analysis, images, parquet, time series
 image: https://huggingface.co/spaces/Cameronk199/truth-social-timeline-explorer/resolve/main/assets/truth-social-posting-volume.png
-temporal: 2022-02-14 to 2026-08-03
+temporal: 2022-02-14 to 2026-08-02
 spatial:
 access_level: public
 copyrights: Underlying post and media rights may belong to authors, uploaders, or third parties.
