@@ -1,0 +1,31 @@
+---
+title: Türkiye Cultural Heritage Atlas (Kahve Tabela) Open Data
+homepage: https://kahvetabela.com/tr/acik-veri
+category: Museums
+description: 32,483 registered cultural-heritage places in Türkiye (name, category, province, district, WGS84 coordinates, audited Wikidata IDs) plus 1,679 geographical-indication registered regional foods from the public TürkPatent registry. Direct-download versioned CSV/JSON dumps with a sha256 integrity manifest, and a free JSON API with an OpenAPI spec. Compiled from public sources including Wikidata, OpenStreetMap and TürkPatent.
+version: 2026-07
+keywords: Turkey, cultural heritage, archaeology, museums, geographical indication, geospatial
+image:
+temporal:
+spatial: Türkiye
+access_level: public
+copyrights:
+accrual_periodicity: on corpus change (versioned filenames, previous version retained)
+specification: https://kahvetabela.com/openapi.json
+data_quality: true
+data_dictionary: https://kahvetabela.com/tr/acik-veri
+language: tr, en
+license: ODbL (location database), CC0 (Wikidata-derived fields); attribute the compilation to Kahve Tabela
+publisher:
+  - name: Kahve Tabela
+    web: https://kahvetabela.com
+organization:
+  - name: Kahve Tabela
+    web: https://kahvetabela.com
+issued_time: 2026.07
+sources:
+  - name: Data dumps index (sha256 manifest)
+    access_url: https://kahvetabela.com/dumps/index.json
+references:
+  - title:
+    reference:
