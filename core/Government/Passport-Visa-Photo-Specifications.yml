@@ -1,0 +1,22 @@
+---
+title: Passport & Visa Photo Specifications (21 documents, 15+ countries)
+homepage: https://compliantpassportphoto.com/specs.json
+category: Government
+description: Machine-readable photo specifications for passports, visas and ID documents across 15+ countries (US, UK, Canada, Schengen, India, China visa, and more). Each record carries photo dimensions, head-height and eye-position bands, background rules, digital file constraints, a source link to the official government requirement, and a last-verified date.
+version:
+keywords: passport,visa,photo,identity documents,government requirements,biometrics
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: Compliant Passport Photo
+organization:
+issued_time:
+sources: []
