@@ -1,0 +1,22 @@
+---
+title: Open Dependency Risk
+homepage: https://github.com/ConorsCode/open-dependency-risk
+category: CyberSecurity
+description: Daily-updated dataset of 1,500 widely-used npm and PyPI packages ranked by weekly downloads, joined with registry metadata and known vulnerabilities from OSV.dev, plus mechanical risk flags (staleness, deprecation, vulnerability counts). JSON/CSV.
+version:
+keywords: npm,pypi,vulnerabilities,supply-chain,osv,dependencies
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher:
+organization:
+issued_time:
+sources: []
