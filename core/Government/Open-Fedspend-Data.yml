@@ -1,0 +1,22 @@
+---
+title: Open Fedspend Data
+homepage: https://github.com/ConorsCode/open-fedspend-data
+category: Government
+description: Daily-updated rolling 7-day window of US federal contract awards from USAspending.gov's public search API, with by-recipient, by-agency and by-NAICS aggregates. JSON/CSV.
+version:
+keywords: government,procurement,federal-contracts,usaspending,spending
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher:
+organization:
+issued_time:
+sources: []
