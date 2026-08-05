@@ -1,0 +1,33 @@
+---
+title: Open Trials Data
+homepage: https://github.com/ConorsCode/open-trials-data
+category: Healthcare
+description: All currently-recruiting interventional studies registered on ClinicalTrials.gov, pulled daily from the registry's public API v2 and flattened into one row per trial. Around 47,000 trials per snapshot, each with NCT identifier, brief title, overall status, phase, study type, conditions, interventions, lead sponsor and sponsor class, enrollment count and type, start and completion dates, and location countries. Includes precomputed aggregates by condition, sponsor and phase. Institutional fields only - per-site investigator names, emails and phone numbers are deliberately excluded. Available as JSON and CSV.
+version: 1.0
+keywords: clinical trials, healthcare, medical research, recruiting studies, interventional, ClinicalTrials.gov
+image:
+temporal: 2026-
+spatial: global
+access_level: public
+copyrights: MIT License
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/ConorsCode/open-trials-data/blob/main/data/README.md
+language: en
+license: MIT
+publisher:
+organization:
+issued_time: 2026.08
+sources:
+  - name: Open Trials Data (JSON)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-trials-data/main/data/trials.json
+  - name: Open Trials Data (CSV)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-trials-data/main/data/trials.csv
+  - name: Aggregates by condition (JSON)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-trials-data/main/data/by-condition.json
+references:
+  - title: Schema and methodology
+    reference: https://github.com/ConorsCode/open-trials-data/blob/main/data/README.md
+  - title: ClinicalTrials.gov API v2
+    reference: https://clinicaltrials.gov/data-api/api
