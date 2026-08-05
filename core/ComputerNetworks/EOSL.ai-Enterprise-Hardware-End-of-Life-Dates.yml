@@ -1,0 +1,26 @@
+---
+title: EOSL.ai Enterprise Hardware End-of-Life Dates
+homepage: https://eosl.ai/dataset/
+category: ComputerNetworks
+description: >
+  Enterprise datacenter hardware end-of-sale and end-of-service-life dates by
+  part number (Cisco, Dell, HPE, Fortinet, IBM, Juniper and more), each record
+  carrying the URL of the manufacturer's own end-of-life bulletin. CSV and
+  JSON, refreshed weekly.
+version:
+keywords: hardware,end-of-life,eosl,eol,lifecycle,datacenter,networking
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: EOSL.ai
+organization:
+issued_time:
+sources: []
