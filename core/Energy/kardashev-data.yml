@@ -1,0 +1,22 @@
+---
+title: Kardashev Data
+homepage: https://data.kardashevlabs.org
+category: Energy
+description: Free, self-hosted REST API for real-time and historical US ISO/RTO electricity grid data, no API key required, covering LMP prices, fuel mix, load, curtailment, interconnection queues, and more across all 7 US ISOs. Python client available via `pip install kardashev` (https://github.com/kardashev-lab/kardashev-py).
+version:
+keywords: [energy, electricity, grid, ISO, RTO, LMP, load, curtailment, real-time]
+image:
+temporal: 2026-present
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: 5min-daily depending on dataset
+specification:
+data_quality: true
+data_dictionary: https://data.kardashevlabs.org/docs
+language: English
+license: MIT
+publisher: Kardashev Labs
+organization:
+issued_time: 2026
+sources: []
