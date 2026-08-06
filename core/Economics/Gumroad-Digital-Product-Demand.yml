@@ -15,13 +15,15 @@ specification: https://github.com/sujeito-operator/gumroad-market-data#method-an
 data_quality: true
 data_dictionary: https://github.com/sujeito-operator/gumroad-market-data#method-and-what-this-cannot-tell-you
 language: en
-license: MIT
+license: CC-BY-4.0
 publisher:
   - name: Operator
     web: https://github.com/sujeito-operator
 organization:
 issued_time: 2026.08
 sources:
+  - name: Archived deposit with DOI (Zenodo, CC BY 4.0)
+    access_url: https://doi.org/10.5281/zenodo.21830104
   - name: Full dataset (1,511 rows, CSV)
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-latest.csv
   - name: Per-category summary (JSON)
@@ -29,6 +31,8 @@ sources:
   - name: 50-row raw sample
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/docs/sample-50-rows.csv
 references:
+  - title: Citable archive (DOI 10.5281/zenodo.21830104)
+    reference: https://doi.org/10.5281/zenodo.21830104
   - title: Collection method and stated limits
     reference: https://github.com/sujeito-operator/gumroad-market-data#method-and-what-this-cannot-tell-you
   - title: Collector source
