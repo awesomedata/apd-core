@@ -1,0 +1,33 @@
+---
+title: US H-1B / LCA Open Data (Cleaned)
+homepage: https://h1b.report
+category: Economics
+description: Cleaned aggregate tables derived from US Department of Labor (OFLC) Labor Condition Application (LCA) disclosures, the public wage-and-worksite filings behind every H-1B, H-1B1, and E-3 hire. Covers about 9.3 million filings, 152,000+ canonical employers, and 782 occupations across FY2010-FY2026, with employer name variants reconciled into canonical organizations, job titles mapped to BLS SOC codes, and wages normalized to annual USD.
+version: 1.0
+keywords: h1b, labor condition application, immigration, wages, prevailing wage, employment, department of labor, visa, united states
+image:
+temporal: 2010-2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://h1b.report/methodology
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: h1b.report
+    web: https://h1b.report
+organization:
+  - name: h1b.report
+    web: https://h1b.report
+issued_time: 2026.07
+sources:
+  - name: H-1B / LCA aggregate tables (CSV)
+    access_url: https://www.kaggle.com/datasets/serhiiporotikov/us-h-1b-lca-data-cleaned-fy2010-fy2026
+  - name: Interactive database
+    access_url: https://h1b.report
+references:
+  - title: Methodology - h1b.report
+    reference: https://h1b.report/methodology
