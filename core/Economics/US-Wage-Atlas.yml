@@ -3,7 +3,7 @@ title: US Wage Atlas - Pay Band Width and Price-Adjusted Pay by Occupation and M
 homepage: https://voicedapp.co/datasets
 category: Economics
 description: Two derived CSV datasets covering every occupation published in every US metro area. The first gives the p25-p75 pay band inside a single occupation in a single place, as a ratio, in dollars and as a share of the median (65,448 rows). The second divides the same wages by the BEA Regional Price Parity for that metro to express pay in national-average dollars, keeping the housing parity as its own column rather than averaging it into a single cost-of-living score (47,380 rows). Artefact rows where adjacent published percentiles collapse onto one value are flagged and excluded from analysis rather than silently dropped.
-version: 1.0
+version: v2025.1
 keywords: wages, salaries, labor market, occupations, metro areas, cost of living, purchasing power, price parities, BLS, BEA, CSV
 image:
 temporal: May 2025 wages, 2024 price parities
@@ -29,3 +29,5 @@ sources:
 references:
   - title: Build scripts and source files
     reference: https://github.com/AndreySoloviev/us-wage-atlas
+  - title: Archived release with permanent DOI
+    reference: https://doi.org/10.5281/zenodo.21827449
