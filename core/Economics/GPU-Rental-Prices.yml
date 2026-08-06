@@ -1,0 +1,21 @@
+---
+title: GPU Rental Prices
+homepage: https://gpurentalprices.com/
+category: Economics
+description: An open dataset of daily-verified cloud GPU rental prices across 22 providers (AWS, Azure, CoreWeave, Lambda, RunPod, Nebius, OVH and more), covering 40+ GPU SKUs including H100, H200, B200, A100, MI300X and consumer RTX cards. Each offer records provider, GPU model, VRAM, USD per hour, billing kind and source URL, with per-provider verification timestamps. Published as JSON and CSV with full daily history, a free no-auth API endpoint and an OpenAPI spec; mirrored on Hugging Face, Kaggle and Zenodo (DOI 10.5281/zenodo.21435394).
+version: 1.0
+keywords: cloud computing, GPU, pricing, GPU rental, H100, A100, B200, time series, IaaS, infrastructure
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification: https://gpurentalprices.com/openapi.json
+data_quality: true
+data_dictionary: https://github.com/adriannutiu/gpu-rental-prices
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: GPU Rental Prices
+    web: https://gpurentalprices.com/
