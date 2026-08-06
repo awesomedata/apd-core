@@ -1,0 +1,22 @@
+---
+title: Bangkok Off-Plan Housing Pipeline
+homepage: https://baanscope.com/data
+category: Economics
+description: Aggregate data on residential construction underway in the Bangkok Metropolitan Region, compiled from the public project listings of Thailand's nine largest listed developers and re-checked roughly every two days. Three tables cover 81 districts, 9 developers and 6 completion years, reporting project counts, published unit counts, property mix, median asking price, median price per square metre and median government-appraised land value. Thailand has no MLS and no public transaction registry, so no official equivalent is published. Prices are developer asking prices rather than sale prices, unit counts carry their own coverage column, and per-group medians are omitted where a group holds fewer than three projects.
+keywords: real estate, housing, construction, property prices, Thailand, Bangkok
+temporal: 2026-, refreshed with each scan
+spatial: Bangkok Metropolitan Region, Thailand
+access_level: public
+language: en
+license: CC BY 4.0
+organization:
+  - name: BaanScope
+    web: https://baanscope.com
+sources:
+  - name: CSV and JSON downloads with column dictionary
+    access_url: https://baanscope.com/data
+  - name: Snapshot mirror on GitHub
+    access_url: https://github.com/kesar/thailand-housing-prices/tree/main/data/bangkok-offplan
+references:
+  - title: Methodology and collection cadence
+    reference: https://baanscope.com/methodology
