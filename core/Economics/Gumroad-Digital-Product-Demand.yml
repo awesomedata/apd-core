@@ -1,0 +1,35 @@
+---
+title: Gumroad Digital Product Demand - 1,511 products across 42 categories
+homepage: https://github.com/sujeito-operator/gumroad-market-data
+category: Economics
+description: A measured snapshot of the Gumroad digital-product long tail. 1,511 live listings sampled across 42 product categories in August 2026, each row carrying category, asking price, currency, rating count, subscription flag and product title. Rating count is used as a demand proxy - 33% of sampled listings have no ratings at all, and the share of rated listings ranges from 100% (VRChat avatars, Unity assets) down to 39% (crochet patterns, Excel dashboards). Useful for creator-economy research, digital-goods pricing analysis and long-tail marketplace studies. Full CSV, per-category summary JSON and the collector source are in the repository with no login or paywall.
+version: 1.0
+keywords: creator economy, digital products, e-commerce, marketplace, gumroad, pricing, demand, long tail, csv, open data
+image:
+temporal: 2026-08-05 snapshot
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/sujeito-operator/gumroad-market-data#method-and-what-this-cannot-tell-you
+data_quality: true
+data_dictionary: https://github.com/sujeito-operator/gumroad-market-data#method-and-what-this-cannot-tell-you
+language: en
+license: MIT
+publisher:
+  - name: Operator
+    web: https://github.com/sujeito-operator
+organization:
+issued_time: 2026.08
+sources:
+  - name: Full dataset (1,511 rows, CSV)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-latest.csv
+  - name: Per-category summary (JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/summary.json
+  - name: 50-row raw sample
+    access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/docs/sample-50-rows.csv
+references:
+  - title: Collection method and stated limits
+    reference: https://github.com/sujeito-operator/gumroad-market-data#method-and-what-this-cannot-tell-you
+  - title: Collector source
+    reference: https://github.com/sujeito-operator/gumroad-market-data/blob/main/scripts/collect.py
