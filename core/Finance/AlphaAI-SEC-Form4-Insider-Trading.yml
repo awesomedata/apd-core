@@ -1,0 +1,29 @@
+---
+title: SEC Form 4 Insider Trading (AlphaAI)
+homepage: https://huggingface.co/datasets/mikhailmakeev/sec-form4-insider-trading
+category: Finance
+description: US corporate insider trades parsed from SEC EDGAR Form 4 filings in near-real-time. 20,000+ transaction tranches as filed plus 8,500+ grouped economic events with insider roles, 10b5-1 plan flags, value-weighted prices, and a deterministic 1-10 relevance score. CSV under CC BY 4.0; the live feed is also available via a free REST API and MCP server.
+version:
+keywords: insider trading, SEC, Form 4, EDGAR, stocks, trading, finance, API, MCP
+image:
+temporal: 2026-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://huggingface.co/datasets/mikhailmakeev/sec-form4-insider-trading
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/mikhailmakeev/sec-form4-insider-trading
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AlphaAI
+    web: https://alphai.io
+organization:
+issued_time: 2026-07-29
+sources:
+  - title: SEC EDGAR
+    reference: https://www.sec.gov/
+references:
+  - title: Insider trading statistics (live aggregates from the same data)
+    reference: https://alphai.io/insider-trading-statistics
