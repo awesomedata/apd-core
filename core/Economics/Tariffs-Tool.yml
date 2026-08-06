@@ -1,0 +1,33 @@
+---
+title: Tariffs Tool
+homepage: https://www.tariffstool.com/developers
+category: Economics
+description: Free JSON API for current US import tariff and customs-duty rates by country and product sector, with the full stacking regime (Section 301, Section 232, Section 122 and bilateral ceilings) applied, plus a dated feed of every US tariff-regime change since 2025. No key or signup required; responses are cached and CORS-enabled.
+version: 1.0
+keywords: tariffs, customs duty, import duty, trade, Section 301, Section 232, HTS, international trade, US trade policy
+image:
+temporal: 2025-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://www.tariffstool.com/developers
+language: en
+license:
+publisher:
+  - name: Master Plan
+    web: https://masterplanbookkeeping.com/
+organization:
+  - name: Tariffs Tool
+    web: https://www.tariffstool.com/
+issued_time: 2026.07
+sources:
+  - name: US Tariff Rates by Country (JSON)
+    access_url: https://www.tariffstool.com/api/v1/rates
+  - name: US Tariff Regime Changes (JSON)
+    access_url: https://www.tariffstool.com/api/v1/changes
+references:
+  - title: Developer API Docs
+    reference: https://www.tariffstool.com/developers
