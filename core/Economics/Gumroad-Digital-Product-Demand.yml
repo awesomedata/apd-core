@@ -1,9 +1,9 @@
 ---
-title: Gumroad Digital Product Demand - 1,511 products across 42 categories
+title: Gumroad Digital Product Demand - 1,344 products across 42 categories
 homepage: https://github.com/sujeito-operator/gumroad-market-data
 category: Economics
-description: A measured snapshot of the Gumroad digital-product long tail. 1,511 live listings sampled across 42 product categories in August 2026, each row carrying category, asking price, currency, rating count, subscription flag and product title. Rating count is used as a demand proxy - 33% of sampled listings have no ratings at all, and the share of rated listings ranges from 100% (VRChat avatars, Unity assets) down to 39% (crochet patterns, Excel dashboards). Useful for creator-economy research, digital-goods pricing analysis and long-tail marketplace studies. Full CSV, per-category summary JSON and the collector source are in the repository with no login or paywall.
-version: 1.0
+description: A measured snapshot of the Gumroad digital-product long tail. 1,344 distinct products sampled across 42 product categories in August 2026 (1,509 listing observations; a product can rank for more than one category search), each row carrying category, asking price, currency, rating count, subscription flag and product title. Rating count is used as a demand proxy - 34% of sampled products have no ratings at all and the top 1% hold 33.4% of all 62,134 ratings, and the share of rated listings ranges from 100% (VRChat avatars, Unity assets) down to 39% (crochet patterns, Excel dashboards). Useful for creator-economy research, digital-goods pricing analysis and long-tail marketplace studies. Full CSV, per-category summary JSON and the collector source are in the repository with no login or paywall.
+version: 1.1
 keywords: creator economy, digital products, e-commerce, marketplace, gumroad, pricing, demand, long tail, csv, open data
 image:
 temporal: 2026-08-05 snapshot
