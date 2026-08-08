@@ -22,6 +22,8 @@ publisher:
 organization:
 issued_time: 2026.08
 sources:
+  - name: Citable archive on Zenodo, CC BY 4.0 - concept DOI, always resolves to the current version
+    access_url: https://doi.org/10.5281/zenodo.21854363
   - name: One row per extension (JSONL)
     access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/data/extensions.jsonl
   - name: The same rows as CSV
@@ -33,6 +35,8 @@ sources:
   - name: Collector source
     access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/scripts/crawl.py
 references:
+  - title: Citable archive with a DOI (Zenodo, CC BY 4.0)
+    reference: https://doi.org/10.5281/zenodo.21854363
   - title: Sampling method, and what the dataset cannot tell you
     reference: https://github.com/sujeito-operator/vscode-marketplace-data#method-and-what-it-cannot-tell-you
   - title: Read this before quoting anything - the head bias, stated
