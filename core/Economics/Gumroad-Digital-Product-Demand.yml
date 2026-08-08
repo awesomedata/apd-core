@@ -1,9 +1,9 @@
 ---
-title: Gumroad Digital Product Demand - 8,325 products, 4,545 sellers, 202 with real unit sales
+title: Gumroad Digital Product Demand - 8,325 products, 4,545 sellers, 316 with real unit sales
 homepage: https://github.com/sujeito-operator/gumroad-market-data
 category: Economics
-description: A measured snapshot of the Gumroad digital-product long tail, collected from public listing pages in August 2026 with no login and nothing behind authentication. Four tables. (1) A category walk covering 8,325 distinct products from 4,545 sellers across 261 categories, in 15,077 listing observations. (2) An independent sample of 1,344 products across 42 category searches, kept separate because the two disagree — median paid price $18.03 against $36.99, and that gap is itself the finding about how much a 'typical price' depends on how you looked. (3) A seller table, all 4,545 sellers, with catalogue size, category breadth and rating totals. (4) A unit-sales subsample — of 780 product pages fetched, 202 (25.9%) publish a real sales count, covering 311,164 units — which lets the rating-count demand proxy every study like this relies on be checked against actual sales for once (Spearman 0.851). Rows carry category, asking price, currency, rating count, subscription flag and title; prices are normalised to USD at ECB reference rates with the original price and currency both retained. LIMITS, stated because they change what the file can answer. A seller's product count is what the crawl found three pages deep per category, a lower bound rather than a catalogue; a category's listing count is a crawl depth, not a category size (166 of 261 nodes hit the 71-listing cap); and the sales-per-rating medians are a lower bound, since the 73 listings with sales and no ratings are undefined for the ratio and excluded. Useful for creator-economy research, digital-goods pricing and long-tail marketplace studies. All four CSVs, the summary JSONs and the collector source are in the repository, with no login and no paywall.
-version: 2.3
+description: A measured snapshot of the Gumroad digital-product long tail, collected from public listing pages in August 2026 with no login and nothing behind authentication. Four tables. (1) A category walk covering 8,325 distinct products from 4,545 sellers across 261 categories, in 15,077 listing observations. (2) An independent sample of 1,344 products across 42 category searches, kept separate because the two disagree — median paid price $18.03 against $36.99, and that gap is itself the finding about how much a 'typical price' depends on how you looked. (3) A seller table, all 4,545 sellers, with catalogue size, category breadth and rating totals. (4) A unit-sales subsample — of 1359 product pages fetched, 316 (23.3%) publish a real sales count, covering 450,651 units — which lets the rating-count demand proxy every study like this relies on be checked against actual sales for once (Spearman 0.831). Rows carry category, asking price, currency, rating count, subscription flag and title; prices are normalised to USD at ECB reference rates with the original price and currency both retained. LIMITS, stated because they change what the file can answer. A seller's product count is what the crawl found three pages deep per category, a lower bound rather than a catalogue; a category's listing count is a crawl depth, not a category size (166 of 261 nodes hit the 71-listing cap); and the sales-per-rating medians are a lower bound, since the 87 listings with sales and no ratings are undefined for the ratio and excluded. Useful for creator-economy research, digital-goods pricing and long-tail marketplace studies. All four CSVs, the summary JSONs and the collector source are in the repository, with no login and no paywall.
+version: 2.7
 keywords: creator economy, digital products, e-commerce, marketplace, gumroad, pricing, demand, long tail, unit sales, csv, open data
 image:
 temporal: 2026-08-05 snapshot
@@ -28,7 +28,7 @@ sources:
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-taxonomy.csv
   - name: Seller table (all 4,545 sellers, CSV)
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-sellers.csv
-  - name: Unit-sales subsample (202 listings publishing real sales, CSV)
+  - name: Unit-sales subsample (316 listings publishing real sales, CSV)
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-sales.csv
   - name: Search sample (1,344 products across 42 categories, CSV)
     access_url: https://raw.githubusercontent.com/sujeito-operator/gumroad-market-data/main/data/gumroad-latest.csv
@@ -45,3 +45,4 @@ references:
     reference: https://sujeito-operator.github.io/gumroad-market-data/
   - title: Collector source
     reference: https://github.com/sujeito-operator/gumroad-market-data/blob/main/scripts/collect.py
+
