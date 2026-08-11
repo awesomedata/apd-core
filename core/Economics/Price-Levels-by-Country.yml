@@ -1,0 +1,39 @@
+---
+title: Price Levels by Country
+homepage: https://wandergrade.com/data
+category: Economics
+description: >
+  Price level and purchasing power for 173 countries, computed by dividing the
+  World Bank's PPP conversion factor by the current market exchange rate,
+  updated continuously rather than fixed at PPP publication date. Each row
+  gives price_level (1.00 = same price level as the US) and usd100_buys (local
+  purchasing power of US$100), plus the underlying PPP factor and year, GDP
+  per capita and year, and currency. Countries with a pegged or distorted
+  exchange rate are omitted rather than estimated. Free CSV and JSON download,
+  no signup or key required.
+version: 1.0
+keywords: purchasing power parity, PPP, price level, cost of living, exchange rates, World Bank, currency
+image:
+temporal: 2026 (continuously updated)
+spatial: World (173 countries)
+access_level: public
+copyrights: World Bank inputs CC BY 4.0; derived figures free to reuse with attribution
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://wandergrade.com/data
+language: en
+license: World Bank inputs CC BY 4.0; derived figures free to reuse with attribution
+publisher:
+  - name: WanderGrade
+    web: https://wandergrade.com
+organization:
+  - name: WanderGrade
+    web: https://wandergrade.com
+issued_time: 2026
+sources:
+  - name: World Bank (PPP conversion factor & GDP per capita)
+    access_url: https://data.worldbank.org
+  - name: fxratesapi.com (exchange rates)
+    access_url: https://fxratesapi.com
+references:
