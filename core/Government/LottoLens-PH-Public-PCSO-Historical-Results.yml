@@ -1,0 +1,43 @@
+---
+title: LottoLens PH Public PCSO Historical Results
+homepage: https://remo65588-boop.github.io/lottolens-ph-public-data/
+category: Government
+description: "Independently compiled Philippine Charity Sweepstakes Office draw schedule and historical-results snapshot with 13,457 normalized rows across nine games. Each result row retains its source name and source URL. The package includes field definitions, Frictionless Data metadata, validation notes, citation metadata, and fixed release tags. It is for public-information verification, education, and reproducible analysis, not prediction."
+version: "2.0.1"
+keywords:
+  - Philippines
+  - PCSO
+  - lottery results
+  - draw schedule
+  - open government data
+  - public information
+  - time series
+  - data provenance
+image:
+temporal: 2022-01-02 to 2026-07-20
+spatial: Philippines
+access_level: public
+copyrights: "Original documentation and field definitions are CC BY 4.0; underlying public facts remain subject to their original sources."
+accrual_periodicity: Versioned snapshot
+specification: https://github.com/remo65588-boop/lottolens-ph-public-data/blob/v2.0.1/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/remo65588-boop/lottolens-ph-public-data/blob/v2.0.1/data/field-definitions.csv
+language: en
+license: CC BY 4.0
+publisher:
+  - name: LottoLens PH Editorial
+    web: https://lottolensph.com/research/pcso-results-data-coverage
+organization:
+  - name: LottoLens PH
+    web: https://lottolensph.com/
+issued_time: "2026-08-07"
+sources:
+  - name: Fixed v2.0.1 dataset release
+    access_url: https://github.com/remo65588-boop/lottolens-ph-public-data/tree/v2.0.1
+  - name: Philippine Charity Sweepstakes Office
+    access_url: https://www.pcso.gov.ph/
+references:
+  - title: Coverage and verification methodology
+    reference: https://lottolensph.com/research/pcso-results-data-coverage
+  - title: Citation metadata
+    reference: https://github.com/remo65588-boop/lottolens-ph-public-data/blob/v2.0.1/CITATION.cff
