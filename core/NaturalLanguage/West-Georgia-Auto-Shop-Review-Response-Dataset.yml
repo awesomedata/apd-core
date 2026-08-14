@@ -1,0 +1,10 @@
+---
+title: West Georgia Auto Shop Review-Response Dataset
+homepage: https://doi.org/10.5281/zenodo.21899331
+category: NaturalLanguage
+description: Aggregated, per-shop metrics on how 68 independently owned and chain tire/auto-repair shops across five West Georgia counties (Carroll, Douglas, Paulding, Haralson, Heard) respond to Google reviews. Derived from a corpus of 5,716 Google reviews collected 2026-08-01, it reports per shop total and negative (1-2 star) review counts, star rating, reply rate to all reviews and to negative reviews (each with a 95% confidence interval), and a hand-graded breakdown of the 249 owner replies to negative reviews across four categories - apology, concrete remedy offered, generic/template language, and deflection. County-level benchmarks are included. No verbatim review text, reviewer-identifying information, or owner-reply text is included - derived/aggregate data only.
+keywords: online reviews, review response, customer service, small business, Google reviews, reputation management, auto repair, tire shops, Georgia, local business, text classification
+access_level: public
+license: CC-BY 4.0
+language: en
+issued_time: 2026
