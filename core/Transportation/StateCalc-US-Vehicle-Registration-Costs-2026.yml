@@ -1,9 +1,9 @@
 ---
 title: StateCalc US Vehicle Registration Costs 2026
-homepage: https://github.com/Pixels512/statecalc-open-data/tree/main/data/vehicle-registration-costs/2026-08-15.1
+homepage: https://github.com/Pixels512/statecalc-open-data/tree/main/data/vehicle-registration-costs/2026-08-15.2
 category: Transportation
-description: Versioned source-backed first-year vehicle registration, title, state purchase-tax and other fee data for the same $32,000 passenger car across 48 U.S. states. CSV and JSON include official source URLs and verification dates; two modeled states are excluded.
-version: 2026-08-15.1
+description: Versioned source-backed first-year vehicle registration, title, state purchase-tax and other fee data for the same $32,000 passenger car across 49 U.S. states. CSV and JSON include official source URLs and verification dates; one modeled state is excluded.
+version: 2026-08-15.2
 keywords: vehicle registration,title fees,purchase tax,DMV,United States
 image:
 temporal: 2026
@@ -13,7 +13,7 @@ copyrights:
 accrual_periodicity: irregular
 specification: Frictionless Data Package
 data_quality: true
-data_dictionary: https://github.com/Pixels512/statecalc-open-data/blob/main/data/vehicle-registration-costs/2026-08-15.1/datapackage.json
+data_dictionary: https://github.com/Pixels512/statecalc-open-data/blob/main/data/vehicle-registration-costs/2026-08-15.2/datapackage.json
 language: en
 license: CC-BY-4.0
 publisher:
@@ -23,9 +23,9 @@ organization:
 issued_time: 2026-08-15
 sources:
   - name: CSV distribution
-    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-15.1/vehicle-registration-costs.csv
+    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-15.2/vehicle-registration-costs.csv
   - name: JSON distribution
-    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-15.1/vehicle-registration-costs.json
+    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-15.2/vehicle-registration-costs.json
 references:
   - title: Methodology, provenance and citation
     reference: https://github.com/Pixels512/statecalc-open-data/blob/main/README.md
