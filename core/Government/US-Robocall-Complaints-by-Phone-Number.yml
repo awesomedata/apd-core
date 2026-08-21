@@ -1,0 +1,31 @@
+---
+title: US Robocall Complaints by Phone Number
+homepage: https://github.com/usacallerlookup/ftc-robocall-dataset
+category: Government
+description: "US Federal Trade Commission Do Not Call complaint filings aggregated into one row per phone number: complaint count, robocall share, first and last complaint dates, number of states reporting, FTC subject category, plus the carrier and rate-center location of each number joined from the NANPA prefix registry. 186,000+ numbers and 213,000+ complaint records covering 2016 to present, refreshed monthly. Directly downloadable CSV, no login. Also mirrored on Kaggle and archived on Zenodo (DOI 10.5281/zenodo.21994641)."
+version: 1.0
+keywords: robocalls, spam calls, FTC, Do Not Call, consumer complaints, phone numbers, united states
+image:
+temporal: 2016 to present
+spatial: United States
+access_level: public
+copyrights: US public domain (work of the US federal government); aggregation dedicated to the public domain under CC0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/usacallerlookup/ftc-robocall-dataset#schema
+language: en
+license: CC0
+publisher:
+  - name: USACallerLookup
+    web: https://www.usacallerlookup.com/data-sources/
+organization:
+  - name: Federal Trade Commission (source data)
+    web: https://www.ftc.gov/
+issued_time: 2026.08
+sources:
+  - name: FTC Do Not Call complaint files
+    access_url: https://www.ftc.gov/policy-notices/open-government/data-sets/do-not-call-data
+references:
+  - title:
+    reference:
