@@ -1,0 +1,33 @@
+---
+title: European Low Emission Zones
+homepage: https://github.com/f4tihwin57/europe-emission-zones
+category: Transportation
+description: Continuously verified dataset of 596 European low-emission zone records (LEZ/ULEZ/ZTL/Umweltzone/Crit'Air ZFE/ZBE) across 30 countries, 459 in force. Every record carries its official government source URL, minimum Euro standards for petrol and diesel, sticker requirement, fine, operating hours and a verification date.
+version: 1.0
+keywords: Europe, Low Emission Zone, LEZ, ULEZ, Air Quality, Transportation
+image:
+temporal: 2008-2026
+spatial: Europe
+access_level: public
+copyrights:
+accrual_periodicity: weekly verification cycle
+specification: https://tyremap.com/data/README.md
+data_quality: https://tyremap.com/methodology/
+data_dictionary: https://tyremap.com/data/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TyreMap
+    web: https://tyremap.com
+organization:
+  - name: TyreMap
+    web: https://tyremap.com
+issued_time: 2026.02
+sources:
+  - name: lez-zones.csv (primary)
+    access_url: https://tyremap.com/data/lez-zones.csv
+  - name: GeoJSON boundaries
+    access_url: https://tyremap.com/data/lez-boundaries.geojson
+references:
+  - title: State of Europe's Emission Zones 2026
+    reference: https://tyremap.com/guides/europe-emission-zones-report-2026/
