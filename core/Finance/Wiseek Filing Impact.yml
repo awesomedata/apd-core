@@ -1,0 +1,30 @@
+---
+title: Wiseek Filing Impact
+homepage: https://wiseek.ai/datasets/
+category: Finance
+description: Monthly statistics on how SEC filings move US stocks. Importance scores (1-10) assigned in real time before the market reacts, versus measured next-session excess price moves, split by filing type, sentiment and market cap. Includes a per-event archive (ticker, company, form, score, outcome) and a written reproduction recipe; every aggregate cell reproduces from the public files. CC BY 4.0, DOI 10.5281/zenodo.22047734.
+version: 1.0
+keywords: sec, filings, event study, stock market, market reaction, 8-K, disclosure
+image:
+temporal: 2026-07-24 onward, monthly
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/WiseekAI/wiseek-datasets#files-per-release-datarelease
+language: en
+publisher:
+  - name: Wiseek
+    web: https://wiseek.ai
+organization:
+  - name: Wiseek
+    web: https://wiseek.ai
+sources:
+  - name: Wiseek Datasets
+    access_url: https://wiseek.ai/datasets/
+  - name: GitHub mirror
+    access_url: https://github.com/WiseekAI/wiseek-datasets
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.22047734
