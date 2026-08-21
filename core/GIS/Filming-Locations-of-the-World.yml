@@ -1,0 +1,31 @@
+---
+title: Filming Locations of the World
+homepage: https://thefilmmap.com/data/
+category: GIS
+description: 15,272 real filming locations across 161 countries, joined to the 12,762 films, series, video games, anime and manga recorded at them. Per place, name, kind, country, coordinates, fame rank and production counts; per production, kind, years, the places attached to it and what each claim was read from. Films and series are placed by filming location (P915); games, anime and manga are filmed nowhere and are placed by narrative location (P840), and every row carries which relation it is. Built from Wikidata. Direct GeoJSON and CSV downloads, no login required.
+version: 1.0
+keywords: film, television, video games, anime, filming locations, cinema, geojson, wikidata
+image:
+temporal:
+spatial: worldwide (161 countries)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0 1.0
+publisher:
+  - name: FilmMap
+    web: https://thefilmmap.com
+organization:
+  - name:
+    web:
+issued_time: 2026.08
+sources:
+  - name: Wikidata
+    access_url: https://www.wikidata.org
+references:
+  - title: Dataset repository on GitHub
+    reference: https://github.com/Flightmussy/filmmap-dataset
