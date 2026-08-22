@@ -1,0 +1,47 @@
+---
+title: ByKaranteli Crypto Derivatives Datasets - Funding, Open Interest, Liquidations, Options, ETF Flows and CFTC COT
+homepage: https://github.com/bykarantelicom/crypto-datasets
+category: Finance
+description: >-
+  Plain CSV and JSON datasets on cryptocurrency derivatives and market structure,
+  published in a public Git repository and refreshed daily by an automated export.
+  They cover weekly CFTC Commitments of Traders positioning for CME Bitcoin, Micro
+  Bitcoin, Ether and Micro Ether futures since 2018-04; daily Coinbase spot premium
+  (US close vs global close) for BTC and ETH since 2017-08; daily Deribit DVOL
+  implied volatility for BTC and ETH since 2021-03; daily US spot Bitcoin and Ether
+  ETF net inflow, net assets, cumulative inflow and value traded since 2025-05;
+  daily long and short liquidation totals per symbol and exchange recorded from the
+  public Binance, Bybit and OKX streams since 2026-07-30; a same-day Deribit BTC and
+  ETH options open-interest chain with instrument, expiry, strike, type, open
+  interest, mark IV and underlying price; a perpetual listing and delisting tracker
+  across six exchanges (Binance, OKX, Bybit, Gate, HTX, BingX); and daily market
+  aggregates (BTC and ETH dominance, total market cap, 24h volume, stablecoin cap,
+  Fear and Greed) plus per-symbol daily funding rate, 24h open-interest change and
+  24h price change for Binance USDT-M perpetuals. Every file downloads directly from
+  the repository with no login, no API key and no rate limit. Missing days are left
+  as gaps rather than interpolated.
+version:
+keywords: cryptocurrency, derivatives, perpetual futures, funding rate, open interest, liquidations, options, implied volatility, ETF flows, CFTC commitments of traders, market microstructure, csv, cc0
+image:
+temporal: 2017-08 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/bykarantelicom/crypto-datasets#datasets
+data_quality: false
+data_dictionary: https://github.com/bykarantelicom/crypto-datasets#datasets
+language: en
+license: CC0-1.0
+publisher:
+  - name: ByKaranteli
+    web: https://bykaranteli.com
+organization:
+  - name: ByKaranteli
+    web: https://bykaranteli.com
+issued_time: 2026.07
+sources:
+  - name: GitHub repository (CSV and JSON files)
+    access_url: https://github.com/bykarantelicom/crypto-datasets/tree/main/data
+  - name: ByKaranteli data hub
+    access_url: https://bykaranteli.com/data
