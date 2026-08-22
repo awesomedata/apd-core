@@ -1,0 +1,22 @@
+---
+title: Visa Requirements Dataset
+homepage: https://github.com/maxix7/visa-requirements-dataset
+category: Transportation
+description: Short-stay tourist entry requirements for all 38,612 passport-destination pairs (197 passports, 197 destinations), normalised into six values - visa free, visa on arrival, electronic travel authorisation, e-visa, visa required, no admission - with the permitted stay in days where the destination publishes one. Corrections carry a primary government source and the date a human last re-read it.
+version: 2026-08-06.1
+keywords: visa, passport, immigration, travel, border, entry requirements
+image:
+temporal: 2026-02-17/2026-08-03
+spatial: World
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/maxix7/visa-requirements-dataset/blob/main/data/datapackage.json
+data_quality: false
+data_dictionary: https://github.com/maxix7/visa-requirements-dataset/blob/main/data/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher: VisaChecker
+organization: VisaChecker
+issued_time: 2026-08-06
+sources: []
