@@ -1,0 +1,33 @@
+---
+title: 'Anti-Bot Adoption Index: WAF/anti-bot census of the top 1M domains'
+homepage: https://crawlora.net/anti-bot-index
+category: ComputerNetworks
+description: An anti-bot and WAF adoption census of the Tranco top 1,000,000 domains, probed for managed bot-management, CAPTCHA, WAF, and access-control vendors. Finds 53.5% of the 818,614 reachable domains run a managed anti-bot/WAF vendor, with Cloudflare alone covering 45%, and breaks down adoption by vendor, protection kind, CAPTCHA presence, and rank gradient.
+version: 1.0.0
+keywords: anti-bot, waf, bot management, captcha, cloudflare, web scraping, internet measurement, tranco
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/Crawlora-org/anti-bot-adoption-index-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Dataset repository (top1m.jsonl.gz, ~1M rows)
+  access_url: https://github.com/Crawlora-org/anti-bot-adoption-index-data
+- name: Interactive study page
+  access_url: https://crawlora.net/anti-bot-index
+references:
+- title: Methodology
+  reference: https://crawlora.net/anti-bot-index/methodology
