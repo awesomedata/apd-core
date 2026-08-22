@@ -1,0 +1,43 @@
+---
+title: US Military Pay & Allowances (BAH, Basic Pay, COLA)
+homepage: https://github.com/mixseomin/military-pay-data
+category: Government
+description: >
+  Pay and allowance data for the US Armed Forces, parsed from official
+  government sources into JSON and CSV. Includes Basic Allowance for Housing
+  (BAH) rates for 338 Military Housing Areas across 27 paygrades and four years
+  (2023-2026, with and without dependents; 36,531 rows), 2026 active-duty basic
+  pay, CONUS COLA factors, combat and special pay, and General Schedule (GS)
+  civilian tables. All figures are US Government public-domain data.
+version: 2026
+keywords: military, bah, basic allowance for housing, defense, pay, dfas, cola, allowances, veterans, United States
+image:
+temporal: 2023-2026
+spatial: United States
+access_level: public
+copyrights: US Government public domain (17 U.S.C. 105)
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/mixseomin/military-pay-data#bah-csv-schema
+language: en
+license: Public Domain (US Government work)
+publisher:
+  - name: militarycalc.com
+    web: https://militarycalc.com
+organization:
+  - name: US Department of Defense (source data)
+    web: https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/
+issued_time: 2026
+sources:
+  - name: DoD Defense Travel Management Office (BAH ASCII rate files)
+    access_url: https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/BAH-Rate-Lookup/
+  - name: DFAS Active Duty Pay Tables
+    access_url: https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/
+references:
+  - title: BAH rates CSV (2023-2026)
+    reference: https://raw.githubusercontent.com/mixseomin/military-pay-data/main/csv/bah-rates-2023-2026.csv
+  - title: Basic pay CSV (2026)
+    reference: https://raw.githubusercontent.com/mixseomin/military-pay-data/main/csv/basic-pay-2026.csv
+  - title: BAH JSON
+    reference: https://raw.githubusercontent.com/mixseomin/military-pay-data/main/data/bah.json
