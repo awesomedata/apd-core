@@ -1,0 +1,22 @@
+---
+title: eSIM Price Index
+homepage: https://www.simsima.io/en/esim-price-index/data
+category: Economics
+description: Daily observed retail prices for travel eSIM data plans, covering roughly 18,750 plans from 17 resellers across 239 countries and territories. For each country and day the dataset reports the median and minimum price per gigabyte in USD, the number of plans and the number of resellers observed, and a flag indicating whether the sample was large enough to publish a median (at least 5 plans from 3 providers). A separate provider-level series gives each reseller's median price per gigabyte over time, and a plan-level event log records every observed price change rather than daily snapshots. Regional and global bundles are subtracted from country figures, unlimited plans are flagged, and marketing bundles above 200 GB are excluded from the aggregates. Useful for studying retail price dispersion in a market with no published rate card, the relationship between competitive density and consumer price, and price volatility in mobile data resale.
+version: 1.0
+keywords: eSIM, mobile data, roaming, telecommunications, price index, retail prices, price dispersion, travel, time series
+temporal: daily since 2026-07-02, ongoing
+spatial: 239 countries and territories
+access_level: public
+accrual_periodicity: daily
+data_quality: true
+data_dictionary: https://www.simsima.io/en/esim-price-index/methodology
+language: en
+license: CC BY 4.0
+sources:
+  - name: CSV export
+    access_url: https://api.simsima.io/api/price-index/export.csv
+  - name: JSON export
+    access_url: https://api.simsima.io/api/price-index/export.json
+  - name: Methodology
+    access_url: https://www.simsima.io/en/esim-price-index/methodology
