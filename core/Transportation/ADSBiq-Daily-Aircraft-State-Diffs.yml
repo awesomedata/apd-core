@@ -1,0 +1,29 @@
+---
+title: ADSBiq Daily Aircraft State Diffs
+homepage: https://adsbiq.com/data?utm_source=awesome-public-datasets&utm_medium=directory&utm_campaign=developer_ecosystem&utm_content=parquet
+category: Transportation
+description: Free daily worldwide ADS-B aircraft state-diff exports from a community receiver network. Monthly GitHub releases contain one zstd-compressed Parquet file per UTC day, with row counts, SHA-256 checksums, schema documentation and no account requirement.
+version: 1
+keywords: ADS-B,aircraft,aviation,geospatial,time series,Parquet,open data
+image:
+temporal: 2026-present
+spatial: Worldwide; receiver-contributed coverage varies by geography and time
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://adsbiq.com/api/other/parquet
+data_quality: true
+data_dictionary: https://adsbiq.com/data
+language: en
+license: ODbL-1.0
+publisher: Sky Power Services LLC
+organization:
+  - name: ADSBiq
+    web: https://adsbiq.com/
+issued_time: 2026-08-22
+sources:
+  - name: ADSBiq data releases
+    access_url: https://github.com/Sky-Power-Services/adsbiq-data/releases
+references:
+  - title: Memory-safe DuckDB coverage analysis notebook
+    reference: https://github.com/Sky-Power-Services/adsbiq-api-demo/blob/main/examples/coverage_gap_analysis.ipynb
