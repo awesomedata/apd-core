@@ -1,0 +1,31 @@
+---
+title: HEST Xenium virtual spatial transcriptomics
+homepage: https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics
+category: Biology
+description: Multimodal virtual single-cell spatial transcriptomics from DeepSpot-M on all 59 HEST-1k Xenium samples (H&E + expression + spatial coords + gene names). ~13.3M cells across 22 tissue types, transcriptome-wide. Gated on Hugging Face (CC-BY-NC-SA-4.0). Paper https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1 ; code https://github.com/ratschlab/DeepSpotM
+version:
+keywords: spatial transcriptomics, single-cell, histopathology, multimodal, Xenium, HEST, deep learning
+image:
+temporal:
+spatial:
+access_level: gated
+copyrights: https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license: CC-BY-NC-SA-4.0
+publisher:
+  - name: ratschlab
+    web: https://github.com/ratschlab
+organization:
+  - name: Ratschlab
+    web: https://www.ratschlab.org/
+issued_time: 2026
+sources:
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics
+references:
+  - title: "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology"
+    reference: https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1
