@@ -1,0 +1,19 @@
+---
+title: NAS Drive Data
+homepage: https://github.com/deeddy/nas-drive-data
+category: TimeSeries
+description: Open dataset of NAS hard drives combining full manufacturer specs, verified CMR vs SMR recording technology, and real-world annualized failure rates (AFR) derived from Backblaze quarterly drive-stats reports. Covers 100+ drive models in JSON and CSV, with dated snapshots and a Frictionless datapackage.
+version: 1.0
+keywords: hard drives, NAS, storage reliability, annualized failure rate, AFR, Backblaze, CMR, SMR, hardware.
+access_level: public
+accrual_periodicity: quarterly
+data_dictionary: https://github.com/deeddy/nas-drive-data/blob/main/datapackage.json
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: deeddy
+    web: https://github.com/deeddy/nas-drive-data
+issued_time: 2026.07
+sources:
+  - name: Backblaze Drive Stats
+    access_url: https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data
