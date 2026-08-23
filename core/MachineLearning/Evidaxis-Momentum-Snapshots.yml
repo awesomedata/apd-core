@@ -11,7 +11,7 @@ description: Weekly, hash-pinned point-in-time measurements of rising open-sourc
 version: 1.0
 keywords: open-source AI, momentum, longitudinal, time series, scientometrics
 image:
-temporal: 2026-06-27/2026-07-11
+temporal: 2026-06-27/..
 spatial:
 access_level: public
 copyrights:
