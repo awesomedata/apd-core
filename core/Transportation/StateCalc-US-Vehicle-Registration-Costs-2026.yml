@@ -1,0 +1,31 @@
+---
+title: StateCalc US Vehicle Registration Costs 2026
+homepage: https://github.com/Pixels512/statecalc-open-data/tree/main/data/vehicle-registration-costs/2026-08-16.1
+category: Transportation
+description: Versioned source-backed first-year vehicle registration, title, state purchase-tax and other fee data for the same $32,000 passenger car across 49 U.S. states. CSV and JSON include official source URLs and verification dates; one modeled state is excluded.
+version: 2026-08-16.1
+keywords: vehicle registration,title fees,purchase tax,DMV,United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: Frictionless Data Package
+data_quality: true
+data_dictionary: https://github.com/Pixels512/statecalc-open-data/blob/main/data/vehicle-registration-costs/2026-08-16.1/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StateCalc
+    web: https://github.com/Pixels512/statecalc-open-data
+organization:
+issued_time: 2026-08-16
+sources:
+  - name: CSV distribution
+    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-16.1/vehicle-registration-costs.csv
+  - name: JSON distribution
+    access_url: https://raw.githubusercontent.com/Pixels512/statecalc-open-data/main/data/vehicle-registration-costs/2026-08-16.1/vehicle-registration-costs.json
+references:
+  - title: Methodology, provenance and citation
+    reference: https://github.com/Pixels512/statecalc-open-data/blob/main/README.md
