@@ -1,0 +1,30 @@
+title: US Sex Offender Registry Statistics
+homepage: https://offendersearch.app/data
+category: SocialSciences
+description: Aggregate statistics on registered sex offenders in the United States, compiled from all 58 US registries (every state, DC and the territories) into one normalized index. Free CSV downloads of counts by state and by city with per-1,000-resident rates, plus per-state and per-capita rankings and national housing-status estimates. A companion REST API returns scored, de-duplicated person-level records with a link to the official registry entry behind each match.
+version: 2026.08
+keywords: sex offender, registry, public records, background check, United States, per capita, statistics, safety, criminal, screening
+image:
+temporal: 2026
+spatial: United States (all 50 states, DC, territories)
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: CSV downloads + JSON REST API
+data_quality: true
+data_dictionary: https://offendersearch.app/data
+language: en-US
+license: Free for research and reporting with attribution
+publisher:
+  - name: Offendersearch
+    web: https://offendersearch.app
+organization:
+  - name: Offendersearch
+    web: https://offendersearch.app/about
+issued_time: 2026.08
+sources:
+  - name: Offendersearch statistics
+    access_url: https://offendersearch.app/sex-offender-statistics
+references:
+  - title: Offendersearch — US Sex Offender Statistics
+    reference: https://offendersearch.app/sex-offender-statistics
