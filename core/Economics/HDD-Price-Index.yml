@@ -12,7 +12,6 @@ description: An open dataset tracking the cheapest new internal 3.5" SATA hard-d
   underlying listings.
 version: 1.0
 keywords: hard drive, HDD, storage, pricing, price index, price per terabyte, cost per TB, time series, Amazon
-image:
 temporal: 2026-present
 spatial: US (Amazon.com)
 access_level: public
