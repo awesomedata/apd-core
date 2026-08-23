@@ -1,0 +1,37 @@
+---
+title: ZnajdzNajem Polish Rental Price Index
+homepage: https://znajdznajem.pl/raporty
+category: Economics
+description: Open dataset of long-term residential rental market statistics for Poland, aggregated from 120,000+ active listings across 30+ Polish cities. Per city it provides the active offer count, average and median monthly rent (PLN), average price per square meter, and average apartment area. Data is exposed as a live CSV/JSON API refreshed continuously, weekly snapshots archived on GitHub, and monthly index reports. Methodology (deduplication, outlier filtering, city normalization) is published openly. All data is CC BY 4.0.
+version: 1.0
+keywords: rental prices, housing, real estate, Poland, price index, rent, cities, economics
+image:
+temporal: 2026-present
+spatial: Poland
+access_level: public
+copyrights: ZnajdzNajem, CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://znajdznajem.pl/metodologia
+language: pl
+license: CC BY 4.0
+publisher:
+  - name: ZnajdzNajem
+    web: https://znajdznajem.pl
+organization:
+  - name: ZnajdzNajem
+    web: https://znajdznajem.pl
+issued_time: 2026.04
+sources:
+  - name: Live national report (CSV)
+    access_url: https://znajdznajem.pl/api/v1/stats/report.csv
+  - name: Live national report (JSON)
+    access_url: https://znajdznajem.pl/api/v1/stats/report
+  - name: Weekly snapshot archive (GitHub, CSV/JSON)
+    access_url: https://github.com/Maciek-roboblog/znajdznajem-open-data
+references:
+  - title: Methodology
+    reference: https://znajdznajem.pl/metodologia
+  - title: Monthly reports landing page
+    reference: https://znajdznajem.pl/raporty
