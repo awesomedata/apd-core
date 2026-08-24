@@ -1,0 +1,33 @@
+---
+title: State of ATS 2026
+homepage: https://github.com/Kayvan-Zahiri/state-of-ats-2026
+category: Economics
+description: Hand-verified open dataset of which Applicant Tracking System (ATS) each of the 743 largest employers uses, covering the Fortune 500, Global 2000, and Series-C+ private companies valued at $1B or more. Useful for job seekers tailoring resumes per ATS family, HR and recruiting researchers, and anyone studying enterprise SaaS market share. Distributed as a raw CSV and as an npm package (@withresumeai/ats-data).
+version: 1.0
+keywords: applicant tracking system, ATS, recruiting, HR tech, enterprise SaaS, market share, Fortune 500, Global 2000, employment, labor market, hiring
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: MIT License
+accrual_periodicity: annually
+specification:
+data_quality: true
+data_dictionary: https://github.com/Kayvan-Zahiri/state-of-ats-2026#schema
+language: en
+license: MIT
+publisher:
+  - name: ResumeAI
+    web: https://withresumeai.com
+organization:
+  - name: ResumeAI
+    web: https://withresumeai.com
+issued_time: 2026.06
+sources:
+  - name: State of ATS 2026 (CSV)
+    access_url: https://raw.githubusercontent.com/Kayvan-Zahiri/state-of-ats-2026/main/data/companies.csv
+  - name: "@withresumeai/ats-data (npm package)"
+    access_url: https://www.npmjs.com/package/@withresumeai/ats-data
+references:
+  - title: State of ATS 2026 - dataset repository
+    reference: https://github.com/Kayvan-Zahiri/state-of-ats-2026

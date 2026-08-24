@@ -1,0 +1,32 @@
+---
+title: USDA NASS County Crop Yields
+homepage: https://productofamerica.github.io/usda-county-yields/
+category: Agriculture
+description: "Free static JSON API serving USDA NASS county-level annual yields for corn, soybeans, and wheat in the United States. Refreshed weekly from the NASS bulk file. Sharded by (state, county, crop) so a single point lookup downloads 2-22 KB instead of a multi-megabyte state shard. The producer pre-marks the canonical series per crop so consumer code is a one-liner. No API key, no rate limits, no auth. Hosted on the jsDelivr CDN. JSON Schema 2020-12 contract published alongside the data."
+version: 1.0
+keywords: USDA, NASS, agriculture, crop yields, corn, soybeans, wheat, county-level, public domain, JSON, API, jsDelivr, agricultural data, ag-tech
+temporal: 1910-present
+spatial: United States, county-level (3000+ counties, 42 states)
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json
+data_quality: true
+data_dictionary:
+language: en
+license: Creative Commons Zero (CC0, public domain) for data; MIT for cache code
+publisher:
+  - name: ProductOfAmerica
+    web: https://github.com/ProductOfAmerica/usda-county-yields
+organization:
+  - name: USDA National Agricultural Statistics Service
+    web: https://www.nass.usda.gov/
+issued_time: 2026.04
+sources:
+  - name: USDA NASS Quick Stats bulk file
+    access_url: https://www.nass.usda.gov/datasets/
+references:
+  - title: Repository
+    reference: https://github.com/ProductOfAmerica/usda-county-yields
+  - title: JSON Schema (point leaf)
+    reference: https://cdn.jsdelivr.net/gh/ProductOfAmerica/usda-county-yields@main/data/_schema/leaf.json

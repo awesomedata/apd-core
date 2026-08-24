@@ -1,0 +1,25 @@
+title: trove
+homepage: https://troveproject.com
+category: Healthcare
+description: "Reference tools for two underused public-domain U.S. healthcare datasets. (1) FDA novel drug approvals 2021–2024 (218 drugs across CDER NMEs/BLAs and CBER cell/gene therapies) with deep links to the FDA approval package — medical, statistical, pharmacology, and chemistry reviews. (2) U.S. nonprofit hospital reporting — CMS Medicare Cost Reports (HCRIS Worksheet S-10) and IRS Form 990 Schedule H side-by-side for 1,295 nonprofit hospital systems, with home-county CDC Social Vulnerability Index context. Published as Parquet + JSON + CSV bundles, plus two Claude Code skills for natural-language query."
+version:
+keywords: "FDA, drug approvals, NME, NDA, BLA, CMS, HCRIS, Medicare Cost Report, IRS, 990, Schedule H, nonprofit hospitals, charity care, community benefit, social vulnerability index, Claude Code skills"
+image:
+temporal: 2021-2024 (FDA), TY2022/FY2023 (hospitals)
+spatial: US
+access_level: Public
+copyrights:
+accrual_periodicity: as released
+specification:
+data_quality: true
+data_dictionary: https://github.com/cbetz/trove
+language: English
+license: https://opensource.org/licenses/MIT
+publisher: Chris Betz / trove
+organization: trove
+issued_time: 2026-05
+sources:
+  - https://www.fda.gov/drugs/development-approval-process-drugs/novel-drug-approvals-fda
+  - https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products
+  - https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports
+  - https://www.irs.gov/charities-non-profits/form-990-series-downloads

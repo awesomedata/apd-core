@@ -1,0 +1,22 @@
+---
+title: Rope Drop News Theme Park Data
+homepage: https://ropedropnews.com/developers
+category: Entertainment
+description: First-party live wait times, ride reliability, crowd levels, and Lightning Lane prices for Walt Disney World, Disneyland, and Universal Epic Universe, as open JSON feeds and downloadable CC BY 4.0 CSV datasets.
+version:
+keywords: theme parks, Disney, Universal, wait times, ride reliability, crowds
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity: hourly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: Rope Drop News
+organization:
+issued_time:
+sources: []

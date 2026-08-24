@@ -1,8 +1,8 @@
 ---
 title: UN Commodity Trade Statistics
-homepage: https://comtrade.un.org/data/
+homepage: https://comtradeplus.un.org/
 category: Economics
-description:
+description: The United Nations Comtrade database aggregates detailed global annual and monthly trade statistics by product and trading partner for use by governments, academia, research institutes, and enterprises. Data compiled by the United Nations Statistics Division covers approximately 200 countries and represents more than 99% of the world's merchandise trade.
 version:
 keywords:
 image:
@@ -17,6 +17,6 @@ data_dictionary:
 language:
 license:
 publisher:
-organization:
+organization: United Nations
 issued_time:
 sources: []

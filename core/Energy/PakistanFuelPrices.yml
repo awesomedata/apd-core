@@ -1,0 +1,31 @@
+---
+title: Pakistan Fuel Prices
+homepage: https://github.com/quantanow/pakistan-fuel-prices
+category: Energy
+description: Retail fuel prices for Pakistan as notified by the Oil and Gas Regulatory Authority (OGRA), parsed from the official price notification PDFs. Covers motor spirit (petrol 92 RON), high speed diesel, superior kerosene oil and LPG in JSON and CSV, with the OGRA document id on every record so any price traces back to the notification it came from. The series do not share a start date - kerosene reaches back to 2015, LPG to 2022, petrol and diesel cover recent notifications only.
+version:
+keywords: fuel prices, petrol, diesel, kerosene, LPG, Pakistan, OGRA, energy prices, retail prices
+image:
+temporal: 2015-07-01/ongoing
+spatial: Pakistan
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://oilprices.pk/fuel-price-api-pakistan
+language: en
+license: CC BY 4.0
+publisher:
+  - name: OilPrices.pk
+    web: https://oilprices.pk
+organization:
+  - name: Oil and Gas Regulatory Authority (OGRA)
+    web: https://www.ogra.org.pk
+issued_time: 2026.08
+sources:
+  - name: Pakistan Fuel Prices dataset (JSON and CSV)
+    access_url: https://github.com/quantanow/pakistan-fuel-prices
+references:
+  - title: OGRA price notifications
+    reference: https://www.ogra.org.pk

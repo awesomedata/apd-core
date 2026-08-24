@@ -1,0 +1,24 @@
+---
+title: Banned Books — Open Censorship Core
+homepage: https://www.banned-books.org/dataset
+category: SocialSciences
+description: Open dataset documenting book bans and challenges worldwide, with a source citation for every ban. Covers books, countries, years, reasons and authors. Permanent DOI on Zenodo.
+version:
+keywords: censorship, banned books, book bans, freedom to read
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: banned-books.org
+organization:
+issued_time: 2026.06
+sources:
+  - name: Banned Books — Open Censorship Core (Zenodo)
+    access_url: https://doi.org/10.5281/zenodo.20511553

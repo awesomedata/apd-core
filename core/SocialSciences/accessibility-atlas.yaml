@@ -1,0 +1,10 @@
+---
+title: Accessibility Atlas
+homepage: https://github.com/lukeslp/accessibility-atlas
+category: SocialSciences
+description: 62 datasets on disability in the US and globally — demographics, employment, web accessibility compliance, assistive technology usage, healthcare, housing, and transportation. Sources span Census Bureau, BLS, WHO, OECD, World Bank, CDC, and more. Includes 10 Jupyter notebooks.
+keywords: disability, accessibility, demographics, WCAG, assistive technology, healthcare
+access_level: public
+license: MIT
+language: en
+issued_time: 2025

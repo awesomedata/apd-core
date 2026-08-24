@@ -1,0 +1,22 @@
+---
+title: BrightKey University & International School Ratings
+homepage: https://brightkey.co/en/rankings/dataset
+category: Education
+description: An open, independent dataset rating ~299 universities and ~184 international schools across six dimensions (network strength, curriculum relevance, employability, teaching quality, institutional health, student experience). Each record includes country, founding year, enrolment, international-student share, accepted qualifications (IB/A-Level/AP), and a tier (S–D) plus rationale per dimension. No payments are taken from rated institutions. Mirrored on Hugging Face, Kaggle, and Zenodo (DOI 10.5281/zenodo.20603841).
+version: 2026
+keywords: universities, international schools, education, rankings, study abroad, higher education
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/brightkey/uni-rankings-2026
+language: English
+license: CC-BY-4.0
+publisher: BrightKey
+organization:
+issued_time: 2026-06-27
+sources: []

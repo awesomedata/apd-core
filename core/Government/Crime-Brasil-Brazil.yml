@@ -1,0 +1,39 @@
+---
+title: Crime Brasil
+homepage: https://crimebrasil.com.br
+category: Government
+description: Open-data platform consolidating and geocoding criminal incidents from Brazilian state police (SSP) sources. Neighborhood-level coverage in Rio Grande do Sul (~3M incidents, 2022-2025, 99.99% geocoded to 79,024 neighborhoods across 497 municipalities), municipality-level data for Minas Gerais and Rio de Janeiro, national federal-highway accidents (PRF DATATRAN), and nationwide interpersonal-violence data (DATASUS SINAN). Free REST API and CSV/Parquet exports.
+version: 2026.04
+keywords: crime, public safety, police, Brazil, geocoding, neighborhood, municipality, open government data, SSP, PRF, DATASUS, feminicide, violence
+image:
+temporal: 2009-2025
+spatial: Brazil (RS, MG, RJ, all states via PRF/DATASUS)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: JSON REST API + CSV/Parquet downloads
+data_quality: true
+data_dictionary: https://crimebrasil.com.br/api/data-sources
+language: pt-BR
+license: CC BY 4.0
+publisher:
+  - name: Crime Brasil
+    web: https://crimebrasil.com.br
+organization:
+  - name: Crime Brasil
+    web: https://crimebrasil.com.br/imprensa
+issued_time: 2025.06
+sources:
+  - name: SSP Rio Grande do Sul
+    access_url: https://www.ssp.rs.gov.br/dados-abertos
+  - name: ISP Rio de Janeiro
+    access_url: https://www.ispdados.rj.gov.br/
+  - name: SEJUSP Minas Gerais
+    access_url: https://www.seguranca.mg.gov.br/
+  - name: PRF DATATRAN
+    access_url: https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos
+  - name: DATASUS SINAN
+    access_url: https://datasus.saude.gov.br/
+references:
+  - title: Crime Brasil — Imprensa
+    reference: https://crimebrasil.com.br/imprensa

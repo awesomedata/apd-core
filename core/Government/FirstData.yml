@@ -1,0 +1,31 @@
+---
+title: FirstData - Global Authoritative Data Source Knowledge Base
+homepage: https://github.com/MLT-OSS/FirstData
+category: Government
+description: The world's most comprehensive, authoritative, and structured open data source knowledge base. Contains 156+ curated primary sources covering government, international organizations, research institutions, and more across 50+ domains. Features an MCP (Model Context Protocol) server for AI-powered smart search. Ideal for fact-checking, market research, policy analysis, and combating AI hallucinations.
+version: 1.0
+keywords: open data, government data, authoritative sources, fact-checking, AI, MCP, primary sources, international organizations, data catalog
+image:
+temporal:
+spatial: Global (67 global, 69 national, 20 regional sources)
+access_level: public
+copyrights:
+accrual_periodicity: continuously updated
+specification: JSON schema with structured metadata
+data_quality: true
+data_dictionary: https://github.com/MLT-OSS/FirstData/blob/main/firstdata/schemas/datasource-schema.json
+language: en, zh
+license: MIT
+publisher:
+  - name: Mininglamp Technology
+    web: https://www.mininglamp.com
+organization:
+  - name: MLT-OSS (Mininglamp Open Source)
+    web: https://github.com/MLT-OSS
+issued_time: 2026.01
+sources:
+  - name: FirstData MCP Server
+    access_url: https://firstdata.deepminer.com.cn/mcp
+references:
+  - title: FirstData Documentation
+    reference: https://github.com/MLT-OSS/FirstData/blob/main/README.en.md

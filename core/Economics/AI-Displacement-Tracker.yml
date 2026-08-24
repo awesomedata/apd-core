@@ -1,0 +1,31 @@
+---
+title: AI Displacement Tracker
+homepage: https://github.com/noahaust2/ai-displacement-tracker
+category: Economics
+description: A structured dataset tracking 109 documented cases of AI-driven workforce displacement across 15 countries, affecting 486,525+ workers. Each event includes company name, date, workers affected, country, sector, job functions, attribution tier (confirmed/probable), evidence summary with executive quotes, and source URLs. Available in JSON, CSV, and summary formats.
+version: 1.0
+keywords: artificial intelligence, labor economics, workforce displacement, layoffs, automation, AI impact
+image:
+temporal: 2023-2026
+spatial:
+access_level: public
+copyrights: MIT License
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: MIT
+publisher:
+  - name: noahaust2
+    web: https://github.com/noahaust2
+organization:
+  - name:
+    web:
+issued_time: 2026.02
+sources:
+  - name: AI Displacement Tracker
+    access_url: https://github.com/noahaust2/ai-displacement-tracker
+references:
+  - title: AI-Driven Workforce Displacement Dataset
+    reference: https://github.com/noahaust2/ai-displacement-tracker

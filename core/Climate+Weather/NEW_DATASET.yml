@@ -1,0 +1,31 @@
+---
+title: Average city temperatures
+homepage: https://www.fetchseries.com/climate/average-city-temperatures-fsr/
+category: Climate+Weather
+description: Contains daily time series of average air temperatures in about 2000 large cities around the world. The time series are updated daily. 
+version: 1.0
+keywords: temperatures, climate.
+image: 
+temporal:
+spatial: 
+access_level: public
+copyrights: 
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: FetchSeries Research
+    web: https://www.fetchseries.com
+organization:
+  - name: 
+    web: 
+issued_time: 
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 

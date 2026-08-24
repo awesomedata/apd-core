@@ -1,0 +1,37 @@
+---
+title: Statistics of the World — Global Economic Data for 218 Countries
+homepage: https://statisticsoftheworld.com/
+category: Economics
+description: >
+  440+ economic, demographic, health, education, and environmental indicators
+  for 218 countries covering 1960-2026. Aggregates data from IMF World Economic
+  Outlook, World Bank WDI, WHO, FRED, and United Nations. Free REST API available
+  at statisticsoftheworld.com/api-docs. Includes GDP, population, inflation,
+  unemployment, trade, government debt, life expectancy, and more.
+version:
+keywords: GDP, population, inflation, unemployment, economic data, country statistics, IMF, World Bank, macroeconomics, free API
+image:
+temporal: 1960-2026
+spatial: World (218 countries)
+access_level: Public
+copyrights: CC BY 4.0
+accrual_periodicity: Weekly
+specification:
+data_quality: true
+data_dictionary:
+language: English
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Statistics of the World
+    web: https://statisticsoftheworld.com
+organization:
+  - name: Statistics of the World
+    web: https://statisticsoftheworld.com
+issued_time:
+sources:
+  - name: IMF World Economic Outlook
+    access_url: https://www.imf.org/en/Publications/WEO
+  - name: World Bank World Development Indicators
+    access_url: https://data.worldbank.org
+  - name: WHO Global Health Observatory
+    access_url: https://www.who.int/data/gho

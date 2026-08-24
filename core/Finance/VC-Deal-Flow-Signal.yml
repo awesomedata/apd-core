@@ -1,0 +1,33 @@
+---
+title: VC Deal Flow Signal (GitHub-Derived Early-Stage Venture Signals)
+homepage: https://huggingface.co/datasets/the-data-nerd/vc-deal-flow-signal
+category: Finance
+description: An open dataset of GitHub-derived signals for early-stage venture capital deal-flow analysis. It tracks startup activity by combining public GitHub metrics (commit cadence, contributor growth, star velocity) with normalized sector aggregates and signal-type time series. The dataset contains 309 rows across three CSV configurations (startup_signals, sector_aggregates, signal_type_timeseries) and is intended for academic research on venture-capital signal mining, replication studies, and time-series benchmarks. Released under CC-BY-4.0.
+version: "1.0"
+keywords: venture capital, github signals, startup metrics, deal flow, time series, open data, finance, replication.
+image:
+temporal: 2024-01 / 2026-04
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://huggingface.co/datasets/the-data-nerd/vc-deal-flow-signal/blob/main/README.md
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/the-data-nerd/vc-deal-flow-signal/blob/main/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: The Data Nerd (ORCID 0009-0002-2222-4112)
+    web: https://orcid.org/0009-0002-2222-4112
+organization:
+  - name: GitDealFlow
+    web: https://gitdealflow.com
+issued_time: 2026.05
+sources:
+  - name: Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/the-data-nerd/vc-deal-flow-signal
+  - name: GitHub repository
+    access_url: https://github.com/gitdealflow/vc-deal-flow-signal
+references:
+  - title: GitHub Signal Mining for Early-Stage Venture Deal Flow (working paper)
+    reference: https://ssrn.com/abstract=6606558

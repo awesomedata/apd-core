@@ -1,0 +1,33 @@
+---
+title: Warnely Travel Safety Dataset
+homepage: https://warnely.com/developers
+category: Government
+description: Composite travel-safety risk score for 180 countries, combining UK FCDO travel advisories, US State Department travel advisories, the Global Peace Index 2025, and the World Bank Worldwide Governance Indicators. Refreshed daily with a live news incident wire. Includes per-country drug-law tier, LGBTQ+ legal status, women's-safety rating, and quick facts (currency, voltage, tap water). Published as a free REST API at warnely.com/api/v1 with an OpenAPI 3.1 specification at warnely.com/openapi.json, and as a CSV/JSON dataset on Hugging Face (Warnely/country-risk).
+version: 1.0.0
+keywords:
+  - travel safety
+  - country risk
+  - travel advisory
+  - FCDO
+  - State Department
+  - Global Peace Index
+  - geopolitics
+image:
+temporal: 2025-12-01/..
+spatial: Worldwide (180 countries)
+access_level: public
+copyrights: Warnely
+accrual_periodicity: daily
+specification: https://warnely.com/openapi.json
+data_quality: true
+data_dictionary: https://warnely.com/guides/methodology
+language: en-GB
+license: CC BY 4.0
+publisher: Warnely
+organization: Warnely
+issued_time: 2025-12-01
+sources:
+  - https://www.gov.uk/foreign-travel-advice
+  - https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html
+  - https://www.economicsandpeace.org/global-peace-index/
+  - https://databank.worldbank.org/source/worldwide-governance-indicators

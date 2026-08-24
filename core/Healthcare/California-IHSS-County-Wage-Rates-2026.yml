@@ -1,0 +1,37 @@
+---
+title: California IHSS Individual Provider County Wage Rates 2026
+homepage: https://github.com/asafichaki/california-senior-care-rates-open-data
+category: Healthcare
+description: The 2026 hourly wage each of California's 58 counties pays an IHSS Individual Provider (an in-home caregiver funded through the Medi-Cal In-Home Supportive Services program), as approved by the California Department of Social Services. These are government program wages, not private-pay home-care agency rates and not assisted-living or memory-care prices. Available as CSV and JSON with per-record provenance and a reproducible standard-library fetch script.
+version: 2026.1
+keywords: California, Medi-Cal, Medicaid, IHSS, In-Home Supportive Services, caregiver wage, home care, senior care
+image:
+temporal: 2026
+spatial: California, United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/asafichaki/california-senior-care-rates-open-data/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: California Care Compass
+    web: https://californiacarecompass.com/
+organization:
+  - name: California Care Compass
+    web: https://californiacarecompass.com/
+issued_time: 2026-07-22
+sources:
+  - name: GitHub release
+    access_url: https://github.com/asafichaki/california-senior-care-rates-open-data/releases/tag/v2026.1
+  - name: CSV download
+    access_url: https://raw.githubusercontent.com/asafichaki/california-senior-care-rates-open-data/main/california-ihss-county-wages-2026.csv
+  - name: JSON download
+    access_url: https://raw.githubusercontent.com/asafichaki/california-senior-care-rates-open-data/main/california-ihss-county-wages-2026.json
+references:
+  - title: California IHSS Caregiver Wage by County
+    reference: https://californiacarecompass.com/data/california-ihss-county-wages-2026
+  - title: CDSS IHSS county wage rates
+    reference: https://www.cdss.ca.gov/inforesources/ihss/county-ihss-wage-rates

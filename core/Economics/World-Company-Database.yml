@@ -1,0 +1,31 @@
+---
+title: World Company Database
+homepage: https://github.com/Alessandro114/world-company-database
+category: Economics
+description: 250M+ company records from 50+ countries with revenue, employees, and credit scores. Free API and bulk download available.
+version:
+keywords: companies, business, revenue, employees, credit scores, global
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:

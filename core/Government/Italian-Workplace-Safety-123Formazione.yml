@@ -1,0 +1,41 @@
+---
+title: Italian Workplace Safety Open Data (123Formazione)
+homepage: https://123formazione.com/api/public/docs
+category: Government
+description: Open dataset covering Italian workplace-safety regulation under D.Lgs 81/08. Includes the ATECO 2007 economic-sector classification with risk levels (basso/medio/alto) per the Accordo Stato-Regioni 21/12/2011 and Rep. 78/CSR 17/04/2025, mandatory training schedules (general worker, role-specific, RSPP/ASPP, RLS, dirigenti, preposti), a 218-term Italian-language workplace-safety glossary, and an index of primary regulations. Served as a DCAT-AP-IT compliant catalog and OpenAPI-documented REST API. Useful for compliance automation, risk-classification research, HR/training tooling, and Linked Open Data integrations targeting the Italian public sector.
+version: '1.0'
+keywords: italy, workplace safety, occupational safety, D.Lgs 81/08, ATECO, ATECO 2007, risk classification, training, compliance, RSPP, Accordo Stato-Regioni, DCAT-AP-IT, linked open data
+image:
+temporal: 2008-current
+spatial: Italy (national, regional ATECO sectors)
+access_level: public
+copyrights: 123Formazione
+accrual_periodicity: annually
+specification: https://123formazione.com/api/public/openapi.json
+data_quality: true
+data_dictionary: https://123formazione.com/api/public/docs
+language: it
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: 123Formazione
+    web: https://123formazione.com/
+organization:
+  - name: 123Formazione
+    web: https://123formazione.com/
+issued_time: '2026.06'
+sources:
+  - name: REST API (OpenAPI 3.1)
+    access_url: https://123formazione.com/api/public/openapi.json
+  - name: DCAT-AP-IT Catalog (JSON-LD)
+    access_url: https://123formazione.com/api/public/data.json
+  - name: Documentation
+    access_url: https://123formazione.com/api/public/docs
+references:
+  - title: D.Lgs 9 aprile 2008 n. 81 - Testo Unico sulla Sicurezza
+    reference: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2008-04-09;81
+  - title: Accordo Stato-Regioni 21 dicembre 2011 (formazione lavoratori)
+    reference: https://www.gazzettaufficiale.it/eli/id/2012/01/11/12A00114/sg
+  - title: Accordo Stato-Regioni Rep. 78/CSR 17 aprile 2025
+    reference: https://www.statoregioni.it/it/conferenza-stato-regioni/sedute-2025/seduta-del-17042025/atti/repertorio-atto-n-78csr/
+  - title: DCAT-AP-IT 2.0 - Profilo italiano DCAT-AP
+    reference: https://docs.italia.it/italia/daf/lg-metadati-dcat-ap-profilo-italiano/

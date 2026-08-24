@@ -1,0 +1,36 @@
+---
+title: Wounded Warriors Veteran Resources Directory
+homepage: https://warriorsfund.org
+category: SocialSciences
+description: Open dataset of 100,437 verified U.S. veteran-services resources spanning all 56 jurisdictions (50 states, DC, and 5 territories). Includes VA medical facilities, county veteran service offices, accredited representatives, housing programs, crisis lines, employment resources, and survivor benefits. Published in HSDS 3.0, DCAT-US, and OpenAPI 3.1 formats with daily updates and a public 43-tool MCP server endpoint.
+version: 3.0
+keywords: veterans, military, social services, HSDS, DCAT-US, open data, healthcare, housing, crisis, MCP, nonprofit
+temporal: 2024-present, updated daily
+spatial: United States (all 50 states, DC, Puerto Rico, Guam, US Virgin Islands, American Samoa, Northern Mariana Islands)
+access_level: public
+copyrights: Wounded Warriors (EIN 86-1336741)
+accrual_periodicity: daily
+specification: HSDS 3.0, DCAT-US 3.0, OpenAPI 3.1, schema.org/Dataset
+data_quality: true
+data_dictionary: https://warriorsfund.org/hsds/v3/datapackage.json
+language: en
+license: CC-BY 4.0 (most data); CC0 (crisis-routing data)
+publisher:
+  - name: Wounded Warriors
+    web: https://warriorsfund.org
+organization:
+  - name: Wounded Warriors (Texas 501(c)(3), EIN 86-1336741)
+    web: https://warriorsfund.org
+issued_time: 2024.06
+sources:
+  - name: DCAT-US Catalog
+    access_url: https://warriorsfund.org/data.json
+  - name: HSDS 3.0 Data Package
+    access_url: https://warriorsfund.org/hsds/v3/datapackage.json
+  - name: MCP Server Endpoint
+    access_url: https://warriors-fund-api.emperormew.workers.dev/mcp
+  - name: MCP Discovery
+    access_url: https://warriorsfund.org/.well-known/mcp.json
+references:
+  - title: Wounded Warriors official site
+    reference: https://warriorsfund.org

@@ -1,0 +1,22 @@
+---
+title: Open Data Hub
+homepage: https://www.opendatahub.com/datasets/
+category: Government
+description: Open data platform for South Tyrol and EU providing tourism, mobility, weather, and IoT data via REST APIs
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: English, German, Italian
+license: AGPL-3.0
+publisher: Open Data Hub
+organization: NOI AG
+issued_time:
+sources: []

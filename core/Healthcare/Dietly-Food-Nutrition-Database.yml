@@ -1,0 +1,15 @@
+---
+title: Dietly Food & Nutrition Database
+homepage: https://www.getdietly.com/api
+category: Healthcare
+description: Open nutrition catalog of 4.2M+ foods with calories, macros, micronutrients, Nutri-Score and EAN-13/UPC-A barcodes, built on Open Food Facts (ODbL) plus community data, normalized, deduped and confidence-scored. Browsable web pages for 850,000+ foods, a machine-readable OpenAPI spec, and a fast free API tier (instant key, no card, 30 requests/minute).
+version: 1.0
+keywords: nutrition,food,calories,macros,barcode,open-food-facts
+access_level: public
+language: en
+publisher:
+  - name: Dietly
+    web: https://www.getdietly.com
+organization:
+  - name: Dietly
+    web: https://www.getdietly.com

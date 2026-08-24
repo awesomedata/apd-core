@@ -1,0 +1,39 @@
+---
+title: Saudi Arabia Real Estate Open Data (MOJ + REGA)
+homepage: https://github.com/civillizard/Saudi-Real-Estate-Data
+category: Government
+description: >
+  4.96M real estate transactions from Saudi Arabia's Ministry of Justice (MOJ) 
+  and Real Estate General Authority (REGA). Covers property sales, mortgages, 
+  seizures, and 18 additional RE operation categories across all 13 regions, 
+  plus quarterly rental and sales indicators. 170 CSV files, 627 MB.
+version: 1.0
+keywords: >
+  Saudi Arabia, real estate, property transactions, rentals, 
+  Ministry of Justice, REGA, open data, housing, Vision 2030
+image:
+temporal: 2018-2025
+spatial: Saudi Arabia (13 regions)
+access_level: public
+copyrights:
+accrual_periodicity: Monthly (MOJ), Quarterly (REGA)
+specification:
+data_quality: true
+data_dictionary: DATA_DICTIONARY.md
+language: en, ar
+license: MIT
+publisher:
+  - name: Ministry of Justice, Saudi Arabia
+    web: https://www.moj.gov.sa
+  - name: Real Estate General Authority (REGA), Saudi Arabia
+    web: https://www.rega.gov.sa
+organization:
+  - name: civillizard
+    web: https://github.com/civillizard
+issued_time: 2026.03
+sources:
+  - name: MOJ Open Data Portal
+    access_url: https://www.moj.gov.sa
+  - name: REGA Open Data
+    access_url: https://www.rega.gov.sa
+references: []

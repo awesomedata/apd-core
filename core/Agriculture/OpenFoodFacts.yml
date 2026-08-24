@@ -1,0 +1,22 @@
+---
+title: Open Food Facts
+homepage: https://world.openfoodfacts.org/
+category: Agriculture
+description: Crowdsourced food composition database covering 2.5M+ products from 170+ countries. Includes ingredients, nutrition facts, labels, and additives. ODbL licensed with REST and MongoDB dump exports.
+version:
+keywords: food, nutrition, products, ingredients, labels
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights: ODbL
+accrual_periodicity: daily
+specification: https://world.openfoodfacts.org/data
+data_quality: true
+data_dictionary: https://world.openfoodfacts.org/data/data-fields.txt
+language: multilingual
+license: ODbL
+publisher: Open Food Facts
+organization: Open Food Facts
+issued_time:
+sources: []

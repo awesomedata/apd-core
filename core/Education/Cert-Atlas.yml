@@ -1,0 +1,22 @@
+---
+title: Cert Atlas - Certification Exam Blueprints
+homepage: https://atlas.quizforge.ai/
+category: Education
+description: An open, machine-readable dataset of certification exam blueprints for 1,562 exams across 217 certifying bodies. Each exam record includes the official domain/objective breakdown with topic weights, passing score, question count, duration, price, prerequisites, retake and renewal policies, testing centers, and available languages. Sourced from official exam guides; no proprietary or scraped questions.
+version: 2026.04
+keywords: certification, exam blueprints, exam objectives, education
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/hans6883/cert-atlas#schema
+language: English
+license: MIT
+publisher: QuizForge
+organization:
+issued_time: 2026-04-05
+sources: []

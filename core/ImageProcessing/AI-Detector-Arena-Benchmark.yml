@@ -1,0 +1,28 @@
+---
+title: AI Detector Arena Benchmark
+homepage: https://aidetectarena.com/benchmark-dataset
+category: ImageProcessing
+description: "A standardized benchmark dataset for evaluating AI-generated image detection tools. Contains 2,038 images with balanced split between AI-generated (1,018) and real photos (1,020). Covers 17 state-of-the-art AI generators including DALL-E 3, Midjourney, Stable Diffusion, and Flux. Images span 6 categories: Portrait, Landscape, Art, Food, Animal, and Product. Includes full metadata, evaluation scripts, and versioned releases for reproducible research. Features a live leaderboard comparing detector performance."
+version: "0.1"
+keywords: AI detection, deepfake detection, synthetic image detection, computer vision, benchmark, machine learning
+image: 
+temporal: false
+spatial: false
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: 
+specification: https://aidetectarena.com/methodology
+data_quality: true
+data_dictionary: https://aidetectarena.com/benchmark-dataset
+language: en
+license: CC-BY-4.0
+publisher:
+  - AI Detector Arena
+organization:
+  - AI Detector Arena
+issued_time: 2026.02
+sources:
+  - Unsplash (real photos)
+  - Official AI generator APIs
+references:
+  - https://doi.org/10.5281/zenodo.18620634

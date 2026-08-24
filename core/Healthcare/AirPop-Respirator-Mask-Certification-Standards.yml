@@ -1,0 +1,32 @@
+title: AirPop Respirator & Barrier-Mask Certification Standards Comparison
+homepage: https://getairpop.com/blog/mask-testing-methodology-how-certifications-work
+category: Healthcare
+description: A cross-jurisdiction comparison of the major respiratory protection standards (N95 / NIOSH, KN95 / GB 2626-2019, KF94 / MFDS, FFP2 / EN 149) and the ASTM F3502-21 consumer barrier-face-covering standard. For each standard it records minimum filtration and test aerosol, test flow rate, whole-mask leakage/fit requirement, inhalation and exhalation breathing-resistance limits (in pascals), whether source control is tested, and the certifying body. Values are drawn from each standard's public specification. Six records, CSV and JSON. Intended for buyers, procurement teams, journalists, and researchers who need an apples-to-apples reference for what each mask certification actually tests.
+version: 1.0
+keywords: n95, kn95, kf94, ffp2, astm f3502, respirator, mask certification, ppe, air quality, filtration, niosh
+image:
+temporal: 2026
+spatial: USA, China, South Korea, European Union
+access_level: public
+copyrights: AirPop
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://getairpop.com/blog/mask-testing-methodology-how-certifications-work
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: AirPop
+    web: https://getairpop.com
+organization:
+  - name: AirPop
+    web: https://getairpop.com
+issued_time: 2026.07
+sources:
+  - name: CSV download
+    access_url: https://getairpop.com/data/mask-certification-standards.csv
+  - name: JSON download
+    access_url: https://getairpop.com/data/mask-certification-standards.json
+references:
+  - title: Mask Testing Methodology - How Certifications Work
+    reference: https://getairpop.com/blog/mask-testing-methodology-how-certifications-work

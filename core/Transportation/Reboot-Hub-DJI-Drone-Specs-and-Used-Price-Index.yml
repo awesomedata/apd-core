@@ -1,0 +1,31 @@
+---
+title: Reboot Hub DJI Drone Specs and Used Price Index
+homepage: https://reboot-hub.com/pages/reboot-hub-data
+category: Transportation
+description: A quarterly baseline of listed price ranges and reference specifications for 43 DJI aircraft models, aggregating 251 published catalog configurations. The release documents exclusions, distinguishes listed prices from completed sales, and includes reproducible CSV, JSON Lines, schema, and notebook files.
+version: 0.2.0
+keywords: drones, UAV, DJI, used prices, specifications, repair risk, aircraft
+image:
+temporal: 2026 Q3
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/blob/main/model_price_summary_schema.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Reboot Hub
+    web: https://reboot-hub.com/
+organization:
+  - name: Reboot Hub
+    web: https://reboot-hub.com/
+issued_time: 2026.07
+sources:
+  - name: Version 0.2.0 dataset release
+    access_url: https://github.com/Reboot-Hub/dji-drone-specs-used-price-index/releases/tag/v0.2.0
+references:
+  - title: Version 0.2.0 DOI
+    reference: https://doi.org/10.5281/zenodo.21387578

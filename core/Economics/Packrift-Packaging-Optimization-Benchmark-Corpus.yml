@@ -1,0 +1,26 @@
+---
+title: Packrift Packaging Optimization Benchmark Corpus
+homepage: https://packrift.github.io/packaging-optimization-benchmark-corpus/
+category: Economics
+description: Public packaging product benchmark corpus generated from 1,000 exact-spec SKU records. Includes downloadable quality ledger and manifest files plus operational benchmark pages covering packaging dimensions, weight, product family, source URL, quality score, and missing-field notes.
+version: 2026-05-10
+keywords: packaging, product data, ecommerce, fulfillment, dimensional weight, SKU benchmark
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://packrift.github.io/packaging-optimization-benchmark-corpus/data/manifest.json
+data_quality: true
+data_dictionary: https://packrift.github.io/packaging-optimization-benchmark-corpus/data/quality-ledger.csv
+language: en
+license:
+publisher: Packrift
+organization: Packrift
+issued_time: 2026.05
+sources:
+  - name: Quality ledger CSV
+    access_url: https://packrift.github.io/packaging-optimization-benchmark-corpus/data/quality-ledger.csv
+  - name: Corpus manifest JSON
+    access_url: https://packrift.github.io/packaging-optimization-benchmark-corpus/data/manifest.json

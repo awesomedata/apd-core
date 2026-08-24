@@ -1,0 +1,21 @@
+title: Sunshine Atlas - Monthly sunshine scores for 3,833 airport-served destinations
+homepage: https://sunshineatlas.com/data/
+category: Climate+Weather
+description: Monthly 0-100 sunshine scores plus average day/night temperatures, rainfall and sea-surface temperature for 3,833 destinations worldwide, one primary airport per metro area. Derived from long-term climate normals (methodology at sunshineatlas.com/methodology). Direct CSV and JSON downloads, no signup.
+version:
+keywords: sunshine, climate, weather, travel, climate normals
+image:
+temporal: long-term climate normals
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary: https://sunshineatlas.com/data/
+language: en
+license: CC BY 4.0
+publisher: Sunshine Atlas
+organization:
+issued_time:
+sources: []

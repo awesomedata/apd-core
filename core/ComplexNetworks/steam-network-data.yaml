@@ -1,0 +1,10 @@
+---
+title: Steam Co-Review Network
+homepage: https://github.com/lukeslp/steam-network-data
+category: ComplexNetworks
+description: 82,000-game Steam catalog with a 48,000-node co-review network derived from 128 million user reviews. Edges connect games frequently reviewed by the same users. Includes genre, release year, price, and review score metadata.
+keywords: Steam, gaming, network graph, co-review, graph analysis, video games
+access_level: public
+license: MIT
+language: en
+issued_time: 2025

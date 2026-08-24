@@ -1,0 +1,27 @@
+---
+title: doctrine-corpus
+homepage: https://github.com/shimo4228/doctrine-corpus
+category: NaturalLanguage
+description: Bilingual (English + Japanese) judgment-eliciting Q&A corpus (851 examples) encoding the documented decisions of a research program on AI agent design, with per-example metadata for line, source, language, and shape. Directly downloadable as JSONL; mirrored on Hugging Face Datasets and DOI-archived on Zenodo.
+version: 0.1.0
+keywords: question answering, instruction tuning, bilingual corpus, Japanese, English
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en, ja
+license: CC0 1.0
+publisher:
+organization:
+issued_time: 2026.05
+sources:
+  - name: Hugging Face Datasets mirror
+    access_url: https://huggingface.co/datasets/Shimo4228/doctrine-corpus
+references:
+  - title: Zenodo archive (concept DOI)
+    reference: https://doi.org/10.5281/zenodo.20337008

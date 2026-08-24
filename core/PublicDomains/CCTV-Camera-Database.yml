@@ -1,0 +1,31 @@
+---
+title: CCTV Camera Database
+homepage: https://github.com/ch-bas/cctv-camera-database
+category: PublicDomains
+description: Open database of 1,000+ IP/CCTV camera specifications across 49 brands (Hikvision, Dahua, Reolink, Axis, Hanwha, Tapo and more). Fields include resolution, connectivity (PoE/WiFi/battery/4G), night vision type and range, ONVIF/RTSP support, IP rating, audio, storage, price and market tags (EU/UK/US/IN/AU/MENA etc.). Available as JSON and CSV.
+version: 1.0
+keywords: cctv, ip-camera, surveillance, security-camera, hardware, specifications, open-data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0-1.0
+publisher:
+  - name: Bassem Chagra
+    web: https://github.com/ch-bas
+organization:
+  - name:
+    web:
+issued_time: 2026.06
+sources:
+  - name: Manufacturer datasheets and reputable retailer listings
+    access_url: https://github.com/ch-bas/cctv-camera-database/blob/main/data/cameras.json
+references:
+  - title: Browsable camera database (GitHub Pages)
+    reference: https://ch-bas.github.io/cctv-camera-database/

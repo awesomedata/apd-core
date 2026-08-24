@@ -1,0 +1,30 @@
+---
+title: Seed Oil Tracker Restaurant Chain Database
+homepage: https://seedoiltracker.com/open-data
+category: Healthcare
+description: Seed-oil/PUFA (polyunsaturated fat) grades for 512 US restaurant chains and 10,000+ menu items, including each chain's cooking oil and per-item PUFA gram estimates built from published nutrition data.
+version: 1.0
+keywords: seed oil, PUFA, nutrition, restaurant, cooking oil, food
+image:
+temporal:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification: CSV and JSON download, plus a free live JSON API (no key) at https://seedoiltracker.com/ai-tool
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Seed Oil Tracker
+    web: https://seedoiltracker.com
+organization:
+  - name: Seed Oil Tracker
+    web: https://seedoiltracker.com
+issued_time: 2026.07
+sources:
+  - name: Seed Oil Tracker
+    access_url: https://seedoiltracker.com/open-data/seed-oil-tracker-chains.csv
+references:
+  - title: Methodology & citation
+    reference: https://seedoiltracker.com/methodology

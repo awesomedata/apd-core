@@ -1,0 +1,31 @@
+---
+title: Is It Safe to Travel (Travel Safety Scores)
+homepage: https://isitsafetotravel.org/
+category: SocialSciences
+description: Daily composite travel-safety scores (1-10) and five risk pillars (conflict, crime, health, governance, environment) for 248 countries, derived from public sources including the Global Peace Index, INFORM Risk Index, ReliefWeb, GDACS, and US/UK/CA/AU government travel advisories. Full dataset available as JSON.
+version:
+keywords: travel safety, country risk, safety index, travel advisories, geopolitics
+image:
+temporal:
+spatial: 248 countries
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY-NC 4.0
+publisher:
+  - name: Riccardo Dominici
+    web: https://isitsafetotravel.org/
+organization:
+  - name: isitsafetotravel.org
+    web: https://isitsafetotravel.org/
+issued_time: 2026
+sources:
+  - name: Full dataset (JSON, CORS-enabled, updated daily)
+    access_url: https://isitsafetotravel.org/scores.json
+references:
+  - title: Methodology and data sources
+    reference: https://isitsafetotravel.org/en/methodology/

@@ -1,0 +1,35 @@
+---
+title: BenchGecko AI Model Benchmarks
+homepage: https://benchgecko.ai
+category: MachineLearning
+description: Benchmark scores, pricing, and capabilities for 414+ AI models across 40 evaluations (MMLU, HumanEval, GSM8K, etc.). Free REST API documented at benchgecko.ai/api-docs.
+version: 1.0
+keywords: AI benchmarks, LLM, machine learning, model comparison, pricing
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name: BenchGecko
+    web: https://benchgecko.ai
+issued_time:
+sources:
+  - name: BenchGecko API Documentation
+    access_url: https://benchgecko.ai/api-docs
+  - name: Models endpoint
+    access_url: https://benchgecko.ai/api/v1/models
+  - name: Benchmarks endpoint
+    access_url: https://benchgecko.ai/api/v1/benchmarks
+references:
+  - title:
+    reference:

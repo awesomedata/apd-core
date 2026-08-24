@@ -1,0 +1,46 @@
+---
+title: Crusader Atlas
+homepage: https://crusaderatlas.com/
+category: GIS
+version: ""
+image: ""
+description: Hand-curated geographic gazetteer of 170 Crusader-era sites (castles, churches, fortified towns, battles, sieges) plus 31 lordship polygons across the Latin East, 1099-1291, with WGS84 coordinates, GeoJSON geometries, photographs, and source-backed historical notes. Crusader-period analog to Pleiades.
+version: 1.0
+keywords: crusades, history, archaeology, fortresses, kingdom-of-jerusalem, gis, gazetteer, middle-east, geojson, historical-atlas
+image: https://crusaderatlas.com/og-image.png
+temporal: 1099-1291
+spatial: Latin East (Israel, Palestine, Jordan, Lebanon, Syria, southern Turkey)
+temporal:
+  start: 1099
+  end: 1291
+spatial:
+  bbox: ""
+copyrights:
+  license: CC-BY-4.0
+publisher: ""
+organization: ""
+sources: []
+references: []
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: HTML + Leaflet + inline JSON; landing pages with Place/Person/Article JSON-LD; GeoJSON for lordship polygons and pilgrim roads
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Crusader Atlas
+    web: https://crusaderatlas.com/
+organization:
+  - name:
+    web:
+issued_time: 2026.04
+sources:
+  - name: Denys Pringle, "The Churches of the Crusader Kingdom of Jerusalem" (4 vols., Cambridge UP) and "Secular Buildings in the Crusader Kingdom of Jerusalem"
+    access_url:
+  - name: Wikipedia (English + Hebrew + Arabic)
+    access_url: https://en.wikipedia.org/wiki/Crusader_states
+references:
+  - title:
+    reference:

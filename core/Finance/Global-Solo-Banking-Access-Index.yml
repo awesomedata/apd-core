@@ -1,0 +1,33 @@
+---
+title: Global Solo Banking Access Index
+homepage: https://www.globalsolo.global/data/banking-access-index
+category: Finance
+description: Evidence-cited matrix of which US business-banking providers accept non-resident founders. 18 providers (15 fintechs plus Chase, Bank of America, Wells Fargo) scored against 8 countries (India, China, UK, Canada, Pakistan, Nigeria, Turkey, Brazil). 239 claims, each carrying a verbatim quote from the provider's published policy, source URL, source tier, and access date, adversarially re-verified against the sources. Country cells are tri-state (explicit accept / explicit restrict / no published restriction) — absence from a prohibited list is never converted into acceptance. CSV and JSON downloads; the JSON includes the full evidence appendix with quotes. Re-verified quarterly.
+version: 1.0
+keywords: banking, fintech, non-resident, US LLC, cross-border, KYC, business bank account, country restrictions, financial access.
+image:
+temporal: 2026
+spatial: United States; founder countries India, China, UK, Canada, Pakistan, Nigeria, Turkey, Brazil
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://www.globalsolo.global/about/methodology#banking-access-index
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Global Solo
+    web: https://www.globalsolo.global/about/methodology
+organization:
+  - name: Global Solo
+    web: https://www.globalsolo.global
+issued_time: 2026.07
+sources:
+  - name: CSV download
+    access_url: https://www.globalsolo.global/data/banking-access-index.csv
+  - name: JSON download (with evidence appendix)
+    access_url: https://www.globalsolo.global/data/banking-access-index.json
+references:
+  - title: Methodology
+    reference: https://www.globalsolo.global/about/methodology#banking-access-index

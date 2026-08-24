@@ -1,0 +1,33 @@
+---
+title: Chinese Tea Dataset
+homepage: https://chinatea.house/dataset/
+category: Agriculture
+description: A curated, open dataset of 100+ Chinese teas covering type, origin, caffeine level, flavor notes, oxidation, processing method, and brewing parameters. Available as JSON and CSV.
+version: 1.0
+keywords: tea, Chinese tea, caffeine, oolong, pu-erh, green tea, black tea, white tea, yellow tea, agriculture, dataset
+image: https://chinatea.house/assets/chinese-tea-categories.png
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name: China Tea House
+    web: https://chinatea.house/
+organization:
+  - name: China Tea House
+    web: https://chinatea.house/
+issued_time: 2026.06
+sources:
+  - name: Chinese Tea Dataset JSON
+    access_url: https://chinatea.house/data/chinese-tea-dataset.json
+  - name: Chinese Tea Dataset CSV
+    access_url: https://chinatea.house/data/chinese-tea-dataset.csv
+references:
+  - title: China Tea House
+    reference: https://chinatea.house/

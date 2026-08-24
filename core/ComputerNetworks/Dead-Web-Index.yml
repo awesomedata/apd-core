@@ -1,0 +1,33 @@
+---
+title: 'Dead Web Index: reachability census of the top 10M domains'
+homepage: https://crawlora.net/dead-web-index
+category: ComputerNetworks
+description: A reachability census of the top 10 million domains (DomCop top-10M ranking), probed with both a polite-bot client and a real-browser (Chrome TLS/JA3) client. Classifies every domain as alive, dead (DNS failure), blocked (anti-bot/WAF), or redirect, and finds roughly 14% of the web's most popular domains are dead. Includes a companion story on notable shut-down domains.
+version: 1.0.0
+keywords: dead web, link rot, domain reachability, dns, anti-bot, web crawling, internet infrastructure, website availability
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/Crawlora-org/dead-web-index-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Dataset repository (zstd-chunked JSONL, ~10M rows per arm)
+  access_url: https://github.com/Crawlora-org/dead-web-index-data
+- name: Interactive study page
+  access_url: https://crawlora.net/dead-web-index
+references:
+- title: How much of the web is actually dead? (Crawlora blog)
+  reference: https://crawlora.net/blog/how-much-of-the-web-is-dead-2026

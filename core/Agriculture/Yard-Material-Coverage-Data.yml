@@ -1,0 +1,32 @@
+---
+title: Yard Material Coverage Data
+homepage: https://demi-valerith.github.io/yard-material-coverage-data/
+category: Agriculture
+description: An open reference dataset for cubic-yard coverage by depth, tons-per-cubic-yard ranges for common landscaping materials, and bag-to-cubic-yard conversions. Available as JSON and CSV.
+version: 1.0.0
+keywords: landscaping, yard materials, cubic yards, gravel, mulch, topsoil, coverage, density, bags, dataset
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Yard Material Tools
+    web: https://yardmaterialtools.com/
+organization:
+  - name: Yard Material Tools
+    web: https://yardmaterialtools.com/
+issued_time: 2026.07
+sources:
+  - name: Yard Material Coverage Data JSON
+    access_url: https://demi-valerith.github.io/yard-material-coverage-data/coverage.json
+  - name: Yard Material Coverage Data CSV
+    access_url: https://demi-valerith.github.io/yard-material-coverage-data/coverage.csv
+references:
+  - title: Yard Material Coverage Chart
+    reference: https://yardmaterialtools.com/material-coverage-chart

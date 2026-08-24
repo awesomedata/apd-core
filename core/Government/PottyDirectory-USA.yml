@@ -1,0 +1,22 @@
+title: PottyDirectory — US Portable Restroom & Public Restroom Open Data
+homepage: https://pottydirectory.com/data
+category: Government
+description: Open dataset of 3,649 US portable-restroom rental vendors across all 50 states + DC and 2,424 cities, plus a public-restroom finder. Free to access and cite. Includes per-vendor service flags (ADA-accessible, luxury trailer, hand-wash station, serves construction, serves events), national pricing reference ranges, and transparent methodology. Schema.org Dataset markup for machine-readable consumption.
+keywords:
+  - sanitation
+  - portable toilet
+  - public restroom
+  - civic infrastructure
+  - construction
+spatial: United States
+access_level: public
+license: Free to access; attribution requested for redistribution
+publisher: Lighthouse 27 LLC
+data_quality: true
+sources:
+  - name: PottyDirectory canonical dataset page
+    web: https://pottydirectory.com/data
+  - name: Machine-readable summary (llms.txt)
+    web: https://pottydirectory.com/llms.txt
+  - name: Methodology + sourcing
+    web: https://pottydirectory.com/methodology

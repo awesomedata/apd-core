@@ -1,0 +1,31 @@
+---
+title: PredScope Prediction Markets API
+homepage: https://predscope.com/api/
+category: Finance
+description: Free public API providing 600+ live prediction market events aggregated from Polymarket, including real-time prices, probabilities, and trading volumes. Includes endpoints for live markets (markets.json) and resolved market outcomes (resolved.json). Useful for research on crowd-sourced forecasting, political and economic predictions, and event-driven data.
+version:
+keywords: prediction markets, forecasting, polymarket, crowd wisdom, event contracts, political data, probability
+image:
+temporal: real-time
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: real-time
+specification: https://predscope.com/api/
+data_quality: false
+data_dictionary: https://predscope.com/api/
+language: en
+license: public
+publisher:
+  - name: PredScope
+    web: https://predscope.com
+organization:
+issued_time:
+sources:
+  - name: Polymarket
+    access_url: https://polymarket.com
+references:
+  - title: Live Markets API
+    reference: https://predscope.com/api/markets.json
+  - title: Resolved Markets API
+    reference: https://predscope.com/api/resolved.json

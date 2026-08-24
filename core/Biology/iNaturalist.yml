@@ -1,0 +1,22 @@
+---
+title: iNaturalist
+homepage: https://www.inaturalist.org/
+category: Biology
+description: Community-maintained species observation database with 180M+ observations across 370K+ taxa. Includes location, date, species ID, and photos. CC0/CC-BY licensed with open API.
+version:
+keywords: biodiversity, species, ecology, citizen-science, observations
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights: CC0/CC-BY
+accrual_periodicity: daily
+specification: https://api.inaturalist.org/v1/docs/
+data_quality: true
+data_dictionary:
+language: en
+license: CC0/CC-BY
+publisher: iNaturalist
+organization: California Academy of Sciences / National Geographic Society
+issued_time:
+sources: []

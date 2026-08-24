@@ -1,0 +1,29 @@
+---
+title: Passport, Visa & ID Photo Specifications (100+ countries, 276 formats)
+homepage: https://github.com/BlondDev-Art/passport-photo-specs
+category: Government
+description: Passport, visa, ID card, driving licence, and residence permit photo specifications (dimensions, background color, DPI) for 100+ countries and 276 document formats, each validated against the issuing government's official source. MIT licensed, mirrored on npm/PyPI/Hugging Face, archived on Zenodo with a citable DOI.
+version: 1.3
+keywords: passport photo, visa photo, ICAO 9303, biometric photo, document specifications
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher:
+  - name: IDPhotoSnap
+    web: https://idphotosnap.com
+organization:
+  - name: IDPhotoSnap
+    web: https://idphotosnap.com
+issued_time: 2026-06
+sources:
+  - name: Zenodo archive (citable DOI)
+    access_url: https://doi.org/10.5281/zenodo.20409880
+references: []

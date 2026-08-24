@@ -1,0 +1,18 @@
+---
+title: State of Peptides 2026
+homepage: https://peptahub.com/state-of-peptides-2026
+category: Chemistry
+description: Open reference dataset of 156 peptide and peptide-adjacent compounds. Each record carries a legal/regulatory status bucket (prescription, research-only, unregulated, reclassification-pending, legal-compounding), category, routes of administration, half-life, molecular weight, CAS number, peer-reviewed reference count, external knowledge-graph identifiers (PubChem CID, DrugBank, Wikidata, Wikipedia), and a profile URL. Downloadable directly as CSV and JSON.
+version: 2026.06.09
+keywords: peptides, pharmacology, GLP-1, chemistry, regulatory status, reference data, open data
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PeptaHub
+    web: https://peptahub.com
+sources:
+  - name: State of Peptides 2026 (CSV)
+    access_url: https://peptahub.com/state-of-peptides-2026/dataset.csv
+  - name: State of Peptides 2026 (JSON)
+    access_url: https://peptahub.com/state-of-peptides-2026/dataset.json

@@ -1,0 +1,26 @@
+---
+title: BuildData - Canadian Construction and Development Data API
+homepage: https://builddata.ca
+category: Government
+description: REST API providing normalized construction and development data from 17 Canadian cities with 2M+ records including permits, geocoding, and proximity search
+version:
+keywords: building permits, construction, development, Canada, open data, API, geocoding
+image:
+temporal:
+spatial: Canada
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license:
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time:
+sources: []

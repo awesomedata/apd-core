@@ -1,0 +1,31 @@
+---
+title: Project Cost Estimator - Website Cost Data
+homepage: https://projectcostestimator.com/api-docs
+category: Economics
+description: An open dataset of real-world website and web-application project cost benchmarks, calibrated against 600+ project quotes across 6 geographic markets. Includes platform multipliers (WordPress, Shopify, Magento, Webflow, custom code, and others), geographic multipliers, project-tier multipliers, and median project values. Served as a single JSON endpoint with no signup or API key, structured as a schema.org Dataset.
+version: 1.0
+keywords: website cost, web development pricing, project estimation, freelance rates, agency pricing, platform comparison, software cost benchmarks
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://projectcostestimator.com/api-docs
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Project Cost Estimator
+    web: https://projectcostestimator.com/
+organization:
+  - name: Project Cost Estimator
+    web: https://projectcostestimator.com/
+issued_time: 2026.07
+sources:
+  - name: Website Cost Data (JSON)
+    access_url: https://projectcostestimator.com/api/cost-data
+references:
+  - title: Cost Data API documentation
+    reference: https://projectcostestimator.com/api-docs

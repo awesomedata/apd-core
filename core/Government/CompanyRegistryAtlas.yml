@@ -1,0 +1,33 @@
+---
+title: Company Registry Atlas
+homepage: https://github.com/aunikolskii-bit/company-registry-atlas
+category: Government
+description: An atlas of 761 official company, tax, customs, permit and certification registries across 173 countries. Each row records the authority, whether it is the primary state register or a delegated body, what the register records (identity, activity code, permit, certification, trade proof), which national identifier it keys on, and how a machine can actually read it (open API, bulk file, HTML search form, browser only). The machine-access column is an observation rather than a guess, 481 entry points were requested live on 2026-08-08 and the response is recorded per row with the date and the evidence string. Contains no company records and no personal data, it is an atlas of sources.
+version: 1.0
+keywords: company registry, business register, open government data, due diligence, supply chain, national identifiers, data sources
+image:
+temporal: 2026
+spatial: 173 countries
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: CSV and JSON, 761 rows, 11 columns
+data_quality: true
+data_dictionary: https://github.com/aunikolskii-bit/company-registry-atlas#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Hello of a Partner
+    web: https://hellofapartner.com
+organization:
+  - name: Hello of a Partner
+    web: https://hellofapartner.com
+issued_time: 2026.08
+sources:
+  - name: Company Registry Atlas (CSV)
+    access_url: https://raw.githubusercontent.com/aunikolskii-bit/company-registry-atlas/main/registries.csv
+  - name: Company Registry Atlas (JSON)
+    access_url: https://raw.githubusercontent.com/aunikolskii-bit/company-registry-atlas/main/registries.json
+references:
+  - title: Repository and methodology
+    reference: https://github.com/aunikolskii-bit/company-registry-atlas

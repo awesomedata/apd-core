@@ -1,0 +1,24 @@
+---
+title: DNA Chip Coverage
+homepage: https://github.com/AndreySoloviev/dna-chip-coverage
+category: Biology
+description: Which SNP markers are present on consumer DNA genotyping arrays. 70 clinically discussed markers checked against the 5 published Illumina arrays that consumer chips are built on, plus 9 consumer products, giving 980 rows of marker x platform -> present / absent / unknown. Built only from public Illumina array manifests and dbSNP coordinates, with a dependency-free Python script that regenerates the table from those sources. Presence is resolved by genomic coordinate rather than by rsID string, because manifests rename probes. Distributed as CSV, with a companion analysis of 15 cases where coverage changes what a raw data file can support.
+version: 1.0
+keywords: SNP, genotyping array, microarray, consumer genomics, direct-to-consumer, DNA raw data, Illumina, dbSNP, marker coverage, pharmacogenomics
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/AndreySoloviev/dna-chip-coverage#reading-coveragecsv
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Andrey Soloviev
+    web: https://github.com/AndreySoloviev
+organization:
+issued_time: 2026.07
+sources: []

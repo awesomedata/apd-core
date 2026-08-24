@@ -1,0 +1,64 @@
+---
+title: Property Comps — Comparable Property Sales Across 11 Global Markets
+homepage: https://api.nwc-advisory.com/docs
+category: Economics
+description: >
+  Free API providing 44M+ property transactions from official government registries
+  across 11 markets: UK (HM Land Registry), France (DVF), Singapore (HDB),
+  NYC, Chicago, Miami, Philadelphia, Connecticut (DOF/assessor), Dubai (DLD),
+  Ireland (Property Price Register), and Taiwan (Ministry of Interior).
+  Search comparable sales by location and radius, filter by property type,
+  get area statistics (median, percentile, price per sqft/m2), and monthly trends.
+  OpenAPI 3.1 spec with Swagger UI. No authentication required for docs and market listing.
+version: 1.0
+keywords:
+  - real estate
+  - property prices
+  - comparable sales
+  - housing market
+  - government data
+  - open data
+  - property transactions
+  - global markets
+temporal: 2000-present (varies by market, updated monthly)
+spatial: 11 countries/cities (UK, France, Singapore, NYC, Chicago, Miami, Philadelphia, Connecticut, Dubai, Ireland, Taiwan)
+access_level: public
+copyrights: >
+  Data sourced from official government open data registries under their respective
+  open data licenses (OGL, Licence Ouverte, data.gov.sg, NYC Open Data).
+accrual_periodicity: monthly
+specification: >
+  RESTful JSON API. Three endpoints: /v1/comps (comparable sales search),
+  /v1/stats (area statistics), /v1/trends (monthly price trends).
+  Each market uses its native location parameter (postcode, code_postal, zip_code, area_name).
+data_quality: true
+data_dictionary: https://api.nwc-advisory.com/openapi.json
+language: en
+license: Open Data (varies by source registry)
+publisher:
+  - name: New Way Capital Advisory
+    web: https://nwc-advisory.com
+organization:
+  - name: New Way Capital Advisory
+    web: https://nwc-advisory.com
+issued_time: 2026-03
+sources:
+  - name: HM Land Registry Price Paid Data (England & Wales)
+    access_url: https://www.gov.uk/government/collections/price-paid-data
+  - name: DVF — Demandes de Valeurs Foncieres (France)
+    access_url: https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+  - name: HDB Resale Flat Prices (Singapore)
+    access_url: https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view
+  - name: NYC Department of Finance Rolling Sales
+    access_url: https://www.nyc.gov/site/finance/about/open-portal.page
+  - name: Dubai Land Department Transactions
+    access_url: https://dubailand.gov.ae/en/open-data/
+  - name: Property Price Register (Ireland)
+    access_url: https://www.propertypriceregister.ie/
+references:
+  - title: API Documentation (Swagger UI)
+    reference: https://api.nwc-advisory.com/docs
+  - title: OpenAPI 3.1 Specification
+    reference: https://api.nwc-advisory.com/openapi.json
+  - title: Available Markets
+    reference: https://api.nwc-advisory.com/markets

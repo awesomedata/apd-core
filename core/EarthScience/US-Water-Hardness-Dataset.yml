@@ -1,0 +1,20 @@
+---
+title: US Water Hardness Dataset
+homepage: https://www.tapwaterdata.com/water-hardness
+category: EarthScience
+description: Measured drinking-water hardness for 16,561 US cities (mg/L as calcium carbonate and grains per gallon), each value carrying its source, tier, and sample date. Built from public primary sources - utility Consumer Confidence Reports, the EPA/USGS Water Quality Portal, and USGS classification bands - population-weighted per city and verified against a hand-checked golden sample. CSV + JSON, also mirrored on GitHub and Kaggle.
+version: '2026'
+keywords: water, water hardness, drinking water, calcium carbonate, united states, environment
+image:
+temporal: '2026'
+spatial: United States
+access_level: free / open download
+copyrights: TapWaterData
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://www.tapwaterdata.com/water-hardness/dataset
+language: English
+license: CC BY 4.0
+publisher: TapWaterData
+organization: TapWaterData
