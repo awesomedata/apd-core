@@ -1,0 +1,32 @@
+---
+title: Equipment Financing Rate Data
+homepage: https://github.com/bilaliftikhar2430-ux/equipment-financing-rate-data
+category: Economics
+description: Aggregate commercial equipment financing rate and estimated monthly payment benchmarks by category, computed from 449 individually priced, real machines across construction, agriculture, trucking, power equipment, and material handling. Every figure traces to a real machine with a sourced price and a real amortization calculation, not survey estimates.
+version: 1.0
+keywords: equipment financing, commercial lending, APR, amortization, open data, finance
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: P3D
+specification: https://www.equipmentcapitalindex.com/openapi.json
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Equipment Capital Index
+    web: https://www.equipmentcapitalindex.com
+organization:
+  - name: Equipment Capital Index
+    web: https://www.equipmentcapitalindex.com
+issued_time: 2026.08
+sources:
+  - name: Equipment Capital Index
+    access_url: https://www.equipmentcapitalindex.com/api/rate-report.json
+references:
+  - title: Permanent DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.22080110
+---
