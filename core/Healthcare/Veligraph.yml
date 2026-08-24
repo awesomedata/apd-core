@@ -1,0 +1,15 @@
+---
+title: Veligraph - African Health Facility Register
+homepage: https://www.veligraph.com/
+category: Healthcare
+description: A pan-African health facility register of 255,963 tracked facility records across 53 countries, normalized into one schema, deduplicated with geo-aware entity resolution and freshness-dated per record. Every facility has a stable ID and its own page carrying type, ownership and location, plus beds, staffing, services and licence status where the national register records them. Sources are national registers and ministry facility lists, with provenance tracked per record. Free browsable portal with a page per record and sample CSVs; a REST API and HL7 FHIR R4 resources (Location, Organization) are in early access.
+version: 1.0
+keywords: health facilities, hospitals, clinics, africa, health data, FHIR
+access_level: public
+language: en
+publisher:
+  - name: Veligraph
+    web: https://www.veligraph.com/
+organization:
+  - name: Veligraph
+    web: https://www.veligraph.com/
