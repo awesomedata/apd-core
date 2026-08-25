@@ -1,0 +1,19 @@
+---
+title: Garage-Conversion and ADU Building Permit Timelines for Four U.S. Cities
+homepage: https://github.com/asafichaki/permittimelines
+category: Government
+description: 64,427 residential garage-to-ADU and garage-to-habitable-room conversion permit applications for Los Angeles, San Diego, San Francisco and Seattle, with measured application-to-issuance waits, application-year cohort completion rates and small-cell-suppressed timeline aggregates. Prepared from each city's official open-data portal with a committed, dependency-free build script and documented method rules and caveats.
+version: 2026.1
+keywords: building permits, permit timeline, ADU, accessory dwelling unit, garage conversion, housing, open government data, Los Angeles, San Diego, San Francisco, Seattle
+image:
+temporal: 1980-2026
+spatial: California and Washington, United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/asafichaki/permittimelines/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
