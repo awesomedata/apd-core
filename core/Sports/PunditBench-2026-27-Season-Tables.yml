@@ -1,0 +1,29 @@
+---
+title: PunditBench 2026-27 Pre-Registered LLM Season-Table Predictions
+homepage: https://huggingface.co/datasets/skebbe/punditbench-2026-27-season-tables
+category: Sports
+description: Static snapshot of 204 pre-registered final league-table predictions from 40-42 language models across the Premier League, La Liga, Serie A, Bundesliga, and Ligue 1. Each row includes model and prompt identifiers, the predicted champion and full table, lock timestamps and SHA-256 digests, and exact source tags and commits; checksums and a provenance manifest are included.
+version: 1.0
+keywords: football, soccer, large language models, LLM, forecasting, benchmark, reproducibility, pre-registration
+image:
+temporal: 2026-2027
+spatial: England, France, Germany, Italy, Spain
+access_level: public
+copyrights:
+accrual_periodicity: static snapshot
+specification: https://huggingface.co/datasets/skebbe/punditbench-2026-27-season-tables/blob/main/README.md
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/skebbe/punditbench-2026-27-season-tables#what-is-in-each-row
+language: en
+license: No reuse license granted
+publisher:
+  - name: PunditBench
+    web: https://github.com/teemula35/punditbench
+organization:
+issued_time: 2026.08
+sources:
+  - name: Public pre-registration repository
+    access_url: https://github.com/teemula35/punditbench
+references:
+  - title: Methodology
+    reference: https://github.com/teemula35/punditbench/blob/main/METHODOLOGY.md
