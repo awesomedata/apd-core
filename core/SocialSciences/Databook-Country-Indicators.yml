@@ -1,0 +1,38 @@
+---
+title: Databook Country Indicators
+homepage: https://databook.dataint.net/
+category: SocialSciences
+description: Per-country reference profiles consolidating public statistical
+  indicators for 244 countries and territories, drawn from 108 openly licensed
+  datasets including World Bank WDI, WHO Global Health Observatory, UNESCO UIS,
+  UN DESA World Population Prospects and the CIA World Factbook. Each country is
+  covered across 15 sections (population, economy, health, education, labour,
+  governance, environment and energy, infrastructure, geography and others), and
+  every figure is shown with its source and reference year. Browse-only - no
+  registration, no paywall, no API or bulk download. Published in 25 languages.
+version: 2026
+keywords: country profiles,indicators,statistics,World Bank,WHO,UNESCO,reference data
+image:
+temporal: varies by indicator, most recent available year
+spatial: Global, 244 countries and territories
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: Source datasets under their own open licences; see the licensing page
+publisher:
+  - name: DataInt
+    web: https://dataint.net
+organization:
+  - name: DataInt
+    web: https://dataint.net
+issued_time: 2026
+sources:
+  - name: Sources and licences
+    access_url: https://databook.dataint.net/en/sources/
+references:
+  - title:
+    reference:

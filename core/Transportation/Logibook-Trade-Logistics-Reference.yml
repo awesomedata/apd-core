@@ -1,0 +1,40 @@
+---
+title: Logibook Trade and Logistics Reference
+homepage: https://logibook.dataint.net/
+category: Transportation
+description: Per-country trade and logistics reference profiles for 250 countries
+  and territories, built from 98 openly licensed datasets including the NGA World
+  Port Index, OurAirports, UN/LOCODE, SMDG code lists, UNCTAD liner shipping
+  connectivity, the World Bank Logistics Performance Index and CEPII BACI. Each
+  country breaks down into seven views (ports, airports, locations, trade, trade
+  zones, airlines and infrastructure), joining registries that are normally
+  published separately, so a port page also carries its nearest airport, city and
+  trade zone with distances. Every figure is shown with its source and reference
+  year. Browse-only - no registration, no paywall, no API or bulk download.
+  Published in 25 languages.
+version: 2026
+keywords: ports,airports,UN/LOCODE,logistics,trade,shipping,reference data
+image:
+temporal: varies by registry, most recent available edition
+spatial: Global, 250 countries and territories
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: Source datasets under their own open licences; see the licensing page
+publisher:
+  - name: DataInt
+    web: https://dataint.net
+organization:
+  - name: DataInt
+    web: https://dataint.net
+issued_time: 2026
+sources:
+  - name: Sources and licences
+    access_url: https://logibook.dataint.net/en/sources
+references:
+  - title:
+    reference:
