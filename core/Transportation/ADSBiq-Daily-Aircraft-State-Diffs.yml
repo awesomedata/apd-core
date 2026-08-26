@@ -1,6 +1,6 @@
 ---
 title: ADSBiq Daily Aircraft State Diffs
-homepage: https://adsbiq.com/data?utm_source=awesome-public-datasets&utm_medium=directory&utm_campaign=developer_ecosystem&utm_content=parquet
+homepage: https://adsbiq.com/data
 category: Transportation
 description: Free daily worldwide ADS-B aircraft state-diff exports from a community receiver network. Monthly GitHub releases contain one zstd-compressed Parquet file per UTC day, with row counts, SHA-256 checksums, schema documentation and no account requirement.
 version: 1
