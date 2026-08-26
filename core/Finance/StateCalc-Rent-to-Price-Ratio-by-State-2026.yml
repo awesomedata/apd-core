@@ -1,0 +1,39 @@
+---
+title: StateCalc Rent-to-Price Ratio by US State (2026)
+homepage: https://statecalc.com/data/rent-to-price-ratio-by-state/
+category: Finance
+description: A 50-state open dataset computing the monthly rent-to-price ratio, annual gross rental yield, gross rent multiplier, and a "meets the 1% rule" boolean for real estate investing, derived by dividing each state's HUD FY2026 two-bedroom Fair Market Rent (renter-household-weighted statewide average, via NLIHC's "Out of Reach 2026" compilation of HUD's official FY2026 dataset) by that state's Zillow Home Value Index (all-homes, mid-tier, smoothed and seasonally adjusted, June 2026). No smoothing, imputation, or adjustment is applied beyond the two published source series, and every row carries both source URLs and their vintage so a single copied-out row remains independently checkable. These are median-vs-median statewide ratios, not claims about individual properties -- because Fair Market Rent is a 40th-percentile housing-assistance standard rather than achievable market asking rent, the ratios published here run below what a renovated single-family rental can typically command. CSV and JSON, CC BY 4.0.
+version: 2026-07-29
+keywords: real estate, rent to price ratio, gross rental yield, gross rent multiplier, 1 percent rule, real estate investing, HUD Fair Market Rent, Zillow Home Value Index, rental property, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://statecalc.com/data/rent-to-price-ratio-by-state/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StateCalc
+    web: https://statecalc.com/
+organization:
+  - name: StateCalc
+    web: https://statecalc.com/
+issued_time: 2026.07
+sources:
+  - name: CSV download
+    access_url: https://statecalc.com/data/rent-to-price-ratio-by-state.csv
+  - name: JSON download
+    access_url: https://statecalc.com/data/rent-to-price-ratio-by-state.json
+  - name: Landing page with full methodology
+    access_url: https://statecalc.com/data/rent-to-price-ratio-by-state/
+references:
+  - title: Methodology (measurementTechnique, on-page JSON-LD Dataset schema)
+    reference: https://statecalc.com/data/rent-to-price-ratio-by-state/
+  - title: Source data - HUD Fair Market Rents
+    reference: https://www.huduser.gov/portal/datasets/fmr.html
+  - title: Source data - Zillow Research Home Value Index
+    reference: https://www.zillow.com/research/data/
