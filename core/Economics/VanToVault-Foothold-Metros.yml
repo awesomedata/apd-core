@@ -1,0 +1,31 @@
+---
+title: Van to Vault Foothold - Rent-vs-Own Screening Data for 83 U.S. Metros
+homepage: https://vantovault.com/library/foothold-score/
+category: Economics
+description: The dataset behind the Foothold screen, which tests where a first-time buyer with little cash can buy a two-to-four unit building, live in one unit and come out ahead of renting. 23,424 listings across 83 U.S. metro areas were screened against seven absolute tests covering price floor, FHA loan limit, condition by price per square foot, gross yield ceiling, neighborhood violent crime, residential abandonment and five-year home value trend. One row per metro with entry price, typical price, surviving listing count, monthly amount kept versus renting, keep ratio, rank and score. Available as CSV and JSON, no signup.
+version: 1.0
+keywords: housing, real estate, housing affordability, rent versus own, multifamily, metropolitan areas, united states
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://vantovault.com/library/foothold-score/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Van to Vault
+    web: https://vantovault.com/
+organization:
+  - name: Van to Vault
+    web: https://vantovault.com/
+issued_time: 2026.08
+sources:
+  - name: Van to Vault Foothold Index
+    access_url: https://vantovault.com/wp-content/uploads/2026/08/vantovault-foothold-metros.csv
+references:
+  - title: Foothold - rent-vs-own screen for 2-4 unit homes across 83 US metros (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.22019647

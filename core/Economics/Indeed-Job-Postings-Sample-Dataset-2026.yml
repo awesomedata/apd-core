@@ -1,0 +1,22 @@
+---
+title: Indeed Job Postings Sample Dataset (2026)
+homepage: https://huggingface.co/datasets/fact-den/indeed-job-postings-2026
+category: Economics
+description: Structured Indeed job postings with parsed numeric salaries (min/max, period, currency), locations, job types, remote flags, benefits and company attributes. CSV/JSON.
+version:
+keywords: jobs,salaries,labor-market,employment,hiring
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher: FactDen
+organization:
+issued_time:
+sources: []

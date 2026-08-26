@@ -1,0 +1,37 @@
+---
+title: Donald Trump Truth Social Posts Archive
+homepage: https://huggingface.co/datasets/Cameronk199/donald-trump-truth-social-posts
+category: SocialNetworks
+description: >
+  A source-linked archive of 35,882 public Truth Social posts associated with
+  Donald J. Trump's @realDonaldTrump account, covering February 2022 through
+  August 2026. The release includes timestamps, post types, original HTML,
+  extracted text, source URLs, analysis-ready Parquet and JSONL tables, 8,004
+  verified image derivatives with provenance indexes, and metadata or
+  transcripts for 5,756 video attachments.
+version: 2026.08.02
+keywords: truth social, donald trump, social media, politics, nlp, text analysis, images, parquet, time series
+image: https://huggingface.co/spaces/Cameronk199/truth-social-timeline-explorer/resolve/main/assets/truth-social-posting-volume.png
+temporal: 2022-02-14 to 2026-08-02
+spatial:
+access_level: public
+copyrights: Underlying post and media rights may belong to authors, uploaders, or third parties.
+accrual_periodicity: weekly
+specification: https://huggingface.co/datasets/Cameronk199/donald-trump-truth-social-posts#fields
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/Cameronk199/donald-trump-truth-social-posts#fields
+language: en
+license: Other; see the dataset rights and attribution notice
+publisher:
+  - name: Cameron Keplinger
+    web: https://huggingface.co/Cameronk199
+organization: []
+issued_time: 2026.06
+sources:
+  - name: Trumpstruth public status-detail archive
+    access_url: https://trumpstruth.org/
+references:
+  - title: Interactive timeline and search explorer
+    reference: https://huggingface.co/spaces/Cameronk199/truth-social-timeline-explorer
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/cameronkeplinger/donald-trump-truth-social-posts

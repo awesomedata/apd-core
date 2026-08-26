@@ -1,0 +1,26 @@
+---
+title: Brightcast Global Hope Index
+homepage: https://www.brightcast.news/open-data
+category: SocialSciences
+description: Daily 0-100 index measuring the volume and quality of verified
+  constructive/positive news, aggregated from per-article scores (hope, reach,
+  verification) with breakdowns by topic category and country. CSV/JSON
+  downloads of index history, category trends, and anonymized reading
+  patterns. Public methodology at https://www.brightcast.news/methodology.
+version:
+keywords: news,positivity,hope,constructive journalism,media,index
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: Brightcast
+organization: Brightcast
+issued_time:
+sources: []

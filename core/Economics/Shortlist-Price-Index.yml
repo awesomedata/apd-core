@@ -1,0 +1,45 @@
+---
+title: Shortlist Price Index
+homepage: https://github.com/ies86/shortlist-price-index
+category: Economics
+description: Monthly snapshots of entry-level list prices for software and services in four categories - cloud backup (17 providers), web hosting (13), SEO tools (15) and website builders (18). Each category folder contains a monthly index CSV (average, median and cheapest entry price in USD plus provider count per snapshot month), a per-provider CSV with the current entry price and a source URL, and the full current JSON payload including methodology. Prices are the lowest paid monthly plan per provider, free tiers excluded, verified and updated monthly since June 2026. CSV and JSON files can be downloaded directly without login.
+version: 1.0
+keywords: pricing, price index, SaaS, software prices, cloud backup, web hosting, SEO tools, website builders, time series, CSV
+image:
+temporal: 2026-present
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://github.com/ies86/shortlist-price-index#readme
+data_quality: true
+data_dictionary: https://github.com/ies86/shortlist-price-index#columns-in-monthly-indexcsv
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Orai Media
+    web: https://github.com/ies86/shortlist-price-index
+organization:
+  - name: Orai Media
+    web: https://github.com/ies86
+issued_time: 2026.06
+sources:
+  - name: Monthly CSV files per category
+    access_url: https://github.com/ies86/shortlist-price-index/tree/main/data
+  - name: Example raw CSV (cloud backup monthly index)
+    access_url: https://raw.githubusercontent.com/ies86/shortlist-price-index/main/data/backup/monthly-index.csv
+  - name: Live JSON endpoint (cloud backup, refreshed monthly)
+    access_url: https://backupshortlist.com/data/price-index.json
+  - name: Live JSON endpoint (web hosting, refreshed monthly)
+    access_url: https://hostingshortlist.com/data/price-index.json
+references:
+  - title: Methodology, cloud backup
+    reference: https://backupshortlist.com/methodology
+  - title: Methodology, web hosting
+    reference: https://hostingshortlist.com/methodology
+  - title: Methodology, SEO tools
+    reference: https://seoshortlist.com/methodology
+  - title: Methodology, website builders
+    reference: https://websiteshortlist.com/methodology
+  - title: Dataset license (CC BY 4.0)
+    reference: https://github.com/ies86/shortlist-price-index/blob/main/LICENSE

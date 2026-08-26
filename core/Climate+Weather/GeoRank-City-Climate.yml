@@ -1,0 +1,22 @@
+---
+title: GeoRank City Climate and Cost Dataset
+homepage: https://georank.place/data/cities-tools.json
+category: Climate+Weather
+description: Monthly climate normals for 478 world cities - sunshine hours, mean and daytime-high temperature, rainfall, and a modelled outdoor-comfort index derived from apparent temperature - alongside Numbeo-based cost-of-living fields. Satellite sunshine (SARAH-3, 1991-2020) is bias-corrected against 219 published station normals, each listed with its source and normals period.
+version:
+keywords: climate, weather, sunshine, temperature, rainfall, cities, cost of living, apparent temperature
+image:
+temporal: 1981-2010 (temperature, CHELSA v2.1); 1991-2020 (sunshine, SARAH-3)
+spatial: 478 cities worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: single JSON file, no authentication, no rate limit
+data_quality: Sunshine bias-corrected against 219 WMO/KNMI/ECA&D reference stations; methodology and per-station provenance published at https://georank.place/methodology
+data_dictionary: https://georank.place/methodology
+language: en
+license: CC BY 4.0
+publisher: GeoRank
+organization:
+issued_time:
+sources: []

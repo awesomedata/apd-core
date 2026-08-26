@@ -1,0 +1,30 @@
+title: Korean Football Team Names
+homepage: https://github.com/dwoony0909-tech/korean-football-team-names
+category: Sports
+description: English-to-Korean name mapping for 264 European club football teams, keyed on the club names returned by the football-data.org API. Covers the Premier League, La Liga, Serie A, Bundesliga and Ligue 1 including their second divisions, plus clubs met in the UEFA Champions League. Distributed as JSON and CSV with a Frictionless datapackage descriptor.
+version: 2.0.0
+keywords: football, soccer, Korean, transliteration, localization, sports data, open data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/dwoony0909-tech/korean-football-team-names/blob/main/datapackage.json
+language: en, ko
+license: CC0-1.0
+publisher:
+  - name: Walking Football
+    web: https://walking-football.com/
+organization:
+  - name: Walking Football
+    web: https://walking-football.com/
+issued_time: 2026.08
+sources:
+  - name: football-data.org
+    access_url: https://www.football-data.org/
+references:
+  - title: Zenodo archive
+    reference: https://doi.org/10.5281/zenodo.21884267

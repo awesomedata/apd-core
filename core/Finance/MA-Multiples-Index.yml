@@ -1,0 +1,31 @@
+---
+title: M&A Multiples Index (SMB & Lower-Middle-Market)
+homepage: https://github.com/nickcals/multiples
+category: Finance
+description: Open dataset of median EV/EBITDA and EV/Revenue valuation multiples for small-business and lower-middle-market mergers and acquisitions, broken out by sub-vertical and enterprise-value bracket. Derived from disclosed multiples in 25,000+ completed transactions (SEC EDGAR 8-K/S-4 filings, fairness opinions, and verified press releases); each published cell requires at least 10 disclosed deals, with no estimated or imputed values. Source window 2018-2026. Provided as machine-readable JSON.
+version: 1.0
+keywords: M&A, mergers and acquisitions, valuation, EV/EBITDA, EV/Revenue, multiples, private equity, SMB, middle market, finance.
+image:
+temporal: 2018-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://specs.frictionlessdata.io/
+data_quality: false
+data_dictionary: https://github.com/nickcals/multiples#schema-multiplesjson
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: ExitValue.ai
+    web: https://exitvalue.ai/methodology
+organization:
+  - name: ExitValue.ai
+    web: https://exitvalue.ai
+issued_time: 2026.06
+sources:
+  - name: Live JSON (continuously updated)
+    access_url: https://exitvalue.ai/data/multiples.json
+references:
+  - title: Dataset DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.20398222

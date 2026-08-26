@@ -1,0 +1,21 @@
+title: AI Tools Mortality and Product Hunt Graveyard 2026 (RightAIChoice)
+homepage: https://rightaichoice.com/state-of-ai-tools/graveyard
+category: Software
+description: Survival study of 2,291 top Product Hunt launches (2023-2025), individually probed and classified alive/dead/parked/redirected with per-product evidence; 24.4% of the 2,066 with a definitive verdict are dead. Includes live decay metrics from a continuously verified catalogue of 8,000+ AI tools. DOI-versioned on Zenodo (10.5281/zenodo.21598672), with a companion dataset of 191 tools whose domains redirect while passing liveness checks (10.5281/zenodo.22036427).
+version:
+keywords: AI tools, software mortality, link rot, Product Hunt, verification
+image:
+temporal: 2023-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: English
+license: CC BY 4.0
+publisher: RightAIChoice
+organization: RightAIChoice
+issued_time: 2026-07-26
+sources: []

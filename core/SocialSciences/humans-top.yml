@@ -1,0 +1,31 @@
+---
+title: humans.top — Influential People Ranking
+homepage: https://huggingface.co/datasets/dsfox/humans-top
+category: SocialSciences
+description: A live, daily-refreshed public-domain ranking of influential living people. Each row is a named person with a rank and tier, a concise biography in 15 languages, a Wikidata Q-ID and Wikipedia / official links, country of citizenship (ISO 3166-1), birth year and sex. Continuously updated; offered as CSV and JSONL.
+version: "2.0"
+keywords: people, public figures, influence, ranking, biographies, multilingual, wikidata, demographics, daily-updated
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0-1.0
+publisher:
+  - name: humans.top
+    web: https://humans.top/dataset
+organization:
+  - name: humans.top
+    web: https://humans.top/dataset
+issued_time: 2026
+sources:
+  - name: humans.top open dataset (all mirrors)
+    access_url: https://humans.top/dataset
+references:
+  - title: Zenodo (DOI)
+    reference: https://doi.org/10.5281/zenodo.20809207

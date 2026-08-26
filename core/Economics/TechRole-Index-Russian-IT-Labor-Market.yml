@@ -1,0 +1,34 @@
+---
+title: TechRole Index Russian IT Labor Market Dataset
+homepage: https://techrole.ru/open-data-daily
+category: Economics
+description: An updated 180-day transformed dataset of vacancy publication observations from official Russian open data, classified across 50 IT professions with creation date, profession, seniority, region, salary bounds, currency and tax-status metadata. Direct JSON and CSV downloads, schema, provenance and citation metadata require no login.
+version: "2026-07-25"
+keywords: Russia, IT jobs, labor market, salaries, vacancy publications, professions
+temporal: 2026-01-26 to present
+spatial: Russian Federation
+access_level: public
+copyrights: Attribution to trudvsem.ru is required for copied source-derived information.
+accrual_periodicity: daily
+specification: https://techrole.ru/open-data-daily.schema.json
+data_quality: true
+data_dictionary: https://techrole.ru/open-data-daily
+language: ru
+license: Russian Federal Open Data Terms
+publisher:
+  - name: TechRole Index
+    web: https://techrole.ru
+organization:
+  - name: TechRole Index
+    web: https://techrole.ru
+issued_time: 2026.07
+sources:
+  - name: Работа России open data
+    access_url: https://trudvsem.ru/opendata/datasets
+references:
+  - title: TechRole Index methodology
+    reference: https://techrole.ru/methodology
+  - title: Weekly IT vacancy publication research, 18-24 July 2026
+    reference: https://techrole.ru/insights/it-vacancy-publications-week-2026-07-18-2026-07-24
+  - title: Archived dataset release (DOI)
+    reference: https://doi.org/10.5281/zenodo.21559744

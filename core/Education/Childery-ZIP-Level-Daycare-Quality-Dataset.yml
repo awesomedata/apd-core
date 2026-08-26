@@ -1,0 +1,39 @@
+---
+title: Childery ZIP-Level Daycare Quality Dataset
+homepage: https://childery.com/data
+category: Education
+description: Aggregate quality and supply statistics for US daycares at the ZIP Code Tabulation Area level. 20,433 rows (10,870 publishable, 9,563 suppressed under Census small-area k=5 rule to prevent single-facility re-identification). 25 columns including provider counts, licensed capacity, slots-per-1000-children-under-5, mean Childery 1-5 quality ratings (Overall / Process / Structural), QRIS participation share, NAEYC and Head Start shares, inspection-finding rates, complaint substantiation rate, and access metrics (infant care, weekend hours, extended hours). Underlying corpus covers 224,578 licensed providers across all 50 states and DC. Inspection-finding metrics computed from parsed state records for ~30 states; per-ZCTA coverage is surfaced via a pct_with_inspection_history column so analysts see where data is dense vs sparse.
+version: 1.0
+keywords: daycare, child care, early childhood education, QRIS, NAEYC, ZIP code, ZCTA, child care quality, licensed providers, inspection
+image:
+temporal: 2026
+spatial: United States (50 states + DC)
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://childery.com/data
+language: en
+license: Creative Commons Attribution 4.0 International (CC-BY 4.0) — https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Childery
+    web: https://childery.com
+organization:
+  - name: Childery
+    web: https://childery.com
+issued_time: 2026.06
+sources:
+  - name: State child-care licensing portals (50 states + DC)
+    access_url:
+  - name: US Census Bureau ACS 5-year 2019-2023
+    access_url: https://api.census.gov/data/2023/acs/acs5
+  - name: Census 2020 ZCTA-to-county relationship file
+    access_url: https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/
+  - name: NAEYC accreditation roster
+    access_url: https://www.naeyc.org/
+  - name: Head Start program data
+    access_url: https://eclkc.ohs.acf.hhs.gov/
+references:
+  - title: Childery methodology
+    reference: https://childery.com/methodology

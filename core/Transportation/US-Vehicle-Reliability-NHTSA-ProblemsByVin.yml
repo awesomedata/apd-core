@@ -1,0 +1,23 @@
+---
+title: US Vehicle Reliability - NHTSA Owner Complaints & Recalls
+homepage: https://huggingface.co/ProblemsByVin
+category: Transportation
+description: Derived open datasets from the US National Highway Traffic Safety Administration (NHTSA) owner-complaint and recall record, model years 2005-2026. Includes failure-mileage quartiles, post-warranty failure patterns, verified recall gaps, engine and transmission complaint density, NHTSA defect investigations, and a per-vehicle reliability scorecard. Distributed as CSV.
+version: 1.0
+keywords: vehicles, automotive, NHTSA, vehicle reliability, recalls, owner complaints, failure analysis
+image:
+temporal: 2005-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: ProblemsByVin
+organization:
+issued_time:
+sources: []

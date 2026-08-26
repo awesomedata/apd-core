@@ -1,0 +1,33 @@
+---
+title: US State Sales Tax 2026
+homepage: https://github.com/receiptedit/us-sales-tax-2026
+category: Government
+description: Free MIT-licensed dataset of 2026 US state sales tax rates and lodging taxes for all 50 US states. Includes statewide sales tax, average combined state + local rate, lodging-specific taxes (TOT, occupancy, tourism), grocery taxation rules, and top 5 cities per state. Available as CSV and JSON files, plus a free public REST API.
+version: 2026.1
+keywords: sales tax, US states, lodging tax, finance, taxes, open data, public API
+image:
+temporal: 2026
+spatial: United States, all 50 states
+access_level: public
+copyrights: ReceiptEdit
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/receiptedit/us-sales-tax-2026/blob/main/README.md
+language: en
+license: MIT
+publisher:
+  - name: ReceiptEdit
+    web: https://receiptedit.com
+organization:
+  - name: ReceiptEdit
+    web: https://receiptedit.com
+issued_time: 2026.06
+sources:
+  - name: Tax Foundation
+    access_url: https://taxfoundation.org/
+  - name: State Departments of Revenue
+    access_url:
+references:
+  - title: Sales Tax Calculator by State
+    reference: https://receiptedit.com/sales-tax

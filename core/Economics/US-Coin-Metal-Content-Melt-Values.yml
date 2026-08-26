@@ -1,0 +1,38 @@
+---
+title: US Coin Metal Content & Melt Values
+homepage: https://github.com/mixseomin/us-coin-melt-data
+category: Economics
+description: >
+  Fine precious-metal and base-metal content of common US coins (silver and
+  gold in troy ounces, copper and nickel in grams) as JSON and CSV - the stable
+  constants needed to compute coin melt value from live metals spot prices. The
+  canonical junk-silver figures plus copper/nickel circulation coins, sourced
+  from US Mint specifications and the Red Book.
+version: 2026
+keywords: coins, numismatics, silver, gold, melt value, precious metals, junk silver, commodities, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: Public fact (US Mint coin specifications)
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/mixseomin/us-coin-melt-data#whats-inside
+language: en
+license: Public domain (coin specifications)
+publisher:
+  - name: mintalmanac.com
+    web: https://mintalmanac.com
+organization:
+  - name: US Mint (source specifications)
+    web: https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications
+issued_time: 2026
+sources:
+  - name: US Mint coin specifications
+    access_url: https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications
+references:
+  - title: Coin metal content CSV
+    reference: https://raw.githubusercontent.com/mixseomin/us-coin-melt-data/main/csv/coin-metal-content.csv
+  - title: Compositions JSON
+    reference: https://raw.githubusercontent.com/mixseomin/us-coin-melt-data/main/data/coin-compositions.json

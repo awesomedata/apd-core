@@ -1,0 +1,30 @@
+---
+title: Russian Given Names — 1,551 names with meanings and ZAGS popularity
+homepage: https://github.com/mdanina/nen-imena-dataset
+category: NaturalLanguage
+description: 1,551 Russian given names (809 male, 742 female) with origin, short meaning, editorial etymology notes, diminutive and international forms, and popularity ranks among newborns based on open data from Moscow civil registry offices (ZAGS). Useful as a gazetteer for NER, transliteration and onomastics research. CSV and JSON, downloadable directly.
+version: 1.0
+keywords: russian, given names, onomastics, gazetteer, NER, demographics, baby names
+temporal:
+spatial: Russia
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/mdanina/nen-imena-dataset#схема
+language: ru
+license: CC BY 4.0
+publisher:
+  - name: NEN («Нет, это нормально»), Russian parenting magazine
+    web: https://n-e-n.ru/imena/
+organization:
+  - name:
+    web:
+issued_time: 2026.07
+sources:
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/magdadanina/russian-names-nen
+references:
+  - title:
+    reference:

@@ -1,0 +1,33 @@
+---
+title: Marbella Price Data
+homepage: https://github.com/shiftdylson1/marbella-price-data
+category: Economics
+description: Open datasets of consumer prices on the Marbella (Spain) beachfront, season 2026, from the independent price tracker Marbella Wire. Three related tables as CSV and JSON - a census of 43 chiringuitos (beach restaurants) with menu-sourced dish prices, 14 beach clubs with sunbed, bed and minimum-spend prices, and a Sunbed Index of what two sunbeds cost per venue in high season. Every row carries the venue's own source URL, unit, verification date and licence; each table ships a data dictionary (COLUMNS.md) and a PROVENANCE.md. Nothing is estimated or interpolated - one number in the source is one number in the data.
+version: 2026
+keywords: prices, consumer prices, tourism, hospitality, Spain, Marbella, restaurants, beach clubs, cost of living
+image:
+temporal: 2026
+spatial: Marbella, Spain
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: seasonal
+specification:
+data_quality: true
+data_dictionary: https://github.com/shiftdylson1/marbella-price-data/blob/main/beach-clubs/COLUMNS.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Marbella Wire
+    web: https://marbellawire.com/
+organization:
+  - name: Marbella Wire
+    web: https://marbellawire.com/
+issued_time: 2026.08
+sources:
+  - name: Marbella Price Data (GitHub, CSV + JSON)
+    access_url: https://github.com/shiftdylson1/marbella-price-data
+  - name: Sunbed Index (live CSV endpoint)
+    access_url: https://marbellawire.com/data/sunbed-index.csv
+references:
+  - title: The Marbella Wire Sunbed Index
+    reference: https://marbellawire.com/prices/sunbeds/

@@ -1,0 +1,22 @@
+---
+title: G2 Software Reviews Sample Dataset (500 reviews, 27 fields)
+homepage: https://huggingface.co/datasets/fact-den/g2-team-collaboration-reviews-sample
+category: SocialNetworks
+description: 500 structured G2 reviews across 5 team-collaboration tools - overall rating, six sub-ratings, structured pros/cons, switched-from competitor and reviewer context. CSV/JSON/JSONL, also mirrored on Kaggle.
+version:
+keywords: reviews,b2b,software,saas,ratings
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher: FactDen
+organization:
+issued_time:
+sources: []

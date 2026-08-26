@@ -1,0 +1,29 @@
+---
+title: Texas TDLR Contractor Bond Compliance
+homepage: https://contact219.github.io/texas-tdlr-bond-compliance-2026/
+category: Government
+description: Bond compliance status for 816,000+ Texas-licensed contractors and notaries, sourced from TDLR and Texas SOS public records. 29.3% non-compliance rate across 22 license types. Published by Quantum Surety Bond Watch with monthly updates.
+version:
+keywords:
+  - Texas
+  - surety bonds
+  - contractor licensing
+  - compliance
+  - TDLR
+  - government
+image:
+temporal:
+spatial: Texas, United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary:
+language: English
+license: CC0
+publisher: Quantum Surety Bond Watch
+organization:
+issued_time:
+sources:
+  - https://data.texas.gov/dataset/TDLR-Licensees/7358-krk7

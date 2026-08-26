@@ -1,0 +1,26 @@
+---
+title: US Class-Action & Refund Settlements
+homepage: https://settlesignal.com/settlements/
+category: Government
+description: Verified catalog of US class-action and government refund settlements with claim deadlines, proof requirements, status, and official claim links. Public fields are free to use with attribution; per-field provenance is licensed.
+version:
+keywords:
+  - class action settlements
+  - settlement claim deadlines
+  - consumer refunds
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: Free to use with attribution; per-field provenance licensed
+publisher: SettleSignal
+organization: SettleSignal
+issued_time:
+sources:
+  - https://settlesignal.com/data/settlements.json

@@ -1,0 +1,22 @@
+---
+title: US Farmers Market Statistics 2026
+homepage: https://harvestlymarkets.com/farmers-market-statistics/
+category: Agriculture
+description: State-by-state statistics for ~7,056 US farmers markets — per-state counts, SNAP/EBT acceptance share (~13%), certified-organic share (~15%), and share with a working website (~31%). Downloadable as CSV and JSON. Derived from the USDA AMS Local Food Portal.
+version:
+keywords: farmers markets, local food, SNAP, EBT, organic, USDA, agriculture
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification: https://harvestlymarkets.com/farmers-market-statistics/
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: Harvestly Markets
+organization: Harvestly Markets
+issued_time: 2026.06
+sources: []

@@ -1,0 +1,41 @@
+---
+title: WhatsApp Business Platform Open Data
+homepage: https://github.com/procom-dev/whatsapp-open-data
+category: SocialNetworks
+description: A dated, sourced open dataset of the WhatsApp Business Platform in three parts. (1) Meta's per-message API rate card - 38 markets and regions in each of the 16 currencies Meta publishes, plus volume-tier thresholds and rates for marketing, utility and authentication. (2) Current WhatsApp product limits - group and community size, broadcast lists, message length, media and file sizes, forwarding, calls, linked devices and Business-app limits. (3) A change ledger of every recorded pricing change since 2019, with provenance and the figures before and after. Available as JSON (each file an envelope carrying its own licence, attribution, source and verification date) and CSV, plus a CORS-open API. A weekly job keeps the mirror in step with the source.
+version: 1.0
+keywords: whatsapp, messaging, pricing, telecommunications, api, business, limits
+image:
+temporal: 2019-2026
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://wha.tools/api/data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: WhaTools
+    web: https://wha.tools
+organization:
+  - name: procom.dev
+    web: https://procom.dev
+issued_time: 2026.08
+sources:
+  - name: Open data API (JSON, CORS-open)
+    access_url: https://wha.tools/api/data
+  - name: GitHub (JSON + CSV, weekly-refreshed)
+    access_url: https://github.com/procom-dev/whatsapp-open-data
+  - name: Hugging Face Datasets
+    access_url: https://huggingface.co/datasets/WhaTools/whatsapp-open-data
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/procomdev/whatsapp-business-platform-open-data
+references:
+  - title: WhatsApp Business API pricing calculator and rate tables
+    reference: https://wha.tools/whatsapp-api-pricing
+  - title: WhatsApp limits and rules
+    reference: https://wha.tools/whatsapp-limits
+  - title: WhatsApp API pricing change history
+    reference: https://wha.tools/whatsapp-api-pricing-history

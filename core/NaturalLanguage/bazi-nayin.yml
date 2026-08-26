@@ -1,0 +1,32 @@
+---
+title: BaZi Nayin - Chinese-English terminology mapping
+homepage: https://github.com/Shann5/bazi-nayin
+category: NaturalLanguage
+description: The thirty nayin (纳音) of the Chinese sexagenary calendar with English translations, as JSON and CSV. Each of the 30 entries gives the Chinese term, tone-marked pinyin, an English rendering, the Five-Element class, and the two stem-branch (ganzhi) pairs it covers, so all 60 calendar pairs are keyed. English sources render these terms inconsistently - the same term appears three or four different ways across sources, which makes them impossible to join across datasets - so this set fixes one rendering and documents the principles behind it.
+version: 1.0
+keywords: chinese, chinese-english, bilingual, terminology, glossary, translation, sexagenary cycle, nayin
+temporal:
+spatial:
+access_level: public
+copyrights: Auspice Oracle
+accrual_periodicity:
+specification: https://github.com/Shann5/bazi-nayin#the-table
+data_quality: false
+data_dictionary: https://github.com/Shann5/bazi-nayin#data
+language: en, zh
+license: CC-BY-4.0
+publisher:
+  - name: Auspice Oracle
+    web: https://auspiceoracle.com
+organization:
+  - name: Auspice Oracle
+    web: https://auspiceoracle.com
+issued_time: 2026.08
+sources:
+  - name: nayin.json
+    access_url: https://raw.githubusercontent.com/Shann5/bazi-nayin/main/data/nayin.json
+  - name: nayin.csv
+    access_url: https://raw.githubusercontent.com/Shann5/bazi-nayin/main/data/nayin.csv
+references:
+  - title: The 30 Nayin, explained
+    reference: https://auspiceoracle.com/en/content/nayin

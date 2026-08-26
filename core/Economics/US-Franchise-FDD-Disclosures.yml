@@ -1,0 +1,27 @@
+---
+title: US Franchise FDD Disclosure Statistics
+homepage: https://franchisefactsreport.com/data/
+category: Economics
+description: Per-brand headline facts from 450+ officially registered US Franchise Disclosure Documents (FDDs), one row per franchise brand. Total initial investment range (Item 7), initial franchise fee (Item 5), royalty (Item 6), whether the franchisor discloses earnings (Item 19) with the headline average unit revenue where disclosed, franchised outlet counts, closures and terminations (Item 20), and franchisee-initiated lawsuit counts (Item 3). Sourced from state franchise registries (Minnesota CARDS, Wisconsin DFI). Direct CSV download, no login; DOI-minted and mirrored on Zenodo, Kaggle, Hugging Face and GitHub.
+version: 1.0
+keywords: franchise, FDD, franchise disclosure document, Item 19, franchise cost, franchise fees, franchise failure rate, small business, entrepreneurship
+image:
+temporal: 2023-2026
+spatial: United States
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://franchisefactsreport.com/data/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Franchise Facts Report
+    web: https://franchisefactsreport.com/
+sources:
+  - name: Minnesota Dept. of Commerce CARDS franchise registrations
+    access_url: https://cards.web.commerce.state.mn.us/franchise-registrations
+references:
+  - title: Zenodo record (DOI)
+    reference: https://doi.org/10.5281/zenodo.21346096

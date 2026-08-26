@@ -1,0 +1,35 @@
+---
+title: LandedSpec Construction-Import Decision Registers
+homepage: https://landedspec.com/methodology/#research-assets
+category: Economics
+description: Three open CSV registers for construction-material import planning, covering aluminium-profile tooling and finish acceptance, supplier document requirements, and FOB/CIF/DAP quote-scope comparison. Includes 175 source-labelled buyer-side control records, a SHA-256 manifest, authoritative landing pages, and explicit unresolved-field and professional-confirmation boundaries.
+version: '2026.07.19'
+keywords: construction imports, procurement, supplier documents, SDRL, Incoterms, FOB, CIF, DAP, aluminium profiles, quote comparison, CSV
+image:
+temporal: '2024-2026 source context; 2026 release'
+spatial: Europe, Germany, China, Turkey
+access_level: public
+copyrights: LandedSpec-authored selection, calculations, labels, and explanatory notes are CC BY 4.0; underlying source data remains subject to the named providers' rights and terms.
+accrual_periodicity: irregular
+specification: https://raw.githubusercontent.com/vykut/landedspec-open-data/v2026.07.19/manifest.json
+data_quality: true
+data_dictionary: https://github.com/vykut/landedspec-open-data/blob/v2026.07.19/README.md
+language: en
+license: CC BY 4.0
+publisher: LandedSpec
+organization: LandedSpec
+issued_time: '2026-07-19'
+sources:
+  - name: Aluminium profile tooling and finish acceptance register
+    access_url: https://github.com/vykut/landedspec-open-data/releases/download/v2026.07.19/aluminium-profile-tooling-finish-acceptance-register.csv
+  - name: Supplier document requirements list template
+    access_url: https://github.com/vykut/landedspec-open-data/releases/download/v2026.07.19/supplier-document-requirements-list-template.csv
+  - name: FOB, CIF, and DAP construction quote comparison
+    access_url: https://github.com/vykut/landedspec-open-data/releases/download/v2026.07.19/fob-cif-dap-construction-quote-comparison.csv
+references:
+  - title: Versioned release and assets
+    reference: https://github.com/vykut/landedspec-open-data/releases/tag/v2026.07.19
+  - title: License and provider-rights terms
+    reference: https://github.com/vykut/landedspec-open-data/blob/v2026.07.19/LICENSE.md
+  - title: Software Heritage preserved release state
+    reference: https://archive.softwareheritage.org/swh:1:dir:8f1e848ada6d2288e00acaf2f4d9f25a47d24a9a;origin=https://github.com/vykut/landedspec-open-data;visit=swh:1:snp:acfc238f04fea6af66e9b73fdefd7ab584495e9f;anchor=swh:1:rev:20198a57ae4e469152178fc20a84d00a9327ed61/

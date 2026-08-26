@@ -1,0 +1,31 @@
+---
+title: OpenPowerlifting
+homepage: https://www.openpowerlifting.org/
+category: Sports
+description: Open archive of the world's powerlifting competition results — 3.9+ million meet entries covering squat, bench press and deadlift with lifter sex, age, bodyweight, equipment and federation. Full database downloadable as a single CSV, updated continuously by an open-source community project.
+version:
+keywords: powerlifting, strength sports, competition results, squat, bench press, deadlift
+image:
+temporal: 1964-present
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://openpowerlifting.gitlab.io/opl-csv/bulk-csv-docs.html
+language: en
+license: CC0 1.0 (public domain)
+publisher:
+  - name: OpenPowerlifting
+    web: https://www.openpowerlifting.org/
+organization:
+  - name: OpenPowerlifting (open-source community project)
+    web: https://gitlab.com/openpowerlifting/opl-data
+issued_time:
+sources:
+  - name: OpenPowerlifting bulk data
+    access_url: https://data.openpowerlifting.org/
+references:
+  - title:
+    reference:
