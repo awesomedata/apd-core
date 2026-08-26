@@ -1,0 +1,29 @@
+---
+title: TOEIC raw-to-scaled score approximation curve
+homepage: https://github.com/alice51849/lumi-open-data/tree/master/toeic-score-conversion
+category: Education
+description: A transparent raw-correct to scaled-score reference curve for TOEIC Listening & Reading, 101 rows per section covering 0-100 raw correct answers. ETS does not publish one universal conversion table - official scores are equated per test form - so this set is explicitly an approximation for practice-test estimation, built by linear interpolation through published preparation-chart anchor points in 5-point scaled increments, with the same curve used for both sections so neither is implicitly favoured. The method and its limits are stated inside the file. JSON, directly downloadable, no login.
+version: 2026-07-01
+keywords: TOEIC, language testing, score conversion, English proficiency, practice tests
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+organization:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+issued_time: 2026-07
+sources:
+  - name: toeic-raw-to-scaled.json
+    access_url: https://raw.githubusercontent.com/alice51849/lumi-open-data/master/toeic-score-conversion/toeic-raw-to-scaled.json
+references: []

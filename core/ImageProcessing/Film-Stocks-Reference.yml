@@ -1,0 +1,29 @@
+---
+title: Photographic film stocks reference
+homepage: https://github.com/alice51849/lumi-open-data/tree/master/film-stocks
+category: ImageProcessing
+description: 25 well-known photographic film stocks with their characteristics in machine-readable form, for film-simulation work, photography education and image metadata tooling. The file notes that availability, datasheets and emulsion characteristics change over time and that manufacturer documentation is authoritative for technical decisions. JSON, directly downloadable, no login.
+version: 2026-07-01
+keywords: film photography, film stocks, film simulation, color grading, image metadata
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+organization:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+issued_time: 2026-07
+sources:
+  - name: film-stocks.json
+    access_url: https://raw.githubusercontent.com/alice51849/lumi-open-data/master/film-stocks/film-stocks.json
+references: []
