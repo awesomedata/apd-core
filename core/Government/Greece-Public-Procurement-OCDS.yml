@@ -1,0 +1,37 @@
+---
+title: Greece Public Procurement (Diavgis)
+homepage: https://diavgis.gr
+category: Government
+description: Greek public procurement records aggregated from official sources — Διαύγεια (Diavgeia, the national transparency portal where every public decision must be published), ΚΗΜΔΗΣ (KIMDIS, the central electronic registry of public contracts) and TED (Tenders Electronic Daily, the EU-wide procurement journal). Records belonging to the same procurement are linked into a contracting process, so a tender, the award that followed it, the signed contract and the payments made against it can be read as one sequence. Published as OCDS 1.1 release packages over a free keyless HTTP API, plus a REST API, Markdown/llms.txt surfaces and an MCP server for AI agents. Counterparties that are natural persons are redacted at source under EU and Greek data protection law. CPV codes and NUTS regions normalized.
+version: "1.1"
+keywords: procurement, public procurement, government contracts, Greece, Diavgeia, KIMDIS, TED, OCDS, open contracting, CPV, NUTS, tenders, public spending, transparency, open data
+image: https://diavgis.gr/og.png
+temporal: 2026-present
+spatial: Greece (all NUTS-2 regions)
+access_level: public
+copyrights: Diavgis
+accrual_periodicity: daily
+specification: https://api.diavgis.gr/ocds
+data_quality: true
+data_dictionary: https://diavgis.gr/methodology
+language: el, en
+license: CC-BY-4.0
+publisher:
+  - name: Diavgis
+    web: https://diavgis.gr
+organization:
+issued_time: "2026-08-14"
+sources:
+  - name: Διαύγεια (Diavgeia)
+    web: https://diavgeia.gov.gr
+  - name: ΚΗΜΔΗΣ (KIMDIS)
+    web: https://www.eprocurement.gov.gr
+  - name: TED (Tenders Electronic Daily)
+    web: https://ted.europa.eu
+references:
+  - title: OCDS 1.1 endpoint (licence, coverage, endpoints)
+    reference: https://api.diavgis.gr/ocds
+  - title: Methodology
+    reference: https://diavgis.gr/methodology
+  - title: MCP server for AI agents
+    reference: https://github.com/diavgis/diavgis-mcp
