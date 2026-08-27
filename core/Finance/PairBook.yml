@@ -1,0 +1,22 @@
+---
+title: PairBook US Stock & ETF Correlation Data
+homepage: https://www.pairbook.io/data/
+category: Finance
+description: Correlation, covariance, beta, volatility and ETF holdings overlap for 4,700+ US-listed stocks and ETFs, recomputed every trading day from end-of-day prices and issuer portfolio disclosures. Free JSON API with no key, CORS enabled, OpenAPI 3.1 spec, and a CSV snapshot on Kaggle.
+version:
+keywords: stocks,etf,correlation,covariance,beta,volatility,holdings-overlap
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://www.pairbook.io/api/openapi.json
+data_quality: false
+data_dictionary:
+language: en
+license: Free with attribution
+publisher: PairBook
+organization:
+issued_time:
+sources: []
