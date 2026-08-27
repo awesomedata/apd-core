@@ -1,0 +1,45 @@
+---
+title: VS Code Marketplace Extension Installs - 64,490 extensions, 50,468 publishers, real install counts
+homepage: https://github.com/sujeito-operator/vscode-marketplace-data
+category: Software
+description: "Install counts for 64,490 Visual Studio Code extensions from 50,468 publishers, collected August 2026 from the Marketplace's own public extensionquery API with no login and nothing behind authentication. The Marketplace publishes an install count per extension, so this measures installed demand directly rather than using ratings or reviews as a stand-in for it, which is what comparable marketplace datasets have to do. One row per extension: publisher id and display name, extension id and display name, category, install count, download count, update count, rating, rating count, weekly trending score, release date, last-updated date and version, in both JSONL and CSV. 5,688,542,991 installs are represented. Median 804, quartiles 133 and 3,519, maximum 231,321,041. The distribution is extremely concentrated: the top 1% of extensions hold 87.4% of installs in this sample, the top 5% hold 96.1% and the top 10% hold 98.0%; 86.1% of publishers have exactly one extension and the largest has 286; 65.2% of extensions have not been updated in 12 months. LIMITS, stated because they change what the file can answer. THIS IS NOT A CENSUS AND IT IS HEAD-BIASED: each category was paged in install order until a cap, so in any category larger than that cap the extensions below it were never reached, and the long tail is under-represented. Every 'under N installs' figure is therefore a FLOOR, not an estimate \u2014 at least 22.5% of extensions have under 100 installs and at least 54.4% have under 1,000, and the true shares are higher. The concentration figures are conservative for the same reason. An install is what the Marketplace reports: it counts installs, not active users and not retention, and because the Marketplace has no paid tier an install is not a sale. Extensions listed in several categories are counted once, under the first category seen. 24 of the 64,514 collected rows are excluded from the published files because their publisher id is a 52-character base32 string that GitHub's secret scanning misclassifies as a credential; they are public identifiers, they are listed in data/omitted-rows.md, and the collector regenerates them. Two publisher display names contained a live-looking publish token pasted by their owners; those two values are replaced with a redaction marker and were reported to Microsoft before publication. The crawler and the summariser are both in the repository, so the figures can be recomputed rather than trusted. Data CC BY 4.0, code MIT."
+version: 1.0
+keywords: visual studio code, vscode, marketplace, extensions, developer tools, installs, software ecosystem, plugin ecosystem, jsonl, csv, open data
+image:
+temporal: 2026-08 snapshot
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/sujeito-operator/vscode-marketplace-data#method-and-what-it-cannot-tell-you
+data_quality: true
+data_dictionary: https://github.com/sujeito-operator/vscode-marketplace-data#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Sujeito Operator
+    web: https://github.com/sujeito-operator
+organization:
+issued_time: 2026.08
+sources:
+  - name: Citable archive on Zenodo, CC BY 4.0 - concept DOI, always resolves to the current version
+    access_url: https://doi.org/10.5281/zenodo.21854363
+  - name: One row per extension (JSONL)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/data/extensions.jsonl
+  - name: The same rows as CSV
+    access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/data/extensions.csv
+  - name: Machine-readable summary, including the sampling caveat
+    access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/data/summary.json
+  - name: The rows excluded from the published files, listed in full
+    access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/data/omitted-rows.md
+  - name: Collector source
+    access_url: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/scripts/crawl.py
+references:
+  - title: Citable archive with a DOI (Zenodo, CC BY 4.0)
+    reference: https://doi.org/10.5281/zenodo.21854363
+  - title: Sampling method, and what the dataset cannot tell you
+    reference: https://github.com/sujeito-operator/vscode-marketplace-data#method-and-what-it-cannot-tell-you
+  - title: Read this before quoting anything - the head bias, stated
+    reference: https://github.com/sujeito-operator/vscode-marketplace-data#read-this-before-quoting-anything
+  - title: Summariser source
+    reference: https://raw.githubusercontent.com/sujeito-operator/vscode-marketplace-data/main/scripts/summarize.py
