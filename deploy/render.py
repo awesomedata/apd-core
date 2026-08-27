@@ -11,8 +11,8 @@ from mako.template import Template
 from requests.adapters import HTTPAdapter
 
 session = requests.Session()
-session.mount("http://", HTTPAdapter(max_retries=3))
-session.mount("https://", HTTPAdapter(max_retries=3))
+session.mount("http://", HTTPAdapter(max_retries=1))
+session.mount("https://", HTTPAdapter(max_retries=1))
 
 
 def scan_core_data(core_dir, validate_link=False):
@@ -56,7 +56,7 @@ def do_validate_link(link):
         if link.startswith("http") or link.startswith("https"):
             try:
                 # TODO: validate redirection
-                rsp = session.get(link, timeout=8)
+                rsp = session.get(link, timeout=4)
                 _status = False if 400 <= rsp.status_code < 600 else True
                 time.sleep(0.2)  # Be nice to servers
             except Exception as e:
