@@ -1,0 +1,39 @@
+---
+title: Mental Health Startup Graveyard
+homepage: https://zenodo.org/records/22125661
+category: Healthcare
+description: 542 digital mental health organizations that left the market between 2000 and 2026, each coded on up to 26 fields including business model, who the paying customer was, funding raised, reason for market exit, published clinical evidence, presence of a medical co-founder, country and years of operation. Compiled from Crunchbase, CB Insights, Tracxn, public deadpool databases, app store removals, domain data and trade press, with every company confirmed against at least two independent sources. A separate file documents the reasoning behind each coding decision, so the judgement calls can be audited. Known limits are stated in the README, among them that funding is disclosed for 322 of the 542 companies and that the sample is a graveyard rather than a random cross-section of the market.
+version: '1.0'
+keywords: mental health, digital health, telehealth, digital therapeutics, startups, business models, company shutdowns, market exit, health technology
+image:
+temporal: 2000/2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://mentalium.me/data/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Mentalium
+    web: https://mentalium.me/
+organization:
+  - name: Mentalium
+    web: https://mentalium.me/
+issued_time: 2026-08-27
+sources:
+  - name: Zenodo record
+    access_url: https://doi.org/10.5281/zenodo.22125660
+  - name: CSV download
+    access_url: https://mentalium.me/data/mh-graveyard-companies.csv
+  - name: JSON download
+    access_url: https://mentalium.me/data/mh-graveyard-companies.json
+  - name: Coding rationale, CSV
+    access_url: https://mentalium.me/data/mh-graveyard-labels-rationale.csv
+references:
+  - title: Dataset landing page with column reference and method
+    reference: https://mentalium.me/en/research/mental-health-startup-graveyard-dataset/
+  - title: Mirror deposit on Figshare
+    reference: https://doi.org/10.6084/m9.figshare.33350502
