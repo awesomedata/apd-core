@@ -34,4 +34,4 @@ references:
   - title: Methodology
     reference: https://diavgis.gr/methodology
   - title: MCP server for AI agents
-    reference: https://github.com/omegaaistudio/diavgis-mcp
+    reference: https://github.com/diavgis/diavgis-mcp
