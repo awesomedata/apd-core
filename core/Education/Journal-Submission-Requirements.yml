@@ -1,0 +1,24 @@
+---
+title: Journal Submission Requirements - Author guidelines of 7,239 academic journals
+homepage: https://github.com/scraiber/journal-submission-requirements
+category: Education
+description: Normalized submission requirements for 7,239 academic journals, collected from each journal's own author guidelines. Covers word limits, abstract word limits, reference caps, page/figure/keyword limits per manuscript type, with source URLs, plus journal metadata (ISSNs, publisher, h-index) and OpenAlex field/domain mapping for every journal. Two CSVs plus aggregate statistics; analysis at https://scraiber.com/journal-statistics.
+version: 2026.08
+keywords: academic publishing, journals, author guidelines, submission requirements, word limits, scholarly communication
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/scraiber/journal-submission-requirements#whats-inside
+language: English
+license: CC-BY-4.0
+publisher:
+  - name: Scraiber
+    web: https://scraiber.com
+organization:
+issued_time: 2026-08-27
+sources: []
