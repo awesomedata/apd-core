@@ -8,6 +8,7 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     environment: deployment-key-pass
+    timeout-minutes: 60
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
