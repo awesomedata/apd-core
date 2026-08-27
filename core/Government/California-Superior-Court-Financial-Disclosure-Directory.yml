@@ -1,0 +1,41 @@
+---
+title: California Superior Court Financial-Disclosure Directory
+homepage: https://communityproperty.ai/datasets/california-court-financial-disclosure-directory/
+category: Government
+description: >
+  An independently maintained 58-row directory mapping every California county
+  to official superior-court and public self-help starting points used for
+  financial-disclosure research. Each CSV row includes the county, official
+  court URL, self-help URL, appellate district, review date and scope note. The
+  release includes a field dictionary, SHA-256 manifest and citation files, and
+  contains no client, case or matter data.
+version: 2026.08.19
+keywords: California courts, superior court, family law, financial disclosure, public legal information, county directory, open legal data
+image:
+temporal: 2026
+spatial: California, United States
+access_level: public
+copyrights: Community Property
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://communityproperty.ai/downloads/research-data-dictionary.csv
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Community Property research desk
+    web: https://communityproperty.ai/datasets/
+organization:
+  - name: Community Property
+    web: https://communityproperty.ai/
+issued_time: 2026.08.19
+sources:
+  - name: California superior-court financial-disclosure directory (CSV)
+    access_url: https://communityproperty.ai/downloads/california-superior-court-financial-disclosure-directory.csv
+references:
+  - title: Version and SHA-256 manifest
+    reference: https://communityproperty.ai/downloads/research-dataset-manifest.json
+  - title: Versioned public data release
+    reference: https://github.com/EconLearn/community-property-data/releases/tag/v2026.08.19
+  - title: California Courts find-your-court directory
+    reference: https://courts.ca.gov/find-your-court
