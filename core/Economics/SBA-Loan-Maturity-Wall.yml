@@ -1,0 +1,30 @@
+---
+title: SBA Loan Maturity Wall
+homepage: https://scouly.com/data
+category: Economics
+description: An open dataset computing the maturity year of 66,307 SBA 7(a)/504 small-business loans (from the SBA's public FOIA files), counted by year and broken out by US state, industry, and metro — a forward calendar of likely small-business ownership changes, from the same records most SBA analysis only studies backward at origination. Long-format CSV, 4,218 rows. Near-term maturities peak in 2027 (2,737); the full series peaks in 2035 (3,510). Free, no signup.
+version: 1.0
+keywords: SBA, small business, acquisitions, mergers and acquisitions, loans, FOIA, economics, search fund, public records
+image:
+temporal: 1993-2056
+spatial: United States
+access_level: public
+copyrights: CC0-1.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://scouly.com/blog/sba-loan-maturity-wall
+language: en
+license: CC0-1.0
+publisher:
+  - name: Scouly
+    web: https://scouly.com
+organization:
+  - name: Scouly
+    web: https://scouly.com
+issued_time: 2026.07
+sources:
+  - name: SBA Loan Maturity Wall (national + regional cuts, CSV)
+    access_url: https://scouly.com/data/sba-maturity-wall.csv
+  - name: GitHub repository
+    access_url: https://github.com/Nishkal2010/sba-loan-maturity-wall
