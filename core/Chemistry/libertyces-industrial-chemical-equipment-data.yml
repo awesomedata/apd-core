@@ -1,0 +1,31 @@
+---
+title: LibertyCES Industrial Chemical Equipment Data
+homepage: https://data.libertyces.com
+category: Chemistry
+description: Real, open industrial chemical equipment engineering data — chemical material compatibility ratings across PVC, PP, PVDF, PFA, PTFE, and 316 stainless steel (551 rows), peristaltic pump tube compatibility (368 chemicals x 3 elastomer materials), centrifugal pump material resistance with numeric max-temperature limits (280 chemicals x 15 materials), and elastomer seal material compatibility (2,110 chemicals x 5 seal materials). Published by LibertyCES, an industrial distributor of pumps, valves, tanks, and chemical feed systems for municipal water/wastewater treatment, chemical processing, mining, and semiconductor manufacturing. All data sourced from real published vendor chemical resistance charts; no fabricated values.
+version: 1.0
+keywords: chemical compatibility, material science, industrial equipment, water treatment, wastewater treatment, corrosion resistance, elastomers, pumps
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://data.libertyces.com/llms.txt
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Liberty Chemical Equipment & Supply, Inc.
+    web: https://www.libertyces.com
+organization:
+  - name: LibertyCES
+    web: https://www.libertyces.com
+issued_time: 2026.08
+sources:
+  - name: LibertyCES Data
+    access_url: https://data.libertyces.com/datasets/
+references:
+  - title: LibertyCES Industrial Chemical Equipment Data (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.22052436

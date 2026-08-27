@@ -5,7 +5,6 @@
 The core meta of awesome-public-datasets.
 
 ## How to contribute
-### Note: Primary maintainer on vacation until Aug 24. Pull requests will be viewed upon my return
 
 Please refer to the instructions of [CONTRIBUTING](https://github.com/awesomedata/apd-core/blob/master/CONTRIBUTING.md) or latest [Wiki](https://github.com/awesomedata/apd-core/wiki).
 

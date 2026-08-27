@@ -1,0 +1,29 @@
+---
+title: Chinese zodiac sexagenary cycle, 1924-2044
+homepage: https://github.com/alice51849/lumi-open-data/tree/master/chinese-zodiac
+category: SocialSciences
+description: 121 consecutive years of the Chinese sexagenary (ganzhi) cycle, each row giving the heavenly stem, earthly branch, zodiac animal and five-element class for the year whose Lunar New Year falls in that Gregorian year. The derivation is published with the data - 1924 anchored as Jia-Zi Wood Rat, then modulo 10 and modulo 12 from there - so any row can be checked rather than trusted. The file states plainly that zodiac years follow the lunisolar calendar, so dates before Lunar New Year belong to the previous row; that boundary is where most implementations get this wrong. JSON, directly downloadable, no login.
+version: 2026-07-01
+keywords: Chinese calendar, sexagenary cycle, ganzhi, zodiac, lunisolar calendar, five elements
+image:
+temporal: 1924-2044
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+organization:
+  - name: Lumi Studio
+    web: https://github.com/alice51849/lumi-open-data
+issued_time: 2026-07
+sources:
+  - name: chinese-zodiac.json
+    access_url: https://raw.githubusercontent.com/alice51849/lumi-open-data/master/chinese-zodiac/chinese-zodiac.json
+references: []

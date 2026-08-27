@@ -1,0 +1,42 @@
+---
+title: 'KI-Zugangsindex: robots.txt longitudinal panel of 600 German (.de) domains'
+homepage: https://peppe1337.github.io/ki-zugangsindex/
+category: ComputerNetworks
+description: >-
+  A repeated robots.txt measurement of a fixed panel of 600 German .de domains
+  (300 highest-ranked and a systematic sample of 300 with Tranco rank above
+  50,000). Records for each domain whether each of 14 AI crawler user-agents is
+  disallowed from / under RFC 9309, including the wildcard fallback. First
+  measurement point 2026-08-25 -- 77 of 235 top domains (32.8%) and 31 of 210
+  small domains (14.8%) block at least one of GPTBot, OAI-SearchBot, ClaudeBot
+  or PerplexityBot. The panel is never re-drawn, so the series measures change
+  rather than sampling differences. All 600 raw robots.txt responses and the
+  parser are included.
+version: 1.0.0
+keywords: robots.txt, ai crawlers, gptbot, claudebot, perplexitybot, germany, .de domains, longitudinal, web measurement
+image:
+temporal: 2026
+spatial: Germany (.de top-level domain)
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: de
+license: CC BY 4.0 (data), MIT (code)
+publisher:
+- name: Christopher Kraft
+  web: https://peppe1337.github.io/ki-zugangsindex/
+organization:
+- name: Christopher Kraft
+  web: https://peppe1337.github.io/ki-zugangsindex/
+issued_time: 2026
+sources:
+- name: Repository with raw data and measurement code
+  access_url: https://github.com/peppe1337/ki-zugangsindex
+- name: Dataset page
+  access_url: https://peppe1337.github.io/ki-zugangsindex/
+references:
+- title:
+  reference:

@@ -1,0 +1,38 @@
+---
+title: US Visa Bulletin Priority Date History
+homepage: https://github.com/mixseomin/visa-bulletin-history
+category: Government
+description: >
+  The monthly US Department of State Visa Bulletin parsed into structured JSON
+  and CSV. Family-sponsored and employment-based categories, both Final Action
+  Dates and Dates for Filing charts, for all chargeability areas (worldwide,
+  China, India, Mexico, Philippines), as a time series (2,700 rows across 18
+  monthly bulletins, Feb 2025 - Jul 2026). Public-domain US Government data.
+version: 2026
+keywords: immigration, visa bulletin, priority date, green card, USCIS, employment based, family based, United States
+image:
+temporal: 2025-2026
+spatial: United States
+access_level: public
+copyrights: US Government public domain (17 U.S.C. 105)
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/mixseomin/visa-bulletin-history#csv-schema
+language: en
+license: Public Domain (US Government work)
+publisher:
+  - name: visagps.com
+    web: https://visagps.com
+organization:
+  - name: US Department of State (source)
+    web: https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html
+issued_time: 2026
+sources:
+  - name: US Department of State Visa Bulletin
+    access_url: https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html
+references:
+  - title: Priority dates CSV
+    reference: https://raw.githubusercontent.com/mixseomin/visa-bulletin-history/main/csv/visa-bulletin-priority-dates.csv
+  - title: Full history JSON
+    reference: https://raw.githubusercontent.com/mixseomin/visa-bulletin-history/main/data/history.json

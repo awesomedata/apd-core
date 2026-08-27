@@ -1,0 +1,31 @@
+---
+title: Open Jobs Data
+homepage: https://github.com/ConorsCode/open-jobs-data
+category: Economics
+description: Open job postings collected daily from the public APIs of nine applicant tracking systems (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Recruitee, Personio, BambooHR) for a fixed curated list of ~90 companies, normalized into a single schema. Around 16,000 live postings per snapshot, each with company, platform, title, department, locations, remote flag, employment type, apply URL and posting date. Refreshed every day by GitHub Actions. Public, unauthenticated sources only; no personal data. Available as JSON and CSV.
+version: 1.0
+keywords: jobs, job postings, labor market, hiring, applicant tracking systems, employment, recruiting
+image:
+temporal: 2026-
+spatial:
+access_level: public
+copyrights: MIT License
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/ConorsCode/open-jobs-data/blob/main/data/README.md
+language: en
+license: MIT
+publisher:
+organization:
+issued_time: 2026.08
+sources:
+  - name: Open Jobs Data (JSON)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-jobs-data/main/data/jobs.json
+  - name: Open Jobs Data (CSV)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-jobs-data/main/data/jobs.csv
+  - name: Snapshot summary (JSON)
+    access_url: https://raw.githubusercontent.com/ConorsCode/open-jobs-data/main/data/summary.json
+references:
+  - title: Schema and methodology
+    reference: https://github.com/ConorsCode/open-jobs-data/blob/main/data/README.md

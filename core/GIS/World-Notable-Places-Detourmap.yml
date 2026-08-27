@@ -2,12 +2,12 @@
 title: World Notable Places (Detourmap)
 homepage: https://detourmap.com/data/
 category: GIS
-description: 70,343 notable places worth a detour worldwide — ancient sites, waterfalls, caves, castles, museums, ghost towns and more across 348 countries and territories, each with coordinates, kind, founding year, fame rank, a photo and an English Wikipedia link. Selection is deterministic from ~50 Wikidata classes (no editorial or AI-generated content); fame rank comes from Wikidata sitelink counts. Direct CSV and GeoJSON downloads, no login required.
+description: 40,703 notable places worth a detour worldwide — natural wonders and archaeological sites, from waterfalls, caves, volcanoes, gorges and coves to ruins, tombs, ghost towns, shipwrecks, catacombs and mines — across 231 countries and territories, each with coordinates, kind, founding year, fame rank, a photo and an English Wikipedia link. Selection is deterministic from Wikidata classes (no editorial or AI-generated content); fame rank comes from Wikidata sitelink counts. Direct CSV and GeoJSON downloads, no login required. Note that the archived snapshots linked below predate an August 2026 narrowing and carry a wider cut of ~71.8k places that also included castles, churches, museums and gardens.
 version: 1.0.0
 keywords: points of interest, landmarks, travel, tourism, geography, geojson, wikidata, open data
 image:
 temporal:
-spatial: worldwide (348 countries and territories)
+spatial: worldwide (231 countries and territories)
 access_level: public
 copyrights:
 accrual_periodicity: irregular

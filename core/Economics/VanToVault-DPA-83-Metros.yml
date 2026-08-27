@@ -2,7 +2,7 @@
 title: Van to Vault DPA Survey - Down Payment Assistance in 83 U.S. Metros
 homepage: https://vantovault.com/library/down-payment-assistance-duplex/
 category: Economics
-description: A hand-checked 2026 survey of down payment assistance availability across 83 U.S. metro areas, answering a question program websites rarely state directly - whether an owner-occupant can use assistance to buy a two-to-four unit property and live in one unit. Each metro records the program name, advertised maximum assistance, a source URL, an as-of date, and a status field separating program_found (69 metros) from none_found (10) and unconfirmed (4), so a checked-but-empty metro is never confused with an unchecked one. Several state and local agencies confirmed or corrected entries in writing during compilation. Available as CSV and JSON, no signup.
+description: A hand-checked 2026 survey of down payment assistance availability across 83 U.S. metro areas, answering a question program websites rarely state directly - whether an owner-occupant can use assistance to buy a two-to-four unit property and live in one unit. Each metro records the program name, advertised maximum assistance, a source URL, an as-of date, and a status field separating program_found (72 metros) from none_found (9) and unconfirmed (2), so a checked-but-empty metro is never confused with an unchecked one. Several state and local agencies confirmed or corrected entries in writing during compilation. Available as CSV and JSON, no signup.
 version: 1.0
 keywords: housing, down payment assistance, first time home buyer, housing policy, united states, metropolitan areas
 image:
@@ -28,4 +28,4 @@ sources:
     access_url: https://vantovault.com/wp-content/uploads/2026/08/vantovault-dpa-83-metros.csv
 references:
   - title: Down payment assistance for 2-4 unit owner-occupied purchase, 83 US metros (Zenodo)
-    reference: https://doi.org/10.5281/zenodo.22019631
+    reference: https://doi.org/10.5281/zenodo.22019630
