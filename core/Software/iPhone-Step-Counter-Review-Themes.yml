@@ -1,0 +1,37 @@
+---
+title: What iPhone Step Counter Reviews Talk About
+homepage: https://angelstep.app/data/review-themes
+category: Software
+description: Counts of what 7,859 unique US App Store reviews of ten iPhone step counter apps talk about, matched against 21 themes by a hand-written dictionary of phrasings and split by rating band (1-2, 3-4 and 5 stars). It contains no review text, no author names and no per-review records - only counts, with the denominator on every row, so any share can be recomputed from the file. Joins to the store-listing survey of the same category on app_store_id. Published as JSON and CSV under CC BY 4.0.
+version: 1.0
+keywords: app reviews, app store, ios, mobile apps, pedometer, user feedback, text classification
+image:
+temporal: 2026-08-19
+spatial: United States App Store
+access_level: public
+copyrights: Compilation, structure, theme dictionary and method CC BY 4.0; no review text is republished
+accrual_periodicity: never
+specification: https://angelstep.app/data/step-counter-reviews.json
+data_quality: true
+data_dictionary: https://angelstep.app/data/review-themes
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Angel Step
+    web: https://angelstep.app
+organization:
+  - name: Angel Step
+    web: https://angelstep.app
+issued_time: 2026.08
+sources:
+  - name: Canonical JSON
+    access_url: https://angelstep.app/data/step-counter-reviews.json
+  - name: Canonical CSV
+    access_url: https://angelstep.app/data/step-counter-reviews.csv
+  - name: GitHub mirror
+    access_url: https://github.com/33nyc/step-counter-review-themes
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/thee3/step-counter-review-themes
+references:
+  - title: Starter notebook on Kaggle
+    reference: https://www.kaggle.com/code/light33/step-counter-reviews-a-first-look
