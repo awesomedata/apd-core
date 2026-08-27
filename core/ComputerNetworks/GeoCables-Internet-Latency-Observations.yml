@@ -1,0 +1,22 @@
+---
+title: GeoCables Internet Latency & Routing Observations
+homepage: https://geocables.com/dataset
+category: ComputerNetworks
+description: Daily aggregated round-trip latency measured from an independent probe network, plus routing anomalies detected from those measurements. Vantage points include regions under-represented in public measurement datasets. CSV/JSON with manifest and checksums, updated daily.
+version:
+keywords: internet latency,network measurement,submarine cables,routing anomaly,RTT
+image:
+temporal: 2026-07/present
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: GeoCables
+organization: GeoCables
+issued_time:
+sources: []
