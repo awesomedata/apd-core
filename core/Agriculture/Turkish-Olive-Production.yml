@@ -1,0 +1,39 @@
+---
+title: Turkish Olive Production Data
+homepage: https://github.com/yudumnet/zeytinnet
+category: Agriculture
+description: Olive and olive oil production in Turkiye at province, region and variety level. 45 provinces with 2024-25 season figures (table/oil split, tree counts, yield per tree, coordinates), an eleven-season series for the six largest producing provinces, area and output shares for five regions, and a mapping of 38 olive varieties to their growing regions. CSV, with a bilingual data dictionary and full source citations.
+version: 1.0
+keywords: olive, olive oil, Turkiye, Turkey, agriculture, crop production, horticulture, province, region, variety, zeytin, zeytinyagi, dataset, CSV
+image: https://zeytin.net/varlik/gorsel/turkiye-zeytin-haritasi.svg
+temporal: 2014-2025
+spatial: Turkiye
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/yudumnet/zeytinnet/blob/main/KAYNAKLAR.md
+language: tr, en
+license: CC BY 4.0
+publisher:
+  - name: zeytin.net
+    web: https://zeytin.net/
+organization:
+  - name: zeytin.net
+    web: https://zeytin.net/
+issued_time: 2026.08
+sources:
+  - name: Province production, 2024-25 season (CSV)
+    access_url: https://raw.githubusercontent.com/yudumnet/zeytinnet/main/veri/il-uretim-2024-25.csv
+  - name: Eleven-season series for six provinces (CSV)
+    access_url: https://raw.githubusercontent.com/yudumnet/zeytinnet/main/veri/il-seri-11-sezon.csv
+  - name: Regional area and output shares (CSV)
+    access_url: https://raw.githubusercontent.com/yudumnet/zeytinnet/main/veri/bolge.csv
+  - name: Variety to region mapping (CSV)
+    access_url: https://raw.githubusercontent.com/yudumnet/zeytinnet/main/veri/cesit-bolge.csv
+references:
+  - title: Data dictionary and source citations
+    reference: https://github.com/yudumnet/zeytinnet/blob/main/KAYNAKLAR.md
+  - title: Interactive olive map of Turkiye
+    reference: https://zeytin.net/zeytin-haritasi
