@@ -1,8 +1,8 @@
 ---
-title: The Specialty Bag Index
+title: Specialty Coffee Bag Price Index (The Specialty Bag Index)
 homepage: https://mycoffeeexplorer.com/reference/coffee-statistics-2026
 category: Economics
-description: Public coffee retail-price data with three directly downloadable CSV distributions. The 2026-08-16 snapshot includes aggregate statistics from 72,764 valid USD-priced listings across 9,698 brands, origin-level price summaries, price-tier rating summaries, and eight reading dates for a 1,676-item weekly tracked basket. Listed bag prices are not normalized per ounce; the raw weekly median and separate matched-item change answer different questions. Methodology, coverage, limitations, and citation guidance are public without login.
+description: Public specialty coffee retail-price data with three directly downloadable CSV distributions. Unit for every price column (average_price_usd, median_price_usd, median_listed_price_usd) is US dollars per retail bag of whole-bean coffee at whatever bag size the seller lists online; bag sizes vary and are not normalized to weight, so a value such as Panama 35.37 is the average listed price per bag, not per ounce or per pound. The 2026-08-16 snapshot includes aggregate statistics from 72,764 valid USD-priced listings across 9,698 brands, origin-level price summaries, price-tier rating summaries, and eight reading dates for a 1,676-item weekly tracked basket. The raw weekly median and the separate matched-item change answer different questions. Methodology, coverage, limitations, and citation guidance are public without login.
 version: '2026.08.16'
 keywords: specialty coffee, coffee prices, retail pricing, price index, consumer prices, coffee origins, CSV, open data
 image:
