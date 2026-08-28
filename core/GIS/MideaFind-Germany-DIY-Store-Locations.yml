@@ -1,0 +1,33 @@
+---
+title: MideaFind Germany DIY Store Locations
+homepage: https://mideafind.com/marktabdeckung-karte.html#datenqualitaet
+category: GIS
+description: Versioned JSON dataset of 1,314 known DIY-store locations across six retail groups in Germany, derived from an OpenStreetMap Overpass snapshot dated 2 July 2026. Includes retailer, name, address fields, coordinates, OSM source identifiers, attribution, license metadata, and published quality metrics. The dataset describes geographic coverage only and contains no inventory, prices, demand, sales, or retailer-partnership claims.
+version: "2026-07-02"
+keywords: Germany, DIY stores, retail locations, OpenStreetMap, Overpass, geospatial, point data, STAC
+image:
+temporal: "2026-07-02 snapshot"
+spatial: Germany
+access_level: public
+copyrights: © OpenStreetMap contributors
+accrual_periodicity: irregular
+specification: https://mideafind.com/data/stac/catalog.json
+data_quality: true
+data_dictionary: https://mideafind.com/marktabdeckung-karte.html#datenqualitaet
+language: de, en
+license: Open Data Commons Open Database License 1.0
+publisher:
+  - name: MideaFind
+    web: https://mideafind.com/
+organization:
+  - name:
+    web:
+issued_time: "2026.07"
+sources:
+  - name: OpenStreetMap Overpass API
+    access_url: https://www.openstreetmap.org/
+references:
+  - title: Quality report and methodology
+    reference: https://mideafind.com/data/diy-store-data-quality.json
+  - title: STAC catalog
+    reference: https://mideafind.com/data/stac/catalog.json
