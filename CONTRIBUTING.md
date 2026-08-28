@@ -2,9 +2,9 @@
 
 ## On AwesomeData community
 
-The [AwesomeData community](https://awesomedataworld.slack.com) [[JOIN](https://join.slack.com/t/awesomedataworld/shared_invite/zt-dllew5xy-PJYi~mWUdY3hupohbmVZsA)] consists primarily, although not solely, of its online presence in mailing lists and activities such as blog postings and comments, the GitHub repository, and so on. The vision of the AwesomeData community is contributing a pure list of `high quality` datasets for open communities such as academia, research, education etc.
+The [AwesomeData community](https://awesomedataworld.slack.com) [[JOIN](https://join.slack.com/t/awesomedataworld/shared_invite/zt-dllew5xy-PJYi~mWUdY3hupohbmVZsA)] consists primarily, although not solely, of its online presence in mailing lists and activities such as blog postings and comments, the GitHub repository, and so on. The vision of the AwesomeData community is to contribute a pure list of `high quality` datasets for open communities such as academia, research, education, etc.
 
-The following policy is a guideline to propose new data items and maintain existing items with outdated information:
+The following policy is a guideline for proposing new data items and maintaining existing items with outdated information:
 
 1. A dataset is considered as `high quality` when one or more of the following criteria are met:
     * Uncommon to obtain in the open community legally;
@@ -12,9 +12,11 @@ The following policy is a guideline to propose new data items and maintain exist
     * Able to be downloaded directly from the linked site, i.e., not barred by login or purchasing;
     * No advertisement! No Spam! No reputation promotion!
 
-2. A new pull request will be merged into the core repository after passing automatic validation and maintainer's review.
+2. If you have a site that makes use of datasets stored somewhere like GitHub or Hugging Face, please point directly at that `repository` rather than the page that `uses` the datasets.
 
-3. An existing dataset item with outdated information (e.g., unavailable site) will be removed after a while without new update.
+3. A new pull request will be merged into the core repository after passing automatic validation and maintainer's review.
+
+4. An existing dataset item with outdated information (e.g., an unavailable site) will be removed after a while without a new update.
 
 ## How to contribute a new data entry
 
