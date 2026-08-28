@@ -1,6 +1,6 @@
 ---
 title: MideaFind Germany DIY Store Locations
-homepage: https://mideafind.com/data/stores.de.json
+homepage: https://mideafind.com/marktabdeckung-karte.html#datenqualitaet
 category: GIS
 description: Versioned JSON dataset of 1,314 known DIY-store locations across six retail groups in Germany, derived from an OpenStreetMap Overpass snapshot dated 2 July 2026. Includes retailer, name, address fields, coordinates, OSM source identifiers, attribution, license metadata, and published quality metrics. The dataset describes geographic coverage only and contains no inventory, prices, demand, sales, or retailer-partnership claims.
 version: "2026-07-02"
