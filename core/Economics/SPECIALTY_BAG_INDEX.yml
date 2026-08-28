@@ -1,0 +1,37 @@
+---
+title: Specialty Coffee Bag Price Index (The Specialty Bag Index)
+homepage: https://mycoffeeexplorer.com/reference/coffee-statistics-2026
+category: Economics
+description: Public specialty coffee retail-price data with three directly downloadable CSV distributions. Unit for every price column (average_price_usd, median_price_usd, median_listed_price_usd) is US dollars per retail bag of whole-bean coffee at whatever bag size the seller lists online; bag sizes vary and are not normalized to weight, so a value such as Panama 35.37 is the average listed price per bag, not per ounce or per pound. The 2026-08-16 snapshot includes aggregate statistics from 72,764 valid USD-priced listings across 9,698 brands, origin-level price summaries, price-tier rating summaries, and eight reading dates for a 1,676-item weekly tracked basket. The raw weekly median and the separate matched-item change answer different questions. Methodology, coverage, limitations, and citation guidance are public without login.
+version: '2026.08.16'
+keywords: specialty coffee, coffee prices, retail pricing, price index, consumer prices, coffee origins, CSV, open data
+image:
+temporal: '2026-07-04/2026-08-16'
+spatial:
+access_level: public
+copyrights: My Coffee Explorer
+accrual_periodicity: weekly
+specification: https://mycoffeeexplorer.com/coffee-price-index/methodology
+data_quality: true
+data_dictionary: https://mycoffeeexplorer.com/reference/coffee-statistics-2026#methodology
+language: en
+license:
+publisher:
+  - name: My Coffee Explorer
+    web: https://mycoffeeexplorer.com
+organization:
+  - name: My Coffee Explorer
+    web: https://mycoffeeexplorer.com
+issued_time: '2026-08-16'
+sources:
+  - name: Specialty Bag Index weekly history CSV
+    access_url: https://mycoffeeexplorer.com/data/specialty-bag-index-weekly.csv
+  - name: Specialty coffee origin price statistics CSV
+    access_url: https://mycoffeeexplorer.com/data/specialty-coffee-origin-prices.csv
+  - name: Specialty coffee price tiers and ratings CSV
+    access_url: https://mycoffeeexplorer.com/data/specialty-coffee-price-tiers.csv
+references:
+  - title: Coffee Statistics 2026 report and citation guidance
+    reference: https://mycoffeeexplorer.com/reference/coffee-statistics-2026
+  - title: Specialty Bag Index methodology and limitations
+    reference: https://mycoffeeexplorer.com/coffee-price-index/methodology
