@@ -1,6 +1,6 @@
 ---
 title: SBA 7(a) Loan Charge-Off Rates 1992-2026
-homepage: https://financeclearly.com/sba-7a-loan-data/
+homepage: https://github.com/Chadhauser/sba-7a-chargeoff-rates
 category: Finance
 description: Charge-off rates computed from the complete public record of US Small Business Administration 7(a) lending, fiscal years 1992 to 2026. Covers 1,912,539 loans, of which 1,363,711 have reached a conclusion by being either paid in full or charged off. Aggregated by state, NAICS industry and franchise brand. Franchise brand names are normalised before aggregation, correcting for the same brand appearing under multiple spellings in the source file.
 version: 1.0.0
@@ -15,3 +15,7 @@ data_quality: true
 data_dictionary: https://github.com/Chadhauser/sba-7a-chargeoff-rates
 language: en
 license: CC BY 4.0
+publisher:
+  - name: Finance Clearly
+    web: https://financeclearly.com
+citation: Edwards, P. (2026). SBA 7(a) Loan Charge-Off Rates 1992-2026. Finance Clearly. https://doi.org/10.5281/zenodo.22132218
