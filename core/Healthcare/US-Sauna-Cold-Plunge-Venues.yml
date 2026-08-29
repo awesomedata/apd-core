@@ -1,6 +1,6 @@
 ---
 title: US Sauna & Cold Plunge Venue Data
-homepage: https://findsaunaplunge.com/data/us-sauna-cold-plunge/
+homepage: https://github.com/findsaunaplunge/data
 category: Healthcare
 description: Cold plunge, sauna and contrast-therapy venues across 23 US metros (548 venues, August 2026), each record carrying the date its details were last checked. Published water and sauna temperatures and single-visit, day-pass and membership prices are read from each venue's own pages and shipped with the source URL, capture date and verbatim quote. Absent fields mean the venue does not publish the detail, never zero. Monthly snapshots as JSON and CSV.
 version: v2026.08
