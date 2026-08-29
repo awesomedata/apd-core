@@ -1,0 +1,35 @@
+---
+title: US Sauna & Cold Plunge Venue Data
+homepage: https://github.com/findsaunaplunge/data
+category: Healthcare
+description: Cold plunge, sauna and contrast-therapy venues across 23 US metros (548 venues, August 2026), each record carrying the date its details were last checked. Published water and sauna temperatures and single-visit, day-pass and membership prices are read from each venue's own pages and shipped with the source URL, capture date and verbatim quote. Absent fields mean the venue does not publish the detail, never zero. Monthly snapshots as JSON and CSV.
+version: v2026.08
+keywords: sauna, cold plunge, ice bath, contrast therapy, recovery, wellness venues, prices, temperatures, United States
+image:
+temporal: 2026-07 to present, monthly snapshots
+spatial: United States, 23 metropolitan areas
+access_level: public
+copyrights: FindSaunaPlunge
+accrual_periodicity: monthly
+specification: https://findsaunaplunge.com/api/
+data_quality: true
+data_dictionary: https://github.com/findsaunaplunge/data#what-is-in-a-record
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FindSaunaPlunge
+    web: https://findsaunaplunge.com
+organization:
+  - name: FindSaunaPlunge
+    web: https://findsaunaplunge.com
+issued_time: 2026.08
+sources:
+  - name: GitHub (monthly snapshots, JSON + CSV)
+    access_url: https://github.com/findsaunaplunge/data
+  - name: Zenodo (DOI, all versions)
+    access_url: https://doi.org/10.5281/zenodo.22132913
+  - name: Live feed
+    access_url: https://findsaunaplunge.com/api/v1/venues.json
+references:
+  - title: How the data is checked
+    reference: https://findsaunaplunge.com/how-we-verify/
