@@ -1,0 +1,24 @@
+---
+title: Pokemon Card Centering Measurements
+homepage: https://zenodo.org/records/21788534
+category: Entertainment
+description: 320 measured centering readings (front-border left/right and top/bottom percentages) across 302 individual raw Pokemon card eBay listings, each labeled against the PSA 10 (Gem Mint) and PSA 9 centering thresholds. 154 of 320 (48.1%) pass the PSA 10 threshold. Measurements taken directly from listing photos using a computer-vision border-detection pipeline, spanning March-July 2026. Public eBay item IDs included per row so a measurement can be checked against its source photo. Direct CSV download, no login; DOI-minted and mirrored on Zenodo, Kaggle, Hugging Face and GitHub.
+version: 1.0
+keywords: pokemon, trading cards, PSA grading, gem mint, card centering, collectibles, computer vision, image measurement
+image:
+temporal: 2026-03-07 to 2026-07-15
+spatial: N/A (eBay listings, United States marketplace)
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://gemsnipe.com/centering-study/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: GemSnipe
+    web: https://gemsnipe.com/
+references:
+  - title: Zenodo record (DOI)
+    reference: https://doi.org/10.5281/zenodo.21788534
