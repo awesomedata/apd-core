@@ -1,6 +1,6 @@
 ---
 title: Pokemon Card Sold-Price Reference by Grade
-homepage: https://gemsnipe.com/cards/
+homepage: https://zenodo.org/records/22124729
 category: Entertainment
 description: Median sold-price reference for 486 Pokemon cards across raw (ungraded), PSA 9, and PSA 10 eBay sales, compiled from real graded and ungraded sold comps. Each row carries the median price and sample count for raw/PSA9/PSA10, a confidence flag by sample size, and the PSA10-over-PSA9 grading premium multiple (median 4.9x across cards with both grades). Reference pricing only, sorted by trading volume, not a ranked opportunity list. Direct CSV download, no login; DOI-minted and mirrored on Zenodo, Kaggle, Hugging Face, GitHub and OSF.
 version: 1.0
