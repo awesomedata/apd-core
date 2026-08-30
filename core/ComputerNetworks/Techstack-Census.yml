@@ -1,0 +1,33 @@
+---
+title: 'Techstack Census: technology-stack fingerprint of the top 1,000,000 websites by traffic rank'
+homepage: https://crawlora.net/blog/top-1-million-websites-techstack-2026
+category: ComputerNetworks
+description: A homepage technology-stack fingerprint of the Tranco top-1,000,000 domain list, split by traffic-rank tier (top-1K/10K/100K/1M) — CDN, CMS, ecommerce platform, web server, SSL/TLS issuer, DNS provider, analytics, bot-management, and more, detected from homepage HTML and response headers. 847,491 of 1,000,000 domains (84.7%) are reachable. Finds enterprise bot management runs 26.3% of the top 1,000 sites vs 9.8% of the 100K-1M tail, while WordPress and free-tier Cloudflare CDN adoption move the opposite direction. Includes a stratified ~10,000-domain row-level sample.
+version: 1.0.0
+keywords: web technology, tech stack, cdn, cms, web server, ssl certificate authority, dns, bot management, tranco, internet infrastructure
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/Crawlora-org/techstack-census-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+- name: Crawlora
+  web: https://crawlora.net
+organization:
+- name: Crawlora
+  web: https://crawlora.net
+issued_time: 2026
+sources:
+- name: Dataset repository (aggregate CSVs + row-level sample)
+  access_url: https://github.com/Crawlora-org/techstack-census-data
+- name: Interactive study page
+  access_url: https://crawlora.net/blog/top-1-million-websites-techstack-2026
+references:
+- title: We Fingerprinted the Top 1,000,000 Websites (Crawlora blog)
+  reference: https://crawlora.net/blog/top-1-million-websites-techstack-2026
