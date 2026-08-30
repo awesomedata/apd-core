@@ -1,0 +1,28 @@
+---
+title: PlaneCrashData - Global Aviation Safety and Accident Database (1919-Present)
+homepage: https://www.planecrashdata.com
+category: Transportation
+description: Comprehensive historical database of global aviation accidents and incidents covering over a century of civil and military flights since 1919. Includes aircraft specifications, operator/airline records, coordinates, flight phases, survival rates, fatality statistics, and cause classifications with an interactive 3D geospatial globe.
+version: 1.0.0
+keywords: aviation, flight safety, plane crashes, aircraft accidents, aviation safety database, transportation, geospatial
+image: https://www.planecrashdata.com/og-image.png
+temporal: 1919-Present
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: https://www.planecrashdata.com
+data_quality: true
+data_dictionary: https://github.com/MauroPello/flight-crashes
+language: en
+license: Open Data Commons / CC BY 4.0
+publisher:
+  - name: PlaneCrashData
+    web: https://www.planecrashdata.com
+organization:
+  - name: PlaneCrashData
+    web: https://www.planecrashdata.com
+issued_time: 2026.01
+sources:
+  - name: Flight Crashes Open Source Project
+    access_url: https://github.com/MauroPello/flight-crashes
