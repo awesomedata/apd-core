@@ -1,0 +1,12 @@
+---
+title: US National Park System (Park Atlas Open Data)
+homepage: https://github.com/kirkwood-justin/park-atlas-data
+category: Government
+description: Cleaned, joined datasets for all 474 US National Park System units - entrance fees, campgrounds with reservability, official 2025 visitation, wildlife checklist counts, and Dark Sky certifications. Compiled from official federal sources (NPS API, IRMA visitation statistics, NPSpecies, Recreation.gov RIDB), refreshed nightly, CC0.
+version:
+keywords: national-parks,nps,government,fees,visitation,wildlife,recreation
+image:
+temporal: 2025-2026
+spatial: United States
+access_level: open
+copyrights: CC0
