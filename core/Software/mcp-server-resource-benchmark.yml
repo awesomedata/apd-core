@@ -1,0 +1,23 @@
+---
+title: MCP Server Resource Benchmark (RAM, Startup Time, Tool Counts)
+homepage: https://huggingface.co/datasets/iBlessi/mcp-server-resource-benchmark
+category: Software
+description: Measured resident memory, startup time and tool counts for 11 Model Context Protocol servers, plus a concurrent five-server stack, using descendant-process-tree RSS
+version: '1.0.0'
+keywords: Model Context Protocol, MCP, benchmark, memory footprint, resident set size, LLM tooling
+image:
+temporal: 2026-08
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: TechFuelHQ
+organization: TechFuelHQ
+issued_time: '2026-08-20'
+sources:
+  - https://doi.org/10.5281/zenodo.22169541

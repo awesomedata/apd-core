@@ -1,0 +1,23 @@
+---
+title: HDD Price Index - Dated Cost per Terabyte for 8TB Drives (2026)
+homepage: https://huggingface.co/datasets/iBlessi/hdd-price-index-8tb
+category: Economics
+description: Dated cost-per-terabyte observations for 8TB NAS and desktop hard drives at named direct US retailers during the 2026 supply crunch, with a logged rejection trail
+version: '1.0.0'
+keywords: hard disk drive, price index, storage, cost per terabyte, retail pricing, NAS, time series
+image:
+temporal: 2026-08
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: TechFuelHQ
+organization: TechFuelHQ
+issued_time: '2026-08-12'
+sources:
+  - https://doi.org/10.5281/zenodo.22169517

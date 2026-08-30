@@ -1,0 +1,23 @@
+---
+title: DDR5 RAM Price Observations 2026
+homepage: https://huggingface.co/datasets/iBlessi/ddr5-ram-price-observations-2026
+category: Economics
+description: Dated cost-per-gigabyte observations for 32GB (2x16GB) DDR5 kits at named direct US retailers during the 2026 memory supply crisis, with explicit acceptance rules
+version: '1.0.0'
+keywords: DDR5, RAM, memory prices, price index, cost per gigabyte, retail pricing, time series
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: TechFuelHQ
+organization: TechFuelHQ
+issued_time: '2026-08-01'
+sources:
+  - https://doi.org/10.5281/zenodo.22169554
