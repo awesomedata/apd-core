@@ -1,21 +1,21 @@
 ---
-title: PlaneCrashData - Global Aviation Safety and Accident Database (1919-Present)
-homepage: https://www.planecrashdata.com
+title: PlaneCrashData - Global Aviation Safety and Accident Database (1918-Present)
+homepage: https://huggingface.co/datasets/MauroPello/planecrashdata
 category: Transportation
-description: Comprehensive historical database of global aviation accidents and incidents covering over a century of civil and military flights since 1919. Includes aircraft specifications, operator/airline records, coordinates, flight phases, survival rates, fatality statistics, and cause classifications with an interactive 3D geospatial globe.
+description: Comprehensive historical database of global aviation accidents and incidents covering over a century of civil and military flights since 1918. Includes 27,598 verified incident records with aircraft specifications, operator/airline records, coordinates, flight phases, survival rates, fatality statistics, causal classifications, and narrative circumstance records.
 version: 1.0.0
-keywords: aviation, flight safety, plane crashes, aircraft accidents, aviation safety database, transportation, geospatial
+keywords: aviation, flight safety, plane crashes, aircraft accidents, aviation safety database, transportation, geospatial, parquet
 image: https://www.planecrashdata.com/og-image.png
-temporal: 1919-Present
+temporal: 1918-Present
 spatial: Global
 access_level: public
 copyrights:
 accrual_periodicity: continuous
-specification: https://www.planecrashdata.com
+specification: https://huggingface.co/datasets/MauroPello/planecrashdata/blob/main/README.md
 data_quality: true
-data_dictionary: https://github.com/MauroPello/flight-crashes
+data_dictionary: https://huggingface.co/datasets/MauroPello/planecrashdata/blob/main/README.md
 language: en
-license: Open Data Commons / CC BY 4.0
+license: CC BY 4.0
 publisher:
   - name: PlaneCrashData
     web: https://www.planecrashdata.com
@@ -24,5 +24,9 @@ organization:
     web: https://www.planecrashdata.com
 issued_time: 2026.01
 sources:
-  - name: Flight Crashes Open Source Project
+  - name: Hugging Face Dataset (Parquet / CSV / JSONL)
+    access_url: https://huggingface.co/datasets/MauroPello/planecrashdata
+  - name: PlaneCrashData Interactive Platform
+    access_url: https://www.planecrashdata.com
+  - name: GitHub Repository
     access_url: https://github.com/MauroPello/flight-crashes
