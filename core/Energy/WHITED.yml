@@ -1,6 +1,6 @@
 ---
-title: WHITED
-homepage: http://nilmworkshop.org/2016/proceedings/Poster_ID18.pdf
+title: WHITED (A Worldwide Household and Industry Transient Energy Dataset)
+homepage: https://huggingface.co/datasets/maduschek/WHITED
 category: Energy
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
