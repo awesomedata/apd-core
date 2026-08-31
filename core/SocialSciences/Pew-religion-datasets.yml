@@ -1,6 +1,6 @@
 ---
-title: Global Religious Futures Project
-homepage: http://www.globalreligiousfutures.org/
+title: Pew Religion Datasets
+homepage: https://www.pewresearch.org/religion-datasets/
 category: SocialSciences
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
