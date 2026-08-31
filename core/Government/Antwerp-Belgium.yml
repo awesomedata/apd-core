@@ -1,6 +1,6 @@
 ---
 title: Antwerp, Belgium
-homepage: http://opendata.antwerpen.be/datasets
+homepage: https://www.antwerpen.be/open-data
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
