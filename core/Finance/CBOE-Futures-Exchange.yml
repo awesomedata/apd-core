@@ -1,6 +1,6 @@
 ---
 title: CBOE Futures Exchange
-homepage: http://cfe.cboe.com/market-data/
+homepage: https://www.cboe.com/data/market-statistics
 category: Finance
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
