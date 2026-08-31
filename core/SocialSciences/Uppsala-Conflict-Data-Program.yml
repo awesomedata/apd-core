@@ -1,6 +1,6 @@
 ---
 title: Uppsala Conflict Data Program
-homepage: http://ucdp.uu.se/
+homepage: https://ucdp.uu.se/
 category: SocialSciences
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
