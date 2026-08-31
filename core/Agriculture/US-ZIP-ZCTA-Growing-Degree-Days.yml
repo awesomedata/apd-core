@@ -1,0 +1,35 @@
+---
+title: U.S. ZIP/ZCTA Growing Degree Days (base 50°F)
+homepage: https://whentoapplypreemergent.com/datasets/gdd/
+category: Agriculture
+version: "2026-07-16"
+description: Daily-updated cumulative growing degree days (base 50°F) for about 33,600 U.S. ZIP Code Tabulation Areas, computed from NOAA GHCN-Daily station observations mapped to each ZCTA. Free direct CSV downloads with a frozen schema and per-release SHA-256 checksums; immutable versioned releases are preserved on Zenodo with a DOI.
+keywords: growing degree days, GDD, agriculture, lawn care, phenology, NOAA, GHCN-Daily, ZIP code, ZCTA, United States
+image:
+temporal: 2026
+spatial: United States (ZCTA level)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: CSV with frozen schema; SHA-256 checksums per release
+data_quality: false
+data_dictionary: https://github.com/ke-pan/us-zip-gdd-dataset
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: WhenToApplyPreEmergent.com (Offshoot Labs)
+    web: https://whentoapplypreemergent.com/
+organization:
+  - name: Offshoot Labs
+    web:
+issued_time: 2026.07
+sources:
+  - name: NOAA Global Historical Climatology Network Daily
+    access_url: https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily
+  - name: U.S. Census ZCTA Gazetteer and ZCTA-to-county relationship files
+    access_url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2023.html
+references:
+  - title: Preserved release DOI (version 2026-07-16)
+    reference: https://doi.org/10.5281/zenodo.21465487
+  - title: Reproducibility repository
+    reference: https://github.com/ke-pan/us-zip-gdd-dataset
