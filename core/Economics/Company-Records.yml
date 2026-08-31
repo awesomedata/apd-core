@@ -1,0 +1,31 @@
+---
+title: Company Records
+homepage: https://records.knowyourcustomer.com/
+category: Economics
+description: Live company-registry search across 149 jurisdictions, each with its own coverage page. Company search is free and anonymous with no login; on purchase, the company report and the underlying official filings are retrieved live from the official register at the moment of purchase, not from a cached or aggregated database. A single purchase starts at US$19, with no subscription.
+version:
+keywords: company registry, company search, business registration, official filings, KYB, due diligence
+image:
+temporal:
+spatial: 149 jurisdictions worldwide
+access_level:
+copyrights:
+accrual_periodicity: retrieved live from the official register at query time
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+  - name: Know Your Customer Limited
+    web: https://www.knowyourcustomer.com/
+organization:
+  - name: Know Your Customer Limited
+    web: https://www.knowyourcustomer.com/
+issued_time: 2026
+sources:
+  - name: Official company registers of 149 jurisdictions
+    access_url: https://records.knowyourcustomer.com/coverage
+references:
+  - title:
+    reference:
