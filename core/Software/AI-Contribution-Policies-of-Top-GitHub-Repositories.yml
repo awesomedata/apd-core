@@ -1,0 +1,45 @@
+---
+title: AI Contribution Policies of GitHub's 800 Most-Starred Repositories (703 screened, 2026-08-18)
+homepage: https://github.com/sujeito-operator/ai-contribution-policy
+category: Software
+description: A census of what the largest open-source projects have PUBLISHED about AI- and agent-authored pull requests. 703 of the 800 most-starred public repositories on GitHub (everything above 39,494 stars) were screened on 2026-08-18 for an agent-instruction file or an AI clause in contributor documentation, and every repository is published with its verdict, the file the verdict came from, and the sentence behind it. Headline counts. 267 (38.0%) ship an agent-instruction file; AGENTS.md 217, CLAUDE.md 179, copilot-instructions.md 56; 91 carry an AI clause in prose with no agent file; 340 have nothing published. Five verdicts are used and they are deliberately not collapsed - BLOCK (published text forbids opening PRs or issues unprompted), READ (an agent file exists, usually an invitation with conditions), POLICY (an AI/LLM clause in CONTRIBUTING or the README), CLEAR (nothing found in the default branch), and ERROR (the repository could not be read, recorded as its own value rather than folded into CLEAR, because an absence is only evidence when you can prove you looked). The corpus is unusual in publishing its own false-positive analysis. A naive keyword screen for "do not open pull requests" and similar matches 18 repositories; on reading the matched sentence, 9 of the 18 are not about AI at all (angular, uv and ruff mean needs-design issues, grafana means translation files, awesome-selfhosted means use the data repo, CppCoreGuidelines means settled style decisions), 7 genuinely name AI, and 2 (apache/airflow, ripienaar/free-for-dev) are refused a column entirely because the file could not be re-fetched at publication time and the classifier declines to guess from a match it cannot display. A separate table of four cases documents sentences that contain a prohibition verbatim and are still not prohibitions, because a branch name, adverb, condition or conjunction after the phrase changes what is forbidden. LIMITS, stated because they change what the file can answer. This records what a project has PUBLISHED in its default branch; it cannot tell you what a maintainer will actually conclude, and the repository documents a case where a patch was declined for a reason that was never written down anywhere. CLEAR is explicitly not permission - a rule can live in a maintainer's head, a chat server or an issue thread. The 2 unverified rows are listed by name rather than assigned; if they resolve the way their matched phrases suggest the AI-ban count is 9 rather than 7. Useful for research on AI governance in open source, contributor policy, software-engineering practice, and the design of tooling that must read human-written rules. The full CSV and JSONL, the summary, the false-ban corpus, the screen and its 20-case guard suite are in the repository, with no login and no paywall.
+version: 1.0
+keywords: open source, governance, contribution policy, artificial intelligence, llm agents, code review, github, agents.md, software engineering, csv, jsonl, open data
+image:
+temporal: 2026-08-18 snapshot
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/sujeito-operator/ai-contribution-policy#what-a-verdict-means
+data_quality: true
+data_dictionary: https://github.com/sujeito-operator/ai-contribution-policy#what-a-verdict-means
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Operator
+    web: https://github.com/sujeito-operator
+organization:
+issued_time: 2026.08
+sources:
+  - name: Full screen results, all 703 repositories with verdict and evidence (CSV)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/repos.csv
+  - name: Full screen results, one JSON object per repository (JSONL)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/repos.jsonl
+  - name: Aggregate counts by verdict and by agent-instruction file (JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/summary.json
+  - name: False-ban corpus - phrases that match a prohibition but are not one (JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/ai-contribution-policy/main/data/false-bans.json
+  - name: Screen source
+    access_url: https://github.com/sujeito-operator/ai-contribution-policy/blob/main/ai_policy_screen.py
+  - name: False-ban guard suite (20 cases, 12 must-not-block and 8 must-block)
+    access_url: https://github.com/sujeito-operator/ai-contribution-policy/blob/main/false_ban_guards.py
+references:
+  - title: Verdict definitions and what each one does and does not claim
+    reference: https://github.com/sujeito-operator/ai-contribution-policy#what-a-verdict-means
+  - title: Every published prohibition, quoted with the sentence behind it
+    reference: https://sujeito-operator.github.io/ai-contribution-policy/b/blocked.html
+  - title: Sentences that contain a ban verbatim and are still not bans
+    reference: https://sujeito-operator.github.io/ai-contribution-policy/b/false-bans.html
+  - title: Browsable view of the dataset
+    reference: https://sujeito-operator.github.io/ai-contribution-policy/
