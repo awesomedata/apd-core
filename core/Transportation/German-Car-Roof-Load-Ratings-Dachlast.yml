@@ -1,0 +1,28 @@
+---
+title: German Car Roof Load Ratings (Dachlast)
+homepage: https://dachlast.de/daten/
+category: Transportation
+description: 1,872 documented roof load (Dachlast) ratings for over 1,600 car models from 32 brands sold in Germany, plus specifications of 682 roof tents, 157 roof boxes and 191 roof rack systems. Every value cites its primary source (owner's manual or manufacturer fitting guideline). CSV/JSON downloads, versioned on Zenodo with DOI.
+version: 1
+keywords: cars,vehicles,roof load,roof tent,roof box,roof rack,Germany,automotive
+image:
+temporal: 2026-present
+spatial: Germany (vehicle market)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://dachlast.de/methodik.html
+data_quality: true
+data_dictionary: https://dachlast.de/daten/
+language: de
+license: CC-BY-4.0
+publisher: dachlast.de
+organization:
+  - name: dachlast.de
+    web: https://dachlast.de/
+issued_time: 2026-08-05
+sources:
+  - name: Open data downloads (CSV/JSON)
+    access_url: https://dachlast.de/daten/
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.21798285
