@@ -1,0 +1,9 @@
+---
+title: Blackjack Basic Strategy with Per-Action EV
+homepage: https://github.com/Blackjack-Verdict/blackjack-basic-strategy
+category: Entertainment
+description: >
+  All 340 blackjack basic-strategy decisions (hard/soft/pairs x dealer upcard),
+  each with the expected value of every available action (hit/stand/double/split,
+  per $1) and the win/push/lose split of the optimal play. CSV, CC BY 4.0,
+  zero-dependency Python loader with canonical tests included.
