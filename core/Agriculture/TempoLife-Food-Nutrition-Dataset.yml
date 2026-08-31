@@ -1,0 +1,23 @@
+---
+title: TempoLife Food Nutrition Dataset
+homepage: https://zenodo.org/records/22208174
+category: Agriculture
+description: Per-100g nutrition values (kcal, protein, carbs, fat, fiber, sugar, saturated fat, salt) for 7,795 foods and drinks, including a curated Estonian foods category and multilingual (et/fi/ru) categories. Compiled from USDA FoodData Central SR Legacy reference data and public food composition tables. JSON and CSV, CC-BY-4.0.
+version: 1.0.0
+keywords: food, nutrition, calories, food composition, USDA
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity:
+specification: https://github.com/tempolife-app/tempo-food-db
+data_quality: true
+data_dictionary: https://github.com/tempolife-app/tempo-food-db
+language: English
+license: CC-BY-4.0
+publisher: TempoLife
+organization: Probyte OÜ
+issued_time: 2026-08-30
+sources:
+  - USDA FoodData Central (SR Legacy)
