@@ -1,0 +1,21 @@
+---
+title: UK Payment Practices 2017-2026
+homepage: https://github.com/Chadhauser/uk-payment-practices
+category: Finance
+description: Aggregate figures from 114,758 statutory payment practices reports filed by large UK companies between 2017 and 2026. Every large UK company must report twice yearly how long it takes to pay suppliers and what proportion it pays late. Covers median days to pay, share of invoices paid within 30 days, share not paid within agreed terms, and the gap between each company's stated payment terms and its actual performance.
+version: 1.0.0
+keywords: payment practices, late payment, supplier payment, UK companies, days to pay, payment terms, small business, procurement
+temporal: 2017-2026
+spatial: United Kingdom
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: biannual
+specification: https://doi.org/10.5281/zenodo.22158494
+data_quality: true
+data_dictionary: https://github.com/Chadhauser/uk-payment-practices
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Finance Clearly
+    web: https://financeclearly.com
+citation: Edwards, P. (2026). UK Payment Practices 2017-2026. Finance Clearly. https://doi.org/10.5281/zenodo.22158494
