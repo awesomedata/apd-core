@@ -1,6 +1,6 @@
 ---
-title: World boundaries from  the U.S. Department of State
-homepage: http://geonode.state.gov/layers/?limit=100&offset=0
+title: Large Scale International Boundaries from  the U.S. Department of State
+homepage: https://geodata.state.gov/geonetwork/srv/eng/catalog.search#/metadata/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2
 category: GIS
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
