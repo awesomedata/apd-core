@@ -1,0 +1,23 @@
+---
+title: Ollama vs llama.cpp vs LM Studio on One RTX 5080
+homepage: https://huggingface.co/datasets/iBlessi/local-llm-runtime-comparison-rtx-5080
+category: MachineLearning
+description: Controlled inference-runtime comparison on identical hard-linked sha256-verified GGUF bytes; decode, prefill, VRAM, RAM working set, TTFT and load time
+version: '1.1.0'
+keywords: LLM, inference, benchmark, Ollama, llama.cpp, LM Studio, GGUF, local LLM, RTX 5080
+image:
+temporal: 2026-08
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: TechFuelHQ
+organization: TechFuelHQ
+issued_time: '2026-08-20'
+sources:
+  - https://doi.org/10.5281/zenodo.22169533

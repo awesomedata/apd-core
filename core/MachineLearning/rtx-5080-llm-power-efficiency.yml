@@ -1,0 +1,23 @@
+---
+title: RTX 5080 LLM Power Efficiency (Watts and Joules per Token)
+homepage: https://huggingface.co/datasets/iBlessi/rtx-5080-llm-power-efficiency
+category: MachineLearning
+description: Measured board power, tokens per joule, and electricity cost per million tokens for local LLM inference on a retail RTX 5080, with raw 1Hz nvidia-smi telemetry
+version: '1.0.0'
+keywords: LLM, inference, GPU power, energy efficiency, tokens per joule, RTX 5080, idle power, local LLM
+image:
+temporal: 2026-08
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: TechFuelHQ
+organization: TechFuelHQ
+issued_time: '2026-08-19'
+sources:
+  - https://doi.org/10.5281/zenodo.22169575
