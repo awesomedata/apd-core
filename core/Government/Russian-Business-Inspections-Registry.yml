@@ -1,0 +1,41 @@
+---
+title: Russian Business Inspections Registry (ERKNM)
+homepage: https://kontragentpro.ru/data
+category: Government
+description: Aggregated statistics from the Unified Register of State Control (Supervision) Activities of the Prosecutor General's Office of the Russian Federation, covering 14.98 million inspection records from 2021 to 2027. Eight cross-sections are published as CSV - by year, by federal subject, by supervision type, by outcome, supervision types over time, outcomes over time, legal entities versus sole proprietors, and territorial structure of supervision types. The dataset separates enforcement activities from preventive ones, which is essential because Russian regulatory reform deliberately shifted volume toward prevention. Combining them into a single "inspections" figure inflates apparent enforcement almost tenfold. Documentation in Russian covers the caveats that determine which comparisons are valid - only 2022-2025 are complete years, since the register launched on 1 July 2021, the current year is unfinished, and records dated 2027 are scheduled future activities.
+version: '2026-08-30'
+keywords: government inspections, regulatory burden, business inspections, state control, supervision, russia, public administration, regulatory policy, compliance
+image:
+temporal: 2021-2027
+spatial: Russian Federation
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://kontragentpro.ru/data
+language: ru
+license: CC-BY-4.0
+publisher:
+  - name: KontragentPro
+    web: https://kontragentpro.ru/
+organization:
+  - name: KontragentPro
+    web: https://kontragentpro.ru/data
+issued_time: 2026.08
+sources:
+  - name: Inspections by year (CSV)
+    access_url: https://kontragentpro.ru/static/data/erknm-po-godam.csv
+  - name: Inspections by region (CSV)
+    access_url: https://kontragentpro.ru/static/data/erknm-po-regionam.csv
+  - name: Inspections by supervision type (CSV)
+    access_url: https://kontragentpro.ru/static/data/erknm-po-vidam-nadzora.csv
+  - name: Legal entities versus sole proprietors (CSV)
+    access_url: https://kontragentpro.ru/static/data/erknm-ul-vs-ip.csv
+references:
+  - title: Archived version with DOI - base dataset (Zenodo, CERN)
+    reference: https://doi.org/10.5281/zenodo.22149919
+  - title: Archived version with DOI - extended cross-sections (Harvard Dataverse)
+    reference: https://doi.org/10.7910/DVN/P32G5X
+  - title: Open data catalogue and methodology
+    reference: https://kontragentpro.ru/data
