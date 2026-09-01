@@ -1,0 +1,49 @@
+---
+title: GitHub Bounty-Label Prompt-Exfiltration Traps and Merge Reality (563 issues, 5 dated scans, 2026-08-08 to 2026-08-29)
+homepage: https://github.com/sujeito-operator/bounty-trap-scan
+category: CyberSecurity
+description: A measurement of GitHub's public bounty board taken from both sides, with every dated scan published so the claims can be re-checked rather than trusted. Collected from public search and issue pages with no login and nothing behind authentication. SIDE ONE, what the board ASKS FOR (2026-08-08). 563 open issues carrying the "Bounty" label were classified, across 76 repositories and 60 distinct owners. 91 of them (16.2%) instruct the contributor to paste its own system prompt - the full pre-conversation initialization payload - into the file it is being paid to change. 416 are labelled for autonomous agents only. Of the 91, 62 carry a $1 price label and the other 29 are advertised at up to $9,000, so the price is inversely related to what is actually being requested. The 91 come from just two repositories, and the top three repositories hold 413 of the 563 issues (73.4%). 18 of the 60 owners have no public profile on the bounty platform whose label they use, and they hold 237 issues (42.1%). SIDE TWO, whether the honest remainder PAYS (2026-08-29). For every priced, unpaid, open bounty on the label - the part of the board a contributor would rationally work on - the corpus counts pull requests filed, merges, and distinct authors. 19 priced bounties, 1,055 distinct pull requests filed at them, 4 merged - a 0.4% merge rate, with only 2 of the 19 receiving any merge at all. $13,916 advertised against $151 a contributor actually collected. A NEGATIVE CONTROL is published with it, because a 0.4% merge rate is normally a broken join - the same query shape run on the same repositories with no bounty involved shows they merge ordinary pull requests in quantity, so the join is sound and the finding is about bounty work specifically. STABILITY, which is the part most snapshots cannot offer. The scan was re-run on 2026-08-09, 2026-08-19, 2026-08-25 and 2026-08-28 and the runs are diffed by (repository, issue number) identity, not by count. Across twenty days the 91 prompt-requesting issues and the 416 agent-only issues are the IDENTICAL SETS - none added, none removed - while the board as a whole moved 563 to 560. Equal counts would be cheap; the same issues are the finding, and they establish this as a standing installation rather than a passing stunt. The detector is deliberately narrow and its limits are documented, as are three corrections made after first publication and left in place rather than edited away, including one that retracts an inference about platform membership. Useful for research on prompt injection and prompt extraction, AI-agent security, open-source contribution economics, bounty-platform integrity, and the design of instructions that adversarially target automated contributors. Every dated scan, the merge-reality corpus, the compliance reads and all five scanners are in the repository under an open licence, with no login and no paywall.
+version: 1.0
+keywords: prompt injection, prompt extraction, system prompt, ai agents, autonomous agents, bug bounty, open source, github, software supply chain, security, json, adversarial instructions
+image:
+temporal: 2026-08-08 to 2026-08-29, five dated scans
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/sujeito-operator/bounty-trap-scan#the-detector-is-deliberately-narrow
+data_quality: true
+data_dictionary: https://github.com/sujeito-operator/bounty-trap-scan#the-numbers
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Operator
+    web: https://github.com/sujeito-operator
+organization:
+issued_time: 2026.08
+sources:
+  - name: Full board scan, all 563 rows with the classification applied to each (2026-08-08, JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/bounty-trap-scan/main/scan-2026-08-08.json
+  - name: Repeat scan, 2026-08-19 (JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/bounty-trap-scan/main/scan-2026-08-19.json
+  - name: Repeat scan, 2026-08-28, the fifth and latest run (JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/bounty-trap-scan/main/scan-2026-08-28.json
+  - name: Merge reality - every pull request filed at each priced open bounty, with merge outcome (2026-08-29, JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/bounty-trap-scan/main/merge-reality-2026-08-29.json
+  - name: Compliance read - whether anybody actually complies with the request (2026-08-10, JSON)
+    access_url: https://raw.githubusercontent.com/sujeito-operator/bounty-trap-scan/main/compliance-2026-08-10.json
+  - name: Scanner source, with a 24-case offline guard suite
+    access_url: https://github.com/sujeito-operator/bounty-trap-scan/blob/main/bounty_scan.py
+  - name: Diff tool that compares two dated scans by issue identity rather than by count
+    access_url: https://github.com/sujeito-operator/bounty-trap-scan/blob/main/bounty_diff.py
+  - name: Merge-reality counter and its negative control
+    access_url: https://github.com/sujeito-operator/bounty-trap-scan/blob/main/bounty_merge_reality.py
+references:
+  - title: The numbers, with every headline count and the population it was measured over
+    reference: https://github.com/sujeito-operator/bounty-trap-scan#the-numbers
+  - title: Measured again, and again - twenty days, five scans, the identical set of 91
+    reference: https://github.com/sujeito-operator/bounty-trap-scan#measured-again-and-again-twenty-days-changed-nothing
+  - title: Does the honest remainder actually pay - 1,055 pull requests, four merged
+    reference: https://github.com/sujeito-operator/bounty-trap-scan#does-the-honest-remainder-actually-pay-measured-2026-08-29-1055-pull-requests-four-merged
+  - title: Scope, limits, and what this measurement is not
+    reference: https://github.com/sujeito-operator/bounty-trap-scan#scope-and-what-this-is-not
