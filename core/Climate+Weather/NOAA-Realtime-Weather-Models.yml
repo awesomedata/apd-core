@@ -1,6 +1,6 @@
 ---
 title: NOAA Realtime Weather Models
-homepage: http://www.ncdc.noaa.gov/data-access/model-data/model-datasets/numerical-weather-prediction
+homepage: https://www.ncei.noaa.gov/products/weather-climate-models/numerical-weather-prediction
 category: Climate+Weather
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
