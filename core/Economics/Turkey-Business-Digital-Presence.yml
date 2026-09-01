@@ -1,0 +1,35 @@
+---
+title: Turkey Business Digital Presence
+homepage: https://github.com/CRM-Solid/turkey-business-digital-data
+category: Economics
+description: Website, phone, email and social media presence for 1,786,700 businesses in Turkey, broken down by all 81 provinces and 40 sectors. Derived from the Overture Maps Foundation places dataset (CDLA-Permissive-2.0) filtered to Turkey, with provinces assigned by point-in-polygon against official boundaries because Overture's own address region field is null on roughly 92% of Turkish records. Every business with a website field was then requested once to test reachability: 684,496 records list a website but only 413,777 respond, so the national share with a working website is 23.2% rather than the 38.3% the field suggests. Social profiles were re-derived by reading the markup of the pages that answered. Includes the SQL query the figures come from. CSV and JSON.
+version: 2026.09
+keywords: Turkey, small business, SME, digital divide, website adoption, social media, Overture Maps, economic geography
+image:
+temporal: 2026
+spatial: Turkey
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://crmsolid.com/research/turkey-business-digital-report
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: CRM Solid
+    web: https://crmsolid.com/
+organization:
+  - name: CRM Solid
+    web: https://crmsolid.com/
+issued_time: 2026.09
+sources:
+  - name: Provinces (CSV)
+    access_url: https://raw.githubusercontent.com/CRM-Solid/turkey-business-digital-data/main/turkey-business-digital-2026.csv
+  - name: Full dataset (JSON)
+    access_url: https://raw.githubusercontent.com/CRM-Solid/turkey-business-digital-data/main/turkey-business-digital-2026.json
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.22217770)
+    reference: https://doi.org/10.5281/zenodo.22217770
+  - title: Method and province/sector tables
+    reference: https://crmsolid.com/research/turkey-business-digital-report
