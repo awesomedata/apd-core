@@ -32,11 +32,11 @@ def validate_classification(category_map):
             except Exception as e:
                 raise RuntimeError('Failed to read YAML data: {}'.format(e))
 
-            assert data_obj.get('title', None) is not None
-            assert data_obj.get('homepage', None) is not None
-            assert data_obj.get('category', None) is not None
+            assert data_obj.get('title', None) is not None, f"Missing 'title' in {entry}"
+            assert data_obj.get('homepage', None) is not None, f"Missing 'homepage' in {entry}"
+            assert data_obj.get('category', None) is not None, f"Missing 'category' in {entry}"
 
-            assert data_obj.get('category') == category
+            assert data_obj.get('category') == category, f"Category mismatch in {entry}"
 
 
 if __name__ == '__main__':
