@@ -1,8 +1,0 @@
-resources:
-  - title: Gdansk Open Data
-    homepage: https://www.gdansk.pl/otwarte-dane-w-gdansku
-    description: "Official open data portal of the City of Gdańsk (Poland)."
-    category: Government
-    type: city
-    country: PL
-    city: Gdańsk
