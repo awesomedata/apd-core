@@ -1,0 +1,48 @@
+---
+title: Renology 2026 U.S. Home Renovation Planning Costs
+homepage: https://www.therenology.com/cost-index
+category: Economics
+description: >
+  Versioned city-level low-to-high planning ranges for kitchen, bathroom, ADU,
+  roofing, and outdoor-living projects in published California and Washington
+  markets. Provides 28 total-project USD records as directly downloadable CSV
+  and JSON, with explicit units, provenance, methodology, limitations,
+  Frictionless metadata, citation metadata, and reproducible validation.
+  Planning benchmarks, not contractor quotes or a representative survey.
+version: '1.0.0'
+keywords:
+  - United States
+  - housing
+  - construction
+  - prices
+  - renovation
+  - home improvement
+  - California
+  - Washington
+temporal: '2026'
+spatial: California and Washington, United States
+access_level: public
+copyrights: Renology (JOYOAI LLC)
+accrual_periodicity: irregular
+specification: Frictionless Tabular Data Package
+data_quality: false
+data_dictionary: https://github.com/asafichaki/renology-renovation-cost-data/blob/main/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Renology
+    web: https://www.therenology.com/
+organization:
+  - name: JOYOAI LLC
+    web: https://www.therenology.com/about
+issued_time: '2026-07-19'
+sources:
+  - name: Renology Renovation Cost Index 2026
+    access_url: https://www.therenology.com/cost-index
+references:
+  - title: Versioned open-data repository
+    reference: https://github.com/asafichaki/renology-renovation-cost-data
+  - title: Direct CSV download
+    reference: https://raw.githubusercontent.com/asafichaki/renology-renovation-cost-data/main/data/city-cost-ranges-2026.csv
+  - title: Methodology and limitations
+    reference: https://www.therenology.com/methodology
