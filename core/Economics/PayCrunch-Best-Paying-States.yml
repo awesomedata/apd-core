@@ -1,0 +1,17 @@
+---
+title: PayCrunch Best-Paying States by Occupation
+homepage: https://paycrunch.co/best-paying-states.html
+category: Economics
+description: Annual wages for 824 detailed US occupations, with the state that pays each one most. Covers the national 10th percentile, median and 90th percentile, and applies a 500-employee reporting floor so a state figure built on a handful of survey responses cannot become the answer; the unfiltered result is kept in a second column for comparison. Derived from the U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics, May 2025 release. Direct CSV and JSON download, no login. A companion endpoint gives median and 90th percentile by state for 352 occupations across 11,548 area rows.
+keywords: wages, salaries, occupations, employment, labor, BLS, OEWS, United States, states
+license: CC BY 4.0
+access_level: public
+language: en
+issued_time: 2026
+specification: https://paycrunch.co/openapi.json
+sources:
+  - name: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025
+    web: https://www.bls.gov/oes/
+organization:
+  - name: PayCrunch
+    web: https://paycrunch.co/
