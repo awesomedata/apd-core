@@ -1,6 +1,6 @@
 ---
-title: Canadian Meteorological Centre
-homepage: http://weather.gc.ca/grib/index_e.html
+title: Canadian Meteorological Centre Open Data
+homepage: https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/weather-tools-specialized-data.html
 category: Climate+Weather
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
