@@ -1,0 +1,37 @@
+---
+title: iPhone Step Counter App Store Survey
+homepage: https://angelstep.app/data
+category: Software
+description: A hand-read survey of 18 iPhone step counter apps on the US App Store, measured on 17 August 2026. It records the one figure Apple's search interface does not expose - what an app charges after install - by opening each app's own listing and reading its In-App Purchases block, together with ratings, rating counts, last-updated month, and whether the listing's own text mentions a widget, a lock screen widget or Apple Health. No ranking and no score - the file states what the store showed on that date. Published as JSON and CSV under CC BY 4.0, with a DOI.
+version: 1.0
+keywords: app store, ios, mobile apps, pedometer, in-app purchases, app pricing, widgets
+image:
+temporal: 2026-08-17
+spatial: United States App Store
+access_level: public
+copyrights: Compilation and method CC BY 4.0; the underlying facts are Apple's public store listings
+accrual_periodicity: never
+specification: https://angelstep.app/data/step-counter-survey.json
+data_quality: true
+data_dictionary: https://angelstep.app/data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Angel Step
+    web: https://angelstep.app
+organization:
+  - name: Angel Step
+    web: https://angelstep.app
+issued_time: 2026.08
+sources:
+  - name: Canonical JSON
+    access_url: https://angelstep.app/data/step-counter-survey.json
+  - name: Canonical CSV
+    access_url: https://angelstep.app/data/step-counter-survey.csv
+  - name: GitHub mirror
+    access_url: https://github.com/33nyc/step-counter-survey
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/thee3/step-counter-survey
+references:
+  - title: DOI
+    reference: https://doi.org/10.5281/zenodo.22032007
