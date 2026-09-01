@@ -1,0 +1,31 @@
+---
+title: TradeDataHub Masked U.S. Contractor Preview
+homepage: https://huggingface.co/datasets/rsaunders/tradedatahub-masked-preview-sample
+category: Economics
+description: A directly downloadable masked preview of U.S. contractor business records for evaluating schema and coverage. The sample contains no paid master data; fields and limitations are documented on the dataset card.
+version: 2026-08-19
+keywords: contractors, businesses, United States, masked sample, B2B data
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://www.tradedatahub.net/developers/
+language: en
+license:
+publisher:
+  - name: TradeDataHub
+    web: https://www.tradedatahub.net/
+organization:
+  - name: TradeDataHub
+    web: https://www.tradedatahub.net/
+issued_time: 2026.08
+sources:
+  - name: Masked preview sample
+    access_url: https://huggingface.co/datasets/rsaunders/tradedatahub-masked-preview-sample
+references:
+  - title: TradeDataHub developer documentation
+    reference: https://www.tradedatahub.net/developers/
