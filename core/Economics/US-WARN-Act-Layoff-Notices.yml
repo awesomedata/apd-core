@@ -1,0 +1,31 @@
+---
+title: US WARN Act Layoff Notices (normalized, daily-updated)
+homepage: https://github.com/APVentureEngine/warn-act-notices
+category: Economics
+description: US WARN Act layoff notices from 24 state labor departments, normalized into one deduplicated schema (employer, canonical employer name, location, workers affected, notice date, effective date) and refreshed daily. 6,800+ notices covering 2024-present, free with a 48-hour delay; includes per-state CSVs and a machine-readable monthly trend series (trends.json). Collected via the Apache-2.0 biglocalnews/warn-scraper plus an additional normalization, dedup and freshness layer. CSV and JSON, public, no login.
+version: 1.0
+keywords: layoffs, WARN act, labor market, employment, workforce, economic indicators, plant closures
+image:
+temporal: 2024-
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/APVentureEngine/warn-act-notices#schema
+language: en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time: 2026.08
+sources:
+  - name: Normalized dataset (CSV)
+    access_url: https://raw.githubusercontent.com/APVentureEngine/warn-act-notices/main/data/warn_notices.csv
+  - name: Normalized dataset (JSON)
+    access_url: https://raw.githubusercontent.com/APVentureEngine/warn-act-notices/main/data/warn_notices.json
+  - name: Per-state monthly trends (JSON)
+    access_url: https://raw.githubusercontent.com/APVentureEngine/warn-act-notices/main/data/trends.json
+references:
+  - title: Stats page (coverage table, monthly trends, biggest notices)
+    reference: https://apventureengine.github.io/warn-act-notices/
