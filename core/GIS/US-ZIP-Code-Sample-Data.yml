@@ -1,0 +1,34 @@
+---
+title: US ZIP Code Sample Data
+homepage: https://github.com/expressloop/us-zip-sample-data
+category: GIS
+description: >
+  Sample CSVs of US postal geography data: ZIP-level records (city and alias
+  names, county, FIPS codes, coordinates, time zone), street-level ZIP+4
+  address ranges, NPA area codes, carrier-route assignments, and geocoded
+  addresses with confidence scores. Includes a field reference and Python/SQL
+  loader examples. The samples are small slices of a larger commercial catalog,
+  published for schema evaluation.
+version:
+keywords:
+  - zip-code
+  - zip+4
+  - postal-code
+  - usa
+  - area-code
+  - geocoding
+  - reference-data
+image:
+spatial: United States
+access_level: public (direct download, no signup)
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/expressloop/us-zip-sample-data/blob/main/docs/field-reference.md
+language: en
+license: CC BY 4.0
+publisher: PostalUp
+organization: PostalUp
+issued_time: 2026-09
+sources: []
