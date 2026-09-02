@@ -1,8 +1,8 @@
 ---
-title: EHDP Large Health Data Sets
-homepage: http://www.ehdp.com/vitalnet/datasets.htm
+title: EHDP Large Health Data Sets (Archived)
+homepage: https://web.archive.org/web/20221208104145/https://www.ehdp.com/links/datasets.htm
 category: Healthcare
-description:
+description: Just links - can't vouch for how many are still valid
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
