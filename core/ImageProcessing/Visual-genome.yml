@@ -1,8 +1,8 @@
 ---
-title: Visual genome
-homepage: http://visualgenome.org/api/v0/api_home.html
+title: Visual genome (archived at Wayback)
+homepage: https://web.archive.org/web/20151219035355/http://visualgenome.org/api/v0/api_home.html
 category: ImageProcessing
-description:
+description: Data still available for download from Wayback
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
