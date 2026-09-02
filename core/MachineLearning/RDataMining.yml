@@ -1,6 +1,6 @@
 ---
 title: RDataMining - "R and Data Mining" ebook data
-homepage: http://www.rdatamining.com/data
+homepage: https://www.rdatamining.com/datasets
 category: MachineLearning
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
