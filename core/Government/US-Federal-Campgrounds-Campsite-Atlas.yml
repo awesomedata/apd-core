@@ -1,0 +1,11 @@
+---
+title: US Federal Campgrounds (Campsite Atlas Open Data)
+homepage: https://campsiteatlas.com/data/
+category: Government
+description: All 5,780 campgrounds in the U.S. federal recreation system (Forest Service, Army Corps, National Park Service, BLM, Bureau of Reclamation, Fish & Wildlife) as one CSV, cleaned from the Recreation.gov RIDB export and refreshed nightly. Fields include reservable vs first-come, site counts, electric/water/sewer hookups, pets, campfires, max RV length, confirmed-free flag, and booking links.
+version:
+keywords: campgrounds,camping,recreation.gov,ridb,federal-lands,rv,national-forests,government
+temporal: 2025-2026
+spatial: United States
+access_level: open
+copyrights: CC0
