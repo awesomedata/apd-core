@@ -1,6 +1,6 @@
 ---
 title: IceCube - South Pole Neutrino Observatory
-homepage: http://icecube.wisc.edu/science/data
+homepage: https://icecube.wisc.edu/science/data-releases/
 category: Physics
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
