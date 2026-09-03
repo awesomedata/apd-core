@@ -1,8 +1,8 @@
 ---
-title: Twitter Graph of entire Twitter site
-homepage: http://an.kaist.ac.kr/traces/WWW2010.html
+title: Twitter Graph of entire Twitter site (Archived at Wayback)
+homepage: https://web.archive.org/web/20110222063252/http://an.kaist.ac.kr/traces/WWW2010.html
 category: SocialNetworks
-description:
+description: Most of the data does appear to have been captured by Wayback.
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
