@@ -1,8 +1,8 @@
 ---
 title: Travel Tracker Survey (TTS) for Chicago
-homepage: http://www.cmap.illinois.gov/data/transportation/travel-tracker-survey
+homepage: https://www.arcgis.com/home/item.html?id=2e0719dce2c34eeea81039eca35def80#overview
 category: Transportation
-description:
+description: Included in this archive are public-release datasets and documentation for five surveys; each is in its own .zip file, including a survey-specific README document serving as a guide to the contents. 
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
