@@ -1,8 +1,8 @@
 ---
 title: Personae Corpus
-homepage: http://www.clips.uantwerpen.be/datasets/personae-corpus
+homepage: https://zenodo.org/records/4643756#.Yl6GBehBzZQ
 category: NaturalLanguage
-description:
+description: The Personae corpus was collected for experiments in Authorship Attribution and Personality Prediction. It consists of 145 Dutch-language essays, written by 145 different students (BA in Linguistics and Literature at the University of Antwerp, Belgium). Each student also took an online MBTI personality test, allowing personality prediction experiments. The corpus was controlled for topic, register, genre, age, and education level. We make available the original texts, a syntactically annotated version of the texts, and the metadata.
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
