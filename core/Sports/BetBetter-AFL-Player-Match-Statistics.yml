@@ -1,0 +1,29 @@
+---
+title: AFL Player Match Statistics 2000-2023 (Bet Better)
+homepage: https://doi.org/10.5281/zenodo.21612783
+category: Sports
+description: 206,722 player-match records from 4,670 Australian Football League games across 24 seasons (2000-2023), with match context, weather, attendance and an advanced statistical suite including pressure acts, contested one-on-ones, metres gained, score involvements and ruck contests. Single CSV with a documented column dictionary; DOI-versioned on Zenodo.
+version: 1.0
+keywords: AFL, australian rules football, sports analytics, player statistics, weather, attendance
+image:
+temporal: 2000-2023
+spatial: Australia
+access_level: public
+copyrights:
+accrual_periodicity: quarterly refresh
+specification: https://doi.org/10.5281/zenodo.21612783
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Bet Better
+    web: https://betbetter.world/studies/
+organization:
+issued_time: 2026.08
+sources:
+  - name: Zenodo record
+    access_url: https://doi.org/10.5281/zenodo.21612783
+references:
+  - title: Research index (related open data and studies)
+    reference: https://betbetter.world/studies/
