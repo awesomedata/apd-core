@@ -1,0 +1,44 @@
+---
+title: ChainCosts Exchange Withdrawal Fees
+homepage: https://github.com/chaincosts/exchange-fees
+category: Finance
+description: >-
+  Cited snapshots of cryptocurrency centralized-exchange withdrawal fees.
+  withdrawal-fees.json is a per-chain table (fee, minimum, enabled flag,
+  source URL, verified_at) for venues that publish the numbers on a public
+  API or fee page (Binance, Bitget, CoinEx, HTX, KuCoin). Venues that keep
+  the table behind a login (OKX, MEXC, Bybit, Coinbase, Kraken, Gate.io)
+  are listed as withholding rather than filled in from secondary blogs.
+  facts.csv is the related entity-fact ledger (fees, licensing, rails)
+  with source URLs. Files download from the repository with no login.
+  A paused network stays in the file; it is not treated as a missing number.
+version: "2026-09"
+keywords: cryptocurrency, exchange, withdrawal fees, binance, csv, json
+image:
+temporal: 2026-09 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/chaincosts/exchange-fees#files
+data_quality: false
+data_dictionary: https://github.com/chaincosts/exchange-fees#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: ChainCosts
+    web: https://chaincosts.com/data
+organization:
+  - name: ChainCosts
+    web: https://github.com/chaincosts
+issued_time: 2026.09
+sources:
+  - name: GitHub repository (CSV and JSON)
+    access_url: https://github.com/chaincosts/exchange-fees
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/chaincosts/exchange-fees
+  - name: Live explorer
+    access_url: https://chaincosts.com/data
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
