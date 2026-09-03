@@ -1,6 +1,6 @@
 ---
 title: Gutenberg eBooks List
-homepage: http://www.gutenberg.org/wiki/Gutenberg:Offline_Catalogs
+homepage: https://www.gutenberg.org/ebooks/offline_catalogs.html
 category: NaturalLanguage
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
