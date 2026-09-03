@@ -1,6 +1,6 @@
 ---
 title: Google Books Ngrams (2.2TB)
-homepage: https://aws.amazon.com/datasets/google-books-ngrams/
+homepage: https://storage.googleapis.com/books/ngrams/books/datasetsv3.html
 category: NaturalLanguage
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
