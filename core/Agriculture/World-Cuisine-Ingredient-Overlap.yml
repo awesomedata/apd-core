@@ -1,0 +1,22 @@
+title: World Cuisine Ingredient Overlap
+homepage: https://www.kaggle.com/datasets/alperacax/world-cuisine-ingredient-overlap-24-cuisines
+category: Agriculture
+description: Ingredient overlap between 24 world cuisines, measured over 1,884 well-known dishes described in 7 languages. Four tables - cuisines with dish counts and centroids, 946 canonical ingredients with multilingual names, a bipartite cuisine-ingredient graph, and all 248 cuisine pairs with overlap share, great-circle distance and land-border flag. Note on provenance - the dishes are real, but their ingredient lists were written by a language model and verified by a second model pass, so this measures how a model represents these cuisines rather than how people cook. CSV, CC-BY-4.0.
+version: 1.0.0
+keywords: food, cuisine, ingredients, multilingual, network analysis, LLM evaluation
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: quarterly
+specification: https://huggingface.co/datasets/alperacax/world-cuisine-ingredient-overlap
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/alperacax/world-cuisine-ingredient-overlap
+language: English, Turkish, German, French, Spanish, Italian, Greek
+license: CC-BY-4.0
+publisher: eatmundo
+organization: eatmundo
+issued_time: 2026-09-03
+sources:
+  - eatmundo recipe corpus (https://www.eatmundo.com)
