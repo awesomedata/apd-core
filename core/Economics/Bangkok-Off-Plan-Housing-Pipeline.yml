@@ -2,8 +2,8 @@
 title: Bangkok Off-Plan Housing Pipeline
 homepage: https://baanscope.com/data
 category: Economics
-description: Aggregate data on residential construction underway in the Bangkok Metropolitan Region, compiled from the public project listings of Thailand's nine largest listed developers and re-checked roughly every two days. Three tables cover 81 districts, 9 developers and 6 completion years, reporting project counts, published unit counts, property mix, median asking price, median price per square metre and median government-appraised land value. Thailand has no MLS and no public transaction registry, so no official equivalent is published. Prices are developer asking prices rather than sale prices, unit counts carry their own coverage column, and per-group medians are omitted where a group holds fewer than three projects.
-keywords: real estate, housing, construction, property prices, Thailand, Bangkok
+description: Aggregate data on residential construction underway in the Bangkok Metropolitan Region, compiled from the public project listings of Thailand's nine largest listed developers and re-checked roughly every two days. Eight tables. Four cover the pipeline itself, by district (104 rows), by developer (9), by completion year (15) and by rail line (10), reporting project counts, published unit counts, property mix, median asking price, median price per square metre and median government-appraised land value. Four more join that pipeline to public registers that are not otherwise readable against what is being sold: the Bangkok city plan, with the floor area ratio and open space ratio in force per land-use class and what the March 2026 draft plan would change (17 rows); the national EIA register, with environmental filings approved and still recorded as not started, by district (17 rows); the city drainage department's monitored flood points, by distance (60 rows); and OpenStreetMap amenities within 800 metres (90 rows). Thailand has no MLS and no public transaction registry, so no official equivalent is published. Prices are developer asking prices rather than sale prices, unit counts carry their own coverage column, and per-group statistics are omitted where a group holds fewer than three projects. There is no per-project export.
+keywords: real estate, housing, construction, property prices, zoning, urban planning, environmental impact assessment, flood risk, Thailand, Bangkok
 temporal: 2026-, refreshed with each scan
 spatial: Bangkok Metropolitan Region, Thailand
 access_level: public
@@ -20,3 +20,7 @@ sources:
 references:
   - title: Methodology and collection cadence
     reference: https://baanscope.com/methodology
+  - title: How the March 2026 draft city plan changes the floor area ratio
+    reference: https://baanscope.com/blog/bangkok-draft-city-plan-far
+  - title: Approved but unbuilt filings in the EIA register
+    reference: https://baanscope.com/blog/bangkok-approved-unbuilt-eia
