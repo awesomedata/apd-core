@@ -1,0 +1,35 @@
+---
+title: US Lab-Grown Diamond Import Monitor
+homepage: https://github.com/JacobiusMakes/lgd-import-monitor
+category: Economics
+description: A reproducible monthly dataset on United States imports of cut laboratory-grown diamonds. The primary series uses US Census Bureau HTS 7104.91.10.00 data, including customs value and quantity in number of stones. UN Comtrade HS 710491 data provides a partner-country and tariff-heading cross-check. Includes CSV files, source pulls, validation scripts, methodology, and fixed dated releases.
+version: "2026.09.04"
+keywords: international trade, imports, diamonds, laboratory-grown diamonds, US Census Bureau, UN Comtrade, time series, jewelry
+image:
+temporal: 2024-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/JacobiusMakes/lgd-import-monitor/blob/main/METHODOLOGY.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Stienhardt & Stones
+    web: https://stienhardt.com/
+organization:
+  - name: Stienhardt & Stones
+    web: https://stienhardt.com/
+issued_time: 2026.09
+sources:
+  - name: US Census Bureau International Trade API
+    access_url: https://api.census.gov/data/timeseries/intltrade/imports/hs
+  - name: United Nations Comtrade
+    access_url: https://comtradeplus.un.org/
+references:
+  - title: September 4, 2026 release
+    reference: https://github.com/JacobiusMakes/lgd-import-monitor/releases/tag/v2026.09.04
+  - title: Hugging Face dataset viewer
+    reference: https://huggingface.co/datasets/JacobiusMakes/lab-grown-diamond-import-monitor
