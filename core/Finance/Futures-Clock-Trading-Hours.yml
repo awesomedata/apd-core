@@ -1,0 +1,29 @@
+---
+title: Futures Clock Exchange Trading Hours & Holiday Calendars
+homepage: https://futuresclock.com/data/trading-hours.json
+category: Finance
+description: Regular trading sessions, time zones and reviewed 2026 holiday-calendar coverage for 69 futures contracts on 14 exchanges (CME, COMEX, NYMEX, ICE, LME, Eurex, SGX, OSE, CFFEX, SHFE, DCE, CZCE, INE, GFEX). Each schedule is checked against the exchange's own notice. Free JSON, no key, CORS enabled; no prices or quotes.
+version:
+keywords: futures,trading hours,market hours,exchange calendar,holidays,sessions,CME,Eurex,SHFE
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: Schedule facts belong to the exchanges; compilation free to reuse with attribution to futuresclock.com
+accrual_periodicity: updated with each site deployment
+specification: https://futuresclock.com/en/data-methodology/#open-data
+data_quality: false
+data_dictionary: https://futuresclock.com/en/data-methodology/#open-data
+language: en
+license: Free with attribution
+publisher:
+  - name: Futures Clock
+    web: https://futuresclock.com
+organization:
+issued_time: 2026-08
+sources:
+  - name: JSON endpoint
+    access_url: https://futuresclock.com/data/trading-hours.json
+references:
+  - title: Data sources, freshness and corrections
+    reference: https://futuresclock.com/en/data-methodology/
