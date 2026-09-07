@@ -1,0 +1,33 @@
+---
+title: Indie Software Revenue & Pricing Disclosures
+homepage: https://github.com/lttxzmj/proofstack-dataset
+category: Economics
+description: An open dataset of 45+ small/indie software businesses with source-linked commercial data - pricing tiers transcribed from published pricing pages, dated public revenue disclosures (founder statements, live transparency dashboards, funding announcements), acquisition-channel research, and per-category pricing benchmarks (median first paid tier, free-tier prevalence, paywall feature distribution). Every figure carries a public source URL and an evidence grade; undisclosed revenue is recorded as unknown, never estimated. Refreshed weekly via automated export. Available as JSON and CSV.
+version: 1.0
+keywords: saas, indie software, pricing, revenue, bootstrapped, business models, micro-enterprise, benchmarks
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://github.com/lttxzmj/proofstack-dataset#readme
+language: en, zh
+license: CC-BY-4.0
+publisher:
+  - name: ProofStack
+    web: https://proof-stack-lake.vercel.app/
+organization:
+  - name: ProofStack
+    web: https://proof-stack-lake.vercel.app/
+issued_time: 2026.09
+sources:
+  - name: Cases with sources (JSON)
+    access_url: https://github.com/lttxzmj/proofstack-dataset/blob/master/data/cases.json
+  - name: Pricing benchmarks (JSON/CSV)
+    access_url: https://github.com/lttxzmj/proofstack-dataset/tree/master/data
+references:
+  - title: Methodology and evidence grades
+    reference: https://github.com/lttxzmj/proofstack-dataset#methodology
