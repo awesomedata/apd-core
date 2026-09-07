@@ -1,0 +1,25 @@
+---
+title: Expiring Federal Contracts and Orders (samples)
+homepage: https://github.com/molchalih/openfilings-samples
+category: Government
+description: Free CSV sample (header + 20 rows, 30 columns) of US federal prime contracts and delivery orders whose period of performance ends within the next 12 months, cut by six-digit NAICS code. Columns cover incumbent and UEI, awarding agency, sub-agency, contracting office, NAICS and PSC codes, set-aside, current and potential value, four dates, days remaining, place-of-performance state, vehicle id and type, and a source_url to the official award page. Derived from the monthly USAspending award archive, snapshot 2026-09-07.
+version: 2026-09-07
+keywords: federal contracts, procurement, government contracting, NAICS, recompete, USAspending
+image:
+temporal: period of performance ending 2026-10-08 to 2027-10-07
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: public domain source data
+publisher:
+organization:
+issued_time: 2026.09
+sources:
+  - name: USAspending award data archive
+    access_url: https://files.usaspending.gov/award_data_archive/
+references: []
