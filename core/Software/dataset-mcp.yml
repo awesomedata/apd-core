@@ -1,0 +1,30 @@
+---
+title: dataset-mcp (jayjex Data Vault)
+homepage: https://github.com/jayjex/dataset-mcp
+category: Software
+description: MCP server over a GitHub-release data catalog with 149k+ rows of openly licensed data - NFL games 1999-2026 with closing spreads, totals and moneylines (7,548 rows), HUD Fair Market Rents FY2026 by ZIP, county and state (51,895 rows), Airbnb listings for Austin, Nashville, Denver, NYC, Las Vegas and San Diego (90,169 rows), and Superteam Earn bounty listings. Serves free samples plus full-file filtering, pagination and column stats over Model Context Protocol. Data downloads once into a local cache pinned to manifest SHA-256. Free samples at https://jayjex.github.io/data-vault/.
+version: 1.1.0
+keywords: Model Context Protocol, MCP, datasets, NFL, HUD, fair market rent, Airbnb, open data, CSV, JSON
+image:
+temporal: 1999-2026
+spatial: United States
+access_level: public
+copyrights: Mixed; per-dataset attribution in catalog (CC BY 4.0, public domain, public API aggregate)
+accrual_periodicity: 
+specification: CSV and JSON via GitHub release
+data_quality: true
+data_dictionary: https://jayjex.github.io/data-vault/
+language: en
+license: Mixed per dataset
+publisher:
+  - name: Matchbook Labs
+    web: https://github.com/jayjex
+organization:
+issued_time: '2026-09'
+sources:
+  - name: nflverse
+    access_url: https://github.com/nflverse/nfldata
+  - name: HUD
+    access_url: https://www.hud.gov/
+  - name: Inside Airbnb
+    access_url: https://insideairbnb.com/
