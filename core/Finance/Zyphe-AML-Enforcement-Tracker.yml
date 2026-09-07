@@ -1,0 +1,32 @@
+---
+title: Zyphe AML Enforcement Tracker
+homepage: https://www.zyphe.com/resources/aml-enforcement-tracker
+category: Finance
+description: Structured record of AML/BSA fines, sanctions actions, GDPR enforcement decisions and identity-data breaches affecting banks, crypto platforms, payment firms and gambling operators. 27 records from 20 regulators across 10 jurisdictions, covering November 2023 to August 2026. Each row carries entity, regulator, jurisdiction, action type, the penalty in its originally announced currency plus a normalised USD value for sorting, date, a plain-language summary and a link to the primary regulator announcement. Served as CSV, JSON and XML, downloadable directly with no login or paywall. CC BY 4.0.
+version: 1.0
+keywords: anti-money laundering, AML, BSA, sanctions, OFAC, FinCEN, GDPR enforcement, regulatory fines, financial crime, compliance, data breach.
+image:
+temporal: 2023-11-21/2026-08-20
+spatial: US, UK, EU, Netherlands, Germany, Sweden, Italy, UAE, global
+access_level: public
+copyrights:
+accrual_periodicity: as-needed
+specification:
+data_quality: false
+data_dictionary: https://www.zyphe.com/resources/aml-enforcement-tracker#methodology
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Zyphe
+    web: https://www.zyphe.com
+organization:
+  - name: Zyphe
+    web: https://www.zyphe.com
+issued_time: 2026.08
+sources:
+  - name: CSV
+    access_url: https://www.zyphe.com/enforcement.csv
+  - name: JSON
+    access_url: https://www.zyphe.com/enforcement.json
+  - name: XML
+    access_url: https://www.zyphe.com/enforcement.xml
