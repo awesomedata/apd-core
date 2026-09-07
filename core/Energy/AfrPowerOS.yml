@@ -1,0 +1,24 @@
+---
+title: AfrPowerOS
+homepage: https://github.com/kawacukennedy/afrpoweros
+category: Energy
+description: Open dataset tracking civilian nuclear and energy infrastructure programs across all 54 African countries, with source-cited records and confidence labels on every entry.
+version:
+keywords: Africa, nuclear, energy, power plants, electricity access
+image:
+temporal:
+spatial: Africa
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: MIT (code), CC BY 4.0 (data)
+publisher:
+  - name: Kennedy Kawacu
+    web: https://kawacukennedy.github.io/afrpoweros/
+organization:
+  - name: AfrPowerOS
+    web: https://kawacukennedy.github.io/afrpoweros/
