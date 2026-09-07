@@ -1,0 +1,25 @@
+---
+title: Private Foundation Funders, Grants and Officers (samples)
+homepage: https://github.com/molchalih/openfilings-samples
+category: SocialSciences
+description: Free CSV samples (header + 20 rows each) of US private foundations that filed a Form 990-PF electronically, cut by state. The funders file carries 33 columns - EIN, name, address, phone, website, tax period, assets, revenue, contributions received, total grants paid, the Part XV application procedure as filed, and flags for preselected-only giving and final returns. The grants file carries 13 columns - recipient name, city, state, purpose and amount. Built from the IRS 990-PF e-file XML archives for the twelve months to 2026-09-07.
+version: 2026-09-07
+keywords: nonprofit, philanthropy, foundations, grants, 990-PF, fundraising, grantmaking
+image:
+temporal: filings posted in the twelve months to 2026-09-07
+spatial: United States, by state
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: public domain source data
+publisher:
+organization:
+issued_time: 2026.09
+sources:
+  - name: IRS tax-exempt organization e-file XML archives
+    access_url: https://www.irs.gov/charities-non-profits/form-990-series-downloads
+references: []
