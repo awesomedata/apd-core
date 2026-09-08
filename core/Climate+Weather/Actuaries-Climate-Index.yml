@@ -1,6 +1,6 @@
 ---
 title: Actuaries Climate Index
-homepage: http://actuariesclimateindex.org/data/
+homepage: https://actuariesclimateindex.org/data/
 category: Climate+Weather
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
