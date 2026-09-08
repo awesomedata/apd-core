@@ -2,7 +2,7 @@
 title: US Lab-Grown Diamond Import Monitor
 homepage: https://github.com/JacobiusMakes/lgd-import-monitor
 category: Economics
-description: A reproducible monthly dataset on United States imports of cut laboratory-grown diamonds. The primary series uses US Census Bureau HTS 7104.91.10.00 data, including customs value and quantity in number of stones. UN Comtrade HS 710491 data provides a partner-country and tariff-heading cross-check. Includes CSV files, source pulls, validation scripts, methodology, and fixed dated releases.
+description: A reproducible monthly dataset on United States imports of loose cut laboratory-grown diamonds. The primary series uses US Census Bureau HTS 7104.91.10.00 data, including customs value and quantity in number of stones, not carats. It excludes diamonds imported already set in finished jewelry and rough diamonds; it does not measure total lab-grown diamond inflow. UN Comtrade HS 710491 data provides a partner-country and tariff-heading cross-check. Includes CSV files, source pulls, validation scripts, methodology, and fixed dated releases.
 version: "2026.09.04"
 keywords: international trade, imports, diamonds, laboratory-grown diamonds, US Census Bureau, UN Comtrade, time series, jewelry
 image:
@@ -17,10 +17,10 @@ data_dictionary: https://github.com/JacobiusMakes/lgd-import-monitor/blob/main/M
 language: en
 license: CC BY 4.0
 publisher:
-  - name: Stienhardt & Stones
+  - name: Stienhardt
     web: https://stienhardt.com/
 organization:
-  - name: Stienhardt & Stones
+  - name: Stienhardt
     web: https://stienhardt.com/
 issued_time: 2026.09
 sources:
