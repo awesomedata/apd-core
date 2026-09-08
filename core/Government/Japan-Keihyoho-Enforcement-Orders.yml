@@ -1,0 +1,43 @@
+---
+title: Japan - Keihyoho (Premiums and Representations Act) Enforcement Orders
+homepage: https://github.com/eoylab/keihyo-cases
+category: Government
+description: >-
+  Machine-readable register of enforcement orders issued by Japan's Consumer
+  Affairs Agency under the Act against Unjustifiable Premiums and Misleading
+  Representations (景品表示法) - 措置命令 (cease-and-desist orders) and 課徴金納付命令
+  (surcharge payment orders). 151 cases published 2020-2026, plus the specific
+  provisions cited in each order. Structured deterministically from the agency's
+  own index and case pages, with a source URL on every record so any field can be
+  traced back to the page it came from. Contains no judgement of its own: each
+  record restates an order already issued and published, and nothing is inferred,
+  scored or predicted. Names of natural persons are removed from the structured
+  fields. 18 announcements that could not be parsed are kept in a separate file
+  rather than filled in by guesswork. Downloadable as JSON, JSONL and CSV with no
+  account or key.
+version: v1
+keywords:
+  - japan
+  - law
+  - regulatory-compliance
+  - advertising
+  - consumer-protection
+  - enforcement
+  - administrative-law
+image:
+temporal: 2020/2026
+spatial: Japan
+access_level: public
+copyrights: Public Data License 1.0 (data); MIT (code)
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/eoylab/keihyo-cases/blob/main/README.md
+language: ja
+license: other-pd
+publisher: eoylab
+organization: eoylab
+issued_time: 2026-09-02
+sources:
+  - https://www.caa.go.jp/policies/policy/representation/fair_labeling/
+  - https://github.com/eoylab/keihyo-cases
