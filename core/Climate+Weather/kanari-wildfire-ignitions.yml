@@ -1,0 +1,31 @@
+---
+title: kanari - worldwide wildfire ignitions archive (satellite + verified witness reports)
+homepage: https://kanari.io/opendata/feux.csv
+category: Climate+Weather
+description: Continuously updated CSV of significant wildfire events worldwide (136 countries), each with first/last satellite detection time, coordinates, place and country, number of detections per satellite source (NASA FIRMS/VIIRS, NOAA GOES, EUMETSAT Meteosat MTG), maximum fire radiative power (MW), confidence level, count of AI-verified witness reports and observed firefighting aircraft, plus a permanent page per fire. Direct download, no key or account. Also available as a REST API and RSS feed.
+version:
+keywords: wildfire, fire, ignition, satellite, FIRMS, VIIRS, GOES, Meteosat, disaster, near real time
+image:
+temporal: 2026-present, updated continuously
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: https://kanari.io/en/methodologie
+data_quality: false
+data_dictionary: https://kanari.io/en/api
+language: en
+license: CC BY 4.0
+publisher:
+  - name: kanari
+    web: https://kanari.io
+organization:
+  - name: VRIA Consulting
+    web: https://vria-consulting.fr
+issued_time: 2026.08
+sources:
+  - name: kanari REST API
+    access_url: https://kanari.io/api/events?hours=24
+references:
+  - title: Methodology, limits and how to cite
+    reference: https://kanari.io/en/methodologie
