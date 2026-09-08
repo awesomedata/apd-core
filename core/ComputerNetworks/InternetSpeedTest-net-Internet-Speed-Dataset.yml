@@ -1,0 +1,21 @@
+title: InternetSpeedTest.net Internet Speed Dataset
+homepage: https://github.com/internetspeedtest-net/internetspeedtest-dataset
+category: ComputerNetworks
+description: Monthly aggregated download, upload, and ping statistics by country and ISP, computed from internet speed tests run by visitors to internetspeedtest.net. Each monthly JSON file provides average, median, p25, and p75 globally and per country and ISP. This is observational data, not a representative sample; country and ISP are inferred by IP lookup and are not independently verified, and minimum sample thresholds apply (200 tests globally, 30 per country, 20 per ISP). Methodology - https://internetspeedtest.net/blog/internet-speed-dataset-open-source
+version: 2026-08
+keywords: internet, broadband, internet speed, ISP, network performance, telecommunications, open data
+image:
+temporal: 2026-01/2026-08
+spatial: global
+access_level: public
+copyrights: internetspeedtest.net
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time: 2026.09
+sources:
