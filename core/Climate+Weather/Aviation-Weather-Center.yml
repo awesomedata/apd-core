@@ -1,8 +1,8 @@
 ---
 title: Aviation Weather Center
-homepage: https://aviationweather.gov/adds/dataserver
+homepage: https://aviationweather.gov/data/api/
 category: Climate+Weather
-description: Consistent, timely and accurate weather information for the world airspace system
+description: Consistent, timely, and accurate weather information for the world airspace system
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
