@@ -1,0 +1,43 @@
+---
+title: Japan - JFTC Cease-and-Desist Orders and Subcontract Act Recommendations
+homepage: https://github.com/eoylab/jftc-actions
+category: Government
+description: >-
+  Machine-readable register of measures published by the Japan Fair Trade
+  Commission: 排除措置命令 (cease-and-desist orders) under the Antimonopoly Act and
+  勧告 (recommendations) under the Subcontract Act (取適法, formerly 下請法). 361
+  actions from 2010 to 2026, each with a source URL. Structured deterministically
+  from the commission's published annual index tables; the descriptive text of
+  each case is not reproduced, only the factual fields, and the dataset contains
+  no judgement of its own. Surcharge amounts are deliberately absent and recorded
+  as null, because the published index tables carry no amount column and for some
+  years the figures exist only inside images - reading them by OCR and presenting
+  the result as fact was rejected. Names of natural persons are removed from the
+  structured fields, and 15 unparsed announcements are kept separately rather than
+  guessed at. Downloadable as JSON, JSONL and CSV with no account or key.
+version: v1
+keywords:
+  - japan
+  - law
+  - regulatory-compliance
+  - antitrust
+  - competition-law
+  - enforcement
+  - administrative-law
+image:
+temporal: 2010/2026
+spatial: Japan
+access_level: public
+copyrights: Public Data License 1.0 (data); MIT (code)
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/eoylab/jftc-actions/blob/main/README.md
+language: ja
+license: other-pd
+publisher: eoylab
+organization: eoylab
+issued_time: 2026-09-07
+sources:
+  - https://www.jftc.go.jp/houdou/index.html
+  - https://github.com/eoylab/jftc-actions
