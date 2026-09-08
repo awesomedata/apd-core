@@ -1,6 +1,6 @@
 ---
 title: Global Climate Data Since 1929
-homepage: http://en.tutiempo.net/climate
+homepage: https://en.tutiempo.net/climate/
 category: Climate+Weather
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
