@@ -1,0 +1,31 @@
+---
+title: BTU Graph
+homepage: https://github.com/OilpriceAPI/btugraph-data
+category: Energy
+description: A source-reviewed knowledge graph connecting energy companies, sectors, capabilities, markets, regions, workflows, software products, market-data requirements, and operational decisions.
+version: "2026-09-04"
+keywords: energy companies, knowledge graph, commodity markets, energy software, open data
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: Oil Price API; third-party names, marks, and cited source materials are excluded from the license grant.
+accrual_periodicity: weekly
+specification: https://github.com/OilpriceAPI/btugraph-data/blob/main/schema/graph.schema.json
+data_quality: true
+data_dictionary: https://github.com/OilpriceAPI/btugraph-data/blob/main/docs/DATA_DICTIONARY.md
+language: en
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: BTU Graph, Oil Price API
+    web: https://btugraph.com/data/
+organization:
+  - name: Oil Price API
+    web: https://www.oilpriceapi.com/
+issued_time: 2026.09
+sources:
+  - name: BTU Graph canonical public dataset
+    access_url: https://btugraph.com/data/
+references:
+  - title: BTU Graph methodology
+    reference: https://btugraph.com/methodology/
