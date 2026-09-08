@@ -1,0 +1,25 @@
+---
+title: Robot Lawn Mower Specs
+homepage: https://github.com/yumaheymans/robot-lawn-mower-specs
+category: Agriculture
+description: Open dataset of specifications for 23 robot lawn mower models across 9 brands, covering navigation type, obstacle avoidance, rated coverage, slope rating, all-wheel-drive capability, cutting specs, and dated price snapshots, each figure attached to a cited source. Available as CSV and JSON.
+version: 1.0.0
+keywords: robot lawn mower, robotic mower, lawn care, navigation, specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: BestRobotMower.co
+    web: https://bestrobotmower.co
+organization:
+  - name: BestRobotMower.co
+    web: https://bestrobotmower.co
+issued_time: 2026.09
+sources:
+  - name: Robot Lawn Mower Specs CSV
+    access_url: https://raw.githubusercontent.com/yumaheymans/robot-lawn-mower-specs/main/data/mowers.csv
+  - name: Robot Lawn Mower Specs JSON
+    access_url: https://raw.githubusercontent.com/yumaheymans/robot-lawn-mower-specs/main/data/mowers.json
+references:
+  - title: Scoring methodology
+    reference: https://github.com/yumaheymans/robot-lawn-mower-specs/blob/main/methodology.md
