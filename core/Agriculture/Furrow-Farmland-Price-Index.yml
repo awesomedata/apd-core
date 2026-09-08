@@ -1,0 +1,35 @@
+---
+title: Furrow Farmland Price Index
+homepage: https://doi.org/10.5281/zenodo.22212366
+category: Agriculture
+description: Agricultural land prices in 37 countries, each from that country's own statistical office, converted to one currency at a single European Central Bank reference rate and ranked. Every row carries its basis, year and source, because the figures are not strictly comparable. Available as CSV and JSON, and archived on Zenodo with a DOI.
+version: 2026.2
+keywords: farmland, agricultural land, land prices, land values, land market, agricultural economics, Eurostat, USDA, open data, agriculture
+image: https://furrow.land/card/farmland-price-index.png
+temporal: 2018-2026
+spatial: 37 countries, six continents
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://furrow.land/farmland-price-index.json
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Furrow
+    web: https://furrow.land/
+organization:
+  - name: Furrow
+    web: https://furrow.land/
+issued_time: 2026.09
+sources:
+  - name: Farmland Price Index CSV
+    access_url: https://furrow.land/farmland-price-index.csv
+  - name: Farmland Price Index JSON
+    access_url: https://furrow.land/farmland-price-index.json
+references:
+  - title: Furrow Farmland Price Index
+    reference: https://furrow.land/farmland-price-index
+  - title: Zenodo deposit (DOI 10.5281/zenodo.22212366)
+    reference: https://doi.org/10.5281/zenodo.22212366
