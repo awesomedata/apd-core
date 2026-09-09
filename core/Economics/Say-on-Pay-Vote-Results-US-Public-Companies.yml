@@ -1,0 +1,31 @@
+---
+title: Say-on-Pay Vote Results, US Public Companies
+homepage: https://doi.org/10.5281/zenodo.22650198
+category: Economics
+description: Shareholder advisory votes on executive compensation (say-on-pay) for U.S. public companies, filed quarterly. Each row carries a company, its meeting date, votes for/against/abstaining and broker non-votes, and the company's own disclosed counting basis (whether abstentions are counted), with the source SEC proxy filing (accession) for every row. Openly licensed CC BY 4.0, delivered as CSV with a data dictionary and README.
+version: 2026Q3
+keywords: say-on-pay, executive compensation, proxy voting, shareholder vote, governance, compensation, SEC
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://doi.org/10.5281/zenodo.22650198
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Velarion
+    web: https://velarion.ai
+organization:
+  - name: Velarion
+    web: https://velarion.ai
+issued_time: 2026
+sources:
+  - name: SEC EDGAR
+    access_url: https://www.sec.gov/edgar
+references:
+  - title: Velarion Say-on-Pay Open Dataset
+    reference: https://zenodo.org/records/22650198
