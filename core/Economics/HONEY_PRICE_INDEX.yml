@@ -1,0 +1,36 @@
+---
+title: Honey Price Index (USDA-derived US honey prices)
+homepage: https://rawhoneyguide.com/price-data/honey-price-index.csv
+category: Economics
+description: >-
+  Downloadable CSV of US honey prices derived from USDA AMS National Honey
+  Reports and USDA NASS annual Honey reports. The 2026-09-09 release contains
+  3,046 observations, including 24 recorded monthly periods from July 2023
+  through July 2026 and annual producer benchmarks from 1998 through 2025.
+  Fields include reported price ranges and derived midpoints in US dollars
+  per pound, states, color grades, producer channels, imports, report dates,
+  source URLs and SHA-256 checksums. Missing months remain gaps. Domestic
+  bulk, producer and import price bases are separately labeled and are not
+  interchangeable. The CSV contains USDA-derived observations only; it does
+  not include the site's curated honey catalog or retail-price models.
+version: '2026-09-09'
+keywords: honey, USDA, agricultural prices, commodity prices, producer prices, CSV
+spatial: United States
+access_level: public
+specification: https://rawhoneyguide.com/tools/honey-price-compare/methodology
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: Raw Honey Guide
+    web: https://rawhoneyguide.com
+issued_time: '2026-09-09'
+sources:
+  - name: USDA-derived honey price observations CSV
+    access_url: https://rawhoneyguide.com/price-data/honey-price-index.csv
+references:
+  - title: Honey Price Index methodology, source attribution and limitations
+    reference: https://rawhoneyguide.com/tools/honey-price-compare/methodology
+  - title: USDA AMS National Honey Report
+    reference: https://www.ams.usda.gov/mnreports/fvmhoney.pdf
+  - title: USDA NASS Honey annual report issued March 2026
+    reference: https://esmis.nal.usda.gov/sites/default/release-files/795818/hony0326.pdf
