@@ -10,10 +10,10 @@ language: en
 license: CC BY 4.0
 publisher:
   - name: BestRobotMower.co
-    web: https://bestrobotmower.co
+    web: https://bestrobotmower.co/?utm_source=awesome-public-datasets&utm_medium=listing&utm_campaign=mower-dataset
 organization:
   - name: BestRobotMower.co
-    web: https://bestrobotmower.co
+    web: https://bestrobotmower.co/?utm_source=awesome-public-datasets&utm_medium=listing&utm_campaign=mower-dataset
 issued_time: 2026.09
 sources:
   - name: Robot Lawn Mower Specs CSV
