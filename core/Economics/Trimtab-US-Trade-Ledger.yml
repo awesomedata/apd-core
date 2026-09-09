@@ -1,0 +1,37 @@
+---
+title: Trimtab US Trade Ledger
+homepage: https://trimtabist.com
+category: Economics
+description: What US importers actually paid in tariffs — official duty receipts by HS6 product and origin country, monthly since 2017, from US Census imports-for-consumption records, reconciled against US Treasury customs receipts. Publishes both books - duty as assessed at entry (Census) and duty kept after refunds (Treasury MTS, where May and June 2026 ran negative during the IEEPA refund wave). Also includes the current US tariff schedule (HTS) with trade-war measures and Federal Register citations, CBP classification rulings, US containerised import trade by origin, commodity and gateway, and pre-registered event studies with published null results. Every series ships an evidence grade, a citation string and tidy long-format CSV; series that cannot be trusted are withdrawn with a published reason. The full collection pipeline is open source. Also queryable by AI agents over MCP with no API key.
+version: 1.0
+keywords: tariffs, customs, duties, trade, imports, HS codes, HTS, CBP, Federal Register, receipts, United States
+image:
+temporal: 2015-2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://trimtabist.com/trust/method
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Trimtab US Trade Ledger
+    web: https://trimtabist.com
+organization:
+  - name: Trimtab US Trade Ledger
+    web: https://trimtabist.com
+issued_time: 2026.08
+sources:
+  - name: Data catalog (every series with CSV + metadata)
+    access_url: https://trimtabist.com/data
+  - name: China effective tariff burden (CSV)
+    access_url: https://trimtabist.com/series/tt010.china.burden.csv
+  - name: US customs duties kept, net of refunds (CSV)
+    access_url: https://trimtabist.com/series/tt010.national.customs-kept.csv
+references:
+  - title: Methodology and reconciliation
+    reference: https://trimtabist.com/trust/method
+  - title: Open-source collection pipeline
+    reference: https://github.com/mrsingh86/trimtab-pipeline
