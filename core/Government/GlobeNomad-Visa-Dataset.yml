@@ -1,0 +1,35 @@
+---
+title: GlobeNomad Visa Dataset - long-stay and digital-nomad visa programmes, sourced and dated
+homepage: https://github.com/MSeutin/digital-nomad-visa-data
+category: Government
+description: 53 long-stay, remote-work and digital-nomad visa programmes across 46 countries, one record per programme. Each record carries the official government page it was checked against and the date it was last verified, plus income requirement (USD and the government's original wording), fees, stay length, renewal and residency rules, tax treatment, family provisions and application logistics. Programmes that closed or were announced and never opened are kept with an honest status. A null value means the government has not published that rule, never "no".
+version: 2026-09-09
+keywords: visa, immigration, digital nomad, remote work, long-stay, residency, government
+image:
+temporal: 2026
+spatial: 46 countries, worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: continuous (official pages re-fetched weekly; confirmed changes dated on a public changelog)
+specification: https://github.com/MSeutin/digital-nomad-visa-data/blob/main/SCHEMA.md
+data_quality: true
+data_dictionary: https://github.com/MSeutin/digital-nomad-visa-data/blob/main/SCHEMA.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GlobeNomad
+    web: https://globenomad.com/data
+organization:
+  - name: GlobeNomad
+    web: https://globenomad.com
+issued_time: 2026.08
+sources:
+  - name: GitHub (canonical, JSON)
+    access_url: https://github.com/MSeutin/digital-nomad-visa-data/blob/main/data/visas.json
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/globenomad/digital-nomad-visa-data
+  - name: Kaggle (with worked-example notebook)
+    access_url: https://www.kaggle.com/datasets/frenchmike/digital-nomad-visa-dataset-53-sourced-programmes
+references:
+  - title: How the records are verified
+    reference: https://globenomad.com/how-we-verify
