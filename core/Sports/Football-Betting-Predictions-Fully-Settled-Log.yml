@@ -1,0 +1,12 @@
+---
+title: Football Betting Predictions - Fully Settled Public Log
+homepage: https://www.kaggle.com/datasets/aibettingtips/football-betting-predictions-fully-settled-log
+category: Sports
+description: Football predictions archived before kick-off and settled against real final scores, losses included. Per pick - model probability, decimal odds at publication, closing odds and closing-line value, plus the matching final-score archive. Grows twice daily.
+keywords: football,soccer,betting,odds,predictions,closing-line-value
+access_level: public
+data_quality: true
+language: en
+license: CC BY 4.0
+publisher: AI Betting Tips
+sources: []
