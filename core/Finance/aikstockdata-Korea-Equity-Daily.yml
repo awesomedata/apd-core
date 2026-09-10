@@ -1,0 +1,33 @@
+---
+title: Korean Equity Daily Prices and DART Filing Impact
+homepage: https://huggingface.co/datasets/aikstockdata/korea-equity-daily
+category: Finance
+description: Every listed KOSPI, KOSDAQ and KONEX ticker with a T+1 settled close, rebuilt every trading day at 18:10 KST - no signup, no API key, no rate limit. DART filings are carried down to the minute of receipt, which the official DART API does not publish (it returns a filing date only); post-filing price paths are aggregated by filing type as market-adjusted median returns at +1/+5/+20 trading days with 95% confidence intervals (29 filing types over 2,630 filings as of 2026-09-10). Also 250 trading days of closes per ticker and preliminary quarterly earnings, filed about two weeks before the regular report. Parquet, CSV and JSON.
+version:
+keywords: korea, KOSPI, KOSDAQ, KONEX, stocks, DART, filings, disclosure, event study, earnings, open data, API, MCP
+image:
+temporal: 2026-
+spatial: South Korea
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://aikstockdata.com/openapi.json
+data_quality: true
+data_dictionary: https://aikstockdata.com/data/public/index.json
+language: ko
+license: aiksd-public-1.0 (attribution, commercial use allowed); CC BY 4.0 snapshot archived at Zenodo
+publisher:
+  - name: aikstockdata
+    web: https://aikstockdata.com
+organization:
+issued_time: 2026-09-06
+sources:
+  - title: DART - Financial Supervisory Service electronic disclosure system
+    reference: https://dart.fss.or.kr/
+  - title: Financial Services Commission open data (Korea public data portal)
+    reference: https://www.data.go.kr/
+references:
+  - title: Zenodo DOI snapshot (CC BY 4.0)
+    reference: https://doi.org/10.5281/zenodo.22502446
+  - title: Key-free remote MCP server
+    reference: https://mcp.aikstockdata.com/mcp
