@@ -1,0 +1,59 @@
+---
+title: Open Jobs
+homepage: https://backend.dehnbostele.workers.dev/data/
+category: Economics
+description: >-
+  3.1 million open job postings from 65,000 company career sites, crawled nightly, one link to download it all.
+  Every posting on every site,
+  across 36 applicant tracking systems as of September 2026, each with title, company, location, URL, posting date,
+  the full description text, and a 1536-dimension text embedding. The whole dataset is one 13 GB tar of parquet
+  files (one per applicant tracking system), rebuilt nightly at a stable URL, resumable, queryable with DuckDB; the
+  repo's tools download and query it in three commands. The crawler records the day it first saw each posting on its own clock, independent of the date the job
+  board displays, so posting age, closures, and re-posting are measurable. History is published alongside: a daily
+  ledger of every posting ever recorded with first-seen and removed dates (parquet, 0.6 GB), lossless daily diffs of
+  added, removed, and changed postings with the previous version (parquet, sha256 chain, kept indefinitely), and a
+  paged change feed for mirrors. Also a static similarity-search index over the current snapshot (a tree of 11,000
+  groups with float32 vectors) that the project's search page reads with byte-range requests. Static files, CC0, no
+  key, no account, CORS and HTTP Range on every file; each index carries its build time.
+version: 1.0
+keywords: jobs, job postings, labor market, hiring, employment, vacancies, career sites, applicant tracking systems, embeddings, posting age, ghost jobs
+image:
+temporal: 2026.06-
+spatial: worldwide
+access_level: public
+copyrights: CC0 1.0
+accrual_periodicity: daily
+specification: https://github.com/elliottdehn/open-jobs/blob/main/backend/DOCS.md
+data_quality: true
+data_dictionary: https://github.com/elliottdehn/open-jobs/blob/main/backend/FIELDS.md
+language: en
+license: CC0 1.0
+publisher:
+  - name: Elliott Dehnbostel
+    web: https://github.com/elliottdehn
+organization:
+issued_time: 2026.09
+sources:
+  - name: Full dataset, one file (tar of parquet, ~13 GB, rebuilt nightly, resumable)
+    access_url: https://backend.dehnbostele.workers.dev/data/exports/open-jobs-latest.tar
+  - name: Data index (every published file with sizes and build dates)
+    access_url: https://backend.dehnbostele.workers.dev/data/
+  - name: Today's full export, one parquet per applicant tracking system (JSON listing of the files)
+    access_url: https://backend.dehnbostele.workers.dev/data/exports/
+  - name: Ledger index (every posting ever recorded, parquet by day)
+    access_url: https://backend.dehnbostele.workers.dev/data/ledger/index.json
+  - name: Daily diffs index (added, removed, changed, parquet)
+    access_url: https://backend.dehnbostele.workers.dev/data/diffs/index.json
+  - name: Change feed head (paged ndjson for mirrors)
+    access_url: https://backend.dehnbostele.workers.dev/data/changes/latest.json
+  - name: Similarity-search index over the current snapshot (22 MB JSON manifest)
+    access_url: https://backend.dehnbostele.workers.dev/data/manifest.json
+references:
+  - title: Source code, crawler, and search page
+    reference: https://github.com/elliottdehn/open-jobs
+  - title: Field dictionary
+    reference: https://github.com/elliottdehn/open-jobs/blob/main/backend/FIELDS.md
+  - title: File layout and endpoints
+    reference: https://github.com/elliottdehn/open-jobs/blob/main/backend/DOCS.md
+  - title: Change feed protocol
+    reference: https://github.com/elliottdehn/open-jobs/blob/main/backend/JOB-CHANGES.md
