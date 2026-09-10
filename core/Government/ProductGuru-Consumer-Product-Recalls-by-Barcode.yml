@@ -1,0 +1,45 @@
+---
+title: Consumer Product Recalls by Barcode (EAN/GTIN)
+homepage: https://doi.org/10.5281/zenodo.22685727
+category: Government
+description: >
+  36,582 consumer product-safety recall notices compiled from 11 national and
+  international government registers and keyed by retail barcode (EAN/GTIN), covering
+  32,610 distinct barcodes. One row per (barcode, authority, notice), and every row links
+  to the issuing authority's own published notice. Sources include the EU Safety Gate (RAPEX),
+  RappelConso (France), the US FDA and CPSC, UK OPSS, Australia's ACCC, Germany's BVL and
+  Ireland's FSAI. Most official recall registers do not publish a barcode at all - across the
+  registers mirrored here only 29.3 percent of consumer-product recalls carry one - so this
+  join makes recalls searchable by the identifier printed on the packaging. Medicines are
+  excluded. A recall usually applies to specific lots or date codes rather than to every unit
+  sharing a barcode.
+version: 2026-09-10
+keywords: product recall, product safety, consumer protection, barcode, EAN, GTIN, market surveillance, RAPEX, government registers, open data
+image:
+temporal: 2005-2026
+spatial: European Union, United States, United Kingdom, Canada, Australia, Ireland, Germany, France
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.22685727
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: ProductGuru
+    web: https://myproduct.guru
+organization:
+  - name: ProductGuru
+    web: https://myproduct.guru
+issued_time: 2026-09-10
+sources:
+  - name: Zenodo archive (DOI, permanent)
+    access_url: https://doi.org/10.5281/zenodo.22685727
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/PROGU2026/recalls-by-barcode
+references:
+  - title: Dataset record on Zenodo
+    reference: https://zenodo.org/record/22685728
+  - title: Method and per-register barcode coverage
+    reference: https://myproduct.guru/data/recall-barcode-transparency
