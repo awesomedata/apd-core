@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # was @v3
 
       - name: Validate metadata
         run: bash ./tests/testing.sh
@@ -61,7 +61,7 @@ jobs:
       # page effectively gives you history without needing any
       # archive/rotation logic of our own.
       - name: Upload report as workflow artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5   # was @v4
         with:
           name: link-check-report
           path: reports/
