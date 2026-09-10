@@ -21,6 +21,52 @@ jobs:
           pip install -r ./deploy/requirements.txt
           python ./deploy/render.py
 
+      # NEW - renders a markdown table of every failing link directly
+      # onto this run's page. $GITHUB_STEP_SUMMARY is a file GitHub
+      # Actions provides per-run; anything written to it shows up as
+      # formatted markdown right there in the browser - no site, no
+      # branch, no admin access needed. This is what you'll actually
+      # look at: open
+      #   https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml
+      # click the newest run at the top, and scroll down.
+      - name: Post link check summary to this run
+        run: |
+          python - <<'PY'
+          import csv
+          import os
+
+          with open("reports/latest.csv", newline="", encoding="utf-8") as f:
+              rows = list(csv.DictReader(f))
+
+          lines = ["## Link check report \u2014 {} failing link(s)".format(len(rows)), ""]
+          if rows:
+              lines.append("| Category | File | Homepage | Reason |")
+              lines.append("|---|---|---|---|")
+              for r in rows:
+                  lines.append("| {} | {} | [{homepage}]({homepage}) | {} |".format(
+                      r["category"], r["file"], r["reason"], homepage=r["homepage"]
+                  ))
+          else:
+              lines.append("All links passed. \U0001F389")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
+              out.write("\n".join(lines) + "\n")
+          PY
+
+      # NEW - makes reports/ (latest.csv + latest.html) downloadable
+      # as a zip from the same run page, for whenever the inline
+      # summary above isn't enough and you want the actual HTML file
+      # open in a browser tab. GitHub keeps each run's artifact for
+      # `retention-days`, so browsing a few runs back on the Actions
+      # page effectively gives you history without needing any
+      # archive/rotation logic of our own.
+      - name: Upload report as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: reports/
+          retention-days: 30
+
       - name: Decrypt secrets
         env:
           ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
@@ -43,7 +89,7 @@ jobs:
         run: |
           git clone git@github.com:awesomedata/awesome-public-datasets.git 
           bash ./deploy/deploy.sh
-          
+
       - name: Cleanup
         if: always()
         env:
