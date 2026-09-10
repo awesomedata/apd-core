@@ -3,11 +3,12 @@ title: Open Jobs
 homepage: https://backend.dehnbostele.workers.dev/data/
 category: Economics
 description: >-
-  3.1 million open job postings from 65,000 company career sites, crawled nightly. Every posting on every site,
+  3.1 million open job postings from 65,000 company career sites, crawled nightly, one link to download it all.
+  Every posting on every site,
   across 36 applicant tracking systems as of September 2026, each with title, company, location, URL, posting date,
-  the full description text, and a 1536-dimension text embedding. Three commands put the whole dataset on disk (git clone,
-  cd, one export command), as one parquet file per applicant tracking system, 13 GB, resumable, queryable with
-  DuckDB. The crawler records the day it first saw each posting on its own clock, independent of the date the job
+  the full description text, and a 1536-dimension text embedding. The whole dataset is one 13 GB tar of parquet
+  files (one per applicant tracking system), rebuilt nightly at a stable URL, resumable, queryable with DuckDB; the
+  repo's tools download and query it in three commands. The crawler records the day it first saw each posting on its own clock, independent of the date the job
   board displays, so posting age, closures, and re-posting are measurable. History is published alongside: a daily
   ledger of every posting ever recorded with first-seen and removed dates (parquet, 0.6 GB), lossless daily diffs of
   added, removed, and changed postings with the previous version (parquet, sha256 chain, kept indefinitely), and a
@@ -33,7 +34,9 @@ publisher:
 organization:
 issued_time: 2026.09
 sources:
-  - name: Data index (every published file with sizes and build dates, and the three commands)
+  - name: Full dataset, one file (tar of parquet, ~13 GB, rebuilt nightly, resumable)
+    access_url: https://backend.dehnbostele.workers.dev/data/exports/open-jobs-latest.tar
+  - name: Data index (every published file with sizes and build dates)
     access_url: https://backend.dehnbostele.workers.dev/data/
   - name: Today's full export, one parquet per applicant tracking system (JSON listing of the files)
     access_url: https://backend.dehnbostele.workers.dev/data/exports/
