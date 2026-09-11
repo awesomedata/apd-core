@@ -1,0 +1,17 @@
+---
+title: Dividend Data Toolkit - SCHD Payments and Holdings
+homepage: https://github.com/holaclea/dividend-data-toolkit
+category: Finance
+description: Dated SCHD payment and holdings snapshots with source URLs, data dictionaries, and Python tools for checking ex-dividend windows, share-split bases, and a company's indirect exposure across ETF positions. Includes 40 as-listed payment records from September 2016 to June 2026 and 102 entries from the September 8, 2026 holdings disclosure. Example investment amounts are explicitly hypothetical; this is not a live feed or complete history.
+keywords: SCHD, dividends, ETF, holdings, corporate actions, financial data
+access_level: public
+language: en
+publisher:
+  - name: DividendSteps
+    web: https://dividendsteps.com/
+sources:
+  - name: Schwab Asset Management
+    access_url: https://www.schwabassetmanagement.com/products/schd
+references:
+  - title: Data provenance and reuse boundaries
+    reference: https://github.com/holaclea/dividend-data-toolkit/blob/main/DATA-NOTICE.md
