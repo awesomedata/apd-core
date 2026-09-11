@@ -1,8 +1,8 @@
 ---
-title: Protein-protein interaction network
-homepage: http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm
+title: Protein-protein interaction network (At Wayback)
+homepage: https://web.archive.org/web/20240412112159/http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm
 category: ComplexNetworks
-description:
+description: The original dataset is still available on archive.org
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
