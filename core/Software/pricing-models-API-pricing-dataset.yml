@@ -1,0 +1,31 @@
+---
+title: pricing-models — per-unit API pricing dataset
+homepage: https://github.com/UNAUTH-ACCESS/pricing-models
+category: Software
+description: Machine-readable per-unit pricing for the APIs developers build on — LLM inference, speech, messaging, maps, and vector databases. One JSON file per provider, each carrying a verified_at date and a pricing_url to the source page. LLM rates are cross-checked against OpenRouter's live models API; other categories are read by hand against the vendor's own pricing page. A merged build (all providers, and one file per category) is generated and published alongside the per-provider source files. Powers api-rate.store, a pricing-comparison site for cloud/API services. Open for corrections via issue or PR.
+version: 1.0
+keywords: api pricing, llm pricing, cloud pricing, developer tools, json, open data
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/UNAUTH-ACCESS/pricing-models#provider-file
+data_quality: true
+data_dictionary: https://github.com/UNAUTH-ACCESS/pricing-models/blob/main/schema.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: api-rate.store
+    web: https://api-rate.store
+organization:
+issued_time: 2026.09
+sources:
+  - name: Per-provider source files
+    access_url: https://github.com/UNAUTH-ACCESS/pricing-models/tree/main/providers
+  - name: Merged build, all providers (JSON)
+    access_url: https://raw.githubusercontent.com/UNAUTH-ACCESS/pricing-models/main/build/all.json
+references:
+  - title: Schema and field reference
+    reference: https://github.com/UNAUTH-ACCESS/pricing-models#provider-file
