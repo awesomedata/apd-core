@@ -1,0 +1,15 @@
+---
+title: Beauty Brand Purchase Policies
+homepage: https://github.com/hoannguyen10101981-spec/beauty-brand-policy-data
+category: Economics
+description: >-
+  A dated CSV and JSON reference of US-facing beauty-brand purchase policies,
+  with 60 policy summaries and 8 separately labeled official-source conflicts
+  across 12 brands. Each record includes official source URLs and a review date.
+  Topics include shipping, returns, discount eligibility and restrictions.
+  AI-assisted curation; a convenience sample, not a representative survey or live coupon feed.
+access_level: public
+language: en
+license: CC BY 4.0 (curated data and documentation); MIT (query utility)
+keywords: consumer policies, retail, shipping, returns, beauty brands
+temporal: 2026-09-11 snapshot
