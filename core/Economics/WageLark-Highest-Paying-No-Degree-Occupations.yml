@@ -1,0 +1,29 @@
+---
+title: WageLark Highest-Paying Occupations Without a Bachelor's Degree
+homepage: https://wagelark.com/highest-paying-jobs-without-a-degree/
+category: Economics
+description: Every occupation WageLark tracks that does not require a bachelor's degree to enter, ranked by median annual wage (29 of the 47 occupations covered). Each row carries the SOC code, entry-education level, 10th/median/90th percentile annual wages, projected job growth, the BLS data year, and a source link to the specific BLS Occupational Outlook Handbook page the figure came from. Direct CSV download at https://wagelark.com/data/highest-paying-jobs-without-a-degree.csv, no login or signup.
+version:
+keywords: wages, salaries, occupations, employment, labor, BLS, OEWS, OOH, United States, education requirements, entry-level
+image:
+temporal: May 2024 and May 2025 OEWS wage releases
+spatial: United States, national
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://wagelark.com/highest-paying-jobs-without-a-degree/
+language: en
+license: Public domain (BLS source data); site content CC-BY-4.0
+publisher:
+  - name: WageLark
+    web: https://wagelark.com
+organization:
+issued_time: 2026.08
+sources:
+  - name: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS)
+    access_url: https://www.bls.gov/oes/
+  - name: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook (entry education and job outlook)
+    access_url: https://www.bls.gov/ooh/
+references:
