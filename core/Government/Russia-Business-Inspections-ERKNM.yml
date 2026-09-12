@@ -1,0 +1,41 @@
+---
+title: Russia Business Inspections (ERKNM)
+homepage: https://kontragentpro.ru/data
+category: Government
+description: Aggregated statistics of state control and supervision activities
+  in Russia from the Unified Register of Control Activities (ERKNM) maintained
+  by the Prosecutor General's Office - 14.9M inspection records covering
+  2021-2026, broken down by year, region, supervisory body and outcome.
+  Includes industry medians of financial indicators by OKVED economic activity
+  code, derived from official financial statements.
+version:
+keywords:
+  - russia
+  - government
+  - inspections
+  - regulation
+  - business
+  - open-data
+image:
+temporal: 2021-2026
+spatial: Russia
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary:
+language: ru
+license: CC-BY-4.0
+publisher: KontragentPro
+organization:
+issued_time: 2026
+sources:
+  - name: Zenodo (CERN) - inspections statistics
+    web: https://doi.org/10.5281/zenodo.22149919
+  - name: Zenodo (CERN) - industry medians by OKVED
+    web: https://doi.org/10.5281/zenodo.22149921
+  - name: Harvard Dataverse - extended breakdowns
+    web: https://doi.org/10.7910/DVN/P32G5X
+  - name: ERKNM, Prosecutor General's Office of Russia
+    web: https://proverki.gov.ru/
