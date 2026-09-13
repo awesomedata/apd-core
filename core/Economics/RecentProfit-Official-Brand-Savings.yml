@@ -1,0 +1,33 @@
+---
+title: RecentProfit Official Brand Savings Data
+homepage: https://github.com/clouddress/recentprofit-official-savings-data
+category: Economics
+description: A dated U.S. consumer-savings dataset covering 20 brands and 49 offer or policy records. Each row includes promo-code status, qualification conditions, a brand-owned evidence URL, and the verification date. Available as CSV and JSON, with a source-availability checker.
+version: 2026-09-12
+keywords: consumer savings, promotions, promo codes, retail, ecommerce, official sources, shopping
+image:
+temporal: 2026-09-12
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/clouddress/recentprofit-official-savings-data/blob/main/README.md
+language: en
+license:
+publisher:
+  - name: RecentProfit
+    web: https://recentprofit.com
+organization:
+  - name: RecentProfit
+    web:
+issued_time: 2026.09
+sources:
+  - name: Official Brand Savings Data (CSV)
+    access_url: https://raw.githubusercontent.com/clouddress/recentprofit-official-savings-data/main/data/official-brand-savings.csv
+  - name: Official Brand Savings Data (JSON)
+    access_url: https://raw.githubusercontent.com/clouddress/recentprofit-official-savings-data/main/data/official-brand-savings.json
+references:
+  - title: Dataset methodology and source-checking instructions
+    reference: https://github.com/clouddress/recentprofit-official-savings-data/blob/main/README.md
