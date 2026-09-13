@@ -1,0 +1,33 @@
+---
+title: Software & AI-tool pricing comparison dataset
+homepage: https://github.com/UNAUTH-ACCESS/software-pricing-dataset
+category: Software
+description: An open, dated index of software and AI-tool pricing comparisons. Each entry names the vendors compared, links their official pricing pages, and records the date the figures were last verified against those pages. Covers AI assistants & models, developer tools, security, productivity, marketing, and business-ops software; 162 entries as of September 2026 and growing. Maintained alongside StackLegder, where each row is a full written comparison with pricing tables and sources. Published as JSON and a flattened CSV; corrections are tracked and fixed at the source.
+version: 1.0
+keywords: software pricing, saas pricing, ai tools, comparison, csv, json, open data
+image:
+temporal: 2026-09 snapshot, updated ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/UNAUTH-ACCESS/software-pricing-dataset#schema
+data_quality: true
+data_dictionary: https://github.com/UNAUTH-ACCESS/software-pricing-dataset#schema
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StackLegder
+    web: https://stacklegder.online
+organization:
+issued_time: 2026.09
+sources:
+  - name: Full dataset (JSON)
+    access_url: https://raw.githubusercontent.com/UNAUTH-ACCESS/software-pricing-dataset/main/data/pricing.json
+  - name: Full dataset, flattened (CSV)
+    access_url: https://raw.githubusercontent.com/UNAUTH-ACCESS/software-pricing-dataset/main/data/pricing.csv
+  - name: Live source, always current
+    access_url: https://stacklegder.online/data/pricing.json
+references:
+  - title: Schema and field reference
+    reference: https://github.com/UNAUTH-ACCESS/software-pricing-dataset#schema
