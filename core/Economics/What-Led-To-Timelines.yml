@@ -1,0 +1,40 @@
+---
+title: What Led To Timelines
+homepage: https://whatledto.com/data
+category: Economics
+description: "27 living timelines of long-running US economic, policy and technology events — Federal Reserve rate decisions, Social Security COLA, Medicare, student loan rules, tariff litigation, layoffs, chip export controls, semiconductor roadmaps. Each timeline is a list of dated entries; every entry carries the page it was taken from, the outlet, the publication date and the verbatim quote that supports it, and is re-checked against that page by an independent pass before publication. Also included: typed relations between entries (causes, responds_to, contradicts, follows), scheduled future dates with their sources, open questions, and numeric metric series (COLA percentages, rates, prices) where a published entry states the value verbatim. A per-timeline changelog records every addition and correction, so successive snapshots diff cleanly."
+version: 1.0
+keywords: economics, public policy, Federal Reserve, Social Security, Medicare, student loans, tariffs, layoffs, semiconductors, export controls, event timeline, news events, provenance, citations, time series
+temporal: 2024-01 to present, updated continuously
+spatial: United States, global technology industry
+access_level: public
+copyrights: What Led To
+accrual_periodicity: continuous
+specification: https://whatledto.com/data
+data_quality: true
+data_dictionary: https://whatledto.com/data
+language: en
+license: "Custom (https://whatledto.com/methodology#reuse): free to access and download, no login or payment. Quoting entries and using the data in research, articles and answers is permitted with attribution and a link to the entry. Mirroring whole timelines and using the text to train models are not permitted."
+publisher:
+  - name: What Led To
+    web: https://whatledto.com/
+organization:
+  - name: What Led To
+    web: https://whatledto.com/
+issued_time: 2026.09
+sources:
+  - name: Index of every timeline with URLs, sizes and last update (JSON)
+    access_url: https://whatledto.com/index.json
+  - name: Every entry on every timeline in one flat list (JSON)
+    access_url: https://whatledto.com/search.json
+  - name: One timeline in full, with sources and quotes (JSON)
+    access_url: https://whatledto.com/events/fed-rate-path-2025-2026.json
+  - name: Scheduled future dates with sources (JSON)
+    access_url: https://whatledto.com/upcoming.json
+  - name: Every timeline in full as plain-text Markdown
+    access_url: https://whatledto.com/llms-full.txt
+references:
+  - title: Field documentation and stability guarantees
+    reference: https://whatledto.com/data
+  - title: How the timelines are made, verified and corrected
+    reference: https://whatledto.com/methodology
