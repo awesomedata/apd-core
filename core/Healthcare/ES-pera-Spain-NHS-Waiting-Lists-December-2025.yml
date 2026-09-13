@@ -1,0 +1,23 @@
+---
+title: ES·pera — Spain NHS Waiting Lists, December 2025
+homepage: https://es-pera.org/interanual/2025-12/datos.csv
+category: Healthcare
+description: National and regional official Spanish NHS waiting-list indicators for December 2025, normalised by ES·pera with explicit source, period and reporting-perimeter metadata. Landing page and methodology: https://es-pera.org/interanual/2025-12/
+version: 2025-12
+keywords: healthcare, waiting lists, hospitals, Spain, public data
+temporal: 2025-12
+spatial: Spain
+access_level: public
+accrual_periodicity: semiannual
+language: es
+license: Spanish Ministry of Health website reuse terms
+publisher:
+  - name: ES·pera
+    web: https://es-pera.org
+sources:
+  - name: Ministerio de Sanidad · SISLE-SNS — December 2025
+    access_url: https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/LISTAS_PUBLICACION_Dic_2025.pdf
+references:
+  - title: ES·pera methodology and sources
+    reference: https://es-pera.org/metodologia/
+
