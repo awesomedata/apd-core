@@ -1,0 +1,39 @@
+---
+title: The Gold Barometer
+homepage: https://github.com/thegoldbarometer/data
+category: Economics
+description: A daily gold buying-conditions score (0 to 100) for the US market, built from seven public sources (real interest rates, entry price against its own history, central-bank and ETF demand, the dollar, futures positioning, volatility, retail premiums), with a reconstructed monthly record back to 1971 and the record of what followed readings like today's. Published every day as JSON and CSV with an immutable per-day archive; methodology and corrections are public. Free JSON API, dataset mirrored on Zenodo (DOI), Hugging Face and Kaggle.
+version: 1.0
+keywords: gold, precious metals, commodities, real rates, central banks, ETF flows, futures positioning, macro, time series
+image:
+temporal: 1971-present
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://thegoldbarometer.com/methodology/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Gold Barometer
+    web: https://thegoldbarometer.com/
+organization:
+  - name: The Gold Barometer
+    web: https://thegoldbarometer.com/
+issued_time: 2026.08
+sources:
+  - name: Latest reading (JSON)
+    access_url: https://thegoldbarometer.com/data/latest.json
+  - name: Published daily history (CSV)
+    access_url: https://thegoldbarometer.com/data/history.csv
+  - name: Monthly record 1971-present (CSV)
+    access_url: https://raw.githubusercontent.com/thegoldbarometer/data/main/backtest/monthly_scores.csv
+  - name: Zenodo record (DOI 10.5281/zenodo.22011949)
+    access_url: https://doi.org/10.5281/zenodo.22011949
+references:
+  - title: Methodology
+    reference: https://thegoldbarometer.com/methodology/
+  - title: OpenAPI description of the data endpoints
+    reference: https://thegoldbarometer.com/openapi.yaml
