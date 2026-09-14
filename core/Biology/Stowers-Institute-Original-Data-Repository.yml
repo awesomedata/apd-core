@@ -1,6 +1,6 @@
 ---
 title: Stowers Institute Original Data Repository
-homepage: http://www.stowers.org/research/publications/odr
+homepage: https://www.stowers.org/stowers-odr
 category: Biology
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
