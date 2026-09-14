@@ -1,6 +1,6 @@
 ---
 title: Fredericton, NB, Canada
-homepage: http://www.fredericton.ca/en/citygovernment/Catalogue.asp
+homepage: https://data-fredericton.opendata.arcgis.com/
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
