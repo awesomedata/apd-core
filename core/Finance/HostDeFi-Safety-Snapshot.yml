@@ -1,0 +1,26 @@
+---
+title: HostDeFi Weekly Token Safety Snapshot
+homepage: https://hostdefi.com/data/
+category: Finance
+description: Weekly CC BY 4.0 CSV snapshot of deterministic A+–F token-safety grades, mint/freeze authority state, liquidity depth and holder concentration for tokens across Solana and EVM chains. Direct download, no signup.
+version:
+keywords:
+  - crypto
+  - token safety
+  - defi
+  - rug pull
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: HostDeFi
+organization:
+issued_time:
+sources: []
