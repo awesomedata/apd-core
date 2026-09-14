@@ -1,0 +1,33 @@
+---
+title: Prop-Firm Rules Census
+homepage: https://propsurvival.com/research/prop-firm-rules-census-2026
+category: Finance
+description: Sourced, dated registry of published prop-trading-firm evaluation-program rules — profit targets, daily loss limits, drawdown mechanics, consistency rules, and payout terms — each field transcribed from the firm's own published documentation and periodically re-verified with a two-pass blind recheck. Covers 60 firm rule sets across 247 account-size configurations, computed from source via a deterministic corpus tool, never hand-typed. The bulk download carries identity, counts, dates and categorical rule shape only (no numeric daily-loss, drawdown, profit-split or fee values); those live on each firm's own page, linked per row. A companion GitHub repository shows five firms in full field-level detail plus tracking metadata for the rest. Data licensed CC BY 4.0.
+version: v20260722
+keywords: prop firm, proprietary trading, futures, forex, evaluation rules, drawdown, daily loss limit, consistency rule, payout, funded trader, finance.
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: as-needed
+specification:
+data_quality: true
+data_dictionary: https://github.com/casestudies/prop-firm-rules/blob/main/SCHEMA.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: PropSurvival
+    web: https://propsurvival.com
+organization:
+  - name: PropSurvival
+    web: https://propsurvival.com
+issued_time: 2026.09
+sources:
+  - name: CSV (census)
+    access_url: https://propsurvival.com/research/prop-firm-rules-census-2026.csv
+  - name: JSON (census)
+    access_url: https://propsurvival.com/research/prop-firm-rules-census-2026.json
+references:
+  - title: GitHub showcase (5 firms in full detail + methodology)
+    reference: https://github.com/casestudies/prop-firm-rules
