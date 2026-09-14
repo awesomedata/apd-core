@@ -1,0 +1,25 @@
+---
+title: WhoPaysTheRepair - US City Repair-Responsibility Dataset
+homepage: https://whopaystherepair.com/
+category: Government
+description: Source-verified dataset of who pays to repair public-adjacent property across US cities - sidewalks, sewer laterals, and water service lines. Each of 190+ city/issue records gives the responsible party (property owner, city, or shared), the boundary rule, and a verbatim quote pulled from the city's own municipal code or water-utility page, with the source URL and the date it was checked. Available as CSV and JSON.
+version: 1.0.0
+keywords: sidewalk repair, sewer lateral, water service line, municipal code, property responsibility, who pays, local government, cities
+access_level: public
+language: en
+license: Free to cite and republish with attribution (see https://whopaystherepair.com/press/)
+publisher:
+  - name: Werner Harmonic Labs
+    web: https://whopaystherepair.com/
+organization:
+  - name: The Verification Desk
+    web: https://whopaystherepair.com/methodology/
+issued_time: 2026.09
+sources:
+  - name: WhoPaysTheRepair dataset (CSV)
+    access_url: https://whopaystherepair.com/data.csv
+  - name: WhoPaysTheRepair dataset (JSON)
+    access_url: https://whopaystherepair.com/data.json
+references:
+  - title: Methodology and source-verification standard
+    reference: https://whopaystherepair.com/methodology/
