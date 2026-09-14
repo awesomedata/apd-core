@@ -1,6 +1,6 @@
 ---
 title: Chile
-homepage: http://datos.gob.cl/dataset
+homepage: https://datos.gob.cl/dataset
 category: Government
 description:
 version:
@@ -12,9 +12,9 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
-language:
+language: es
 license:
 publisher:
 organization:
