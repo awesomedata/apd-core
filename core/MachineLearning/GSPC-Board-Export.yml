@@ -1,0 +1,33 @@
+---
+title: GSPC Board Export (Council of AI)
+homepage: https://huggingface.co/datasets/csoai/gspc-board
+category: MachineLearning
+description: Signed export of the GSPC board of AI behaviour measurements published by Council of AI (CSOAI Ltd). Scores come from deterministic grading on frozen item banks rather than LLM-as-judge, and the board is Ed25519-signed so any reader can re-check it client-side. Measurement, not certification.
+version: 1.0
+keywords: AI evaluation, LLM, model behaviour, measurement, Ed25519, signed data, governance
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://councilof.ai/signed/HOW-TO-VERIFY.md
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: CSOAI Ltd (Council of AI)
+    web: https://councilof.ai
+organization:
+  - name: CSOAI Ltd
+    web: https://councilof.ai
+issued_time:
+sources:
+  - name: Hugging Face dataset (board.json, axis-register.json, board.parquet)
+    access_url: https://huggingface.co/datasets/csoai/gspc-board
+  - name: Live signed board (JSON)
+    access_url: https://councilof.ai/api/gspc
+references:
+  - title: Client-side verifier
+    reference: https://councilof.ai/gspc-verify
