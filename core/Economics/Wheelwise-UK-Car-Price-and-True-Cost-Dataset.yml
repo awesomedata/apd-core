@@ -1,0 +1,33 @@
+---
+title: Wheelwise UK Car Price and True-Cost-of-Ownership Dataset
+homepage: https://cars.limoja.ai
+category: Economics
+description: Free UK car valuation dataset - 417,146 scored used-car adverts across 78 makes, aggregated via the /api/search, /api/car and /api/stats endpoints at cars.limoja.ai. Each advert carries model-level price estimates, per-month true-cost-of-ownership figures (fleet average 256.10 GBP/month) and A-X deal grades (A 44,039; B 93,615; C 126,883; D 91,096; E 61,513; X 5,998). Pricing model validation is published on the methodology page (holdout RMSLE 0.161, MAE about 1,770 GBP). API serves JSON over HTTPS without login; no registration, no payment, no rate-limit key required. UK scope only.
+version: 2026.09
+keywords: cars, UK, used car prices, valuation, true cost of ownership, automotive, price index
+image:
+temporal: listings current as of 2026-09-09
+spatial: United Kingdom
+access_level: public
+copyrights: Listing data originates from third-party UK marketplaces; see site terms
+accrual_periodicity: continuously refreshed listings index
+specification: https://cars.limoja.ai/api/stats
+data_quality: true
+data_dictionary: https://cars.limoja.ai/methodology
+language: en
+license: no registration required; open access (see site)
+publisher:
+  - name: Wheelwise (Limoja)
+    web: https://cars.limoja.ai
+organization:
+  - name: Limoja
+    web: https://limoja.ai
+issued_time: '2026-09'
+sources:
+  - name: Search API (JSON, no login)
+    access_url: https://cars.limoja.ai/api/search?q=BMW&limit=5
+  - name: Aggregate statistics endpoint
+    access_url: https://cars.limoja.ai/api/stats
+references:
+  - title: Pricing model methodology and validation
+    reference: https://cars.limoja.ai/methodology
