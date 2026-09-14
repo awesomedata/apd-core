@@ -1,6 +1,6 @@
 ---
 title: London Datastore, UK
-homepage: http://data.london.gov.uk/dataset
+homepage: https://data.london.gov.uk/search?type=dataset
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
