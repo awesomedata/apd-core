@@ -1,6 +1,6 @@
 ---
 title: London, ON, Canada
-homepage: http://www.london.ca/city-hall/open-data/Pages/default.aspx
+homepage: https://opendata.london.ca/
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
