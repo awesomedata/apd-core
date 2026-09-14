@@ -1,0 +1,33 @@
+---
+title: AI Crawler Access Reference
+homepage: https://github.com/alternatefutures/ai-crawler-access-reference
+category: ComputerNetworks
+description: A source-linked dataset of ten documented crawler and control tokens from OpenAI, Anthropic, Perplexity, and Google, classifying search discovery, model training, and user-triggered retrieval behavior with primary documentation URLs and review dates.
+version: 1.4.1
+keywords: AI crawlers, robots.txt, web crawling, search discovery, model training, OpenAI, Anthropic, Perplexity, Google
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/alternatefutures/ai-crawler-access-reference/blob/v1.4.1/README.md#quick-reference
+language: en
+license: CC0 1.0
+publisher:
+- name: Alternate Futures
+  web: https://alternatefutures.ai/
+organization:
+- name: Alternate Futures
+  web: https://alternatefutures.ai/
+issued_time: 2026-09-12
+sources:
+- name: Versioned CSV
+  access_url: https://raw.githubusercontent.com/alternatefutures/ai-crawler-access-reference/v1.4.1/data/crawlers.csv
+- name: Versioned JSON
+  access_url: https://raw.githubusercontent.com/alternatefutures/ai-crawler-access-reference/v1.4.1/data/crawlers.json
+references:
+- title: Methodology, limitations, and primary sources
+  reference: https://github.com/alternatefutures/ai-crawler-access-reference/blob/v1.4.1/README.md
