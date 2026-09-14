@@ -1,0 +1,26 @@
+---
+title: Namebeam E1 AI Referral Index
+homepage: https://huggingface.co/datasets/Namebeam/namebeam-e1-ai-referral-index
+category: SearchEngines
+description: Dated daily record of which businesses AI engines (Perplexity, Gemini, Google SERP, OpenAI, Anthropic) name when asked for a recommendation; rows are never backfilled; CC BY 4.0
+version:
+keywords:
+  - ai-search
+  - citations
+  - small-business
+  - dated-record
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: CC BY 4.0
+publisher:
+organization:
+issued_time:
+sources: []
