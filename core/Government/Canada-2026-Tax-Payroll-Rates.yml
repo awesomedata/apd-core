@@ -1,0 +1,45 @@
+---
+title: Canada 2026 Tax and Payroll Rates
+homepage: https://abstractigakis.com/data
+category: Government
+description: Free MIT-licensed JSON and CSV of official 2026 Canadian GST/HST/PST rates by province, CRA mileage allowances, CPP/CPP2/QPP and EI dollar limits, plus TFSA and RRSP dollar limits. Sourced from CRA, Finance Canada, ESDC, and Retraite Québec. Browser calculators linked from the files.
+version: 2026.1
+keywords: Canada, GST, HST, PST, QST, CPP, QPP, EI, TFSA, RRSP, mileage, payroll, open data
+image:
+temporal: 2026
+spatial: Canada, all provinces and territories
+access_level: public
+copyrights: Eric Stratigakis
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://abstractigakis.com/data
+language: en
+license: MIT
+publisher:
+  - name: abstractigakis
+    web: https://abstractigakis.com
+organization:
+  - name: abstractigakis
+    web: https://abstractigakis.com
+issued_time: 2026.09
+sources:
+  - name: CRA GST/HST rates
+    access_url: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html
+  - name: Finance Canada 2026 automobile rates
+    access_url: https://www.canada.ca/en/department-finance/news/2026/01/government-announces-the-2026-automobile-deduction-limits-and-expense-benefit-rates-for-businesses.html
+  - name: CRA CPP contribution rates
+    access_url: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html
+  - name: CRA EI premium rates
+    access_url: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html
+references:
+  - title: 2026 rates JSON
+    reference: https://abstractigakis.com/rates-2026.json
+  - title: 2026 sales-tax CSV
+    reference: https://abstractigakis.com/sales-tax-2026.csv
+  - title: 2026 payroll CSV
+    reference: https://abstractigakis.com/payroll-2026.csv
+  - title: GST/HST calculator
+    reference: https://abstractigakis.com/ca/hst.html
+  - title: CPP/EI calculator
+    reference: https://abstractigakis.com/ca/cpp.html
