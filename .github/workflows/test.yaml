@@ -8,7 +8,7 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5 
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Run testing cases
