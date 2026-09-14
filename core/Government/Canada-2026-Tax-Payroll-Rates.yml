@@ -2,7 +2,7 @@
 title: Canada 2026 Tax and Payroll Rates
 homepage: https://github.com/Abstractigakis/lead-machine-demo
 category: Government
-description: Free MIT-licensed JSON of official 2026 Canadian GST/HST/PST rates by province, CRA mileage allowances, CPP/CPP2/QPP and EI dollar limits, plus TFSA and RRSP dollar limits. Sourced from CRA, Finance Canada, ESDC, and Retraite Québec. Browser calculators linked from the file.
+description: Free MIT-licensed JSON and CSV of official 2026 Canadian GST/HST/PST rates by province, CRA mileage allowances, CPP/CPP2/QPP and EI dollar limits, plus TFSA and RRSP dollar limits. Sourced from CRA, Finance Canada, ESDC, and Retraite Québec. Browser calculators linked from the files.
 version: 2026.1
 keywords: Canada, GST, HST, PST, QST, CPP, QPP, EI, TFSA, RRSP, mileage, payroll, open data
 image:
@@ -35,6 +35,10 @@ sources:
 references:
  - title: 2026 rates JSON
  reference: https://abstractigakis.com/rates-2026.json
+ - title: 2026 sales-tax CSV
+ reference: https://abstractigakis.com/sales-tax-2026.csv
+ - title: 2026 payroll CSV
+ reference: https://abstractigakis.com/payroll-2026.csv
  - title: GST/HST calculator
  reference: https://abstractigakis.com/ca/hst.html
  - title: CPP/EI calculator
