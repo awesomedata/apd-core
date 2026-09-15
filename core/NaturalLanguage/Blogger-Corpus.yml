@@ -1,8 +1,8 @@
 ---
 title: Blogger Corpus
-homepage: http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm
+homepage: https://u.cs.biu.ac.il/~koppel/BlogCorpus.htm
 category: NaturalLanguage
-description:
+description: The Blog Authorship Corpus consists of the collected posts of 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and over 140 million words - or approximately 35 posts and 7250 words per person.   
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
