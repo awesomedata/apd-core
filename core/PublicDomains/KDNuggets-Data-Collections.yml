@@ -1,6 +1,6 @@
 ---
 title: KDNuggets Data Collections
-homepage: http://www.kdnuggets.com/datasets/index.html
+homepage: https://www.kdnuggets.com/datasets/index.html
 category: PublicDomains
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
