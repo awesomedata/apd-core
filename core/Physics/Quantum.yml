@@ -1,6 +1,6 @@
 ---
 title: Quantum simulations of an electron in a two dimensional potential well
-homepage: http://doi.org/10.4224/PhysRevA.96.042113.data
+homepage: https://doi.org/10.4224/PhysRevA.96.042113.data
 category: Physics
 description: The data was generated in a numerical simulation of an electron in a 2 dimensional confining potential. It was used as a test case for training a deep neural network to reproduce the results of a partial differential equation (the time independent Schrödinger equation).
 version: 1.0
