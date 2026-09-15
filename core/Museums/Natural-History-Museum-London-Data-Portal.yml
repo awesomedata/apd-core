@@ -1,6 +1,6 @@
 ---
 title: Natural History Museum (London) Data Portal
-homepage: http://data.nhm.ac.uk/
+homepage: https://data.nhm.ac.uk/
 category: Museums
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
