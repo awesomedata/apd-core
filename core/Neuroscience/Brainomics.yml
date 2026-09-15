@@ -1,6 +1,6 @@
 ---
 title: Brainomics
-homepage: http://brainomics.cea.fr/localizer
+homepage: https://neurovault.org/collections/4341/
 category: Neuroscience
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
