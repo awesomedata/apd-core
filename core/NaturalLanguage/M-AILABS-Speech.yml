@@ -1,6 +1,6 @@
 ---
 title: M-AILabs Speech
-homepage: http://www.m-ailabs.bayern/en/the-mailabs-speech-dataset/
+homepage: https://github.com/i-celeste-aurora/m-ailabs-dataset
 category: NaturalLanguage
 description: The M-AILABS Speech Dataset is the first large dataset that we are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis. Most of the data is based on LibriVox and Project Gutenberg. The training data consist of nearly thousand hours of audio and the text-files in prepared format. A transcription is provided for each clip. Clips vary in length from 1 to 20 seconds
 version:
