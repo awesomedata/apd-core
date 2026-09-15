@@ -1,8 +1,8 @@
 ---
-title: Labeled Faces in the Wild (LFW)
-homepage: http://vis-www.cs.umass.edu/lfw/
+title: Labeled Faces in the Wild (LFW) (at Archive.org)
+homepage: https://web.archive.org/web/20250105084504/http://vis-www.cs.umass.edu/lfw/#download
 category: MachineLearning
-description:
+description: Confirmed dataset is available to download from Wayback. Also available at https://www.kaggle.com/datasets/jessicali9530/lfw-dataset but requires a login.
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
