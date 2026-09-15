@@ -1,6 +1,6 @@
 ---
-title: Making Sense of Microposts 2013 - Concept Extraction
-homepage: http://oak.dcs.shef.ac.uk/msm2013/challenge.html
+title: Making Sense of Microposts 2013 - Concept Extraction (from Archive.org)
+homepage: https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html
 category: NaturalLanguage
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
