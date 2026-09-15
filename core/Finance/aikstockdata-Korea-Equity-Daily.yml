@@ -2,7 +2,7 @@
 title: Korean Equity Daily Prices and DART Filing Impact
 homepage: https://huggingface.co/datasets/aikstockdata/korea-equity-daily
 category: Finance
-description: Every listed KOSPI, KOSDAQ and KONEX ticker with a T+1 settled close, rebuilt every trading day at 18:10 KST - no signup, no API key, no rate limit. DART filings are carried down to the minute of receipt, which the official DART API does not publish (it returns a filing date only); post-filing price paths are aggregated by filing type as market-adjusted median returns at +1/+5/+20 trading days with 95% confidence intervals (29 filing types over 2,630 filings as of 2026-09-10). Also 250 trading days of closes per ticker and preliminary quarterly earnings, filed about two weeks before the regular report. Parquet, CSV and JSON.
+description: Every listed KOSPI, KOSDAQ and KONEX ticker with a T+1 settled close, rebuilt every trading day around 18:30 KST - no signup, no API key. DART filings are carried down to the minute of receipt, which the official DART API does not publish (it returns a filing date only); post-filing price paths are aggregated by filing type as market-adjusted median returns at +1/+5/+20 trading days with 95% confidence intervals (29 filing types over 2,630 filings as of 2026-09-10). Also 250 trading days of closes per ticker and preliminary quarterly earnings, filed about two weeks before the regular report. Parquet, CSV and JSON.
 version:
 keywords: korea, KOSPI, KOSDAQ, KONEX, stocks, DART, filings, disclosure, event study, earnings, open data, API, MCP
 image:
@@ -15,7 +15,7 @@ specification: https://aikstockdata.com/openapi.json
 data_quality: true
 data_dictionary: https://aikstockdata.com/data/public/index.json
 language: ko
-license: aiksd-public-1.0 (attribution, commercial use allowed); CC BY 4.0 snapshot archived at Zenodo
+license: aiksd-public-1.1 (non-commercial use with attribution; commercial redistribution not permitted) - https://aikstockdata.com/licenses/aiksd-public-1.1.txt
 publisher:
   - name: aikstockdata
     web: https://aikstockdata.com
