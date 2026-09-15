@@ -1,6 +1,6 @@
 ---
 title: CMU StatLab collections
-homepage: http://lib.stat.cmu.edu/datasets/
+homepage: https://lib.stat.cmu.edu/datasets/
 category: PublicDomains
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
