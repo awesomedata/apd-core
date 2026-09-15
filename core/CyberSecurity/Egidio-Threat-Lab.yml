@@ -1,0 +1,31 @@
+---
+title: Egidio Threat Lab Dataset (2026)
+homepage: https://github.com/Gilstras67/egidio-threat-lab-data
+category: CyberSecurity
+description: Documented data-breach and scam cases from the Egidio Threat Lab's French corpus, with every figure labelled as either officially confirmed by an authority or merely claimed by an attacker — the two are never aggregated into a single total. Machine-readable JSON, one record per case, with title, date, status, confirming authority where named, source link, leading figure and canonical URL. Methodology and known extraction limitations documented in the dataset repository.
+version: 1.0
+keywords: data breach, scam, cybercrime, threat intelligence, confirmed vs claimed, France
+image:
+temporal: 2026
+spatial: France
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Egidio
+    web: https://egidio.app/
+organization:
+  - name: Egidio
+    web: https://egidio.app/
+issued_time: 2026.09
+sources:
+  - name: Egidio Threat Lab Dataset (JSON)
+    access_url: https://github.com/Gilstras67/egidio-threat-lab-data/blob/main/data/dossiers.json
+references:
+  - title: Egidio Threat Lab (human-readable companion)
+    reference: https://egidio.app/laboratoire/
