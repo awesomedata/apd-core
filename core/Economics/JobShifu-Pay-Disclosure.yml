@@ -1,0 +1,31 @@
+---
+title: "Pay disclosure rates in job postings"
+homepage: https://jobshifu.com/research/pay-disclosure
+category: Economics
+description: "Of 1,105,379 job postings from 12,631 employers, crawled directly from employer job boards, 14.9% state pay. Broken down by seniority band and country. Available as JSON."
+version:
+keywords: job postings, pay transparency, salary disclosure, wages, labor market
+image:
+temporal: 
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research/pay-disclosure
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "Pay disclosure rates in job postings (JSON)"
+    access_url: https://jobshifu.com/research/data/pay-disclosure.json
+references:
+  - title: "Pay disclosure rates in job postings, methodology and findings"
+    reference: https://jobshifu.com/research/pay-disclosure

@@ -1,0 +1,31 @@
+---
+title: "Job posting relisting rates by function and seniority"
+homepage: https://jobshifu.com/research/relisting
+category: Economics
+description: "Across 1,112,997 open roles from 12,656 employers, crawled directly from employer job boards, 3.6% came down and were listed again at least seven days later. Broken down by job function and seniority, with republished and ambiguous cases counted separately. Available as JSON."
+version:
+keywords: job postings, reposting, relisting, ghost jobs, labor market, hiring
+image:
+temporal: 
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research/relisting
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "Job posting relisting rates by function and seniority (JSON)"
+    access_url: https://jobshifu.com/research/data/relisting.json
+references:
+  - title: "Job posting relisting rates by function and seniority, methodology and findings"
+    reference: https://jobshifu.com/research/relisting
