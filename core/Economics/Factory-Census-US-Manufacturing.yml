@@ -1,0 +1,22 @@
+---
+title: The Factory Census (U.S. manufacturing facilities)
+homepage: https://doi.org/10.5281/zenodo.22774984
+category: Economics
+description: Quarterly count of U.S. manufacturing facilities (NAICS 31-33) compiled from federal records, with per-state coverage measured against the BLS QCEW establishment benchmark. Eight CSV tables - states, coverage, the 25 biggest manufacturing counties, industry concentration by NAICS subsector, employment bands, and the top counties and subsectors in each state - plus a README holding the methodology and a data dictionary, and a Frictionless datapackage.json. Q3 2026 counts 262,554 facilities across 3,061 counties.
+version: 2026-q3
+keywords: manufacturing,factories,united-states,NAICS,establishments,QCEW
+image:
+temporal: 2026-08-06
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://zenodo.org/records/22774984/files/README.md
+language: en
+license: CC BY 4.0
+publisher: FactoryRegistry Research
+organization:
+issued_time: 2026.09
+sources: []
