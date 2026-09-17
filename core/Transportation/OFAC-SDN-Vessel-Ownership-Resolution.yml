@@ -1,0 +1,33 @@
+---
+title: OFAC SDN Vessels - Flag and GLEIF Ownership-Resolution Stage
+homepage: https://arcnautical.com/data/ofac-sdn-vessel-ownership-resolution/
+category: Transportation
+description: One row per IMO-bearing vessel on the U.S. Treasury OFAC SDN list (1,527 vessels in the 2026-09-16 snapshot) with flag state, flag-transparency tier, OFAC sanctions program(s), sanctions regime, MMSI, call sign, and how far the vessel's ownership resolves in the public GLEIF LEI register. A public-source compilation (OFAC SDN + GLEIF), no owner names and no proprietary scores. Direct CSV and JSON download, data dictionary in datapackage.json and README.
+version: 1
+keywords: maritime,vessels,sanctions,OFAC,SDN,IMO,shipping,flag state,GLEIF,LEI,ownership,compliance,open data
+image:
+temporal: snapshot 2026-09-16
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://arcnautical.com/data/ofac-sdn-vessel-ownership-resolution/datapackage.json
+data_quality: true
+data_dictionary: https://arcnautical.com/data/ofac-sdn-vessel-ownership-resolution/README.md
+language: en
+license: CC-BY-4.0
+publisher: ArcNautical
+organization:
+  - name: ArcNautical
+    web: https://arcnautical.com/
+issued_time: 2026-09-17
+sources:
+  - name: CSV
+    access_url: https://arcnautical.com/data/ofac-sdn-vessel-ownership-resolution/data.csv
+  - name: JSON
+    access_url: https://arcnautical.com/data/ofac-sdn-vessel-ownership-resolution/data.json
+references:
+  - title: OFAC Specially Designated Nationals (SDN) List
+    reference: https://ofac.treasury.gov/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists
+  - title: GLEIF Global LEI Index
+    reference: https://www.gleif.org/en/lei-data/global-lei-index
