@@ -1,0 +1,31 @@
+---
+title: US Executive-Branch Stock Trade Disclosures (OGE Form 278)
+homepage: https://github.com/disclosedcapitol/executive-branch-trades
+category: Finance
+description: Stock and asset transactions disclosed by senior US executive-branch officials (President, Vice President, Cabinet, and senior appointees), parsed from their public OGE Form 278e and 278-T financial disclosures. CSV and JSON, refreshed nightly, with every row carrying a source-filing identifier tying it back to the original oge.gov document. OGE is required by law to destroy these filings after 6-7 years, so the repository doubles as a permanent machine-readable archive.
+version:
+keywords: stock trading, financial disclosures, executive branch, OGE, Form 278, government ethics, conflicts of interest, United States
+image:
+temporal: 2008-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/disclosedcapitol/executive-branch-trades#schema
+data_quality: true
+data_dictionary: https://github.com/disclosedcapitol/executive-branch-trades#schema
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Disclosed Capitol
+    web: https://www.disclosedcapitol.com
+organization:
+  - name: US Office of Government Ethics (source filings)
+    web: https://www.oge.gov
+issued_time: 2026-08-09
+sources:
+  - name: OGE Form 278e / 278-T public financial disclosures
+    access_url: https://www.oge.gov
+references:
+  - title:
+    reference:
