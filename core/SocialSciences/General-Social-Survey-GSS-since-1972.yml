@@ -1,8 +1,8 @@
 ---
 title: General Social Survey (GSS) since 1972
-homepage: http://gss.norc.org
+homepage: https://gss.norc.org/
 category: SocialSciences
-description:
+description: ​​​For five decades, the General Social Survey (GSS) has studied the growing complexity of American society. It is the only full-probability, personal-interview survey designed to monitor changes in both social characteristics and attitudes currently being conducted in the United States.
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
