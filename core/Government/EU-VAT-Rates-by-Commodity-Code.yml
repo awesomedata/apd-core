@@ -1,0 +1,31 @@
+---
+title: EU VAT Rates by Commodity Code
+homepage: https://github.com/humora2504/eu-vat-by-commodity-code
+category: Government
+description: VAT rates for all 27 EU member states mapped to the CN (goods) and CPA (services) commodity codes each rate applies to, with the member states' own legal notes verbatim. 2,667 commodity codes, 1,120 rate rows, 87 Annex III categories and 958 official comments. The European Commission publishes this mapping only through a SOAP service; this is the same content as JSON, one file per commodity code and one per member state, plus a daily change feed listing every rate change and code reclassification. Rebuilt daily by a scheduled job.
+version: 1.0
+keywords: VAT, value added tax, European Union, commodity code, CN code, CPA code, Combined Nomenclature, tax rates, reduced rate, TEDB, customs, e-commerce, compliance
+image:
+temporal: Current rates, situation date recorded in every file; daily rebuild with a change feed
+spatial: 27 EU member states
+access_level: public
+copyrights: © European Union
+accrual_periodicity: daily
+specification: JSON. data/all.json for everything, data/by-code/{code}.json per commodity code, data/by-country/{cc}.json per member state, data/index.json for the code list, data/changes.json for the diff against the previous build.
+data_quality: true
+data_dictionary: https://github.com/humora2504/eu-vat-by-commodity-code#shape
+language: en
+license: CC BY 4.0 (European Commission Decision 2011/833/EU) for the data; MIT for the scripts
+publisher:
+  - name: European Commission, Directorate-General for Taxation and Customs Union
+    web: https://ec.europa.eu/taxation_customs/tedb/
+organization:
+  - name: European Commission, DG TAXUD
+    web: https://taxation-customs.ec.europa.eu/
+issued_time: 2026.09
+sources:
+  - name: Taxes in Europe Database (TEDB), VatRetrievalService
+    access_url: https://ec.europa.eu/taxation_customs/tedb/ws/VatRetrievalService
+references:
+  - title: Commission Decision 2011/833/EU on the reuse of Commission documents
+    reference: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011D0833
