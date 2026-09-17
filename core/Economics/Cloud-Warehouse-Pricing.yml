@@ -1,0 +1,35 @@
+---
+title: Cloud Data Warehouse Pricing
+homepage: https://bigdataexplained.com/data
+category: Economics
+description: List prices for cloud data warehouse compute and storage (BigQuery, Snowflake, Databricks, Redshift, Athena, Synapse, Fabric), read daily from the AWS Price List API and Azure Retail Prices API; BigQuery and Snowflake rates are published list prices checked by hand and flagged as such. Every record carries its source URL and verification timestamp, and an append-only archive records a monthly snapshot of each rate plus every price change.
+version: 2026.09
+keywords: cloud pricing, data warehouse, BigQuery, Snowflake, Databricks, Redshift, Athena, Synapse, Fabric, FinOps, price index, open data
+image:
+temporal: 2026-08-22 to present
+spatial: AWS us-east-1, Azure eastus, Google Cloud US multi-region
+access_level: public
+copyrights: CC BY 4.0 (compilation, schema and verification metadata; vendor rates remain subject to each vendor's terms)
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://bigdataexplained.com/data
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Big Data Explained
+    web: https://bigdataexplained.com/
+organization:
+  - name: Big Data Explained
+    web: https://bigdataexplained.com/
+issued_time: 2026.08
+sources:
+  - name: Current prices (JSON)
+    access_url: https://bigdataexplained.com/api/pricing.json
+  - name: Price history (JSON Lines)
+    access_url: https://bigdataexplained.com/api/history.jsonl
+references:
+  - title: Dataset documentation
+    reference: https://bigdataexplained.com/data
+  - title: Methodology
+    reference: https://bigdataexplained.com/methodology
