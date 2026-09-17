@@ -1,0 +1,37 @@
+---
+title: VPS Price Snapshot
+homepage: https://github.com/jbbksam-ctrl/vpsticker-promo-radar
+category: Economics
+description: Published monthly and annual prices for virtual private server (VPS) plans, read directly from the public pricing pages of 15 hosting providers. 30 offers in this snapshot, each carrying the exact source URL it was read from and the UTC timestamp of the fetch. No price is estimated, interpolated, or filled in by hand; where a provider does not publish a machine-readable price the offer is listed without a price rather than guessed. The accompanying fetch-status table records the HTTP status and extraction method for every provider, including providers that returned nothing. Distributed as JSON and CSV. Covers consumer and small-business VPS plans only, not dedicated servers, shared hosting, or GPU instances. Currencies are not converted across USD and EUR; a separate price_monthly column normalises the billing cycle, not the currency.
+version: 1.0
+keywords: VPS, virtual private server, hosting prices, price comparison, cloud computing, web hosting, pricing, economics
+image:
+temporal: 2026-09-17
+spatial: global
+access_level: public
+copyrights: CC0 1.0 Universal
+accrual_periodicity: every 6 hours
+specification:
+data_quality: true
+data_dictionary: https://github.com/jbbksam-ctrl/vpsticker-promo-radar/blob/main/dataset/README.md
+language: en
+license: CC0 1.0
+publisher:
+  - name: vpsticker
+    web: https://vpsticker.com/
+organization:
+  - name: vpsticker
+    web: https://vpsticker.com/
+issued_time: 2026.09
+sources:
+  - name: JSON snapshot
+    access_url: https://github.com/jbbksam-ctrl/vpsticker-promo-radar/blob/main/dataset/vpsticker-vps-prices.json
+  - name: CSV snapshot
+    access_url: https://github.com/jbbksam-ctrl/vpsticker-promo-radar/blob/main/dataset/vpsticker-vps-prices.csv
+  - name: Per-provider fetch status
+    access_url: https://github.com/jbbksam-ctrl/vpsticker-promo-radar/blob/main/dataset/fetch-status.csv
+references:
+  - title: Live continuously refreshed version
+    reference: https://vpsticker.com/
+  - title: Per-provider extraction status for every run
+    reference: https://vpsticker.com/sources
