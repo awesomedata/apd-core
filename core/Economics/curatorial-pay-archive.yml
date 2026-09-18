@@ -1,0 +1,21 @@
+---
+title: Curatorial Pay Archive — advertised salaries in museum and curatorial job postings
+homepage: https://github.com/nsamman/curatorsearch-salary-archive
+category: Economics
+description: Every salary advertised in museum, gallery and curatorial job postings since August 2026, exactly as stated (currency, range, pay period, category, institution, location), including German TV-L/TVöD pay-grade mappings decoded into ranges. Updated daily; concept DOI 10.5281/zenodo.22544232 always resolves to the newest snapshot.
+version: 1.0
+keywords: museum jobs, salaries, pay transparency, cultural sector, labour market, job postings
+image: https://curatorsearch.com/icon.png
+temporal: 2026-08 to present
+spatial: worldwide (Europe and North America predominantly)
+access_level: public
+copyrights: CuratorSearch / Nadim Samman
+accrual_periodicity: daily
+specification: https://curatorsearch.com/developers
+data_quality: true
+data_dictionary: https://github.com/nsamman/curatorsearch-salary-archive#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CuratorSearch
+    web: https://curatorsearch.com
