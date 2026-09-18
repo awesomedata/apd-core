@@ -1,6 +1,6 @@
 ---
 title: Chars74K dataset
-homepage: http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+homepage: https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k/
 category: ImageProcessing
 description: Character Recognition in Natural Images (both English and
   Kannada are available)
@@ -13,7 +13,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
