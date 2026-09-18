@@ -1,6 +1,6 @@
 ---
 title: U.S. Freight Analysis Framework since 2007
-homepage: http://ops.fhwa.dot.gov/freight/freight_analysis/faf/index.htm
+homepage: https://ops.fhwa.dot.gov/freight/freight_analysis/faf/index.htm
 category: Transportation
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
