@@ -1,0 +1,35 @@
+---
+title: The Solo Block Record
+homepage: https://github.com/sololuckio/solo-block-record
+category: Finance
+description: Every solo-mined Bitcoin block found by a small or home miner that could be verified on-chain, across all public solo pools. One row per block with its height, date, pool, the hardware or hashrate the winner reported, network difficulty, total reward, a link to the block on mempool.space and a link to the source that reported it. The odds are recomputed the same way for every row from the difficulty at that height; where a winner never published a hashrate, the hashrate and the odds are left empty rather than guessed, and blocks inferred from the payout pattern rather than declared by the miner are marked as such. CSV and JSON with a Frictionless datapackage.json and a CITATION.cff, directly downloadable with no login, mirrored daily from the publisher's API.
+version:
+keywords: bitcoin, solo mining, bitcoin mining, blocks, mining pools, probability, open data
+image:
+temporal:
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/sololuckio/solo-block-record/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/sololuckio/solo-block-record#data-dictionary
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SoloLuck.io
+    web: https://sololuck.io
+organization:
+  - name: SoloLuck.io
+    web: https://sololuck.io
+issued_time: 2026.09
+sources:
+  - name: CSV
+    access_url: https://github.com/sololuckio/solo-block-record/blob/main/data/blocks.csv
+  - name: JSON
+    access_url: https://github.com/sololuckio/solo-block-record/blob/main/data/blocks.json
+  - name: Publisher API (canonical source)
+    access_url: https://sololuck.io/api/legends/v1/blocks.json
+references:
+  - title: The Solo Block Record, one page per block
+    reference: https://sololuck.io/legends
