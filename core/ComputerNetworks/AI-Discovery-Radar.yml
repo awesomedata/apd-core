@@ -1,0 +1,48 @@
+---
+title: 'AI Discovery Radar: monthly measurement of AI discovery and consent files on the public web'
+homepage: https://github.com/flober81/ai-discovery-radar
+category: ComputerNetworks
+description: >-
+  A monthly measurement of which machine-readable discovery and consent files
+  public websites actually serve -- robots.txt, sitemap.xml, llms.txt,
+  llms-full.txt, ai.txt, rsl.xml, /.well-known/tdmrep.json, /.well-known/gpc.json,
+  /.well-known/mcp.json, /.well-known/api-catalog and further routes -- and
+  whether those files can be fetched at all. Sources are drawn from a frozen
+  frame of roughly 30,000 registrable domains built from the Tranco list and
+  Chrome UX Report country lists; about 10,700 of them are visited per month,
+  each at most once per quarter, plus a fixed share revisited every month so
+  change between runs becomes measurable. Every route carries its own
+  denominator: hosts that refused the request or disallowed the path are
+  excluded rather than counted as non-adopters. Each share is published with a
+  95% confidence interval, the run identifier and the ruleset version used;
+  numbers from different ruleset versions are not comparable. Aggregates only,
+  per-domain results are not published. Measurement method, state definitions
+  and the full ruleset are documented in a technical report with its own DOI.
+version: 0.3.2
+keywords: robots.txt, llms.txt, ai.txt, tdmrep, rsl.xml, well-known, AI crawlers, opt-out, consent, web measurement, adoption, Tranco
+image:
+temporal: 2026
+spatial: Global sample frame, weighted toward German-speaking countries and Italy by construction
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/flober81/ai-discovery-radar/blob/main/RULESET.md
+data_quality: true
+data_dictionary: https://github.com/flober81/ai-discovery-radar/blob/main/RULESET.md
+language: en
+license: CC BY 4.0 (data), MIT (code)
+publisher:
+- name: Florian Berger
+  web: https://orcid.org/0009-0008-5780-1147
+organization:
+- name: Berger+Team
+  web: https://www.berger.team
+issued_time: 2026
+sources:
+- name: Repository with the measurement data, ruleset and result tables
+  access_url: https://github.com/flober81/ai-discovery-radar
+- name: Archived dataset (all versions)
+  access_url: https://doi.org/10.5281/zenodo.22178282
+references:
+- title: 'AI Discovery Radar: measurement method and ruleset (Technical Report v1.0)'
+  reference: https://doi.org/10.5281/zenodo.22769680
