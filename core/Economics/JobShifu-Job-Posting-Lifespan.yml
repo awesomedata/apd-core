@@ -1,0 +1,31 @@
+---
+title: "How long job postings stay open"
+homepage: https://jobshifu.com/research/how-long-jobs-stay-open
+category: Economics
+description: "Kaplan-Meier survival of job postings on employers' own career pages, rechecked daily: the share still listed on each day after first sighting, in three source tiers, for postings first seen 2026-07-01 to 2026-08-15. Postings are crawled directly from employer applicant tracking systems and career sites, not aggregators. Available as JSON with the method, censoring rule and sampling notes."
+version:
+keywords: job postings, vacancy duration, survival analysis, Kaplan-Meier, labor market, hiring
+image:
+temporal: 2026-07-01/2026-09-15
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research/how-long-jobs-stay-open
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "How long job postings stay open (JSON)"
+    access_url: https://jobshifu.com/research/data/lifespan.json
+references:
+  - title: "How long job postings stay open, methodology and findings"
+    reference: https://jobshifu.com/research/how-long-jobs-stay-open
