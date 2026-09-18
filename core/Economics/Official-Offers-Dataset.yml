@@ -1,0 +1,35 @@
+---
+title: Official Offers Dataset
+homepage: https://github.com/promo2you-lab/official-offers-dataset
+category: Economics
+description: Offers that consumer brands publish on their own websites, one row per offer, with the brand, the offer, whether a code is required, the conditions the brand states, the official source URL the row was read from, and the date it was last checked. 34 brands, 82 offer rows and 36 distinct official source URLs as of 2026-09-15, covering apparel, sportswear, web hosting and website-builder brands. Every row points back to a page the brand itself publishes, so each claim can be re-checked against its source on a known date. CSV and JSON, downloadable without login or payment.
+version: 1.0
+keywords: consumer offers, discount codes, promo codes, retail pricing, brand official pages, coupon verification, e-commerce
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: MIT License
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/promo2you-lab/official-offers-dataset#column-meanings
+language: en
+license: MIT
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026.09
+sources:
+  - name: offers.csv
+    access_url: https://raw.githubusercontent.com/promo2you-lab/official-offers-dataset/main/data/offers.csv
+  - name: offers.json
+    access_url: https://raw.githubusercontent.com/promo2you-lab/official-offers-dataset/main/data/offers.json
+  - name: brands.csv
+    access_url: https://raw.githubusercontent.com/promo2you-lab/official-offers-dataset/main/data/brands.csv
+references:
+  - title:
+    reference:
