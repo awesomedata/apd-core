@@ -1,6 +1,6 @@
 ---
 title: Small Network Data
-homepage: http://www-personal.umich.edu/~mejn/netdata/
+homepage: https://websites.umich.edu/~mejn/netdata/
 category: ComplexNetworks
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
