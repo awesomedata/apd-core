@@ -1,0 +1,32 @@
+---
+title: VendsMonBien - Prix immobilier par commune (agrégats DVF)
+homepage: https://www.data.gouv.fr/datasets/prix-de-limmobilier-par-commune-agregats-dvf
+category: Government
+description: Median property prices per square meter by French commune, derived from DVF (Demandes de Valeurs Foncières), the French tax administration's public record of actually registered real-estate sales (not asking prices or estimates). Covers several French départements, aggregated monthly at the commune level with sale volumes, median price for houses and apartments separately, and year-over-year evolution. Multi-unit mutations are excluded to avoid distorting the per-square-meter price. Published to support transparency on local housing markets.
+version: monthly refresh
+keywords:
+  - housing
+  - real-estate
+  - france
+  - property-prices
+  - dvf
+  - open-data
+  - dgfip
+image:
+temporal: 2023/ongoing (recalculated monthly)
+spatial: "France - 5 départements (Creuse, Gironde, Loire-Atlantique, Orne, Puy-de-Dôme)"
+access_level: public
+copyrights: Licence Ouverte 2.0 (Etalab)
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/Vendsmonbien/prix-immobilier-communes-dvf/blob/main/README.md
+language: fr
+license: etalab-2.0
+publisher: VendsMonBien SASU
+organization: VendsMonBien
+issued_time: 2026-09
+sources:
+  - https://www.data.gouv.fr/datasets/prix-de-limmobilier-par-commune-agregats-dvf
+  - https://github.com/Vendsmonbien/prix-immobilier-communes-dvf
+  - https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres-geolocalisees
