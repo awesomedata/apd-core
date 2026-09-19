@@ -1,0 +1,31 @@
+---
+title: eBay Sold Comps
+homepage: https://github.com/silentdirectivellc-hub/ebay-sold-comps
+category: Economics
+description: 570 completed (sold) eBay listings across 9 secondhand collectible categories, as 15 CSV files. Each row carries title, sold price in USD, end date, condition, the search keyword that found it, and the eBay item id, so any row can be re-opened on eBay and checked. Categories are cast iron, CorningWare, Fiesta ware, Hot Wheels, Le Creuset, Pyrex, retro video games, sewing machines and sterling silver. eBay's own completed-sales view is behind a login, keeps roughly 90 days and cannot be exported, so realised secondhand prices are hard to obtain in the open. Shipping, seller and best-offer fields were dropped rather than published because they were unreliable or mostly null; METHOD.md states that and the other known biases, including that each file is the newest N sales for one keyword and is therefore a window of days, not a market history.
+version: 1.0
+keywords: ebay, secondhand, resale, collectibles, sold prices, completed sales, price index, consumer prices, marketplace
+image:
+temporal: 2026-08-23 to 2026-09-19
+spatial: eBay US
+access_level: public
+copyrights: CC0 1.0 Universal
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/silentdirectivellc-hub/ebay-sold-comps/blob/main/METHOD.md
+language: en
+license: CC0-1.0
+publisher:
+  - name: Silent Directive LLC
+    web: https://github.com/silentdirectivellc-hub
+organization:
+  - name: Silent Directive LLC
+    web: https://github.com/silentdirectivellc-hub
+issued_time: 2026.09
+sources:
+  - name: eBay Sold Comps (CSV files)
+    access_url: https://github.com/silentdirectivellc-hub/ebay-sold-comps/tree/main/data
+references:
+  - title: Method, dropped fields and known biases
+    reference: https://github.com/silentdirectivellc-hub/ebay-sold-comps/blob/main/METHOD.md
