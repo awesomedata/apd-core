@@ -1,0 +1,37 @@
+---
+title: ENCLAI Disease Surveillance
+homepage: https://enclai.net/data
+category: Healthcare
+description: Global infectious-disease outbreak surveillance records aggregated from official public-health publishers (WHO, ECDC, US CDC, national and sub-national agencies), normalised to a canonical disease vocabulary and ISO-3166-1 alpha-3 country codes, with reported case counts where the publishing agency states one. 209 diseases and pathogens; 225 countries and territories appear in the data, 86 with a direct national feed. Per-disease, per-country and disease-by-country pages, a weekly CSV briefing download, and a public API. Updated daily.
+version: 2026.09
+keywords: disease surveillance, outbreak, epidemiology, public health, infectious disease, case counts, dengue, measles, cholera, influenza
+image:
+temporal: 2022 to present
+spatial: Global, country and sub-national
+access_level: public
+copyrights: ENCLAI; underlying figures as reported by the originating health authorities
+accrual_periodicity: daily
+specification: https://enclai.net/docs/api
+data_quality: true
+data_dictionary: https://enclai.net/understanding-case-counts
+language: en
+license: CC-BY-NC-SA-4.0
+publisher:
+  - name: ENCLAI
+    web: https://enclai.net
+organization:
+  - name: ENCLAI
+    web: https://enclai.net/about
+issued_time: 2026.05
+sources:
+  - name: Data catalogue and licence
+    access_url: https://enclai.net/data
+  - name: Weekly surveillance briefing (CSV)
+    access_url: https://enclai.net/reports/weekly/2026-W37.csv
+  - name: Public API documentation
+    access_url: https://enclai.net/docs/api
+references:
+  - title: The 2024 global dengue surge, by the numbers
+    reference: https://enclai.net/reports/2024-dengue-surge
+  - title: Methodology and Trust Center
+    reference: https://enclai.net/trust
