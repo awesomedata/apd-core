@@ -1,0 +1,33 @@
+---
+title: xaudaily Gold and Macro Market Readings
+homepage: https://github.com/Wangxian111/xaudaily-data
+category: Economics
+description: Daily readings for gold and macro markets with the source and reference period attached to every figure, covering COMEX and SHFE gold, US CPI and core PCE, non-farm payrolls, PPI, the dollar index, US 10Y/30Y Treasury yields, Brent and WTI crude, VIX, SPDR Gold Trust holdings, the federal funds target upper bound, Polymarket pricing of the next FOMC decision, and monthly central-bank net gold purchases on the IMF reporting-country basis. Published twice a day as a JSON snapshot (schema xaudaily.readings/v1) plus a one-row-per-day CSV history, together with a JSON Schema, a dependency-free Python client and the extraction scripts used to build them. When an upstream source fails its previous value is retained and flagged stale rather than estimated, and figures that cannot be traced to a named source are not published.
+version: 1.0
+keywords: gold, gold price, precious metals, macroeconomics, inflation, CPI, core PCE, non-farm payrolls, treasury yields, dollar index, central bank gold reserves, FOMC, commodity prices, market data, time series
+image: https://xaudaily.com/og.png
+temporal: 2026-09-08 to present
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: twice daily (06:30 and 22:40 JST), with 30-minute gold ticks
+specification: https://github.com/Wangxian111/xaudaily-data/blob/main/schema/readings.schema.json
+data_quality: false
+data_dictionary: https://github.com/Wangxian111/xaudaily-data/blob/main/DATA-DICTIONARY.md
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: xaudaily.com
+    web: https://xaudaily.com/
+organization:
+  - name: xaudaily.com
+    web: https://xaudaily.com/
+issued_time: 2026.09
+sources:
+  - name: Per-field source list (AKShare/Sina, BEA via DBnomics, BLS, Eastmoney, Yahoo Finance, IMF reporting countries, Polymarket)
+    access_url: https://github.com/Wangxian111/xaudaily-data/blob/main/DATA-DICTIONARY.md
+references:
+  - title: Machine-readable snapshot (JSON)
+    reference: https://xaudaily.com/readings.json
+  - title: Source site
+    reference: https://xaudaily.com/
