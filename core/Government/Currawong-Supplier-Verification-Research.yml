@@ -1,0 +1,31 @@
+---
+title: Currawong Supplier-Verification Research
+homepage: https://dataverse.harvard.edu/dataverse/currawong-verification
+category: Government
+description: 25 published datasets from measurement studies on checking mainland China suppliers against official public records. Covers company registration fields, overseas reachability of official Chinese verification portals measured from public nodes in 20+ countries, certificate registry access, USCI check-digit protection, and localisation quality. Each dataset has its own DOI and states its sample frame, query dates and limitations.
+version: 1.0
+keywords: China, company registration, business registry, GSXT, unified social credit identifier, supplier verification, due diligence, web accessibility measurement, open data
+image:
+temporal: 2026
+spatial: China (records); measurement nodes in 20+ countries
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Harvard Dataverse
+    web: https://dataverse.harvard.edu/dataverse/currawong-verification
+organization:
+  - name: Currawong
+    web: https://currawongweb.com/research/
+issued_time: 2026.09
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
