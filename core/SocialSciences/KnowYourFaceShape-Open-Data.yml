@@ -1,0 +1,31 @@
+---
+title: KnowYourFaceShape Open Data
+homepage: https://github.com/TSjianjiao/knowyourfaceshape-data
+category: SocialSciences
+description: Open data behind knowyourfaceshape.com, a browser-based face-shape detector. Two parts - (1) the classification rule set, i.e. seven face-shape prototypes as anthropometric ratios plus jaw angle, per-feature tolerances and weights on two measurement scales, with disclosed limitations; (2) 27 dated comparison tables (202 rows) archiving published face-shape styling advice from 2012 to 2026, one dated published position per row.
+version: 1.0
+keywords: face shape, anthropometry, beauty advice, classification rule set, dated comparison tables.
+image:
+temporal: 2012-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: knowyourfaceshape.com
+    web: https://knowyourfaceshape.com
+organization:
+  - name: knowyourfaceshape.com
+    web: https://knowyourfaceshape.com
+issued_time: 2026.09
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
