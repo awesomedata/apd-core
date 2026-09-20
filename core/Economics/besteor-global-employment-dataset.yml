@@ -1,0 +1,33 @@
+---
+title: BestEOR Global Employment and EOR Provider Dataset
+homepage: https://besteor.co/data
+category: Economics
+description: Two CSV and JSON datasets for cross-border hiring. The country file covers 139 countries, each with the statutory employer social-cost rate (0 to 42.5 percent of salary), 15 statutory employment terms (minimum wage, annual leave, public holidays, sick leave, maternity and paternity leave, weekly working hours, overtime premium, notice period, severance, probation cap, termination regime, thirteenth-month pay, payroll cycle, data-protection law) and macro context (GNI per capita, GDP per capita, population, unemployment). The provider file covers 63 employer-of-record vendors with pricing model, published monthly price where disclosed, price basis and a confidence flag. Every value carries its own primary-source URL (national governments, official gazettes, World Bank).
+version: "2026.09"
+keywords: employer of record, EOR, global payroll, employment law, labour law, employer social security, minimum wage, severance, statutory benefits, international hiring, CSV, JSON
+image:
+temporal: 2026 statutory terms; latest available World Bank macro indicators
+spatial: 139 countries worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: CSV and JSON; one row per country and one per provider; every field paired with a source_url column
+data_quality: true
+data_dictionary: https://github.com/yumaheymans/besteor-open-dataset#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: BestEOR
+    web: https://besteor.co
+organization:
+issued_time: 2026.09
+sources:
+  - name: National governments, labour ministries and official gazettes (per-field source_url in the data)
+    access_url: https://besteor.co/data
+  - name: World Bank Open Data (macro indicators)
+    access_url: https://data.worldbank.org
+references:
+  - title: Source repository with CSV, JSON and data dictionary
+    reference: https://github.com/yumaheymans/besteor-open-dataset
+  - title: Archived release with permanent DOI
+    reference: https://doi.org/10.5281/zenodo.22845248
