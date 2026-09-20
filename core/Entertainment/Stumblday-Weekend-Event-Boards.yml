@@ -1,0 +1,40 @@
+---
+title: Stumblday Weekend Event Boards and Cost Index
+homepage: https://stumblday.com/research/weekend-cost-index
+category: Entertainment
+description: >-
+  CC BY 4.0 structured event data for New York City, Los Angeles, and Chicago.
+  The current edition contains 1,313 published picks with titles, dates, venues,
+  free-status labels, categories, tags, canonical Stumblday URLs, and official
+  source URLs. Separate JSON feeds are available for each city. A companion
+  Weekend Cost Index publishes reproducible JSON and CSV summaries of the share
+  of each board explicitly marked free; entries not marked free are not assumed
+  to be paid. The research page documents the scope and methodology.
+version: 2026-09-19
+keywords: events, weekend, New York City, Los Angeles, Chicago, free events, city guide
+image:
+temporal: Current published weekend edition, with event dates retained while active
+spatial: New York City; Los Angeles; Chicago
+access_level: public
+copyrights: Stumblday
+accrual_periodicity: weekly
+specification: https://stumblday.com/research/weekend-cost-index
+data_quality: true
+data_dictionary: https://stumblday.com/research/weekend-cost-index
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Stumblday
+    web: https://stumblday.com
+issued_time: 2026-09-19
+sources:
+  - name: New York City weekend event board (JSON)
+    access_url: https://stumblday.com/api/feed/weekend.json
+  - name: Los Angeles weekend event board (JSON)
+    access_url: https://stumblday.com/api/feed/weekend.json?city=los-angeles
+  - name: Chicago weekend event board (JSON)
+    access_url: https://stumblday.com/api/feed/weekend.json?city=chicago
+  - name: Weekend Cost Index (JSON)
+    access_url: https://stumblday.com/research/weekend-cost-index.json
+  - name: Weekend Cost Index (CSV)
+    access_url: https://stumblday.com/research/weekend-cost-index.csv
