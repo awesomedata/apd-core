@@ -1,0 +1,19 @@
+---
+title: Fragrance Dupe Catalogue Census
+homepage: https://dupedex.com/research/fragrance-dupe-market-census-2026/#data
+category: Economics
+description: >-
+  Aggregate catalogue statistics for six fragrance clone houses, including
+  counts of product pages naming an original fragrance, per-shop price medians,
+  bottle-size and price-band distributions, and overlap in named originals.
+  Available as JSON and CSV, with prices and stock observed from August 20 to
+  September 15, 2026. Counts merchant statements, not scent similarity, sales
+  or market size; individual product-level records are not included.
+keywords: fragrance, retail, catalogue, prices, consumer products
+access_level: public
+license: CC BY 4.0
+language: en
+publisher:
+  - name: Dupedex Research
+    web: https://dupedex.com/research/fragrance-dupe-market-census-2026/
+issued_time: 2026.09
