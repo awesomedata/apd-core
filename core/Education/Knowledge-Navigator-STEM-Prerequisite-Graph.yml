@@ -1,0 +1,31 @@
+---
+title: Knowledge Navigator STEM Prerequisite Graph
+homepage: https://github.com/MohamedMuneerM/knowledge-navigator/tree/main/data
+category: Education
+description: An open curriculum graph of 1,432 chapters and 14,439 topics across 11 STEM subjects (maths, physics, chemistry, biology, earth science, computer science, electrical engineering, AI and robotics, mechanical, materials and aerospace). Each chapter has a level from 1 to 5, a topic list and its direct prerequisites, with 2,430 prerequisite links including links between subjects, plus 13 goal-based learning roadmaps. Available as one JSON file per chapter and as a single combined JSON file.
+version: 1.0.0
+keywords: curriculum, prerequisites, STEM, learning paths, education, knowledge graph
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/MohamedMuneerM/knowledge-navigator/blob/main/data/SCHEMA.md
+language: en
+license: CC-BY-SA-4.0
+publisher:
+  - name: Mohamed Muneer M
+    web: https://github.com/MohamedMuneerM
+organization:
+  - name:
+    web:
+issued_time: 2026.09
+sources:
+  - name: Combined JSON download
+    access_url: https://mohamedmuneerm.github.io/knowledge-navigator/knowledge_base.json
+references:
+  - title:
+    reference:
