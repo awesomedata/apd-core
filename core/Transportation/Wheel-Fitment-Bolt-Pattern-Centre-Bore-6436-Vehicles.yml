@@ -1,9 +1,9 @@
 ---
-title: Wheel Fitment Dataset - Bolt Pattern, Centre Bore and OE Wheel Specs for 6,436 Vehicles
-homepage: https://ankusiwheels.com/wheel-fitment-dataset/
+title: ANKUSI Wheel Fitment Dataset - Bolt Pattern, Centre Bore and OE Wheel Specs for 7,603 Vehicles
+homepage: https://github.com/david025445/ankusi-wheel-fitment-data
 category: Transportation
-description: Factory wheel-fitment specifications for 6,436 vehicle variants across 129 makes and 46 bolt patterns, model years 1940-2027. Each record carries bolt pattern (PCD), centre bore, lug count, OE wheel size and offset, plus reference aftermarket flush and maximum sizes, with a source URL per row. Direct CSV and JSON downloads, versioned on GitHub and archived on figshare with a DOI.
-version: 1
+description: Factory wheel-fitment specifications for 7,603 vehicle variants across 130 makes and 46 bolt patterns, model years 1940-2027. Each record carries bolt pattern (PCD), centre bore, lug count, OE wheel size and offset, plus reference aftermarket flush and maximum sizes, with a source URL per row. Direct CSV and JSON downloads, versioned on GitHub and archived on figshare with a DOI. Records are cross-checked against independent fitment references before publication; disagreements are held back rather than guessed (see the correction log in the repository README).
+version: 2026.09.20
 keywords: automotive,cars,wheels,bolt pattern,PCD,centre bore,wheel offset,vehicle specifications
 image:
 temporal: 1940-2027
@@ -13,19 +13,19 @@ copyrights:
 accrual_periodicity: irregular
 specification: https://github.com/david025445/ankusi-wheel-fitment-data#schema
 data_quality: true
-data_dictionary: https://ankusiwheels.com/wheel-fitment-dataset/
+data_dictionary: https://github.com/david025445/ankusi-wheel-fitment-data#schema
 language: en
 license: CC-BY-4.0
-publisher: ANKUSI Wheels
+publisher: ANKUSI Wheels engineering team
 organization:
   - name: ANKUSI Wheels
     web: https://ankusiwheels.com/
 issued_time: 2026-09-18
 sources:
-  - name: Open data downloads (CSV/JSON)
-    access_url: https://ankusiwheels.com/wheel-fitment-dataset/
-  - name: GitHub repository
+  - name: GitHub repository (canonical, direct CSV/JSON download)
     access_url: https://github.com/david025445/ankusi-wheel-fitment-data
+  - name: Open data downloads and full documentation
+    access_url: https://ankusiwheels.com/wheel-fitment-dataset/
   - name: Hugging Face dataset
     access_url: https://huggingface.co/datasets/hjhjhihg1/ankusi-wheel-fitment-data
   - name: Kaggle dataset
