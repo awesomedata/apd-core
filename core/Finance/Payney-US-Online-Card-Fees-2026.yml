@@ -1,0 +1,34 @@
+title: US Online Card Processing Fees (Payney, September 2026)
+homepage: https://payney.com/reports/online-card-fees-us-2026-09/#method
+category: Finance
+description: >-
+  Published online card-acceptance pricing for ten US payment providers - Stripe, PayPal,
+  PayPal Braintree, Square, Shopify Payments, Authorize.net, Paddle, Lemon Squeezy, Helcim
+  and Adyen - transcribed from their own pricing pages on 14 September 2026. Fifteen rows
+  cover thirteen flat-rate price paths and two interchange-plus rate cards, each with the
+  percentage and fixed fee, international-card and currency-conversion surcharges, monthly
+  fee, refund treatment, dispute or chargeback fee and the source URL for every figure.
+  Includes the calculated cost of a $10, $25, $100 and $500 sale and the effective rate.
+keywords:
+  - payment processing fees
+  - card processing
+  - merchant of record
+  - chargeback fees
+  - ecommerce
+  - united states
+access_level: Public
+language: English
+license: CC-BY-4.0
+publisher:
+  name: Payney
+  web: https://payney.com
+issued_time: 2026
+accrual_periodicity: irregular
+data_dictionary: https://payney.com/reports/online-card-fees-us-2026-09/#method
+sources:
+  - name: Machine-readable edition (JSON, inputs, sources, methodology and calculations)
+    web: https://payney.com/reports/online-card-fees-us-2026-09/
+    access_url: https://payney.com/reports/online-card-fees-us-2026-09/data.json
+  - name: Flat table (CSV, one row per price path)
+    web: https://payney.com/reports/online-card-fees-us-2026-09/
+    access_url: https://payney.com/reports/online-card-fees-us-2026-09/data.csv
