@@ -1,0 +1,33 @@
+---
+title: StartupPerks Startup Benefits Dataset
+homepage: https://github.com/yumaheymans/startupperks-open-dataset?utm_source=awesome_public_datasets&utm_medium=listing&utm_campaign=open-dataset
+category: Economics
+description: >-
+  A catalog of 1,058 advertised startup benefit programs from 1,048 providers,
+  covering cloud and AI credits, software free plans and discounts, and banking
+  rewards. Records include benefit text, USD value where comparable, startup
+  stage and funding requirements, funding and company-age caps, geography,
+  confidence, verification dates, and provider source URLs. Downloadable as
+  JSON and CSV under CC BY 4.0, with 21 documented fields and a public,
+  unauthenticated export endpoint. The repository is a periodic snapshot;
+  verification dates vary by record and advertised maximums are not additive.
+version: "2026.09"
+keywords: startups, software benefits, cloud credits, startup eligibility, business software, JSON, CSV
+spatial: Global, with per-record geographic eligibility
+access_level: public
+accrual_periodicity: irregular
+specification: JSON with metadata and field definitions; CSV with one record per program
+data_quality: true
+data_dictionary: https://github.com/yumaheymans/startupperks-open-dataset/blob/main/DATA_DICTIONARY.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StartupPerks
+    web: https://startupperks.co/data?utm_source=awesome_public_datasets&utm_medium=listing&utm_campaign=open-dataset
+issued_time: "2026.09"
+sources:
+  - name: Provider program pages cited by each record's source_url
+    access_url: https://startupperks.co/api/dataset
+references:
+  - title: Methodology
+    reference: https://startupperks.co/methodology?utm_source=awesome_public_datasets&utm_medium=listing&utm_campaign=open-dataset
