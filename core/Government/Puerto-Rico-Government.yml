@@ -1,6 +1,6 @@
 ---
 title: Puerto Rico Government
-homepage: https://data.pr.gov//
+homepage: https://www.estadisticas.pr.gov/en-us
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
