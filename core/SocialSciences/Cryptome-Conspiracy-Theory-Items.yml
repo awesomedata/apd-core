@@ -1,6 +1,6 @@
 ---
 title: Cryptome Conspiracy Theory Items
-homepage: http://cryptome.org
+homepage: https://cryptome.org/
 category: SocialSciences
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
