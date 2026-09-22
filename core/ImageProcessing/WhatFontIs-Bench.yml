@@ -1,0 +1,14 @@
+---
+title: WhatFontIs-Bench
+homepage: https://github.com/whatfontis/WhatFontIs-Bench
+category: ImageProcessing
+description: Synthetic benchmark for font family identification. Contains 11,995 JPG images of single words set in 600 known fonts (sans-serif, serif, slab serif, monospaced), rendered on real surface photos, scenes and printed objects at three difficulty levels, with the font, text, word box and per-letter boxes for every image (COCO and JSONL).
+version: 1.0
+keywords: font identification, font recognition, typography, scene text, synthetic, benchmark
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: WhatFontIs
+    web: https://github.com/whatfontis
+issued_time: 2026.09
