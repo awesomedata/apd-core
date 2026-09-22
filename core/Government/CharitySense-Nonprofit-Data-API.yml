@@ -1,0 +1,28 @@
+---
+title: CharitySense Nonprofit Data API and Research Dataset
+homepage: https://data.charitysense.com/agents
+category: Government
+description: Free, no-auth API and public research dataset for U.S. nonprofit organizations, built from IRS Form 990-series filings and joined with federal awards, audits, exclusion lists, and public-web evidence.
+version: 2026.09
+keywords: nonprofits, IRS Form 990, charity data, grants, due diligence, federal awards, public data, API
+access_level: public
+accrual_periodicity: Continuous
+specification: OpenAPI at https://data.charitysense.com/openapi.yaml
+data_quality: true
+data_dictionary: https://data.charitysense.com/methodology
+language: en
+license: Public records and CharitySense presentation terms; see https://data.charitysense.com/data-license
+publisher:
+  - name: CharitySense Data
+    web: https://data.charitysense.com/
+organization:
+  - name: CharitySense Data
+    web: https://data.charitysense.com/about
+sources:
+  - name: IRS Form 990 resources and tools
+    access_url: https://www.irs.gov/charities-non-profits/form-990-resources-and-tools
+  - name: CharitySense nonprofit data API
+    access_url: https://data.charitysense.com/openapi.yaml
+references:
+  - title: CharitySense methodology
+    reference: https://data.charitysense.com/methodology
