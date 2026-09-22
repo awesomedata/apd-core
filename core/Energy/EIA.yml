@@ -1,6 +1,6 @@
 ---
-title: EIA
-homepage: http://www.eia.gov/electricity/data/eia923/
+title: U.S. Energy Information Administration (EIA)
+homepage: https://www.eia.gov/electricity/data/eia923/
 category: Energy
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
