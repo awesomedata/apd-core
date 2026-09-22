@@ -1,0 +1,35 @@
+---
+title: Jevsus — True/False Readings of a Probability-Only Model
+homepage: https://github.com/2nd1st/Jevsus
+category: MachineLearning
+description: Statements put to a model that returns a probability per option and no text, asked with one subject swapped at a time, in several wordings and eleven languages, with and without an option to decline. Every question and every raw response is published as JSONL alongside a per-run summary.
+version: 1.0
+keywords: LLM evaluation, model outputs, forced choice, multilingual, open data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT License
+publisher:
+  - name: 2nd1st
+    web: https://github.com/2nd1st
+organization:
+  - name: SecondFirst
+    web: https://secondfirst.ai
+issued_time: 2026.09
+sources:
+  - name: Repository (bank, runner, raw results)
+    access_url: https://github.com/2nd1st/Jevsus
+  - name: Browsable readings
+    access_url: https://position.secondfirst.ai
+  - name: Method
+    access_url: https://github.com/2nd1st/Jevsus/blob/main/docs/method.md
+references:
+  - title:
+    reference:
