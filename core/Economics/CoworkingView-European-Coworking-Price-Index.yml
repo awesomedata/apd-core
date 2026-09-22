@@ -1,0 +1,37 @@
+---
+title: CoworkingView European Coworking Price Index
+homepage: https://coworkingview.com/en/tools/price-index#price-index-downloads
+category: Economics
+description: Open dataset of flexible-office and coworking prices across 60 cities in Europe and the United Arab Emirates, aggregated from 417 listed workspaces of which 396 publish a price. Per city it provides the median, average, minimum and maximum monthly price per desk in that city's own currency, the sample size and property count, an entry-level price distribution, and a breakdown by product type (private office, dedicated desk, flexible desk, day pass, virtual office). A city is only published at a sample of five or more; thinner cities are returned flagged lowSample rather than silently averaged. Exposed as live JSON and CSV endpoints with no key or login, plus a history endpoint for previous snapshots. All data is CC BY 4.0.
+version: 1.0
+keywords: coworking, flexible office, office rent, price index, Europe, United Arab Emirates, commercial real estate, cities, economics
+image:
+temporal: 2026-present
+spatial: Europe, United Arab Emirates
+access_level: public
+copyrights: CoworkingView, CC BY 4.0
+accrual_periodicity: continuous
+specification:
+data_quality: true
+data_dictionary: https://coworkingview.com/en/tools/price-index#price-index-methodology
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CoworkingView
+    web: https://coworkingview.com
+organization:
+  - name: CoworkingView
+    web: https://coworkingview.com
+issued_time: 2026.09
+sources:
+  - name: Price index, all cities (JSON)
+    access_url: https://coworkingview.com/api/price-index
+  - name: Price report (CSV)
+    access_url: https://coworkingview.com/api/price-report
+  - name: Historical snapshots (JSON)
+    access_url: https://coworkingview.com/api/price-index/history
+references:
+  - title: Price index and methodology
+    reference: https://coworkingview.com/en/tools/price-index
+  - title: OpenAPI 3.1 specification
+    reference: https://coworkingview.com/openapi.json
