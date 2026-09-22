@@ -1,6 +1,6 @@
 ---
 title: Quebec Province of Canada
-homepage: https://www.donneesquebec.ca/en/
+homepage: https://www.donneesquebec.ca/recherche/dataset
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language: en
 license:
