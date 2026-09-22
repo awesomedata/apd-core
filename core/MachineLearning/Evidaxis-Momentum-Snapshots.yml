@@ -6,8 +6,8 @@ description: Weekly, hash-pinned point-in-time measurements of rising open-sourc
   and research-native AI systems, scored by momentum (the rate of change of their
   public signals) on a transparent, versioned public methodology. A system is marked
   rising only when two independent axes converge (development velocity and citation
-  momentum). Append-only archive; every snapshot is content-addressed and
-  byte-reproducible from public inputs.
+  momentum). Append-only archive; every score and snapshot id is checkable
+  against hash-pinned inputs, with the raw provenance published.
 version: 1.0
 keywords: open-source AI, momentum, longitudinal, time series, scientometrics
 image:
