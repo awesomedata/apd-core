@@ -1,0 +1,33 @@
+---
+title: Gambling Harm Open Data
+homepage: https://github.com/betttr-data/gambling-harm-data
+category: Healthcare
+description: Five machine-readable datasets on gambling harm and gambling recovery in the United States. Gambling Harm Index (51 rows, what every US state and DC publishes about gambling harm plus NCPG helpline contacts 2024-2025), Sportsbook Responsible-Gambling Tool Matrix (14 operators, which limits, cool-off, self-exclusion and account-closure tools each publishes, with a source URL per cell), Gambling Recovery Glossary (125 terms with stigma-preferred phrasing and sources), Quit-Gambling App Panel (107 iOS apps), and State and Multi-State Self-Exclusion Programs. Nothing estimated or imputed; every figure carries its source URL. Frictionless datapackage.json and a column dictionary per file.
+version: 2026.9.0
+keywords: gambling, problem gambling, gambling harm, sports betting, helpline, self-exclusion, responsible gambling, public health, addiction, recovery
+image:
+temporal: 2024-01-01/2026-09-30
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/betttr-data/gambling-harm-data/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/betttr-data/gambling-harm-data/tree/main/data/schema
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Betttr LLC
+    web: https://betttr.net/data/
+organization:
+  - name: Betttr LLC
+    web: https://betttr.net
+issued_time: 2026.09
+sources:
+  - name: GitHub repository (CSV)
+    access_url: https://github.com/betttr-data/gambling-harm-data
+  - name: Zenodo archive (DOI 10.5281/zenodo.22857767)
+    access_url: https://doi.org/10.5281/zenodo.22857767
+references:
+  - title: Gambling Harm Index methodology
+    reference: https://betttr.net/harm-index/methodology/
