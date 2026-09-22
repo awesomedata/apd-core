@@ -1,6 +1,6 @@
 ---
 title: BIS Statistics
-homepage: https://www.bis.org/statistics/full_data_sets.htm
+homepage: https://data.bis.org/
 category: Finance
 description: BIS statistics, compiled in cooperation with central banks and other national authorities, are designed to inform analysis of financial stability, international monetary spillovers and global liquidity.
 version: 1.0
@@ -11,7 +11,7 @@ access_level: public
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language: en
 publisher:
@@ -22,7 +22,7 @@ organization:
     web:
 sources:
   - name: BIS Statistics Index
-    access_url: https://www.bis.org/statistics/index.htm
+    access_url: https://data.bis.org/
 references:
   - title:
     reference:
