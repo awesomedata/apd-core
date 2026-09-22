@@ -1,0 +1,31 @@
+---
+title: Tennis Match Outcome Studies
+homepage: https://livetennisapi.com/open-tennis-data
+category: Sports
+description: Aggregate outcome statistics counted from 116,382 completed best-of-three singles tennis matches on the ATP, WTA, Challenger and ITF tours, played 2023-01-01 to 2026-09-14 and read from the point-by-point record rather than estimated from final scores; retirements and walkovers excluded. Four studies - comeback rate after losing the first set broken down by first-set score, surface and tour; win probability by second-set score for the first-set loser; service hold rate by surface and tour across 2,239,440 service games; and tiebreak frequency by surface. Aggregate figures only, no per-match rows. The file documents its own known defects - two breakdowns fall 11 and 508 matches short of the corpus, which is counting drift in those rows rather than an exclusion.
+version:
+keywords: tennis, ATP, WTA, Challenger, ITF, match statistics, hold rate, tiebreak, comeback rate, sports analytics
+image:
+temporal: 2023-2026
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://livetennisapi.com/open-tennis-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Live Tennis API
+    web: https://livetennisapi.com/
+organization:
+  - name: Live Tennis API
+    web: https://livetennisapi.com/
+issued_time: 2026-09-14
+sources:
+  - name: studies.json
+    access_url: https://blog.livetennisapi.com/studies.json
+references:
+  - title:
+    reference:
