@@ -1,28 +1,25 @@
 #!/usr/bin/env python
 """
-Patched apd-core/deploy/render.py - adds CSV + HTML link-check reports.
+Patched apd-core/deploy/render.py - adds an HTML link-check report.
 
-Builds on the earlier User-Agent/timeout/reason patch. New in this
-version: after every run, a report of which links failed (and why)
-gets written out in two formats, in two "tiers":
+Builds on the earlier User-Agent/timeout/reason patch. After every run,
+a report of which links failed (and why) gets written out as HTML, in
+two "tiers":
 
   reports/latest.html   <- always overwritten. This is the file you
-  reports/latest.csv       bookmark - the URL never changes, so it
+                            bookmark - the URL never changes, so it
                             always shows the most recent run.
 
   reports/archive/link-check-report_<timestamp>.html
-  reports/archive/link-check-report_<timestamp>.csv
                         <- one dated snapshot per run, so you can look
                            back at previous runs if you want to. Only
                            the 3 most recent snapshots are kept - older
                            ones are deleted automatically every run.
 
-None of this touches index.rst or the .mako template - the reports
-are a separate side effect that runs after the existing render step.
+None of this touches index.rst or the .mako template - the report
+is a separate side effect that runs after the existing render step.
 """
-import csv
 import glob
-import io
 import logging
 import os
 import sys
@@ -57,9 +54,57 @@ REQUEST_HEADERS = {
 # a hardcoded `timeout=4`, which is tight for large/slow data portals.
 REQUEST_TIMEOUT = 10
 
-# ---- NEW: report rotation settings ----
+# ---- human-readable descriptions for link-check failure reasons ----
+# HTTP status codes get their own table since do_validate_link() produces
+# a distinct "http_<code>" reason per status - this lets each one (including
+# every 5xx code) get its own specific, separate explanation.
+HTTP_STATUS_DESCRIPTIONS = {
+    400: "Bad Request - the server couldn't understand the request as sent.",
+    401: "Unauthorized - the page requires login/authentication.",
+    403: "Forbidden - server refused access (often bot-detection, not a dead link).",
+    404: "Not Found - the page no longer exists at this URL.",
+    410: "Gone - the page existed before but was intentionally removed.",
+    429: "Too Many Requests - the server is rate-limiting our checker.",
+    500: "Internal Server Error - something broke on their server.",
+    502: "Bad Gateway - an upstream/proxy server got an invalid response.",
+    503: "Service Unavailable - their server is overloaded or down for maintenance.",
+    504: "Gateway Timeout - an upstream/proxy server took too long to respond.",
+}
+
+# Non-HTTP-status reasons, matched by exact string or prefix.
+REASON_DESCRIPTIONS = {
+    "timeout": "No response within the timeout window - slow or unresponsive host.",
+    "non_http_skipped": "Not an http(s) link, so it wasn't checked.",
+    "no_homepage_field": "Entry has no homepage URL to check.",
+    "unknown": "Validation didn't run or produced no result.",
+}
+
+
+def describe_reason(reason):
+    """
+    Turn a raw reason string (e.g. "http_429", "timeout",
+    "request_exception: ...") into a brief description for the report.
+    Falls back to a generic message for anything not explicitly mapped,
+    so an unrecognized reason never breaks report generation.
+    """
+    if reason.startswith("http_"):
+        try:
+            code = int(reason.split("_", 1)[1])
+        except (IndexError, ValueError):
+            return "HTTP error - unrecognized status code."
+        return HTTP_STATUS_DESCRIPTIONS.get(
+            code, "HTTP error {} - see status code for detail.".format(code)
+        )
+    if reason.startswith("request_exception:"):
+        return "Network/connection problem (DNS failure, refused connection, SSL error, etc.)."
+    if reason.startswith("unexpected_exception:") or reason.startswith("internal_error:"):
+        return "Unexpected error while checking this link - see full reason for detail."
+    return REASON_DESCRIPTIONS.get(reason, "No description available for this reason.")
+
+
+# ---- report rotation settings ----
 # How many past runs' reports to keep in reports/archive/ before we
-# start deleting the oldest ones. Set to 3 per your request.
+# start deleting the oldest ones.
 KEEP_N_ARCHIVED_REPORTS = 3
 
 
@@ -67,17 +112,16 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None):
     """
     Scan and load data entries.
 
-    NEW: `reports_dir` - if provided (and validate_link is True), a
-    CSV + HTML report of failing links is written there after
-    validation finishes. If left as None, no report is written -
-    this keeps the function backward compatible with any other
-    caller that doesn't care about reports.
+    `reports_dir` - if provided (and validate_link is True), an HTML
+    report of failing links is written there after validation finishes.
+    If left as None, no report is written - this keeps the function
+    backward compatible with any other caller that doesn't care about
+    reports.
     """
     categories = OrderedDict()  # {catetory: [yaml]}
     category_names = os.listdir(core_dir)
 
     # ---- Pass 1: load all YAML files from disk (fast, no network) ----
-    # (unchanged from the original)
     all_items = []  # list of (category, data_obj) tuples
     for category in sorted(category_names):
         print("Scanned category: ", category)
@@ -124,7 +168,7 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None):
     for category in categories:
         categories[category].sort(key=lambda d: d.get("_rawFileName", ""))
 
-    # ---- NEW: write the report, if a destination was given ----
+    # ---- write the report, if a destination was given ----
     if reports_dir:
         write_link_check_reports(categories, reports_dir)
 
@@ -185,7 +229,7 @@ def do_validate_link(link):
 
 
 # =====================================================================
-# NEW: everything below this line is the report-writing addition.
+# Everything below this line is the report-writing addition.
 # Nothing above this point is required to read/understand it, but the
 # functions above are what feed it (_status and _status_reason).
 # =====================================================================
@@ -193,9 +237,7 @@ def do_validate_link(link):
 def _collect_failures(categories):
     """
     Walk the categories dict and pull out just the entries that
-    failed validation, as a flat list of dicts. Kept as its own
-    function so both the CSV and HTML writers can share it instead
-    of duplicating the same walk-and-filter loop twice.
+    failed validation, as a flat list of dicts.
     """
     failures = []
     for category, items in categories.items():
@@ -215,16 +257,6 @@ def _collect_failures(categories):
     return failures
 
 
-def _write_csv_report(failures, path):
-    """Write the failures list out as a CSV file at `path`."""
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(
-            f, fieldnames=["category", "file", "title", "homepage", "reason"]
-        )
-        writer.writeheader()
-        writer.writerows(failures)
-
-
 def _write_html_report(failures, path, generated_at):
     """
     Write the failures list out as a small, self-contained HTML page
@@ -233,10 +265,6 @@ def _write_html_report(failures, path, generated_at):
     correctly on its own, whether that's via GitHub Pages, a raw
     file:// open, or anywhere else.
     """
-    # Build the table rows first. html.escape-equivalent by hand here
-    # (just replacing the characters that matter for our data, which
-    # is URLs/titles/filenames - not full user-supplied HTML) to avoid
-    # adding a new dependency just for this.
     def esc(value):
         return (
             str(value)
@@ -252,12 +280,14 @@ def _write_html_report(failures, path, generated_at):
         "<td>{title}</td>"
         "<td><a href=\"{homepage}\">{homepage}</a></td>"
         "<td>{reason}</td>"
+        "<td>{description}</td>"
         "</tr>".format(
             category=esc(f["category"]),
             file=esc(f["file"]),
             title=esc(f["title"]),
             homepage=esc(f["homepage"]),
             reason=esc(f["reason"]),
+            description=esc(describe_reason(f["reason"])),
         )
         for f in failures
     )
@@ -282,7 +312,7 @@ def _write_html_report(failures, path, generated_at):
   <p class="meta">Generated {generated_at} UTC &middot; {count} failing link(s)</p>
   <table>
     <thead>
-      <tr><th>Category</th><th>File</th><th>Title</th><th>Homepage</th><th>Reason</th></tr>
+      <tr><th>Category</th><th>File</th><th>Title</th><th>Homepage</th><th>Reason</th><th>What it means</th></tr>
     </thead>
     <tbody>
       {rows}
@@ -298,34 +328,29 @@ def _write_html_report(failures, path, generated_at):
 
 def _prune_old_archives(archive_dir, keep_n):
     """
-    Delete all but the `keep_n` most recent report pairs in
+    Delete all but the `keep_n` most recent report files in
     `archive_dir`. Relies on the timestamp being sortable as a
     string (we use ISO-ish YYYYMMDD-HHMMSS below), so a plain
     alphabetical sort is also a chronological sort.
     """
-    # Group files by their timestamp, since each run produces two
-    # files (a .csv and an .html) sharing the same timestamp - we
-    # want to keep or delete them as a pair, not independently.
-    csv_files = sorted(glob.glob(os.path.join(archive_dir, "link-check-report_*.csv")))
     html_files = sorted(glob.glob(os.path.join(archive_dir, "link-check-report_*.html")))
 
-    for file_list in (csv_files, html_files):
-        # Keep the last `keep_n` (most recent, since sorted ascending),
-        # delete everything before that.
-        for old_file in file_list[:-keep_n] if len(file_list) > keep_n else []:
-            try:
-                os.remove(old_file)
-                write_msg("Pruned old report: {}\n".format(old_file))
-            except OSError as e:
-                logging.warning("Could not delete old report {}: {}".format(old_file, e))
+    # Keep the last `keep_n` (most recent, since sorted ascending),
+    # delete everything before that.
+    for old_file in html_files[:-keep_n] if len(html_files) > keep_n else []:
+        try:
+            os.remove(old_file)
+            write_msg("Pruned old report: {}\n".format(old_file))
+        except OSError as e:
+            logging.warning("Could not delete old report {}: {}".format(old_file, e))
 
 
 def write_link_check_reports(categories, reports_dir):
     """
     Entry point called from scan_core_data(). Writes:
-      - reports_dir/latest.csv, reports_dir/latest.html (always overwritten)
-      - reports_dir/archive/link-check-report_<timestamp>.{csv,html}
-        (one new dated pair per run, oldest pruned beyond KEEP_N_ARCHIVED_REPORTS)
+      - reports_dir/latest.html (always overwritten)
+      - reports_dir/archive/link-check-report_<timestamp>.html
+        (one new dated file per run, oldest pruned beyond KEEP_N_ARCHIVED_REPORTS)
     """
     archive_dir = os.path.join(reports_dir, "archive")
     os.makedirs(archive_dir, exist_ok=True)
@@ -336,16 +361,12 @@ def write_link_check_reports(categories, reports_dir):
     timestamp = now.strftime("%Y%m%d-%H%M%S")
     generated_at = now.strftime("%Y-%m-%d %H:%M:%S")
 
-    # --- the "latest" pair: stable filenames, always overwritten ---
-    # This is what you bookmark - the URL for these two files never
+    # --- the "latest" file: stable filename, always overwritten ---
+    # This is what you bookmark - the URL for this file never
     # changes between runs.
-    _write_csv_report(failures, os.path.join(reports_dir, "latest.csv"))
     _write_html_report(failures, os.path.join(reports_dir, "latest.html"), generated_at)
 
-    # --- the dated archive pair for this run ---
-    _write_csv_report(
-        failures, os.path.join(archive_dir, "link-check-report_{}.csv".format(timestamp))
-    )
+    # --- the dated archive file for this run ---
     _write_html_report(
         failures,
         os.path.join(archive_dir, "link-check-report_{}.html".format(timestamp)),
@@ -363,9 +384,9 @@ if __name__ == "__main__":
     pdir = os.path.dirname(__file__)
     template_file = os.path.join(pdir, "index.mako")
     core_dir = os.path.join(pdir, "..", "core")
-    # NEW: where reports get written. Adjust this path to wherever
-    # your publishing step (e.g. a GitHub Pages branch checkout)
-    # expects to find them - see the accompanying workflow file.
+    # Where reports get written. Adjust this path to wherever your
+    # publishing step (e.g. a GitHub Pages branch checkout) expects
+    # to find them - see the accompanying workflow file.
     reports_dir = os.path.join(pdir, "..", "reports")
 
     categories = scan_core_data(core_dir, validate_link=True, reports_dir=reports_dir)
