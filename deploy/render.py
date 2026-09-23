@@ -255,7 +255,7 @@ def _collect_failures(categories):
                     "title": d.get("title", ""),
                     "homepage": d.get("homepage", ""),
                     "reason": d.get("_status_reason", ""),
-                    "description": describe_reason_reason(reason),
+                    "description": describe_reason(reason),
                 })
     return failures
 
