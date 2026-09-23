@@ -32,11 +32,11 @@ jobs:
       - name: Post link check summary to this run
         run: |
           python - <<'PY'
-          import csv
+          import json
           import os
 
-          with open("reports/latest.csv", newline="", encoding="utf-8") as f:
-              rows = list(csv.DictReader(f))
+          with open("reports/latest.json", newline="", encoding="utf-8") as f:
+              rows = json.load(f)
 
           lines = ["## Link check report \u2014 {} failing link(s)".format(len(rows)), ""]
           if rows:
