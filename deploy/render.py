@@ -248,12 +248,14 @@ def _collect_failures(categories):
             # in the unlikely case validate_link ran but this
             # particular entry didn't get a result for some reason.
             if not d.get("_status", True):
+                reason = d.get("_status_reason", "")
                 failures.append({
                     "category": category,
                     "file": d.get("_rawFileName", ""),
                     "title": d.get("title", ""),
                     "homepage": d.get("homepage", ""),
                     "reason": d.get("_status_reason", ""),
+                    "description": describe_reason_reason(reason),
                 })
     return failures
 
