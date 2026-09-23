@@ -1,6 +1,6 @@
 ---
-title: State of Utah, US
-homepage: https://opendata.utah.gov/
+title: Utah, US State
+homepage: https://www.utah.gov/government/data.html
 category: Government
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
