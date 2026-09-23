@@ -20,6 +20,7 @@ None of this touches index.rst or the .mako template - the report
 is a separate side effect that runs after the existing render step.
 """
 import glob
+import json
 import logging
 import os
 import sys
@@ -312,87 +313,3 @@ def _write_html_report(failures, path, generated_at):
   <p class="meta">Generated {generated_at} UTC &middot; {count} failing link(s)</p>
   <table>
     <thead>
-      <tr><th>Category</th><th>File</th><th>Title</th><th>Homepage</th><th>Reason</th><th>What it means</th></tr>
-    </thead>
-    <tbody>
-      {rows}
-    </tbody>
-  </table>
-</body>
-</html>
-""".format(generated_at=generated_at, count=len(failures), rows=rows_html)
-
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(html)
-
-
-def _prune_old_archives(archive_dir, keep_n):
-    """
-    Delete all but the `keep_n` most recent report files in
-    `archive_dir`. Relies on the timestamp being sortable as a
-    string (we use ISO-ish YYYYMMDD-HHMMSS below), so a plain
-    alphabetical sort is also a chronological sort.
-    """
-    html_files = sorted(glob.glob(os.path.join(archive_dir, "link-check-report_*.html")))
-
-    # Keep the last `keep_n` (most recent, since sorted ascending),
-    # delete everything before that.
-    for old_file in html_files[:-keep_n] if len(html_files) > keep_n else []:
-        try:
-            os.remove(old_file)
-            write_msg("Pruned old report: {}\n".format(old_file))
-        except OSError as e:
-            logging.warning("Could not delete old report {}: {}".format(old_file, e))
-
-
-def write_link_check_reports(categories, reports_dir):
-    """
-    Entry point called from scan_core_data(). Writes:
-      - reports_dir/latest.html (always overwritten)
-      - reports_dir/archive/link-check-report_<timestamp>.html
-        (one new dated file per run, oldest pruned beyond KEEP_N_ARCHIVED_REPORTS)
-    """
-    archive_dir = os.path.join(reports_dir, "archive")
-    os.makedirs(archive_dir, exist_ok=True)
-
-    failures = _collect_failures(categories)
-
-    now = datetime.now(timezone.utc)
-    timestamp = now.strftime("%Y%m%d-%H%M%S")
-    generated_at = now.strftime("%Y-%m-%d %H:%M:%S")
-
-    # --- the "latest" file: stable filename, always overwritten ---
-    # This is what you bookmark - the URL for this file never
-    # changes between runs.
-    _write_html_report(failures, os.path.join(reports_dir, "latest.html"), generated_at)
-
-    # --- the dated archive file for this run ---
-    _write_html_report(
-        failures,
-        os.path.join(archive_dir, "link-check-report_{}.html".format(timestamp)),
-        generated_at,
-    )
-
-    # --- drop anything older than the 3 most recent runs ---
-    _prune_old_archives(archive_dir, KEEP_N_ARCHIVED_REPORTS)
-
-    write_msg("Wrote link check report: {} failing link(s) -> {}\n".format(
-        len(failures), reports_dir))
-
-
-if __name__ == "__main__":
-    pdir = os.path.dirname(__file__)
-    template_file = os.path.join(pdir, "index.mako")
-    core_dir = os.path.join(pdir, "..", "core")
-    # Where reports get written. Adjust this path to wherever your
-    # publishing step (e.g. a GitHub Pages branch checkout) expects
-    # to find them - see the accompanying workflow file.
-    reports_dir = os.path.join(pdir, "..", "reports")
-
-    categories = scan_core_data(core_dir, validate_link=True, reports_dir=reports_dir)
-
-    with open(template_file, 'r') as f:
-        rendered = Template(f.read()).render(categories=categories)
-    with open(os.path.join(pdir, "index.rst"), "w") as of:
-        of.write(rendered)
-        of.write("\n")
