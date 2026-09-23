@@ -1,0 +1,35 @@
+---
+title: Profitvana Global Fee Index
+homepage: https://github.com/mustafa654/profitvana-fee-data
+category: Economics
+description: An open dataset of the published seller and payment fees of 31 online marketplaces and payment processors (Stripe, PayPal, Shopify, and Amazon's country marketplaces) across 17+ countries. Every rate is read from the provider's own official fee page and re-verified monthly, and each row carries the official source URL, the verification date, and notes on pricing edge cases; fields a provider does not publish openly are null rather than estimated. Covers domestic and international card rates, fixed per-transaction fees, currency-conversion spreads, marketplace referral fees, minimums and subscriptions. Served as JSON over a free no-key API, with a GitHub snapshot mirror.
+version: 1.0
+keywords: ecommerce, payment processing, seller fees, marketplaces, stripe, paypal, shopify, amazon, pricing, cross-border commerce
+image:
+temporal: 2026
+spatial: 17+ countries
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://www.profitvana.com/developers
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Profitvana (Valdura LTD)
+    web: https://www.profitvana.com/
+organization:
+  - name: Profitvana (Valdura LTD)
+    web: https://www.profitvana.com/
+issued_time: 2026.08
+sources:
+  - name: GitHub repository (dataset snapshots, CC BY 4.0)
+    access_url: https://github.com/mustafa654/profitvana-fee-data
+  - name: Global Fee Index (live JSON API, no key)
+    access_url: https://www.profitvana.com/api/v1/fee-index
+references:
+  - title: Methodology and editorial policy
+    reference: https://www.profitvana.com/methodology
+  - title: Browsable index with per-row sources
+    reference: https://www.profitvana.com/fee-index
