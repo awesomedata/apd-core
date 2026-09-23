@@ -1,6 +1,6 @@
 ---
 title: The Reddit COVID dataset
-homepage: https://socialgrep.com/datasets/the-reddit-covid-dataset
+homepage: https://www.kaggle.com/datasets/pavellexyr/the-reddit-covid-dataset
 category: SocialNetworks
 description: This dataset attempts to capture the full extent of COVID-19 discussion across the entire site of Reddit. All posts and comments found to mention the term 'COVID' have been gathered from the site, and made available in two CSV files.
 version: 1.0
