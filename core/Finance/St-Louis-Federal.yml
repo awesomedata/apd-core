@@ -1,6 +1,6 @@
 ---
 title: St Louis Federal
-homepage: https://research.stlouisfed.org/fred2/
+homepage: https://fred.stlouisfed.org/
 category: Finance
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
