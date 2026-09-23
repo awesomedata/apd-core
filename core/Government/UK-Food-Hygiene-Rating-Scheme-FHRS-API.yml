@@ -1,6 +1,6 @@
 ---
-title: UK Food Hygiene Rating Scheme (FHRS) API
-homepage: https://api.ratings.food.gov.uk/
+title: UK Food Hygiene Rating Scheme (FHRS)
+homepage: https://ratings.food.gov.uk/open-data
 category: Government
 description: Food hygiene ratings for 600,000+ food establishments across England, Wales, Northern Ireland, and Scotland. Includes business details, inspection scores, rating history, and geolocation. RESTful API with no authentication required.
 version:
@@ -12,7 +12,7 @@ access_level: public
 copyrights:
 accrual_periodicity: daily
 specification: https://api.ratings.food.gov.uk/help
-data_quality: false
+data_quality: 
 data_dictionary:
 language: en
 license: Open Government Licence v3.0
