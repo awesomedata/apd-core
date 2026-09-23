@@ -211,6 +211,9 @@ def do_validate_link(link):
             except requests.exceptions.Timeout:
                 ok = False
                 reason = "timeout"
+            except requests.exceptions.SSLError:
+                ok = False
+                reason = "ssl_error"
             except requests.exceptions.RequestException as e:
                 ok = False
                 reason = "request_exception: {}".format(e)
