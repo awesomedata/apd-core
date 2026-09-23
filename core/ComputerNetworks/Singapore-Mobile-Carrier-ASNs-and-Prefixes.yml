@@ -1,0 +1,27 @@
+---
+title: Singapore Mobile Carrier ASNs and Prefixes
+homepage: https://github.com/Xavierfok/sg-mobile-asn-ranges
+category: ComputerNetworks
+description: ASNs of Singapore's carriers (Singtel, M1, StarHub, Simba) with a role for each (mobile, fixed broadband, carrier core or unknown), a confidence level and the evidence behind it, plus the IPv4 and IPv6 prefixes each ASN announces. Prefixes are refreshed weekly from RIPEstat BGP data. Available as JSON, CSV and per-carrier CIDR lists.
+version:
+keywords: ASN, BGP, IP prefixes, mobile networks, Singapore, IP intelligence
+image:
+temporal: Weekly refresh
+spatial: Singapore
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/Xavierfok/sg-mobile-asn-ranges#files
+language: en
+license: CC BY 4.0 (data), MIT (code)
+publisher:
+  - name: Xavier Fok
+    web: https://github.com/Xavierfok
+organization:
+issued_time: 2026.09
+sources:
+  - name: RIPEstat Data API
+    access_url: https://stat.ripe.net/docs/data_api
+references:
