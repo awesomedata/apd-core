@@ -1,6 +1,6 @@
 ---
-title: NIMH Data Archive
-homepage: http://data-archive.nimh.nih.gov/
+title: National Institute of Mental Health Data Archive (NDA)
+homepage: https://nda.nih.gov/
 category: Neuroscience
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
