@@ -1,0 +1,32 @@
+---
+title: usefulHQ Used Price Index
+homepage: https://github.com/ryzendigo/usefulhq-used-price-index
+category: Economics
+description: A daily index of secondhand consumer prices in the United States, built from the cheapest genuine used Buy It Now listing on eBay US for about 2,100 specific product models across 88 categories (graphics cards, phones, consoles, cameras, drones, instruments, tools and more). Each day is chained against the day before using a trimmed mean of per-model price ratios, and a one-day move of more than 25% on a single model is discarded as a changed listing rather than a price move. One row per day for the whole market and one per category. Fixed monthly readings are also published.
+version: 2026.09
+keywords: secondhand prices, used prices, resale value, price index, consumer prices, eBay, inflation, time series, economics
+temporal: 2026-08-07 to present, daily
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/ryzendigo/usefulhq-used-price-index#what-is-in-the-csv
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: usefulHQ
+    web: https://usefulhq.com/
+organization:
+  - name: usefulHQ
+    web: https://usefulhq.com/
+issued_time: 2026.08
+sources:
+  - name: Daily index CSV
+    access_url: https://raw.githubusercontent.com/ryzendigo/usefulhq-used-price-index/main/used-price-index.csv
+references:
+  - title: Method and current reading
+    reference: https://usefulhq.com/used-price-index/
+  - title: Monthly reading, August 2026
+    reference: https://usefulhq.com/used-price-index/2026-08/
