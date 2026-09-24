@@ -1,0 +1,23 @@
+---
+title: Airport-to-City Transit and Taxi Fares for 50 Airports 2026
+homepage: https://github.com/IronWingDigital/airport-transit-data
+category: Transportation
+description: Fares, journey times, modes and stop counts for 171 airport-to-city-centre options (rail, bus, taxi, rideshare) at 50 world airports, verified in July 2026 against operator fare pages and timetables. CSV and JSON with local-currency fares, USD midpoints, the FX rates used, and per-line route specs.
+version: 2026.07
+keywords: airports,public transport,transit fares,taxi fares,ground transportation
+image:
+temporal: 2026
+spatial: Worldwide (50 airports)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/IronWingDigital/airport-transit-data#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: TravelOpsHQ
+    web: https://www.travelopshq.com/airport-transfer-costs-2026
+organization:
+issued_time: 2026-07-09
