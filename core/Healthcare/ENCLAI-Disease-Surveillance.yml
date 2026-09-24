@@ -1,17 +1,17 @@
 ---
-title: ENCLAI Disease Surveillance
-homepage: https://enclai.net/data
+title: ENCLAI Reported Infectious-Disease Case Counts 2018-2024
+homepage: https://doi.org/10.5281/zenodo.21855170
 category: Healthcare
-description: Global infectious-disease outbreak surveillance records aggregated from official public-health publishers (WHO, ECDC, US CDC, national and sub-national agencies), normalised to a canonical disease vocabulary and ISO-3166-1 alpha-3 country codes, with reported case counts where the publishing agency states one. 209 diseases and pathogens; 225 countries and territories appear in the data, 86 with a direct national feed. Per-disease, per-country and disease-by-country pages, a weekly CSV briefing download, and a public API. Updated daily.
-version: 2026.09
-keywords: disease surveillance, outbreak, epidemiology, public health, infectious disease, case counts, dengue, measles, cholera, influenza
+description: "Openly downloadable panel of officially reported infectious-disease case counts, 18 diseases x 108 countries, 2018-2024 (1,622 country-year rows). Confirmed and suspected counts are published as separate, paired columns with the originating authority named on every row, and each annual row carries the number of countries reporting, so reporting coverage can be told apart from real trends. Compiled from national ministries of health, PAHO/WHO, WHO, ECDC and other public-health authorities. Deposited at Zenodo (CERN), CC BY-NC-SA 4.0."
+version: "2.0"
+keywords: disease surveillance, epidemiology, public health, infectious disease, case counts, case definitions, dengue, measles, cholera, influenza
 image:
-temporal: 2022 to present
-spatial: Global, country and sub-national
+temporal: 2018-01-01 to 2024-12-31
+spatial: Global, country level
 access_level: public
 copyrights: ENCLAI; underlying figures as reported by the originating health authorities
-accrual_periodicity: daily
-specification: https://enclai.net/docs/api
+accrual_periodicity: annual
+specification: https://doi.org/10.5281/zenodo.21855170
 data_quality: true
 data_dictionary: https://enclai.net/understanding-case-counts
 language: en
@@ -22,16 +22,14 @@ publisher:
 organization:
   - name: ENCLAI
     web: https://enclai.net/about
-issued_time: 2026.05
+issued_time: 2026.08
 sources:
-  - name: Data catalogue and licence
+  - name: Zenodo deposit (CSV files, checksums, metadata)
+    access_url: https://doi.org/10.5281/zenodo.21855170
+  - name: Data catalogue and licence scope
     access_url: https://enclai.net/data
-  - name: Weekly surveillance briefing (CSV)
-    access_url: https://enclai.net/reports/weekly/2026-W37.csv
-  - name: Public API documentation
-    access_url: https://enclai.net/docs/api
 references:
   - title: The 2024 global dengue surge, by the numbers
     reference: https://enclai.net/reports/2024-dengue-surge
-  - title: Methodology and Trust Center
+  - title: Methodology
     reference: https://enclai.net/trust
