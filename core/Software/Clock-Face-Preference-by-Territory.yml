@@ -1,0 +1,31 @@
+---
+title: Clock Face Preference by Territory (12-hour vs 24-hour, Unicode CLDR 49)
+homepage: https://github.com/33nyc/angel-number-clock-faces
+category: Software
+description: >-
+  The default clock face (12-hour or 24-hour) for each of 251 territories,
+  flattened from the Unicode CLDR 49 time-preference data into one CSV row per
+  ISO 3166-1 territory, with a JSON copy that carries metadata and license.
+  Each row also counts how many of a fixed set of 13 repeating-digit minutes
+  (11:11, 2:22, 22:22 and the rest) that face writes with repeating digits,
+  and which ones it does not, since a 12-hour face renders 21:21 as 9:21.
+  Every number is enumerated from the full space of minutes, not sampled.
+  Useful for localization checks and for reasoning about how many people see
+  a 24-hour clock by default.
+version: "2026.09"
+keywords: clock format, 12-hour clock, 24-hour clock, time format, Unicode CLDR, internationalization, localization, CSV, JSON
+spatial: 251 territories (ISO 3166-1 alpha-2)
+access_level: public
+accrual_periodicity: irregular
+specification: CSV with one row per territory; JSON with metadata, license and the same rows
+data_quality: true
+data_dictionary: https://github.com/33nyc/angel-number-clock-faces#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Angel Clock
+    web: https://angelclock.com/data
+issued_time: "2026.09"
+sources:
+  - name: Unicode CLDR 49, supplemental time data (preferred hour cycle per territory)
+    access_url: https://github.com/unicode-org/cldr
