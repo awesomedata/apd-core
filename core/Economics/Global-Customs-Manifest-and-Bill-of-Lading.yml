@@ -1,0 +1,37 @@
+---
+title: Global Customs Manifest and Bill of Lading Multi-Country Dataset
+homepage: https://tradedata.io
+category: Economics
+description: Institutional multi-country trade intelligence dataset containing verified customs manifests, bill of lading records, HS code classifications, and shipping consignment metadata across major global maritime corridors. Deposited with CERN Zenodo under permanent academic DOI 10.5281/zenodo.22957312.
+version: 1.0.0
+keywords: trade data, customs manifest, bill of lading, maritime logistics, hs codes, import export, supply chain intelligence
+image:
+temporal: 2024-2026
+spatial: Global
+access_level: public
+copyrights: Creative Commons Attribution 4.0 International
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://tradedata.io/docs
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: TRADE DATA PTE. LTD.
+    web: https://tradedata.io
+organization:
+  - name: TRADE DATA PTE. LTD.
+    web: https://tradedata.io
+issued_time: 2026.09
+sources:
+  - name: CERN Zenodo Record (Permanent DOI 10.5281/zenodo.22957312)
+    access_url: https://doi.org/10.5281/zenodo.22957312
+  - name: Sample Customs Manifest Dataset (CSV)
+    access_url: https://zenodo.org/records/22957312/files/global_customs_manifest_sample.zip
+references:
+  - title: CERN Zenodo DOI Repository
+    reference: https://doi.org/10.5281/zenodo.22957312
+  - title: TradeData Official Portal
+    reference: https://tradedata.io
+  - title: Wikidata Entity Q141555529
+    reference: https://www.wikidata.org/wiki/Q141555529
