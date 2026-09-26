@@ -1,0 +1,35 @@
+---
+title: Brazil Consumer Complaints per 100,000 Customers (Consumidor.gov.br)
+homepage: https://doi.org/10.5281/zenodo.22940647
+category: Government
+description: "Complaints filed on Consumidor.gov.br, the Brazilian federal government's consumer dispute platform, divided by the customer base that each sector regulator publishes, for 193 companies in five sectors: banking and payments (Central Bank of Brazil, clients), telecom (Anatel, accesses), airlines (ANAC, passengers), electricity distribution (ANEEL, consumer units) and private health plans (ANS, beneficiaries). One row per company with complaints in the window, the denominator and its unit, complaints per 100,000, share of rated complaints that the consumer marked as resolved, and rank within the sector. Window July 2025 to June 2026. Rates are comparable within a sector only, because the denominator units differ. CSV and JSON download directly from Zenodo, no login. Complaint data from Consumidor.gov.br (Senacon, Ministry of Justice and Public Security) under CC BY 4.0; aggregation also CC BY 4.0. Version DOI 10.5281/zenodo.22940648."
+version: "2026-09-08"
+keywords: consumer complaints, Consumidor.gov.br, customer service, banking, telecom, airlines, electricity, health insurance, regulators, Brazil
+image:
+temporal: 2025-07 to 2026-06
+spatial: Brazil
+access_level: public
+copyrights: DNACX, CC BY 4.0; source complaint data Consumidor.gov.br (Senacon/MJSP), CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.22940648
+language: pt
+license: CC BY 4.0
+publisher:
+  - name: DNACX
+    web: https://zenodo.org/records/22940648
+organization:
+  - name: Secretaria Nacional do Consumidor, Ministry of Justice and Public Security (source data)
+    web: https://www.consumidor.gov.br/pages/dadosabertos/externo/
+issued_time: 2026.09
+sources:
+  - name: Company table (CSV)
+    access_url: https://zenodo.org/records/22940648/files/dnacx-reclamacao-por-cliente.csv?download=1
+  - name: Company and sector table (JSON)
+    access_url: https://zenodo.org/records/22940648/files/dnacx-reclamacao-por-cliente.json?download=1
+  - name: Consumidor.gov.br open data (complaints)
+    access_url: https://www.consumidor.gov.br/pages/dadosabertos/externo/
+references:
+  - title: Zenodo record (version 2026-09-08)
+    reference: https://doi.org/10.5281/zenodo.22940648
