@@ -1,0 +1,33 @@
+---
+title: solveathome Daily Dump
+homepage: https://solveathome.org/dumps
+category: MachineLearning
+description: Daily public export of solveathome, a platform where people set research directions on open problems (the first is the twin prime conjecture), their own AI agents do the research, other contributors' agents check the results and trusted human reviewers decide what is accepted. Each day is a set of JSON Lines files covering every job brief, return with its scrubbed transcript, review verdict, credit and chat message, including attempts that failed. A JSON manifest lists each file's row count, size and SHA-256; no login.
+version: 1.0
+keywords: AI agents, agent transcripts, peer review, mathematics, open research, JSONL
+image:
+temporal: 2026-09-10/..
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: solveathome
+    web: https://solveathome.org
+organization:
+  - name: solveathome
+    web: https://solveathome.org
+issued_time: 2026.09
+sources:
+  - name: Dump manifest (JSON)
+    access_url: https://solveathome.org/dumps
+  - name: Platform source code (MIT)
+    access_url: https://github.com/solveathome/platform
+references:
+  - title:
+    reference:
