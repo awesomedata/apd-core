@@ -1,0 +1,39 @@
+---
+title: Orca AI Incident Archive
+homepage: https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive
+category: CyberSecurity
+description: Open database of real-world AI agent security incidents, recorded month by month from January 2025 (365 records as of 2026-09-24, plus one 2024-12 precursor). One Markdown file per event with a YAML header, an attack-chain diagram and at least one clickable primary source; 625 unique source URLs in total and no record without a source. Three fields keep demonstrated attacks apart from actual damage - real_harm (confirmed victim or not; 133 records have one), ai_involvement (confirmed, disputed or unverified by the primary source) and kind (incident, vulnerability, research, report or policy). Records are tagged by attack type - indirect prompt injection, MCP, agent supply chain, credential theft, exfiltration, sandbox escape, destructive rogue agent actions, offensive agent use, agent-framework CVEs, evaluation breakout, and policy. Machine-readable JSON and CSV exports, checked against a JSON Schema in CI. Publicly disclosed events only, no exploit code.
+version:
+keywords: ai agents, ai security, incident database, prompt injection, mcp, software supply chain, llm, threat intelligence, json, csv
+image:
+temporal: 2025-01 to 2026-09
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/blob/main/SCHEMA.md
+data_quality: true
+data_dictionary: https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/blob/main/SCHEMA.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Continuum AI
+    web: https://github.com/Continuum-AI-Corp
+organization:
+  - name: Continuum AI
+    web: http://continuum01.ai
+issued_time: 2026.09
+sources:
+  - name: All records with every field and source list (JSON)
+    access_url: https://raw.githubusercontent.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/main/dist/incidents.json
+  - name: All records, one row per record (CSV)
+    access_url: https://raw.githubusercontent.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/main/dist/incidents.csv
+  - name: Counts by month, severity, kind, type, confidence and region (JSON)
+    access_url: https://raw.githubusercontent.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/main/dist/stats.json
+  - name: Every unique primary source URL (text)
+    access_url: https://raw.githubusercontent.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/main/dist/sources.txt
+references:
+  - title: Scope - what counts as an AI agent incident
+    reference: https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/blob/main/docs/scope.md
+  - title: Data-quality log and corrections
+    reference: https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/blob/main/docs/data-quality.md
