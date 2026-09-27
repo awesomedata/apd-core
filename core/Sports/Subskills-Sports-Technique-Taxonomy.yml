@@ -1,0 +1,35 @@
+---
+title: Subskills Sports Technique Taxonomy
+homepage: https://github.com/ihvou/subskills-taxonomy
+category: Sports
+description: 554 sports techniques (sub-skills) across 22 sports, from badminton, tennis and padel to chess, BJJ, climbing and surfing. Each technique has a one-line description, a suggested learning order within its sport, a 1-5 difficulty and a beginner, intermediate or advanced level. Per-technique counts of the tutorial videos reviewed for it, published and rejected, broken down by level and by platform (YouTube, TikTok, Instagram). CSV and JSON; no video content.
+version: "2026-09-27"
+keywords: sports, taxonomy, sports skills, technique, coaching, learning path, education
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: Sergii Knyr
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://github.com/ihvou/subskills-taxonomy#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Subskills
+    web: https://subskills.xyz
+organization:
+  - name:
+    web:
+issued_time: 2026.09
+sources:
+  - name: GitHub repository (CSV and JSON)
+    access_url: https://github.com/ihvou/subskills-taxonomy
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/subskills/sports-technique-taxonomy
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/subskills/sports-technique-taxonomy
+references:
+  - title:
+    reference:
