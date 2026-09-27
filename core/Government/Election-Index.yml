@@ -1,0 +1,33 @@
+---
+title: Election Index
+homepage: https://electionindex.org
+category: Government
+description: Neutral reference for national elections worldwide - polling days, count stage windows (when provisional and final results are expected, with the legal basis), counting authorities and classified source URLs. 151 elections across 61 countries. Every value is cited. Downloadable as CSV and JSON without login; also a REST API and an MCP server.
+version: 1
+keywords: elections, election calendar, election results, certified results, electoral authorities, open data
+image: https://electionindex.org/og.jpg
+temporal: 2026-2030
+spatial: 61 countries
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://electionindex.org/openapi.json
+data_quality: true
+data_dictionary: https://electionindex.org/methodology
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Election Index
+    web: https://electionindex.org
+organization:
+  - name: MC² Ventures
+    web: https://mc2.ventures
+issued_time: 2026.09
+sources:
+  - name: Elections (CSV)
+    access_url: https://electionindex.org/data/elections.csv
+  - name: Full dataset (JSON)
+    access_url: https://electionindex.org/data/dataset.json
+references:
+  - title: API and MCP documentation
+    reference: https://electionindex.org/docs
