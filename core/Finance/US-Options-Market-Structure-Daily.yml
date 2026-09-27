@@ -1,0 +1,40 @@
+---
+title: US Options Market Structure Daily - Max Pain, Gamma Exposure, Call Wall and Put Floor for 12 US Stocks and ETFs
+homepage: https://github.com/myjr0629-hue/options-market-structure-daily
+category: Finance
+description: >-
+  Daily after-close snapshots of options market-structure levels for 12 large
+  US stocks and ETFs (SPY, QQQ, AAPL, NVDA, TSLA, MSFT, AMZN, META, AMD, GOOGL,
+  NFLX, AVGO). Each trading day is one JSON file with, per ticker, the
+  expiration the levels refer to, the reference spot price and session, max
+  pain, net dealer gamma exposure (USD per 1% move), gamma flip level, call
+  wall, put floor, pin zone and put/call open-interest ratio, plus the age of
+  each value in seconds and a field dictionary. A Markdown table accompanies
+  each day. Values are derived metrics computed from listed option chains;
+  no quotes or raw chain data are redistributed. Files download directly from
+  the repository with no login and no API key. Days without a snapshot are
+  left as gaps rather than filled in.
+version:
+keywords: options, open interest, max pain, gamma exposure, GEX, call wall, put floor, put/call ratio, US stocks, ETF, market structure, json
+image:
+temporal: 2026-09-16 / ongoing
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/myjr0629-hue/options-market-structure-daily#readme
+data_quality: false
+data_dictionary: https://github.com/myjr0629-hue/options-market-structure-daily#usage
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SIGNUM HQ
+    web: https://www.signumhq.com
+organization:
+issued_time: 2026-09-16
+sources:
+  - name: Listed US equity option chains (open interest and greeks)
+    access_url:
+references:
+  - title: GitHub Pages landing with schema.org Dataset metadata
+    reference: https://myjr0629-hue.github.io/options-market-structure-daily/
