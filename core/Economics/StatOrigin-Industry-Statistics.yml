@@ -1,0 +1,35 @@
+---
+title: StatOrigin Industry Statistics
+homepage: https://statorigin.org/
+category: Economics
+description: >-
+  An open database of about 5,500 industry statistics across 22 industries,
+  including electricity and gas utilities, pharmaceuticals, software, banking,
+  retail, semiconductors, electric vehicles, steel and air transport. Each
+  record carries the publishing organisation, the source document, the page or
+  table locator, the verbatim sentence the value was taken from, and a link to
+  the original document, so every figure can be checked against its primary
+  source. Downloadable as CSV per industry, indicator or region, and through an
+  unauthenticated JSON API with an OpenAPI 3.1 specification, under CC BY 4.0.
+version: "2026.09"
+keywords: industry statistics, market data, provenance, citations, primary sources, CSV, JSON API
+spatial: Global, with regional and country breakdowns
+access_level: public
+accrual_periodicity: irregular
+specification: CSV export per industry, indicator and region; JSON REST API with OpenAPI 3.1
+data_quality: true
+data_dictionary: https://statorigin.org/api/v1/openapi.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StatOrigin
+    web: https://statorigin.org/
+issued_time: "2026.09"
+sources:
+  - name: Primary publishers cited by each record's document_url (statistical offices, central banks, regulators, industry associations)
+    access_url: https://statorigin.org/sources
+references:
+  - title: Methodology
+    reference: https://statorigin.org/methodology
+  - title: API documentation
+    reference: https://statorigin.org/docs/api
