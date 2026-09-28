@@ -1,0 +1,15 @@
+---
+title: Noms Nutrition Database
+homepage: https://noms.sh/docs
+category: Healthcare
+description: Nutrition data for 3.7M foods and 298K brands across 230 countries, from generic foods to packaged supermarket products, with up to 177 nutrients per 100 g or 100 ml, 3.4M barcodes and 566K food images. Served as a REST API described by an OpenAPI 3.1 document, with a free API tier (250 requests a day, no card).
+version: 1.0
+keywords: nutrition, food, calories, macros, micronutrients, barcode, REST API, OpenAPI
+access_level: public
+language: en
+publisher:
+  - name: Noms
+    web: https://noms.sh
+organization:
+  - name: Noms
+    web: https://noms.sh
