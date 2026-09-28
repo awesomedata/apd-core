@@ -1,0 +1,29 @@
+---
+title: Mexico Postal Codes (SEPOMEX catalog, CSV/JSON)
+homepage: https://github.com/gomflo/codigos-postales-mexico
+category: GIS
+description: Full national catalog of Mexican postal codes published by the Mexican Postal Service (SEPOMEX), cleaned into UTF-8 CSV and JSON. About 159,000 settlements (colonias, fraccionamientos, rancherías, ejidos) with postal code, settlement type, municipality and state, plus per-state files and a changelog of additions and removals between releases. Updated automatically every week; direct download, no signup. Also includes Colombia and Spain postal codes from GeoNames (CC BY 4.0).
+version:
+keywords:
+  - postal-code
+  - zip-code
+  - mexico
+  - sepomex
+  - colonias
+  - administrative-boundaries
+image:
+spatial: Mexico, Colombia, Spain
+access_level: Direct download (no signup)
+copyrights: SEPOMEX terms (free use, resale not permitted); GeoNames CC BY 4.0
+accrual_periodicity: Weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/gomflo/codigos-postales-mexico
+language: es
+license:
+publisher: Postali
+organization: Postali
+issued_time:
+sources:
+  - https://www.correosdemexico.gob.mx/
+  - https://www.geonames.org/
