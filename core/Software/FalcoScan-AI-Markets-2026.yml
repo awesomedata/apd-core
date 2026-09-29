@@ -1,0 +1,33 @@
+---
+title: FalcoScan AI Markets (29 AI markets, snapshot of 2026-09-26)
+homepage: https://doi.org/10.5281/zenodo.22981516
+category: Software
+description: Market-level figures for the 29 AI product markets tracked by FalcoScan, a maintained catalog of 7,000+ AI products. One row per market - active products, products recorded as shut down, average opportunity and saturation scores (0 to 100), the share of products that are likely thin wrappers over another company's model, counts of products labeled hot or rising, and a composite Market Heat score. Each product is checked before it counts, duplicates and rebrands are merged and operating status is verified, so shut-down counts are recorded rather than inferred. Figures are those published on each market page from data refreshed 2026-09-26. Column definitions are in the README and on the methodology page. Useful for research on AI market saturation, startup survival and where AI products cluster. CSV, no login.
+version: 1.0
+keywords: artificial intelligence, ai tools, ai market, market saturation, startups, product survival, csv, open data
+image:
+temporal: 2026-09-26 snapshot
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://falcoscan.com/methodology
+data_quality: true
+data_dictionary: https://falcoscan.com/methodology
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: FalcoScan
+    web: https://falcoscan.com
+organization:
+issued_time: 2026.09
+sources:
+  - name: Market-level figures, one row per AI market (CSV)
+    access_url: https://zenodo.org/records/22981516/files/falcoscan-ai-markets.csv
+  - name: Column definitions (README)
+    access_url: https://zenodo.org/records/22981516/files/README.md
+  - name: Mirror on Hugging Face
+    access_url: https://huggingface.co/datasets/falcoscan/ai-markets
+references:
+  - title: Methodology and score definitions
+    reference: https://falcoscan.com/methodology
