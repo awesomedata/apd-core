@@ -1,0 +1,27 @@
+---
+title: Chinese Laws and Court Cases (chinese-law-corpus)
+homepage: https://github.com/lttxzmj/chinese-law-corpus
+category: Government
+description: Article-level structured JSON of the 412 Chinese national laws
+  and judicial interpretations currently in force (26k+ articles with validity
+  status and effective dates, curated from official sources), plus 278 Supreme
+  People's Court guiding cases and 445 SPC Gazette case documents. Stable
+  article IDs suit legal RAG and citation grounding. Free JSON API over
+  jsDelivr CDN (no auth, CORS enabled).
+version: '2026-09'
+keywords: china,law,legal,statutes,court-cases,chinese-nlp
+image:
+temporal:
+spatial: China
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality:
+data_dictionary:
+language: zh
+license: CC0-1.0
+publisher: LawPulse
+organization:
+issued_time: '2026-09-06'
+sources: []
