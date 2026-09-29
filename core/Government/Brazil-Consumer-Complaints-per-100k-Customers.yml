@@ -1,0 +1,35 @@
+---
+title: Brazil Consumer Complaints per 100,000 Customers (Consumidor.gov.br)
+homepage: https://doi.org/10.5281/zenodo.22940647
+category: Government
+description: "Complaints finalized on Consumidor.gov.br, the Brazilian federal government's consumer dispute platform, divided by the customer base that each sector regulator publishes, for 183 companies in five sectors: banking and payments (Central Bank of Brazil, clients), telecom (Anatel, accesses), airlines (ANAC, passengers), electricity distribution (ANEEL, consumer units) and private health plans (ANS, beneficiaries). Window July 2025 to June 2026 in every sector, complaints counted by finalization date. Stock denominators use the median of the window; passengers use the sum. Inclusion rule: 100 or more complaints in the window, a public denominator, and at most 1,000 complaints per 100,000; the 50 candidates left out are listed with their reason. One row per company with complaints, denominator and unit, complaints per 100,000, share of rated complaints marked as resolved, number rated, and rank within the sector. Rates are comparable within a sector only, because the denominator units differ. The record also holds the brand-to-entity map, a manifest with the URL, licence and SHA-256 of every official source file, and the two scripts that rebuild the table. CSV and JSON download directly from Zenodo, no login. Licensed ODbL 1.0 because the Central Bank and ANEEL denominators are ODbL. Derived analysis, not official statistics. Version DOI 10.5281/zenodo.23021559."
+version: "2"
+keywords: consumer complaints, Consumidor.gov.br, customer service, banking, telecom, airlines, electricity, health insurance, regulators, Brazil
+image:
+temporal: 2025-07 to 2026-06
+spatial: Brazil
+access_level: public
+copyrights: DNACX, ODbL 1.0; sources Consumidor.gov.br, Anatel, ANAC and ANS (CC BY), Central Bank of Brazil and ANEEL (ODbL)
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.23021559
+language: pt
+license: ODbL 1.0
+publisher:
+  - name: DNACX
+    web: https://zenodo.org/records/23021559
+organization:
+  - name: Secretaria Nacional do Consumidor, Ministry of Justice and Public Security (source data)
+    web: https://www.consumidor.gov.br/pages/dadosabertos/externo/
+issued_time: 2026.09
+sources:
+  - name: Company table (CSV)
+    access_url: https://zenodo.org/records/23021559/files/dnacx-reclamacao-por-cliente.csv?download=1
+  - name: Company and sector table (JSON)
+    access_url: https://zenodo.org/records/23021559/files/dnacx-reclamacao-por-cliente.json?download=1
+  - name: Consumidor.gov.br open data (complaints)
+    access_url: https://www.consumidor.gov.br/pages/dadosabertos/externo/
+references:
+  - title: Zenodo record (version 2)
+    reference: https://doi.org/10.5281/zenodo.23021559
