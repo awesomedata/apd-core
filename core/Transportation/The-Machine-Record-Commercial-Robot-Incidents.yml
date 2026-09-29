@@ -1,0 +1,28 @@
+---
+title: The Machine Record - Commercial Robot Incidents
+homepage: https://github.com/vzolot/machine-record-data
+category: Transportation
+description: Public register of documented incidents involving commercial physical
+  robots (robotaxis, sidewalk delivery robots, warehouse and industrial machines,
+  surgical systems, humanoids), one row per incident with date, company, category,
+  incident type, severity, location, escalation stage (report, investigation,
+  regulator, recall, lawsuit, settlement) and a permanent case page linking the
+  timeline and archived sources. CSV and JSON refreshed daily; versioned releases
+  archived on Zenodo (DOI 10.5281/zenodo.22925531). Cases from 1979 to today.
+version: 1.0.0
+keywords: robotics,robot safety,autonomous vehicles,robotaxi,humanoid robots,recalls,incidents
+image:
+temporal: 1979-2026
+spatial: Worldwide
+access_level: public
+copyrights: The Machine Record
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/vzolot/machine-record-data#columns
+language: en
+license: CC-BY-4.0
+publisher: The Machine Record
+organization: The Machine Record
+issued_time: 2026-09-22
+sources: []
