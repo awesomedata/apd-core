@@ -1,0 +1,31 @@
+---
+title: Finwire Public API
+homepage: https://public-api.finwire.pl
+category: Finance
+description: Free public REST API for Polish macroeconomic and banking market data - NBP/WIBOR/POLSTR interest rates, GUS inflation (CPI), NBP FX rates, NBP BaRN housing prices, Treasury bond yields, GUS wage statistics, and aggregated deposit/savings/mortgage/cash-loan rate benchmarks.
+version: 1.0
+keywords: Poland, macroeconomics, interest rates, WIBOR, inflation, CPI, exchange rates, housing prices, bonds, wages, banking
+image:
+temporal: 
+spatial: Poland
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: OpenAPI 3.0
+data_quality: true
+data_dictionary: https://public-api.finwire.pl/reference
+language: en
+license: CC BY 4.0
+publisher:
+  - name: finwire.pl
+    web: https://finwire.pl
+organization:
+  - name: finwire.pl
+    web: https://finwire.pl
+issued_time: 2026.06
+sources:
+  - name: NBP, GUS, Ministry of Finance, GPW Benchmark
+    access_url: https://public-api.finwire.pl/v1/snapshot
+references:
+  - title: OpenAPI specification
+    reference: https://public-api.finwire.pl/openapi.json
