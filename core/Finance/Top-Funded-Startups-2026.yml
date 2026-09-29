@@ -1,9 +1,9 @@
 ---
-title: The 250 Most-Funded Startups of 2026
+title: Most-Funded Startups of 2026 (July Snapshot)
 homepage: https://indexed.vc/reports/top-funded-startups-2026
 category: Finance
-description: An open dataset of the 250 private startups that raised the most venture capital in calendar year 2026, ranked by total disclosed new funding. Each row carries rank, company name, capital raised in 2026 (USD), number of rounds, latest round date, lead investor, country, industry, and company website. Source-verified against primary announcements (Reuters, Bloomberg, TechCrunch and company press releases), with duplicate rounds de-duplicated and valuations-mistaken-for-raises corrected. Direct CSV and JSON downloads, no login. Released under CC-BY-4.0.
-version: '1.0'
+description: A July 2026 snapshot of the 249 private startups with the most disclosed venture funding recorded in 2026, ranked by capital raised. Each row has rank, company, 2026 funding in USD, number of rounds, latest round date, lead investor where known, country, industry, website and a profile link. It is a point-in-time snapshot, not a complete census of 2026 funding. Direct CSV and JSON downloads, no login. Released under CC-BY-4.0.
+version: '1.1'
 keywords:
   - venture capital
   - startup funding
@@ -17,7 +17,7 @@ temporal: '2026'
 spatial: Global
 access_level: public
 copyrights: CC BY 4.0
-accrual_periodicity: annually
+accrual_periodicity:
 specification:
 data_quality: true
 data_dictionary: https://indexed.vc/reports/top-funded-startups-2026
