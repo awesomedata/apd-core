@@ -1,0 +1,45 @@
+---
+title: TrashDayNow City Trash Collection Facts (US and Canada)
+homepage: https://www.trashdaynow.com/trends
+category: Government
+description: >
+  Nightly CSV covering 757 US and Canadian cities: how many weekdays residential
+  collection runs, whether trash is collected twice weekly, whether recycling
+  runs every other week, whether there is Saturday collection, the published
+  set-out deadline, and which services the city runs (trash, recycling,
+  organics, yard waste, bulk). A second CSV gives the weekday share of trash
+  day, nationally and by city, from address lookups on the site. Compiled from official city and hauler
+  schedules; aggregates only, no addresses or personal data. A companion
+  table of holiday collection rules for 63 US cities is on GitHub.
+version: 2026.09
+keywords: trash collection, garbage pickup, recycling schedule, municipal solid waste, curbside collection, city services, United States, Canada
+image:
+temporal: 2026
+spatial: 757 cities in the United States and Canada
+access_level: public
+copyrights: TrashDayNow
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://www.trashdaynow.com/methodology
+language: en
+license: CC BY-NC 4.0
+publisher:
+  - name: TrashDayNow
+    web: https://www.trashdaynow.com
+organization:
+  - name: TrashDayNow
+    web: https://www.trashdaynow.com
+issued_time: 2026.09
+sources:
+  - name: City collection facts (CSV)
+    access_url: https://www.trashdaynow.com/trends/city-collection-facts.csv
+  - name: Trash-day weekday shares (CSV)
+    access_url: https://www.trashdaynow.com/trends/trash-day-shares.csv
+  - name: Holiday collection rules, 63 US cities (CSV/JSON, GitHub)
+    access_url: https://github.com/bineyamtsegaye1-cyber/trashdaynow-holiday-rules
+references:
+  - title: Methodology
+    reference: https://www.trashdaynow.com/methodology
+  - title: Holiday trash pickup rules by city
+    reference: https://www.trashdaynow.com/holiday-trash-pickup-by-city
