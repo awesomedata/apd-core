@@ -1,0 +1,37 @@
+---
+title: The Most Active Venture Investors of 2026
+homepage: https://indexed.vc/reports/most-active-investors-2026
+category: Finance
+description: The 250 most active venture investors of 2026 so far, ranked by the number of primary funding rounds they joined, with the rounds they led and the companies they backed. Each row has rank, investor name, investor type, headquarters country, deals, lead deals, companies and a profile link. Covers rounds announced from 2026-01-01 to 2026-09-27 and is a frozen snapshot. Direct CSV and JSON downloads, no login. Released under CC-BY-4.0.
+version: '1.0'
+keywords:
+  - venture capital
+  - investors
+  - startup funding
+  - 2026
+  - open data
+image:
+temporal: '2026'
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://indexed.vc/reports/most-active-investors-2026
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Indexed
+    web: https://indexed.vc
+organization:
+  - name: Indexed
+    web: https://indexed.vc
+issued_time: '2026-09-27'
+sources:
+  - name: CSV download
+    access_url: https://indexed.vc/datasets/most-active-investors-2026.csv
+  - name: JSON download
+    access_url: https://indexed.vc/datasets/most-active-investors-2026.json
+  - name: Landing page with methodology and on-page JSON-LD Dataset schema
+    access_url: https://indexed.vc/reports/most-active-investors-2026
