@@ -1,0 +1,23 @@
+---
+title: Metro Detroit Basement Risk Index
+homepage: https://github.com/BasementRiskCheck/metro-detroit-basement-risk-index
+category: GIS
+description: Basement-flood exposure scores (0 to 100) for all 116 communities in Wayne, Oakland and Macomb counties, Michigan, built from U.S. Census ACS 2020-2024 housing age and City of Detroit 311 water-in-basement service requests (2023 to present), with a companion file of Detroit report rates per 1,000 homes by ZIP. Suburban scores are modeled from housing data and labeled as such.
+version: 2026.08
+keywords: flooding, basement flooding, Detroit, Michigan, housing, census, 311, combined sewers
+temporal: 2023-2026
+spatial: Wayne, Oakland and Macomb counties, Michigan, USA
+access_level: public
+license: CC BY 4.0
+publisher:
+  - name: Basement Risk Check
+    web: https://basementriskcheck.com/data
+issued_time: 2026.08
+sources:
+  - name: U.S. Census Bureau American Community Survey 2020-2024 5-year
+    access_url: https://data.census.gov
+  - name: City of Detroit Improve Detroit 311
+    access_url: https://data.detroitmi.gov
+references:
+  - title: Zenodo archive (all versions)
+    reference: https://doi.org/10.5281/zenodo.20821238
