@@ -1,0 +1,34 @@
+---
+title: AI Tool Pricing Database
+homepage: https://github.com/Muntasir-11/ai-tool-pricing-database
+category: Economics
+description: Published pricing for AI tools, one row per tool, plan, billing period and credit tier. Every row links to the vendor page it was read from and records the date it was checked; prices a vendor does not publish clearly are left blank rather than guessed, and changed prices are kept as stale rows instead of being deleted. Available as CSV with a documented methodology, and archived on Zenodo with a DOI.
+version: 0.1.0
+keywords: AI tools, software pricing, SaaS pricing, subscription pricing, generative AI, price data, open data
+temporal: 2026
+spatial: global (prices in USD as published by vendors)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/Muntasir-11/ai-tool-pricing-database/blob/main/METHODOLOGY.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: AI Hustle World
+    web: https://aihustleworld.com/
+organization:
+  - name: AI Hustle World
+    web: https://aihustleworld.com/
+issued_time: 2026.09
+sources:
+  - name: AI Tool Pricing Database CSV
+    access_url: https://raw.githubusercontent.com/Muntasir-11/ai-tool-pricing-database/main/data/tool_pricing.csv
+  - name: Zenodo archive (v0.1.0)
+    access_url: https://zenodo.org/records/23054248
+references:
+  - title: Methodology and data dictionary
+    reference: https://github.com/Muntasir-11/ai-tool-pricing-database/blob/main/METHODOLOGY.md
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23054247, all versions)
+    reference: https://doi.org/10.5281/zenodo.23054247
