@@ -1,0 +1,31 @@
+---
+title: Football Charts — match results, half-time scores and goal minutes, 93 leagues (2022–2026)
+homepage: https://www.football-charts.com/data#free
+category: Sports
+description: Full-time and half-time scores plus the minute of every goal for about 71,000 matches in 93 football leagues across 42 countries, the three most recent completed seasons of each (2022–2026). Coverage reaches well below the top flights (3. Liga, Serie C, Segunda RFEF, National League, Nordic and Baltic second tiers) and includes four women's leagues. Single CSV with a data dictionary; DOI-versioned on Zenodo with a Kaggle mirror; a free JSON API and MCP server serve the current and previous season without a key.
+version: 2026.09
+keywords: football, soccer, match results, half-time scores, goal timing, goal minutes, lower divisions, women's football
+image:
+temporal: 2022-2026
+spatial: 42 countries (Europe, South America, Asia, Africa, Oceania)
+access_level: public
+copyrights:
+accrual_periodicity: seasonal refresh
+specification: https://www.football-charts.com/data/quality
+data_quality: true
+data_dictionary: https://www.football-charts.com/data#free
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Football Charts
+    web: https://www.football-charts.com
+organization:
+issued_time: 2026.09
+sources:
+  - name: Zenodo record (DOI)
+    access_url: https://doi.org/10.5281/zenodo.22295583
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/damirdevetak/football-charts-93-leagues-results-goal-timing
+references:
+  - title: Free API and MCP server documentation
+    reference: https://www.football-charts.com/developers
