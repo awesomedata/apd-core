@@ -1,0 +1,24 @@
+---
+title: Techmap International Job Postings September 2021
+homepage: https://www.kaggle.com/datasets/techmap/international-job-postings-september-2021
+category: Economics
+description: One month of international job postings (3.47 million records, JSON) scraped in September 2021 from 29 job boards (174 country portals) such as CareerBuilder, EURES, Monster and Seek. Fields include title, company, location, description, salary and posting dates. Smaller samples cover Ireland (Oct 2020-2022) and the US (May 2023).
+version: "1"
+keywords: jobs, job postings, labor market, hiring, employment, recruiting, international
+image:
+temporal: 2021-09
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY-NC-ND 4.0
+publisher: Techmap
+organization:
+  - name: Techmap GmbH
+    web: https://jobdatafeeds.com
+issued_time: 2021.11
+sources: []
