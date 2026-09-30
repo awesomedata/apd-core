@@ -1,0 +1,44 @@
+---
+title: Sweepbase Crypto Cards Dataset
+homepage: https://doi.org/10.5281/zenodo.20449847
+category: Finance
+description: >-
+  One row per cryptocurrency debit or credit card that can be ordered
+  (143 cards in the September 2026 release). 24 columns cover issuance
+  and annual fees, FX fee, ATM and daily spending limits, cashback,
+  yield on the card balance, custody model, card network, KYC, regions
+  and countries where the card is available, mobile wallets, top-up
+  assets and chains, and IBAN/SWIFT/SEPA rails. Values are taken from
+  the issuers' own fee pages and terms. Several fields are prose rather
+  than numbers, because issuers publish tiers and conditions, not a
+  single rate. CSV and JSON with SHA-256 hashes, no login.
+version: "2026.09.30"
+keywords: cryptocurrency, debit cards, payment cards, fees, foreign exchange, cashback, stablecoins, csv, json
+image:
+temporal: 2026-09 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://zenodo.org/records/23054266/files/README.md
+data_quality: false
+data_dictionary: https://zenodo.org/records/23054266/files/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Sweepbase
+    web: https://sweepbase.net/dataset
+organization:
+  - name: Sweepbase
+    web: https://sweepbase.net
+issued_time: 2026.09
+sources:
+  - name: Zenodo (CSV and JSON, versioned DOI)
+    access_url: https://doi.org/10.5281/zenodo.20449847
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/sweepbase/sweepbase-crypto-cards-dataset
+  - name: Figshare
+    access_url: https://doi.org/10.6084/m9.figshare.32514462
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
