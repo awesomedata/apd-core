@@ -1,0 +1,31 @@
+---
+title: Morocco Civil Service Net Salaries by Grade (2026)
+homepage: https://huggingface.co/datasets/wadifainfo/morocco-civil-service-salaries-2026
+category: Government
+description: Net monthly salary (MAD) of 370 Moroccan civil-service grades in 71 corps, checked against the official salary simulator of the Ministry of Digital Transition and Administration Reform (simulation.mmsp.gov.ma). CSV, CC BY 4.0.
+version: 1.0
+keywords: Morocco, salaries, public sector, civil service, government
+image:
+temporal: 2026
+spatial: Morocco
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wadifa Info
+    web: https://www.wadifa-info.com/
+organization:
+  - name: Wadifa Info
+    web: https://www.wadifa-info.com/
+issued_time: 2026.09
+sources:
+  - name: Official salary simulator, Ministry of Digital Transition and Administration Reform
+    access_url: https://simulation.mmsp.gov.ma/salaire/pages/home.mmsp
+references:
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/wadifainfo/morocco-civil-service-net-salaries-by-grade-2026
