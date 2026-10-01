@@ -1,0 +1,31 @@
+---
+title: Audiala Places
+homepage: https://huggingface.co/datasets/audiala/audiala-places
+category: GIS
+description: 33,289 travel points of interest across 93 countries and about 1,360 cities, each with a Wikidata QID, WGS84 coordinates, names in 11 languages (en, fr, de, es, pt, it, hi, zh, cs, ja, ru), one of 50 category slugs, fame signals (Wikidata PageRank and sitelink count) and a guide URL per language. A place is included only if Audiala has published a guide page for it, so the set is curated but not exhaustive. It also carries an ML target, search_impressions_decile, the Google Web search impressions of each place's guide pages from July to September 2026 as a relative decile, for benchmarking visibility prediction from open features. Direct CSV and GeoJSON downloads, no login required.
+version: 2026.09.28
+keywords: points of interest, landmarks, travel, tourism, wikidata, multilingual, geojson, machine learning, benchmark
+image:
+temporal: search target window 2026-07-03 to 2026-09-25
+spatial: worldwide (93 countries)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/audiala/audiala-places#dataset-structure
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Audiala
+    web: https://audiala.com
+organization:
+  - name:
+    web:
+issued_time: 2026.07
+sources:
+  - name: Wikidata
+    access_url: https://www.wikidata.org
+references:
+  - title: GitHub repository (data, build scripts, methodology)
+    reference: https://github.com/audiala/open-data
