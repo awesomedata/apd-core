@@ -1,0 +1,22 @@
+---
+title: deployedbyai The Deploy Log
+homepage: https://deployedbyai.com/log/?k=awesome
+category: Software
+description: What actually got deployed with AI, one row per deployment with the company, what shipped, the lane, the published date and the publisher's own source URL. Every row is sourced to the publisher's own page. CSV and JSON, the whole record, directly downloadable with no login, free to reuse under CC BY 4.0 with credit to deployedbyai. 978 rows on 2026-09-30, updated as the record grows.
+keywords: AI deployments, AI product launches, generally available, models, APIs, robotics, sourced, open data
+temporal: 2025-09 to present
+spatial: Worldwide
+access_level: public
+accrual_periodicity: hourly
+data_dictionary: https://deployedbyai.com/log/data.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: deployedbyai
+    web: https://deployedbyai.com/
+issued_time: 2026.09
+sources:
+  - name: CSV
+    access_url: https://deployedbyai.com/log/data.csv
+  - name: JSON
+    access_url: https://deployedbyai.com/log/data.json
