@@ -1,8 +1,8 @@
 ---
 title: Academic Torrents of data sharing from UMB
-homepage: http://academictorrents.com/
+homepage: https://academictorrents.com/
 category: SearchEngines
-description:
+description: Academic Torrents is a product of the Institute for Reproducible Research (a U.S. 501(c)3 nonprofit).
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
