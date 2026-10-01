@@ -1,0 +1,22 @@
+---
+title: US ESA Program Invoice Requirements
+homepage: https://github.com/generalistprogrammer/esa-invoice-requirements
+category: Education
+description: Machine-readable record of the invoice fields and supporting documents that 17 US state education savings account (ESA) programs expect from vendors such as tutors, therapists and microschools. Each record names the program, its payment platform (ClassWallet, Odyssey or Step Up For Students), a link to the official program source and the month the rules were last checked. Available as JSON and CSV.
+version: 2026.07
+keywords: education savings accounts, school choice, ESA, invoicing, education policy, education
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/generalistprogrammer/esa-invoice-requirements#what-each-record-contains
+language: English
+license: CC BY 4.0
+publisher: GetESAPaid Research Desk
+organization:
+issued_time: 2026-09-26
+sources: []
