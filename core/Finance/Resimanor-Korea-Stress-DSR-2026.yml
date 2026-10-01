@@ -1,6 +1,6 @@
 ---
 title: Resimanor South Korea Stress DSR Mortgage Limit Reference Data (2026)
-homepage: https://resimanor.com/housing-finance-dsr-data/
+homepage: https://zenodo.org/records/22840870
 category: Finance
 description: An open South Korea housing-finance reference dataset showing reproducible mortgage-limit scenarios under the 2026 stress DSR framework, including examples by annual income and by existing credit-loan balance. The repository provides CSV and JSON distributions, documented assumptions and methodology, dated reference snapshots, official-source links, and DOI-backed archives. The scenarios are reference calculations rather than lender approval decisions or live quotations. CC BY 4.0.
 version: 2026-09-26
@@ -38,4 +38,4 @@ references:
   - title: Financial Services Commission - third-stage stress DSR implementation
     reference: https://www.fsc.go.kr/no010101/84617
   - title: Zenodo archived record
-    reference: https://doi.org/10.5281/zenodo.22840870
+    reference: https://zenodo.org/records/22840870
