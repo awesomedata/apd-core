@@ -1,0 +1,37 @@
+---
+title: Wayfinder Atlas (Psychedelic-Therapy Legal Status by Jurisdiction)
+homepage: https://www.thewayfinder.health/atlas
+category: Healthcare
+description: Legal status of psilocybin, MDMA and ketamine/esketamine therapy (plus ayahuasca and LSD where tracked) in 60 jurisdictions, one row per jurisdiction and substance (194 rows). Each row has a status tier, a plain-language summary, a note on how the law compares with actual access, the date it was last verified, and links to the primary sources (statutes, regulator pages, court decisions). Re-verified monthly with a public changelog. CSV and JSON downloads without login.
+version: 2026.09
+keywords: psychedelic therapy, psilocybin, MDMA, ketamine, ayahuasca, drug policy, drug law, legal status, health law
+image:
+temporal: 2026-07-03/2026-09-08
+spatial: Global (60 jurisdictions in Europe, the Americas, Asia, Oceania, Middle East and Africa)
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://www.thewayfinder.health/atlas/methodology
+data_quality: true
+data_dictionary: https://www.thewayfinder.health/atlas/methodology
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wayfinder Health
+    web: https://www.thewayfinder.health
+organization:
+  - name: Wayfinder Health
+    web: https://www.thewayfinder.health
+issued_time: 2026.07
+sources:
+  - name: CSV download
+    access_url: https://www.thewayfinder.health/atlas.csv
+  - name: JSON download
+    access_url: https://www.thewayfinder.health/atlas.json
+  - name: Zenodo archive (concept DOI 10.5281/zenodo.21269664)
+    access_url: https://doi.org/10.5281/zenodo.21269664
+references:
+  - title: Wayfinder Atlas methodology
+    reference: https://www.thewayfinder.health/atlas/methodology
+  - title: Wayfinder Atlas changelog
+    reference: https://www.thewayfinder.health/atlas/changelog
