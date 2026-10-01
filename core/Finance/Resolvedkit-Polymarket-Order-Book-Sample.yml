@@ -1,0 +1,38 @@
+---
+title: Resolvedkit Polymarket Order Book Sample - Settled BTC 15-Minute Markets
+homepage: https://github.com/resolvedmarkets/resolvedkit/tree/main/src/resolvedkit/sample_data
+category: Finance
+description: >-
+  Level-2 order book snapshots for 18 settled Polymarket "Bitcoin Up or Down"
+  15-minute prediction markets from 2026-09-28, with each market's final
+  resolution (payout per outcome). There are two Parquet files. markets.parquet
+  holds market id, slug, question, start and end timestamps and payouts.
+  books.parquet holds 38,333 snapshots with a millisecond timestamp, outcome side,
+  and bid/ask price and size arrays for the top 20 levels, thinned to one snapshot
+  per side per second. It is bundled with the MIT-licensed resolvedkit backtester
+  and downloads directly from the repository with no login or API key.
+version:
+keywords: polymarket, prediction markets, order book, limit order book, level 2, bitcoin, market microstructure, backtesting, parquet
+image:
+temporal: 2026-09-28
+spatial: global
+access_level: public
+copyrights: © 2026 Elcara LLC-FZ (Resolved Markets)
+accrual_periodicity:
+specification: https://github.com/resolvedmarkets/resolvedkit/blob/main/src/resolvedkit/data/parquet.py
+data_quality: false
+data_dictionary: https://github.com/resolvedmarkets/resolvedkit/blob/main/src/resolvedkit/data/parquet.py
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Resolved Markets
+    web: https://resolvedmarkets.com
+organization:
+  - name: Elcara LLC-FZ
+    web: https://resolvedmarkets.com
+issued_time: 2026.09
+sources:
+  - name: Sample data folder (Parquet files)
+    access_url: https://github.com/resolvedmarkets/resolvedkit/tree/main/src/resolvedkit/sample_data
+  - name: Data license (CC BY 4.0)
+    access_url: https://github.com/resolvedmarkets/resolvedkit/blob/main/DATA_LICENSE
