@@ -25,7 +25,7 @@ access_level: public
 copyrights:
 accrual_periodicity: irregular
 specification: HTML + Leaflet + inline JSON; landing pages with Place/Person/Article JSON-LD; GeoJSON for lordship polygons and pilgrim roads
-data_quality: false
+data_quality: 
 data_dictionary:
 language: en
 license: CC-BY-4.0
