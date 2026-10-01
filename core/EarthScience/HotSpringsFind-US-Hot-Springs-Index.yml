@@ -1,0 +1,24 @@
+---
+title: HotSpringsFind - US hot springs public index (~400 researched locations)
+homepage: https://hotspringsfind.com/hot-springs-statistics
+category: EarthScience
+description: Maintained public index of ~400 researched US hot springs (names, GPS coordinates, reported temperatures, access type). Picks up where NOAA's national thermal springs dataset left off after its 2025 decommissioning, with per-record status curation. JSON, free to use.
+version:
+keywords: hot springs, geothermal, thermal springs, map, travel, GPS
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: HotSpringsFind
+organization:
+issued_time: 2026.09
+sources:
+  - name: HotSpringsFind data index
+    access_url: https://hotspringsfind.com/data/springs-index.json
