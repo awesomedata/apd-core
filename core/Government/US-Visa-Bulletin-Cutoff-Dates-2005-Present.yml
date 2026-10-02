@@ -1,0 +1,43 @@
+---
+title: US Visa Bulletin Cutoff Dates, June 2005 to present (every printed cell)
+homepage: https://permtracker.app/open-data
+category: Government
+description: >
+  Every cutoff the US Department of State printed in its monthly Visa Bulletin
+  from June 2005 to the current month, one row per cell: bulletin month,
+  employment or family preference, chart (final action or dates for filing),
+  category, chargeability area, the cell exactly as printed, the parsed cutoff
+  date, and whether the cell was a date, current (C) or unavailable (U).
+  237 bulletins and 20,435 rows as of the October 2026 bulletin. Covers
+  worldwide, China, India, Mexico and the Philippines. Employment final action
+  cells start June 2005 and family cells April 2011; dates for filing cells
+  start October 2015, the month State introduced that chart. 20 months in the
+  span are not held, as the page says. Updated the day a new bulletin is read.
+version: 2026
+keywords: immigration, visa bulletin, priority date, cutoff date, green card, employment based, family based, final action, dates for filing, United States
+image:
+temporal: 2005-2026
+spatial: United States
+access_level: public
+copyrights: The underlying figures are US Government work (17 U.S.C. 105); the compiled files are CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://permtracker.app/open-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PERM Tracker
+    web: https://permtracker.app
+organization:
+  - name: US Department of State (source)
+    web: https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html
+issued_time: 2026.10
+sources:
+  - name: US Department of State Visa Bulletin
+    access_url: https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html
+references:
+  - title: Cutoffs CSV
+    reference: https://permtracker.app/open-data/visa-bulletins.csv
+  - title: Cutoffs JSON (cells as printed, per bulletin)
+    reference: https://permtracker.app/open-data/visa-bulletins.json
