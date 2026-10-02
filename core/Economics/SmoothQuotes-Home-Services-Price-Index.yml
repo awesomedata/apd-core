@@ -1,0 +1,51 @@
+---
+title: SmoothQuotes Home Services Price Index
+homepage: https://smoothquotes.com/price-index/
+category: Economics
+description: Mix-adjusted price index for U.S. home services (repair, installation and maintenance jobs), built from homeowner-reported project prices and published in three-year windows from 2014-2016 (= 100) through 2023-2025. Each window carries a 90% likely range and its report count, alongside overall inflation (CPI) and the government household-maintenance price index rebased to the same window for comparison. Ten category sub-indexes (roofing, plumbing, heating and cooling, electrical, pest control and others) are published only where they pass sample-size and interval-width gates. Every table downloads as CSV with no login or key; the page documents the method and its limits.
+version: 1.0
+keywords: home services, home repair, price index, inflation, construction costs, contractor prices, United States, economics
+image:
+temporal: 2014-2025
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://smoothquotes.com/price-index/
+language: en
+license:
+publisher:
+  - name: SmoothQuotes
+    web: https://smoothquotes.com
+organization:
+  - name: SmoothQuotes
+    web: https://smoothquotes.com
+issued_time: 2026.09
+sources:
+  - name: All home services (CSV)
+    access_url: https://smoothquotes.com/price-index/data.csv
+  - name: Electrical (CSV)
+    access_url: https://smoothquotes.com/price-index/electrical/data.csv
+  - name: Exterior & Siding (CSV)
+    access_url: https://smoothquotes.com/price-index/exterior/data.csv
+  - name: Heating & Cooling (CSV)
+    access_url: https://smoothquotes.com/price-index/hvac/data.csv
+  - name: Landscaping & Outdoor (CSV)
+    access_url: https://smoothquotes.com/price-index/landscaping/data.csv
+  - name: Pest Control (CSV)
+    access_url: https://smoothquotes.com/price-index/pest-control/data.csv
+  - name: Plumbing (CSV)
+    access_url: https://smoothquotes.com/price-index/plumbing/data.csv
+  - name: Pool & Spa (CSV)
+    access_url: https://smoothquotes.com/price-index/pool-spa/data.csv
+  - name: Roofing (CSV)
+    access_url: https://smoothquotes.com/price-index/roofing/data.csv
+  - name: Specialty Repair (CSV)
+    access_url: https://smoothquotes.com/price-index/specialty-repair/data.csv
+  - name: Windows & Doors (CSV)
+    access_url: https://smoothquotes.com/price-index/windows-doors/data.csv
+references:
+  - title: Price index page and method
+    reference: https://smoothquotes.com/price-index/
