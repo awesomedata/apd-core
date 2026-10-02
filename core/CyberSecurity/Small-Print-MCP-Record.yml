@@ -1,0 +1,33 @@
+---
+title: Small Print record of MCP server, skill and plugin small print
+homepage: https://github.com/gostanos/smallprint-dataset
+category: CyberSecurity
+description: Metadata from a nightly record of the text that MCP (Model Context Protocol) servers, agent skills and plugins publish for AI agents to read (tool descriptions, input schemas, instruction files). One row per entry (93,634), per version with its content hash and tool count (188,088), and per recorded change between versions with the field, the grade and the rule that set it (140,874), plus public security advisories matched to version ranges and the record's hash chain. Metadata only; no third-party text is included. Gzipped CSV, one folder per release, with a manifest of row counts and sha256 sums.
+version: 2026.09.30
+keywords: mcp, model context protocol, ai agents, agent skills, software supply chain, tool descriptions, content hashes, security advisories, csv
+image:
+temporal: 2026-09-03 to 2026-09-30
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/gostanos/smallprint-dataset#files-in-this-release
+data_quality: true
+data_dictionary: https://github.com/gostanos/smallprint-dataset#files-in-this-release
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: EmberStack LLC
+    web: https://github.com/gostanos
+organization:
+issued_time: 2026.09
+sources:
+  - name: Entries, release 2026-09-30 (gzipped CSV)
+    access_url: https://raw.githubusercontent.com/gostanos/smallprint-dataset/main/2026-09-30/entries.csv.gz
+  - name: Versions, release 2026-09-30 (gzipped CSV)
+    access_url: https://raw.githubusercontent.com/gostanos/smallprint-dataset/main/2026-09-30/versions.csv.gz
+  - name: Changes, release 2026-09-30 (gzipped CSV)
+    access_url: https://raw.githubusercontent.com/gostanos/smallprint-dataset/main/2026-09-30/changes.csv.gz
+references:
+  - title: Dataset README (field definitions, limits, how to check the figures)
+    reference: https://github.com/gostanos/smallprint-dataset/blob/main/README.md
