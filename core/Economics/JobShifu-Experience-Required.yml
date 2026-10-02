@@ -1,0 +1,31 @@
+---
+title: "Years of experience requested by seniority band"
+homepage: https://jobshifu.com/research/experience-required
+category: Economics
+description: "Across 1,113,029 job postings crawled directly from employer job boards, how many years of experience each seniority band asks for, and how often a requirement is stated at all. Available as JSON."
+version:
+keywords: job postings, experience requirements, entry level jobs, seniority, labor market
+image:
+temporal: 
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research/experience-required
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "Years of experience requested by seniority band (JSON)"
+    access_url: https://jobshifu.com/research/data/experience-required.json
+references:
+  - title: "Years of experience requested by seniority band, methodology and findings"
+    reference: https://jobshifu.com/research/experience-required

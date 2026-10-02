@@ -1,0 +1,31 @@
+---
+title: "Visa sponsorship statements in job postings"
+homepage: https://jobshifu.com/research/visa-sponsorship
+category: Economics
+description: "Of 1,111,823 job postings from 12,656 employers, crawled directly from employer job boards, the number that say they will sponsor a work visa, will not, or say nothing. Broken down by job category. Available as JSON."
+version:
+keywords: job postings, visa sponsorship, immigration, work authorization, labor market
+image:
+temporal: 
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research/visa-sponsorship
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "Visa sponsorship statements in job postings (JSON)"
+    access_url: https://jobshifu.com/research/data/visa-sponsorship.json
+references:
+  - title: "Visa sponsorship statements in job postings, methodology and findings"
+    reference: https://jobshifu.com/research/visa-sponsorship
