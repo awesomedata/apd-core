@@ -1,0 +1,37 @@
+---
+title: AI Tools Radar - open-source AI projects picked by arsentev.ai, with daily snapshots after selection
+homepage: https://doi.org/10.5281/zenodo.22730450
+category: Software
+description: Since June 2026 the arsentev.ai radar has been picking open-source AI projects from GitHub, Hugging Face and Hacker News and writing a review page for each one. This dataset keeps the picks, then keeps watching them. Edition 2026-09 has 590 projects selected between 2026-06-11 and 2026-09-30 (GitHub 479, Hugging Face 103, Hacker News 8). Next to them sit 20 days of daily API snapshots, 2026-09-12 to 2026-10-01. For repositories that means stars, forks, open issues, licence, last push and the archived flag; for models and spaces, likes, downloads and last-modified. A project that vanishes is not dropped. It stays in the sample with its status recorded, so the data does not drift toward survivors. At the last snapshot 13 of 487 repositories answered 404 and one was archived. 17.1% carried no licence or one GitHub could not recognise. Median star gain over the 20 days was 85, across 415 repositories. Every figure in stats.json is computed by the build script from the two CSV files. A new edition goes out on Zenodo on the 1st of each month under one concept DOI, which always resolves to the latest. Limits, plainly. It is a curated selection for people who build with AI coding tools and agents, not a random sample of GitHub. Values at selection are the ones recorded on the review page, and growth before 2026-09-12 is not observed. Disclosure - I run the radar and maintain this dataset.
+version: 2026-09
+keywords: open source, ai tools, github, hugging face, software repositories, repository survival, licences, stars, longitudinal, csv, open data
+image:
+temporal: projects selected 2026-06-11 to 2026-09-30; daily snapshots from 2026-09-12, monthly editions
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://zenodo.org/records/23075940/files/README.md
+data_quality: true
+data_dictionary: https://zenodo.org/records/23075940/files/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Evgenii Arsentev
+    web: https://arsentev.ai
+organization:
+issued_time: 2026.09
+sources:
+  - name: Selected projects, one row per project (CSV, edition 2026-09)
+    access_url: https://zenodo.org/records/23075940/files/items.csv?download=1
+  - name: Daily API snapshots of every selected project (CSV, edition 2026-09)
+    access_url: https://zenodo.org/records/23075940/files/snapshots.csv?download=1
+  - name: Summary statistics computed from the CSV files (JSON)
+    access_url: https://zenodo.org/records/23075940/files/stats.json?download=1
+  - name: Mirror on Hugging Face Datasets
+    access_url: https://huggingface.co/datasets/arsentev-ai/ai-tools-radar
+references:
+  - title: Edition 2026-09 on Zenodo (DOI 10.5281/zenodo.23075940)
+    reference: https://doi.org/10.5281/zenodo.23075940
+  - title: Review page for every selected project
+    reference: https://arsentev.ai/github
