@@ -32,6 +32,8 @@ sources:
   - name: EU Common Customs Tariff and TARIC via the UK Trade Tariff (XI) service
     access_url: https://www.trade-tariff.service.gov.uk/xi/find_commodity
 references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.23093989)
+    reference: https://doi.org/10.5281/zenodo.23093989
   - title: Kaggle copy
     reference: https://www.kaggle.com/datasets/checkdutyrates/us-tariff-data
   - title: Hugging Face copy
