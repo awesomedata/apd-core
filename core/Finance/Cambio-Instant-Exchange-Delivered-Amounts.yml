@@ -1,0 +1,46 @@
+---
+title: Instant Crypto Exchange Delivered Amounts - Website Checks
+homepage: https://github.com/cambio-one/exchange-fee-data
+category: Finance
+description: >-
+  Raw CSV rows of what instant cryptocurrency exchanges said they would deliver,
+  read from each exchange's own public website as an anonymous visitor. A separate
+  server asks each site for a floating-rate quote once an hour at three sizes
+  ($200, $1,000 and $5,000) and records the market price from Binance at the same
+  moment, so every row carries the amount delivered, the market amount and the
+  percentage below market, with a UTC timestamp. The delivered amount already
+  includes each exchange's margin and withdrawal fee. The first route is BTC to
+  USDT on Tron (ChangeHero, ChangeNOW, Changelly, SideShift, SimpleSwap; 716 checks
+  over 16-18 Sep 2026, plus an earlier three-exchange folder). Each dated folder is
+  written once and never edited; corrections arrive as new folders. The publisher
+  is itself an instant exchange and its own quotes are published in a separate file
+  so they can be checked against the same rows. These are quotes, not completed
+  swaps. Files download from the repository with no login.
+version: "2026-09"
+keywords: cryptocurrency, instant exchange, swap fees, exchange rates, withdrawal fees, bitcoin, usdt, tron, csv
+image:
+temporal: 2026-09 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/cambio-one/exchange-fee-data#what-is-in-here
+data_quality: false
+data_dictionary: https://github.com/cambio-one/exchange-fee-data#website-checkscsv
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Cambio
+    web: https://github.com/cambio-one
+organization:
+  - name: Cambio
+    web: https://github.com/cambio-one
+issued_time: 2026.09
+sources:
+  - name: GitHub repository (CSV files)
+    access_url: https://github.com/cambio-one/exchange-fee-data/tree/main/data
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/cambioone/crypto-instant-exchange-real-costs
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
