@@ -1,0 +1,37 @@
+---
+title: Institutional AAOIFI Halal Cryptocurrency Dataset
+homepage: https://github.com/tffsgsff-ops/halal-crypto-dataset
+category: Finance
+description: Institutional open-access dataset of 820+ cryptocurrency Shariah compliance audits evaluated under AAOIFI Financial Standard No. 59, Standard No. 21, and Standard No. 30. Preserved on CERN/Zenodo (DOI 10.5281/zenodo.23021995) with machine-readable JSON and CSV distributions.
+version: 1.1.0
+keywords:
+  - crypto
+  - islamic finance
+  - halal
+  - shariah
+  - aaoifi
+  - tokenomics
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/tffsgsff-ops/halal-crypto-dataset#readme
+language: en
+license: CC BY 4.0
+publisher: Halal Crypto Index Research Group
+organization: Halal Crypto Index
+issued_time: 2026.09
+sources:
+  - name: Zenodo Scientific Archive
+    access_url: https://zenodo.org/records/23021995
+  - name: Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/halalcrypto500/halal-crypto-dataset
+  - name: Live REST API Endpoint
+    access_url: https://halalcryptoindex.com/api/v1/assets.json
+references:
+  - title: Halal Crypto Whitepaper 2026
+    reference: https://doi.org/10.5281/zenodo.23021995
