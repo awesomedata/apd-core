@@ -1,0 +1,39 @@
+---
+title: Functional Mushroom Supplement Index
+homepage: https://github.com/samuelfrench/mushroom-supplement-dataset
+category: Healthcare
+description: Label- and COA-stated specification data for 46 commercial functional-mushroom supplement SKUs. Direct no-login CSV and JSON downloads, a 40-field dictionary, and per-field source URLs. Unknown values stay null and are never estimated. Documented arithmetic-derived cost fields; this is not a laboratory test or clinical evidence.
+version: '2026.08.20'
+keywords: functional mushrooms, beta-glucan, dietary supplements, product labels, certificate of analysis, open data, CSV
+image:
+temporal: '2026-08-20'
+spatial:
+access_level: public
+copyrights: Mushroom Explorer
+accrual_periodicity: quarterly
+specification: https://mushroomexplorer.com/methodology
+data_quality: true
+data_dictionary: https://mushroomexplorer.com/data/fields.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Mushroom Explorer
+    web: https://mushroomexplorer.com
+organization:
+  - name: Mushroom Explorer
+    web: https://mushroomexplorer.com
+issued_time: '2026-08-20'
+sources:
+  - name: Public dataset repository
+    access_url: https://github.com/samuelfrench/mushroom-supplement-dataset
+  - name: products.csv (46 rows, 40 columns)
+    access_url: https://mushroomexplorer.com/data/products.csv
+  - name: products.json
+    access_url: https://mushroomexplorer.com/data/products.json
+  - name: fields.json
+    access_url: https://mushroomexplorer.com/data/fields.json
+references:
+  - title: Canonical dataset page
+    reference: https://mushroomexplorer.com/data
+  - title: Methodology and limitations
+    reference: https://mushroomexplorer.com/methodology
