@@ -1,7 +1,7 @@
 ---
 title: Google Trends
-homepage: http://www.google.com/trends?q=google&ctab=0&geo=all&date=all&sort=0
-category: Finance
+homepage: https://trends.google.com/trends?q=google&ctab=0&geo=all&date=all&sort=0
+category: InterDisciplinary
 description:
 version:
 keywords:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
