@@ -1,0 +1,37 @@
+---
+title: US Provider Industry Payments (NPI registry joined to CMS Open Payments)
+homepage: https://github.com/npiwho/us-provider-payments
+category: Healthcare
+description: >-
+  One row per US healthcare provider (1.65 million) who received a general
+  payment from a drug or device company in 2019-2025: the NPI, registered
+  specialty and practice location from the national NPI registry (NPPES), next
+  to the total reported in CMS Open Payments, the number of payments, the
+  largest paying company and the kind of payment with the largest total, plus
+  totals by state and by specialty. The two CMS sources are joined on the NPI,
+  with no name matching. Gzipped CSV, direct download, no login.
+version: "2026.10"
+keywords: NPI, NPPES, CMS Open Payments, Sunshine Act, physicians, industry payments, conflict of interest, healthcare
+temporal: 2019-2025
+spatial: United States
+access_level: public
+accrual_periodicity: annual
+specification: CSV (gzip) with a Frictionless datapackage.json descriptor
+data_quality: true
+data_dictionary: https://github.com/npiwho/us-provider-payments#columns-of-provider_industry_payments
+language: en
+license: CC0-1.0
+publisher:
+  - name: NPI Who
+    web: https://npiwho.com/
+issued_time: "2026.10"
+sources:
+  - name: CMS National Plan and Provider Enumeration System (NPPES)
+    access_url: https://download.cms.gov/nppes/NPI_Files.html
+  - name: CMS Open Payments, general payments 2019-2025
+    access_url: https://openpaymentsdata.cms.gov/
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.23098004)
+    reference: https://doi.org/10.5281/zenodo.23098004
+  - title: Kaggle copy
+    reference: https://www.kaggle.com/datasets/npiwho/us-provider-payments
