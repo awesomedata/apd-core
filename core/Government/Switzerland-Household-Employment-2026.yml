@@ -1,0 +1,39 @@
+---
+title: Swiss Household Employment Official Figures and Canton Rules 2026
+homepage: https://clino.ch/en/sources
+category: Government
+description: CC BY 4.0 CSV and JSON of the 151 official 2026 figures that apply when a private household in Switzerland employs a cleaner, nanny or carer (AHV/IV/EO, unemployment and accident insurance rates, BVG thresholds, cantonal and NAV minimum wages, family allowances, sick-pay rules), plus one row of rules per canton for all 26 cantons. Every figure carries its official source document, URL, a verbatim quote and the date it was checked. Also served by a free, read-only MCP server at clino.ch/mcp.
+version: 2026.1
+keywords: Switzerland, household employment, domestic workers, social insurance, AHV, minimum wage, family allowances, payroll, cantons, open data
+image:
+temporal: 2026
+spatial: Switzerland, all 26 cantons
+access_level: public
+copyrights: Clino
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/salvador-creator/clino-mcp#open-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Clino
+    web: https://clino.ch
+organization:
+  - name: Clino
+    web: https://clino.ch
+issued_time: 2026.10
+sources:
+  - name: AHV/IV information leaflets (Informationsstelle AHV/IV)
+    access_url: https://www.ahv-iv.ch/en/Leaflets
+  - name: Federal law collection (Fedlex)
+    access_url: https://www.fedlex.admin.ch
+references:
+  - title: Official figures CSV (always current)
+    reference: https://clino.ch/opendata/official-figures.csv
+  - title: Official figures JSON (always current)
+    reference: https://clino.ch/opendata/official-figures.json
+  - title: Canton summary CSV (always current)
+    reference: https://clino.ch/opendata/canton-summary.csv
+  - title: Zenodo snapshot (DOI)
+    reference: https://doi.org/10.5281/zenodo.23084533
