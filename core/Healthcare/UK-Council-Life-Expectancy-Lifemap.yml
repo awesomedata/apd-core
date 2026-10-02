@@ -1,0 +1,49 @@
+---
+title: UK Council Life Expectancy and Healthy Life Expectancy (Lifemap)
+homepage: https://lifemap.org.uk/data/
+category: Healthcare
+description: Life expectancy at birth and at 65 for all 380 UK councils (local authorities) in England, Scotland, Wales and Northern Ireland, and healthy life expectancy for the 216 upper-tier and single-tier councils, by sex, from the Office for National Statistics (2022-2024), with the ONS 95% confidence intervals. Trend series from 2001-2003 (life expectancy) and 2011-2013 (healthy life expectancy). Also five adult lifestyle measures (smoking, overweight or obese, physically active, five a day, drinking over 14 units a week) from OHID Fingertips for England and from the Scottish and Welsh national surveys; for England, the slope index of inequality in life expectancy and IMD 2025 deprivation scores; for England and Wales, ONS census-based healthy life expectancy (2019-2023), districts included. One CSV row per council with GSS area codes for joining, and a data dictionary; JSON with per-field source notes; long-form trend files; one JSON and CSV file per council. Figures not published for a council are left empty, never filled from a county or trust. Direct download, no login.
+version: "2026-09-26"
+keywords: life expectancy, healthy life expectancy, public health, health inequalities, local authorities, councils, United Kingdom, England, Scotland, Wales, Northern Ireland, ONS, OHID Fingertips, smoking, obesity, physical activity, deprivation, IMD 2025, confidence intervals
+image: https://lifemap.org.uk/press/og-default.png
+temporal: 2001/2025
+spatial: United Kingdom, 380 local authorities
+access_level: public
+copyrights: "Contains public sector information licensed under the Open Government Licence v3.0. Sources: Office for National Statistics, Office for Health Improvement and Disparities."
+accrual_periodicity: irregular (rebuilt when the sources publish new releases; checked monthly)
+specification: https://lifemap.org.uk/data/#format
+data_quality:
+data_dictionary: https://lifemap.org.uk/data/uk_la_data_dictionary.csv
+language: en
+license: Open Government Licence v3.0
+publisher:
+  - name: Lifemap
+    web: https://lifemap.org.uk/
+organization:
+  - name: Lifemap
+    web: https://lifemap.org.uk/
+issued_time: 2026.09
+sources:
+  - name: Council dataset, one row per council (CSV)
+    access_url: https://lifemap.org.uk/data/uk_la_data.csv
+  - name: Council dataset with source and period notes (JSON)
+    access_url: https://lifemap.org.uk/uk_la_data.json
+  - name: Data dictionary (CSV)
+    access_url: https://lifemap.org.uk/data/uk_la_data_dictionary.csv
+  - name: Life expectancy and healthy life expectancy trends, long form (CSV)
+    access_url: https://lifemap.org.uk/data/uk_la_trends.csv
+  - name: Life expectancy and healthy life expectancy trends (JSON)
+    access_url: https://lifemap.org.uk/data/uk_la_trends.json
+references:
+  - title: Lifemap methodology
+    reference: https://lifemap.org.uk/methodology/
+  - title: Lifemap sources
+    reference: https://lifemap.org.uk/sources/
+  - title: ONS, Life expectancy for local areas of the UK
+    reference: https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/lifeexpectancyforlocalareasoftheuk
+  - title: ONS, Health state life expectancy, all ages, UK
+    reference: https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/healthstatelifeexpectancyallagesuk
+  - title: ONS, Health state life expectancy estimates for MSOAs, England and Wales
+    reference: https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/healthstatelifeexpectancyestimatesformiddlelayersuperoutputareasenglandandwales
+  - title: OHID, Fingertips public health profiles
+    reference: https://fingertips.phe.org.uk/
