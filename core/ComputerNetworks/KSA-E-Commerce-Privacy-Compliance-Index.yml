@@ -1,0 +1,48 @@
+---
+title: 'KSA E-Commerce Privacy Compliance Index: consent scan of 1,556 Saudi storefronts'
+homepage: https://doi.org/10.5281/zenodo.23053713
+category: ComputerNetworks
+description: >-
+  A client-side measurement of the homepages of 1,556 Saudi Arabian e-commerce
+  storefronts (data aggregated 2026-09-07), recording whether a cookie consent
+  banner is present, whether tracking scripts load before consent, and whether
+  Google Consent Mode v2 is signalled. A headless browser (Puppeteer) loads each
+  homepage once; 1,496 storefronts were scored 0-100 against PDPL and GDPR
+  consent criteria and 60 scans were inconclusive. 1,065 of 1,556 storefronts
+  (68%) loaded tracking before consent and 935 (60%) ran trackers or
+  non-essential cookies with no consent banner. Published as aggregate tables
+  only (one long-format CSV, 45 rows: summary, score distribution, findings,
+  results by e-commerce platform, tracker prevalence); no store-level rows. The
+  sample is drawn from the Common Crawl URL index (.sa domains and Salla/Zid
+  hosted stores) plus a curated list, so it is not a random sample. Results
+  describe observed technical behaviour and are not a legal determination.
+version: '2026-09'
+keywords: cookie consent, consent banners, web tracking, web measurement, privacy, PDPL, GDPR, Google Consent Mode, Saudi Arabia, e-commerce
+image:
+temporal: 2026-05/2026-09
+spatial: Saudi Arabia
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/Arqam360/ksa-ecommerce-privacy-compliance-index
+language: en
+license: CC BY 4.0
+publisher:
+- name: Arqam360
+  web: https://arqam360.com
+organization:
+- name: Arqam360
+  web: https://arqam360.com
+issued_time: 2026.09
+sources:
+- name: Zenodo record (CSV + English and Arabic reports, DOI 10.5281/zenodo.23053713)
+  access_url: https://zenodo.org/records/23053713
+- name: Hugging Face mirror (CSV, dataset card with column definitions)
+  access_url: https://huggingface.co/datasets/Arqam360/ksa-ecommerce-privacy-compliance-index
+- name: Kaggle mirror (CSV)
+  access_url: https://www.kaggle.com/datasets/arqam360/ksa-e-commerce-privacy-compliance-index-2026-09
+references:
+- title: Methodology and report
+  reference: https://arqam360.com/ksa-compliance-index
