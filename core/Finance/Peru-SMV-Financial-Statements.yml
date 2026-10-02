@@ -1,0 +1,24 @@
+---
+title: Peru SMV Financial Statements
+homepage: https://github.com/AtlasLedger/smv-eeff
+category: Finance
+description: Normalized financial statements of 682 companies supervised by Peru's securities regulator (SMV), 2000-2026, with comparable concepts across six charts of accounts and standard ratios. Validated against the SMV index. CSV and Parquet, updated monthly.
+version: 1.0.0
+keywords: Peru, financial statements, SMV, open data, ratios
+temporal: 2000-2026
+spatial: Peru
+access_level: public
+language: es
+license: ODbL 1.0
+accrual_periodicity: monthly
+data_dictionary: https://github.com/AtlasLedger/smv-eeff/blob/main/docs/diccionario.md
+organization:
+  - name: AtlasLedger
+    web: https://github.com/AtlasLedger
+issued_time: 2026.09
+sources:
+  - name: Superintendencia del Mercado de Valores (SMV)
+    access_url: https://www.smv.gob.pe
+references:
+  - title: Zenodo DOI
+    reference: https://doi.org/10.5281/zenodo.22981480
