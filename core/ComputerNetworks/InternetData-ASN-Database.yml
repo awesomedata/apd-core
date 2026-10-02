@@ -1,0 +1,25 @@
+---
+title: InternetData ASN Database
+homepage: https://internetdata.io/databases/asn
+category: ComputerNetworks
+description: One row per AS number the regional internet registries have allocated (about 123,000), with the holder's name, country, registry, allocation date and domain, a network type (isp, hosting, education, government, business), and what the AS originates in global BGP - its IPv4 addresses, its IPv4 and IPv6 prefixes, and its routes by RPKI validation state. Rebuilt daily, as gzipped CSV.
+version: v1
+keywords: ASN, autonomous systems, BGP, RPKI, IP addresses, network classification, internet registries
+image:
+temporal: Daily snapshot
+spatial: Global
+access_level: free with an account
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://docs.internetdata.io/database/asn
+language: en
+license:
+publisher:
+  - name: InternetData
+    web: https://internetdata.io
+organization:
+issued_time:
+sources:
+references:
