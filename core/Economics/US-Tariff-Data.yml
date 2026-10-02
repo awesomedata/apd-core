@@ -1,0 +1,40 @@
+---
+title: US Tariff Data (HTS, additional duties by country, EU import duties by origin)
+homepage: https://github.com/checkdutyrates/us-tariff-data
+category: Economics
+description: >-
+  Flat CSV and JSON copies of the US Harmonized Tariff Schedule (about 30,000
+  coded lines at 4, 6, 8 and 10 digits, with general, special and column 2
+  rates and the full description path of each line), the 382 chapter 99
+  provisions that name a country (Section 301, 232 and 338, the forced-labor
+  duty and the ended IEEPA and Section 122 measures, each marked in force or
+  ended), and EU import duties for every HS subheading for all countries and
+  15 major origins (89,000 rows), plus per-origin EU duty-free shares.
+  Regenerated after each HTS revision. Direct download, no login.
+version: "2026 HTS Revision 20"
+keywords: tariffs, customs duty, import duty, HTS, Harmonized Tariff Schedule, HS codes, Section 301, Section 232, EU TARIC, international trade
+temporal: current schedule, updated with each HTS revision
+spatial: United States, European Union
+access_level: public
+accrual_periodicity: monthly
+specification: CSV and JSON with a Frictionless datapackage.json descriptor
+data_quality: true
+data_dictionary: https://github.com/checkdutyrates/us-tariff-data#columns
+language: en
+license: CC0-1.0 (US data); Open Government Licence v3.0 (EU data)
+publisher:
+  - name: CheckDutyRates
+    web: https://checkdutyrates.com/
+issued_time: "2026.10"
+sources:
+  - name: U.S. International Trade Commission, Harmonized Tariff Schedule
+    access_url: https://hts.usitc.gov/
+  - name: EU Common Customs Tariff and TARIC via the UK Trade Tariff (XI) service
+    access_url: https://www.trade-tariff.service.gov.uk/xi/find_commodity
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.23093989)
+    reference: https://doi.org/10.5281/zenodo.23093989
+  - title: Kaggle copy
+    reference: https://www.kaggle.com/datasets/checkdutyrates/us-tariff-data
+  - title: Hugging Face copy
+    reference: https://huggingface.co/datasets/checkdutyrates/us-tariff-data
