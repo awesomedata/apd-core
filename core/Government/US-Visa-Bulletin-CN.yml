@@ -1,0 +1,23 @@
+---
+title: US Visa Bulletin - Chinese structured dataset
+homepage: https://github.com/xjokerabab/visa-bulletin-cn
+category: Government
+description: Structured JSON dataset of the U.S. Department of State Visa Bulletin - official monthly green card cutoff dates for 15 categories (EB-1 to EB-5 including set-asides, EW-3, F1-F4) across Table A / Table B and China-mainland / India / Worldwide, with month-over-month movement. Covers 2023-01 to present, 90 records per month.
+version: 1.0
+keywords: [visa bulletin, immigration, green card, united states, department of state]
+image:
+temporal: 2023-01/present
+spatial: United States
+access_level: open
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality:
+data_dictionary: https://github.com/xjokerabab/visa-bulletin-cn
+language: [en, zh]
+license:
+publisher: Yimin Shuju (yiminshuju.com)
+organization:
+issued_time: 2026-09-30
+sources: [https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html]
+---
