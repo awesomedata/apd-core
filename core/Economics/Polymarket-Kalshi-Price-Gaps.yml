@@ -1,0 +1,16 @@
+---
+title: Polymarket vs Kalshi price gaps (daily open dataset)
+homepage: https://github.com/softdevfz/polymarket-kalshi-price-gaps
+category: Economics
+description: >-
+  Daily CSV snapshots comparing all-in prices, including fees, for $100
+  orders on Polymarket and Kalshi contracts with reviewed equivalent
+  resolution rules. Includes daily summaries of the median saving on the
+  cheaper venue, excluding contracts priced below 2 cents or above 98 cents
+  on either venue. Direct downloads without login.
+keywords: prediction markets, Polymarket, Kalshi, price gaps, fees, CSV
+access_level: public
+accrual_periodicity: daily
+specification: CSV
+language: en
+license: CC BY 4.0 (data); MIT (code)
