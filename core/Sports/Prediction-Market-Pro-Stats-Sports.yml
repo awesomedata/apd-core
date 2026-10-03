@@ -1,0 +1,31 @@
+---
+title: Prediction Market Pro Stats (Sports)
+homepage: https://github.com/tipsstats/prediction-market-pro-stats
+category: Sports
+description: Weekly aggregate statistics on sports prediction markets, built from public Polymarket, Kalshi and SX data. Includes per-competition hit rates of screened public accounts over the last 30 days, and how often the pre-match market favourite was correct, by probability band and sport, over 7- and 30-day windows. CSV files with a field dictionary in the README.
+version: 2026-w40
+keywords: sports, prediction markets, probability, calibration, football, basketball, esports
+image:
+temporal: 2026-present (rolling 7- and 30-day windows)
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://github.com/tipsstats/prediction-market-pro-stats/blob/main/README.md
+data_quality: false
+data_dictionary: https://github.com/tipsstats/prediction-market-pro-stats#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: sg.tips
+    web: https://sg.tips/
+organization:
+  - name:
+    web:
+issued_time: "2026.10"
+sources:
+  - name: Polymarket, Kalshi and SX public market data
+    access_url: https://sg.tips/reports
+references:
+  - title: Mirror on Hugging Face
+    reference: https://huggingface.co/datasets/iiiitips/prediction-market-pro-stats
