@@ -1,0 +1,35 @@
+---
+title: Quebec Emergency Room Weekly Occupancy
+homepage: https://sante.handled.tools/en/hebdo
+category: Healthcare
+description: "Quebec's health ministry posts ER occupancy every hour but the file only ever holds the current hour, so we've been archiving it since August 10 2026 and rolling it up by week. One row per ER per week with average and peak stretcher occupancy, how many hours it sat at 100% or higher, average number waiting and present, average ambulatory and stretcher stay in hours, and patients there over 48 hours. There's also a province-wide file with one row per week. Partial weeks are dropped and the handful of ERs that never publish anything just have empty cells. The hourly data behind it is on GitHub if you want to redo the math."
+version: "2026-10-03"
+keywords: emergency room, emergency department, ER wait times, stretcher occupancy, hospital crowding, length of stay, Quebec, Canada, MSSS, weekly time series
+image:
+temporal: 2026-08-10/present
+spatial: Quebec, Canada, 120 emergency departments
+access_level: public
+copyrights: "Source: Ministère de la Santé et des Services sociaux (MSSS), Données Québec, CC BY 4.0. Compiled by the Urgences Québec app."
+accrual_periodicity: weekly
+specification: https://sante.handled.tools/en/hebdo
+data_quality:
+data_dictionary: https://sante.handled.tools/en/donnees
+language: en, fr
+license: CC BY 4.0
+publisher:
+  - name: Urgences Québec
+    web: https://sante.handled.tools/
+organization:
+  - name: Urgences Québec
+    web: https://sante.handled.tools/
+issued_time: 2026.10
+sources:
+  - name: One row per ER per week (CSV)
+    access_url: https://sante.handled.tools/donnees/hebdo-urgences.csv
+  - name: One row per week, all of Quebec (CSV)
+    access_url: https://sante.handled.tools/donnees/hebdo-quebec.csv
+  - name: Hourly readings (GitHub)
+    access_url: https://github.com/Arephan/quebec-er-wait-times
+references:
+  - title: MSSS hourly emergency room file on Données Québec
+    reference: https://www.donneesquebec.ca/recherche/dataset/fichier-horaire-des-donnees-de-la-situation-a-l-urgence
