@@ -1,0 +1,36 @@
+---
+title: India Live Job Postings 2026
+homepage: https://jobtether.com/research
+category: Economics
+description: Aggregate tables from a snapshot of 29,815 live job postings read directly from 1,057 Indian company career boards (Greenhouse, Lever, Workable, Ashby, SmartRecruiters, Workday) on 26 September 2026. Covers posting age by applicant tracking system, salary disclosure for 549 companies, the distribution of experience requirements, and city-level splits. CSV downloads, no login.
+version: 2026-09-26
+keywords: India, jobs, labour market, salary transparency, ghost jobs, entry-level jobs, employment
+temporal: 2026-09-26
+spatial: India
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://www.kaggle.com/datasets/pranavkaushik1205/india-job-postings-2026-salary-age-experience
+language: en
+license: CC BY 4.0
+publisher:
+  - name: JobTether
+    web: https://jobtether.com
+organization:
+  - name: JobTether
+    web: https://jobtether.com
+issued_time: 2026.10
+sources:
+  - name: Salary disclosure by company (CSV)
+    access_url: https://jobtether.com/research/salary-disclosure-by-company.csv
+  - name: Posting age by applicant tracking system (CSV)
+    access_url: https://jobtether.com/research/posting-age-by-ats.csv
+  - name: Cities (CSV)
+    access_url: https://jobtether.com/research/metros.csv
+  - name: Experience requirement distribution (CSV)
+    access_url: https://jobtether.com/research/experience-bar-distribution.csv
+references:
+  - title: Kaggle mirror with column descriptions
+    reference: https://www.kaggle.com/datasets/pranavkaushik1205/india-job-postings-2026-salary-age-experience
