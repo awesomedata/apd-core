@@ -1,6 +1,6 @@
 ---
 title: Domain Renewal Prices (First Year vs Renewal by TLD)
-homepage: https://namesale.store/renewal-prices#download
+homepage: https://github.com/AlonDrilich/tld-renewal-prices
 category: Economics
 description: First-year registration and yearly renewal list prices in USD for 530 top-level domains, read from one registrar's public pricing endpoint (Porkbun) and limited to TLDs in the IANA root zone. Each row gives the TLD, the first-year price, the renewal price and the renewal-to-first-year ratio. In the 2026-09-27 snapshot, 304 of 530 TLDs renew at twice their first-year price or more and 172 at five times or more. These are one registrar's list prices on one date, not a market average; nothing is estimated or filled in by hand. Distributed as CSV and JSON, no login required.
 version: 1.0
@@ -10,10 +10,10 @@ temporal: 2026-09-27
 spatial: global
 access_level: public
 copyrights: CC BY 4.0
-accrual_periodicity: irregular
+accrual_periodicity: weekly
 specification:
 data_quality: true
-data_dictionary: https://namesale.store/renewal-prices
+data_dictionary: https://github.com/AlonDrilich/tld-renewal-prices#files
 language: en
 license: CC BY 4.0
 publisher:
@@ -24,12 +24,18 @@ organization:
     web: https://namesale.store/
 issued_time: 2026.09
 sources:
-  - name: CSV snapshot
+  - name: Latest snapshot (CSV, GitHub)
+    access_url: https://github.com/AlonDrilich/tld-renewal-prices/blob/main/data/latest.csv
+  - name: Weekly snapshots (CSV, GitHub)
+    access_url: https://github.com/AlonDrilich/tld-renewal-prices/tree/main/data/snapshots
+  - name: CSV snapshot (namesale.store)
     access_url: https://namesale.store/data/tld-renewal-prices.csv
   - name: JSON snapshot
     access_url: https://namesale.store/data/tld-renewal-prices.json
   - name: Upstream price source (Porkbun public pricing API)
     access_url: https://api.porkbun.com/api/json/v3/pricing/get
 references:
+  - title: Browsable table with 1/3/5/10-year cost view
+    reference: https://namesale.store/renewal-prices
   - title: IANA root zone TLD list used to filter the rows
     reference: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
