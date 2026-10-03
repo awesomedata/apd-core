@@ -1,0 +1,34 @@
+---
+title: iPulse AI Advisor Forecast Panel
+homepage: https://github.com/TheFutureEdge/ipulse-ai-batch5-advisor-forecast-panel
+category: Finance
+description: >
+  An anonymized, intentionally small panel of AI-generated financial forecasts
+  for seven equity and crypto assets. Twelve advisor configurations per asset
+  share one model family and frozen inputs. The June 2026 cohort contains
+  1,680 quarterly forecast-path rows, 168 horizon-summary rows, 1,008 structured
+  risk/driver rows, and 465 realized-price rows through August 24, 2026.
+  CSV files, a data dictionary, methodology, limitations, and validation scripts
+  support research on advisor disagreement and forecast evaluation. Most future
+  horizons remain unresolved; this is not a representative market sample or
+  evidence of investment performance.
+version: 1.1.0
+keywords: financial forecasts, AI-generated data, advisor disagreement, equities, cryptocurrency, forecast evaluation
+temporal: 2026
+access_level: public
+data_quality: true
+data_dictionary: https://github.com/TheFutureEdge/ipulse-ai-batch5-advisor-forecast-panel/blob/main/schema/data-dictionary.md
+language: en
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: Future Edge Group FZE
+    web: https://github.com/TheFutureEdge
+issued_time: 2026.08
+sources:
+  - name: Versioned dataset archive on Zenodo
+    access_url: https://zenodo.org/records/22106769
+references:
+  - title: Dataset methodology and limitations
+    reference: https://github.com/TheFutureEdge/ipulse-ai-batch5-advisor-forecast-panel/blob/main/methodology/forecast-panel-methodology.md
+  - title: Data quality report
+    reference: https://github.com/TheFutureEdge/ipulse-ai-batch5-advisor-forecast-panel/blob/main/reports/quality-report.md
