@@ -1,0 +1,42 @@
+---
+title: OpenVan Daily Retail Fuel Prices, 170+ Countries
+homepage: https://github.com/openvancamp/openvan-travel-data
+category: Energy
+description: >
+  Daily snapshot of retail fuel prices in 171 countries, one row per country
+  and grade (gasoline, premium gasoline, diesel, premium diesel, LPG, CNG,
+  E85), kept exactly as published: local currency of each grade and local
+  unit (liter, US gallon or imperial gallon). Prices are aggregated from
+  official bulletins (EU Weekly Oil Bulletin and national regulators),
+  government price portals and station networks; every country lists its
+  sources. The same daily commit carries EUR exchange rates for 150+
+  currencies (to convert with the same day's rate), a food cost index for
+  92 countries and vanlife weather suitability scores for 164 countries.
+  Yearly history files add one row set per day. CSV and JSON with a
+  Frictionless datapackage.json. Collected daily since October 2026.
+version: 2026
+keywords: fuel prices, gasoline, diesel, LPG, retail energy prices, exchange rates, cost of living, time series, open data
+image: https://raw.githubusercontent.com/openvancamp/openvan-travel-data/main/.github/banner.png
+temporal: 2026-present
+spatial: Worldwide, 171 countries
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/openvancamp/openvan-travel-data/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/openvancamp/openvan-travel-data#files
+language: en
+license: CC-BY-4.0
+publisher: OpenVan.camp
+organization:
+  - name: OpenVan.camp
+    web: https://openvan.camp/
+issued_time: 2026-10-03
+sources:
+  - name: Daily CSV and JSON files
+    access_url: https://github.com/openvancamp/openvan-travel-data/tree/main/data
+  - name: OpenVan.camp public API (live, no key)
+    access_url: https://openvan.camp/docs
+references:
+  - title: Python client (pip install openvan)
+    reference: https://github.com/openvancamp/openvan-camp-public-api/tree/main/python-sdk
