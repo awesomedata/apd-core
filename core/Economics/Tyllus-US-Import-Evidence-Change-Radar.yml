@@ -1,0 +1,40 @@
+---
+title: Tyllus U.S. Import Evidence Change Radar
+homepage: https://github.com/Finbie-Side-Projects/tyllus-import-evidence-data
+category: Economics
+description: >-
+  A source-linked snapshot of 141 U.S. Federal Register notices published from
+  2025-12-29 through 2026-10-02 by CBP, FMC, ITA, USITC, and USTR. Every record
+  preserves the official notice and PDF URLs and maps the notice to operational
+  evidence domains such as entry and compliance, ocean transport, trade
+  remedies, tariff and classification, and market access. The repository
+  provides direct JSON and CSV downloads, DCAT 3 catalogue metadata, CSVW field
+  metadata, SHA-256 checksums, and an on-demand reproducible refresh script. No
+  account is required.
+version: "2026-10-04"
+keywords: United States imports, Federal Register, customs, trade policy, tariffs, supply chain, CBP, FMC, ITA, USITC, USTR, CSV, JSON, DCAT, CSVW
+temporal: notices published 2025-12-29 through 2026-10-02; snapshot generated 2026-10-04
+spatial: United States
+access_level: public
+accrual_periodicity: on demand
+specification: https://github.com/Finbie-Side-Projects/tyllus-import-evidence-data/blob/main/README.md
+data_quality: true
+data_dictionary: https://github.com/Finbie-Side-Projects/tyllus-import-evidence-data/blob/main/data/us-import-evidence-change-radar.csv-metadata.json
+language: en
+license: See DATA-USAGE.md; underlying U.S. Federal Register notices retain their original status
+publisher:
+  - name: Tyllus
+    web: https://www.tyllus.com/
+issued_time: "2026.10"
+sources:
+  - name: Dataset snapshot (JSON)
+    access_url: https://raw.githubusercontent.com/Finbie-Side-Projects/tyllus-import-evidence-data/main/data/us-import-evidence-change-radar.json
+  - name: Dataset snapshot (CSV)
+    access_url: https://raw.githubusercontent.com/Finbie-Side-Projects/tyllus-import-evidence-data/main/data/us-import-evidence-change-radar.csv
+  - name: U.S. Federal Register API
+    access_url: https://www.federalregister.gov/developers/documentation/api/v1
+references:
+  - title: Dataset use and attribution
+    reference: https://github.com/Finbie-Side-Projects/tyllus-import-evidence-data/blob/main/DATA-USAGE.md
+  - title: Human-readable evidence change radar
+    reference: https://www.tyllus.com/en/resources/us-import-evidence-change-radar
