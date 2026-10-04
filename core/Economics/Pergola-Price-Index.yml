@@ -1,6 +1,6 @@
 ---
 title: Pergola Price Index
-homepage: https://thepergolakit.com/pergola-price-index/2026-q4/
+homepage: https://thepergolakit.com/pergola-price-index/
 category: Economics
 description: Quarterly index of US pergola kit list prices. Edition 1 (Q4 2026) summarises 8,494 advertised prices from 73 companies captured 24-27 September 2026. It publishes summary statistics only (median, 25th and 75th percentile, minimum and maximum dollars per square foot) by roof category, size band and common size, with no individual product listings. Delivered as a CSV with a README and a methodology page. These are advertised list prices at capture time, not transaction or installed prices. Next edition planned for January 2027.
 version: 1.0
@@ -13,7 +13,7 @@ copyrights: The Pergola Kit, CC BY 4.0
 accrual_periodicity: quarterly
 specification:
 data_quality: true
-data_dictionary: https://thepergolakit.com/pergola-price-index/2026-q4/
+data_dictionary: https://thepergolakit.com/pergola-price-index/data/#columns
 language: en
 license: CC BY 4.0
 publisher:
@@ -24,8 +24,8 @@ organization:
     web: https://thepergolakit.com
 issued_time: 2026.09
 sources:
-  - name: Price index summary statistics (CSV)
+  - name: Price index summary statistics, Q4 2026 edition (CSV)
     access_url: https://thepergolakit.com/pergola-price-index/2026-q4/pergola-price-index-2026-q4.csv
 references:
-  - title: Report and methodology
-    reference: https://thepergolakit.com/pergola-price-index/2026-q4/
+  - title: All editions, files and column guide
+    reference: https://thepergolakit.com/pergola-price-index/data/
