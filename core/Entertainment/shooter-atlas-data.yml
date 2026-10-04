@@ -1,0 +1,28 @@
+---
+title: Large-scale tactical shooter data, as read
+homepage: https://zenodo.org/records/23136843
+category: Entertainment
+description: Dated readings and reference tables for large-scale tactical shooters (games whose matches hold dozens to a hundred players). Contains Valve's own concurrent-player count for six games with the minute each reading was taken, all ten WARDOGS achievements with Valve's global unlock rates, base and Supporter Edition prices in nine Steam regions, the store's language, genre and category lists, and twelve tower positions on a 16 x 16 km grid checked against three or four independent community projects. CSV and JSON, no authentication.
+version:
+keywords: Steam, concurrent players, video game data, tactical shooter, achievement rates, map coordinates
+image: https://shooteratlas.com/assets/img/wardogs-player-count.png
+temporal: 2026-09-28/2026-10-04
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/Poki312/shooter-atlas-data#readme
+data_quality: true
+data_dictionary: https://github.com/Poki312/shooter-atlas-data#readme
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: Shooter Atlas
+    web: https://shooteratlas.com
+organization:
+  - name: Shooter Atlas
+    web: https://shooteratlas.com
+issued_time: 2026.10
+sources:
+  - name: Valve Steam Web API
+    web: https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/
