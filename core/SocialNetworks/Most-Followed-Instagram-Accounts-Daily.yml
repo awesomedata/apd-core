@@ -1,0 +1,33 @@
+---
+title: Most Followed Instagram Accounts Daily
+homepage: https://github.com/FastSocialCo/instagram-top-accounts
+category: SocialNetworks
+description: Daily follower counts for the 2,000 most-followed public Instagram accounts. The top 500 are read every day and the rest every five days, since 25 Sep 2026. One CSV with date, username, followers, name, category, country, type and rank. Private accounts are left out.
+version: 1.0
+keywords: instagram, followers, social media, time series, rankings
+image:
+temporal: 2026-09-25 to present
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://fastsocial.co/instagram-stats#data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FastSocial
+    web: https://fastsocial.co/instagram-stats
+organization:
+  - name: FastSocial
+    web: https://fastsocial.co/most-followed-instagram-accounts
+issued_time: 2026.10
+sources:
+  - name: GitHub
+    access_url: https://github.com/FastSocialCo/instagram-top-accounts
+  - name: Zenodo (DOI 10.5281/zenodo.23106353)
+    access_url: https://doi.org/10.5281/zenodo.23106353
+references:
+  - title:
+    reference:
