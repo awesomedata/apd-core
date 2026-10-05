@@ -1,6 +1,6 @@
 ---
 title: Pleiades - Gazetteer and graph of ancient places
-homepage: http://pleiades.stoa.org/
+homepage: https://pleiades.stoa.org/
 category: GIS
 description:
 version:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
