@@ -1,0 +1,43 @@
+---
+title: AI History Timeline
+homepage: https://github.com/chronicle-ai-history/ai-history-timeline
+category: MachineLearning
+description: >-
+  78 milestones in the history of artificial intelligence from 1943 to 2026,
+  one row per event, from the McCulloch-Pitts neuron and the Turing test to
+  current model releases and regulation. Each row has the date and how
+  precisely it is known, the subject's common name, the person, lab or
+  institution behind it, a category, a one-sentence summary and impact, the
+  primary source (original paper, announcement or archive record) and the
+  number of sources in the event's cited dossier (1,007 in total). Each event
+  is also scored 0 to 100 under a published five-criterion rubric (conceptual
+  shift, downstream influence, breadth, access, institutional change), with
+  the five ratings kept as separate columns so the score can be recomputed or
+  reweighted, plus a confidence level. CSV and JSON, direct download, no login.
+version: "2026-10-02"
+keywords: artificial intelligence, history of AI, machine learning history, deep learning, timeline, milestones, history of science, open data
+temporal: 1943 to 2026
+spatial: Worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_dictionary: https://github.com/chronicle-ai-history/ai-history-timeline#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Chronicle
+    web: https://epoch.founden.co
+organization:
+  - name: Chronicle
+    web: https://epoch.founden.co
+issued_time: 2026.10
+sources:
+  - name: CSV in the repository
+    access_url: https://raw.githubusercontent.com/chronicle-ai-history/ai-history-timeline/main/ai-history-events.csv
+  - name: Hugging Face copy
+    access_url: https://huggingface.co/datasets/chronicle-ai-history/ai-history-timeline
+  - name: Current version (CSV and JSON)
+    access_url: https://epoch.founden.co/data
+references:
+  - title: Scoring rubric and methodology
+    reference: https://epoch.founden.co/methodology
