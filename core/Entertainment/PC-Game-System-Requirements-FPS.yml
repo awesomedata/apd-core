@@ -1,6 +1,6 @@
 ---
 title: PC Game System Requirements and Estimated FPS by GPU
-homepage: https://doi.org/10.5281/zenodo.23162309
+homepage: https://doi.org/10.5281/zenodo.23162308
 category: Entertainment
 description: Minimum and recommended system requirements of 17,400+ PC games as listed on their Steam store pages, with the G3D benchmark score of each required GPU, estimated 1080p High frame rates on 12 reference GPUs (integrated graphics to RTX 4090), and G3D scores for 1,381 GPUs. The FPS figures are model estimates calibrated against 2,070 measured benchmark results; the method is documented.
 version: "2026-10-03"
