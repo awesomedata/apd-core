@@ -1,0 +1,14 @@
+---
+title: Canadian Climate Policy Inventory
+homepage: https://doi.org/10.5683/SP3/SFYABX
+category: Climate+Weather
+description: This dataset contains a comprehensive and comparable database of Canadian emissions reduction policies across federal, provincial and territorial orders of government. The dataset comprises two database files (both .csv and .xlsx formats) in English and French.
+version: 6
+keywords: climate, policies, Canada
+temporal: 1989-2035
+data_dictionary: https://440megatonnes.ca/wp-content/uploads/2025/10/Canadian-Climate-Policy-Inventory-Methodology.pdf
+language: EN, FR
+license: CC BY-NC 4.0
+publisher: 
+  -name: Canadian Climate Policy Partnership (C2P2)
+  web: https://spp.ucalgary.ca/major-initiatives/canadian-climate-policy-partnership-c2p2
