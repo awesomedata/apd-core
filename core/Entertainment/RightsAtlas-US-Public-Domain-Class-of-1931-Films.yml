@@ -1,0 +1,33 @@
+---
+title: "RightsAtlas: Films Entering the US Public Domain in 2027 (Class of 1931)"
+homepage: https://bitgitty.github.io/rightsatlas/entering-public-domain-2027/
+category: Entertainment
+description: Machine-readable list of the films first published in 1931, which enter the US public domain on January 1, 2027. Each row gives the date the film becomes free and the layer flags that catch reusers out, such as character trademarks that outlive copyright, URAA restoration of foreign films, and modern score recordings on today's copies, plus a link to the film's evidence page.
+version: 1.0
+keywords: public domain, copyright, film, classic film, public domain day, 1931, cultural heritage
+image:
+temporal: 1931
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://bitgitty.github.io/rightsatlas/methodology/
+language: en
+license: CC0 1.0 Universal
+publisher:
+  - name: RightsAtlas
+    web: https://bitgitty.github.io/rightsatlas/
+organization:
+  - name: RightsAtlas
+    web: https://bitgitty.github.io/rightsatlas/
+issued_time: 2026.10.05
+sources:
+  - name: CSV download
+    access_url: https://bitgitty.github.io/rightsatlas/class-1931.csv
+  - name: JSON download
+    access_url: https://bitgitty.github.io/rightsatlas/class-1931.json
+references:
+  - title: How RightsAtlas decides each rights layer
+    reference: https://bitgitty.github.io/rightsatlas/methodology/
