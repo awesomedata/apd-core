@@ -1,0 +1,26 @@
+---
+title: TableJourney Food Festival Calendar
+homepage: https://github.com/lewismvaughan/tablejourney-food-festivals
+category: Entertainment
+description: Next edition dates of more than 1,300 food festivals in 55 countries and more than 200 cities (name, city, country, start and end date, month, recurrence, kinds, focus, free entry, page URL), rebuilt weekly. CSV and JSON, also queryable with SQL on DoltHub, with a citable record on Zenodo (DOI 10.5281/zenodo.23142697).
+version:
+keywords: food festivals, events, calendar, festival dates, travel
+image:
+temporal:
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: TableJourney
+organization:
+issued_time: 2026.10
+sources:
+  - name: TableJourney food festival statistics
+    access_url: https://tablejourney.com/festivals/statistics/
+  - name: DoltHub SQL copy
+    access_url: https://www.dolthub.com/repositories/tablejourney/food-festivals
