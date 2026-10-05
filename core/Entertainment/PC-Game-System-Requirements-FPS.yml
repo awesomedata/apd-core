@@ -1,0 +1,37 @@
+---
+title: PC Game System Requirements and Estimated FPS by GPU
+homepage: https://doi.org/10.5281/zenodo.23162308
+category: Entertainment
+description: Minimum and recommended system requirements of 17,400+ PC games as listed on their Steam store pages, with the G3D benchmark score of each required GPU, estimated 1080p High frame rates on 12 reference GPUs (integrated graphics to RTX 4090), and G3D scores for 1,381 GPUs. The FPS figures are model estimates calibrated against 2,070 measured benchmark results; the method is documented.
+version: "2026-10-03"
+keywords: pc games, video games, system requirements, gpu, graphics cards, fps, benchmarks, steam
+image: https://github.com/emilioagustin83/pc-game-fps-dataset/raw/main/notebooks/gpu-requirements-by-year.png
+temporal: 1971-2027
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: periodic snapshots
+specification:
+data_quality: false
+data_dictionary: https://github.com/emilioagustin83/pc-game-fps-dataset#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PCGameBenchmarks
+    web: https://pcgamebenchmarks.com
+organization:
+  - name: PCGameBenchmarks
+    web: https://pcgamebenchmarks.com
+issued_time: 2026.10.03
+sources:
+  - name: games.csv (CSV download)
+    access_url: https://zenodo.org/records/23162309/files/games.csv
+  - name: gpus.csv (CSV download)
+    access_url: https://zenodo.org/records/23162309/files/gpus.csv
+  - name: GitHub repository with example notebooks
+    access_url: https://github.com/emilioagustin83/pc-game-fps-dataset
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/pcgamebenchmarks/pc-game-system-requirements-fps
+references:
+  - title: How the FPS estimates are made (methodology)
+    reference: https://pcgamebenchmarks.com/methodology
