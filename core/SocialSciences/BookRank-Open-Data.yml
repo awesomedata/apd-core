@@ -1,0 +1,14 @@
+---
+title: BookRank Open Data - books ranked from open reader ratings
+homepage: https://openbookrank.com/en/open-data
+category: SocialSciences
+description: 4,180 books ranked from about 1.7 million reader ratings merged from Open Library, Hardcover and Google Books and matched with Wikidata, plus 765 book series, 1,573 reading orders and 1,332 authors. Direct CSV and NDJSON downloads and a static JSON API with an OpenAPI file, rebuilt daily.
+keywords: books, book ratings, book rankings, reading order, book series, literature
+spatial: global
+access_level: public
+accrual_periodicity: daily
+data_quality: false
+language: en
+license: CC-BY-4.0
+publisher: BookRank (openbookrank.com)
+issued_time: 2026.10
