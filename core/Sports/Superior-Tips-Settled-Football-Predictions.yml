@@ -1,0 +1,29 @@
+---
+title: Superior Tips Settled Football Predictions
+homepage: https://github.com/st0jka/superior-tips-predictions-dataset
+category: Sports
+description: 51,546 settled football prediction rows from 629 competitions, kickoffs from September 2025 to September 2026. One row per published selection with the kickoff time in UTC, league, home and away clubs, market, pick, the price at publication, the model probability, the 90 minute result and the grade (won, lost or void), losses included. Monthly CSV files, appended nightly with a seven day lag.
+version: 1.0
+keywords: football, soccer, predictions, betting odds, forecast evaluation, calibration, sports analytics
+image:
+temporal: 2025-2026
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily, with a seven day lag
+specification: https://github.com/st0jka/superior-tips-predictions-dataset#readme
+data_quality: true
+data_dictionary: https://github.com/st0jka/superior-tips-predictions-dataset#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Superior Tips
+    web: https://superiortips.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (monthly CSV files)
+    access_url: https://github.com/st0jka/superior-tips-predictions-dataset/tree/main/data
+references:
+  - title: CITATION.cff
+    reference: https://github.com/st0jka/superior-tips-predictions-dataset/blob/main/CITATION.cff
