@@ -1,0 +1,34 @@
+---
+title: SatoshiMacro Bitcoin Cycle Model
+homepage: https://huggingface.co/datasets/satoshimacro/bitcoin-cycle-model
+category: Finance
+description: Daily Bitcoin and Ethereum market-cycle scores (0-100) since 2013 from a 48-signal model across cycle timing, valuation, sentiment, rotation, miner and macro tiers. Each signal is an expanding-window percentile rank, so every historical value uses only data available on that day. Includes the six tier scores, the latest signal readings and a monthly Altcoin Season Index. CSV and JSON, updated daily, archived on Zenodo with a DOI.
+version: daily
+keywords: bitcoin, ethereum, cryptocurrency, market cycles, time series, altcoin season, open data, finance
+temporal: 2013-present
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/satoshimacro/bitcoin-cycle-model
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: SatoshiMacro
+    web: https://satoshimacro.com/
+organization:
+  - name: SatoshiMacro
+    web: https://satoshimacro.com/
+issued_time: 2026.10
+sources:
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/satoshimacro/bitcoin-cycle-model
+  - name: GitHub repository
+    access_url: https://github.com/govind-satoshi/satoshimacro-data
+references:
+  - title: SatoshiMacro Model methodology
+    reference: https://satoshimacro.com/tools/crypto/satoshimacro-model/
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23131351)
+    reference: https://doi.org/10.5281/zenodo.23131351
