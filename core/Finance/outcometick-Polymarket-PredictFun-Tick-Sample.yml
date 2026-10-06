@@ -1,0 +1,31 @@
+---
+title: Polymarket and Predict.fun BTC Up/Down Tick Data (Sample Day)
+homepage: https://huggingface.co/datasets/Ligengxin96/polymarket-predict-fun-tick-data
+category: Finance
+description: One complete UTC day (2026-09-08) of tick-level data for the BTC Up/Down prediction markets on Polymarket (5-minute markets) and Predict.fun. Includes the Chainlink settlement price streams (with the 30s and 60s TWAP streams on Polymarket), order books (full-depth snapshots, updates and top of book on Polymarket; snapshots on Predict.fun), Polymarket trade prints, and each market's strike and settled outcome, so settlements can be recomputed from the raw feed. Gzipped CSV and JSONL, one config per file type.
+version:
+keywords: prediction markets, polymarket, predict.fun, chainlink, order book, tick data, backtesting
+image:
+temporal: 2026-09-08 (one UTC day)
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://outcometick.com/docs/schemas
+data_quality: false
+data_dictionary: https://outcometick.com/docs/schemas
+language: en
+license: CC BY 4.0
+publisher:
+  - name: outcometick
+    web: https://outcometick.com
+organization:
+issued_time:
+sources:
+  - name: Polymarket
+    access_url: https://polymarket.com
+  - name: Predict.fun
+    access_url: https://predict.fun
+references:
+  - title: Kaggle mirror (decompressed)
+    reference: https://www.kaggle.com/datasets/ligengxin96/polymarket-predict-fun-tick-data
