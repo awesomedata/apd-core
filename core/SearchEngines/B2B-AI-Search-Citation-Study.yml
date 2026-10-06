@@ -1,0 +1,36 @@
+---
+title: B2B AI Search Citation Study 2026 (Microsoft Copilot)
+homepage: https://github.com/danielmcgrattan2007/b2b-ai-search-citation-study
+category: SearchEngines
+description: >-
+  Per-article Microsoft Copilot citation counts for all 165 articles on one
+  B2B website over 29 days (27 August to 24 September 2026), from Bing
+  Webmaster Tools AI Performance, joined to features measured from each
+  published page: format, subject, industry, word count, H2 sections,
+  question headings, tables, FAQ questions, external sources and internal
+  links. 4,123 article citations in total. Also includes the sampled
+  grounding queries Bing reported with their citation share, and the daily
+  citation series. Every article uses one editorial template, so structure
+  varies little while subject and format vary widely.
+version: '2026-09'
+keywords: AI search, generative engine optimization, answer engines, Microsoft Copilot, Bing, citations, grounding queries, SEO, content analysis
+temporal: 2026-08-27/2026-09-24
+spatial: global
+access_level: public
+accrual_periodicity: irregular
+specification: https://github.com/danielmcgrattan2007/b2b-ai-search-citation-study/blob/main/datapackage.json
+data_quality: false
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Provena
+    web: https://www.provena-ai.com/research
+issued_time: 2026.09
+sources:
+  - name: Articles with citations and page features (CSV)
+    access_url: https://github.com/danielmcgrattan2007/b2b-ai-search-citation-study/blob/main/data/articles.csv
+  - name: Grounding queries (CSV)
+    access_url: https://github.com/danielmcgrattan2007/b2b-ai-search-citation-study/blob/main/data/grounding-queries.csv
+references:
+  - title: Study write-up, method and limits
+    reference: https://www.provena-ai.com/blog/ai-search-citation-study
