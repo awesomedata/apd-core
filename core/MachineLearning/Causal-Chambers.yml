@@ -1,0 +1,24 @@
+---
+title: Causal Chambers
+homepage: https://github.com/juangamella/causal-chamber
+category: MachineLearning
+description: >-
+  Real measurements from two computer-controlled physical devices, a wind
+  tunnel and a light tunnel, collected under observational and interventional
+  regimes, with a ground-truth causal graph for each device derived from its
+  physics and empirically validated. Includes tabular sensor data and images,
+  used as benchmarks for causal discovery, out-of-distribution generalization,
+  change point detection, independent component analysis and symbolic
+  regression. Direct download, no login.
+keywords: causal inference, causal discovery, interventions, ground truth, benchmark, physical systems, sensor data
+access_level: public
+copyrights: CC BY 4.0
+license: CC BY 4.0
+language: en
+organization:
+  - name: Causal Chamber GmbH (ETH Zurich spinoff)
+    web: https://www.causalchamber.ai
+issued_time: 2024.04
+references:
+  - title: Causal chambers as a real-world physical testbed for AI methodology (Nature Machine Intelligence, 2025)
+    reference: https://doi.org/10.1038/s42256-024-00964-x
