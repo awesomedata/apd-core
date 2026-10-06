@@ -1,0 +1,39 @@
+---
+title: US Car Dealership Email and Website Census 2026
+homepage: https://github.com/danielmcgrattan2007/us-car-dealership-census
+category: ComputerNetworks
+description: >-
+  Aggregate tables from a 2026 census of US franchise car dealership domains
+  collected from manufacturer dealer locators. Mail gateway table: DNS MX
+  classification of 17,659 domains into receiving providers (Microsoft 365,
+  Google Workspace, GoDaddy, Mimecast, Barracuda, Proofpoint and others),
+  overall, by franchise brand and by state. Email authentication table: SPF
+  presence and all-mechanism, DMARC presence and policy for the 8,032 domains
+  that receive mail. Website technology table: platforms and technologies
+  detected on 16,948 live dealer websites. Plus an index of 30 email
+  statistics with unit and source for each. Aggregate counts and shares only;
+  the underlying domain list is not published and nothing identifies a person.
+version: '2026-09'
+keywords: email, DNS, MX records, SPF, DMARC, mail gateway, Microsoft 365, Google Workspace, website technology, car dealerships, automotive retail, United States
+temporal: 2026-09
+spatial: United States
+access_level: public
+accrual_periodicity: irregular
+specification: https://github.com/danielmcgrattan2007/us-car-dealership-census/blob/main/datapackage.json
+data_quality: false
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Provena
+    web: https://www.provena-ai.com/research
+issued_time: 2026.09
+sources:
+  - name: Mail gateway census (CSV)
+    access_url: https://github.com/danielmcgrattan2007/us-car-dealership-census/blob/main/data/dealership-email-gateway-census.csv
+  - name: Email authentication census (CSV)
+    access_url: https://github.com/danielmcgrattan2007/us-car-dealership-census/blob/main/data/dealership-email-authentication-census.csv
+  - name: Website technology census (CSV)
+    access_url: https://github.com/danielmcgrattan2007/us-car-dealership-census/blob/main/data/dealership-website-technology-census.csv
+references:
+  - title: Method and limits for the mail gateway census
+    reference: https://www.provena-ai.com/blog/dealership-email-gateway-census
