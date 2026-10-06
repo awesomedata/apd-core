@@ -1,0 +1,39 @@
+SupPrice-Index-German-Supplement-Prices.yml---
+title: SupPrice-Index - monthly price index for dietary supplements in German online retail
+homepage: https://doi.org/10.5281/zenodo.22017250
+category: Economics
+description: >-
+  Monthly chained matched-model price index (Jevons, geometric mean of price
+  relatives) for dietary supplements sold by online retailers in Germany,
+  from January 2026. Prices are the actual asking prices collected daily from
+  the shops of 7 online retailers, never list or strike-through prices; each
+  product variant is compared only with itself, so the series show price
+  change and not assortment change. 11 series: protein powder overall, whey
+  concentrate, whey isolate, clear whey, creatine and collagen from January;
+  casein, vegan protein, electrolytes, omega 3 and magnesium from May. Per
+  month and series the CSV gives the index, a typical price level in euro with
+  its unit, base month, panel size (variants, products, retailers) and the
+  chaining month. Published once per quarter; each edition is a new version
+  under the concept DOI. German format (semicolon, decimal comma).
+version: '2026-09'
+keywords: price index, consumer prices, dietary supplements, protein powder, whey, creatine, online retail, Germany, Jevons, matched model, time series
+temporal: monthly since 2026-01
+spatial: Germany
+access_level: public
+accrual_periodicity: quarterly
+specification: https://www.supprice.de/preisindex#methodik
+data_quality: false
+language: de
+license: CC BY 4.0
+publisher:
+  - name: SupPrice
+    web: https://www.supprice.de/preisindex
+issued_time: 2026.08
+sources:
+  - name: Monthly series (CSV)
+    access_url: https://www.supprice.de/preisindex/supprice-preisindex.csv
+  - name: Zenodo record, all files and versions
+    access_url: https://doi.org/10.5281/zenodo.22017250
+references:
+  - title: Methodology and limitations (German)
+    reference: https://www.supprice.de/preisindex#methodik
