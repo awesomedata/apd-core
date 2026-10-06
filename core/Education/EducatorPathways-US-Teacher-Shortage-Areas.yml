@@ -1,0 +1,27 @@
+---
+title: EducatorPathways U.S. Teacher Shortage Areas
+homepage: https://zenodo.org/records/22868172
+category: Education
+description: >-
+  Open extract of U.S. federally designated teacher shortage areas by jurisdiction
+  (EducatorPathways, retrieved 2026-08-11). CSV plus README; freely downloadable from
+  Zenodo (DOI 10.5281/zenodo.22868172). Browsable companion:
+  https://educatorpathways.com/teacher-shortage-tracker. Sourced from U.S. Department
+  of Education Nationwide Teacher Shortage Areas listings as documented on-site.
+version: "2026-08-11"
+keywords: teacher shortage, K-12, education workforce, Title II adjacent, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://zenodo.org/records/22868172/files/README-shortage.md
+language: English
+license: CC0-1.0
+publisher: EducatorPathways
+organization:
+issued_time: "2026-09-21"
+sources: []
