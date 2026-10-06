@@ -1,0 +1,29 @@
+---
+title: AptToSell Follow-Up Event Registry 2026
+homepage: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
+category: Government
+description: Event-level open dataset linking 103 South Korean apartment subscription projects in 2026 to their first observed follow-up supply notice. Includes official notice IDs, canonical official source URLs, first follow-up dates, stable project IDs, and explicit evidence grades.
+version: 0.2
+keywords: South Korea housing, apartment subscription, ApplyHome, follow-up supply, residual supply, no-priority subscription, housing data, real estate data
+temporal: 2026
+spatial: South Korea
+access_level: public
+data_quality: true
+data_dictionary: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/DATA-DICTIONARY.md
+language: ko,en
+license: CC BY 4.0
+publisher:
+  - name: AptToSell
+    web: https://apttosell.com/
+organization:
+  - name: AptToSell
+    web: https://apttosell.com/
+issued_time: 2026-10-06
+sources:
+  - name: Publication-ready registry CSV v0.2
+    access_url: https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/apttosell-followup-event-registry-public-v0.2.csv
+references:
+  - title: Methodology
+    reference: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/METHODOLOGY.md
+  - title: Publication notes
+    reference: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PUBLICATION-NOTES.md
