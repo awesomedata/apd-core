@@ -1,0 +1,33 @@
+---
+title: Osservatorio Cold Email Italia (Italian B2B Cold Email Benchmark)
+homepage: https://clientium.it/osservatorio/
+category: Economics
+description: Open dataset of 723 documented Italian B2B cold-email campaigns (3,685,033 emails and 70,771 replies) with reply-rate benchmarks by sector. Median reply rate is 1.71% across 556 campaigns with 500 or more sends, with a percentile distribution (P10 0.60%, P90 3.80%), median bounce rate 1.85%, and per-sector breakdowns. First open dataset on Italian B2B outbound email. Available as CSV.
+version: 1.0
+keywords: cold email, B2B, outbound, marketing, lead generation, Italy, email benchmarks, reply rate
+image:
+temporal: 2024-2026
+spatial: Italy
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://clientium.it/osservatorio/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Clientium
+    web: https://clientium.it
+organization:
+  - name: Clientium
+    web: https://clientium.it
+issued_time: 2026.07
+sources:
+  - name: Osservatorio Cold Email Italia (GitHub, CSV)
+    access_url: https://github.com/arnold222a/osservatorio-cold-email-italia
+  - name: Zenodo DOI
+    access_url: https://doi.org/10.5281/zenodo.21541001
+references:
+  - title: Osservatorio Cold Email Italia
+    reference: https://clientium.it/osservatorio/
