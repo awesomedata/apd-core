@@ -1,0 +1,35 @@
+---
+title: NMN Human Evidence Dataset (nicotinamide mononucleotide randomized trials and meta-analyses)
+homepage: https://www.healthspanintel.com/supplements/nmn-benefits-what-is-real-vs-hype
+category: Healthcare
+description: A versioned, machine-readable corpus of the published human evidence on oral nicotinamide mononucleotide (NMN) supplementation. Version 2.0.0 covers 15 randomized controlled trials and 7 meta-analyses or systematic reviews, each with its PubMed ID, DOI, trial registration where available, participant count, dose, duration, endpoint class, outcome class, result direction, funding and conflict-of-interest notes, and stated limitations, plus claim-level verdicts that cite the underlying records. Every PubMed ID is verified against PubMed before release and every release carries a manifest SHA-256 so a citation can be traced to the exact reviewed snapshot. Search cutoff 2026-05-13, last verified 2026-08-30. JSON and CSV.
+version: 2.0.0
+keywords: nmn, nicotinamide mononucleotide, nad+, nad precursor, supplement, randomized controlled trial, meta-analysis, aging, longevity, pubmed
+image:
+temporal: 2016-2026
+spatial: global
+access_level: public
+copyrights: Healthspan Intel
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://www.healthspanintel.com/api/public/evidence/nmn-benefits-what-is-real-vs-hype/dataset-v2.0.0-f9a2b441a564.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Healthspan Intel
+    web: https://www.healthspanintel.com
+organization:
+  - name: Healthspan Intel
+    web: https://www.healthspanintel.com
+issued_time: 2026.09
+sources:
+  - name: JSON download (v2.0.0)
+    access_url: https://www.healthspanintel.com/api/public/evidence/nmn-benefits-what-is-real-vs-hype/dataset-v2.0.0-f9a2b441a564.json
+  - name: CSV download (v2.0.0)
+    access_url: https://www.healthspanintel.com/api/public/evidence/nmn-benefits-what-is-real-vs-hype/dataset-v2.0.0-1825d42f90ac.csv
+references:
+  - title: NMN human evidence page with methods, corpus, and per-record anchors
+    reference: https://www.healthspanintel.com/supplements/nmn-benefits-what-is-real-vs-hype
+  - title: Dataset artifact page (immutable publication record)
+    reference: https://www.healthspanintel.com/evidence/artifacts/nmn-human-evidence-v2-0-0-7e98f06a78a5
