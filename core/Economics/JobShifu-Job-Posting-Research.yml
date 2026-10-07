@@ -1,0 +1,39 @@
+---
+title: "JobShifu Job Posting Research"
+homepage: https://jobshifu.com/research
+category: Economics
+description: "Aggregate statistics from a live crawl of more than one million job postings at about 12,600 employers, read directly from employer applicant tracking systems and career sites rather than aggregators, and refreshed as the crawl runs. Five datasets: how long postings stay open (Kaplan-Meier survival, rechecked daily), how often roles are taken down and relisted, how often postings state pay, how often they state a visa sponsorship position, and how many years of experience each seniority band asks for. Each is a JSON file with its method, sample and limitations documented on its report page."
+version:
+keywords: job postings, labor market, hiring, vacancy duration, relisting, ghost jobs, pay transparency, visa sponsorship, experience requirements
+image:
+temporal: 2026-07-01/
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://jobshifu.com/research
+language: en
+license: CC BY 4.0
+publisher:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+organization:
+  - name: "JobShifu"
+    web: https://jobshifu.com/
+issued_time: 2026.09
+sources:
+  - name: "How long job postings stay open (JSON)"
+    access_url: https://jobshifu.com/research/data/lifespan.json
+  - name: "Job posting relisting rates (JSON)"
+    access_url: https://jobshifu.com/research/data/relisting.json
+  - name: "Pay disclosure rates (JSON)"
+    access_url: https://jobshifu.com/research/data/pay-disclosure.json
+  - name: "Visa sponsorship statements (JSON)"
+    access_url: https://jobshifu.com/research/data/visa-sponsorship.json
+  - name: "Years of experience by seniority (JSON)"
+    access_url: https://jobshifu.com/research/data/experience-required.json
+references:
+  - title: "JobShifu job posting research, methodology and findings"
+    reference: https://jobshifu.com/research
