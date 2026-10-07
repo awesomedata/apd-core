@@ -1,0 +1,17 @@
+---
+title: Hermès Resale Index (monthly open dataset)
+homepage: https://github.com/softdevfz/hermes-resale-index
+category: Economics
+description: >-
+  Monthly CSV snapshots of pre-owned Hermès handbag asking prices (Birkin,
+  Kelly, Constance) aggregated from live listings at 70+ resellers
+  worldwide: number of live listings, number of resellers, median, P25 and
+  P75 in USD by model, size and leather. Cohorts are published only with 10+
+  listings from 3+ resellers. Asking prices, not completed sales. Direct
+  downloads without login.
+keywords: luxury resale, Hermès, Birkin, Kelly, handbags, prices, CSV
+access_level: public
+accrual_periodicity: monthly
+specification: CSV
+language: en
+license: CC BY 4.0
