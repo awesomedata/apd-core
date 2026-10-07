@@ -1,0 +1,39 @@
+---
+title: Dream Meaning Search Interest Index 2026
+homepage: https://mydreamthreads.xyz/dream-trends/2026
+category: Psychology+Cognition
+description: >
+  Reproducible connected comparison of 15 exact dream-related Google search
+  terms in the United States over five years. Every comparison uses nightmare
+  meaning as a shared anchor (index 100), allowing relative interest for lucid
+  dreaming, dreams about an ex, nightmares, falling, houses, snakes, water,
+  dream journaling, and other common dream intents to be compared. The CSV is a
+  relative Google Trends interest index, not an absolute monthly-search count.
+version: 1.0
+keywords: dreams, dream meaning, Google Trends, search interest, search behavior, cognition, dream research
+image:
+temporal: 2021-07 to 2026-07
+spatial: United States
+access_level: public
+copyrights: DreamThreads
+accrual_periodicity: static
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/abdulrahimiqbal/dreamthreads-developer/tree/main/research
+language: en
+license:
+publisher:
+  - name: DreamThreads
+    web: https://mydreamthreads.xyz
+organization:
+  - name: DreamThreads
+    web: https://mydreamthreads.xyz/about
+issued_time: 2026.07
+sources:
+  - name: Connected Google Trends comparison methodology
+    access_url: https://mydreamthreads.xyz/dream-trends/2026#methodology
+references:
+  - title: Direct CSV download
+    reference: https://mydreamthreads.xyz/data/dream-search-interest-2026.csv
+  - title: Versioned GitHub release and CSV
+    reference: https://github.com/abdulrahimiqbal/dreamthreads-developer/releases/tag/dream-search-data-2026
