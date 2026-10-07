@@ -1,0 +1,31 @@
+---
+title: Sanctions List Structured-Field Metrics - September 2026
+homepage: https://www.sanctionskit.com/research/sanctions-list-identifiers-2026-09/metrics.csv
+category: SocialSciences
+description: >-
+  A frozen September 30, 2026 snapshot of structured-field availability in the
+  OFAC SDN and UK Sanctions List XML files. The CSV contains 57 aggregate
+  measurements of identifiers, aliases, dates of birth, and country fields,
+  derived from 19,452 OFAC SDN records and 6,339 UK designation records.
+  CSV, JSON, methodology, and a source-hash manifest are downloadable without
+  login. Original source records are not redistributed; these are field-coverage
+  measurements, not screening-accuracy results or a current sanctions feed.
+temporal: 2026-09-30
+access_level: public
+accrual_periodicity: Static snapshot
+language: en
+license: >-
+  Not specified for the independently computed aggregate dataset. The methodology
+  documents source attribution and reuse limitations; public download does not
+  establish an open license for the aggregate dataset.
+publisher:
+  - name: SanctionsKit
+sources:
+  - name: Aggregate metrics CSV
+    access_url: https://www.sanctionskit.com/research/sanctions-list-identifiers-2026-09/metrics.csv
+  - name: Aggregate results JSON
+    access_url: https://www.sanctionskit.com/research/sanctions-list-identifiers-2026-09/results.json
+  - name: Methodology and source reuse notes
+    access_url: https://www.sanctionskit.com/research/sanctions-list-identifiers-2026-09/methodology.md
+  - name: Source snapshot hash manifest
+    access_url: https://www.sanctionskit.com/research/sanctions-list-identifiers-2026-09/source-manifest.json
