@@ -1,0 +1,35 @@
+---
+title: ENCLAI Reported Infectious-Disease Case Counts 2018-2024
+homepage: https://doi.org/10.5281/zenodo.21855170
+category: Healthcare
+description: "Openly downloadable panel of officially reported infectious-disease case counts, 18 diseases x 108 countries, 2018-2024 (1,622 country-year rows). Confirmed and suspected counts are published as separate, paired columns with the originating authority named on every row, and each annual row carries the number of countries reporting, so reporting coverage can be told apart from real trends. Compiled from national ministries of health, PAHO/WHO, WHO, ECDC and other public-health authorities. Deposited at Zenodo (CERN), CC BY-NC-SA 4.0."
+version: "2.0"
+keywords: disease surveillance, epidemiology, public health, infectious disease, case counts, case definitions, dengue, measles, cholera, influenza
+image:
+temporal: 2018-01-01 to 2024-12-31
+spatial: Global, country level
+access_level: public
+copyrights: ENCLAI; underlying figures as reported by the originating health authorities
+accrual_periodicity: annual
+specification: https://doi.org/10.5281/zenodo.21855170
+data_quality: true
+data_dictionary: https://enclai.net/understanding-case-counts
+language: en
+license: CC-BY-NC-SA-4.0
+publisher:
+  - name: ENCLAI
+    web: https://enclai.net
+organization:
+  - name: ENCLAI
+    web: https://enclai.net/about
+issued_time: 2026.08
+sources:
+  - name: Zenodo deposit (CSV files, checksums, metadata)
+    access_url: https://doi.org/10.5281/zenodo.21855170
+  - name: Data catalogue and licence scope
+    access_url: https://enclai.net/data
+references:
+  - title: The 2024 global dengue surge, by the numbers
+    reference: https://enclai.net/reports/2024-dengue-surge
+  - title: Methodology
+    reference: https://enclai.net/trust
