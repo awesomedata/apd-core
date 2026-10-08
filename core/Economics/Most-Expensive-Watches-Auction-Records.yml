@@ -1,0 +1,20 @@
+title: Most Expensive Watches Auction Records
+homepage: https://mostexpensivewatches.net/api
+category: Economics
+description: Documented luxury-watch auction results — 1,156 verified hammer prices from 1996 to 2026, up to $31M (Patek Philippe Grandmaster Chime, Only Watch 2019), across Patek Philippe, Rolex, F.P. Journe and 20+ other makers. Each lot carries reference, case material, venue, sale year and a primary-source link. Includes per-brand all-time records, a $1M+ market index and a matched-lot price index, updated daily. Delivered as JSON datasets and a free no-auth REST API (OpenAPI 3.1), plus an MCP server and Python CLI.
+version: 1.0
+keywords: watches, luxury goods, auctions, hammer prices, collectibles, alternative assets, price index, time series
+image:
+temporal: 1996-2026
+spatial: worldwide
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification: https://mostexpensivewatches.net/openapi.json
+data_quality: true
+data_dictionary: https://mostexpensivewatches.net/api
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: MostExpensiveWatches.net
+    web: https://mostexpensivewatches.net/
