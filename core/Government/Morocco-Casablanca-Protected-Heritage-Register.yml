@@ -1,0 +1,43 @@
+---
+title: Casablanca Protected-Heritage Register (December 2021) — 109 Source Rows
+homepage: https://github.com/reda-rochd/casablanca-protected-heritage-register-2021
+category: Government
+description: >
+  Arabic-first CSV extraction of the 109 Casablanca rows from Morocco's Ministry
+  of Youth, Culture and Communication's Casablanca-Settat heritage register
+  (snapshot at December 2021). Preserves original names, categories, years,
+  official references and source row indexes. The counts reconcile with the
+  source's Casablanca summary: 2 entries labelled الترتيب and 107 labelled
+  التقييد. Includes a field dictionary, reproducible extraction method, JSON
+  copy and searchable viewer. The snapshot does not establish unique-site
+  counts, current legal status, conservation condition or public access.
+version: 1.1.1
+keywords: Morocco, Casablanca, cultural heritage, heritage register, open data, ODbL, Arabic
+image:
+temporal: December 2021 snapshot
+spatial: Casablanca, Morocco
+access_level: public
+copyrights: Adapted from the Ministry dataset under ODbL 1.0; see repository attribution and scope notes.
+accrual_periodicity: Fixed historical snapshot; no automatic updates.
+specification: UTF-8 CSV and JSON; schema and field definitions are documented in the repository README.
+data_quality: true
+data_dictionary: https://github.com/reda-rochd/casablanca-protected-heritage-register-2021#csv-field-dictionary
+language: Arabic (source values), French (documentation)
+license: Open Data Commons Open Database License (ODbL) 1.0
+publisher:
+  - name: Reda Rochd (independent adapted extract)
+    web: https://github.com/reda-rochd/casablanca-protected-heritage-register-2021
+organization:
+  - name: Morocco Ministry of Youth, Culture and Communication (source dataset)
+    web: https://data.gov.ma/data/fr/dataset/3ae1adac-b0d4-4cdf-9e11-34c482534945
+issued_time: 2026-10-07
+sources:
+  - name: Morocco Open Data Portal — Casablanca-Settat heritage register
+    access_url: https://data.gov.ma/data/fr/dataset/3ae1adac-b0d4-4cdf-9e11-34c482534945
+references:
+  - title: Versioned dataset release v1.1.1
+    reference: https://github.com/reda-rochd/casablanca-protected-heritage-register-2021/releases/tag/v1.1.1
+  - title: Download the 109-row CSV
+    reference: https://github.com/reda-rochd/casablanca-protected-heritage-register-2021/blob/main/data/casablanca-protected-heritage-register-2021-casablanca-109.csv
+  - title: Searchable dataset viewer
+    reference: https://reda-rochd.github.io/casablanca-protected-heritage-register-2021/
