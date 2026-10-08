@@ -1,0 +1,17 @@
+---
+title: Polish Municipal Finances (z-dykty.pl)
+homepage: https://zenodo.org/records/23218416
+category: Government
+description: Revenue, expenditure, debt and population of all 2,479 Polish municipalities (gminas) for 2025, one row per gmina identified by TERYT code. Derived from municipal budget reports of the Polish Ministry of Finance and Statistics Poland data.
+version: 1.0.0
+keywords: Poland, municipalities, public finance, local government, TERYT
+access_level: public
+language: en
+license: CC BY 4.0
+organization:
+  - name: z-dykty.pl
+    web: https://z-dykty.pl
+issued_time: 2026.10
+sources:
+  - name: Municipal budget reports, Ministry of Finance (dane.gov.pl)
+    access_url: https://dane.gov.pl/pl/dataset/872
