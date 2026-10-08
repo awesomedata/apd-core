@@ -1,0 +1,37 @@
+---
+title: AptToSell South Korea Housing Subscription Reference Data (2026)
+homepage: https://zenodo.org/records/22842058
+category: Finance
+description: An open South Korea housing-subscription reference dataset covering the private-housing 84-point subscription score structure and regional deposit requirements, with downloadable CSV and JSON files, methodology notes, dated reference snapshots, official-source links, and DOI-backed archives. The data are intended for research, education, analysis, and software reference use rather than live eligibility decisions. CC BY 4.0.
+version: 2026-09-26
+keywords: South Korea, housing subscription, apartment subscription, cheongyak, subscription score, housing deposit, housing policy, Korea
+image:
+temporal: 2026
+spatial: South Korea
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: as needed
+specification:
+data_quality: true
+data_dictionary: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/METHODOLOGY.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: AptToSell Data Project
+    web: https://apttosell.com/housing-subscription-data/
+organization:
+  - name: AptToSell Data Project
+    web: https://apttosell.com/housing-subscription-data/
+issued_time: 2026.09
+sources:
+  - name: Housing subscription score reference data
+    access_url: https://github.com/cheer710815-hub/apttosell-subscription-data
+  - name: Housing subscription data center
+    access_url: https://apttosell.com/housing-subscription-data/
+  - name: Cheongyak score data reference
+    access_url: https://apttosell.com/cheongyak-score-data/
+references:
+  - title: Methodology and data documentation
+    reference: https://github.com/cheer710815-hub/apttosell-subscription-data
+  - title: Zenodo archived record
+    reference: https://zenodo.org/records/22842058
