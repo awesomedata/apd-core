@@ -1,0 +1,39 @@
+---
+title: Launches and the satellites they carried, 1957 to 2026
+homepage: https://doi.org/10.5281/zenodo.23184904
+category: Physics
+description: >-
+  Every orbital and suborbital launch since Sputnik (7,633, from Launch
+  Library 2) and every payload in CelesTrak's satellite catalogue (27,900),
+  each satellite linked to the launch that carried it by its COSPAR launch
+  number. Launches have date, rocket, provider, site, pad, outcome, mission and
+  orbit. Satellites have launch and decay dates, orbit, the country or
+  organisation they are registered to, whether the US withholds the orbit, and
+  who uses and runs them (from Jonathan McDowell's GCAT), with each operator
+  rolled up to its parent organisation. Two CSV files with a data dictionary,
+  rebuilt every week; monthly editions are new versions under the concept DOI.
+version: '2026-10-06'
+keywords: spaceflight, rocket launches, satellites, satellite catalogue, COSPAR, NORAD, orbits, space industry, Launch Library 2, CelesTrak, GCAT
+temporal: 1957-10-04 to the present, updated weekly
+spatial: World
+access_level: public
+accrual_periodicity: weekly
+specification: https://mcval.org/launches/data/dictionary.md
+data_quality: false
+data_dictionary: https://mcval.org/launches/data/dictionary.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: McVal Osborne
+    web: https://mcval.org/launches/data
+issued_time: 2026.10
+sources:
+  - name: Launches (CSV)
+    access_url: https://mcval.org/launches/data/launches.csv
+  - name: Satellites (CSV)
+    access_url: https://mcval.org/launches/data/satellites.csv
+  - name: Zenodo record, all files and versions
+    access_url: https://doi.org/10.5281/zenodo.23184904
+references:
+  - title: Every launch since Sputnik, the same data on a 3D globe
+    reference: https://mcval.org/launches/
