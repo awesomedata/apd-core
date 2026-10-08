@@ -1,0 +1,23 @@
+---
+title: UK Online Shelf-Price Index
+homepage: https://data.yappman.com/shelf-price-index
+category: Economics
+description: Weekly chained index of posted online shelf prices at Tesco, Sainsbury's, Asda and Aldi (about 70,000 products a week), headline and per retailer, base week 2026-W39 = 100; not prices paid and not CPI.
+version: 1.0
+keywords: price index, grocery prices, supermarket, inflation, United Kingdom, time series
+temporal: weekly since 2026-W39, ongoing
+spatial: United Kingdom
+access_level: public
+accrual_periodicity: weekly
+data_quality: true
+data_dictionary: https://data.yappman.com/shelf-price-index
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Yappman Data (Abley-Yapp Consulting Limited)
+    web: https://data.yappman.com
+sources:
+  - name: CSV export
+    access_url: https://api.apify.com/v2/datasets/AvRCWqFinCiNjx3sP/items?format=csv&clean=true
+  - name: JSON export
+    access_url: https://api.apify.com/v2/datasets/AvRCWqFinCiNjx3sP/items?format=json&clean=true
