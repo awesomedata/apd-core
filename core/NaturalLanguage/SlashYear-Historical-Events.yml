@@ -2,7 +2,7 @@
 title: SlashYear Sourced Historical Events
 homepage: https://github.com/ctrl-maud/slashyear
 category: NaturalLanguage
-description: 86,902 historical event records spanning 3,078 years, from 3000 BCE to the present. Every record is a single sentence quoted verbatim from a specific English Wikipedia revision and carries that revision id, the article title and the section anchor, so any claim built on a row can be checked against its source. Rows are tagged with year, day, subject, century, decade and theme. Distributed as gzipped NDJSON bulk dumps with a Frictionless datapackage, as a static CORS-open JSON API with an OpenAPI description, and as a tarred reproduction snapshot on the repository's release page. An MCP server exposes the same corpus to language models.
+description: Dated historical event records from 3000 BCE to the present. Every record is a single sentence quoted verbatim from a specific English Wikipedia revision and carries that revision id, the article title and the section anchor, so any claim built on a row can be checked against its source. Rows are tagged with year, day, subject, century, decade and theme. Distributed as gzipped NDJSON bulk dumps with a Frictionless datapackage, as a static CORS-open JSON API with an OpenAPI description, and as a tarred reproduction snapshot on the repository's release page. An MCP server exposes the same corpus to language models.
 version: 1.0
 keywords: history, timeline, events, Wikipedia, provenance, citation, chronology, structured text, MCP, training data
 image:
