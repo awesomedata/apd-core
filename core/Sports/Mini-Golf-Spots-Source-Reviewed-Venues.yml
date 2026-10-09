@@ -1,0 +1,17 @@
+---
+title: Mini Golf Spots Source-Reviewed Venue Dataset
+homepage: https://minigolfspots.com/research/verified-mini-golf-course-dataset
+category: Sports
+description: A source-reviewed subset of mini-golf venue records, primarily in the United States with a Canadian venue also included. Public CSV and JSON contain venue names, city/state or province, addresses, official-source URLs, and evidence review dates. This is not a census of every course, and venue offerings may change after review.
+spatial: United States and Canada
+access_level: public
+language: en
+license: "No explicit open-data license stated; publisher terms at https://minigolfspots.com/terms-of-service"
+publisher:
+  - name: Mini Golf Spots
+    web: https://minigolfspots.com
+sources:
+  - name: Public venue records (CSV)
+    access_url: https://minigolfspots.com/research/verified-mini-golf-course-dataset/data.csv
+  - name: Public venue records and summary (JSON)
+    access_url: https://minigolfspots.com/research/verified-mini-golf-course-dataset/data.json
