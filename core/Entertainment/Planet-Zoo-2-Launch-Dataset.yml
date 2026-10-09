@@ -1,0 +1,37 @@
+---
+title: Planet Zoo 2 Launch Dataset
+homepage: https://github.com/odebo/planet-zoo-2-dataset
+category: Entertainment
+description: Species list and habitat compatibility matrix for the zoo simulation game Planet Zoo 2, covering all 130 launch animals with biome, enclosure type, taxonomy, conservation status, weight and barrier requirements, plus 1,221 species pairs scored for cohabitation. Biomes, taxonomy and enclosure requirements are exported from the publisher's official Zoopedia payload; compatibility verdicts are derived from the published rule and are not publisher statements.
+version: "2026-10-01"
+keywords: planet zoo 2, zoo simulation, video game, animals, species list, taxonomy, conservation status, habitat compatibility, cohabitation matrix, zoopedia, frontier developments, csv, json
+image: https://raw.githubusercontent.com/odebo/planet-zoo-2-dataset/main/data/cohabitation.csv
+temporal: 2026-10-01
+spatial:
+access_level: public
+copyrights: Game content and species data are property of Frontier Developments plc; the compiled dataset and its derived compatibility verdicts are released under CC BY 4.0.
+accrual_periodicity: periodic snapshots
+specification:
+data_quality: false
+data_dictionary: https://github.com/odebo/planet-zoo-2-dataset#whats-in-here
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PZ2 Tools
+    web: https://pz2tools.wiki/
+organization:
+  - name: PZ2 Tools
+    web: https://pz2tools.wiki/
+issued_time: 2026.10.01
+sources:
+  - name: animals.csv (species list, 130 rows)
+    access_url: https://raw.githubusercontent.com/odebo/planet-zoo-2-dataset/main/data/animals.csv
+  - name: animals.json (species list, 130 rows)
+    access_url: https://raw.githubusercontent.com/odebo/planet-zoo-2-dataset/main/data/animals.json
+  - name: cohabitation.csv (species pairs, 1,221 rows)
+    access_url: https://raw.githubusercontent.com/odebo/planet-zoo-2-dataset/main/data/cohabitation.csv
+  - name: cohabitation.json (species pairs, 1,221 rows)
+    access_url: https://raw.githubusercontent.com/odebo/planet-zoo-2-dataset/main/data/cohabitation.json
+references:
+  - title: How the cohabitation verdicts are derived
+    reference: https://github.com/odebo/planet-zoo-2-dataset#how-the-cohabitation-matrix-is-built
