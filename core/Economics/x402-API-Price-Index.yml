@@ -1,0 +1,35 @@
+---
+title: x402 API Price Index
+homepage: https://github.com/tanod-labs/x402-price-index
+category: Economics
+description: Listed per-call prices of paid HTTP APIs that accept x402 (HTTP 402 stablecoin payments), collected from the public CDP Bazaar and PayAI discovery listings. The snapshot covers 34,062 listings on 2,158 hosts and gives per-category medians (web search, page-to-Markdown, DNS lookup, PDF, image processing, token prices, sentiment and others) with offer and host counts, plus a history CSV of category medians and listing statistics. Listed prices only; it does not show what buyers actually paid.
+version: 1.0
+keywords: api pricing, x402, ai agents, micropayments, stablecoins, usdc, api economy, price index
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/tanod-labs/x402-price-index#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tanod
+    web: https://tanod.dev/
+organization:
+  - name: Tanod
+    web: https://tanod.dev/
+issued_time: 2026.10
+sources:
+  - name: Category prices (JSON)
+    access_url: https://raw.githubusercontent.com/tanod-labs/x402-price-index/main/data/x402-category-prices.json
+  - name: Category price history (CSV)
+    access_url: https://raw.githubusercontent.com/tanod-labs/x402-price-index/main/data/x402-category-prices-history.csv
+  - name: Listing statistics history (CSV)
+    access_url: https://raw.githubusercontent.com/tanod-labs/x402-price-index/main/data/x402-bazaar-stats-history.csv
+references:
+  - title: Methodology and category table
+    reference: https://github.com/tanod-labs/x402-price-index#readme
