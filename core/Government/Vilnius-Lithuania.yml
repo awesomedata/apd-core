@@ -1,0 +1,22 @@
+---
+title: Vilnius, Lithuania
+homepage: https://opendata.vilnius.lt
+category: Government
+description: Open data portal of Vilnius City Municipality, publishing datasets from the municipal administration and ID Vilnius.
+version:
+keywords: vilnius, lithuania, municipality, city, open data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: lt, en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time:
+sources: []
