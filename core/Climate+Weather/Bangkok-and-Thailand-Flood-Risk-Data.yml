@@ -1,0 +1,29 @@
+---
+title: Bangkok and Thailand Flood Risk Data
+homepage: https://github.com/aroblase/thailand-flood-data
+category: Climate+Weather
+description: Every standing-water episode recorded by the Bangkok Metropolitan Administration on Bangkok's main roads from October 2021 to October 2026 (1,762 episodes with date, district, road, depth, duration and rain), the share of each Bangkok district and sub-district mapped under water by GISTDA in the 2011 flood, and flood risk indicators for 85 districts and cities across Thailand and 189 Bangkok rail stations. CSV files.
+version: 1.0.0
+keywords: flood, urban flooding, Bangkok, Thailand, GISTDA, flood risk
+image:
+temporal: 2011-2026
+spatial: Bangkok and Thailand, district and sub-district level
+access_level: public
+copyrights:
+accrual_periodicity: yearly
+specification:
+data_quality:
+data_dictionary: https://github.com/aroblase/thailand-flood-data#files
+language: en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time: 2026.10
+sources:
+  - name: Bangkok Metropolitan Administration, Drainage and Sewerage Department
+    access_url: https://data.bangkok.go.th/dataset/frd_dds
+  - name: GISTDA flood maps
+    access_url: https://disaster.gistda.or.th/services/open-api
+references:
+  - title: Zenodo DOI
+    reference: https://doi.org/10.5281/zenodo.23260465
