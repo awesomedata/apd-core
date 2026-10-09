@@ -1,0 +1,26 @@
+---
+title: Baitcaster Backlash Setup Data (Line Weight, Wind, Braid vs Mono)
+homepage: https://github.com/baitcastertips/baitcaster-setup-data
+category: Sports
+description: Six plain-text reference tables for baitcasting reel setup, published as diffable CSV and Markdown rather than locked inside a web page. Covers reel class to lure weight to mono/fluoro/braid line weight with gram and kilogram conversions; how line weight, brake clicks and expected distance shift as wind speed rises; a setup-to-line-choice decision table for four common baitcaster setups; and three Markdown guides on backlash diagnosis order, bird's nest grading and the difference between spool tension and brake. No login, no purchase; released under CC0 1.0.
+version: 1.0
+keywords: baitcaster, baitcasting, backlash, bird's nest, line weight, braid, monofilament, spool tension, brake setting, fishing, recreational angling
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://doi.org/10.5281/zenodo.23252800
+data_quality: true
+data_dictionary: https://github.com/baitcastertips/baitcaster-setup-data#readme
+language: en
+license: CC0 1.0
+publisher:
+  - name: Baitcaster Tips
+    web: https://baitcastertips.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: Zenodo record
+    access_url: https://doi.org/10.5281/zenodo.23252800
