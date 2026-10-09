@@ -1,0 +1,27 @@
+---
+title: SuplerMed Dietary Supplement-Drug Interactions (Polish)
+homepage: https://doi.org/10.5281/zenodo.21532404
+category: Healthcare
+description: Open dataset of documented interactions between dietary supplement ingredients and medicines, plus some pairs with other substances, alcohol, food or laboratory tests. Each record gives the mechanism, a recommended course of action and a source (scientific publications, reference works or official drug documents). Many records include a verbatim quote from the official Summary of Product Characteristics or patient leaflet, with the section cited. Parts of the text were drafted with AI assistance, but every record is reviewed and signed off by a licensed pharmacist before publication. Content is in Polish; the column dictionary (in Polish) is in the README file of the record. Versioned snapshots on Zenodo; the DOI always resolves to the latest version. Not medical advice and not exhaustive.
+version: 7
+keywords: dietary supplements, drug interactions, food supplements, open data, Polish
+temporal:
+spatial: Poland
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: CSV (RFC 4180, UTF-8) and JSON
+data_quality: false
+data_dictionary: https://doi.org/10.5281/zenodo.21532404
+language: pl
+license: CC BY 4.0
+publisher:
+  - name: SuplerMed
+    web: https://suplermed.pl
+organization:
+  - name: SuplerMed
+    web: https://suplermed.pl
+issued_time: 2026.07
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.21532404
