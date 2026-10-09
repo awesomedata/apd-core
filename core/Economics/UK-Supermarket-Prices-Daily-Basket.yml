@@ -1,0 +1,19 @@
+---
+title: "UK Supermarket Prices: Daily 212-Item Basket"
+homepage: https://www.kaggle.com/datasets/russellyapp/uk-supermarket-prices-daily-212-item-basket
+category: Economics
+description: One row per product per retailer per day for a fixed basket of 212 staples at Tesco, Sainsbury's, Asda and Aldi, with shelf price, loyalty-card price, promotion text, unit price, pack size and EAN barcode where the retailer publishes one.
+version: 1.0
+keywords: grocery prices, supermarket, loyalty prices, inflation, United Kingdom, time series
+temporal: daily from 2026-09-24
+spatial: United Kingdom
+access_level: public
+accrual_periodicity: daily
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Yappman Data (Abley-Yapp Consulting Limited)
+    web: https://data.yappman.com
+sources:
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/russellyapp/uk-supermarket-prices-daily-212-item-basket
