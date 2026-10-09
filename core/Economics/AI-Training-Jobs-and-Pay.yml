@@ -1,0 +1,21 @@
+---
+title: AI Training Jobs and Pay
+homepage: https://github.com/aitrainingjobs/ai-training-jobs-data
+category: Economics
+description: An open dataset of the AI training jobs market, the paid human work of training, evaluating and labeling data for AI models (RLHF evaluators, data annotators, and domain experts such as lawyers, doctors and coders reviewing model output). It counts open roles by kind of work and by platform, roles first listed per week, and the median and typical (25th to 75th percentile) advertised hourly pay by kind of work, measured daily from about 17 platforms' public job feeds. A rate is published only when at least three platforms advertise it. Delivered as CSV and JSON, with free no-auth CORS-enabled live endpoints refreshed daily.
+version: 1.0
+keywords: AI training, data annotation, RLHF, gig economy, labor market, wages, job postings, time series
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://aitraining.jobs/data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: AITraining.jobs
+    web: https://aitraining.jobs/
