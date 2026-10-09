@@ -1,0 +1,48 @@
+---
+title: Election.org U.S. Federal Election Research Data
+homepage: https://election.org/data/downloads
+category: Government
+description: >-
+  Seven versioned, anonymously downloadable CSV datasets containing 16,319 records:
+  2026 U.S. House and Senate contest and FEC candidate filing fields, and federal
+  candidate election results for 2016, 2018, 2020, 2022 and 2024. Includes original
+  government source citations, source checksums, coverage limits and research
+  citations. FEC filing status is not state ballot qualification. Calculated vote
+  shares, margins and winner labels are distinguished from source-published facts.
+version: "2026.08.27"
+keywords: U.S. elections, federal election results, FEC candidate filings, House, Senate
+temporal: 2016-2026
+spatial: United States
+access_level: public
+data_quality: true
+language: en
+copyrights: >-
+  Election.org claims no exclusive right in government source facts.
+  Source-specific terms and legal restrictions continue to apply.
+  Preserve dataset version, source URL, verification date and coverage limits.
+data_dictionary: https://election.org/data/downloads
+specification: https://election.org/data/api
+publisher:
+  - name: Election.org
+    web: https://election.org
+issued_time: "2026.08"
+sources:
+  - name: 2026 U.S. House and Senate contest filing fields
+    access_url: https://election.org/api/v1/downloads/federal-contests-2026.csv
+  - name: 2026 federal candidate filing records
+    access_url: https://election.org/api/v1/downloads/federal-candidates-2026.csv
+  - name: Official 2016 federal candidate results
+    access_url: https://election.org/api/v1/downloads/federal-results-2016.csv
+  - name: Official 2018 federal candidate results
+    access_url: https://election.org/api/v1/downloads/federal-results-2018.csv
+  - name: Official 2020 federal candidate results
+    access_url: https://election.org/api/v1/downloads/federal-results-2020.csv
+  - name: Official 2022 federal candidate results
+    access_url: https://election.org/api/v1/downloads/federal-results-2022.csv
+  - name: Official 2024 federal candidate results
+    access_url: https://election.org/api/v1/downloads/federal-results-2024.csv
+references:
+  - title: Source coverage and limitations
+    reference: https://election.org/coverage
+  - title: Dataset catalog (JSON)
+    reference: https://election.org/api/v1/datasets
