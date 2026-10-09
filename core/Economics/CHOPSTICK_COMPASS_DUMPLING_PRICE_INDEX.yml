@@ -1,0 +1,42 @@
+---
+title: Chinese Restaurant Dumpling Menu Prices, US (Chopstick Compass Dumpling Price Index)
+homepage: https://chopstickcompass.com/prices/soup-dumplings
+category: Economics
+description: >-
+  Directly downloadable CSV of listed menu prices for three dumplings - soup
+  dumplings (xiao long bao), har gow (shrimp dumplings) and siu mai - at 80
+  Chinese restaurants in 32 US cities, read from each restaurant's own menu,
+  its own or linked online-ordering page, or a named third-party ordering
+  page between 2026-09-27 and 2026-10-01. The 2026-10-01 release has 117 rows
+  (61 soup dumpling, 34 har gow and 22 siu mai listings). Unit: price_usd is
+  US dollars per order exactly as listed, before tax, tip and fees. Order
+  sizes vary (3 to 10 pieces where the menu states a count), so
+  price_per_piece_usd is filled only for the 58 rows whose menu name states a
+  piece count. Each row also gives the exact menu item text, the price
+  channel, whether the price was read from a menu image, a standard-order flag
+  (plain pork or house version versus crab, pan-fried or other variants), the
+  date checked and a link to the restaurant's sourced profile. No price is
+  computed, converted or estimated. The restaurants are those chosen for the
+  publisher's city guides, not a random sample, and per-city samples are small
+  (at most 5 soup dumpling listings in any city). Methodology, inclusion rules
+  and named exclusions are public without login.
+version: '2026-10-01'
+keywords: dumplings, xiao long bao, soup dumplings, dim sum, har gow, siu mai, restaurant prices, menu prices, food prices, consumer prices, Chinese food, CSV
+temporal: '2026-09-27/2026-10-01'
+spatial: United States (32 cities)
+access_level: public
+copyrights: Chopstick Compass
+specification: https://chopstickcompass.com/prices/soup-dumplings#methodology
+data_dictionary: https://chopstickcompass.com/prices/soup-dumplings#methodology
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: Chopstick Compass
+    web: https://chopstickcompass.com
+issued_time: '2026-09-30'
+sources:
+  - name: Dumpling price index CSV (soup dumplings, har gow, siu mai)
+    access_url: https://chopstickcompass.com/data/dumpling-prices-2026-09.csv
+references:
+  - title: Dumpling price index methodology, inclusion rules and limitations
+    reference: https://chopstickcompass.com/prices/soup-dumplings#methodology
