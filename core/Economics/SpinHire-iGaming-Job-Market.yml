@@ -1,0 +1,37 @@
+---
+title: SpinHire iGaming Job Market
+homepage: https://huggingface.co/datasets/Spinhire/igaming-job-market
+category: Economics
+description: Live index of open iGaming job postings (online casino, sports betting, game studios, affiliates) with salary ranges, countries, work formats and languages, plus daily and monthly market statistics (openings by role, country and salary). Published as CSV and JSONL on Hugging Face and refreshed from the same source as the public jobs API.
+version: 1.0
+keywords: jobs, job postings, labor market, hiring, salaries, igaming, gambling, online casino, sports betting
+image:
+temporal: 2026-
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://spinhire.io/openapi.json
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/Spinhire/igaming-job-market/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SpinHire
+    web: https://spinhire.io/en/
+organization:
+  - name: SpinHire
+    web: https://spinhire.io/en/
+issued_time: 2026.09
+sources:
+  - name: Dataset on Hugging Face (jobs.csv, jobs.jsonl, market_daily.csv, market_monthly.csv)
+    access_url: https://huggingface.co/datasets/Spinhire/igaming-job-market
+  - name: Open jobs API (JSON, no key required)
+    access_url: https://spinhire.io/api/jobs
+  - name: Market statistics (CSV)
+    access_url: https://spinhire.io/market.csv
+references:
+  - title: API documentation
+    reference: https://spinhire.io/docs
+  - title: Quarterly iGaming hiring report with methodology
+    reference: https://spinhire.io/en/market/2026-q3
