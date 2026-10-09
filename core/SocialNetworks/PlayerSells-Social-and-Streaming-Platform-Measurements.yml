@@ -1,0 +1,33 @@
+---
+title: PlayerSells Social and Streaming Platform Measurements
+homepage: https://github.com/playersells/open-data
+category: SocialNetworks
+description: "Seven aggregate datasets measured with PlayerSells' own crawlers between August and October 2026: follower or subscriber counts at every percentile on X (Twitter), Bluesky, Telegram, TikTok, YouTube, Kick and Twitch; X engagement rate percentiles for 152,291 accounts by follower band, with 45 posting pattern effects measured within accounts; X views per follower by account size, Premium badge against no badge; Telegram views per subscriber for 139,115 channels by size band and niche; Telegram subscriber change by topic and starting size over 14,874 channels; Kick and Twitch share of concurrent viewing by category for one week, gambling categories flagged; and Kick and Twitch simulcasting with the split of viewers between the two platforms. Totals, shares and percentiles only, with no account lists or personal data. Each dataset folder has a README with every column, the method and the limitations. CSV."
+version: 2026.10
+keywords: social media, followers, percentiles, engagement rate, X, Twitter, Telegram, YouTube, TikTok, Bluesky, Kick, Twitch, live streaming
+image:
+temporal: 2026-08 to 2026-10
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/playersells/open-data#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: PlayerSells
+    web: https://playersells.com
+organization:
+  - name: PlayerSells
+    web: https://playersells.com
+issued_time: 2026.10
+sources:
+  - name: GitHub
+    access_url: https://github.com/playersells/open-data
+  - name: Zenodo (DOI 10.5281/zenodo.23201222)
+    access_url: https://zenodo.org/records/23201222
+references:
+  - title:
+    reference:
