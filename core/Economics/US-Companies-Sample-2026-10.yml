@@ -1,0 +1,22 @@
+---
+title: 10,000 U.S. companies (Datacircle's U.S. B2B dataset sample, 2026-10)
+homepage: https://datacircle.dev/us-companies-dataset-sample
+category: Economics
+description: "A free sample, no sign-up: 10,000 U.S. companies drawn from the free list, companies only, as CSV and Parquet, CC BY 4.0. Drawn at random from the 1,748,139 companies of 11 to 500 employees in its 2026-10 build of public company profiles, every state and employee range included; no person, email, phone, street or postcode. 17 columns (LinkedIn ID and URL, name, headline, about, year founded, logo, followers, claimed page, employee range, HQ city and state, industry, type, website, last refresh), with each column's fill rate in the README. Direct downloads, no login."
+version: 2026-10
+keywords: companies,firms,united-states,business,industry,employees,b2b
+image:
+temporal: 2026-10
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://datacircle.dev/samples/2026-10/README.md
+language: en
+license: CC BY 4.0
+publisher: Datacircle
+organization:
+issued_time: 2026.10
+sources: []
