@@ -1,0 +1,22 @@
+---
+title: Compute Comparison Legacy GPU and LLM Catalog Snapshots
+homepage: https://huggingface.co/datasets/computecomparison/legacy-daily-catalog-snapshots
+category: Economics
+description: Seed-free legacy daily catalog snapshots of published GPU rental and LLM API prices. Separate downloadable CSV tables contain 16,899 GPU rows across 117 providers and 4,622 LLM rows across 31 providers. All rows are classified static; original live-vs-static provenance of legacy records cannot be recovered. These are not API-verified observed price histories. Includes schema, limitations, provenance metadata and validation results.
+version: '2026-10-10'
+keywords: GPU, LLM, cloud computing, catalog pricing, static snapshots
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: frozen snapshot
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/computecomparison/legacy-daily-catalog-snapshots
+language: en
+license: CC-BY-4.0
+publisher:
+ - name: Compute Comparison
+   web: https://computecomparison.com/
+issued_time: '2026-10-10'
+sources:
+ - name: Compute Comparison export methodology
+   access_url: https://computecomparison.com/methodology.yml
