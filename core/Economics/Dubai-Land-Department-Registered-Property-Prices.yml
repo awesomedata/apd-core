@@ -1,0 +1,36 @@
+---
+title: Dubai Land Department Registered Property Prices
+homepage: https://dubaidiligence.com/data
+category: Economics
+description: Registered residential sale prices and rents for every Dubai community, compiled from the Dubai Land Department transaction record. One row per community with 12-month and all-time registered sale counts, median price per square foot, gross rental yield computed from registered Ejari tenancy contracts against registered sale prices, and the off-plan share of sales. Figures are registered transactions rather than advertised asking prices, and cover homes only: land, whole buildings, offices, shops and hotel inventory are excluded, as are mortgage and gift registrations, which record a loan amount or a nominal figure rather than a price. The source portal requires a CAPTCHA for each query and offers no bulk download, so this is published as a single file instead. A monthly mix-adjusted house price index derived from the same record is published alongside it with its full method.
+version: 1.0.0
+keywords: real estate, property prices, housing, rental yield, Dubai, United Arab Emirates, land registry, transactions, open data
+temporal: 2024-2026 rolling, updated daily
+spatial: Dubai, United Arab Emirates (170 communities)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://dubaidiligence.com/methodology
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Dubai Diligence
+    web: https://dubaidiligence.com
+organization:
+  - name: Dubai Diligence
+    web: https://dubaidiligence.com
+issued_time: 2026.10
+sources:
+  - name: Community prices and yields (CSV)
+    access_url: https://dubaidiligence.com/data/areas.csv
+  - name: Community prices and yields (JSON)
+    access_url: https://dubaidiligence.com/data/areas.json
+  - name: Dubai house price index, full monthly series (CSV)
+    access_url: https://dubaidiligence.com/dubai-house-price-index/series.csv
+references:
+  - title: Methodology and definitions
+    reference: https://dubaidiligence.com/methodology
+  - title: Index method, base period and revision policy
+    reference: https://dubaidiligence.com/dubai-house-price-index
