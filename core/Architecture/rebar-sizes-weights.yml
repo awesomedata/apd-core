@@ -1,0 +1,31 @@
+---
+title: Rebar Sizes, Weights and Areas (US and Metric)
+homepage: https://github.com/rebarcount/rebar-data
+category: Architecture
+description: Nominal sizes, unit weights and cross-sectional areas of reinforcing bar (rebar) for US sizes #3-#18 and metric sizes 10-40 mm, published as CSV, with a dependency-free Python estimator for rectangular rebar grids.
+version: 1.0
+keywords: rebar, reinforcing bar, steel reinforcement, construction, structural engineering, CSV
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: https://github.com/rebarcount/rebar-data
+language: en
+license: MIT License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: rebarcount
+    web: https://rebarcount.com
+issued_time: 2026.10
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
