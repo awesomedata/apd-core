@@ -1,0 +1,33 @@
+---
+title: Speed Radars Announced in Spain (Radares Anunciados)
+homepage: https://github.com/GeiserX/radares-anunciados-ha
+category: Transportation
+description: Open GeoJSON feed, rebuilt on a 6-hour schedule, of the speed radars announced in Spain. It gathers the fixed, section and mobile radars published by the DGT, the Servei Català de Trànsit, the Basque and Navarra governments and the councils of Madrid, Salamanca, Donostia, Murcia and León, plus the speed cameras mapped in OpenStreetMap. Every radar is a point and every watched stretch a line, each with its source, attribution and link, and with its speed limit where the source gives one. About 4,500 features in October 2026.
+version:
+keywords: Spain, speed cameras, radars, traffic enforcement, road safety, GeoJSON, DGT, OpenStreetMap
+image:
+temporal: 2026-present
+spatial: Spain
+access_level: public
+copyrights: Radares Anunciados, © OpenStreetMap contributors and the sources listed in LICENSE-DATA.md
+accrual_periodicity: every 6 hours (scheduled)
+specification: https://github.com/GeiserX/radares-anunciados-ha/blob/main/docs/how-it-works.md#the-published-feed
+data_quality:
+data_dictionary:
+language: es
+license: ODbL 1.0
+publisher:
+  - name: GeiserX
+    web: https://github.com/GeiserX
+organization:
+issued_time: 2026-10-02
+sources:
+  - name: feed.geojson
+    access_url: https://geiserx.github.io/radares-anunciados-ha/feed.geojson
+  - name: status.json (per-source status and record counts)
+    access_url: https://geiserx.github.io/radares-anunciados-ha/status.json
+references:
+  - title: Sources, licences and cadence
+    reference: https://github.com/GeiserX/radares-anunciados-ha/blob/main/docs/sources.md
+  - title: Data licence and per-source attribution
+    reference: https://github.com/GeiserX/radares-anunciados-ha/blob/main/LICENSE-DATA.md
