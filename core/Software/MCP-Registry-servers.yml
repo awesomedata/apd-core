@@ -1,0 +1,33 @@
+---
+title: MCP Registry servers
+homepage: https://huggingface.co/datasets/tanod/mcp-registry-servers
+category: Software
+description: One row per server in the official Model Context Protocol (MCP) Registry (41,606 servers in the 2026-10-10 snapshot), with status, remote endpoint types, package registries, repository URL and first-seen date, plus an aggregate stats JSON and the report State of the MCP Registry. Refreshed by script from a daily index.
+version: 1.0
+keywords: Model Context Protocol, MCP, registry, AI agents, MCP servers, package registries
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/tanod/mcp-registry-servers
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tanod
+    web: https://tanod.dev/
+organization:
+  - name: Tanod
+    web: https://tanod.dev/
+issued_time: 2026.10
+sources:
+  - name: Servers (CSV)
+    access_url: https://huggingface.co/datasets/tanod/mcp-registry-servers
+  - name: Aggregate stats (JSON)
+    access_url: https://tanod.dev/data/mcp-registry-stats.json
+references:
+  - title: State of the MCP Registry
+    reference: https://tanod.dev/learn/state-of-mcp-registry.html
