@@ -2,7 +2,7 @@
 title: Speed Radars Announced in Spain (Radares Anunciados)
 homepage: https://github.com/GeiserX/radares-anunciados-ha
 category: Transportation
-description: Open GeoJSON feed, rebuilt on a 6-hour schedule, of the speed radars announced in Spain. It gathers the fixed, section and mobile radars published by the DGT, the Servei Català de Trànsit, the Basque and Navarra governments and the councils of Madrid, Salamanca, Donostia, Murcia and León, plus the speed cameras mapped in OpenStreetMap. Every radar is a point and every watched stretch a line, each with its source, attribution, limit and link. About 4,500 features in October 2026.
+description: Open GeoJSON feed, rebuilt on a 6-hour schedule, of the speed radars announced in Spain. It gathers the fixed, section and mobile radars published by the DGT, the Servei Català de Trànsit, the Basque and Navarra governments and the councils of Madrid, Salamanca, Donostia, Murcia and León, plus the speed cameras mapped in OpenStreetMap. Every radar is a point and every watched stretch a line, each with its source, attribution and link, and with its speed limit where the source gives one. About 4,500 features in October 2026.
 version:
 keywords: Spain, speed cameras, radars, traffic enforcement, road safety, GeoJSON, DGT, OpenStreetMap
 image:
