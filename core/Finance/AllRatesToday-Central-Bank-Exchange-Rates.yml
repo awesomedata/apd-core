@@ -1,0 +1,34 @@
+---
+title: Central Bank Exchange Rates (121 central banks and tax authorities)
+homepage: https://github.com/AllRates-Today/central-bank-exchange-rates
+category: Finance
+description: Official exchange rates as published by 121 central banks and tax authorities (ECB, Federal Reserve H.10, Bank of England, RBI, PBoC, HMRC, US Treasury and more), one CSV per institution, 15M+ rows, oldest series from 1914, refreshed daily. Direct download, no signup, CC BY 4.0. Mirrors on Hugging Face and Kaggle.
+version:
+keywords:
+  - exchange rates
+  - central bank
+  - forex
+  - currency
+  - official rates
+  - time series
+image:
+temporal: 1914 to present
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://github.com/AllRates-Today/central-bank-exchange-rates#schema
+language: en
+license: CC BY 4.0
+publisher: AllRatesToday
+organization:
+issued_time:
+sources:
+  - name: GitHub (CSV and JSON, jsDelivr CDN)
+    access_url: https://github.com/AllRates-Today/central-bank-exchange-rates
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/AllRates/central-bank-exchange-rates
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates
