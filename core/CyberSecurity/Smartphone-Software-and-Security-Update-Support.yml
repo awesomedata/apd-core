@@ -1,0 +1,31 @@
+---
+title: Smartphone Software and Security Update Support
+homepage: https://www.kaggle.com/datasets/ferozsheikh1/smartphone-software-and-security-update-support
+category: CyberSecurity
+description: Open dataset of smartphone OS-upgrade commitments and security-update end dates for 700+ models across 17 brands, with linked manufacturer sources and per-model DevLifeCheck URLs. CSV/JSON; CC BY 4.0.
+version: 1.0
+keywords: smartphone, android, security updates, eol, patch, mobile, samsung, google pixel
+image:
+temporal: 2019-2033
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Feroz Sheikh / DevLifeCheck
+    web: https://devlifecheck.com/developers
+organization:
+  - name: DevLifeCheck
+    web: https://devlifecheck.com
+issued_time: 2026.09
+sources:
+  - name: Kaggle dataset (CSV/JSON)
+    access_url: https://www.kaggle.com/datasets/ferozsheikh1/smartphone-software-and-security-update-support
+references:
+  - title: DevLifeCheck developer / API overview
+    reference: https://devlifecheck.com/developers
