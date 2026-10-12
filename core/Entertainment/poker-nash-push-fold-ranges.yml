@@ -1,0 +1,24 @@
+---
+title: Poker Nash Push/Fold Ranges (6-max and 9-max)
+homepage: https://github.com/hasuwini77/push-fold-ranges
+category: Entertainment
+description: Chip-EV Nash shove frequency for all 169 hold'em hand classes at every seat in 6-max and 9-max, 1 to 25 big blinds. JSON and CSV, CC BY 4.0, downloadable straight from the repository with no login.
+version: 1.0
+keywords: poker, game theory, nash equilibrium, tournament poker
+image:
+temporal:
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://www.rangemyhand.com/methodology
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: RangeMyHand
+    web: https://www.rangemyhand.com
+organization:
+issued_time: 2026.10
+sources: []
