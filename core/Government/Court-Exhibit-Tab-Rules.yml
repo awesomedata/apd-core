@@ -1,0 +1,23 @@
+---
+title: "Court Exhibit Tab Rules"
+homepage: https://github.com/anselmoindex/custom-index-tab-prices
+category: Government
+description: "Court rules on exhibit and appendix tabs compiled from the courts' own published rules, one row per rule with the verbatim quote, the official source URL and the date it was checked. Covers state and federal courts and appellate circuits, immigration court and the Board of Immigration Appeals, including the courts that ban protruding tabs. CSV, with a plain-language guide. Not legal advice."
+version: 1.0
+keywords: court rules, exhibit tabs, appendix tabs, court filings, immigration court, local rules
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tabzoola (Anselmo Die & Index)
+    web: https://tabzoola.com
+organization:
+  - name: Anselmo Die & Index, Inc., Schaumburg, Illinois
+    web: https://www.anselmoindex.com
+issued_time: 2026.10
+sources:
+  - name: Court tab rules (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/court-tab-rules.csv
+references:
+  - title: Guide, court by court
+    reference: https://tabzoola.com/guides/court-exhibit-tab-rules
