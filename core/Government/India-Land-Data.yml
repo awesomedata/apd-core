@@ -1,0 +1,25 @@
+---
+title: India Land Data
+homepage: https://github.com/Vyzma-AI/india-land-data
+category: Government
+description: Official land-record and property-registration portals for 11 Indian states (23 government portals, each checked from an Indian connection, replaced portals removed), and 20 Indian land area units (acre, gunta, cent, ground, ankanam, state-level bigha, katha, kanal and marla) defined in square metres with sources.
+version: 1.0
+keywords: India, land records, property registration, land area units, bigha, gunta, real estate, government portals
+temporal: 2026
+spatial: India
+access_level: public
+data_quality: true
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Agriva (Vyzma AI Private Limited)
+    web: https://www.agriva.ai/
+organization:
+  - name: Agriva (Vyzma AI Private Limited)
+    web: https://www.agriva.ai/
+issued_time: 2026-10-12
+sources:
+  - name: Land record and registration portals (JSON)
+    access_url: https://raw.githubusercontent.com/Vyzma-AI/india-land-data/master/data/land-record-portals.json
+  - name: Land area units (JSON)
+    access_url: https://raw.githubusercontent.com/Vyzma-AI/india-land-data/master/data/land-units.json
