@@ -1,0 +1,27 @@
+---
+title: "Most-Ordered Index Tab Titles, 1996 to 2026"
+homepage: https://github.com/anselmoindex/custom-index-tab-prices
+category: InterDisciplinary
+description: "What people actually print on index tabs, from a US tab manufacturer's own production records. 924 tab titles ordered by three or more different companies, drawn from 68,984 printed tabs on 5,823 jobs for 804 companies, 1996 to 2026, with the typical position of each title in a set, the complete tab sets that several companies ordered alike, and how titles rose and fell by decade (manual headings fell; loan, insurance and estate client-file titles rose). Aggregated; no customer is identifiable. CSV."
+version: 1.0
+keywords: tab titles, document organization, binder sections, file labels, business documents, trends
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tabzoola (Anselmo Die & Index)
+    web: https://tabzoola.com
+organization:
+  - name: Anselmo Die & Index, Inc., Schaumburg, Illinois
+    web: https://www.anselmoindex.com
+issued_time: 2026.10
+sources:
+  - name: Most-ordered tab titles (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/most-ordered-tab-titles.csv
+  - name: Most-ordered tab sets (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/most-ordered-tab-sets.csv
+  - name: Tab title trends by decade (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/tab-title-trends.csv
+references:
+  - title: Tabzoola open data hub
+    reference: https://tabzoola.com/open-data
