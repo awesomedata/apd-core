@@ -1,0 +1,25 @@
+---
+title: "Custom Index Tab Prices and Binder Capacity"
+homepage: https://github.com/anselmoindex/custom-index-tab-prices
+category: Economics
+description: "Published price list for custom printed index tab dividers from a US manufacturer (Tabzoola, made by Anselmo Die & Index, Schaumburg, Illinois): paper and poly sets of 3 to 25 tabs at 25 to 1,000 sets, plain and binder-ready, per set and per order in USD with setup included, generated from the pricing engine its checkout uses. Also binder capacity (sheets per ring size, round and D-ring, on 20, 24 and 28 lb paper) and ready-made section lists by binder type. Available as CSV with a README, CITATION.cff and a Zenodo DOI."
+version: 1.0
+keywords: index tabs, tab dividers, binder tabs, custom printing prices, binder capacity, price list
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tabzoola (Anselmo Die & Index)
+    web: https://tabzoola.com
+organization:
+  - name: Anselmo Die & Index, Inc., Schaumburg, Illinois
+    web: https://www.anselmoindex.com
+issued_time: 2026.09
+sources:
+  - name: Custom index tab prices (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/custom-index-tab-prices.csv
+  - name: Binder capacity (CSV)
+    access_url: https://raw.githubusercontent.com/anselmoindex/custom-index-tab-prices/main/binder-capacity.csv
+references:
+  - title: Archived release with DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.23253693
