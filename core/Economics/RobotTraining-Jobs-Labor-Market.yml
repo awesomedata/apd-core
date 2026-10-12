@@ -1,0 +1,35 @@
+---
+title: Robot-Training Labor Market (RobotTraining.jobs)
+homepage: https://zenodo.org/records/22900802
+category: Economics
+description: Dated snapshots of the paid robot-training job market, compiled from the public careers pages and hiring feeds of robotics, self-driving and drone employers. Open roles and median advertised hourly pay by kind of work (teleoperation, demonstration recording, egocentric video capture, robot fleet operations, AV and drone test operation) and by employer, with methodology. Live aggregates are published daily as JSON.
+version: 1.0
+keywords: jobs, job postings, labor market, wages, hourly pay, robotics, teleoperation, embodied ai, autonomous vehicles, drones
+image:
+temporal: 2026-
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://zenodo.org/records/22900802
+language: en
+license: CC BY 4.0
+publisher:
+  - name: RobotTraining.jobs
+    web: https://robottraining.jobs
+organization:
+  - name: RobotTraining.jobs
+    web: https://robottraining.jobs
+issued_time: 2026.09
+sources:
+  - name: Dataset on Zenodo (CSV snapshots, raw JSON, methodology; DOI 10.5281/zenodo.22900802)
+    access_url: https://zenodo.org/records/22900802
+  - name: Live pay aggregates (JSON, no key required)
+    access_url: https://robottraining.jobs/pay.json
+  - name: Live open-role aggregates (JSON, no key required)
+    access_url: https://robottraining.jobs/roles.json
+references:
+  - title: Robot-training jobs report
+    reference: https://robottraining.jobs/robot-training-jobs-report
