@@ -1,0 +1,33 @@
+---
+title: Bitcoin Barometer Heat Score
+homepage: https://nakamotonotes.com/open
+category: Finance
+description: Daily Heat Score (0-100) and zone (Chill, Neutral, Heated, Euphoric) combining 8 Bitcoin market-cycle indicators, from 2014-01-01 to today. The on-chain inputs (MVRV-Z, NUPL, Puell Multiple) are computed from the publisher's own Bitcoin full node. Describes where current readings sit against their own history; it does not forecast price. Free JSON feed and daily CSV, no key or sign-up.
+version: 1.0
+keywords: bitcoin, market cycle, on-chain, MVRV, NUPL, Puell Multiple, heat score, time series
+image:
+temporal: 2014-2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://github.com/multiassist/bitcoin-barometer/blob/main/openapi.yaml
+data_quality: true
+data_dictionary: https://nakamotonotes.com/methodology
+language: en
+license: CC BY 4.0
+publisher:
+  - name: NakamotoNotes
+    web: https://nakamotonotes.com
+organization:
+  - name: Multiway Beheer B.V.
+    web: https://nakamotonotes.com
+issued_time: 2026.10
+sources:
+  - name: Daily history (CSV)
+    access_url: https://nakamotonotes.com/open/barometer-history.csv
+  - name: Current reading (JSON)
+    access_url: https://nakamotonotes.com/open/barometer.json
+references:
+  - title: Methodology
+    reference: https://nakamotonotes.com/methodology
