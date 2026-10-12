@@ -1,0 +1,27 @@
+---
+title: Extremal Values Registry
+homepage: https://github.com/extremal-values-registry/extremal-values-registry
+category: InterDisciplinary
+description: Best-known values for 322 extremal mathematics problem variants, each with its exact definition, current best value, date, primary source and the chain of earlier values it superseded, plus the names benchmarks use for the same variant.
+version: 0.1.0
+keywords: mathematics, extremal problems, best-known bounds, benchmarks, provenance
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Extremal Values Registry maintainers
+    web: https://github.com/extremal-values-registry/extremal-values-registry
+organization:
+issued_time: 2026.10
+sources:
+  - name: Extremal Values Registry and its audit data
+    access_url: https://github.com/extremal-values-registry/extremal-values-registry
+references:
