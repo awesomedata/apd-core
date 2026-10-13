@@ -1,0 +1,35 @@
+---
+title: VPS and Proxy List Prices by Country
+homepage: https://github.com/Simpix/researched-prices
+category: Economics
+description: Public list prices for VPS/VDS hosting and paid proxies as published on each provider's own pricing page between 2026-08-30 and 2026-09-24. Two CSV files with a Frictionless datapackage.json - 603 VPS offers from 25 providers in 32 countries (1,686 plan-by-country rows with vCPU, RAM, disk, traffic, port speed and price in the original currency and USD) and 455 proxy price rows (86 product lines, 31 brands, 4 proxy types). A curated list, not the whole market; providers were selected mostly for relevance to Russian-speaking buyers.
+version: 2026.10.1
+keywords: VPS, VDS, hosting, proxy, pricing, price comparison, list prices, cloud computing, infrastructure
+image:
+temporal: 2026-08-30 to 2026-09-24
+spatial: 32 hosting countries
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification: https://github.com/Simpix/researched-prices/blob/main/datapackage.json
+data_quality: false
+data_dictionary: https://github.com/Simpix/researched-prices/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: researched.xyz
+    web: https://researched.xyz/en/vps
+organization:
+  - name: researched.xyz
+    web: https://researched.xyz/en/vps
+issued_time: 2026.10
+sources:
+  - name: Dataset on GitHub (vps-plans.csv, proxy-prices.csv)
+    access_url: https://github.com/Simpix/researched-prices
+  - name: Zenodo (DOI 10.5281/zenodo.23266602)
+    access_url: https://doi.org/10.5281/zenodo.23266602
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/researchedxyz/vps-and-proxy-list-prices-2026
+references:
+  - title: Changelog
+    reference: https://github.com/Simpix/researched-prices/blob/main/CHANGELOG.md
