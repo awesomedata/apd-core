@@ -1,0 +1,50 @@
+---
+title: AI Video Model Free-Tier Observations
+homepage: https://videofreetier.com/data/
+category: MachineLearning
+description: >-
+  117 dated observations of what twelve AI video models grant on their free tiers, one row per figure.
+  Each row carries the channel it was observed on, the date it was observed, and whether the source was
+  a vendor statement or a report. Covered metrics include daily credit grants and daily generation caps
+  per channel, sign-up bonuses and launch promotions, maximum single-clip length, extension ceilings,
+  output resolution as stated by the vendor versus as advertised by hosts, watermark behaviour on free
+  and paid tiers, API availability and error codes seen in practice, the measured credit cost of one
+  generation, and product discontinuations. Where two observations disagree both are retained rather
+  than averaged. Rows where nothing is published record the absence instead of a guess. No value is
+  estimated or interpolated.
+version: 2.0
+keywords: AI video, free tier, text-to-video, image-to-video, video generation, credits, daily cap, watermark, Seedance 2.5, Wan 2.5, PixVerse, Runway, Kling AI, Veo 3.1, Grok Imagine, Sora 2, Hailuo AI, Luma Dream Machine, Invideo AI, Canva
+image:
+temporal: 2026-07-04 to 2026-10-08
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://videofreetier.com/data/
+language: en
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org/records/23260883
+organization:
+  - name: VideoFreeTier
+    web: https://videofreetier.com/
+issued_time: 2026.10
+sources:
+  - name: CSV (direct download)
+    access_url: https://videofreetier.com/data/seedance-2-5-free-tiers.csv
+  - name: JSON (direct download)
+    access_url: https://videofreetier.com/data/seedance-2-5-free-tiers.json
+  - name: GitHub repository
+    access_url: https://github.com/nicoleiszsy/seedance-2-5-free-tier-data
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/videofreetier/seedance-2-5-free-tier-data
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/videofreetier/seedance-2-5-free-tier-data
+  - name: Zenodo DOI
+    access_url: https://doi.org/10.5281/zenodo.23260883
+references:
+  - title:
+    reference:
