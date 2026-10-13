@@ -1,0 +1,34 @@
+---
+title: Codex Reset History
+homepage: https://codex-reset.com/timeline
+category: Software
+description: >-
+  Event-level history of Codex usage-limit reset announcements and banked reset
+  grants since September 17, 2025. Distinguishes immediate resets from credits
+  for later use, with stable event IDs, UTC announcement times, source-post
+  links, provenance labels, banked-grant state, and English summaries. Events
+  come from public posts by Thibault Sottiaux or, where explicitly labeled
+  observed, the publisher's monitoring accounts. Direct CSV and JSON downloads
+  require no account. This is an independent, manually reviewed announcement
+  archive, not account-level usage telemetry or an official OpenAI dataset.
+keywords: Codex, OpenAI, usage limits, reset announcements, banked resets, event history
+temporal: 2025-09-17 onward
+access_level: public
+accrual_periodicity: event-driven
+specification: https://codex-reset.com/data/datapackage.json
+data_dictionary: https://codex-reset.com/data/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Codex Reset
+    web: https://codex-reset.com/
+sources:
+  - name: Event-level CSV
+    access_url: https://codex-reset.com/data/codex-resets.csv
+  - name: Event-level JSON with metadata
+    access_url: https://codex-reset.com/data/codex-resets.json
+references:
+  - title: Source posts by Thibault Sottiaux
+    reference: https://x.com/thsottiaux
+  - title: Scope, methodology, corrections, and attribution
+    reference: https://codex-reset.com/timeline
