@@ -1,0 +1,37 @@
+---
+title: US Dog and Cat Food Recalls (FDA, 2012 onward)
+homepage: https://github.com/perbowl/pet-food-recalls
+category: Government
+description: Every dog and cat food recall the US Food and Drug Administration has classified since June 2012, one row per recall event and one per recalled product, with initiated, classified and terminated dates, recall class, firm, reason category, species, lot codes for every product and barcodes (UPC/EAN) where FDA's product text gives them. Rows FDA files under veterinary products that were left out (animal drugs, livestock feed, food for other animals) are published with the reason, so the filter can be audited. Released monthly as CSV with a Frictionless datapackage.json and CITATION.cff.
+version: 2026-10-10
+keywords: pet food, dog food, cat food, recalls, food safety, FDA, enforcement reports, lot codes, salmonella
+image:
+temporal: 2012-
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0 for the compiled dataset and PerBowl's additions; the FDA source fields are US public domain
+accrual_periodicity: monthly
+specification: https://github.com/perbowl/pet-food-recalls/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/perbowl/pet-food-recalls/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PerBowl
+    web: https://perbowl.com/
+organization:
+  - name: PerBowl
+    web: https://perbowl.com/
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (recalls.csv, products.csv, recall_brands.csv, recall_traces.csv, excluded.csv)
+    access_url: https://github.com/perbowl/pet-food-recalls
+  - name: Zenodo archive with DOI 10.5281/zenodo.23255873 (all versions)
+    access_url: https://doi.org/10.5281/zenodo.23255873
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/greencalculus/us-dog-and-cat-food-recalls-fda
+references:
+  - title: Dataset page with column guide and how to cite
+    reference: https://perbowl.com/recalls/dataset/
+  - title: FDA Enforcement Reports (source)
+    reference: https://www.accessdata.fda.gov/scripts/ires/
