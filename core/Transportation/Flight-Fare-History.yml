@@ -1,0 +1,28 @@
+---
+title: Flight Fare History (observed airfare distributions by route and month)
+homepage: https://doi.org/10.5281/zenodo.23290391
+category: Transportation
+description: CC BY 4.0 aggregates of 2.3 million observed one-way airfares on
+  75,682 city pairs, collected continuously since June 2026. For each route and
+  departure month it gives the price distribution (median, 10th percentile,
+  minimum, number of observations) that a live flight search cannot show.
+  Prices in EUR; only route-months with at least 5 observations are published.
+  Mirrored on Kaggle, Hugging Face and GitHub; updated monthly. Explorer at
+  https://piratefly.com/research/when-to-book-flights
+version:
+keywords: airfare,flight prices,aviation,travel,price distribution
+image:
+temporal: 2026-
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher: Zenodo
+organization: Piratefly
+issued_time: 2026-10-11
+sources: []
