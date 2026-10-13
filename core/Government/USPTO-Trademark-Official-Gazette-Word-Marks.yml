@@ -1,0 +1,31 @@
+---
+title: USPTO Trademark Official Gazette word marks (parsed, weekly-updated)
+homepage: https://huggingface.co/datasets/APProjects/uspto-trademark-gazette-word-marks
+category: Government
+description: Every word mark published for opposition or registered in the weekly USPTO Trademark Official Gazette, parsed from the official ST.96 XML issues into one flat CSV (serial number, mark text, event, Gazette date, filing date, Nice classes, owner, USPTO status code). The Hugging Face mirror is a rolling ~120-day window refreshed after every Tuesday issue; a permanent immutable CSV per issue is kept on GitHub. Design-only marks (no verbal element) are excluded. CC0, no login, pandas / load_dataset ready. Source pipeline (stdlib Python) and a benchmarked name-similarity matcher are open source.
+version: 1.0
+keywords: trademarks, USPTO, official gazette, intellectual property, brand names, opposition, public records, entity matching
+image:
+temporal: 2026-
+spatial: United States
+access_level: public
+copyrights: CC0 1.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/APProjects/uspto-trademark-gazette-word-marks#schema
+language: en
+license: CC0 1.0
+publisher:
+organization:
+issued_time: 2026.09
+sources:
+  - name: Rolling window, one CSV (Hugging Face)
+    access_url: https://huggingface.co/datasets/APProjects/uspto-trademark-gazette-word-marks/resolve/main/data/gazette_word_marks.csv
+  - name: Latest issue CSV + per-issue archive manifest (GitHub)
+    access_url: https://raw.githubusercontent.com/APVentureEngine/trademark-watch/main/data/manifest.json
+  - name: Upstream USPTO Gazette issue XML (ST.96)
+    access_url: https://tm-eog-service.uspto.gov/eog-rest-service/api/external/search/publications
+references:
+  - title: Pipeline source, parser and matcher benchmark
+    reference: https://github.com/APVentureEngine/trademark-watch
