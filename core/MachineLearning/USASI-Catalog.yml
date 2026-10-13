@@ -1,0 +1,43 @@
+---
+title: USASI Catalog of U.S. AI Organizations and Open Models
+homepage: https://huggingface.co/datasets/usasihq/usasi-catalog
+category: MachineLearning
+description: >-
+  Snapshot of an independent, sourced catalog of American AI work, as three CSV
+  tables: 150 U.S. AI organizations (companies, labs, research units,
+  universities, and nonprofits), 270 U.S.-led open models, software, datasets,
+  and evaluation tools, and 46 dated news items. Artifact rows give type,
+  maintainers, availability, licenses, release date, and last review date;
+  organization rows give headquarters, roles, sectors, ownership, and the open
+  artifacts each maintains. Every row links to its record page, where each
+  statement cites a primary source (model card, license file, repository,
+  filing) with the date it was read. CC BY 4.0, direct download, no login.
+version: "2026-10-11"
+keywords: artificial intelligence, open models, open-weight models, AI organizations, model licenses, open source AI, United States, catalog
+temporal: 2026 (snapshot)
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_dictionary: https://huggingface.co/datasets/usasihq/usasi-catalog
+language: en
+license: CC BY 4.0
+publisher:
+  - name: USASI (United States of America Superintelligence)
+    web: https://unitedstatesofamericasuperintelligence.com
+organization:
+  - name: USASI (United States of America Superintelligence)
+    web: https://unitedstatesofamericasuperintelligence.com
+issued_time: 2026.10
+sources:
+  - name: Artifacts table (CSV)
+    access_url: https://huggingface.co/datasets/usasihq/usasi-catalog/resolve/main/artifacts.csv
+  - name: Organizations table (CSV)
+    access_url: https://huggingface.co/datasets/usasihq/usasi-catalog/resolve/main/organizations.csv
+  - name: News table (CSV)
+    access_url: https://huggingface.co/datasets/usasihq/usasi-catalog/resolve/main/news.csv
+  - name: Current full catalog with sources (JSON)
+    access_url: https://unitedstatesofamericasuperintelligence.com/data/catalog.json
+references:
+  - title: Methodology and openness rubric
+    reference: https://unitedstatesofamericasuperintelligence.com/methodology/
