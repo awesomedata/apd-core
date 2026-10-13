@@ -1,0 +1,29 @@
+---
+title: India Cost Index 2026 - Middle-Class Milestones (PaisaTools)
+homepage: https://github.com/nils44344/india-cost-index
+category: Economics
+description: What 40 milestones of a middle-class Indian life cost in 2026 (coaching and college, weddings and childbirth, festivals, a home and vehicle, retirement, starting a business). Each row is a low-high rupee range with its exact scope, the basis (total, per year, per month), any cheaper public route, and a source URL to the full cost breakdown. CSV under CC BY 4.0.
+version: 2026
+keywords: cost of living, India, education costs, wedding cost, household finance, personal finance, rupee
+image:
+temporal: 2026
+spatial: India
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification: https://github.com/nils44344/india-cost-index#how-its-built
+data_quality: true
+data_dictionary: https://github.com/nils44344/india-cost-index#the-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PaisaTools
+    web: https://paisatools.co.in
+organization:
+issued_time: 2026-09-15
+sources:
+  - title: PaisaTools cost guides (published fee schedules, regulator rules, market quotes)
+    reference: https://paisatools.co.in/cost-index
+references:
+  - title: Live index with breakdowns
+    reference: https://paisatools.co.in/cost-index
