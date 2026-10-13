@@ -1,0 +1,35 @@
+---
+title: "Antics Party Data: How Groups Play Party Games"
+homepage: https://github.com/GMAntics/party-data
+category: Entertainment
+description: Party start times by hour (UK time), parties by night of the week, games per party, the share of parties playing each game, truth versus dare picks in Truth or Dare, and card skip rates and median seconds on screen by game, from parties played on Antics, a pass-the-phone party game app, between 26 August and 4 October 2026. One CSV with one row per figure, each carrying its date window and counting rule, plus five charts and a Frictionless datapackage.json. Anonymous aggregates only (shares, indexes, ratios and medians), with no counts and no personal data.
+version: "2026-10"
+keywords: party games, party game statistics, mobile games, player behaviour, game analytics, truth or dare, never have I ever, would you rather, time of day, day of week, csv
+image: https://raw.githubusercontent.com/GMAntics/party-data/main/charts/party-start-time.png
+temporal: 2026-08-26 to 2026-10-04
+spatial: Mostly the UK and Ireland (all times in UK clock time)
+access_level: public
+copyrights: Antics App Ltd; the data and charts are released under CC BY 4.0.
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/GMAntics/party-data#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Antics App Ltd
+    web: https://anticsapp.com/
+organization:
+  - name: Antics App Ltd
+    web: https://anticsapp.com/
+issued_time: 2026.10.05
+sources:
+  - name: antics-party-data-2026-10.csv (CSV download)
+    access_url: https://raw.githubusercontent.com/GMAntics/party-data/main/data/antics-party-data-2026-10.csv
+  - name: datapackage.json (Frictionless Data Package)
+    access_url: https://raw.githubusercontent.com/GMAntics/party-data/main/datapackage.json
+references:
+  - title: How each figure was counted (methodology)
+    reference: https://github.com/GMAntics/party-data#how-it-was-counted
+  - title: What the data cannot tell you (limitations)
+    reference: https://github.com/GMAntics/party-data#what-it-cant-tell-you
