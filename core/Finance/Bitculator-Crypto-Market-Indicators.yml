@@ -1,0 +1,39 @@
+---
+title: Bitculator Crypto Market Indicators - Daily Fear and Greed, Technical Verdicts, Altseason and Exchange Trust Scores
+homepage: https://doi.org/10.5281/zenodo.23304318
+category: Finance
+description: >-
+  Daily history of four crypto market indicators as CSV files with a README:
+  the Fear and Greed index (0 to 100, 7-day and 30-day) for the whole market and
+  134 coins; a bullish, bearish or neutral technical verdict per coin from up to
+  25 indicator readings, with the market breadth behind it; the altseason count
+  (how many of the other top-100 coins beat Bitcoin over 7, 30 and 90 days); and a
+  0 to 10 trust score snapshot for 16 exchanges. Each formula change is
+  marked in a method column. All files download from Zenodo with no login and no
+  API key; later versions keep the same concept DOI.
+version: "2026-10-13"
+keywords: cryptocurrency, fear and greed index, market sentiment, technical analysis, altseason, market breadth, exchange trust score, bitcoin, time series, csv
+image:
+temporal: 2025-07-21 / 2026-10-13
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://zenodo.org/records/23375302/files/README.md
+data_quality: false
+data_dictionary: https://zenodo.org/records/23375302/files/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Bitculator
+    web: https://bitculator.com
+organization:
+  - name: Bitculator
+    web: https://bitculator.com
+issued_time: 2026.10
+sources:
+  - name: Zenodo record (CSV files and README)
+    access_url: https://zenodo.org/records/23375302
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
