@@ -1,0 +1,32 @@
+---
+title: Startup Hiring Dataset
+homepage: https://github.com/benkrasin/startup-hiring-data
+category: Economics
+description: Monthly snapshot of open job postings at venture-backed tech companies, pulled from each company's own public Greenhouse, Lever and Ashby job-board APIs. The 2026-10-14 pull covers 32,510 open roles at 390 companies. Free files are a 100-row posting sample (title, department, team, location, remote flag, employment type, posting date, apply URL, salary range where published), a 25-company preview of open roles by function (engineering, sales, marketing, data, security, AI/ML and more), and a written monthly report. A larger full file is sold separately; the free files listed here need no login or purchase.
+version: 2026.10
+keywords: job postings, hiring, labor market, startups, venture capital, tech jobs, recruiting, salaries, remote work, economics
+temporal: 2026-10-14 snapshot, monthly
+spatial: Global (mostly United States)
+access_level: public
+copyrights: CC BY 4.0 (free files)
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://github.com/benkrasin/startup-hiring-data#readme
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Startup Hiring Dataset
+    web: https://benkrasin.github.io/startup-hiring-data/
+organization:
+  - name: Startup Hiring Dataset
+    web: https://benkrasin.github.io/startup-hiring-data/
+issued_time: 2026.10
+sources:
+  - name: 100-row posting sample CSV
+    access_url: https://raw.githubusercontent.com/benkrasin/startup-hiring-data/main/sample-100.csv
+  - name: Company-level open roles by function CSV
+    access_url: https://raw.githubusercontent.com/benkrasin/startup-hiring-data/main/company-signals-sample.csv
+references:
+  - title: Monthly report, October 2026
+    reference: https://benkrasin.github.io/startup-hiring-data/report-2026-10.html
