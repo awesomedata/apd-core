@@ -1,0 +1,37 @@
+---
+title: BJJGraph
+homepage: https://github.com/diogoseca/bjjgraph
+category: Sports
+description: "Brazilian jiu-jitsu as a directed graph: 133 positions, each with a top and a bottom side, and 1,315 techniques (1,025 transitions and 290 submissions). Every edge carries an authored attempt probability and a success, failure or counter outcome distribution, separately for gi and no-gi. The probabilities are estimates, not match statistics. One JSON file with every release."
+version:
+keywords: Brazilian jiu-jitsu, BJJ, grappling, martial arts, knowledge graph, state machine, transition probabilities, gi, no-gi
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: https://github.com/diogoseca/bjjgraph/blob/main/docs/Architecture.md
+data_quality: true
+data_dictionary: https://github.com/diogoseca/bjjgraph#the-data
+language: en
+license: PolyForm Noncommercial 1.0.0 (source-available)
+publisher:
+  - name: Diogo Seca
+    web: https://github.com/diogoseca
+organization:
+  - name: BJJGraph
+    web: https://bjjgraph.org
+issued_time:
+sources:
+  - name: Full graph, latest release (graph.json, 50 MB, no login)
+    access_url: https://github.com/diogoseca/bjjgraph/releases/latest/download/graph.json
+  - name: Full graph, gzipped (7 MB)
+    access_url: https://github.com/diogoseca/bjjgraph/releases/latest/download/graph.json.gz
+  - name: Authored JSON source files
+    access_url: https://github.com/diogoseca/bjjgraph/tree/main/content
+references:
+  - title: Site built on the graph
+    reference: https://bjjgraph.org
+  - title: Licence
+    reference: https://github.com/diogoseca/bjjgraph/blob/main/LICENSE.md
