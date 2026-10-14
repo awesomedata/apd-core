@@ -1,0 +1,42 @@
+---
+title: Crypto Futures Fee Index (loweef)
+homepage: https://github.com/loweef/crypto-futures-fees
+category: Finance
+description: >-
+  Standard-tier (VIP 0) taker and maker fees for USDT-margined perpetual
+  futures on major crypto exchanges, one row per exchange. Each row carries
+  the date the fee was last checked against the exchange's official fee page
+  and a link to that page; rows older than the freshness window are dropped
+  at build time. latest.json and latest.csv are regenerated on every site
+  build, dated snapshots are kept only when the data changes, and
+  changelog.json records each change. Files download with no login.
+version: "2026.10.12"
+keywords: cryptocurrency, futures, perpetual swaps, trading fees, maker fee, taker fee, exchanges, csv, json
+image:
+temporal: 2026-10 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/loweef/crypto-futures-fees#readme
+data_quality: false
+data_dictionary: https://github.com/loweef/crypto-futures-fees#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: loweef
+    web: https://loweef.io/en/crypto-futures-fee-index/
+organization:
+  - name: loweef
+    web: https://github.com/loweef
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV and JSON)
+    access_url: https://github.com/loweef/crypto-futures-fees
+  - name: Latest CSV
+    access_url: https://loweef.io/data/fees/v1/latest.csv
+  - name: Latest JSON
+    access_url: https://loweef.io/data/fees/v1/latest.json
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
