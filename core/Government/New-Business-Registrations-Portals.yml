@@ -1,0 +1,54 @@
+---
+title: New Business Registrations Portals (US, UK, FR, PL)
+homepage: https://www.nynewbusinesses.com
+category: Government
+description: Free public portals listing newly registered businesses, updated daily from official public registers. Covers US state business filings (California, Colorado, Connecticut, Florida, New York, Ohio, Pennsylvania, Texas, Virginia), UK Companies House incorporations, French new company registrations, Polish KRS entries, plus new US contractor licenses and new USDOT numbers. No login required.
+version: 1.0
+keywords: company registry, new businesses, business formation, business registrations, open government data, USDOT, contractor licenses
+image:
+temporal: 2026
+spatial: United States, United Kingdom, France, Poland
+access level: public
+copyrights: Data from official public registers
+accrual periodicity: daily
+specification: HTML listings by day, region and company type
+data quality: false
+data dictionary:
+language: en
+license: Data from official public registers
+publisher:
+  - name: New Businesses portals
+    web: https://www.nynewbusinesses.com
+organization:
+  - name: New Businesses portals
+    web: https://www.nynewbusinesses.com
+issued time: 2026
+sources:
+  - name: California
+    access_url: https://canewbusinesses.com
+  - name: Colorado
+    access_url: https://coloradonewbusinesses.com
+  - name: Connecticut
+    access_url: https://connecticutnewbusinesses.com
+  - name: Florida
+    access_url: https://floridanewbusinesses.com
+  - name: New York
+    access_url: https://nynewbusinesses.com
+  - name: Ohio
+    access_url: https://ohionewbusinesses.com
+  - name: Pennsylvania
+    access_url: https://panewbusinesses.com
+  - name: Texas
+    access_url: https://txnewbusinesses.com
+  - name: Virginia
+    access_url: https://virginianewbusinesses.com
+  - name: United Kingdom
+    access_url: https://newcompanies.uk
+  - name: France
+    access_url: https://nouvelles-societes.fr
+  - name: Poland (KRS)
+    access_url: https://nowe-spolki.pl
+  - name: US contractor licenses
+    access_url: https://newcontractorlicenses.com
+  - name: US new USDOT numbers
+    access_url: https://newdotnumbers.com
