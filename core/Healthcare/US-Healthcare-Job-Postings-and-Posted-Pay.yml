@@ -1,0 +1,37 @@
+---
+title: US Healthcare Job Postings and Posted Pay (CareJobs.Now)
+homepage: https://carejobs.now/data
+category: Healthcare
+description: Open US healthcare jobs and the hourly pay employers post on them, read every day from the public career sites of about 270 hospitals, health systems, clinic groups and care employers. Counts of open jobs by kind of job (nursing, nursing assistants, physicians, NPs and PAs, therapy, imaging, lab, pharmacy and more), by employer and by US state, and the median and typical posted hourly rates per kind of job and state. JSON and CSV without login, plus a dated snapshot on Zenodo.
+version: 2026-10-15
+keywords: healthcare jobs, nursing, nurse pay, job postings, posted wages, labor market, healthcare workforce, hospitals
+image:
+temporal: 2026-10-15/
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://carejobs.now/data
+data_quality: true
+data_dictionary: https://raw.githubusercontent.com/yumaheymans/carejobs-mcp/main/openapi.yaml
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CareJobs.Now
+    web: https://carejobs.now
+organization:
+  - name: CareJobs.Now
+    web: https://carejobs.now
+issued_time: 2026.10
+sources:
+  - name: Posted pay by kind of job (JSON)
+    access_url: https://carejobs.now/pay.json
+  - name: Open jobs by kind of job and employer (JSON)
+    access_url: https://carejobs.now/roles.json
+  - name: Posted pay by kind of job (CSV)
+    access_url: https://carejobs.now/pay.csv
+  - name: Zenodo snapshot with state-level files (DOI 10.5281/zenodo.23395728)
+    access_url: https://doi.org/10.5281/zenodo.23395728
+references:
+  - title: CareJobs.Now healthcare pay research
+    reference: https://carejobs.now/research
