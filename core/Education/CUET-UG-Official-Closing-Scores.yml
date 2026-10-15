@@ -1,0 +1,30 @@
+---
+title: CUET (UG) Official Closing Scores, India, 2024-2026
+homepage: https://github.com/EduFarming/cuet-ug-cutoffs
+category: Education
+description: >-
+  84,210 official closing scores (cut-offs) for 742 undergraduate programmes at
+  43 universities admitting through India's Common University Entrance Test
+  (CUET UG), 2024-2026, by college, programme, round, category and seat type.
+  Every figure is copied from the university's own published allocation or merit
+  list and cites its source document and page (1,587 documents). Also includes
+  the CUET papers accepted by 6,259 programmes at 244 universities, from NTA's
+  2026 course-mapping documents, and DU and GGSIPU college rankings by their
+  hardest 2026 seat. Four CSV tables plus the rankings; mirrored on Kaggle.
+version: 2026
+keywords: CUET, India, university admissions, cut-offs, higher education, Delhi University
+image:
+temporal: 2024-2026
+spatial: India
+access_level: public
+copyrights:
+accrual_periodicity: yearly
+specification:
+data_quality: true
+data_dictionary: https://github.com/EduFarming/cuet-ug-cutoffs#columns
+language: English
+license: CC-BY-4.0
+publisher: EduFarming
+organization:
+issued_time: 2026-09-30
+sources: []
