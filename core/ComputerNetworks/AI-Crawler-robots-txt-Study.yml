@@ -1,0 +1,20 @@
+---
+title: AI Crawler robots.txt Study (Tranco top 10,000)
+homepage: https://huggingface.co/datasets/desearch/ai-crawlers-robots-txt-study
+category: ComputerNetworks
+description: robots.txt rules for AI crawlers across the Tranco top 10,000 domains, fetched 13 October 2026 and parsed under RFC 9309. One row per domain with rank band and whether the site blocks AI training crawlers or AI search crawlers site-wide, and whether it names user-triggered AI fetchers. CSV.
+version: 1.0.0
+keywords: robots.txt, web crawlers, AI crawlers, Tranco, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Desearch
+    web: https://www.desearch.ai
+issued_time: 2026.10
+sources:
+  - name: CSV
+    access_url: https://www.desearch.ai/data/ai-crawlers-robots-txt-study.csv
+references:
+  - title: Method and results
+    reference: https://www.desearch.ai/blog/ai-crawlers-robots-txt-study
