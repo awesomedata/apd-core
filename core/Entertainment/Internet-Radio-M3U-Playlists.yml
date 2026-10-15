@@ -1,0 +1,37 @@
+---
+title: Internet Radio M3U Playlists (weekly Radio Browser snapshot)
+homepage: https://github.com/AlonDrilich/radio-playlists
+category: Entertainment
+description: Weekly-rebuilt M3U playlists of internet radio stream URLs taken from the public-domain Radio Browser directory, one file per country (170) and per genre (60) plus a top-500 list. Each file holds up to the 300 most-voted stations that passed Radio Browser's latest stream check (lastcheckok=1), de-duplicated by stream URL; the 2026-10-12 snapshot covers 49,818 unique working stations. A machine-readable index.json lists every file with its station count. Stream URLs point to third-party broadcasters and are tested only by the directory's own check. No login required.
+version:
+keywords: internet radio, streaming audio, M3U, playlists, Radio Browser, radio stations, music genres
+image:
+temporal: 2026-10-12
+spatial: 170 countries
+access_level: public
+copyrights: CC0 1.0
+accrual_periodicity: weekly
+specification: M3U / JSON
+data_quality: false
+data_dictionary: https://github.com/AlonDrilich/radio-playlists#readme
+language: en
+license: CC0 1.0
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026
+sources:
+  - name: index.json (every playlist with its station count)
+    access_url: https://raw.githubusercontent.com/AlonDrilich/radio-playlists/main/index.json
+  - name: top-500.m3u
+    access_url: https://raw.githubusercontent.com/AlonDrilich/radio-playlists/main/top/top-500.m3u
+  - name: Country playlists (M3U, one per country)
+    access_url: https://github.com/AlonDrilich/radio-playlists/tree/main/countries
+  - name: Genre playlists (M3U, one per genre)
+    access_url: https://github.com/AlonDrilich/radio-playlists/tree/main/genres
+references:
+  - title: Radio Browser (upstream public-domain directory)
+    reference: https://www.radio-browser.info
