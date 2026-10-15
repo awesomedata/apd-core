@@ -1,0 +1,30 @@
+---
+title: S&P 500 Drawdowns Since 1999
+homepage: https://github.com/coopermb-glitch/sp500-drawdowns-since-1999
+category: Finance
+description: Worst fall from a running high, with peak, trough and recovery dates, for the 343 current S&P 500 members that traded in 1999, plus a second table that follows all 500 stocks in the index on January 4, 1999, including the 271 that stopped trading. Daily adjusted closes with dividends reinvested, January 1999 to October 2026, and SEC filing price tables for stocks that left. Two CSV files with a data dictionary, direct download, no login.
+version: 1.0.0
+keywords: S&P 500, drawdowns, recovery time, survivorship bias, equities, stock market, United States
+temporal: 1999-2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_quality: true
+data_dictionary: https://github.com/coopermb-glitch/sp500-drawdowns-since-1999#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PortfolioAutopsy
+    web: https://portfolioautopsy.pages.dev
+issued_time: 2026.10
+sources:
+  - name: Yahoo Finance daily adjusted closes
+    access_url: https://finance.yahoo.com/
+  - name: SEC EDGAR filings (quarterly price tables for stocks that stopped trading)
+    access_url: https://www.sec.gov/edgar/search/
+  - name: fja05680/sp500 historical membership list
+    access_url: https://github.com/fja05680/sp500
+references:
+  - title: Write-up with charts and method
+    reference: https://portfolioautopsy.pages.dev/research/drawdowns-since-1999
