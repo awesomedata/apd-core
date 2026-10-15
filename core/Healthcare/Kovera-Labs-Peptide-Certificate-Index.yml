@@ -1,0 +1,32 @@
+title: Kovera Labs Peptide Certificate Index (vialaudit mirror)
+homepage: https://vialaudit.com/data
+category: Healthcare
+description: Index of 1,828 public certificates of analysis issued by Kovera Labs for research-peptide products, mirrored on 2 August 2026. One row per certificate with vendor, compound, lot, test date, measured purity and quantity against label, linked to the lab's own record. Companion files cover per-vendor summaries, lot numbers shared by two or more brands, and purity and fill by compound across 2,087 public lab results. UTF-8 CSV, header row, ISO 8601 dates, dated snapshot filenames.
+version: 2026-08-02
+keywords: peptides, certificate of analysis, coa, hplc purity, drug safety, consumer safety, lab testing, fda warning letters
+image:
+temporal: 2026
+spatial: USA
+access_level: public
+copyrights: vialaudit
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://vialaudit.com/data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: vialaudit
+    web: https://vialaudit.com
+organization:
+  - name: vialaudit
+    web: https://vialaudit.com
+issued_time: 2026.08
+sources:
+  - name: Kovera certificate index (CSV)
+    access_url: https://vialaudit.com/data/kovera-certificates-2026-08-02.csv
+  - name: Purity and fill by compound (CSV)
+    access_url: https://vialaudit.com/data/peptide-purity-fill-by-compound-2026-10.csv
+references:
+  - title: "Peptide purity: what 2,087 public lab results show"
+    reference: https://vialaudit.com/articles/peptide-purity-fill-2087-lab-results
