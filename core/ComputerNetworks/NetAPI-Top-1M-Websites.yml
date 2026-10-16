@@ -1,0 +1,35 @@
+---
+title: NetAPI Top 1M Websites
+homepage: https://netapi.com/top-1-mln-websites/
+category: ComputerNetworks
+description: A free daily ranking of the one million most popular websites (registrable domains), built by combining SEO / link-graph and traffic signals with reciprocal rank fusion. Plain CSV with two columns (NetAPI_Rank, Domain), downloadable without an account; dated daily snapshots are kept as GitHub releases. Per-TLD slices of the ranking are published at https://netapi.com/top-websites/.
+version:
+keywords: top sites, top 1 million, website ranking, popular domains, domain list, alexa alternative, web measurement
+image:
+temporal: 2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://netapi.com/top-1-mln-websites/
+language: en
+license: CC BY 4.0
+publisher:
+- name: NetAPI
+  web: https://netapi.com/
+organization:
+- name: CodeRockers LTD
+  web: https://netapi.com/
+issued_time: 2026
+sources:
+- name: NetAPI Top 1M (CSV, 1,000,000 rows)
+  access_url: https://netapi.com/netapi_top1mln.csv
+- name: Daily snapshots (GitHub releases, csv.gz)
+  access_url: https://github.com/coderockers/top-1mln-websites/releases
+- name: Top websites by TLD
+  access_url: https://netapi.com/top-websites/
+references:
+- title: NetAPI Top 1M - methodology and format
+  reference: https://netapi.com/top-1-mln-websites/
