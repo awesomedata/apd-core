@@ -1,0 +1,37 @@
+---
+title: US New Business Filings Sample (6 state open-data portals)
+homepage: https://github.com/CPT-Engineering/us-new-business-filings-sample
+category: Government
+description: Newly registered US business entities (LLCs, corporations, partnerships, nonprofits) from the official open-data portals of Colorado, Connecticut, New York, Oregon, Pennsylvania and Texas, normalized into one schema (state ID, name, type, domestic/foreign, status, formation date, city/state/ZIP, county and NAICS where published). Entity-level only, with no personal names or street addresses. Includes weekly new-entity counts per state and a per-state source, license and lag table. Direct CSV download, no login.
+version: 2026-09-14
+keywords: business registrations, new LLC, company formation, secretary of state, open data, entities, United States
+image:
+temporal: 2026-09-14 to 2026-09-20
+spatial: United States (CO, CT, NY, OR, PA, TX)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/CPT-Engineering/us-new-business-filings-sample/blob/main/SOURCES.md
+data_quality: true
+data_dictionary: https://github.com/CPT-Engineering/us-new-business-filings-sample#schema
+language: en
+license: CC0 1.0 (compilation); source records under each state's public-domain or OPEN-NY terms
+publisher:
+  - name: CPT Engineering PLLC
+    web: https://github.com/CPT-Engineering
+organization:
+issued_time: 2026-10-16
+sources:
+  - title: Colorado Business Entities (Colorado Department of State)
+    reference: https://data.colorado.gov/d/4ykn-tg5h
+  - title: Connecticut Business Registry - Business Master (Secretary of the State)
+    reference: https://data.ct.gov/d/n7gp-d28j
+  - title: New York Active Corporations (NYS Department of State)
+    reference: https://data.ny.gov/d/n9v6-gdp6
+  - title: Oregon Active Businesses - ALL (Oregon Secretary of State)
+    reference: https://data.oregon.gov/d/tckn-sxa6
+  - title: Registered Businesses in PA (Pennsylvania Department of State)
+    reference: https://data.pa.gov/d/xvd7-5r2c
+  - title: Texas Active Franchise Taxpayers (Texas Comptroller of Public Accounts)
+    reference: https://data.texas.gov/d/9cir-efmm
+references:
