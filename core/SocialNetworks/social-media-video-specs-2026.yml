@@ -1,0 +1,33 @@
+---
+title: Social Media Video Upload Specs 2026 (9 platforms, 23 formats)
+homepage: https://shortformkit.com/social-media-video-specs-2026/
+category: SocialNetworks
+description: Upload specifications for 23 video formats on Instagram, TikTok, YouTube, Facebook, LinkedIn, Pinterest, Snapchat, Threads and X, as one table. Each row has aspect ratios, recommended and minimum resolution, minimum and maximum duration, maximum file size, file types, maximum frame rate, caption, title and hashtag limits, plus a note and the links to the sources it was taken from. A second table (14 rows) lists what changed between 2025 and 2026. Most values come from the platforms' own help centres and developer docs, the rest from named industry sources, and every source is marked as official or industry. Useful for media research, tooling that validates uploads, and comparisons between platforms.
+version: 2026-10-13
+keywords: social media, video specifications, aspect ratio, resolution, instagram reels, tiktok, youtube shorts, upload limits, csv, json, open data
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://shortformkit.com/social-media-video-specs-2026/
+data_quality: true
+data_dictionary: https://shortformkit.com/social-media-video-specs-2026/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Shortform Kit
+    web: https://shortformkit.com/data/
+organization:
+issued_time: 2026.10
+sources:
+  - name: All specs and changes (JSON)
+    access_url: https://shortformkit.com/data/social-media-video-specs-2026.json
+  - name: Specs by platform and format (CSV)
+    access_url: https://shortformkit.com/data/social-media-video-specs-2026-rows.csv
+  - name: Changes 2025 to 2026 (CSV)
+    access_url: https://shortformkit.com/data/social-media-video-specs-2026-changes-2025-2026.csv
+references:
+  - title: All datasets
+    reference: https://shortformkit.com/data/
