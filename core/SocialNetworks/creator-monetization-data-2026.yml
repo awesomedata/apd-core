@@ -1,0 +1,39 @@
+---
+title: Creator Monetization Data 2026 (YouTube RPM by niche and country, program requirements, sponsorship rates)
+homepage: https://shortformkit.com/creator-monetization-data-2026/
+category: SocialNetworks
+description: A sourced compilation of what creators earn on YouTube, TikTok, Instagram, Facebook, Snapchat and X in 2026. It has five tables. Programs (11 rows) lists every monetization program with its entry requirements and payout model. RPM by niche (16 rows) and RPM by country (11 rows) give low, high and median creator earnings per 1,000 views, and every row keeps the individual values from each source next to the range, so differences between sources stay visible. Engagement benchmarks (37 rows) and sponsorship rates (30 rows) follow the same pattern. Every row lists its sources with links, and the method is documented on the page. Useful for research on the creator economy, platform payouts and influencer pricing.
+version: 2026-10-13
+keywords: creator economy, youtube rpm, tiktok creator rewards, influencer marketing, sponsorship rates, engagement rate, social media, csv, json, open data
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://shortformkit.com/creator-monetization-data-2026/
+data_quality: true
+data_dictionary: https://shortformkit.com/creator-monetization-data-2026/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Shortform Kit
+    web: https://shortformkit.com/data/
+organization:
+issued_time: 2026.10
+sources:
+  - name: All tables (JSON)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026.json
+  - name: Programs and requirements (CSV)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026-programs.csv
+  - name: RPM by niche (CSV)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026-rpm-by-niche.csv
+  - name: RPM by country (CSV)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026-rpm-by-country.csv
+  - name: Engagement benchmarks (CSV)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026-engagement-benchmarks.csv
+  - name: Sponsorship rates (CSV)
+    access_url: https://shortformkit.com/data/creator-monetization-data-2026-sponsorship-rates.csv
+references:
+  - title: All datasets
+    reference: https://shortformkit.com/data/
