@@ -1,0 +1,52 @@
+---
+title: DealMaxa Price Index
+homepage: https://dealmaxa.com/en/tools
+category: Economics
+description: An open dataset tracking daily consumer-electronics prices from AliExpress
+  and Amazon affiliate listings, normalised to a base of 100 on each product's first
+  tracked day. Each daily snapshot covers 418 tracked products across roughly 52
+  categories, priced in EUR, and is published as a rolling 90-day time series. The
+  release includes an aggregate daily index, a per-category index, a per-product
+  long-format price series, and a product dimension table. Delivered as CSV and JSON,
+  downloadable without login, and refreshed daily.
+version: 1.0
+keywords: price index, consumer electronics, e-commerce, price tracking, prices, time series, deals, AliExpress, Amazon
+temporal: 2026-present
+spatial: Global (AliExpress and Amazon affiliate listings)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://dealmaxa.com/en/tools
+data_quality: true
+data_dictionary: https://dealmaxa.com/dataset.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: DealMaxa
+    web: https://dealmaxa.com/
+organization:
+  - name: DealMaxa
+    web: https://dealmaxa.com/
+issued_time: 2026.09
+sources:
+  - name: Daily index (JSON)
+    access_url: https://dealmaxa.com/price-index.json
+  - name: Full price history (JSON)
+    access_url: https://dealmaxa.com/price-history.json
+  - name: Dataset descriptor (JSON-LD)
+    access_url: https://dealmaxa.com/dataset.json
+  - name: Daily index (CSV)
+    access_url: https://huggingface.co/datasets/dealmaxa/dealmaxa-price-index/resolve/main/dealmaxa-price-index.csv
+  - name: Per-category index (CSV)
+    access_url: https://huggingface.co/datasets/dealmaxa/dealmaxa-price-index/resolve/main/dealmaxa-category-index.csv
+  - name: Product prices, long format (CSV)
+    access_url: https://huggingface.co/datasets/dealmaxa/dealmaxa-price-index/resolve/main/dealmaxa-product-prices.csv
+  - name: Product dimension table (CSV)
+    access_url: https://huggingface.co/datasets/dealmaxa/dealmaxa-price-index/resolve/main/dealmaxa-products.csv
+references:
+  - title: Methodology and dataset descriptor
+    reference: https://dealmaxa.com/dataset.json
+  - title: Dataset mirror (Kaggle)
+    reference: https://www.kaggle.com/datasets/dealmaxa/dealmaxa-price-index
+  - title: Dataset license (CC BY 4.0)
+    reference: https://creativecommons.org/licenses/by/4.0/
