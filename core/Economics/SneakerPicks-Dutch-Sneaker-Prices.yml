@@ -1,0 +1,38 @@
+---
+title: SneakerPicks Dutch Sneaker Prices
+homepage: https://github.com/roelvdkrabben/sneakerpicks-open-prijsdata
+category: Economics
+description: Daily lowest retail prices and the 30-day normal price (median of daily
+  lowest prices) for popular sneaker models across Dutch web shops, built from affiliate
+  product feeds. One CSV row per model per day, appended daily by a GitHub Action, plus
+  live JSON/CSV per model without login. Useful for retail price tracking and for checking
+  discount claims under the EU Omnibus rule.
+version: 1.0
+keywords: sneakers, retail prices, price index, Netherlands, e-commerce, discounts, Omnibus, time series
+temporal: 2026-present
+spatial: Netherlands
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://github.com/roelvdkrabben/sneakerpicks-open-prijsdata#columns
+data_quality: true
+data_dictionary: https://github.com/roelvdkrabben/sneakerpicks-open-prijsdata#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SneakerPicks.nl
+    web: https://sneakerpicks.nl/data
+organization:
+  - name: SneakerPicks.nl
+    web: https://github.com/roelvdkrabben/sneakerpicks-open-prijsdata
+issued_time: 2026.10
+sources:
+  - name: Daily history (CSV, one row per model per day)
+    access_url: https://raw.githubusercontent.com/roelvdkrabben/sneakerpicks-open-prijsdata/main/data/prices.csv
+  - name: Live per-model JSON/CSV (last 90 days, no key, CORS enabled)
+    access_url: https://sneakerpicks.nl/data
+references:
+  - title: Methodology
+    reference: https://sneakerpicks.nl/methodologie
+  - title: Dataset license (CC BY 4.0)
+    reference: https://github.com/roelvdkrabben/sneakerpicks-open-prijsdata/blob/main/LICENSE
