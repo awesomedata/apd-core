@@ -1,0 +1,36 @@
+---
+title: Global Salary Data by Skill and Role 2024-2026 (Fliar BI)
+homepage: https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global
+category: Economics
+description: Posted pay from job postings that state a salary, January 2024 to June 2026, deduplicated, annualised and converted to US$ per year with one stated exchange-rate table, with country, role family, seniority, industry group and skill tags. The full data holds 620,752 postings from 137,004 employers in 55 countries (56% in the United States); the open release is a fixed 16% sample of whole companies (100,060 postings) as CSV and Parquet, with salary-percentile tables by country, role and skill. Posted pay is an offer, not realised pay, and coverage is uneven by country. No job descriptions or recruiter details. Direct download, no login. Licence CC BY-NC 4.0.
+version: '1.0'
+keywords:
+  - salary
+  - wages
+  - job postings
+  - labor market
+  - skills
+  - open data
+image: https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global/resolve/main/figures/salary_by_country.png
+temporal: 2024-01 to 2026-06
+spatial: Global (55 countries)
+access_level: public
+copyrights: CC BY-NC 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global
+language: en
+license: CC-BY-NC-4.0
+publisher:
+  - name: Fliar BI
+    web: https://fliarbi.com
+organization:
+  - name: Fliar BI
+    web: https://fliarbi.com
+issued_time: '2026-10'
+sources:
+  - name: Hugging Face (CSV sample, Parquet, report)
+    access_url: https://huggingface.co/datasets/HarshitKZ/skill-salary-percentiles-global
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/harshitkz/skill-salary-percentiles-global

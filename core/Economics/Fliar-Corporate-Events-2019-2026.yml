@@ -1,0 +1,40 @@
+---
+title: Corporate Events 2019-2026 - M&A, Layoffs, IPOs, Contracts, Lawsuits (Fliar BI)
+homepage: https://huggingface.co/datasets/fliarbi/corporate-events-2019-2026
+category: Economics
+description: Company-level event reports extracted from business news, January 2019 to June 2026, typed as M&A (with acquirer or target role), contracts, lawsuits, layoffs, IPOs, asset acquisitions and announcements, with date, company, country, sector, headline and source article. The full data holds 1,339,579 event reports for 210,414 companies; the open release is a fixed 7% sample of whole companies (100,002 reports) as CSV and Parquet, with a report of findings, method and limitations. Counts are news reports, not unique transactions. Direct download, no login. Licence CC BY-NC 4.0.
+version: '1.0'
+keywords:
+  - corporate events
+  - mergers and acquisitions
+  - layoffs
+  - IPO
+  - lawsuits
+  - event extraction
+  - open data
+image: https://huggingface.co/datasets/fliarbi/corporate-events-2019-2026/resolve/main/figures/by_year_type.png
+temporal: 2019-01 to 2026-06
+spatial: Global
+access_level: public
+copyrights: CC BY-NC 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/fliarbi/corporate-events-2019-2026
+language: en
+license: CC-BY-NC-4.0
+publisher:
+  - name: Fliar BI
+    web: https://fliarbi.com
+organization:
+  - name: Fliar BI
+    web: https://fliarbi.com
+issued_time: '2026-10'
+sources:
+  - name: Hugging Face (CSV sample, Parquet, report)
+    access_url: https://huggingface.co/datasets/fliarbi/corporate-events-2019-2026
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/fliarbi/corporate-events-2019-2026
+references:
+  - title: Dataset DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.23432171
