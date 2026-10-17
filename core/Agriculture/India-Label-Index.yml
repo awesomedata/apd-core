@@ -1,0 +1,23 @@
+---
+title: India Label Index
+homepage: https://huggingface.co/datasets/devnarsinghani/india-label-index
+category: Agriculture
+description: Category-level aggregates computed from Indian packaged-food products on Open Food Facts, with no brand named. Covers added sugar names in 3,798 ingredient lists, front-of-pack warning simulations under Chile's rules and under FSSAI's proposed limits for 665 foods, which fat 2,015 ingredient lists name (palm oil and others), and India compared with other countries. Files are CSV and JSON tables, licensed ODbL, analysis code MIT on GitHub, archived on Zenodo with a DOI; Open Food Facts entries are volunteer-entered, not a random sample.
+version:
+keywords: food, nutrition, food labels, ingredients, India
+image:
+temporal: 2026
+spatial: India
+access_level: public
+copyrights: ODbL
+accrual_periodicity:
+specification: https://github.com/devnarsinghani22/india-label-index
+data_quality:
+data_dictionary: https://github.com/devnarsinghani22/india-label-index
+language: English
+license: ODbL
+publisher: Dev Narsinghani
+organization:
+issued_time: 2026-10-01
+sources:
+  - Open Food Facts
