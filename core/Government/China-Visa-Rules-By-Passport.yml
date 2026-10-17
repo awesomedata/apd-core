@@ -1,0 +1,34 @@
+---
+title: China Visa Rules by Passport
+homepage: https://github.com/chematecc/china-visa-rules
+category: Government
+description: Which ordinary passports can enter mainland China without a visa, under which policy (30-day unilateral visa-free entry, mutual visa exemption, 240-hour visa-free transit, Hainan 30-day entry, 24-hour airside transit) and until when, for all 194 passports. Compared every day with the official lists of China's National Immigration Administration and Ministry of Foreign Affairs; each release carries the date it was last verified and the official source links.
+version: 2026.10
+keywords: China, visa, visa-free entry, visa exemption, transit, Hainan, passport, immigration, travel, entry requirements
+temporal: 2026-
+spatial: Mainland China; 194 passports
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/chematecc/china-visa-rules#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: China Visa Check
+    web: https://chinavisacheck.com
+organization:
+  - name: OttoLux
+    web: https://otto-lux.com
+issued_time: 2026.09
+sources:
+  - name: One row per passport (CSV)
+    access_url: https://raw.githubusercontent.com/chematecc/china-visa-rules/main/data/china-visa-by-passport.csv
+  - name: Full rules (JSON)
+    access_url: https://chinavisacheck.com/data/china-visa-rules.json
+references:
+  - title: Official sources and method
+    reference: https://chinavisacheck.com/china-visa/about
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/oliverchenchen/china-visa-rules-by-passport
