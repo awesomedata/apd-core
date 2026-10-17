@@ -1,0 +1,39 @@
+---
+title: Company Earnings Results 2019-2026 (Fliar BI)
+homepage: https://huggingface.co/datasets/fliarbi/company-earnings-results
+category: Finance
+description: Quarterly, half-year and full-year company results reported in business news, January 2019 to June 2026, with revenue, net income, EPS, revenue growth, beat/miss versus expectations, US$ conversions and the reporting sentence. The full data holds 225,779 results for 33,900 companies in 152 countries; each revenue or profit figure is checked against the sentence it was read from and blanked when the check fails. The open release is a fixed 25% sample of whole companies (56,464 results) as CSV and Parquet, with a report of findings and method. Direct download, no login. Licence CC BY-NC 4.0.
+version: '1.0'
+keywords:
+  - earnings
+  - quarterly results
+  - revenue
+  - EPS
+  - beat or miss
+  - open data
+image: https://huggingface.co/datasets/fliarbi/company-earnings-results/resolve/main/figures/by_year.png
+temporal: 2019-01 to 2026-06
+spatial: Global
+access_level: public
+copyrights: CC BY-NC 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/fliarbi/company-earnings-results
+language: en
+license: CC-BY-NC-4.0
+publisher:
+  - name: Fliar BI
+    web: https://fliarbi.com
+organization:
+  - name: Fliar BI
+    web: https://fliarbi.com
+issued_time: '2026-10'
+sources:
+  - name: Hugging Face (CSV sample, Parquet, report)
+    access_url: https://huggingface.co/datasets/fliarbi/company-earnings-results
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/fliarbi/company-earnings-results-2019-2026
+references:
+  - title: Dataset DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.23432150
