@@ -1,0 +1,31 @@
+---
+title: RemoteTaxCalc Income Tax Rates by Country
+homepage: https://remotetaxcalc.com/tax-rates
+category: Government
+description: Statutory personal income tax rules for 27 countries (EU, UK, US, Canada, Latin America, Asia-Pacific, UAE) as one JSON file. For each country it gives the official brackets (including linear zones such as Germany's §32a formula), the allowance deducted before the brackets, tax credits, and a one-line basis stating what the brackets apply to, plus employee and self-employed social security contributions (rates, caps, tiers and fixed amounts), health contributions, and flat-tax regimes for contractors where they exist. Every country lists its source URLs (government publications and professional tax guides) and three dates — lastUpdated (when a value last changed), lastVerified (when it was last checked against the sources), and lastAnnouncementChecked (the year of the last government rate announcement compared against it). National-level rules for a single tax resident; US and Canada are federal only. No key, no rate limit, CORS open.
+version: 2026
+keywords: income tax, tax brackets, social security, payroll tax, self-employed, contractor, tax rates by country, personal income tax, open data
+image:
+temporal: 2026
+spatial: 27 countries - Australia, Brazil, Canada, Colombia, Costa Rica, Croatia, Czech Republic, Estonia, France, Germany, Greece, Hungary, Ireland, Italy, Malta, Mexico, Netherlands, Poland, Portugal, Singapore, Spain, Sri Lanka, Thailand, Turkey, United Arab Emirates, United Kingdom, United States
+access_level: public
+copyrights:
+accrual_periodicity: updated when each country announces new rates; full audit each autumn and winter
+specification:
+data_quality: false
+data_dictionary: https://remotetaxcalc.com/tax-rates#using-this-data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: RemoteTaxCalc
+    web: https://remotetaxcalc.com/tax-rates
+organization:
+  - name: RemoteTaxCalc
+    web: https://remotetaxcalc.com
+issued_time: 2026.07
+sources:
+  - name: JSON (full dataset)
+    access_url: https://remotetaxcalc.com/api/tax-rates
+references:
+  - title: Methodology and citation guide
+    reference: https://remotetaxcalc.com/tax-rates#using-this-data
