@@ -1,0 +1,31 @@
+---
+title: AI Timeline Dataset
+homepage: https://huggingface.co/datasets/presentofai/ai-timeline
+category: MachineLearning
+description: An open, dated, source-linked record of real-world AI events (model releases, funding, policy, deployments) from July 2025 onward, with a primary source link on every row. 3,714 events from 1,005 distinct publishers as of October 2026. Maintained by Present of AI, a daily AI news site, and updated continuously. Mirrored on Kaggle at https://www.kaggle.com/datasets/presentofai/ai-timeline-dataset.
+version: 
+keywords: AI news, AI timeline, current events, open data
+image: 
+temporal: 2025-07-01 to present
+spatial: 
+access_level: public
+copyrights: 
+accrual_periodicity: daily
+specification: 
+data_quality: false
+data_dictionary: 
+language: en, hi, ja, es, de, fr
+license: CC BY 4.0
+publisher:
+  - name: Present of AI
+    web: https://presentofai.com
+organization:
+  - name: 
+    web: 
+issued_time: 2025-07
+sources:
+  - name: Present of AI
+    access_url: https://presentofai.com
+references:
+  - title: 
+    reference: 
