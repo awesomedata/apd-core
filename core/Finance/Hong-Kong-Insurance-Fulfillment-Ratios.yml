@@ -1,0 +1,31 @@
+---
+title: Hong Kong Life Insurance Fulfillment Ratios (21 insurers)
+homepage: https://buyhongkonginsurance.com/data/fulfillment-ratios-summary.csv
+category: Finance
+description: Fulfillment ratios published by 21 Hong Kong life insurers under the Insurance Authority's GL16 guideline, in one table with a link to each insurer's own disclosure. Reporting years 2024 and 2025. Direct CSV and JSON download, no signup, CC BY 4.0. Past ratios do not indicate future results.
+version:
+keywords:
+  - Hong Kong
+  - life insurance
+  - fulfillment ratio
+  - participating policies
+  - non-guaranteed benefits
+image:
+temporal: 2024 to 2025 reporting years
+spatial: Hong Kong
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher: Hong Kong Insurance Connect
+organization:
+issued_time: 2026.10
+sources:
+  - name: Summary CSV
+    access_url: https://buyhongkonginsurance.com/data/fulfillment-ratios-summary.csv
+  - name: Full JSON
+    access_url: https://buyhongkonginsurance.com/data/fulfillment-ratios.json
