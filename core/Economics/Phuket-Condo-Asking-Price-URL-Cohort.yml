@@ -1,0 +1,50 @@
+---
+title: Phuket Condo Asking-Price Observation-Period URL Cohort
+homepage: https://kvartiry-phuket.com/en/phuket-condo-prices/
+category: Economics
+description: >
+  Aggregate statistics on advertised asking prices for Phuket condo
+  sale listings, published as a cumulative, exact-URL-deduplicated cohort
+  of listing URLs observed since 19 April 2026. The release is regenerated
+  daily and the cohort keeps growing: the 2026-10-18 release covers 1,079
+  listing-URL records observed from 2026-04-19 to 2026-10-18 (overall median asking
+  price THB 3,770,000). The CSV and JSON report whole-unit asking-price
+  medians and ranges by bedroom count and selected districts, budget-band
+  counts and shares, bedroom-by-budget cross-tabs, the observation period,
+  denominators, missing-area coverage and methodology. They contain
+  aggregate rows rather than the underlying source URL rows. Asking prices
+  are not registered transactions, valuations, current active inventory or
+  a time-series trend, and URL deduplication does not prove distinct
+  physical units. Downloads require no login or payment; every daily
+  release also has an immutable, version-pinned copy linked from the
+  homepage.
+version: 2026-10-18 (daily rolling release; the latest version is always at the homepage)
+keywords: Phuket, Thailand, condos, real estate, asking prices, housing, CSV, JSON
+image: https://kvartiry-phuket.com/en/phuket-condo-prices/phuket-condo-budget-bands-v1.png
+temporal: '2026-04-19 to 2026-10-18 (cumulative cohort, extended daily)'
+spatial: Phuket, Thailand
+access_level: public
+copyrights: Kvartiry-Phuket, CC BY 4.0
+accrual_periodicity: daily
+specification: https://kvartiry-phuket.com/en/phuket-condo-prices/#methodology
+data_quality: false
+data_dictionary: https://kvartiry-phuket.com/en/phuket-condo-prices/#data-dictionary
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Kvartiry-Phuket
+    web: https://kvartiry-phuket.com/en/phuket-condo-prices/
+organization:
+  - name: Kvartiry-Phuket
+    web: https://kvartiry-phuket.com/
+issued_time: '2026-07-20'
+sources:
+  - name: Aggregate CSV (stable URL, latest daily release)
+    access_url: https://kvartiry-phuket.com/ceny/phuket-price-data.csv
+  - name: Aggregate JSON (stable URL, latest daily release)
+    access_url: https://kvartiry-phuket.com/ceny/phuket-price-data.json
+references:
+  - title: English methodology, data dictionary, limitations and release archive
+    reference: https://kvartiry-phuket.com/en/phuket-condo-prices/
+  - title: CC BY 4.0 licence
+    reference: https://creativecommons.org/licenses/by/4.0/
