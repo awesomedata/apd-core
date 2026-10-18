@@ -1,0 +1,37 @@
+---
+title: BidProwl US Government Surplus Price Index
+homepage: https://bidprowl.com/research
+category: Economics
+description: Monthly sold-price statistics from closed US government surplus auctions (GovDeals, GSA Auctions, Public Surplus, Purple Wave, HiBid and other federal, state and local sources). Two files, each as CSV and JSON. The price index gives the 25th percentile, median and 75th percentile final price by item category, state and month; cells with fewer than 3 sales are suppressed. The tracked-items file gives the monthly median and average final price for 111 commonly resold items such as forklifts, generators and mowers. Prices are in US cents. These are aggregates, not individual sales, and coverage is uneven. Nearly all rows are from 2024 onward, and categories and states with few auctions have few or no rows. Regenerated nightly.
+version: 1.0
+keywords: government surplus, auctions, sold prices, price index, used equipment, vehicles, resale, secondhand, public procurement, open data
+image:
+temporal: 2024-01 to present, monthly
+spatial: United States, by state
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://bidprowl.com/research
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: BidProwl
+    web: https://bidprowl.com/
+organization:
+  - name: BidProwl
+    web: https://bidprowl.com/
+issued_time: 2026.07
+sources:
+  - name: Price index by category, state and month (CSV)
+    access_url: https://bidprowl.com/research/datasets/price-index.csv
+  - name: Price index by category, state and month (JSON)
+    access_url: https://bidprowl.com/research/datasets/price-index.json
+  - name: Sold prices for 111 tracked items by month (CSV)
+    access_url: https://bidprowl.com/research/datasets/sold-items.csv
+  - name: Sold prices for 111 tracked items by month (JSON)
+    access_url: https://bidprowl.com/research/datasets/sold-items.json
+references:
+  - title: BidProwl research page with column notes
+    reference: https://bidprowl.com/research
