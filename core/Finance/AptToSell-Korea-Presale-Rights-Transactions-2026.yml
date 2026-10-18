@@ -1,0 +1,26 @@
+---
+title: South Korea Apartment Presale Rights Transactions, September-October 2026
+homepage: https://zenodo.org/records/23432291
+category: Finance
+description: Open descriptive dataset of 980 broker-mediated, person-to-person apartment presale-rights transactions reported in South Korea during September-October 2026. Four downloadable aggregate CSV tables cover region, contract month, exclusive floor-area band, and region-by-area group. Includes methodological documentation and quality-assurance metadata. Transaction amounts are not resale premiums or seller profits.
+version: "2.0"
+keywords: South Korea, apartment presale rights, housing transactions, real estate, regional statistics, floor area, MOLIT
+temporal: September-October 2026
+spatial: South Korea
+access_level: public
+data_quality: true
+data_dictionary: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/research/presale-rights-transaction-descriptives-2026/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AptToSell
+    web: https://apttosell.com/
+issued_time: 2026-10-17
+sources:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT), South Korea
+    access_url: https://zenodo.org/records/23432291
+references:
+  - title: Zenodo dataset DOI
+    reference: https://doi.org/10.5281/zenodo.23432291
+  - title: Dataset methods and reuse limitations
+    reference: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/research/presale-rights-transaction-descriptives-2026/README.md
