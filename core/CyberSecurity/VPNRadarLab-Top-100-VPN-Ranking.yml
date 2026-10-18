@@ -1,0 +1,33 @@
+---
+title: VPNRadarLab Top-100 VPN Ranking
+homepage: https://github.com/vpnradarlab/vpn-ranking
+category: CyberSecurity
+description: Quarterly open snapshot of the top 100 of a ranking of 377 consumer VPN services. Per service - overall score, six weighted sub-scores (privacy and jurisdiction, security and protocols, price and fair terms, censorship bypass, network and streaming, platforms and support), jurisdiction and 5/9/14 Eyes membership, red flag, 15 normalised yes/no/partial/not_stated features (no-logs policy and audit, RAM-only servers, kill switch, WireGuard, obfuscation, open-source apps, anonymous sign-up, crypto payments and others) and prices, refund days, device limits, server countries. Scores use only facts the providers publish. CSV and JSON with a data dictionary; CC BY 4.0; archived on Zenodo (DOI 10.5281/zenodo.23457598).
+version: 2026-10
+keywords: vpn, privacy, cybersecurity, no-logs, jurisdiction, five eyes, consumer software, ranking
+image:
+temporal: 2026-10
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/vpnradarlab/vpn-ranking/blob/main/data/README.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: VPNRadarLab
+    web: https://vpnradarlab.com
+organization:
+  - name: VPNRadarLab
+    web: https://vpnradarlab.com
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV/JSON, release zip)
+    access_url: https://github.com/vpnradarlab/vpn-ranking
+  - name: Zenodo archive (DOI)
+    access_url: https://doi.org/10.5281/zenodo.23457598
+references:
+  - title: Scoring methodology
+    reference: https://vpnradarlab.com/methodology/
