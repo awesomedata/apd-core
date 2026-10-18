@@ -1,0 +1,35 @@
+---
+title: Kitanesque Vintage Sizing - Label Sizes vs Tape Measurements (Second-hand Jeans and Knitwear, UK)
+homepage: https://doi.org/10.5281/zenodo.23452246
+category: Economics
+description: 198 second-hand and vintage garments, each measured flat by hand before it was sold, set against the size on the label or listing, as two CSV files. 94 pairs of jeans from 66 labels give the waist printed on the label (W23 to W37), the waistband measured flat and doubled, front rise, inside leg, era tag (56 Y2K) and the UK size each pair was sold as; 104 women's knitted pieces from 79 labels (54 cashmere) give the UK size, the bust measured flat and doubled, a reference body bust for that UK size, length, sleeve and main fibre. Label sizes on vintage clothing drift by brand and era and are rarely published against real measurements; here the waistband ran from 4 in under to 6 in over the W number on the label. One shop's stock, mostly women's and strongly Y2K denim, so not a random sample of the market; known biases are listed in the data card. Mirrored on GitHub, Hugging Face and Kaggle; the Zenodo DOI is the canonical citation.
+version: "2026-10-18"
+keywords: clothing sizing, vanity sizing, size labels, garment measurements, second-hand, vintage clothing, resale, jeans, denim, knitwear, cashmere, retail, United Kingdom
+image:
+temporal: 2026-08-29 to 2026-10-14
+spatial: United Kingdom
+access_level: public
+copyrights: Kitanesque Ltd
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/kitanesque/kitanesque-vintage-sizing/blob/main/data_dictionary.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Kitanesque Ltd
+    web: https://kitanesque.co.uk
+organization:
+  - name: Kitanesque Ltd
+    web: https://kitanesque.co.uk
+issued_time: 2026-10-18
+sources:
+  - name: Zenodo record (CSV files, DOI)
+    access_url: https://zenodo.org/records/23452246
+  - name: GitHub mirror (CSV files)
+    access_url: https://github.com/kitanesque/kitanesque-vintage-sizing/tree/main/data
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/kitanesque/kitanesque-vintage-sizing
+references:
+  - title: Data dictionary, method and known biases
+    reference: https://github.com/kitanesque/kitanesque-vintage-sizing/blob/main/data_dictionary.md
