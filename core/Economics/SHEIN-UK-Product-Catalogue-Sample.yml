@@ -1,0 +1,33 @@
+---
+title: SHEIN UK Product Catalogue Sample (2026)
+homepage: https://github.com/votiakov/shein-dataset
+category: Economics
+description: 10,000 random products from SHEIN's United Kingdom catalogue, taken from a snapshot of 5.15 million products on 17 October 2026. Each product has its selling price in GBP, crossed-out price, discount, price in USD, full category path, stock indicator, review count, rating, colour count, image URLs, seller store ID and creation date. Useful for retail pricing, discount and fast-fashion research. CSV and Parquet, with a data dictionary.
+version: 2026.10
+keywords: e-commerce, fast fashion, retail prices, discounts, product catalogue, SHEIN, pricing, United Kingdom
+image:
+temporal: 2026-10-17
+spatial: United Kingdom
+access_level: public
+copyrights: Free for evaluation, research and journalism, with attribution
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/votiakov/shein-dataset#fields
+language: en
+license: Free for research use with attribution (see repository)
+publisher:
+  - name: Andrii Votiakov
+    web: https://github.com/votiakov
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: Sample (CSV)
+    access_url: https://github.com/votiakov/shein-dataset/raw/main/data/shein_gb_sample_10k_2026-10-17.csv
+  - name: Sample (Parquet)
+    access_url: https://github.com/votiakov/shein-dataset/raw/main/data/shein_gb_sample_10k_2026-10-17.parquet
+references:
+  - title: SHEIN by the numbers, UK, October 2026
+    reference: https://votiakov.com/reports/shein-by-the-numbers-uk-2026-10.pdf
