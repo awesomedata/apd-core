@@ -1,0 +1,47 @@
+---
+title: Thai Government Lottery Results 2010-2026
+homepage: https://github.com/huayreview/thai-lottery-results
+category: Government
+description: "Every Thai Government Lottery draw published by the Government Lottery Office of Thailand (GLO) from 1 March 2010 (BE 2553) to 16 October 2026 (BE 2569): 397 draws with every prize tier (first prize, near-first, 2nd-5th prizes, front three digits, last three digits, last two digits). Wide CSV (one row per draw), long/tidy CSV (68,681 rows, one per winning number) and JSON, with a data dictionary, SHA-1 checksums, a link to the official GLO result sheet for each draw, and a 397/397 cross-check against a second public source. Historical public results for education, verification and reproducible analysis; no predictions."
+version: "1.0"
+keywords:
+  - Thailand
+  - GLO
+  - lottery results
+  - open government data
+  - public information
+  - time series
+  - CSV
+  - JSON
+image:
+temporal: 2010-03-01 to 2026-10-16
+spatial: Thailand
+access_level: public
+copyrights: "Compilation (structure, cleaning, verification, documentation) CC BY 4.0; underlying draw results are public facts published by GLO."
+accrual_periodicity: Twice monthly (after each draw)
+specification:
+data_quality: true
+data_dictionary: https://github.com/huayreview/thai-lottery-results/blob/main/DATA_DICTIONARY.md
+language: th, en
+license: CC BY 4.0
+publisher:
+  - name: HuayReview
+    web: https://huayreview.net/stats/ten-year-data/
+organization:
+  - name: HuayReview
+    web: https://huayreview.net/
+issued_time: 2026.10
+sources:
+  - name: Wide CSV, one row per draw
+    access_url: https://raw.githubusercontent.com/huayreview/thai-lottery-results/main/thai-lottery-results.csv
+  - name: Long CSV, one row per winning number
+    access_url: https://raw.githubusercontent.com/huayreview/thai-lottery-results/main/thai-lottery-results-long.csv
+  - name: JSON
+    access_url: https://raw.githubusercontent.com/huayreview/thai-lottery-results/main/thai-lottery-results.json
+references:
+  - title: Hugging Face mirror
+    reference: https://huggingface.co/datasets/huayreview/thai-lottery-results
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/huayreview/thai-lottery-results-2010-2026
+  - title: Official results publisher (GLO)
+    reference: https://www.glo.or.th/
