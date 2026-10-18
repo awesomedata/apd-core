@@ -1,0 +1,35 @@
+---
+title: AI software review and price data (Evaluate AI Service)
+homepage: https://github.com/creatorainco/eaiservice-data
+category: Software
+description: Dated plan prices and evidence-based review records for AI software used by restaurants and small businesses, in five categories (cold email, workflow automation, AI voice agents, influencer marketing, restaurant marketing). prices.csv has one row per published plan price with billing unit, the date it was read and the vendor pricing-page URL; reviews.json holds criterion scores (1-5), plan prices, free plan or trial, and dated sources per review. As of October 2026 it covers 18 reviews and 68 price rows. Published by Evaluate AI Service (eaiservice.com), whose publisher also makes CreatoRain, one of the listed tools; CreatoRain rows are flagged is_our_product=true and carry no score.
+version: "2026-10-17"
+keywords: software pricing, saas pricing, ai tools, restaurant software, small business, csv, json, open data
+image:
+temporal: 2026-10 snapshot, refreshed when prices are re-read
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://eaiservice.com/methodology/
+data_quality: true
+data_dictionary: https://github.com/creatorainco/eaiservice-data#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Evaluate AI Service (Midwest AI Solution Inc.)
+    web: https://eaiservice.com/
+organization:
+  - name: Midwest AI Solution Inc.
+    web: https://eaiservice.com/ownership/
+issued_time: 2026.10
+sources:
+  - name: Plan prices (CSV)
+    access_url: https://raw.githubusercontent.com/creatorainco/eaiservice-data/main/data/prices.csv
+  - name: Review records (JSON)
+    access_url: https://raw.githubusercontent.com/creatorainco/eaiservice-data/main/data/reviews.json
+  - name: Zenodo archive (DOI, latest version)
+    access_url: https://doi.org/10.5281/zenodo.23210349
+references:
+  - title: Scoring methodology
+    reference: https://eaiservice.com/methodology/
