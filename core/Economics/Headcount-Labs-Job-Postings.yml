@@ -1,0 +1,33 @@
+---
+title: Headcount Labs Job Postings
+homepage: https://huggingface.co/datasets/HeadcountLabs/job-postings
+category: Economics
+description: Open job postings collected from employers' own hiring systems (more than 100 applicant tracking systems, company careers pages and public government job exchanges). Copies of the same opening are linked to one job ID, and every posting keeps the fields the employer published plus a link to the original listing. The October 2026 snapshot holds 4,871,084 jobs, 5,716,621 postings, 5,583,156 job locations and 12,073 company summaries as Parquet, with daily change files. Job description text is not included. Only postings whose source terms allow redistribution are included.
+version: 1.0
+keywords: jobs, job postings, labor market, hiring, applicant tracking systems, pay transparency, employment
+image:
+temporal: 2026-
+spatial: worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/HeadcountLabs/job-postings/blob/main/SCHEMA.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Headcount Labs
+    web: https://headcountlabs.com
+organization:
+  - name: Headcount Labs
+    web: https://headcountlabs.com
+issued_time: 2026.10
+sources:
+  - name: Dataset on Hugging Face (jobs, postings, job_locations and companies tables, Parquet)
+    access_url: https://huggingface.co/datasets/HeadcountLabs/job-postings
+references:
+  - title: Schema and field states
+    reference: https://huggingface.co/datasets/HeadcountLabs/job-postings/blob/main/SCHEMA.md
+  - title: Live data and API documentation
+    reference: https://headcountlabs.com/docs/
