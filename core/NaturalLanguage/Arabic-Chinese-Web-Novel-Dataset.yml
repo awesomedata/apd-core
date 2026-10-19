@@ -1,0 +1,27 @@
+---
+title: Arabic-Chinese Web Novel Metadata Dataset
+homepage: https://github.com/HeTaobaba123/arabic-chinese-novels-dataset
+category: NaturalLanguage
+description: Largest open-source Arabic-Chinese parallel metadata dataset for web novels. 7,476 Chinese web novels with complete 3-language metadata (Chinese, English, Arabic) covering 4.56 billion Chinese characters across 34 categories including modern romance, xianxia, cultivation, urban, wuxia, sci-fi. All novels have Arabic titles, 92% have Arabic descriptions. First dataset connecting Chinese web novel culture with the MENA region (400M+ Arabic speakers). Useful for low-resource machine translation, cross-cultural literary studies, recommendation systems, and MENA market research. CC0 1.0 Public Domain.
+version: 1.0
+keywords: chinese novels, web novels, arabic, chinese, parallel corpus, machine translation, mena, xianxia, wuxia, literature, multilingual, low-resource
+temporal:
+copyrights: CC0 1.0 Public Domain
+accrual_periodicity: quarterly
+specification:
+data_dictionary:
+language: zh, en, ar
+publisher:
+  - name: PanguDawn
+    web: https://ar.pangudawn.com
+organization:
+  - name: PanguDawn
+    web: https://ar.pangudawn.com
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/HeTaobaba123/arabic-chinese-novels-dataset
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/hetaobaba/arabic-chinese-novels-dataset
+references:
+  - title: PanguDawn - Arabic-language Chinese web novel platform
+    reference: https://ar.pangudawn.com
