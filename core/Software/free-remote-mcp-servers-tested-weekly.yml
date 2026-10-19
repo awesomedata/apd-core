@@ -1,0 +1,35 @@
+---
+title: Free Remote MCP Servers, tested weekly (open endpoints from the official MCP Registry)
+homepage: https://github.com/diegobruegger-prog/free-remote-mcp-servers
+category: Software
+description: Every remote Model Context Protocol (MCP) server listed in the official MCP Registry that answers without an API key, token or login. Each week a GitHub Action probes the registry's Streamable HTTP endpoints with exactly two requests, initialize and tools/list, and never calls a tool. The 2026-10-16 run tested 17,094 endpoints; 9,857 (58 %) returned a tool list without credentials, 5,236 asked for authentication and 2,001 did not work. Template copies are removed (same tool set more than 3 times, same description more than twice, at most 2 per domain), leaving 8,007 servers. Each row has the registry name, title, topic, endpoint URL, tool count, tool names, description, website and repository. Useful for research on the MCP ecosystem, agent tooling, API availability and for picking public servers to test clients against. The probe scripts are in the repository, so every run is reproducible.
+version: weekly
+keywords: model context protocol, mcp, ai agents, llm tools, api, registry, open endpoints, csv, json, open data
+image:
+temporal: weekly snapshots since 2026-10
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://github.com/diegobruegger-prog/free-remote-mcp-servers#readme
+data_quality: true
+data_dictionary: https://github.com/diegobruegger-prog/free-remote-mcp-servers#readme
+language: en
+license: MIT
+publisher:
+  - name: diegobruegger-prog
+    web: https://github.com/diegobruegger-prog
+organization:
+issued_time: 2026.10
+sources:
+  - name: Open servers after removing copies (CSV)
+    access_url: https://raw.githubusercontent.com/diegobruegger-prog/free-remote-mcp-servers/main/data/servers.csv
+  - name: Open servers after removing copies (JSON)
+    access_url: https://raw.githubusercontent.com/diegobruegger-prog/free-remote-mcp-servers/main/data/servers.json
+  - name: Probe and dedup scripts
+    access_url: https://github.com/diegobruegger-prog/free-remote-mcp-servers/tree/main/scripts
+references:
+  - title: Analysis of the registry (failure reasons, hosting, tool counts)
+    reference: https://shortformkit.com/state-of-remote-mcp-servers-2026/
+  - title: Browsable list by topic
+    reference: https://shortformkit.com/free-remote-mcp-servers/
