@@ -1,0 +1,25 @@
+---
+title: TCM Arabic-Chinese Bilingual Dataset
+homepage: https://github.com/HeTaobaba123/tcm-arabic-dataset-
+category: Healthcare
+description: The first open-source Arabic-Chinese bilingual dataset for Traditional Chinese Medicine (TCM), containing 2,116 structured records across 5 files - 1,029 herbs with unique arabRelation field (documenting each herb's role in Arab-Islamic medicine and Silk Road trade history), 409 classical formulas, 499 acupuncture points, 129 classical texts, and 50 PubMed clinical evidence records. CC0 1.0 Public Domain, freely usable for commercial and research purposes. Bridges Chinese and Arab medical traditions for the MENA region.
+version: 1.0
+keywords: traditional chinese medicine, tcm, arabic, chinese, bilingual, herbal medicine, acupuncture, middle east, mena, silk road, cross-cultural medicine
+temporal:
+copyrights: CC0 1.0 Public Domain
+accrual_periodicity:
+specification:
+data_dictionary:
+language: ar, zh, en
+publisher:
+  - name: TCMHub
+    web: https://aicatalogx.com
+organization:
+  - name: TCMHub
+    web: https://aicatalogx.com/ar/open-data
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/HeTaobaba123/tcm-arabic-dataset-
+references:
+  - title: TCMHub - Arabic TCM platform
+    reference: https://aicatalogx.com
