@@ -1,0 +1,31 @@
+---
+title: U.S. Land Border Commercial Truck Wait Times
+homepage: https://juantorresmi.github.io/border-waits/
+category: Transportation
+description: "U.S. Customs and Border Protection's Border Wait Times feed only ever shows the current wait. This archive keeps every reading posted for the commercial truck lanes (standard and FAST) at 53 U.S. land ports on the Mexican and Canadian borders, sampled every 30 minutes, with the number of lanes open and the time posted in each port's local time. A closed lane is left blank, never zero. Alongside the raw readings: 30-day average waits by port, weekday and hour, and every month of CBP's own published historical averages. CSV, no login or API key; updated daily."
+version:
+keywords: CBP, border wait times, commercial trucks, freight, US-Mexico border, US-Canada border, ports of entry, FAST lanes, logistics, time series, CSV
+image:
+temporal: 2026-09-present
+spatial: United States land ports of entry (Mexican and Canadian borders)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Public domain (U.S. government data)
+publisher:
+  - name: Juan Torres
+    web: https://juantorresmi.github.io
+organization:
+  - name: U.S. Customs and Border Protection
+    web: https://bwt.cbp.gov/
+issued_time: 2026.10
+sources:
+  - name: CBP Border Wait Times
+    access_url: https://bwt.cbp.gov/
+references:
+  - title: CSV files (readings, averages, CBP published averages)
+    reference: https://github.com/JuanTorresMI/JuanTorresMI.github.io/tree/main/border-waits
