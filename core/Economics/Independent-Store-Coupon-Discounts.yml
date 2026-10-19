@@ -1,0 +1,27 @@
+---
+title: Independent Store Coupon Discounts
+homepage: https://doi.org/10.5281/zenodo.23464382
+category: Economics
+description: Aggregate statistics on coupon codes published by independent online stores, including discount levels by store category and a Black Friday discount study. Compiled from public store data by Whale Coupons.
+version: v1.0
+keywords: coupons, discounts, e-commerce, retail, independent stores, black friday
+image:
+temporal:
+spatial:
+access_level: Public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org
+organization:
+  - name: Whale Coupons
+issued_time: 2026-10-19
+sources:
+  - name: Zenodo record
+    access_url: https://doi.org/10.5281/zenodo.23464382
