@@ -1,0 +1,17 @@
+---
+title: ART (Audio Reasoning Tasks)
+homepage: https://huggingface.co/datasets/amu-cai/ART
+category: NaturalLanguage
+description: >-
+  A benchmark for evaluating audio reasoning in multimodal large language
+  models, comprising 9,000 audio samples across nine tasks and over 30 hours
+  of audio. Tasks combine reasoning over speech, environmental sounds, and
+  acoustic properties, with balanced yes/no answers.
+keywords: audio, audio reasoning, multimodal, benchmark, speech
+access_level: public
+license: CC-BY-4.0
+references:
+  - title: ART source code and evaluation scripts
+    reference: https://github.com/SamsungLabs/ART
+  - title: A Benchmark for Audio Reasoning Capabilities of Multimodal Large Language Models
+    reference: https://aclanthology.org/2026.eacl-long.42/
