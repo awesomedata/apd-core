@@ -1,0 +1,42 @@
+---
+title: AgentBroker Index - AI-Agent Access to Brokers, Banks and Crypto Exchanges
+homepage: https://github.com/oteroag01/agentbroker-index-data
+category: Finance
+description: >-
+  Sourced records of which brokers, banks and crypto exchanges let AI agents
+  (ChatGPT, Claude, Grok, MCP clients) read accounts, draft orders or place
+  orders, with the guardrails each one documents (per-order approval, scopes,
+  demo/live). Each record carries its primary source URLs, the HTTP status at
+  last check, the date it was last re-checked and the date its content last
+  changed, plus the provider's Spanish/EU authorisation status checked against
+  the CNMV, Banco de Espana and ESMA (MiCA) registers. providers.json and
+  providers.csv download from the repository with no login; changelog.json
+  lists dated launches with sources. Information only, not financial advice.
+version: "2026-10-19"
+keywords: ai agents, mcp, brokers, crypto exchanges, mica, cnmv, esma, spain, eu, csv, json
+image:
+temporal: 2026-01 / ongoing
+spatial: EU, Spain, US
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://github.com/oteroag01/agentbroker-index-data#fields
+data_quality: false
+data_dictionary: https://github.com/oteroag01/agentbroker-index-data#fields
+language: en, es
+license: CC-BY-4.0
+publisher:
+  - name: AgentBroker Index
+    web: https://agentbrokerindex.com/
+organization:
+  - name: AgentBroker Index
+    web: https://github.com/oteroag01/agentbroker-index-data
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV and JSON)
+    access_url: https://github.com/oteroag01/agentbroker-index-data
+  - name: Live JSON (CORS-enabled)
+    access_url: https://agentbrokerindex.com/data/providers.json
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
