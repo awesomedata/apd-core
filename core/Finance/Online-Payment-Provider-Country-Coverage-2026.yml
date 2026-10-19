@@ -1,0 +1,31 @@
+---
+title: Online Payment Provider Country Coverage 2026 (85 countries x 10 providers)
+homepage: https://agentaos.ai/data/payment-provider-country-coverage-2026.csv
+category: Finance
+description: Whether sellers based in each of 85 countries can use Stripe, PayPal, Paddle, Lemon Squeezy, Polar, Creem, Dodo Payments, Gumroad, Wise and AgentaOS to sell online and get paid out, with a yes/no/limited value and a one-line note per provider and country, checked against each provider's own published country and payout lists on 6 October 2026. CSV, also available as JSON at https://agentaos.ai/data/payment-provider-coverage-2026.json. Compiled by AgentaOS, itself one of the providers listed.
+version: 2026-10-06
+keywords: payments, Stripe, merchant of record, payouts, country coverage, fintech, e-commerce
+image:
+temporal: 2026
+spatial: 85 countries
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: One row per country; columns country, iso2, currency, then per provider a status (yes, no, limited) and a note, and checked (date).
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AgentaOS
+    web: https://agentaos.ai
+organization:
+  - name: Aristokrates OU (AgentaOS)
+    web: https://agentaos.ai
+issued_time: 2026-10-06
+sources:
+  - name: Stripe, PayPal, Paddle, Lemon Squeezy, Polar, Creem, Dodo Payments, Gumroad and Wise public country and payout documentation
+    access_url: https://agentaos.ai/answers/which-merchant-of-record-pays-out-to-my-country
+references:
+  - title:
+    reference:
