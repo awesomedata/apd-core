@@ -1,0 +1,36 @@
+---
+title: CryptoPunks Daily Floor Price
+homepage: https://github.com/punkprice-data/cryptopunks-floor
+category: Finance
+description: Daily floor price of CryptoPunks since 23 June 2017, one row per UTC day with no gaps, rebuilt by replaying every offer, sale, withdrawal and transfer event of the CryptoPunks marketplace contract. The floor is the lowest public ask open at the end of each UTC day; nothing is estimated or taken from an aggregator. Includes ETH and USD values, the punk offered at the floor, the count of open asks, and a companion series for the PunkStrategy (PNKSTR) token premium. CSV and JSON, updated daily, with a verification script against contract state and an independent SQL recomputation on Dune.
+version: daily
+keywords: cryptopunks, nft, ethereum, floor price, blockchain, on-chain data, time series, cryptocurrency
+temporal: 2017-06-23 to present
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://github.com/punkprice-data/cryptopunks-floor/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/punkprice-data/cryptopunks-floor#files
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: PunkPrice
+    web: https://punkprice.com/
+organization:
+  - name: PunkPrice
+    web: https://punkprice.com/
+issued_time: 2026.09
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/punkprice-data/cryptopunks-floor
+  - name: Live CSV (no API key)
+    access_url: https://punkprice.com/api/data/floor-history.csv
+  - name: Live JSON (no API key)
+    access_url: https://punkprice.com/api/data/floor-history.json
+references:
+  - title: Methodology and verification
+    reference: https://punkprice.com/blog/reconstructing-the-cryptopunks-floor
+  - title: Independent SQL recomputation on Dune
+    reference: https://dune.com/queries/8816434
