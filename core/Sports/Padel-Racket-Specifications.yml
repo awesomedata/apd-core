@@ -1,0 +1,28 @@
+---
+title: Padel Racket Specifications with Source Provenance
+homepage: https://github.com/odedkovach/padel-racket-data
+category: Sports
+description: >-
+  Published padel racket specifications in JSON and CSV, including brand, model,
+  model year, weight range, shape, balance, core and surface materials where
+  recorded. JSON retains field-level source URLs, quoted source wording and
+  source type. Includes documented calculated ratings, not playtest or
+  laboratory measurements. Useful for sports equipment data analysis,
+  provenance auditing and missing-data exercises.
+keywords: padel, racket sports, sports equipment, specifications, provenance, missing data
+access_level: public
+accrual_periodicity: updated when source records change
+data_dictionary: https://github.com/odedkovach/padel-racket-data/blob/main/DATA_DICTIONARY.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PadelTrue
+    web: https://github.com/odedkovach/padel-racket-data
+sources:
+  - name: Full JSON records with specification sources
+    access_url: https://raw.githubusercontent.com/odedkovach/padel-racket-data/main/rackets.json
+  - name: CSV summary
+    access_url: https://raw.githubusercontent.com/odedkovach/padel-racket-data/main/rackets.csv
+references:
+  - title: Executable provenance audit with recorded input hash and limitations
+    reference: https://github.com/odedkovach/padel-racket-data/tree/main/examples/provenance-audit
