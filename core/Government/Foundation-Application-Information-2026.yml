@@ -1,0 +1,44 @@
+---
+title: Foundation Application Information 2026 (US private foundations, IRS Form 990-PF)
+homepage: https://www.grantcue.com/research/foundation-application-information-2026
+category: Government
+description: >-
+  Records what the latest IRS Form 990-PF filing of each of 11,279 U.S. private foundations says about applying for a grant. The foundations are those in GrantCue's public foundation directory: private foundations whose filings in GrantCue's corpus add up to at least $1 million in grants paid across at least 5 grants. It is not a list of all U.S. foundations. The source is the Form 990-PF e-file returns the IRS publishes. Each foundation is classed from its latest return (tax years 2022 to 2025), using Part XIV, Line 2 of the form (Part XV on returns before tax year 2021), into four classes. 7,657 foundations (67.9%) give only to preselected organizations and give no application information; 231 (2.0%) check that box but still describe a form, a deadline or a web address; 3,061 (27.1%) give application information; 330 (2.9%) give nothing that counts. A class is a reading of a filing, not a statement that a foundation is taking applications now. Files, downloadable directly without login. foundations.csv (one row per foundation), states.csv, data-dictionary.csv, snapshot.json, three charts. Contact names, phone numbers, email addresses, web addresses and application text from the filings are not included.
+version: 2026-10-19
+keywords:
+  - private foundations
+  - Form 990-PF
+  - IRS
+  - foundation grants
+  - grantmaking
+  - philanthropy
+  - nonprofits
+  - grant seeking
+  - application guidelines
+  - open data
+  - United States
+  - tax year 2024
+image:
+temporal: tax years 2022 to 2025 (latest return per foundation); money figures for tax year 2024
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://www.grantcue.com/research/foundation-application-information-2026
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GrantCue
+    web: https://www.grantcue.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: GrantCue (CSV and JSON files)
+    access_url: https://www.grantcue.com/research/foundation-application-information-2026
+  - name: Zenodo (DOI 10.5281/zenodo.23475478)
+    access_url: https://doi.org/10.5281/zenodo.23475478
+references:
+  - title: IRS Form 990-PF e-file returns
+    reference: https://www.irs.gov/charities-non-profits/form-990-series-downloads
