@@ -1,0 +1,37 @@
+---
+title: German Kurtaxe and tourist tax rates by municipality
+homepage: https://github.com/keysethq/kurtaxe-daten
+category: Government
+description: >-
+  Local tourist and spa taxes (Kurtaxe, Kurbeitrag, Gästebeitrag) and overnight
+  stay taxes (Übernachtungsteuer) of more than 250 German municipalities, keyed
+  by the official municipality code (AGS). Germany has no central source for
+  these rates; every municipality sets them in its own statute. Each figure
+  carries the verbatim wording of that statute, the source URL, the SHA-256
+  checksum of the source document and the date it was checked. Includes
+  seasons, child age bands, caps, exemptions, rates already adopted for a later
+  date and the levy landlords pay themselves. JSON per municipality and for all
+  of them, plus a CSV with one row per municipality and season; amounts in euro
+  cents. Mirrored daily to GitHub, so the Git history is a change log of the
+  rates.
+version: v1
+keywords: tourist tax, spa tax, Kurtaxe, Kurbeitrag, overnight stay tax, Übernachtungsteuer, municipal statutes, local taxes, tourism, Germany
+spatial: Germany
+access_level: public
+accrual_periodicity: daily
+specification: https://keyset.cloud/kurtaxe/api/
+data_quality: false
+language: de
+license: CC BY 4.0
+publisher:
+  - name: Keyset
+    web: https://keyset.cloud/kurtaxe/
+issued_time: 2026.10
+sources:
+  - name: All municipalities (JSON)
+    access_url: https://keyset.cloud/kurtaxe/v1/orte.json
+  - name: All rates (CSV)
+    access_url: https://keyset.cloud/kurtaxe/v1/orte.csv
+references:
+  - title: Field reference and stability promise (German)
+    reference: https://keyset.cloud/kurtaxe/api/
