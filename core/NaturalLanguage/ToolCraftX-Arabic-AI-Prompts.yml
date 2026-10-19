@@ -1,0 +1,27 @@
+---
+title: ToolCraftX Arabic AI Prompts
+homepage: https://github.com/HeTaobaba123/toolcraftx-arabic-prompts
+category: NaturalLanguage
+description: First open-source collection of production-grade Arabic AI prompt templates. 11 hand-crafted prompts for generating Gulf-region Arabic content covering content writing, translation, text polishing, image prompt translation (AR to EN for Midjourney/DALL-E), SEO, PPT outlines, chat assistant, text summarization, table generation and analysis, and video scriptwriting. Each prompt is provided in 3 languages (original Chinese/English, English description, native Arabic version) with metadata including placeholders and use cases. Battle-tested in production at ToolCraftX (14-in-1 Arabic AI toolbox). CC0 1.0 Public Domain.
+version: 1.0
+keywords: arabic prompts, prompt engineering, llm, gpt, claude, mena, gulf, multilingual, chatgpt prompts, ai tools, prompt library
+temporal:
+copyrights: CC0 1.0 Public Domain
+accrual_periodicity:
+specification:
+data_dictionary:
+language: ar, zh, en
+publisher:
+  - name: ToolCraftX
+    web: https://toolcraftx.com
+organization:
+  - name: ToolCraftX
+    web: https://toolcraftx.com
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/HeTaobaba123/toolcraftx-arabic-prompts
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/hetaobaba/toolcraftx-arabic-prompts
+references:
+  - title: ToolCraftX - 14-in-1 Arabic AI toolbox
+    reference: https://toolcraftx.com
