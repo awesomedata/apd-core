@@ -1,0 +1,28 @@
+---
+title: AirportMiles airport codes (IATA, ICAO, coordinates)
+homepage: https://airportmiles.com/data
+category: Transportation
+description: CC0 table of the 4,008 airports with an IATA code and scheduled
+  passenger flights, with IATA and ICAO codes, name, the city it serves,
+  country, region, coordinates, elevation, size, city code and Wikidata ID.
+  Built from OurAirports and Wikidata, cross-checked by position. JSON and
+  CSV, refreshed monthly. A free static JSON API adds routes, distances and
+  passenger numbers (https://airportmiles.com/api). Mirrored on GitHub at
+  https://github.com/tine-current/airport-codes
+version:
+keywords: airports,airport codes,IATA,ICAO,aviation,geospatial
+image:
+temporal:
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://airportmiles.com/data
+language: en
+license: CC0-1.0
+publisher:
+organization: AirportMiles
+issued_time: 2026-10-13
+sources: []
