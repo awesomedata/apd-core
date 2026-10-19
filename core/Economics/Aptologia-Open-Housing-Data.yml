@@ -1,0 +1,23 @@
+---
+title: Aptología Open Housing Data (Colombia and Latin America)
+homepage: https://github.com/elbroker/aptologia-datos
+category: Economics
+description: Aggregated asking rents and sale prices (price per m², by city, neighbourhood, estrato, rooms and property type) computed from active housing listings in Colombia and 12 other Latin American and Iberian countries, 2026. CSV files per study, each archived on Zenodo with a DOI. CC BY 4.0.
+keywords: housing, real estate, rent, house prices, price per square meter, Colombia, Bogotá, Latin America, open data
+temporal: 2026
+spatial: Colombia, Argentina, Uruguay, Paraguay, Mexico, Peru, Brazil, Chile, Ecuador, Bolivia, Dominican Republic, Venezuela, Portugal
+access_level: public
+copyrights: CC BY 4.0
+language: es
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Aptología
+    web: https://www.aptologia.com/
+sources:
+  - name: GitHub (CSV)
+    access_url: https://github.com/elbroker/aptologia-datos
+  - name: Hugging Face datasets
+    access_url: https://huggingface.co/aptologia
+references:
+  - title: Zenodo community (DOIs)
+    reference: https://zenodo.org/communities/aptologia/
