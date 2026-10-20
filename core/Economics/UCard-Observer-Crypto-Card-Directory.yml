@@ -1,0 +1,40 @@
+---
+title: UCard Observer Crypto Card Directory
+homepage: https://ucard.observer/research/ucard-coverage/
+category: Economics
+description: A directory of 205 crypto debit, prepaid and credit cards, one row per brand, with KYC category, product status, issuer and card-network where published, fee fields, and a count of official source links. Every figure is linked to the issuer page it was read from and carries the date it was checked; fees a provider does not publish are left as unpublished rather than guessed, and discontinued products stay in the dataset as archived rows instead of being deleted. Published as CSV and JSON under CC BY 4.0, with a coverage report documenting what each column counts and what the dataset does not represent.
+version: 2026-10-20
+keywords: crypto cards, stablecoin cards, prepaid cards, debit cards, KYC, card fees, foreign exchange fees, cashback, payment cards, open data
+temporal: 2026
+spatial: global (fees and eligibility as published per region)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://ucard.observer/research/ucard-coverage/
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: UCard Observer
+    web: https://ucard.observer/
+organization:
+  - name: UCard Observer
+    web: https://ucard.observer/about/
+issued_time: 2026.10
+sources:
+  - name: Coverage snapshot CSV (KYC category, status, source counts, verification dates)
+    access_url: https://ucard.observer/data/ucard-coverage.csv
+  - name: Coverage snapshot JSON
+    access_url: https://ucard.observer/data/ucard-coverage.json
+  - name: Full card profiles JSON (fees, rewards, regions, official source links)
+    access_url: https://ucard.observer/data/cards.json
+  - name: Card change log CSV
+    access_url: https://ucard.observer/data/card-changelogs.csv
+references:
+  - title: Coverage report and counting method
+    reference: https://ucard.observer/research/ucard-coverage/
+  - title: Editorial standards and disclosures
+    reference: https://ucard.observer/about/
+  - title: Open dataset mirror on GitHub
+    reference: https://github.com/liam1024-tech/awesome-crypto-cards
