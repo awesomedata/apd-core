@@ -1,0 +1,37 @@
+---
+title: Indoor Light for Houseplants (meter readings, species light tiers, published figures)
+homepage: https://github.com/ranson0318-dot/growspot-light-dataset
+category: Agriculture
+description: Three small CC BY 4.0 datasets about indoor light for houseplants. (1) Light-meter readings taken at real spots in real homes, published as per-band and per-environment quantiles rather than household-level rows. (2) The light requirement tier for each species in a houseplant care library, with the lux boundary between one tier and the next written down. (3) Figures and statements about houseplant light transcribed one at a time from published care guides, extension services and retailers, with units left exactly as each source writes them and the source URL on every row, so disagreement between sources can be counted. CSV and JSON, with a comment header carrying the snapshot date and attribution; versioned deposits on Zenodo.
+version: "2026-10-14"
+keywords: houseplants, indoor plants, light, lux, foot-candles, PPFD, light meter, horticulture, plant care, dataset
+image:
+temporal: 2026
+spatial: Homes (indoor), worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: CSV and JSON with a leading comment line (snapshot date, licence, attribution)
+data_quality: false
+data_dictionary: https://growspotapp.com/data/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GrowSpot
+    web: https://growspotapp.com/
+organization:
+  - name: GrowSpot
+    web: https://growspotapp.com/
+issued_time: 2026.08
+sources:
+  - name: Indoor light measurements (CSV)
+    access_url: https://raw.githubusercontent.com/ranson0318-dot/growspot-light-dataset/main/data/indoor-light-measurements.csv
+  - name: Species light levels (CSV)
+    access_url: https://raw.githubusercontent.com/ranson0318-dot/growspot-light-dataset/main/data/species-light-levels.csv
+  - name: Published light figures (CSV)
+    access_url: https://raw.githubusercontent.com/ranson0318-dot/growspot-light-dataset/main/data/published-light-figures.csv
+references:
+  - title: Zenodo deposit, measurements and species tiers (concept DOI)
+    reference: https://doi.org/10.5281/zenodo.22023336
+  - title: Zenodo deposit, published figures (concept DOI)
+    reference: https://doi.org/10.5281/zenodo.22172762
