@@ -1,0 +1,25 @@
+---
+title: US New Restaurant and Bar Liquor License Applications
+homepage: https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications
+category: Government
+description: Rolling 30-day list of new restaurant and bar liquor license applications in New York City, Los Angeles and five Texas metros (Houston, Dallas-Fort Worth, Austin, San Antonio, Waco-Temple), compiled from public state liquor authority records (TABC, NY SLA, CA ABC). One row per venue with filing date, metro, city, trade name, street and venue type. Chains, hotels, gas stations and grocery stores are filtered out. A liquor license application is usually the earliest public sign that a new venue is about to open. CSV, refreshed weekly.
+version: 1.0.0
+keywords: liquor license, restaurants, bars, TABC, New York State Liquor Authority, California ABC, new businesses, local government, Texas, New York, Los Angeles
+access_level: public
+accrual_periodicity: weekly
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PourWire
+    web: https://pourwire.com/
+organization:
+  - name: PourWire
+    web: https://pourwire.com/
+issued_time: 2026.10
+sources:
+  - name: Filings, last 30 days (CSV)
+    access_url: https://github.com/Tintin-Intellegence-Limited/us-liquor-license-applications/blob/main/data/filings-last-30-days.csv
+references:
+  - title: Live daily lists by metro
+    reference: https://pourwire.com/houston/liquor-license-applications
+---
