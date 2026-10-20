@@ -1,0 +1,29 @@
+---
+title: Major Customers of US Public Companies from SEC 10-K Filings (Ryufin)
+homepage: https://github.com/GerritPro/edgar-supply-chain
+category: Finance
+description: Every major customer that 3,049 US-listed companies disclose in their latest annual report (10-K, 20-F, 40-F), with its share of revenue and a link to the filing. 1,767 rows read from XBRL concentration tags, revenue-by-customer amounts and the reports' own sentences, each with its evidence; includes a listed-to-listed supplier/customer graph and an open-source extractor. CSV and JSON under CC BY 4.0.
+version: 2026-10
+keywords: supply chain, customer concentration, major customers, SEC, EDGAR, 10-K, XBRL, stocks, finance
+image: https://raw.githubusercontent.com/GerritPro/edgar-supply-chain/main/docs/top-dependencies.svg
+temporal: 2025-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/GerritPro/edgar-supply-chain#the-data
+data_quality: true
+data_dictionary: https://github.com/GerritPro/edgar-supply-chain#the-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Ryufin
+    web: https://ryufin.com
+organization:
+issued_time: 2026-10-21
+sources:
+  - title: SEC EDGAR
+    reference: https://www.sec.gov/edgar
+references:
+  - title: Interactive customer and supplier map (refreshed nightly)
+    reference: https://ryufin.com/supply-chain
