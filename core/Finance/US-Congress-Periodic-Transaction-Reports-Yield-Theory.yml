@@ -1,0 +1,35 @@
+---
+title: US Congress Stock Trade Disclosures (Periodic Transaction Reports)
+homepage: https://www.yieldtheory.app/datasets/congressional-trades
+category: Finance
+description: Every machine-readable periodic transaction report filed by members of the US House (House Clerk) and Senate (Senate eFD) for 2025 and 2026, normalized into one table. Each row carries the member, reported owner (self, spouse, joint, dependent), ticker and asset, transaction type, transaction and filing dates, filing lag, the disclosed value range kept as a range, and the URL of the source filing. Image-only and paper filings are excluded rather than guessed. CSV and JSON, refreshed daily, no account needed.
+version:
+keywords: stock trading, congressional trades, STOCK Act, periodic transaction reports, financial disclosures, House of Representatives, Senate, United States
+image:
+temporal: 2025-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://www.yieldtheory.app/datasets/congressional-trades
+data_quality: true
+data_dictionary: https://www.yieldtheory.app/datasets/congressional-trades
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Yield Theory
+    web: https://www.yieldtheory.app
+organization:
+  - name: Clerk of the US House of Representatives (source filings)
+    web: https://disclosures-clerk.house.gov
+  - name: US Senate Office of Public Records, eFD (source filings)
+    web: https://efdsearch.senate.gov
+issued_time: 2026-10-20
+sources:
+  - name: House Clerk financial disclosure reports
+    access_url: https://disclosures-clerk.house.gov/FinancialDisclosure
+  - name: Senate electronic financial disclosures (eFD)
+    access_url: https://efdsearch.senate.gov/search/
+references:
+  - title:
+    reference:
