@@ -1,0 +1,33 @@
+---
+title: Broker Symbol Aliases
+homepage: https://trepeat.com/symbol-finder
+category: Finance
+description: Reference table of the different names forex and CFD brokers give the same instrument (for example XAUUSD, GOLD and XAUUSDm for spot gold), with the suffixes brokers append to symbols. 24 instruments, 106 names, 18 suffixes. Names only, not tied to any broker. Data licensed CC BY 4.0.
+version: v20261015
+keywords: forex, cfd, broker, symbol, ticker, alias, metatrader, ctrader, finance.
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: as-needed
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Trepeat
+    web: https://trepeat.com
+organization:
+  - name: Trepeat
+    web: https://trepeat.com
+issued_time: 2026.10
+sources:
+  - name: CSV
+    access_url: https://trepeat.com/data/symbol-aliases.csv
+  - name: JSON
+    access_url: https://trepeat.com/data/symbol-aliases.json
+references:
+  - title: Broker Symbol Finder (search the table)
+    reference: https://trepeat.com/symbol-finder
