@@ -1,0 +1,17 @@
+---
+title: DroneLedger (drone incident dossiers)
+homepage: https://github.com/NewBegin-gif/droneledger-data
+category: SocialSciences
+description: Source-backed dossiers of drone incidents worldwide (airport disruptions, sightings over critical infrastructure, attacks on ships, armed-conflict strikes). Each dossier separates drone presence, impact and attribution, each with its own evidence state and cited original sources. CSV and JSON, updated daily, with weekly versioned snapshots on Zenodo.
+keywords: drones, UAV, drone incidents, airspace incursions, airport disruption, critical infrastructure, armed conflict, OSINT
+temporal: 2018 - present
+spatial: Worldwide
+access_level: public
+accrual_periodicity: daily
+data_quality: false
+data_dictionary: https://github.com/NewBegin-gif/droneledger-data/blob/main/DATA_DICTIONARY.md
+language: en
+license: CC BY 4.0
+publisher: [{name: DroneLedger, web: "https://droneincidents.com/"}]
+issued_time: 2026.10
+sources: [{name: "Zenodo (DOI 10.5281/zenodo.23345422)", access_url: "https://doi.org/10.5281/zenodo.23345422"}]
