@@ -2,9 +2,9 @@
 title: HanseBrief China Trade News Bilingual Dataset
 homepage: https://github.com/HeTaobaba123/hansebrief-trade-news-dataset
 category: Economics
-description: Largest open-source bilingual (Chinese-English) dataset of China-focused trade news. 16,996 curated articles from HanseBrief with complete Chinese and English titles/summaries, covering 10+ categories (market, emerging tech, supply chain, metals, macro, agriculture, energy, policy, FX, China policy) and 30+ sources (Gelonghui, Yicai, 36Kr, AlJazeera, CNBC, FT, Caixin). Each article tagged with relevant commodities (hydrogen, steel, soybeans, oil, etc.). Arabic translation sample of 2,000 articles included, full Arabic edition planned. CC0 1.0 Public Domain. Useful for trade/finance machine translation, commodity market analysis, and China-MENA trade research.
-version: 1.0
-keywords: china trade, trade news, bilingual corpus, chinese, english, arabic, mena, commodities, finance nlp, machine translation, news dataset, trade intelligence, belt and road
+description: Largest open-source bilingual (Chinese-English) dataset of China-focused trade news, with trilingual (ZH+EN+AR) sample in v2. 16,996 curated articles from HanseBrief with complete Chinese and English titles/summaries, plus 2,000 articles with Modern Standard Arabic translations. Covers 10+ categories (market, emerging tech, supply chain, metals, macro, agriculture, energy, policy, FX, China policy) and 30+ sources (Gelonghui, Yicai, 36Kr, AlJazeera, CNBC, FT, Caixin). Each article tagged with relevant commodities (hydrogen, steel, soybeans, oil, etc.). CC0 1.0 Public Domain. Useful for trade/finance machine translation (Chinese-English-Arabic), commodity market analysis, and China-MENA trade research.
+version: 2.0
+keywords: china trade, trade news, bilingual corpus, trilingual corpus, chinese, english, arabic, mena, commodities, finance nlp, machine translation, news dataset, trade intelligence, belt and road
 temporal:
 copyrights: CC0 1.0 Public Domain
 accrual_periodicity: daily
