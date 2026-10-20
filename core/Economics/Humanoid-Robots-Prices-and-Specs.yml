@@ -1,0 +1,38 @@
+---
+title: Humanoid Robots You Can Buy, Prices, Delivered Costs and Specs
+homepage: https://humanoidstore.co/data?utm_source=awesome-public-datasets&utm_medium=listing&utm_campaign=open-dataset
+category: Economics
+description: >-
+  One row per humanoid robot (a torso, two arms and a head) that a person, lab or
+  company can order, plus the announced and discontinued ones: 114 machines from
+  76 makers as of October 2026. Each row has the maker and its country, the sales
+  status (shipping, preorder, business-only, research-only, announced,
+  discontinued), who can buy it, the list price with its currency and the month it
+  was last checked at the maker's or seller's own page, an estimated delivered
+  price to the United States and to Germany with the route it comes from (a seller
+  in that market or an import estimate with duty, VAT, freight and broker fees),
+  the FCC ID where one is on record, height, weight, degrees of freedom, battery
+  time, payload, top speed, hands, documented uses with a production or pilot
+  stage, the number of sellers, and a link to a datasheet that cites every source.
+  Empty cells mean not published or not on record, never zero. Built from the live
+  catalog, so the files change when a listing does. Useful for studies of the
+  humanoid robot market, hardware price and trade-cost analysis, and comparing
+  research platforms.
+keywords: humanoid robots, robotics, robot prices, embodied AI, hardware, import duty, FCC, specifications, market data, csv, json
+access_level: public
+accrual_periodicity: updated when a listing changes
+data_dictionary: https://humanoidstore.co/data#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: HumanoidStore
+    web: https://humanoidstore.co
+issued_time: 2026.10
+sources:
+  - name: CSV (one row per machine)
+    access_url: https://humanoidstore.co/data/humanoid-robots.csv
+  - name: JSON (same rows, with license and column descriptions)
+    access_url: https://humanoidstore.co/data/humanoid-robots.json
+references:
+  - title: How delivered prices are estimated (duty, VAT and paperwork by country)
+    reference: https://humanoidstore.co/import-rules
