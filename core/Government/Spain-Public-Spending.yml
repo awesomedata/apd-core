@@ -1,0 +1,22 @@
+---
+title: Spain Public Spending (Carreteras y hospitales)
+homepage: https://www.carreterasyhospitales.com/metodologia/
+category: Government
+description: Spanish public spending, debt, taxes and politicians' salaries and asset declarations, compiled from official sources (IGAE, Banco de España, INE, BOE, AEAT, Congreso) with the source of every figure. Downloadable JSON/CSV, including municipal tax burden 2023, 230+ documented spending cases and Congress asset declarations transcribed from scanned PDFs. CC BY 4.0.
+version:
+keywords: government,spain,public-spending,budget,debt,taxes,transparency,politicians
+image:
+temporal:
+spatial: Spain
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://www.carreterasyhospitales.com/metodologia/
+language: es
+license: CC BY 4.0
+publisher: Carreteras y hospitales
+organization:
+issued_time:
+sources: []
