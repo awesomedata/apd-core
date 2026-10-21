@@ -1,0 +1,31 @@
+---
+title: Dubai Land Department Monthly Sales Statistics by Area
+homepage: https://github.com/marfa77/dubai-dld-monthly-stats
+category: Economics
+description: Monthly aggregates of registered property sales in Dubai built from the Dubai Land Department open data transactions feed. For each month, area and property type it gives transaction count, median price (AED), median AED per sqft and off-plan vs ready share. Covers 2026-01 to 2026-08, 247 areas, 112,220 sales transactions. CSV and JSON. DOI 10.5281/zenodo.23322282.
+version: 1.0
+keywords: Dubai, real estate, property prices, housing, UAE, Dubai Land Department
+image:
+temporal: 2026-01 to 2026-08
+spatial: Dubai, United Arab Emirates
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: marfa77
+    web: https://github.com/marfa77
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: Dubai Land Department Open Data
+    access_url: https://dubailand.gov.ae/en/open-data/real-estate-data/
+references:
+  - title: Zenodo record
+    reference: https://doi.org/10.5281/zenodo.23322282
