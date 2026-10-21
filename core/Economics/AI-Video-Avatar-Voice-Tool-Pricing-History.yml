@@ -36,6 +36,8 @@ sources:
     access_url: https://raw.githubusercontent.com/Naelalkha/ai-video-price-history/main/data/historique-prix-outils-ia.csv
   - name: CSV on genie-artificiel.com (direct download, identical file)
     access_url: https://www.genie-artificiel.com/media/donnees/historique-prix-outils-ia.csv
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/genie-artificiel/ai-video-price-history
 references:
   - title: "AI Video Pricing Since 2024: Same Plan, Less Video (method and charts)"
     reference: https://www.genie-artificiel.com/en/ai-data/ai-video-price-history/
