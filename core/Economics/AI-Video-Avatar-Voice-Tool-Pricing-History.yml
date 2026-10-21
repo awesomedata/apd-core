@@ -1,0 +1,41 @@
+---
+title: AI Video, Avatar and Voice Tool Pricing History (2024-2026)
+homepage: https://github.com/Naelalkha/ai-video-price-history
+category: Economics
+description: >-
+  128 dated observations of the cheapest paid plans of 15 AI video, avatar and voice tools, from 2024-05-20
+  to 2026-10-16: monthly and annual price, included credits or minutes, the newest model on that date, and
+  how many seconds or minutes of output the plan buys per month with it, converted with the vendor's own
+  credit rate. Each row cites its source, a Wayback Machine capture of the official pricing page or the live
+  page on the date checked, and carries a high, medium or low confidence level. Vendor pages only show the
+  current plan; this series keeps the earlier prices and credit rates, which change with each new model even
+  when the plan price does not. Implied subscription rates, not API prices. Column dictionary in English and
+  French.
+version: 2026.10.20
+keywords: AI video, pricing, price history, subscription, credits, text-to-video, AI avatars, text to speech, Wayback Machine, Runway, Kling AI, Luma Dream Machine, Hailuo AI (MiniMax), Pika, Vidu, PixVerse, InVideo AI, Synthesia, HeyGen, Colossyan, D-ID, ElevenLabs, Murf, Descript
+image:
+temporal: 2024-05-20 to 2026-10-16
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/Naelalkha/ai-video-price-history/blob/main/data/historique-prix-outils-ia-dictionary.csv
+language: en, fr
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: Génie Artificiel
+    web: https://www.genie-artificiel.com/
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: CSV on GitHub (direct download)
+    access_url: https://raw.githubusercontent.com/Naelalkha/ai-video-price-history/main/data/historique-prix-outils-ia.csv
+  - name: CSV on genie-artificiel.com (direct download, identical file)
+    access_url: https://www.genie-artificiel.com/media/donnees/historique-prix-outils-ia.csv
+references:
+  - title: "AI Video Pricing Since 2024: Same Plan, Less Video (method and charts)"
+    reference: https://www.genie-artificiel.com/en/ai-data/ai-video-price-history/
