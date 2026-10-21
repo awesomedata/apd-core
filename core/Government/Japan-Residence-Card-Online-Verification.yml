@@ -1,0 +1,10 @@
+---
+title: Japan New Residence Card Online Verification (eKYC) Acceptance
+homepage: https://github.com/ReviewReply-now/residence-card-tracker
+category: Government
+description: Which of 15 Japanese mobile carriers and banks accept a residence card issued on or after 14 June 2026 (second-generation and specified residence cards) for online identity verification. Each row gives the answer (Yes, No, Partly or Checking), the provider's notice URL, the quoted Japanese sentence with an English translation, and the date it was read. CSV; versioned snapshot on Zenodo (DOI 10.5281/zenodo.23521207).
+keywords: Japan, residence card, eKYC, identity verification, foreign residents, mobile carriers, banks
+access_level: public
+license: CC BY 4.0
+language: en
+issued_time: 2026.10
