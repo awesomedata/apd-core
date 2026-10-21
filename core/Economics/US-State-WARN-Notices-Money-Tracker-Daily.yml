@@ -1,0 +1,39 @@
+---
+title: US State WARN Layoff Notices (Money Tracker Daily)
+homepage: https://moneytrackerdaily.com/trackers/layoffs/california
+category: Economics
+description: WARN Act layoff notices taken directly from the official lists of five state labour departments (California EDD, FloridaCommerce, New York State Department of Labor, Tennessee Department of Labor and Workforce Development, Maryland Department of Labor). One cumulative CSV per state, keeping each state's own fields and the values as filed alongside cleaned employer names; notices are never dropped when a state removes them from its current list, so each file is a time series from the start of collection. Each state also has a page per employer, county or city, industry or reason, and month. Public, no login.
+version: 1.0
+keywords: layoffs, WARN act, labor market, plant closures, employment, workforce
+image:
+temporal: 2023-
+spatial: United States (CA, FL, NY, TN, MD)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Money Tracker Daily
+    web: https://moneytrackerdaily.com/
+organization:
+  - name: Digital Fancy LLC
+    web: https://moneytrackerdaily.com/
+issued_time: 2026.10
+sources:
+  - name: California WARN notices (CSV)
+    access_url: https://moneytrackerdaily.com/data/layoffs-california.csv
+  - name: Florida WARN notices (CSV)
+    access_url: https://moneytrackerdaily.com/data/layoffs-florida.csv
+  - name: New York WARN notices (CSV)
+    access_url: https://moneytrackerdaily.com/data/layoffs-new-york.csv
+  - name: Tennessee WARN notices (CSV)
+    access_url: https://moneytrackerdaily.com/data/layoffs-tennessee.csv
+  - name: Maryland WARN notices (CSV)
+    access_url: https://moneytrackerdaily.com/data/layoffs-maryland.csv
+references:
+  - title: Monthly layoffs round-up across the five states
+    reference: https://moneytrackerdaily.com/trackers/layoffs/monthly/
