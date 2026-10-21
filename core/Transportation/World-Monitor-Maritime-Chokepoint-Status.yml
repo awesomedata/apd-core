@@ -1,6 +1,6 @@
 ---
 title: World Monitor Maritime Chokepoint Status
-homepage: https://www.worldmonitor.app/chokepoints/
+homepage: https://www.worldmonitor.app/chokepoints/status.json
 category: Transportation
 description: Disruption score, status, AIS congestion and observation time for 13 maritime chokepoints such as Bab el-Mandeb and the Bosporus. Free JSON snapshot, no login required.
 version:
