@@ -1,0 +1,37 @@
+---
+title: euroflation European inflation, interest rate and housing data
+homepage: https://euroflation.com/data
+category: Economics
+description: Tidy CSV files of official European statistics for 30 countries, the euro area and the EU, from 1970. They cover harmonised inflation (HICP) with its components and index, ECB policy rates and the €STR, 10-year government bond yields and the spread over the German Bund, average bank rates on new household deposits and mortgages (ECB MIR), unemployment, growth, house prices and housing ratios, minimum wages, household electricity and gas prices, and weekly fuel prices. Compiled from Eurostat, the European Commission, the ECB and the OECD and refreshed daily. A Frictionless datapackage.json documents every column, and a single all.csv.gz holds everything. The compilation and derived series are CC BY 4.0; the official figures keep their publishers' reuse terms, which the page sets out.
+version: v1
+keywords: inflation, HICP, ECB, interest rates, deposit rates, mortgage rates, bond yields, housing, Europe, euro area
+image:
+temporal: 1970-present
+spatial: Europe (30 countries, euro area, European Union)
+access_level: public
+copyrights: euroflation (compilation and derived series, CC BY 4.0); Eurostat, European Commission, ECB and OECD (official figures, under their reuse terms)
+accrual_periodicity: daily
+specification: https://euroflation.com/data/v1/datapackage.json
+data_quality:
+data_dictionary: https://euroflation.com/data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: euroflation
+    web: https://euroflation.com
+organization:
+  - name: euroflation
+    web: https://euroflation.com
+issued_time: 2026.09
+sources:
+  - name: Everything in one file (CSV, gzip)
+    access_url: https://euroflation.com/data/v1/all.csv.gz
+  - name: Latest values (CSV)
+    access_url: https://euroflation.com/data/v1/latest.csv
+  - name: Data package (JSON)
+    access_url: https://euroflation.com/data/v1/datapackage.json
+references:
+  - title: Open data page, file list, licences and citation
+    reference: https://euroflation.com/data
+  - title: Sources and methodology
+    reference: https://euroflation.com/sources
