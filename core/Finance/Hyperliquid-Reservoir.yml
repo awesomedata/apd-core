@@ -1,0 +1,48 @@
+---
+title: Reservoir - Hyperliquid Exchange Data (fills, liquidations, order books, positions, HIP-4 prediction markets)
+homepage: https://huggingface.co/datasets/realjojo/hyperliquid-reservoir
+category: Finance
+description: >-
+  Free archive of Hyperliquid exchange data built from the chain's public data
+  by Hydromancer and stored as daily Parquet files. The linked sample downloads
+  directly from Hugging Face with no login and covers every Hyperliquid perp
+  liquidation since 2025-07-28, every auto-deleveraging fill, every HIP-4
+  prediction-market fill since launch on 2026-05-02, 30 days of 1-minute candles
+  for every market, 30 days of 1-minute BTC, ETH, SOL and HYPE order books (top
+  20 levels), a snapshot of every open position and account value on 2026-10-19,
+  and every fill on the day of the 10 October 2025 crash. The full archive, in a
+  requester-pays AWS S3 bucket updated daily, adds every fill on every venue
+  (perps, spot, HIP-3 and HIP-4), 1-second candles, daily snapshots and order
+  books for every market.
+version:
+keywords: cryptocurrency, Hyperliquid, perpetual futures, liquidations, order book, market microstructure, prediction markets, HIP-4, parquet, cc-by-4.0
+image:
+temporal: 2025-07 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://docs.hydromancer.xyz/reservoir
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/realjojo/hyperliquid-reservoir#whats-in-each-part
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Hydromancer
+    web: https://hydromancer.xyz
+organization:
+  - name: Hydromancer
+    web: https://hydromancer.xyz
+issued_time: 2026.10
+sources:
+  - name: Hugging Face sample (Parquet)
+    access_url: https://huggingface.co/datasets/realjojo/hyperliquid-reservoir
+  - name: Kaggle sample (Parquet)
+    access_url: https://www.kaggle.com/datasets/realjojo/hyperliquid-reservoir
+  - name: Full archive (requester-pays S3 bucket s3://hydromancer-reservoir, ap-northeast-1)
+    access_url: https://docs.hydromancer.xyz/reservoir
+references:
+  - title: How to Query Reservoir's Hyperliquid Data
+    reference: https://hydromancer.xyz/blog/exploring-reservoir
+  - title: "Trading in the Sunshine or in the Shade: Market Impact and Adverse Selection on Hyperliquid (Barone and Lillo)"
+    reference: https://arxiv.org/abs/2606.15715
