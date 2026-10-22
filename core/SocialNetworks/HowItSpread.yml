@@ -1,0 +1,22 @@
+---
+title: How It Spread viral events and timelines
+homepage: https://github.com/howitspread/howitspread-data
+category: SocialNetworks
+description: 1,309 viral events with 19,732 dated timeline events (seed, platform jumps, press, peak), spread mechanics and a 0-100 Spread Score. CSV and JSON, CC BY 4.0.
+version: 2026-10-22
+keywords: virality, social media, information diffusion, memes, marketing
+image:
+temporal:
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: Each case carries a verification level (0-4); see README.
+data_dictionary: https://howitspread.com/dataset#columns
+language: en
+license: CC BY 4.0
+publisher: How It Spread
+tags:
+  - virality
+  - social-media
