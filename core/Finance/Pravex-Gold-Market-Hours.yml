@@ -1,0 +1,32 @@
+---
+title: Pravex Gold Market Hours (XAUUSD)
+homepage: https://pravex.app/gold-market-open-time/
+category: Finance
+description: When gold trades, as one small file. The weekly session, the daily one-hour pause, the weekend close and the 2026 holiday closures for gold (XAUUSD, silver keeps the same hours), in New York time and UTC, plus the US clock-change dates for 2026 and 2027. Taken from CME Globex gold futures hours and CME's holiday calendar. Free JSON and CSV, no key, CORS enabled; no prices or quotes.
+version:
+keywords: gold,XAUUSD,silver,XAGUSD,trading hours,market hours,holidays,sessions,CME,Globex
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: Schedule facts belong to the exchange; compilation by Pravex, free to reuse with attribution
+accrual_periodicity: updated when the schedule or the holiday calendar changes
+specification: https://pravex.app/gold-market-open-time/#data
+data_quality: false
+data_dictionary: https://pravex.app/gold-market-open-time/#data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Pravex
+    web: https://pravex.app
+organization:
+issued_time: 2026-10
+sources:
+  - name: JSON
+    access_url: https://pravex.app/data/gold-market-hours.json
+  - name: CSV
+    access_url: https://pravex.app/data/gold-market-hours.csv
+references:
+  - title: Gold market hours explained
+    reference: https://pravex.app/gold-market-open-time/
+---
