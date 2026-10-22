@@ -1,0 +1,11 @@
+---
+title: Forklift Model Specifications
+homepage: https://github.com/veinpsycoo/forklift-specs-data
+category: Transportation
+description: Specifications for 68 forklift models from four manufacturers in CSV and JSON, with manufacturer source URLs, source dates, units, and published VDI aisle-width information. Blank fields represent unpublished values. Exported September 2026.
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ForkliftCompare
+    web: https://forkliftcompare.net/
