@@ -1,0 +1,19 @@
+---
+title: AU Online Shelf-Price Index
+homepage: https://data.yappman.com/au-shelf-price-index/
+category: Economics
+description: Weekly index (base 100 at ISO week 2026-W41) of posted online shelf prices at Coles, Woolworths and Aldi Australia, with a headline series, per-retailer like-for-like series and product-class series. Coles is a partial slice. It measures posted shelf prices, not prices paid, and is not the ABS consumer price index.
+version: 1.0
+keywords: grocery prices, supermarket, shelf prices, price index, Australia, time series
+temporal: weekly from ISO week 2026-W41
+spatial: Australia
+access_level: public
+accrual_periodicity: intended weekly
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Yappman Data (Abley-Yapp Consulting Limited)
+    web: https://data.yappman.com
+sources:
+  - name: Full series as CSV (public Apify dataset, no login)
+    access_url: https://api.apify.com/v2/datasets/FvrQZaMOARuesHgPp/items?format=csv&clean=true&attachment=true
