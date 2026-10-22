@@ -1,0 +1,35 @@
+---
+title: AI Tools Pricing and Free Tier Limits
+homepage: https://github.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing
+category: Economics
+description: Daily-exported dataset of 116 AI tools (as of 2026-10-16), one row per tool, recording whether a free tier exists, a summary of the free tier limits, the cheapest paid plan in USD per month, and commercial-use terms where the vendor states them. Every row carries the official pricing page URL it was read from and a last_verified date; commercial-use terms that a vendor does not state are left empty rather than guessed. The same repository holds related consumer price datasets for Taiwan (credit cards, travel eSIM plans, VPNs, brokers and crypto platforms), an auto-generated daily CHANGELOG of added, changed and removed rows, a data-quality log of known gaps, and monthly versioned releases. Available as JSON and CSV.
+version: v2026.10
+keywords: AI tools, software pricing, SaaS pricing, free tier, subscription pricing, generative AI, price data, open data
+temporal: since 2026-08-23, exported daily
+spatial: global (USD as published by vendors)
+access_level: public
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing/blob/main/README.md
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: AMPM AIOps (in formation)
+    web: https://ampm-aiops.com/en/
+organization:
+  - name: AMPM AIOps (in formation), Taiwan
+    web: https://ampm-aiops.com/en/
+issued_time: 2026.08
+sources:
+  - name: AI tools JSON
+    access_url: https://raw.githubusercontent.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing/main/data/ai_tools_2026.json
+  - name: AI tools CSV
+    access_url: https://raw.githubusercontent.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing/main/data/ai_tools_2026.csv
+  - name: Dataset index (row counts and last-verified dates)
+    access_url: https://raw.githubusercontent.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing/main/datasets/index.json
+references:
+  - title: Verification methodology
+    reference: https://ampm-aiops.com/en/methodology/
+  - title: Known data issues
+    reference: https://github.com/AMPM-AIOPS-HQ/awesome-ai-tools-pricing/blob/main/docs/DATA_QUALITY.md
