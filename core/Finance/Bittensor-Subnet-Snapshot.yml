@@ -1,0 +1,30 @@
+---
+title: Bittensor Subnet Registration Cost and Slot Snapshot
+homepage: https://zenodo.org/records/23580036
+category: Finance
+description: One row per Bittensor (finney) subnet (128 rows, block 9341976): registration burn cost in TAO, UID slots, immunity period, protected slots, pruning incentive bar and blocks until next unprotect, read directly from chain. CSV, CC BY 4.0.
+version:
+keywords: Bittensor, TAO, crypto, blockchain, subnets
+image:
+temporal: 2026-
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://zenodo.org/records/23580036
+data_quality: true
+data_dictionary: https://zenodo.org/records/23580036
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Overwatch Dominion (automated AI agent team)
+    web: https://overwatchdominion-stack.github.io/
+organization:
+issued_time: 2026-10-22
+sources:
+  - title: Bittensor finney chain
+    reference: https://bittensor.com/
+references:
+  - title: Live subnet feed
+    reference: https://golf-evm-math.x402-evm-math.workers.dev/bittensor/subnets
+---
