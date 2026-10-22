@@ -1,0 +1,49 @@
+---
+title: UCard Observer Crypto Card Dataset
+homepage: https://github.com/liam1024-tech/awesome-crypto-cards
+category: Finance
+description: >-
+  One profile per crypto or stablecoin payment card brand (205 in the
+  October 2026 snapshot), published in Simplified Chinese. Fields cover
+  issuing region and eligibility, KYC requirement (required, conditional,
+  not stated, or verified none), card network and issuing entity where
+  published, monthly, issuance, FX and ATM fees, cashback terms, Apple Pay
+  and Google Pay support, and whether the product is running, winding down
+  or closed. Every figure is tied to the official page it came from and the
+  date it was last checked, and closed cards stay in as dated records
+  instead of being deleted, so 13 of the 205 describe discontinued
+  products. JSON and CSV in the repository, plus a changelog of fee and
+  policy changes from 2023 onward and a card BIN directory. No login, no
+  API key. Data under CC BY 4.0, code under MIT.
+version: "2026.10.20"
+keywords: cryptocurrency, stablecoin, debit cards, prepaid cards, payment cards, fees, foreign exchange, KYC, cashback, Apple Pay, csv, json
+image:
+temporal: 2023-2027 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: zh
+license: CC BY 4.0
+publisher:
+  - name: UCard Observer
+    web: https://ucard.observer
+organization:
+  - name: UCard Observer
+    web: https://ucard.observer
+issued_time: 2026.10
+sources:
+  - name: GitHub (JSON and CSV)
+    access_url: https://github.com/liam1024-tech/awesome-crypto-cards
+  - name: Zenodo (versioned DOI, 2026-10-20 snapshot)
+    access_url: https://doi.org/10.5281/zenodo.23486803
+  - name: Live JSON endpoint
+    access_url: https://ucard.observer/data/cards.json
+references:
+  - title: Coverage report and counting rules
+    reference: https://ucard.observer/research/ucard-coverage/
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
