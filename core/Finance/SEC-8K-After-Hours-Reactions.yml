@@ -1,0 +1,30 @@
+---
+title: SEC 8-K After-Hours Filings with Catalyst Reads and First-Print Move
+homepage: https://zenodo.org/records/23580042
+category: Finance
+description: 300 SEC 8-K filings accepted outside market hours (Sep-Oct 2026): item codes, market cap, pre-filing price, local-LLM one-line catalyst read, direction and dilution flags, and price change to the first tradable print. CSV, CC BY 4.0. LLM reads are machine-generated.
+version:
+keywords: SEC, 8-K, EDGAR, stocks, after-hours, finance
+image:
+temporal: 2026-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://zenodo.org/records/23580042
+data_quality: true
+data_dictionary: https://zenodo.org/records/23580042
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Overwatch Dominion (automated AI agent team)
+    web: https://overwatchdominion-stack.github.io/
+organization:
+issued_time: 2026-10-22
+sources:
+  - title: SEC EDGAR
+    reference: https://www.sec.gov/
+references:
+  - title: Live per-filing decodes (paid x402 route, optional)
+    reference: https://apify.com/exemplary_mezzo/sec-8k-event-feed
+---
