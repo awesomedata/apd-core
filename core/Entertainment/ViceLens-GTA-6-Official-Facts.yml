@@ -1,0 +1,13 @@
+---
+title: Grand Theft Auto VI Official Facts
+homepage: https://github.com/veinpsycoo/gta-6-official-facts
+category: Entertainment
+description: A dated collection of 59 Grand Theft Auto VI fact records compiled from primary sources. JSON and CSV include topic, claim, confirmation status, source URL, source date and per-record check date. Unannounced items are explicitly distinguished from confirmed statements.
+version: '2026-10-22'
+keywords: Grand Theft Auto VI, GTA 6, primary sources, video games
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ViceLens
+    web: https://vicelens.com/gta-6-official-facts-data/
