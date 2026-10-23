@@ -1,0 +1,31 @@
+---
+title: Tennis Line Calling by Event
+homepage: https://livetennisapi.com/data/tennis-line-calling
+category: Sports
+description: Which line-calling system each top professional tennis event used, one row per event, season and tour from 2017 to 2026. Values are live electronic line calling on every court, electronic calling on some courts, human line judges with a challenge system, line judges only, or unknown. 278 rows across 38 events, the four Grand Slams, ATP and WTA finals, ATP Masters 1000, WTA 1000, the team finals and ATP 500 events for 2025 and 2026. Every row with a known value cites the page that supports it (75 sources) and is marked confirmed or inferred from a tour-wide rule. Ships with CSVW metadata, a CITATION.cff and a validator.
+version: 1.0.0
+keywords: tennis, electronic line calling, Hawk-Eye Live, line judges, officiating, ATP, WTA, Grand Slam, sports technology
+image:
+temporal: 2017-2026
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://gitlab.com/livetennisapi/tennis-line-calling/-/raw/main/data/line_calling.csv-metadata.json
+data_quality: true
+data_dictionary: https://gitlab.com/livetennisapi/tennis-line-calling
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Live Tennis API
+    web: https://livetennisapi.com/
+organization:
+  - name: Live Tennis API
+    web: https://livetennisapi.com/
+issued_time: 2026-10-22
+sources:
+  - name: line_calling.csv
+    access_url: https://gitlab.com/livetennisapi/tennis-line-calling/-/raw/main/data/line_calling.csv
+references:
+  - title:
+    reference:
