@@ -1,0 +1,35 @@
+---
+title: US Hard Water and Water Quality Statistics 2026
+homepage: https://doi.org/10.5281/zenodo.23534609
+category: EarthScience
+description: A compiled, source-checked dataset of 160 US and global water statistics covering water hardness (USGS map, 2,160-well domestic sample, utility reports for 12 US cities), softener adoption and water use, public water system violations, lead service lines, PFAS (UCMR 5 final results), private wells, chloride and softener regulation, salt use, appliance scaling, consumer concern and global access. Each row is one statistic with its primary source name, title, URL, publication date and retrieval date; all 160 were checked against 64 live primary sources on 2026-10-11. CSV and JSON, archived on Zenodo with a DOI.
+keywords: water hardness, hard water, drinking water, water quality, PFAS, lead service lines, private wells, water softeners, USGS, EPA, United States, open data
+temporal: 2026
+spatial: United States (with selected global figures)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.23534609
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Water System Guide
+    web: https://watersystemguide.com/
+organization:
+  - name: Water System Guide
+    web: https://watersystemguide.com/
+issued_time: 2026.10
+sources:
+  - name: Zenodo record (CSV, JSON, data dictionary, methods)
+    access_url: https://zenodo.org/records/23534609
+  - name: Dataset page
+    access_url: https://watersystemguide.com/guides/hard-water-statistics/
+references:
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23534609)
+    reference: https://doi.org/10.5281/zenodo.23534609
+  - title: USGS water hardness
+    reference: https://www.usgs.gov/special-topics/water-science-school/science/hardness-water
+  - title: EPA UCMR 5 data
+    reference: https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule
