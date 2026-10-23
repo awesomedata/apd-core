@@ -1,0 +1,35 @@
+---
+title: US Power Outage Burden by State 2013-2025
+homepage: https://doi.org/10.5281/zenodo.23548861
+category: Energy
+description: State-by-year customer-weighted SAIDI and SAIFI (minutes and number of outages per customer), with and without major event days, for the 50 US states and DC, 2013-2025, aggregated from 13,155 EIA Form 861 utility reliability records. Also includes a state-year summary of 3,876 DOE-417 electric disturbance events, utility-level inputs, validation against EIA state totals, the unmodified federal source files and the build script. CSV, archived on Zenodo with a DOI.
+keywords: power outages, electric reliability, SAIDI, SAIFI, EIA-861, DOE-417, electricity, grid, United States, open data
+temporal: 2013-2025
+spatial: United States (50 states and DC)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.23548861
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Backup Generator Guide
+    web: https://backupgeneratorguide.com/
+organization:
+  - name: Backup Generator Guide
+    web: https://backupgeneratorguide.com/
+issued_time: 2026.10
+sources:
+  - name: Zenodo record (CSV files, raw federal data, build script)
+    access_url: https://zenodo.org/records/23548861
+  - name: Dataset page
+    access_url: https://backupgeneratorguide.com/data/power-outages-by-state/
+references:
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23548861)
+    reference: https://doi.org/10.5281/zenodo.23548861
+  - title: EIA Form 861 annual electric power industry report
+    reference: https://www.eia.gov/electricity/data/eia861/
+  - title: DOE-417 electric emergency and disturbance reports
+    reference: https://doe417.pnnl.gov/
