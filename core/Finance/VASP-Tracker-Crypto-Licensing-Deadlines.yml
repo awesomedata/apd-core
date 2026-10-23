@@ -1,0 +1,42 @@
+---
+title: VASP Tracker - Crypto Licensing Deadlines by Jurisdiction
+homepage: https://doi.org/10.5281/zenodo.23575353
+category: Finance
+description: >-
+  When virtual-asset / crypto-asset service providers (VASPs, CASPs) must be
+  licensed, country by country. One row per jurisdiction (74 in the
+  21 Oct 2026 snapshot: regulator, regime, status, next or last key date,
+  register URL) plus 163 dated events (application deadlines, transition
+  ends, entry into force, rules, notices), each with the source URL of the
+  law or regulator notice and a flag where a date is a calculation rather
+  than a date stated in the source. A second table lists 170 platforms
+  serving Brazil and their status in Central Bank of Brazil (BCB)
+  authorisation open data (SPSAV). CSV and JSON, no login.
+version: "2026.10.21"
+keywords: crypto regulation, VASP, CASP, MiCA, licensing, deadlines, regtech, compliance, Brazil, csv, json
+image:
+temporal: 2018 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/vasptracker/vasptracker-data/blob/main/README.md
+data_quality: false
+data_dictionary: https://vasptracker.com/en/br/data/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: VASP Tracker
+    web: https://vasptracker.com/
+organization:
+  - name: VASP Tracker
+    web: https://vasptracker.com/
+issued_time: 2026.10
+sources:
+  - name: Zenodo (versioned DOI)
+    access_url: https://doi.org/10.5281/zenodo.23575353
+  - name: GitHub (CSV and JSON)
+    access_url: https://github.com/vasptracker/vasptracker-data
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
