@@ -1,0 +1,33 @@
+---
+title: Awesome Reverse-Engineered - 16,844 open-source projects built by reverse engineering closed products
+homepage: https://github.com/alexgaoth/awesome-reverse-engineered
+category: Software
+description: Index of 16,844 open-source GitHub projects that exist because someone reverse engineered a closed app, web API, device, protocol, file format, game or AI product. Each record has the repository name, URL, a one-line description, category and subcategory (20 categories, for example game decompilations, devices and IoT, unofficial API clients, file formats and online service revivals), GitHub stars, primary language, license, last push date, archived flag, topics and the date the project was added. A nightly GitHub Action refreshes the metadata and logs deleted repositories. A second file lists 131 products that their makers discontinued and the open-source projects that keep them working, with a source for each shutdown year. Useful for research on reverse engineering, interoperability, right to repair and software preservation.
+version: nightly
+keywords: reverse engineering, open source, github, interoperability, right to repair, game decompilation, iot, unofficial api, software preservation, json, open data
+image:
+temporal: projects added since 2026-10; metadata refreshed nightly
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/alexgaoth/awesome-reverse-engineered#readme
+data_quality: false
+data_dictionary:
+language: en
+license: CC0 1.0 (data), MIT (code)
+publisher:
+  - name: alexgaoth
+    web: https://github.com/alexgaoth
+organization:
+issued_time: 2026.10
+sources:
+  - name: All projects (JSON)
+    access_url: https://raw.githubusercontent.com/alexgaoth/awesome-reverse-engineered/main/data/entries.json
+  - name: Discontinued products kept alive by open source (JSON)
+    access_url: https://raw.githubusercontent.com/alexgaoth/awesome-reverse-engineered/main/data/resurrected.json
+references:
+  - title: Search site
+    reference: https://awesome.alexgaoth.com/
+  - title: Resurrected products
+    reference: https://awesome.alexgaoth.com/resurrected/
