@@ -1,0 +1,45 @@
+---
+title: Steam data for large-scale tactical shooters
+homepage: https://github.com/Poki312/steam-tactical-shooter-data
+category: Entertainment
+description: Dated readings taken from Valve's own public surfaces for large-scale tactical shooters, and the timeseries of those readings. Nine games are sampled inside one minute for Steam open-session counts; earlier readings are kept as dated rows rather than overwritten, and each row names the page it was first published on. Also holds the WARDOGS achievement list with Valve's global unlock share for each entry, base and Supporter Edition prices in eight Steam regions plus the region Valve returns no price for, the store language list with its interface, audio and subtitles flags, review counts per language, and the squad faction roster with the publisher document each name was read from. No figure is estimated, converted between currencies or joined to a third-party tracker.
+version: "2026-10-07"
+keywords: steam, valve, video games, tactical shooters, player counts, achievements, regional prices, language support, timeseries, csv, open data
+image: https://shooteratlas.com/assets/img/wardogs-achievements-fig-rarity.png
+temporal: 2026-09-28/2026-10-07
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: daily snapshot
+specification:
+data_quality: false
+data_dictionary: https://github.com/Poki312/steam-tactical-shooter-data#what-is-in-here
+language: en
+license: MIT
+publisher:
+  - name: Shooter Atlas
+    web: https://shooteratlas.com
+organization:
+  - name: Shooter Atlas
+    web: https://shooteratlas.com
+issued_time: 2026.10.07
+sources:
+  - name: player-count-timeseries.csv (Valve's count endpoint, one row per dated reading, each naming the page it was first published on)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/player-count-timeseries.csv
+  - name: steam-player-counts-2026-10-07.csv (Valve's count endpoint, 9 games sampled in one minute)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/steam-player-counts-2026-10-07.csv
+  - name: wardogs-achievements-2026-09-28.csv (Steam global achievement statistics, app 1867240)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/wardogs-achievements-2026-09-28.csv
+  - name: wardogs-regional-prices-2026-09-29.csv (Valve store API, 8 regions)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/wardogs-regional-prices-2026-09-29.csv
+  - name: wardogs-language-support-2026-09-30.csv (Steam store page, app 1867240)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/wardogs-language-support-2026-09-30.csv
+  - name: wardogs-reviews-by-language-2026-09-30.csv (Steam review API)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/wardogs-reviews-by-language-2026-09-30.csv
+  - name: squad-factions-2026-10-07.csv (publisher-owned documents, one name per row)
+    access_url: https://raw.githubusercontent.com/Poki312/steam-tactical-shooter-data/main/data/squad-factions-2026-10-07.csv
+references:
+  - title: The write-up behind the player-count readings
+    reference: https://shooteratlas.com/wardogs-player-count
+  - title: Steam Web API
+    reference: https://developer.valvesoftware.com/wiki/Steam_Web_API
