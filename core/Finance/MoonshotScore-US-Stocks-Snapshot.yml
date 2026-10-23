@@ -1,0 +1,31 @@
+---
+title: MoonshotScore Snapshot of 3,638 US-Listed Stocks and a One-Month Score-Band Test
+homepage: https://doi.org/10.5281/zenodo.23274464
+category: Finance
+description: Point-in-time snapshot (26 Sep 2026) of a 0-100 sector-relative fundamental score, score band and market-cap bucket for 3,638 US-listed common stocks and ADRs, plus a one-month forward check (31 Aug - 30 Sep 2026) of 633 stocks by score band against SPY with median and mean excess return, share beating SPY and share with a drawdown over 20%. Derived scores and aggregates only; no raw vendor prices or financials. CSV.
+version: 1.0
+keywords: stocks, equities, US, factor scores, fundamentals, score bands, forward returns, drawdown, CSV
+image:
+temporal: 2026-08-29 - 2026-09-30
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://www.stockexpertai.com/methodology
+data_quality: true
+data_dictionary: https://doi.org/10.5281/zenodo.23274464
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org
+organization:
+  - name: Stock Expert AI
+    web: https://www.stockexpertai.com
+issued_time: 2026-10-10
+sources:
+  - name: Financial Modeling Prep (underlying fundamentals and prices; not redistributed)
+    access_url: https://site.financialmodelingprep.com
+references:
+  - title: Scoring specification
+    reference: https://github.com/anaksedat-sudo/moonshotscore-methodology
