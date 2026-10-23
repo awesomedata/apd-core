@@ -1,0 +1,28 @@
+---
+title: QueryRev State of AI Crawler Access
+homepage: https://huggingface.co/datasets/QueryRevResearch/ai-crawler-access
+category: SearchEngines
+description: robots.txt rules for 11 AI crawlers and the llms.txt files of the 9,973 Tranco top sites, read on 15 October 2026; one row per domain plus the published figures, CC BY 4.0 (Zenodo DOI 10.5281/zenodo.23424275)
+version: 2026-10
+keywords:
+  - robots.txt
+  - llms.txt
+  - ai-crawlers
+  - tranco
+image:
+temporal: 2026-10
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: QueryRev Research
+    web: https://queryrev.com/research
+organization:
+issued_time: 2026.10
+sources: []
