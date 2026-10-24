@@ -3,10 +3,12 @@ title: Job Postings With Published Salary Ranges
 homepage: https://github.com/sjdfi0wjvosdju9/job-salary-open-data
 category: Economics
 description: >-
-  8,000+ live job postings from 266 companies (Greenhouse, Lever, Ashby and Workable boards) where the company
-  itself published a pay range, normalised to annual USD. Includes company, title, location, remote flag, role
-  family, salary low/high/mid in local currency and in USD, posting date and the original job URL. Regenerated
-  every week, so the same companies can be compared across time.
+  A global, per-posting dataset: 8,000+ live job postings from 266 companies across four ATS providers
+  (Greenhouse, Lever, Ashby, Workable) where the employer published a pay range, normalised to annual USD and
+  kept in the original currency too. One row per posting, with company, title, location, remote flag, role
+  family, salary low/high/mid in local currency and in USD, posting date and the original job URL, so the data
+  can be re-analysed rather than only read as aggregates. Regenerated weekly from the same company list, which
+  makes week-over-week comparisons possible (for example which employers post pay and which never do).
 version: 1.0
 keywords: salary, compensation, pay transparency, job postings, labour market, hiring, ATS, Greenhouse, Lever, Ashby, Workable
 temporal: 2026
@@ -30,5 +32,7 @@ sources:
   - name: public ATS job feeds
     access_url: https://sjdfi0wjvosdju9.github.io/data/salary-ranges-full.csv
 references:
-  - title: Site and methodology
+  - title: Methodology and distributions
     reference: https://sjdfi0wjvosdju9.github.io/salary-data.html
+  - title: Change log (every number that moved, and why)
+    reference: https://sjdfi0wjvosdju9.github.io/changes.html
