@@ -1,0 +1,37 @@
+---
+title: LyricsWeb Song Title Originality and Reuse Dataset (1800-2026)
+homepage: https://doi.org/10.5281/zenodo.23559663
+category: Entertainment
+description: >-
+  Versioned aggregate measurements for studying song-title novelty, earlier-title
+  reuse, cross-artist reuse, concentration, fixed-sample diversity, and
+  language-label trends across 7,096,331 eligible catalog records. The package
+  contains documented CSV and JSON outputs, methodology, limitations, checksums,
+  and a data dictionary; it contains no lyrics, audio, personal data, source
+  code, or item-level catalog records.
+version: 2.0
+keywords: music metadata, song titles, cultural analytics, digital musicology, longitudinal data, title reuse, diversity measures
+image:
+temporal: 1800-2026
+spatial:
+access_level: public
+copyrights: GlobalMedia Holdings Ltd.
+accrual_periodicity:
+specification: CSV, JSON
+data_quality: true
+data_dictionary:
+language: en
+license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+publisher:
+  - name: LyricsWeb Research
+    web: https://lyricsweb.com/research/song-title-originality
+organization:
+  - name: GlobalMedia Holdings Ltd.
+    web: https://lyricsweb.com/
+issued_time: 2026.07.22
+sources:
+  - name: LyricsWeb research corpus
+    access_url: https://lyricsweb.com/research/song-title-originality
+references:
+  - title: "Song-Title Originality and Reuse in a Large Music Catalog, 1800-2026: An Aggregate Data Paper"
+    reference: https://doi.org/10.17613/319k9-wnq77
