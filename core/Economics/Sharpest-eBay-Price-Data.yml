@@ -1,0 +1,31 @@
+---
+title: Sharpest eBay price data
+homepage: https://github.com/pushbuild/sharpest-price-data
+category: Economics
+description: Daily eBay asking prices (low/p25/median) for ~1,000 products, CC BY 4.0
+version: 1.0
+keywords: prices, ebay, e-commerce, hardware, used electronics, price index
+image:
+temporal: 2026-
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/pushbuild/sharpest-price-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Sharpest
+    web: https://sharpest.ai/
+organization:
+  - name: Sharpest
+    web: https://sharpest.ai/
+issued_time: 2026.10
+sources:
+  - name: Daily price history (CSV)
+    access_url: https://raw.githubusercontent.com/pushbuild/sharpest-price-data/main/data/price-history.csv
+  - name: Monthly price index (CSV)
+    access_url: https://raw.githubusercontent.com/pushbuild/sharpest-price-data/main/data/price-index.csv
+references:
