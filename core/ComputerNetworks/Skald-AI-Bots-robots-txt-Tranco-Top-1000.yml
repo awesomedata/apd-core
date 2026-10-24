@@ -1,0 +1,27 @@
+---
+title: 'Who blocks which AI bots? robots.txt of the Tranco top 1,000 (per-agent, with matching lines)'
+homepage: https://huggingface.co/datasets/skaldanalytics/ai-bots-robots-txt-top1000
+category: ComputerNetworks
+description: What the robots.txt files of the Tranco top 1,000 domains (list 56Z8N) say to 16 crawlers, fetched 23 October 2026 and parsed under RFC 9309. Covers AI training crawlers, AI search crawlers and user-triggered fetchers (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Google-Extended, CCBot, Bytespider, Applebot-Extended, Meta-ExternalAgent, Amazonbot, anthropic-ai) plus Googlebot as a baseline. Per domain and agent the status is blocked, partial, allowed or unknown, with the exact matching robots.txt lines and line numbers. Includes every saved response as served (762 files) with a SHA-256 manifest, the fetch log and the scripts. 527 of 1,000 domains returned a parseable file; the rest are marked unknown.
+version: 1.0
+keywords: robots.txt, AI crawlers, GPTBot, ClaudeBot, PerplexityBot, ChatGPT-User, Tranco, RFC 9309, web measurement
+temporal: 2026-10-23
+spatial: Worldwide
+access_level: public
+accrual_periodicity: one-off snapshot
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/skaldanalytics/ai-bots-robots-txt-top1000/blob/main/DATASHEET.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Skald
+    web: https://skaldanalytics.com/
+issued_time: 2026.10
+sources:
+  - name: Main CSV (1,000 rows, 41 columns)
+    access_url: https://huggingface.co/datasets/skaldanalytics/ai-bots-robots-txt-top1000/blob/main/robots_ai_bots_top1000.csv
+  - name: Zenodo archive (DOI 10.5281/zenodo.23617047)
+    access_url: https://doi.org/10.5281/zenodo.23617047
+references:
+  - title: Dataset card with method, column guide and limitations
+    reference: https://huggingface.co/datasets/skaldanalytics/ai-bots-robots-txt-top1000
