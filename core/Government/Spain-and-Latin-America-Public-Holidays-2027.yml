@@ -1,0 +1,31 @@
+---
+title: Spain and Latin America Public Holidays 2027
+homepage: https://github.com/kevinleonj/haypuente-datos
+category: Government
+description: Public holidays for 2027 in Spain (national and each autonomous community) and in Mexico, Colombia, Argentina, Chile, Peru, Uruguay, Paraguay, Bolivia, Ecuador, Venezuela, Costa Rica, Panama, El Salvador and Nicaragua, as CSV, JSON and iCalendar files. Every row carries the URL of the official gazette resolution that sets the date; days that are not days off (civic, bank, election days) are excluded. Regenerated whenever a gazette publishes or corrects a date.
+version: 2026-10-24
+keywords: public holidays, bank holidays, Spain, Latin America, calendar, iCalendar, ics, official gazette, BOE
+image:
+temporal: 2027
+spatial: Spain (national and 17 autonomous communities), Mexico, Colombia, Argentina, Chile, Peru, Uruguay, Paraguay, Bolivia, Ecuador, Venezuela, Costa Rica, Panama, El Salvador, Nicaragua
+access_level: public
+copyrights:
+accrual_periodicity: weekly check, released on change
+specification:
+data_quality: true
+data_dictionary: https://github.com/kevinleonj/haypuente-datos#esquema
+language: es
+license: CC BY 4.0
+publisher:
+  - name: haypuente
+    web: https://haypuente.com/datos/
+organization:
+  - name: haypuente
+    web: https://haypuente.com/
+issued_time: 2026.10
+sources:
+  - name: Boletín Oficial del Estado (Spain) and the regional and national gazettes cited in each row
+    access_url: https://www.boe.es/
+references:
+  - title: Method: which days count and how the sources are checked
+    reference: https://haypuente.com/metodo/
