@@ -1,0 +1,11 @@
+---
+title: CIDR Set-Difference Reference Examples
+homepage: https://huggingface.co/datasets/noqt/cidr-set-difference-examples
+category: ComputerNetworks
+description: Four synthetic IPv4 and IPv6 JSONL fixtures with normalized coverage, minimal added and removed CIDRs, address counts, and witness addresses for parser, tutorial, comparison UI, and independent CIDR set-difference work.
+keywords: CIDR, IPv4, IPv6, set difference, network parsing
+access_level: public
+license: CC0-1.0
+publisher:
+  - name: noqt
+    web: https://huggingface.co/noqt
