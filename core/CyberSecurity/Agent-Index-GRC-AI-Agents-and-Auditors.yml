@@ -1,0 +1,22 @@
+---
+title: Agent Index - AI Compliance & Security Agents and Verified Audit Firms
+homepage: https://huggingface.co/datasets/theagentindex/agent-index-grc-ai-agents-and-auditors
+category: CyberSecurity
+description: Open CC BY 4.0 JSON datasets of 407+ AI agents for compliance, security and risk (agents.json) and 503+ registry-verified compliance audit firms across 15 countries (auditors.json). Entries cite primary official sources (FedRAMP Marketplace, PCI SSC QSA list, HITRUST, Cyber AB C3PAO, CERT-In, ANAB/UKAS/NABCB ISO registries, CPAverify) with a last_checked date. Archived on Zenodo (DOI 10.5281/zenodo.23604511).
+version:
+keywords: compliance, audit firms, AI agents, GRC, security, risk, FedRAMP, ISO 42001, SOC 2
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+organization:
+issued_time: 2026.10
+sources: []
