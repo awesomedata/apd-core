@@ -1,0 +1,35 @@
+---
+title: RigBase Local LLM Benchmarks
+homepage: https://getrigbase.com/data/
+category: MachineLearning
+description: Measured local LLM inference speed (generation tokens/sec) on 117 real home AI builds, 298 results across 48 models (Qwen3.8, Gemma 4, gpt-oss and more) on NVIDIA, AMD, Intel, Apple Silicon, Strix Halo and DGX Spark. Each row has the hardware, engine, quantization, power where reported and a link to the original public source. CSV and JSON, no login.
+version: 2026-10-24
+keywords: LLM, local LLM, GPU benchmark, tokens per second, llama.cpp, hardware
+image:
+temporal: 2024-2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/rigbase/rigbase-local-llm-benchmarks
+language: en
+license: CC BY 4.0
+publisher:
+  - name: RigBase
+    web: https://getrigbase.com
+organization:
+  - name: RigBase
+    web: https://getrigbase.com
+issued_time: 2026.10
+sources:
+  - name: builds.csv
+    access_url: https://getrigbase.com/data/builds.csv
+  - name: builds.json
+    access_url: https://getrigbase.com/data/builds.json
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/rigbase/rigbase-local-llm-benchmarks
+references:
+  - title:
+    reference:
