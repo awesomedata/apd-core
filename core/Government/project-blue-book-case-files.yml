@@ -1,0 +1,31 @@
+---
+title: Project Blue Book UFO Case Files (Geocoded)
+homepage: https://huggingface.co/datasets/encounteratlas/project-blue-book-case-files
+category: Government
+description: All 10,622 US Air Force Project Blue Book case files from the US National Archives (series 597821, 1947-1969), with place, state or country, year and month parsed from each folder title and 9,758 matched to coordinates via GeoNames. Each row links to the file and its first scanned page in the National Archives catalog. CSV and JSON.
+version: 1.0
+keywords: UFO, UAP, Project Blue Book, US Air Force, National Archives, geocoded, history
+image:
+temporal: 1947-1969
+spatial: Worldwide (mostly United States)
+access_level: public
+copyrights: Underlying records are US federal records (public domain); cleaning and geocoding CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://encounteratlas.com/datasets/#bluebook
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Encounter Atlas
+    web: https://encounteratlas.com/datasets/
+organization:
+  - name: Encounter Atlas
+    web: https://encounteratlas.com/
+issued_time: 2026.10
+sources:
+  - name: US National Archives, Sanitized Version of Project Blue Book Case Files (naId 597821)
+    access_url: https://catalog.archives.gov/id/597821
+references:
+  - title: Zenodo record (DOI)
+    reference: https://doi.org/10.5281/zenodo.23643581
