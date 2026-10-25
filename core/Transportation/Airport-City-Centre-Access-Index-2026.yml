@@ -1,0 +1,33 @@
+---
+title: Airport-to-City-Centre Access Index 2026
+homepage: https://github.com/mubbooAI/opentraveldata-mubboo/tree/1553de069c2ef48f6162fda32e214cb3683d8e78/data/mubboo-airport-city-access
+category: Transportation
+description: >-
+  Source-linked airport ground-access snapshot with one row per city and selected
+  primary airport for 60 cities in 39 countries. Includes 46 verified published
+  public-transport times, walk-up fares, separate official taxi flat fares and
+  tariff-based lower bounds, documented missing values, and 535 value-level
+  source records. Official figures were retrieved 26-27 September 2026; times
+  are scheduled or operator-stated to stops near fixed centre points, not
+  measured door-to-door journeys. CSV values, source register and data
+  dictionary are directly downloadable. The linked publisher-owned fork is a
+  fixed source snapshot and does not imply upstream OPTD acceptance.
+version: "1.1"
+keywords: airport access,public transport,transit fares,taxi fares,ground transportation,source provenance
+temporal: 2026-09-26/2026-09-27
+spatial: Worldwide (60 cities in 39 countries)
+access_level: public
+accrual_periodicity: Frozen September 2026 snapshot
+data_dictionary: https://raw.githubusercontent.com/mubbooAI/opentraveldata-mubboo/1553de069c2ef48f6162fda32e214cb3683d8e78/data/mubboo-airport-city-access/data-dictionary.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Mubboo Flights Research
+    web: https://mubboo.flights/research/airport-city-access-index
+issued_time: "2026-10-05"
+sources:
+  - name: Value-level official source register with retrieval times and capture hashes
+    access_url: https://raw.githubusercontent.com/mubbooAI/opentraveldata-mubboo/1553de069c2ef48f6162fda32e214cb3683d8e78/data/mubboo-airport-city-access/mubboo-airport-city-access-index-2026-sources.csv
+references:
+  - title: Report methodology, fixed endpoints and limitations
+    reference: https://mubboo.flights/research/airport-city-access-index
