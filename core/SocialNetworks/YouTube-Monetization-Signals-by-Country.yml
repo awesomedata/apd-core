@@ -1,0 +1,35 @@
+---
+title: YouTube Monetization Signals by Country
+homepage: https://github.com/supertj/youtube-monetization-by-country
+category: SocialNetworks
+description: How often YouTube channels in each country show the public signals of a channel in the YouTube Partner Program. The October 2026 snapshot draws on 4,514 checked channels and publishes the 51 countries with at least 30 of them, 4,382 channels in all. Each CSV row is one country, with counts of channels judged likely monetized, possibly monetized, likely not monetized and unable to determine. YouTube stopped exposing a public monetization flag in November 2023, so these verdicts are inferred from what a channel page shows and are not confirmed by YouTube.
+version: 2026-10
+keywords: youtube, monetization, youtube partner program, creators, social media, countries
+image:
+temporal: September 2026 to October 2026
+spatial: 51 countries
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/supertj/youtube-monetization-by-country/blob/main/datapackage.json
+data_quality: false
+data_dictionary: https://github.com/supertj/youtube-monetization-by-country#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: MonetizationKit
+    web: https://monetizationkit.com/data/youtube-monetized-channels-by-country/
+organization:
+  - name: MonetizationKit
+    web: https://monetizationkit.com
+issued_time: 2026.09
+sources:
+  - name: GitHub
+    access_url: https://github.com/supertj/youtube-monetization-by-country
+  - name: Zenodo (DOI 10.5281/zenodo.23601867)
+    access_url: https://doi.org/10.5281/zenodo.23601867
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/superlede/youtube-monetization-signals-by-country
+references:
+  - title:
+    reference:
