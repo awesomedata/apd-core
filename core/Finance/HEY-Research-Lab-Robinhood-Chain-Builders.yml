@@ -1,0 +1,47 @@
+---
+title: HEY Research Lab - Robinhood Chain Builder Records
+homepage: https://heyresearch.xyz/data
+category: Finance
+description: >-
+  Daily snapshots of the public builder record of Robinhood Chain (chain id
+  4663): published projects, their ships (GitHub releases, weekly code
+  activity, contract deployments, changelog entries) and change events, each
+  record with its public source and evidence id. Activity is read from
+  builders' own sources, never from price; market data is excluded from the
+  files. projects, ships and changes are published as NDJSON (gzip) and CSV
+  with a metadata.json (rules versions, record counts) and SHA256SUMS, under
+  a dated folder per UTC day and a latest/ alias (file links below); no login.
+version: "2026-10-24"
+keywords: robinhood chain, blockchain, ethereum, open source, github releases, smart contracts, developer activity, ndjson, csv
+image:
+temporal: 2026-10-12 / ongoing
+spatial: Robinhood Chain (4663)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://heyresearch.xyz/data
+data_quality: false
+data_dictionary: https://heyresearch.xyz/data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: HEY Research Lab
+    web: https://heyresearch.xyz
+organization:
+  - name: HEY Research Lab
+    web: https://github.com/hey-research-lab
+issued_time: 2026.10
+sources:
+  - name: Latest projects (CSV)
+    access_url: https://heyresearch.xyz/data/latest/projects.csv
+  - name: Latest ships (CSV)
+    access_url: https://heyresearch.xyz/data/latest/ships.csv
+  - name: Latest snapshot metadata (file list, record counts, rules versions)
+    access_url: https://heyresearch.xyz/data/latest/metadata.json
+  - name: Snapshot generator (open source)
+    access_url: https://github.com/hey-research-lab/hey-data
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
+  - title: Public API (OpenAPI)
+    reference: https://heyresearch.xyz/openapi.json
