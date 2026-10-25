@@ -1,0 +1,27 @@
+---
+title: Token Unlock Calendar - 90-Day Token Unlock Dataset
+homepage: https://github.com/yungsuper16-eng/tokenomics-audit-desk
+category: Finance
+description: Open dataset (CSV/JSON) of verified token unlock events for the next 90 days: token, project, date, amount, share of supply with its stated basis, event type (cliff, linear or final) and source notes. Figures are verified against project disclosures before listing; where public trackers disagree, the entry is flagged contested rather than silently resolved. Direct download from the repository, no signup. Refreshed with each Unlock Watch edition.
+version:
+keywords:
+  - crypto
+  - token unlocks
+  - vesting
+  - tokenomics
+  - defi
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher: Tokenomics Audit Desk
+organization:
+issued_time:
+sources: []
