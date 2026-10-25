@@ -1,0 +1,20 @@
+---
+title: MeloLingua CEFR-Graded Multilingual Stories
+homepage: https://github.com/MeloLingua/melolingua-language-stories-dataset
+category: NaturalLanguage
+description: >-
+  118 A1-B2 graded reading stories in German, Spanish, French, Italian,
+  Korean and Russian with sentence-aligned English translations, contextual
+  vocabulary, multiple-choice comprehension questions and CEFR level labels.
+  Distributed as JSON plus sentence, vocabulary and question CSV files with a
+  JSON Schema and validation scripts.
+version: 1.0.0
+keywords: graded readers, CEFR, language learning, parallel text, reading comprehension, multilingual
+access_level: public
+license: CC-BY-NC-4.0
+issued_time: 2026.08
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.22142993)
+    reference: https://doi.org/10.5281/zenodo.22142993
+  - title: Hugging Face mirror
+    reference: https://huggingface.co/datasets/ismaelfi/melolingua-cefr-graded-multilingual-stories
