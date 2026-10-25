@@ -1,0 +1,33 @@
+---
+title: ProtocolProbe MCP registry facts
+homepage: https://huggingface.co/datasets/sultan57/mcp-registry-facts
+category: Software
+description: One record per server in the official Model Context Protocol (MCP) registry (49,445 servers in the 2026-10-24 snapshot), with registry listing, npm/PyPI package and GitHub repository facts, dependency advisories, version-pin status, version history and groups of servers with identical tool lists. Same records as the ProtocolProbe API. No security verdict is included. Each version is archived on Zenodo with its own DOI; new versions follow the registry monthly.
+version: 2026-10-24
+keywords: Model Context Protocol, MCP, MCP registry, MCP servers, software supply chain, open data
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://protocolprobe.com/docs/api
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ProtocolProbe
+    web: https://protocolprobe.com
+organization:
+  - name: ProtocolProbe
+    web: https://protocolprobe.com
+issued_time: 2026.10
+sources:
+  - name: Official MCP registry
+    access_url: https://registry.modelcontextprotocol.io
+  - name: Zenodo (all versions, DOI 10.5281/zenodo.23386799)
+    access_url: https://doi.org/10.5281/zenodo.23386799
+references:
+  - title: How to cite
+    reference: https://protocolprobe.com/docs/cite
