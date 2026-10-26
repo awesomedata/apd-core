@@ -1,0 +1,24 @@
+---
+title: Pakistan Fuel Prices
+homepage: https://eklitre.pk/data/
+category: Energy
+description: Pakistan's notified petrol, diesel and kerosene prices since 2006, and OGRA's daily per-litre price build-up since July 2026, each figure traced to an archived source document. CSV, JSON and a keyless API.
+version:
+keywords: Pakistan, fuel prices, petrol, diesel, kerosene, OGRA, time series
+image:
+temporal: 2006-
+spatial: Pakistan
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://eklitre.pk/data/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ek litre
+    web: https://eklitre.pk/
+organization:
+  - name: ek litre
+    web: https://eklitre.pk/
