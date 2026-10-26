@@ -1,0 +1,12 @@
+---
+title: German Housing Affordability by Federal State
+homepage: https://github.com/florian-schr/baufiblick-leistbarkeits-index
+category: Economics
+description: Time series of modeled maximum affordable residential property purchase prices for two-person households across all 16 German federal states (Bundeslaender), combining official disposable household income data (VGR der Laender), Deutsche Bundesbank MFI mortgage interest rate statistics, and state-level real estate transfer tax rates (Grunderwerbsteuer).
+version: "2026.10"
+keywords: housing affordability, Germany, real estate, mortgage rates, disposable income, Bundeslaender, Grunderwerbsteuer
+temporal: 2026
+spatial: Germany (16 federal states)
+access_level: public
+language: de
+license: CC-BY-4.0
