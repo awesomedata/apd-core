@@ -1,0 +1,36 @@
+---
+title: GetDomainLists Free Sample (domain and subdomain names)
+homepage: https://github.com/getdomainlists/dataset
+category: ComputerNetworks
+description: >-
+  Free sample of a plain-text domain name dataset: registrable domains and
+  subdomains, one name per line, per-TLD samples for ten TLDs, a table of
+  domain and subdomain counts per TLD in the release, and small Python
+  scripts to read the files, filter by TLD and match names against your
+  own list.
+version: "2026-10-16"
+keywords: domain names, subdomains, TLD, DNS, plain text
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: Scripts MIT; sample data under evaluation terms (DATA_TERMS.txt)
+accrual_periodicity: twice a month
+specification: one name per line, UTF-8 text
+data_quality: false
+data_dictionary: https://github.com/getdomainlists/dataset#whats-in-this-repository
+language: en
+license: MIT (scripts); evaluation terms (sample data)
+publisher:
+  - name: GetDomainLists
+    web: https://github.com/getdomainlists
+organization:
+  - name: GetDomainLists
+    web: https://github.com/getdomainlists
+issued_time: 2026
+sources:
+  - name: GetDomainLists dataset repository
+    access_url: https://github.com/getdomainlists/dataset
+references:
+  - title:
+    reference:
