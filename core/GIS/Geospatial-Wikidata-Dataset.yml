@@ -1,0 +1,5 @@
+---
+title: Geospatial Wikidata Dataset
+homepage: https://enterprise.wikimedia.com/blog/geospatial-wikidata-dataset/
+category: GIS
+description: "17 million OpenStreetMap elements linked to Wikidata, Wikipedia, and Wikivoyage, as Parquet and GeoParquet files on Hugging Face and Kaggle."
