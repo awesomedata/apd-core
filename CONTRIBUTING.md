@@ -10,8 +10,8 @@ The following policy is a guideline for proposing new data items and maintaining
     * Uncommon to obtain in the open community legally;
     * Contributing valuable knowledge for a specific domain;
     * Able to be downloaded directly from the linked site, i.e., not barred by login or purchasing;
-    * No advertisement! No Spam! No reputation promotion! This one is coming up a lot with agent-created datasets. If the dataset appears to exist primarily to send traffic to your website, it'll likely be rejected as promotion.
-
+    * No advertisement! No Spam! No reputation promotion! This one is coming up a lot with agent-created datasets. $\color{red}{\textbf{If the dataset appears to exist primarily to send traffic to your website, it'll likely be rejected as promotion.}}$
+    
 2. If you have a site that makes use of datasets stored somewhere like GitHub or Hugging Face, please point directly at that `repository` rather than the page that `uses` the datasets.
 
 3. A new pull request will be merged into the core repository after passing automatic validation and maintainer's review.
