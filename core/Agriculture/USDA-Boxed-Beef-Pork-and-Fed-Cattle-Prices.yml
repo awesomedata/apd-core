@@ -1,0 +1,37 @@
+---
+title: USDA Boxed Beef, Pork and Fed Cattle Prices by Cut
+homepage: https://juantorresmi.github.io/usda-market-prices/
+category: Agriculture
+description: "USDA Livestock Mandatory Reporting prices as plain CSV files: the daily boxed beef cutout and the price of every beef cut that traded (LM_XB403), the daily pork cutout, primals and every pork cut (LM_PK602), and weekly and daily negotiated fed cattle prices for the 5-area market and each region (LM_CT100, LM_CT150, LM_CT154-158). One file per year for the cut-level data, history from January 2020, updated every business day. A cut with no trades on a day has no row rather than a zero. Also USDA's weekly refrigerated truck rates by lane since April 2021. Every cut, region and lane also has its own page with its history, in English and Spanish. No login or API key."
+version:
+keywords: USDA, AMS, livestock mandatory reporting, boxed beef cutout, pork cutout, fed cattle, cash cattle, wholesale meat prices, reefer truck rates, agriculture, CSV, time series
+image:
+temporal: 2020-present
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Public domain (U.S. government data)
+publisher:
+  - name: Juan Torres
+    web: https://juantorresmi.github.io
+organization:
+  - name: USDA Agricultural Marketing Service
+    web: https://www.ams.usda.gov/
+issued_time: 2026.10
+sources:
+  - name: USDA AMS LMR Datamart
+    access_url: https://mpr.datamart.ams.usda.gov/
+references:
+  - title: Boxed beef CSVs
+    reference: https://github.com/JuanTorresMI/JuanTorresMI.github.io/tree/main/beef-prices
+  - title: Pork CSVs
+    reference: https://github.com/JuanTorresMI/JuanTorresMI.github.io/tree/main/pork-prices
+  - title: Fed cattle CSVs
+    reference: https://github.com/JuanTorresMI/JuanTorresMI.github.io/tree/main/fed-cattle-prices
+  - title: Reefer truck rate CSV
+    reference: https://github.com/JuanTorresMI/JuanTorresMI.github.io/tree/main/reefer-rates
