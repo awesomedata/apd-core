@@ -1,0 +1,27 @@
+---
+title: Castable Sonar Spec Index
+homepage: https://github.com/sharknative/open-data/tree/main/anglerleague-castable-sonar-index
+category: Sports
+description: "Maker-published specifications for 11 castable (throwable) fishing sonar units: screen, weight, rod fit, cast range, depth, sonar beams, battery life, GPS mapping and companion app, plus a published bank-fishing score with its formula and the parts that make it up. Every row cites its maker source. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: fishing, fish finder, castable sonar, angling equipment, product specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AnglerLeague
+    web: https://anglerleague.com/
+organization:
+  - name: AnglerLeague
+    web: https://anglerleague.com/
+issued_time: 2026.10
+sources:
+  - name: Castable Sonar Spec Index CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/anglerleague-castable-sonar-index/castable-sonar-index.csv
+  - name: Castable Sonar Spec Index JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/anglerleague-castable-sonar-index/castable-sonar-index.json
+references:
+  - title: Live table and method
+    reference: https://anglerleague.com/castable-sonar-index/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939

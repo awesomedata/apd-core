@@ -1,0 +1,27 @@
+---
+title: Countertop Appliance Heights and Cabinet Clearances
+homepage: https://github.com/sharknative/open-data/tree/main/countertopcheck-fit
+category: Architecture
+description: "Height, width and depth of 59 countertop kitchen appliances (stand mixers, blenders, toaster ovens, bread machines, nugget ice makers, countertop dishwashers and pizza ovens) from maker manuals and spec pages, with the clearance each needs above it in use where the maker states one, set against standard under-cabinet clearances. Every row cites its maker source. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: kitchen design, cabinet clearance, countertop appliances, appliance dimensions, product specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CounterTopCheck
+    web: https://countertopcheck.com/
+organization:
+  - name: CounterTopCheck
+    web: https://countertopcheck.com/
+issued_time: 2026.10
+sources:
+  - name: Countertop Appliance Heights and Cabinet Clearances CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/countertopcheck-fit/fit.csv
+  - name: Countertop Appliance Heights and Cabinet Clearances JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/countertopcheck-fit/fit.json
+references:
+  - title: Live table and method
+    reference: https://countertopcheck.com/fit/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939

@@ -1,0 +1,27 @@
+---
+title: Beginner 3D Printer Specs
+homepage: https://github.com/sharknative/open-data/tree/main/firstprintcheck-first-printers
+category: InterDisciplinary
+description: "Maker-published specifications for 10 beginner FDM 3D printers: enclosure, build volume, footprint, maximum nozzle and bed temperature, ABS capability, multicolor support, noise and local (offline) printing. In the CSV each spec column is paired with a source column; in the JSON each cell carries the source URL and the exact quoted phrase. Blank cells mean the maker does not publish the figure. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: 3D printing, 3D printers, FDM, additive manufacturing, product specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FirstPrintCheck
+    web: https://firstprintcheck.com/
+organization:
+  - name: FirstPrintCheck
+    web: https://firstprintcheck.com/
+issued_time: 2026.10
+sources:
+  - name: Beginner 3D Printer Specs CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/firstprintcheck-first-printers/first-printers.csv
+  - name: Beginner 3D Printer Specs JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/firstprintcheck-first-printers/first-printers.json
+references:
+  - title: Live table and method
+    reference: https://firstprintcheck.com/tools/first-printer-picker/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939

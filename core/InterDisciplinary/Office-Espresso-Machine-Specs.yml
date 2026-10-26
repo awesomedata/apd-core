@@ -1,0 +1,27 @@
+---
+title: Office Espresso Machine Specs
+homepage: https://github.com/sharknative/open-data/tree/main/cremacheck-office-machines
+category: InterDisciplinary
+description: "Maker-published specifications for 12 semi-automatic and super-automatic espresso machines considered for small offices: water tank, bean hopper, grounds container, milk system, shot and milk volumes, dose, daily and weekly cleaning, descaling, and whether the maker's warranty covers office (commercial) use, quoted from the warranty text. Every value cites its maker source. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: espresso machine, coffee, office equipment, warranty, product specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CremaCheck
+    web: https://cremacheck.com/
+organization:
+  - name: CremaCheck
+    web: https://cremacheck.com/
+issued_time: 2026.10
+sources:
+  - name: Office Espresso Machine Specs CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/cremacheck-office-machines/office-machines.csv
+  - name: Office Espresso Machine Specs JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/cremacheck-office-machines/office-machines.json
+references:
+  - title: Live table and method
+    reference: https://cremacheck.com/office/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939
