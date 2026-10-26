@@ -1,0 +1,37 @@
+---
+title: IPTV Device and Player Compatibility (Canada)
+homepage: https://github.com/iptvcanadaneo/iptv-device-compatibility-canada
+category: Software
+description: Per-device table of IPTV player apps, documented login methods and installation routes. Fifteen records, one per device family sold or used in Canada (Fire TV on Vega OS and on Fire OS, Fire TV Edition TVs, Android TV / Google TV, Apple TV, iPhone and iPad, Samsung Tizen, LG webOS, VIDAA / Foxxum / Whale OS / Titan OS TVs, Roku, Formuler, MAG, BuzzTV, Windows, Mac). Each record lists the IPTV player apps whose developers or stores publish support for that platform, the login or playlist methods those apps document (M3U, Xtream Codes API, Stalker / Ministra portal, MAC-based upload), the documented installation route, the main platform limitation, the first-party source URLs (manufacturer and platform documentation, developer sites, official store listings) and a per-row last-verified date. Values are copied from first-party pages without rewording; reseller lists, press and forums are not used. Describes player software only, not services, channels or content. JSON and CSV, direct download, no login.
+version: 1.0.0
+keywords: IPTV, media player apps, device compatibility, smart TV, Android TV, Fire TV, Vega OS, Apple TV, set-top box, Canada
+image:
+temporal: 2026-10 snapshot (rows verified 2026-10-02 and 2026-10-04)
+spatial: Canada
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification: JSON / CSV
+data_quality: true
+data_dictionary: https://github.com/iptvcanadaneo/iptv-device-compatibility-canada#fields
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: IPTV Canada Neo
+    web:
+organization:
+  - name: IPTV Canada Neo
+    web:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (JSON, CSV, README with field definitions)
+    access_url: https://github.com/iptvcanadaneo/iptv-device-compatibility-canada
+  - name: JSON file (raw)
+    access_url: https://raw.githubusercontent.com/iptvcanadaneo/iptv-device-compatibility-canada/main/iptv-device-compatibility-canada.json
+  - name: CSV file (raw)
+    access_url: https://raw.githubusercontent.com/iptvcanadaneo/iptv-device-compatibility-canada/main/iptv-device-compatibility-canada.csv
+  - name: Zenodo archive, version 1.0.0 (DOI)
+    access_url: https://doi.org/10.5281/zenodo.23149574
+references:
+  - title: Zenodo concept DOI (resolves to the latest version)
+    reference: https://doi.org/10.5281/zenodo.23149573
