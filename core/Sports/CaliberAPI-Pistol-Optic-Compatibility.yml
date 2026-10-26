@@ -1,0 +1,16 @@
+---
+title: CaliberAPI Pistol Optic Compatibility
+homepage: https://caliberapi.com/data/
+category: Sports
+description: Which pistol red dot optics fit which pistols, directly or through an adapter plate, for 209 pistols. Every fit carries a manufacturer or retailer source URL. JSON with an OpenAPI description.
+keywords: firearms, pistol, red dot, optics, compatibility, footprint
+access_level: public
+license: CC BY-NC 4.0
+publisher:
+  - name: CaliberAPI
+    web: https://caliberapi.com/
+sources:
+  - name: All fits (JSON)
+    access_url: https://caliberapi.com/data/v1/fits.json
+  - name: Index of every pistol, optic and footprint (JSON)
+    access_url: https://caliberapi.com/data/v1/index.json
