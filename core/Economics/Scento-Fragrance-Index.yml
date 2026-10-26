@@ -1,0 +1,22 @@
+---
+title: Scento Fragrance Index - European perfume decant demand
+homepage: https://github.com/Scento-com/fragrance-index
+category: Economics
+description: Shares, ranks and indices of what Europe buys in perfume decants, from Scento's paid orders between October 2025 and September 2026. Covers the most-bought perfumes and houses overall and by country, gender style, niche versus designer, decant size mix, price tiers, Middle Eastern houses and a quarter-by-quarter view. Order and unit counts are never published; figures resting on too few orders are suppressed. Useful for studying retail demand for fragrance across European markets.
+version: 2026-Q3
+keywords: perfume, fragrance, ecommerce, europe, retail, consumer demand
+temporal: 2025-10-01 to 2026-09-30
+spatial: Europe
+access_level: public
+accrual_periodicity: quarterly
+data_quality: true
+data_dictionary: https://www.scento.com/perfume-industry-statistics
+language: en
+license: CC BY 4.0
+sources:
+  - name: CSV
+    access_url: https://www.scento.com/data/scento-fragrance-index/latest.csv
+  - name: JSON
+    access_url: https://www.scento.com/data/scento-fragrance-index/latest.json
+  - name: GitHub repository
+    access_url: https://github.com/Scento-com/fragrance-index
