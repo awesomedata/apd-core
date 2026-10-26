@@ -1,0 +1,29 @@
+---
+title: Longze Fastener Standards Data
+homepage: https://github.com/w1372068887-pixel/longze-fastener-data
+category: InterDisciplinary
+description: Open dimensional data for 16 DIN, ISO and ASME fastener standards (872 records for bolts, screws, nuts and washers), covering nominal sizes, grades, finishes and tolerance notes in CSV and JSON. CC BY 4.0; archived on Zenodo with DOI 10.5281/zenodo.23610421.
+version: 1.0.0
+keywords: fasteners, DIN, ISO, ASME, bolts, nuts, washers, dimensional data, engineering standards
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/w1372068887-pixel/longze-fastener-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Longze Engineering (Hebei Longze Metal Products Manufacturing Co., Ltd.)
+    web: https://lz-engineering.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: Longze Engineering open data page
+    access_url: https://lz-engineering.com/open-data/
+references:
+  - title: Zenodo record (DOI)
+    reference: https://doi.org/10.5281/zenodo.23610421
