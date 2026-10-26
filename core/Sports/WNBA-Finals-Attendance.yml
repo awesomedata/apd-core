@@ -1,0 +1,35 @@
+---
+title: WNBA Finals Attendance by Game 2002-2025
+homepage: https://github.com/ryanmoalemi/wnba-finals-attendance
+category: Sports
+description: "Published attendance for every WNBA Finals game from 2002 through 2025 (93 games, 24 series), hand-compiled from each game's official WNBA.com box score. The game file has date, teams, score, margin, overtime periods, arena, attendance and a source_url to the official game record; a series file has totals, per-game averages and single-game highs and lows. The three 2020 bubble games have no attendance. CSV, no login."
+version: v1
+keywords: WNBA, basketball, women's sports, attendance, WNBA Finals, sports business
+image:
+temporal: 2002-2025
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/ryanmoalemi/wnba-finals-attendance/blob/main/data/wnba-finals-attendance-README.csv
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Ryan Moalemi
+    web: https://github.com/ryanmoalemi
+organization:
+  - name: Full Court Buckets
+    web: https://fullcourtbuckets.com
+issued_time: 2026
+sources:
+  - name: Attendance by game (CSV)
+    access_url: https://github.com/ryanmoalemi/wnba-finals-attendance/blob/main/data/wnba-finals-attendance-by-game-2002-2025.csv
+  - name: Attendance by series (CSV)
+    access_url: https://github.com/ryanmoalemi/wnba-finals-attendance/blob/main/data/wnba-finals-attendance-2002-2025.csv
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/fullcourtbuckets/wnba-finals-attendance
+references:
+  - title: Methodology and interactive table
+    reference: https://fullcourtbuckets.com/news/2026-wnba-finals-ratings-tracker/
