@@ -1,0 +1,33 @@
+---
+title: LevelBench-100 AI Accounting, Fractional CFO & Operations Benchmark
+homepage: https://levelcfo.com/benchmarks/agentic-accounting/
+category: Finance
+description: A 100-check benchmark evaluating 38 AI models, CLI agent harnesses, and browser agents on real-world QuickBooks Online takeover diagnostics, 15 anonymized SMB close case studies, 30 common AI accounting failure modes, and 12 accounting/CFO workflow blueprints distilled from 2,200+ SMB client cleanups. Available as JSON and CSV under the Level Non-Commercial Evaluation License.
+version: 4.1.0
+keywords: accounting, finance, benchmark, LLM evaluation, agentic AI, QuickBooks, fractional CFO, bookkeeping
+image:
+temporal: 2025-2026
+spatial: USA
+access_level: public
+copyrights: Level Non-Commercial Evaluation License v1.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://levelcfo.com/benchmarks/agentic-accounting/
+language: en
+license: Level Non-Commercial Evaluation License v1.0 (sam@levelcfo.com)
+publisher:
+  - name: Level CFO
+    web: https://levelcfo.com/
+organization:
+  - name: Level CFO
+    web: https://levelcfo.com/
+issued_time: 2026.10
+sources:
+  - name: LevelBench-100 Hugging Face Dataset (JSON/CSV)
+    access_url: https://huggingface.co/datasets/LevelCFO/levelbench-100
+  - name: LevelBench-100 GitHub Mirror (JSON/CSV)
+    access_url: https://github.com/levelcfo/levelbench-100
+references:
+  - title: LevelBench-100 Interactive Benchmark & Methodology
+    reference: https://levelcfo.com/benchmarks/agentic-accounting/

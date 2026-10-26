@@ -1,0 +1,35 @@
+---
+title: Level SMB Multi-Vertical Financial, Valuation & Software Benchmarks
+homepage: https://levelcfo.com/benchmarks/
+category: Finance
+description: Empirical SMB financial and operating benchmarks across 2,235 US service businesses and 6 SMB verticals (contractors, healthcare, restaurants, cleaning, ecommerce, and professional services), including 19 contractor operating KPIs (P10/P25/Median/P75/P90), 41 vertical P&L rows, SEC 10-K public contractor comps, 39 valuation multiples, and 9 accounting/ERP general ledger evaluations. Available as JSON and CSV under the Level Non-Commercial Evaluation License.
+version: 2026.10.25
+keywords: SMB finance, financial benchmarks, valuation multiples, EBITDA, gross margin, contractors, ERP software
+image:
+temporal: 2024-2026
+spatial: USA
+access_level: public
+copyrights: Level Non-Commercial Evaluation License v1.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://levelcfo.com/benchmarks/
+language: en
+license: Level Non-Commercial Evaluation License v1.0 (sam@levelcfo.com)
+publisher:
+  - name: Level CFO
+    web: https://levelcfo.com/
+organization:
+  - name: Level CFO
+    web: https://levelcfo.com/
+issued_time: 2026.10
+sources:
+  - name: Level SMB Financial Benchmarks Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/LevelCFO/smb-financial-benchmarks
+  - name: Level Software Benchmarks Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/LevelCFO/software-benchmarks
+  - name: Level SMB Financial Benchmarks GitHub Mirror
+    access_url: https://github.com/levelcfo/smb-financial-benchmarks
+references:
+  - title: Level SMB Financial & Operating Benchmarks Hub
+    reference: https://levelcfo.com/benchmarks/
