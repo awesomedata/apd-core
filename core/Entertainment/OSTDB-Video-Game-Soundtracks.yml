@@ -1,0 +1,35 @@
+---
+title: "OSTDB: Official Video Game Soundtracks"
+homepage: https://github.com/OSTDB/soundtracks
+category: Entertainment
+description: Community-curated database of official video game soundtracks. Every entry links a game (by IGDB id) to its official soundtrack albums with Spotify, Apple Music and/or album.link URLs and cover art; 2,300+ albums for 1,800+ games, each added and reviewed through a GitHub pull request. Weekly snapshots as CSV (one row per album), JSON and SQLite, plus a REST API.
+version: "2026-10"
+keywords: video games, game music, soundtracks, OST, VGM, music metadata, Spotify, Apple Music, IGDB, csv, sqlite, json
+image: https://raw.githubusercontent.com/OSTDB/soundtracks/main/.github/social-preview.png
+temporal:
+spatial: Global
+access_level: public
+copyrights: OSTDB contributors; data released under CC BY-NC-SA 4.0. Album art, game art and IGDB metadata belong to their owners.
+accrual_periodicity: Continuous, with weekly snapshot releases
+specification:
+data_quality: false
+data_dictionary: https://github.com/OSTDB/soundtracks/blob/main/SUBMITTING.md#fields
+language: en
+license: CC BY-NC-SA 4.0
+publisher:
+  - name: OSTDB
+    web: https://ostdb.net
+organization:
+  - name: OSTDB
+    web: https://github.com/OSTDB
+issued_time: 2026.10.21
+sources:
+  - name: all-games.json (every game with its soundtrack albums)
+    access_url: https://raw.githubusercontent.com/OSTDB/soundtracks/main/all-games.json
+  - name: Weekly CSV, JSON and SQLite snapshots (GitHub releases)
+    access_url: https://github.com/OSTDB/soundtracks/releases
+  - name: REST API
+    access_url: https://ostdb.net/api
+references:
+  - title: How entries are added and reviewed
+    reference: https://github.com/OSTDB/soundtracks/blob/main/SUBMITTING.md
