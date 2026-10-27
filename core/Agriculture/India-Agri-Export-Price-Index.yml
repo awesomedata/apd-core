@@ -1,0 +1,35 @@
+---
+title: India Agri Export Price Index
+homepage: https://nidhi-bhai.github.io/india-agri-export-prices/
+category: Agriculture
+description: Weekly reference prices for 18 Indian agri exports (moringa, ashwagandha, turmeric, jaggery, millets, cold-pressed oils, vetiver and more). Combines UN Comtrade monthly India export unit values (USD/kg) by HS code, Agmarknet all-India mandi prices (INR/quintal) and clearly labelled estimates; every value carries its source and date, and weekly snapshots are appended to a history file. CSV and JSON.
+version: 1.0
+keywords: india, agriculture, export prices, commodity prices, mandi, agmarknet, un comtrade, millets, turmeric, moringa, jaggery
+image:
+temporal:
+spatial: India
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://nidhi-bhai.github.io/india-agri-export-prices/methodology.html
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Nidhi Farms
+    web: https://nidhi-bhai.github.io/india-agri-export-prices/
+organization:
+  - name: Nidhi Farms
+    web: https://nidhi-bhai.github.io/india-agri-export-prices/
+issued_time: 2026.10
+sources:
+  - name: Latest snapshot CSV
+    access_url: https://nidhi-bhai.github.io/india-agri-export-prices/data/latest.csv
+  - name: Latest snapshot JSON
+    access_url: https://nidhi-bhai.github.io/india-agri-export-prices/data/latest.json
+  - name: Weekly history CSV
+    access_url: https://nidhi-bhai.github.io/india-agri-export-prices/data/history.csv
+references:
+  - title: Source code
+    reference: https://github.com/Nidhi-bhai/india-agri-export-prices
