@@ -1,0 +1,35 @@
+---
+title: Argentina Monotributo Tax Brackets (ARCA)
+homepage: https://github.com/tomaspagura/monotributo-datos
+category: Government
+description: Argentina's monotributo (simplified tax regime, Law 24.977) brackets A to K as published by ARCA, current and historical since 2023. Each period has effective dates, income caps, monthly fees by component, source URL, retrieval date and SHA-256 of the source page. JSON and CSV, no login.
+version: 2026.08
+keywords: Argentina, monotributo, ARCA, AFIP, tax brackets, tax, government, open data
+image:
+temporal: 2023-2026
+spatial: Argentina
+access_level: public
+copyrights: Tomás Pagura
+accrual_periodicity: semiannual
+specification:
+data_quality: true
+data_dictionary: https://categoriasmonotributo.com.ar/datos
+language: es
+license: CC BY 4.0
+publisher:
+  - name: Tomás Pagura
+    web: https://github.com/tomaspagura
+organization:
+  - name: ARCA (Agencia de Recaudación y Control Aduanero)
+    web: https://www.arca.gob.ar
+issued_time: 2026.10
+sources:
+  - name: ARCA current monotributo categories
+    access_url: https://www.arca.gob.ar/monotributo/categorias.asp
+  - name: ARCA previous monotributo categories
+    access_url: https://www.arca.gob.ar/monotributo/montos-y-categorias-anteriores.asp
+references:
+  - title: Current brackets JSON
+    reference: https://categoriasmonotributo.com.ar/datos/categorias-vigentes.json
+  - title: Historical brackets CSV
+    reference: https://categoriasmonotributo.com.ar/datos/historial-categorias.csv
