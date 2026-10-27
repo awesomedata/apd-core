@@ -1,0 +1,37 @@
+---
+title: US Vehicle Owner Complaints by Model and Component 2010-2025
+homepage: https://doi.org/10.5281/zenodo.23662820
+category: Transportation
+description: NHTSA owner complaints for model years 2010 to 2025, counted per make, model, model year and the component owners named (24,365 rows, 4,087 vehicles, 84 makes). Each complaint number is counted once per vehicle, which removes NHTSA's double filing of tire complaints; vehicles with fewer than 10 complaints are left out. Includes a ranked top 100 as JSON. Archived on Zenodo with a DOI and mirrored on GitHub, Kaggle and Hugging Face. Direct CSV download, no login.
+version: 2026-Q3
+keywords: NHTSA, vehicle complaints, automotive safety, car reliability, components, model year, open data
+image:
+temporal: 2010-2025 (model years)
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/oilandmiles/us-vehicle-complaints-data#csv-columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Oil & Miles
+    web: https://oilandmiles.com
+organization:
+  - name: Oil & Miles
+    web: https://oilandmiles.com
+issued_time: 2026-09-14
+sources:
+  - name: Zenodo record (canonical, DOI)
+    access_url: https://zenodo.org/records/23662820
+  - name: GitHub repository
+    access_url: https://github.com/oilandmiles/us-vehicle-complaints-data
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/iqbaltaherom/us-vehicle-owner-complaints-by-model-2010-2025
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/iqbaltaher/us-vehicle-owner-complaints-by-model-2010-2025
+references:
+  - title: NHTSA complaints flat file (source data)
+    reference: https://www.nhtsa.gov/nhtsa-datasets-and-apis
