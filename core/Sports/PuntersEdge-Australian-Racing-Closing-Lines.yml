@@ -1,0 +1,31 @@
+---
+title: Australian Racing Closing Lines (PuntersEdge monthly sample)
+homepage: https://github.com/Puntersedge-api/puntersedge-datasets
+category: Sports
+description: Opening and closing fixed-odds win prices for every runner in Australian thoroughbred, harness and greyhound races, one row per race, runner and bookmaker, with finishing positions. Released monthly; the September 2026 file holds 234,230 rows across 6,274 races at five bookmakers. Parquet and CSV with a Frictionless schema and SHA-256 checksums, plus three worked Colab notebooks.
+version: 2026-09.3
+keywords: horse racing, greyhound racing, harness racing, betting odds, closing line, Australia, sports analytics
+image:
+temporal: 2026-09 onward, monthly
+spatial: Australia
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/datapackage.json
+data_quality: true
+data_dictionary: https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/datapackage.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PuntersEdge
+    web: https://puntersedge.online/datasets
+organization:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (build script, schema, notebooks, release links)
+    access_url: https://github.com/Puntersedge-api/puntersedge-datasets
+  - name: Release files and checksums
+    access_url: https://puntersedge.online/datasets
+references:
+  - title: Release catalogue (JSON)
+    reference: https://puntersedge.online/datasets.json
