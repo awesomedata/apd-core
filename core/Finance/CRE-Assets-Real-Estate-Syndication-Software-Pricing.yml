@@ -1,0 +1,39 @@
+---
+title: Real Estate Syndication Software Pricing 2026
+homepage: https://github.com/Mundoai/creassets-open-data
+category: Finance
+description: >-
+  Dated, sourced table of the published pricing, contract terms and migration
+  terms of software used by real estate syndicators and sponsors (investor
+  portals, fundraising and distribution tools). Each row carries the vendor's
+  source URL and the date it was checked. The CSV downloads from the repository
+  with no login. The publisher is one of the vendors listed; the repository
+  README says so.
+version: "2026-10-27"
+keywords: real estate, syndication, software pricing, saas pricing, proptech, csv
+image:
+temporal: 2026-10
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/Mundoai/creassets-open-data#readme
+data_quality: false
+data_dictionary: https://github.com/Mundoai/creassets-open-data#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: CRE Assets
+    web: https://github.com/Mundoai/creassets-open-data
+organization:
+  - name: CRE Assets
+    web: https://github.com/Mundoai/creassets-open-data
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV and Excel model)
+    access_url: https://github.com/Mundoai/creassets-open-data
+  - name: Zenodo record (DOI 10.5281/zenodo.23692286)
+    access_url: https://doi.org/10.5281/zenodo.23692286
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
