@@ -1,0 +1,37 @@
+---
+title: DC Hub US Grid Infrastructure Extracts (Substations, Transmission Lines, Gas Pipelines)
+homepage: https://dchub.cloud/api/v1/odbl/manifest.json
+category: Energy
+description: Three free CSV extracts of US energy infrastructure, downloadable with no key or signup. Substations (HIFLD Open baseline, frozen when HIFLD Open closed in August 2025, plus OpenStreetMap power=substation with a 150 m de-duplication rule; about 134,000 rows with name, operator, voltage, location and source), OpenStreetMap power lines of 69 kV and up added since the EIA transmission snapshot (about 16,700 rows), and OpenStreetMap natural-gas pipelines added since the EIA pipeline snapshot (about 1,100 rows). Each file carries its update date, licence and method in a short header.
+version: 2026-10-21
+keywords: substations, transmission lines, gas pipelines, power grid, energy infrastructure, OpenStreetMap, HIFLD, United States, CSV
+image:
+temporal: Updated weekly to daily
+spatial: United States
+access_level: public
+copyrights: © OpenStreetMap contributors
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://dchub.cloud/api/v1/odbl/README.txt
+language: en
+license: ODbL 1.0
+publisher:
+  - name: DC Hub
+    web: https://dchub.cloud/data-sources
+organization:
+  - name: DC Hub
+    web: https://dchub.cloud
+issued_time: 2026
+sources:
+  - name: US substations (CSV)
+    access_url: https://dchub.cloud/api/v1/odbl/substations.csv
+  - name: OpenStreetMap transmission lines 69 kV+ (CSV)
+    access_url: https://dchub.cloud/api/v1/odbl/osm-transmission-lines.csv
+  - name: OpenStreetMap natural-gas pipelines (CSV)
+    access_url: https://dchub.cloud/api/v1/odbl/osm-gas-pipelines.csv
+references:
+  - title: How the extracts are made (method)
+    reference: https://dchub.cloud/api/v1/odbl/README.txt
+  - title: Manifest (layers, licence, attribution)
+    reference: https://dchub.cloud/api/v1/odbl/manifest.json
