@@ -1,0 +1,39 @@
+---
+title: US ZIP Hardiness Zone Changes 2012-2023 and Frost Dates
+homepage: https://doi.org/10.5281/zenodo.23661628
+category: Agriculture
+description: USDA Plant Hardiness Zone for U.S. ZIP codes in both the 2012 and 2023 editions of the map, joined from the PRISM Group / Oregon State University ZIP listings (41,142 ZIPs; 40,502 with a 2023 zone), with the half-zone change between editions. A second table gives NOAA 1991-2020 normals frost dates (spring last and fall first 32°F at 10/30/50% probability, growing-season length) for 512 U.S. cities, each matched to a nearby GHCN station with distance and elevation difference recorded. CSV files. Independent compilation, not the official USDA map and not affiliated with USDA or OSU.
+version: "1.0"
+keywords: plant hardiness zones, USDA, PHZM, ZIP code, frost dates, NOAA climate normals, growing season, gardening, horticulture, climate change, United States
+image:
+temporal: 2012, 2023 (zones); 1991-2020 (frost normals)
+spatial: United States including Alaska, Hawaii and Puerto Rico (ZIP level); 512 cities (frost dates)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: CSV (zip_hardiness_zone_change_2012_2023.csv, city_frost_dates_512.csv) with README data dictionary
+data_quality: false
+data_dictionary: https://zenodo.org/records/23661628/files/README.md?download=1
+language: en
+license: CC BY 4.0
+publisher:
+  - name: US Grow Zones
+    web: https://usgrowzones.com/
+organization:
+  - name: US Grow Zones
+    web:
+issued_time: 2026.10
+sources:
+  - name: ZIP hardiness zone change 2012-2023 (CSV)
+    access_url: https://zenodo.org/records/23661628/files/zip_hardiness_zone_change_2012_2023.csv?download=1
+  - name: City frost dates, 512 cities (CSV)
+    access_url: https://zenodo.org/records/23661628/files/city_frost_dates_512.csv?download=1
+references:
+  - title: Hugging Face mirror
+    reference: https://huggingface.co/datasets/usgrowzones/us-zip-hardiness-zone-changes
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/usgrowzones/us-zip-hardiness-zone-changes-2012-2023-and-frost
+  - title: USDA Plant Hardiness Zone Map (official source map)
+    reference: https://planthardiness.ars.usda.gov/
+  - title: NOAA U.S. Climate Normals 1991-2020
+    reference: https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals
