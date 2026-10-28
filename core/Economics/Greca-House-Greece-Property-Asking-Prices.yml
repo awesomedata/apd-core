@@ -1,0 +1,30 @@
+---
+title: Greca House Greece Property Asking Prices
+homepage: https://grecahouse.com/en/research/athens-asking-prices-by-neighbourhood
+category: Economics
+description: "Asking prices on the property listings of Greca House, an independent Athens real-estate brokerage, recorded as dated snapshots and published as two CSV tables. The 1 October 2026 snapshot draws on the 663 listings then for sale with an asking price. The first table gives the median asking price per square metre for Athens-area apartments by neighbourhood, with the number of listings behind each figure and the neighbourhood name in English and Greek. Taken together, the 197 Athens-area apartments had a median of 3,667 EUR per m2; Kolonaki - Lycabettus stood at 7,391 on 21 listings and Kypseli at 2,704 on 10. The method page sets a 20 m2 minimum for apartments and a reporting rule: a neighbourhood needs six or more listings to be reported, four or five make its figure indicative, and with fewer than four it is left out. The second table has one row for each listing that falls in a budget window of the What your budget buys report, with listing code, property type, region, floor area, asking price, rooms, year built and the listing's public URL. The figures record what sellers ask on one agency's own stock. They do not show what buyers paid and they cover Greca House listings only. Each snapshot carries its date, and the method page states that earlier snapshots are kept unchanged."
+keywords: real estate, housing, property prices, asking prices, price per square metre, Athens, Attica, Greece, neighbourhoods, open data
+temporal: "Snapshot of 1 October 2026"
+spatial: "Greece, on Greca House listings; the neighbourhood table covers the Athens area"
+access_level: public
+copyrights: Greca House, CC BY 4.0
+accrual_periodicity:
+data_dictionary: https://grecahouse.com/en/research/method
+language: en
+license: CC BY 4.0
+organization:
+  - name: Greca House
+    web: https://grecahouse.com
+issued_time: "2026.10"
+sources:
+  - name: Athens asking prices by neighbourhood (CSV)
+    access_url: https://grecahouse.com/research/data/greca-house-athens-asking-prices-by-neighbourhood.csv
+  - name: What your budget buys, listings by budget window (CSV)
+    access_url: https://grecahouse.com/research/data/greca-house-what-your-budget-buys.csv
+references:
+  - title: Method, definitions and thresholds
+    reference: https://grecahouse.com/en/research/method
+  - title: Athens asking prices by neighbourhood (report)
+    reference: https://grecahouse.com/en/research/athens-asking-prices-by-neighbourhood
+  - title: What your budget buys (report)
+    reference: https://grecahouse.com/en/research/what-your-budget-buys
