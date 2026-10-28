@@ -1,0 +1,30 @@
+---
+title: Singapore AI Courses Open Dataset
+homepage: https://github.com/Ashtonz/singapore-ai-courses-dataset
+category: Education
+description: >-
+  Live dataset of 530 AI courses across 16 Singapore training providers —
+  universities, polytechnic CET schools, bootcamps and boutique academies.
+  Each listing carries SkillsFuture/UTAP/SFEC funding signals, published fees
+  (21% of providers; median S$785), durations, and industry/technology/job-function
+  taxonomy tags. Refreshed daily by automation with dead-course marking. Ships as
+  JSON with a companion MCP server (aicourse.com.sg/api/mcp) so AI assistants can
+  query the directory and compute subsidised net fees per learner profile.
+version: 1.0.0
+keywords: Singapore, AI courses, SkillsFuture, education, training, course fees, WSQ, lifelong learning
+image:
+temporal: 2026-ongoing
+spatial: Singapore
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/Ashtonz/singapore-ai-courses-dataset#whats-inside
+language: English
+license: CC-BY-4.0
+publisher: AI Course SG (Digimau Pte Ltd)
+organization:
+issued_time: 2026-10-27
+sources:
+  - https://aicourse.com.sg/directory
