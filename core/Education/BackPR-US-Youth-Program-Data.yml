@@ -1,0 +1,31 @@
+---
+title: BackPR Open Data for US Youth Programs
+homepage: https://doi.org/10.5281/zenodo.23577823
+category: Education
+description: "Rules for childcare, camps and after-school programs in all 50 states and DC (licensing, staff-to-child ratios, background checks, medication and mandated child abuse reporting), with links to the official sources. Also includes youth and community nonprofit counts by state from IRS records and what registration platforms disclose about pricing. CSV and JSON, CC BY 4.0."
+version: 1.0
+keywords: childcare, summer camps, after-school programs, state regulations, staff-to-child ratios, mandated reporting, nonprofits
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: BackPR
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://backpr.com/data/datapackage.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: BackPR
+    web: https://backpr.com/ai
+organization:
+  - name: BackPR
+    web: https://backpr.com
+issued_time: 2026.10
+sources:
+  - name: State licensing agencies and published state law; IRS Exempt Organizations Business Master File
+    access_url: https://backpr.com/resources/states
+references:
+  - title:
+    reference:
