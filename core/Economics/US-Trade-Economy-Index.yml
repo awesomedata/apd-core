@@ -1,0 +1,35 @@
+---
+title: The Level Index - US Trade Economy Index Dataset
+homepage: https://tradesindex.org/data/
+category: Economics
+description: Open dataset covering 20 US skilled trades across all 50 states and 50 MSAs, blending BLS OEWS wages, Census County Business Patterns establishment counts, municipal building permits, SEC EDGAR public trade comps, and anonymized SMB financial benchmarks across 11 normalized JSON and CSV tables.
+version: 2026.1.7
+keywords: skilled trades, labor economics, construction, HVAC, plumbing, electrical, wages, building permits, BLS, Census
+image:
+temporal: 2024-2026
+spatial: USA
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://tradesindex.org/methodology/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Level CFO
+    web: https://tradesindex.org/
+organization:
+  - name: Level CFO
+    web: https://levelcfo.com/
+issued_time: 2026.10
+sources:
+  - name: The Level Index Hugging Face Dataset
+    access_url: https://huggingface.co/datasets/LevelCFO/trade-economy-index
+  - name: The Level Index GitHub Mirror
+    access_url: https://github.com/levelcfo/trade-economy-index-data
+  - name: Zenodo Concept DOI Archive
+    access_url: https://doi.org/10.5281/zenodo.19448302
+references:
+  - title: The Level Index Methodology & Interactive Explorer
+    reference: https://tradesindex.org/
