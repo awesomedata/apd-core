@@ -1,0 +1,31 @@
+---
+title: Pass2port Open Citizenship- and Residency-by-Investment (CBI/RBI) Programme Dataset
+homepage: https://doi.org/10.5281/zenodo.23689530
+category: Government
+description: Source-linked dataset of government citizenship-by-investment (CBI) and residency-by-investment (RBI) programmes. One row per programme, covering host country, programme type, status (active/closed/suspended), minimum investment in USD and local currency, the official government source URL, last-verified date and scheduled rule changes. Also includes a companion passport mobility index. Closed and suspended programmes are kept for historical tracking.
+keywords: citizenship by investment, residency by investment, golden visa, immigration, investment migration, government programmes, passport
+temporal: 2026
+spatial: Global
+access_level: public
+data_quality: true
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: Pass2port
+    web: https://www.pass2port.com/
+organization:
+  - name: Pass2port
+    web: https://www.pass2port.com/
+issued_time: 2026-10-27
+sources:
+  - name: programs.csv (Zenodo)
+    access_url: https://zenodo.org/records/23689530/files/programs.csv
+  - name: programs.json (Zenodo)
+    access_url: https://zenodo.org/records/23689530/files/programs.json
+  - name: mobility-index.csv (Zenodo)
+    access_url: https://zenodo.org/records/23689530/files/mobility-index.csv
+references:
+  - title: Live CSV/JSON and data dictionary
+    reference: https://www.pass2port.com/data
+  - title: Programme closures log
+    reference: https://www.pass2port.com/closures
