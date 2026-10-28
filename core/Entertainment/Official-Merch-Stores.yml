@@ -1,0 +1,24 @@
+---
+title: Official Merch Stores
+homepage: https://github.com/xozxro/official-merch-stores
+category: Entertainment
+description: Open list of the official online merch stores of hundreds of artists and brands across music, K-pop, streetwear, anime, gaming and more. Each record has the artist or brand name, category, official store URL and region, plus any retailer that carries the brand. Direct download as JSON and CSV from the repository, no login. Data is CC0.
+version: 1.0
+keywords: merch, official merch, artist merch, band merch, K-pop, music, streetwear, online stores, csv, json
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: CC0 1.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/xozxro/official-merch-stores#data-dictionary
+language: en
+license: CC0 1.0
+publisher:
+  - name: Dropify
+    web: https://dropify.cloud
+organization:
+  - name: Dropify
+    web: https://dropify.cloud
