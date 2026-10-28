@@ -1,0 +1,41 @@
+category: Economics
+description: Daily snapshot of on-demand GPU rental prices (per GPU per hour) covering 22 GPU
+  models across 26 cloud platforms, including 11 mainland-China providers that most price
+  comparison sites do not cover. Prices are public list prices read from provider pricing pages
+  or public APIs; every record carries a fetched_at timestamp so consumers can set their own
+  staleness window. Published as JSON and CSV, refreshed every 45 minutes, also served by a
+  free API that requires no key.
+version: 2026.10.29
+keywords: GPU, GPU rental, GPU cloud, cloud computing, price index, China, machine learning
+  infrastructure, time series, open data
+temporal: 2026-10-29 to present
+spatial: global (prices in CNY and USD as published by providers)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/BrianTian818/gpu-price-index#fields
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: rentgpu.link
+    web: https://rentgpu.link
+organization:
+  - name: rentgpu.link
+    web: https://rentgpu.link
+issued_time: 2026.10.29
+sources:
+  - name: GPU Price Index - daily JSON snapshot
+    access_url: https://gpuprice.dev/data/latest.json
+  - name: GPU Price Index - daily CSV snapshot
+    access_url: https://gpuprice.dev/data/latest.csv
+  - name: GitHub repository
+    access_url: https://github.com/BrianTian818/gpu-price-index
+  - name: Hugging Face dataset mirror
+    access_url: https://huggingface.co/datasets/brian8808/gpu-price-index
+references:
+  - title: Dataset homepage and citation format
+    reference: https://gpuprice.dev
+  - title: Live price API (no key, refreshed every 45 minutes)
+    reference: https://rentgpu.link/api/prices
