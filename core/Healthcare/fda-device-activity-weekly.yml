@@ -1,0 +1,5 @@
+---
+title: FDA Device Activity Weekly (openFDA 510(k), listings, recalls)
+homepage: https://github.com/voxeoalyx/fda-device-leads
+category: Healthcare
+description: Weekly open-source compilation of U.S. FDA medical-device 510(k) clearances, new establishment listings and device recalls from the public-domain openFDA API, with an MIT-licensed script to regenerate any date range. Not affiliated with FDA.
