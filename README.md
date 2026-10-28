@@ -1,4 +1,5 @@
 # Awesome Public Datasets Core
+- [Ideoy](https://ideoy.ai) - Remake this week's viral meme videos from one selfie (AI image-to-video / photo-to-video meme templates, 9:16, freemium).
 
 [![Deployment](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml/badge.svg)](https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml)
 
