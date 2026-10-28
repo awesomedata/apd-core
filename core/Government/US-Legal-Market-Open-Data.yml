@@ -1,0 +1,33 @@
+---
+title: US Legal-Market Open Data (lawyer advertising rules, courts, fees, wages, complaints)
+homepage: https://github.com/ops864/legal-marketing-data
+category: Government
+description: Open US legal-market datasets built from official sources, including state lawyer advertising rules and ethics opinions, federal and state court filing statistics, attorney fee caps, statutes of limitations, lawyer wages, county legal demand and law-office counts, and consumer and workplace complaint and enforcement statistics. Each dataset is a CSV and JSON download with sources on every record and a DOI on Zenodo.
+version:
+keywords: lawyer advertising rules, court statistics, attorney fees, legal services, open legal data, FIPS, Croissant
+image:
+temporal:
+spatial: United States
+access_level: public
+copyrights: Probative Growth
+accrual_periodicity: irregular
+specification: https://probativegrowth.com/data/v1/openapi.json
+data_quality: true
+data_dictionary: https://github.com/ops864/legal-marketing-data/tree/main/data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Probative Growth
+    web: https://probativegrowth.com/data/
+organization:
+  - name: Probative Growth
+    web: https://probativegrowth.com/
+issued_time: 2026.10
+sources:
+  - name: Zenodo community (one DOI per dataset version)
+    access_url: https://zenodo.org/communities/probative-legal-marketing-data/
+references:
+  - title: Hugging Face mirror
+    reference: https://huggingface.co/datasets/ProbativeGrowth/legal-marketing-data
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/probativeoperations/legal-marketing-open-data-us
