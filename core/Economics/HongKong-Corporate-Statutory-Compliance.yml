@@ -1,0 +1,34 @@
+---
+title: Hong Kong Corporate Registry, Statutory Compliance & Macro Census Open Datasets (1960-2026)
+homepage: https://www.86hc.com/en/
+category: Economics
+description: Seven curated, machine-readable CSV and JSON reference datasets on Hong Kong corporations (Cap. 622) and Business Registration (Cap. 310), covering 67-year annual incorporation and survival cohorts (1960-2026 across 3.94M+ entities), top 50 commercial buildings by registered corporate density, census of 32 Hong Kong statutory regulatory licensing registries (SFC, HKMA, IA, MSO, TCSP), HKEX listed issuers board summary, Hong Kong bank clearing and SWIFT BIC codes, and Companies Registry statutory filing forms (NAR1, NNC1, ND2A, NSC1). Compiled by HC BUSINESS LIMITED (86hc.com, TCSP Licence TC006431).
+version: 1.1.0
+keywords: hong kong, company registry, business registration, kyb, due diligence, statutory compliance, regulatory licenses, corporate governance
+image:
+temporal: 1960-2026
+spatial: Hong Kong SAR
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: CSV and JSON, 7 tables (14 files)
+data_quality: true
+data_dictionary: https://github.com/86hc-compliance/hk-statutory-compliance-datasets#dataset-inventory-7-structured-tables-in-csv--json
+language: en, zh-Hant, zh-Hans
+license: CC BY 4.0
+publisher:
+  - name: HC BUSINESS LIMITED (86hc.com)
+    web: https://www.86hc.com/en/
+organization:
+  - name: HC BUSINESS LIMITED (TCSP Licence TC006431)
+    web: https://www.86hc.com
+issued_time: 2026.10
+sources:
+  - name: Hong Kong Corporate Incorporation Yearly Time Series 1960-2026 (CSV)
+    access_url: https://raw.githubusercontent.com/86hc-compliance/hk-statutory-compliance-datasets/main/data/hk-corporate-incorporation-yearly-1960-2026.csv
+  - name: Top 50 Hong Kong Commercial Buildings by Registered Corporate Density (CSV)
+    access_url: https://raw.githubusercontent.com/86hc-compliance/hk-statutory-compliance-datasets/main/data/hk-commercial-buildings-corporate-density-top50.csv
+  - name: Hong Kong 32 Statutory Regulatory License Registries Census (CSV)
+    access_url: https://raw.githubusercontent.com/86hc-compliance/hk-statutory-compliance-datasets/main/data/hk-statutory-regulatory-license-census.csv
+  - name: Hong Kong Companies Registry Core Statutory Forms & Tariffs (CSV)
+    access_url: https://raw.githubusercontent.com/86hc-compliance/hk-statutory-compliance-datasets/main/data/hk-cr-statutory-forms.csv
