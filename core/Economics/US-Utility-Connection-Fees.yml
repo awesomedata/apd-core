@@ -1,0 +1,11 @@
+---
+title: US Utility Connection Fees
+homepage: https://github.com/veinpsycoo/us-utility-connection-fees
+category: Economics
+description: A compiled dataset of 1794 utility connection fee records across 124 US jurisdictions, including water, sewer, electricity, and gas charges. Records include source-document links, fee bases, effective dates, and verification status. Some records require review; fees are not complete property cost estimates.
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Utility Cost Guide
+    web: https://utilitycostguide.com/fee-database/

@@ -1,0 +1,11 @@
+---
+title: EV Model Specifications and US State Charging Data
+homepage: https://github.com/veinpsycoo/ev-model-compare-data
+category: Transportation
+description: Specifications for 40 electric vehicle models, field-level source references, NHTSA recall identifiers, and residential charging estimates in 51 US state/DC rows. Exported September 2026; modelled estimates and missing values are documented separately.
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: EV Model Compare
+    web: https://evmodelcompare.com/
