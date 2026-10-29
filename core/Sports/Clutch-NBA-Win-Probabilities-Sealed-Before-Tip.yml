@@ -1,0 +1,29 @@
+---
+title: Clutch NBA Win Probabilities Sealed Before Tip
+homepage: https://huggingface.co/datasets/clutchledger/nba-win-probabilities-sealed-before-tip
+category: Sports
+description: One pre-game win probability per NBA game of the 2026-27 season, each sealed with a SHA-256 fingerprint in a public, hash-chained GitHub repository before tip-off and graded after the final (misses included), plus the band-by-band calibration of a two-season walk-forward replay (2024-25 and 2025-26, 2,631 games). Columns include tip time, teams, the sealed home win probability, final score, whether the favoured side won, and the receipt file and fingerprint that prove the number predates the game. Refreshed weekly.
+version: 1.0
+keywords: basketball, NBA, forecasting, win probability, calibration, pre-registration, reproducibility, SHA-256
+image:
+temporal: 2024-2027
+spatial: United States, Canada
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://huggingface.co/datasets/clutchledger/nba-win-probabilities-sealed-before-tip/blob/main/README.md
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/clutchledger/nba-win-probabilities-sealed-before-tip#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Clutch
+    web: https://clutchledger.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: Public receipts repository (seals and reveals, hash-chained)
+    access_url: https://github.com/uguraltunbas/clutch-receipts
+references:
+  - title: How to verify a seal
+    reference: https://github.com/uguraltunbas/clutch-receipts/blob/main/VERIFY.md
