@@ -1,0 +1,34 @@
+---
+title: Hot Springs West - Western US Hot Springs with Daily Closure Status
+homepage: https://hotspringswest.com/data/
+category: GIS
+description: 301 publicly accessible hot springs across 12 western US states (CA, OR, WA, ID, NV, UT, MT, WY, CO, NM, AZ, AK): name, coordinates, type (natural, developed, resort), access (drive-up, short walk, hike miles), fee, water temperature range and a daily closure status. The status is rebuilt every morning from US Forest Service recreation site status, NIFC wildfire perimeters and burn areas, National Weather Service warnings and National Park Service alerts, with the reason and source. CSV, JSON and GeoJSON, no login required.
+version: 1.0
+keywords: hot springs, geothermal, recreation, outdoors, wildfire, closures, public lands, geojson
+image:
+temporal: updated daily
+spatial: western United States (12 states)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary: https://hotspringswest.com/data/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Hot Springs West
+    web: https://hotspringswest.com
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: US Forest Service Recreation Opportunities (EDW)
+    access_url: https://data.fs.usda.gov/geodata/edw/datasets.php
+  - name: NIFC WFIGS wildfire perimeters
+    access_url: https://data-nifc.opendata.arcgis.com/
+  - name: National Weather Service alerts
+    access_url: https://api.weather.gov
+references:
+---
