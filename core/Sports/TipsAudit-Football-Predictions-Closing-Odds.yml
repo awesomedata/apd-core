@@ -1,0 +1,29 @@
+---
+title: TipsAudit Football Predictions with Closing Odds and Margins
+homepage: https://github.com/tipsaudit/track-record-public
+category: Sports
+description: Settled football (soccer) 1X2 predictions, one row per match, each logged before kick-off (about 7,400 matches from June to October 2026, 84 competitions). Each row has the Pinnacle price recorded for the prediction and the closing price, de-margined fair probabilities for home, draw and away, the 1X2 result, the closing-line value of the prediction and the bookmaker margin measured on the match. Monthly CSV plus daily JSON snapshots; caveats in datasets/README.md. Archived on Zenodo: https://doi.org/10.5281/zenodo.23683501
+version: 2026.10
+keywords: football, soccer, betting odds, closing line value, bookmaker margin, forecast evaluation, calibration, sports analytics
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: monthly CSV, daily snapshots
+specification: https://github.com/tipsaudit/track-record-public/blob/main/datasets/README.md
+data_quality: true
+data_dictionary: https://github.com/tipsaudit/track-record-public/blob/main/datasets/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TipsAudit
+    web: https://tipsaudit.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV and JSON snapshots)
+    access_url: https://github.com/tipsaudit/track-record-public/tree/main/datasets
+references:
+  - title: CITATION.cff
+    reference: https://github.com/tipsaudit/track-record-public/blob/main/CITATION.cff
