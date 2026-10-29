@@ -1,0 +1,40 @@
+---
+title: BanksOnSale FDIC Institution Financials (2026Q2)
+homepage: https://www.banksonsale.com/data/releases/2026-q2-r1
+category: Finance
+description: >-
+  Frozen compilation of 4,313 FDIC BankFind Suite institution financial records
+  for June 30, 2026, with 14 reported fields, FDIC CERT identifiers, explicit
+  USD-thousands and percentage units, null missing values, per-field coverage,
+  archived source responses, retrieval timestamps and SHA-256 checksums.
+  Includes non-insured and other institution classes present in the source;
+  it is not a list limited to currently insured banks. CSV, JSON and source
+  archives can be downloaded without an account or API key.
+version: 2026-q2-r1
+keywords: FDIC, bank financials, regulatory data, capital, deposits
+access_level: public
+temporal: '2026-06-30'
+spatial: United States and territories covered by FDIC BankFind Suite
+accrual_periodicity: Frozen versioned release
+data_dictionary: https://www.banksonsale.com/data/releases/2026-q2-r1/README.txt
+language: en
+license: >-
+  CC BY 4.0 for the BanksOnSale compilation and original metadata;
+  FDIC remains the original regulatory source. No FDIC endorsement implied.
+publisher:
+  - name: BanksOnSale
+    web: https://www.banksonsale.com/about
+organization:
+  - name: Federal Deposit Insurance Corporation (original source)
+    web: https://www.fdic.gov/
+issued_time: '2026-10-21'
+sources:
+  - name: CSV financial records
+    access_url: https://www.banksonsale.com/data/releases/2026-q2-r1/financials.csv
+  - name: JSON financial records
+    access_url: https://www.banksonsale.com/data/releases/2026-q2-r1/financials.json
+  - name: Manifest with source queries, archives, coverage and file hashes
+    access_url: https://www.banksonsale.com/data/releases/2026-q2-r1/manifest.json
+references:
+  - title: FDIC BankFind Suite API documentation
+    reference: https://api.fdic.gov/banks/docs/
