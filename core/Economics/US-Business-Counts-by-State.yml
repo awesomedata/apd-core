@@ -1,0 +1,33 @@
+---
+title: US Business Counts by State
+homepage: https://doi.org/10.5281/zenodo.23325479
+category: Economics
+description: Counts of US businesses and organizations by state for 16 kinds of establishment (dental offices, physician and pharmacy practice addresses, hospitals, veterinary clinics, churches, trucking companies, SEC-registered investment advisers, private equity, hedge fund and venture capital firms, and more), with per-100,000 rates, shares and ranks. Built from public registers and open map data (CMS NPPES, CMS Hospital General Information, SEC Form ADV, FMCSA Company Census, Overture Maps places). 17 CSV files; aggregate counts only, with no names or contact details.
+version: 2026-10
+keywords: United States, business counts, establishments, states, healthcare providers, churches, trucking, investment advisers
+image:
+temporal: 2026
+spatial: United States, 50 states and DC
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/nodilist/us-business-counts-by-state
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org/records/23325480
+organization:
+  - name: nodilist (Nodior LLC)
+    web: https://github.com/nodilist
+issued_time: 2026.10
+sources:
+  - name: Zenodo archive (CSV files)
+    access_url: https://zenodo.org/records/23325480
+  - name: GitHub mirror
+    access_url: https://github.com/nodilist/us-business-counts-by-state
+references:
+  - title: Methodology (what each count measures)
+    reference: https://nodilist.com/methodology/
