@@ -1,0 +1,26 @@
+---
+title: Cheltenham Open Data, UK
+homepage: https://cheltenham-od.uk/
+category: Government
+description: Local public data for Cheltenham, Gloucestershire, collected automatically from public sources, including fuel prices, crime, flood warnings, house prices, planning, schools, care homes and bus routes. Published as a static website, with the underlying JSON files in the GitHub repository.
+version:
+keywords: Cheltenham, Gloucestershire, UK, local government, open data, git scraping
+image:
+temporal:
+spatial: Cheltenham, Gloucestershire, United Kingdom
+access_level: public
+copyrights:
+accrual_periodicity: Varies by dataset, updated automatically
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT (repository); each dataset keeps the licence of its source
+publisher:
+  - name: Mat Benfield
+    web: https://thechels.uk
+organization:
+issued_time:
+sources:
+  - name: JSON data files on GitHub
+    access_url: https://github.com/thechelsuk/uk.cheltenham-od/tree/main/_data
