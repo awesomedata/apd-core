@@ -1,0 +1,27 @@
+---
+title: Automatic Litter Box Specs
+homepage: https://github.com/sharknative/open-data/tree/main/vettedfur-automatic-litter-boxes
+category: InterDisciplinary
+description: "Maker-published specifications for 18 self-cleaning (automatic) cat litter box models: entry type and height, rated cat weight, footprint, waste drawer capacity, companion app, and the refill item each model needs with a two-year refill cost range worked from maker list prices. Every value carries the maker page it was read from and the exact phrase quoted; blank cells mean the maker does not publish the figure. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: cat litter box, self-cleaning litter box, pet products, product specifications, consumer products, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: VettedFur
+    web: https://vettedfur.com/
+organization:
+  - name: VettedFur
+    web: https://vettedfur.com/
+issued_time: 2026.10
+sources:
+  - name: Automatic Litter Box Specs CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/vettedfur-automatic-litter-boxes/automatic-litter-boxes.csv
+  - name: Automatic Litter Box Specs JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/vettedfur-automatic-litter-boxes/automatic-litter-boxes.json
+references:
+  - title: Live table and method
+    reference: https://vettedfur.com/data/automatic-litter-boxes/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939

@@ -1,0 +1,27 @@
+---
+title: Small-Space Fitness Equipment Index
+homepage: https://github.com/sharknative/open-data/tree/main/wellnessrundown-small-space-index
+category: Sports
+description: "Maker-published dimensions for 29 pieces of compact home fitness equipment (walking pads, folding treadmills, compact rowers and compact ellipticals): length, width and height in use and when folded or stored, with a published space score. Every dimension cites its maker source. Available as CSV and JSON."
+version: 2026.10.25.1
+keywords: home fitness, exercise equipment, small spaces, equipment dimensions, product specifications, dataset
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wellness Rundown
+    web: https://wellnessrundown.com/
+organization:
+  - name: Wellness Rundown
+    web: https://wellnessrundown.com/
+issued_time: 2026.10
+sources:
+  - name: Small-Space Fitness Equipment Index CSV
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/wellnessrundown-small-space-index/small-space-index.csv
+  - name: Small-Space Fitness Equipment Index JSON
+    access_url: https://raw.githubusercontent.com/sharknative/open-data/main/wellnessrundown-small-space-index/small-space-index.json
+references:
+  - title: Live table and method
+    reference: https://wellnessrundown.com/small-space-index/
+  - title: Archived release (Zenodo DOI)
+    reference: https://doi.org/10.5281/zenodo.23645939
