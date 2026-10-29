@@ -1,6 +1,6 @@
 ---
 title: CFD loss-rate series
-homepage: https://tradinglookup.com/brokers/cfd-loss-rates/
+homepage: https://github.com/tradinglookup/data
 category: Finance
 description: Share of retail accounts that lose money, from 31 UK/EU CFD providers' mandated risk warnings, plus quarterly history from 2018-Q3. CSV + datapackage, CC BY 4.0.
 access_level: public
