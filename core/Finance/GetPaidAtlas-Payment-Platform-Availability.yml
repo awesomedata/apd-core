@@ -1,0 +1,46 @@
+---
+title: GetPaidAtlas - Payment Platform Availability by Country
+homepage: https://www.kaggle.com/datasets/getpaidatlas/getpaidatlas-payment-platform-availability
+category: Finance
+description: >-
+  Which seller-side payment platforms and payout routes support sellers based
+  in each country. One row per country or territory (250: ISO 3166-1 plus
+  Kosovo) and one column per platform for 12 platforms and routes: Stripe,
+  Paddle, Lemon Squeezy, Polar, Dodo Payments, Creem, Gumroad, Whop, PayPal
+  (receiving), Wise Business, Payoneer and Mercury (via a US LLC). Each of the
+  3,000 cells is Yes, No or Unclear, taken only from the platform's own
+  published pages, with the date that cell was checked (sources last checked
+  2026-10-20, Payoneer 2026-10-17); Unclear means no official source confirmed
+  it. Also counts how many of the 7 seller platforms list the country as Yes.
+  CSV and JSON on Kaggle, plus a direct CSV download with no login. Per-cell
+  notes and source links are on each country page of the site. Published by
+  an independent guide that is not a payment provider and does not receive or
+  move money.
+version: "2026.10.20"
+keywords: payments, payment platforms, merchant of record, Stripe availability, payouts, cross-border, founders, sellers, country coverage, csv, json
+image:
+temporal: 2026
+spatial: global (250 countries and territories)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://getpaidatlas.com/about#method
+data_quality: false
+data_dictionary: https://getpaidatlas.com/data/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: GetPaidAtlas
+    web: https://getpaidatlas.com/about
+organization:
+  - name: GetPaidAtlas
+    web: https://getpaidatlas.com
+issued_time: 2026.10
+sources:
+  - name: Kaggle (CSV and JSON, CC BY 4.0)
+    access_url: https://www.kaggle.com/datasets/getpaidatlas/getpaidatlas-payment-platform-availability
+  - name: Direct CSV download (no login)
+    access_url: https://getpaidatlas.com/data/getpaidatlas-payment-platform-availability.csv
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
