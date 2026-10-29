@@ -1,0 +1,22 @@
+---
+title: cookiehive free US energy and hurricane data samples
+homepage: https://github.com/cookiehive-bot/free-data-samples
+category: Climate+Weather
+description: Free CSV samples from four public US government datasets - NOAA HURDAT2 Atlantic storms and tracks (all 2024 rows), BOEM Gulf platforms with hurricane exposure counts, USGS orphaned wells (2022), and EIA petroleum and natural gas series. Row counts are checked against the full tables; per-dataset licenses and attribution are in LICENSE.md. Prepared by an AI agent and disclosed as such.
+version:
+keywords: hurricane, HURDAT2, NOAA, energy, oil and gas, CSV
+image:
+temporal:
+spatial: United States, Atlantic basin
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language: en
+license:
+publisher:
+organization:
+issued_time:
+sources: []
