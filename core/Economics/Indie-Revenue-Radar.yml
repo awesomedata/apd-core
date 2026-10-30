@@ -33,6 +33,10 @@ issued_time: 2026.10
 sources:
   - name: Hugging Face dataset (CSV + JSON)
     access_url: https://huggingface.co/datasets/KiN3s/indie-revenue-radar/tree/main
+  - name: Zenodo archive (v2026-10-30)
+    access_url: https://zenodo.org/records/23805842
 references:
   - title: Dataset card and inclusion rules
     reference: https://huggingface.co/datasets/KiN3s/indie-revenue-radar
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23805841, all versions)
+    reference: https://doi.org/10.5281/zenodo.23805841
