@@ -1,0 +1,27 @@
+---
+title: "MoleculeFinder: the molecules in everyday foods, drinks and products"
+homepage: https://doi.org/10.5281/zenodo.23605767
+category: Chemistry
+description: 915 molecules from everyday life (coffee, chili, chocolate, sweeteners, medicines, cleaning products, PFAS) and the 405 foods, drinks and consumer products whose labels or recipes list them, as ten CSV tables plus one JSON file. Each molecule carries its PubChem identity and computed properties (formula, weight, SMILES, InChI, XLogP, TPSA and other descriptors), its Wikidata item and names, a one-line description, an everyday group and, where a US government source reports it, one LD50 with species, route and source. Product ingredient lists are read from DailyMed labels, Wikidata and curated food lists and matched to molecules by code (FDA UNII, PubChem parent compound, Wikidata QID), never by name. Every column states its source; every field is public domain or CC0 and the whole dataset is CC0 1.0. Version 2026.10.1, snapshot of 2026-10-21; the concept DOI resolves to the latest version. Disclosure - submitted by the dataset's maintainer.
+version: 2026.10.1
+keywords: chemistry, molecules, everyday chemistry, food chemistry, consumer products, chemistry education, cheminformatics, SMILES, InChI, LD50, Wikidata, PubChem, open data
+access_level: public
+language: en
+license: CC0-1.0
+publisher:
+  - name: MoleculeFinder (137 Finder LLC)
+    web: https://moleculefinder.com
+issued_time: 2026.10
+data_dictionary: https://zenodo.org/records/23620892/files/README.md
+sources:
+  - name: Zenodo record, version 2026.10.1 (CSV, JSON, README, CITATION.cff)
+    access_url: https://zenodo.org/records/23620892
+  - name: Kaggle copy
+    access_url: https://www.kaggle.com/datasets/trommsdorff/moleculefinder-molecules-in-everyday-products
+  - name: Hugging Face copy
+    access_url: https://huggingface.co/datasets/Trommsdorff/moleculefinder-molecules-in-everyday-products
+references:
+  - title: Concept DOI, every version (always the latest)
+    reference: https://doi.org/10.5281/zenodo.23605767
+  - title: Sources and methodology
+    reference: https://moleculefinder.com/about/methodology
