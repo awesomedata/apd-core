@@ -4,7 +4,7 @@ homepage: https://github.com/bigpipe-agency/agency-ai-terms/tree/main/research
 category: SocialSciences
 description: >-
   One row per AI policy that a marketing, PR, creative, web, SEO or social
-  agency publishes about its own work: 37 policies read in full in October
+  agency publishes about its own work: 68 policies read in full in October
   2026, each coded yes/blank on eight commitments (a person reviews AI-assisted
   work, tells clients, a rule for client data in AI tools, work it never hands
   to AI, ownership and originality, a named accountable owner, clients can
@@ -18,7 +18,7 @@ version: 2026-10
 keywords: AI policy, AI governance, AI disclosure, generative AI, marketing agencies, advertising, public relations, corporate policy, content analysis
 image: https://raw.githubusercontent.com/bigpipe-agency/agency-ai-terms/main/research/agency-ai-policy-audit-2026-chart.png
 temporal: 2026
-spatial: United States, United Kingdom, Australia, Germany, New Zealand
+spatial: United States, United Kingdom, Australia, Canada, New Zealand, Germany, South Africa
 access_level: public
 copyrights: Coding CC BY 4.0; quoted policy text belongs to each agency
 accrual_periodicity: irregular
