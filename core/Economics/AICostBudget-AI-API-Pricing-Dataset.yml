@@ -1,8 +1,8 @@
 ---
 title: AICostBudget AI API Pricing Dataset
-homepage: https://github.com/aicostbudget/ai-api-pricing-data
+homepage: https://aicostbudget.com/en/datasets/ai-api-pricing
 category: Economics
-description: Prices for 91 LLM and AI API models from 11 providers (as of 2026-10-21), one record per model, with input, output, cached-input, cache-write and batch prices per 1M tokens, plus non-token rates such as OCR pages where a provider publishes them. Every record carries the official provider pricing page URL it was read from and a last_verified_at timestamp. The repository also holds per-provider price history, a JSONL log of dated price-change events, JSON Schemas and a methodology document. Available as JSON and CSV, mirrored on Hugging Face, with a fixed v1.1.0 release archived on Zenodo.
+description: Prices for more than 120 LLM and AI API models from 13 providers (as of 2026-10-30), one record per model, with input, output, cached-input, cache-write and batch prices per 1M tokens, plus non-token rates such as OCR pages where a provider publishes them. Every record carries the official provider pricing page URL it was read from and a last_verified_at timestamp. The GitHub repository also holds per-provider price history, a JSONL log of dated price-change events, JSON Schemas and a methodology document. Available as JSON and CSV, mirrored on Hugging Face, with a fixed v1.1.0 release archived on Zenodo.
 version: 1.1.0
 keywords: LLM pricing, AI API pricing, token pricing, model pricing, price changes, open data
 temporal: since 2026-07, updated when a verified provider price changes
@@ -23,9 +23,13 @@ organization:
     web: https://aicostbudget.com
 issued_time: 2026.07
 sources:
-  - name: Prices JSON
+  - name: Prices JSON (website download)
+    access_url: https://aicostbudget.com/api/datasets/ai-api-pricing.json
+  - name: Prices CSV (website download)
+    access_url: https://aicostbudget.com/api/datasets/ai-api-pricing.csv
+  - name: Raw per-model records JSON (GitHub)
     access_url: https://raw.githubusercontent.com/aicostbudget/ai-api-pricing-data/main/data/prices.json
-  - name: Prices CSV
+  - name: Raw per-model records CSV (GitHub)
     access_url: https://raw.githubusercontent.com/aicostbudget/ai-api-pricing-data/main/data/prices.csv
   - name: Price-change events (JSONL)
     access_url: https://raw.githubusercontent.com/aicostbudget/ai-api-pricing-data/main/data/price-change-events/events.jsonl
