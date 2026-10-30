@@ -1,0 +1,44 @@
+---
+title: Central Bank Exchange Rates - Daily official rates from 121 central banks and tax authorities
+homepage: https://github.com/AllRates-Today/central-bank-exchange-rates
+category: Finance
+description: >-
+  Daily official exchange rates exactly as published by 121 central banks and
+  3 tax authorities (ECB euro reference rates, Federal Reserve H.10, Bank of
+  England, RBI, PBoC central parity, HMRC monthly rates, US Treasury quarterly
+  rates and more), one CSV and JSON file per institution with the full history
+  the institution offers (ECB from 1999). Columns: date, base, quote, type,
+  value. Direction and rate type follow the publisher; nothing is
+  cross-computed. Refreshed four times a day from each institution's own
+  publication, with a cross-institution plausibility check. Also mirrored on
+  Hugging Face (datasets library) and Kaggle.
+version: "2026-10-26"
+keywords: exchange rates, central bank, forex, fx, reference rates, ecb, federal reserve, tax, vat, customs, csv, json
+image:
+temporal: 1999 / ongoing
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/AllRates-Today/central-bank-exchange-rates#schema
+data_quality: true
+data_dictionary: https://github.com/AllRates-Today/central-bank-exchange-rates#schema
+language: en
+license: CC-BY-NC-4.0
+publisher:
+  - name: AllRatesToday
+    web: https://allratestoday.com/central-bank-rates-api/
+organization:
+  - name: AllRates-Today
+    web: https://github.com/AllRates-Today
+issued_time: 2026.09
+sources:
+  - name: GitHub repository (CSV and JSON, no login)
+    access_url: https://github.com/AllRates-Today/central-bank-exchange-rates
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates
+references:
+  - title: CC BY-NC 4.0
+    reference: https://creativecommons.org/licenses/by-nc/4.0/
