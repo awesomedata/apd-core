@@ -1,0 +1,37 @@
+---
+title: Lowdown MCP Registry daily observations (fixed sample of 10,000 remote servers, from 2026-10-06)
+homepage: https://github.com/PetShopBros/lowdown-data
+category: Software
+description: Daily time series of what the official Model Context Protocol (MCP) Registry declares about servers and what is observed when they are contacted. Once a day a scanner sends exactly two JSON-RPC requests, initialize and tools/list, to the Streamable HTTP remotes of a fixed sample of Registry entries (2,000 from 2026-10-06, 5,000 from 2026-10-19, 10,000 from 2026-10-29; each cohort keeps every entry of the previous one, at most 3 entries per host). It never calls a tool and does not authenticate. Each row records HTTP status, how far the handshake got (reached_level 0, 1 or 2), latency, tool count, server version and hashes of tool schemas, descriptions and names, so changes in tool definitions can be traced day by day; the definitions themselves are not published. Separate files record daily changes in Registry declarations (from 2026-10-19) and monthly snapshots of all declarations. Archived days are written once and never rewritten; MANIFEST.csv lists every file with its row count and SHA-256. LIMITS. One probe per day from one network location (GitHub Actions); a timeout means not reachable from there at that moment, not downtime. 401 and 403 are recorded as observed, not as success or failure. Entries are Registry names, not operators, and the sample does not represent the whole Registry; stdio-only servers are not observed. No scores or rankings.
+version: daily
+keywords: model context protocol, mcp, mcp registry, ai agents, llm tools, tool definitions, reachability, time series, csv, parquet, open data
+image:
+temporal: 2026-10-06 to present, one file per UTC day
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://github.com/PetShopBros/lowdown-data#what-the-scanner-observes
+data_quality: true
+data_dictionary: https://github.com/PetShopBros/lowdown-data#observation-columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ART2META (Lowdown)
+    web: https://github.com/PetShopBros
+organization:
+issued_time: 2026.10
+sources:
+  - name: Daily observation files, one gzip-compressed CSV per UTC day
+    access_url: https://github.com/PetShopBros/lowdown-data/tree/main/scanner_observations
+  - name: Daily Registry declaration changes (CSV, from 2026-10-19)
+    access_url: https://github.com/PetShopBros/lowdown-data/tree/main/registry_changes
+  - name: File list with row counts and SHA-256 (MANIFEST.csv)
+    access_url: https://github.com/PetShopBros/lowdown-data/blob/main/MANIFEST.csv
+  - name: Hugging Face copy of the same files
+    access_url: https://huggingface.co/datasets/art2meta/lowdown-mcp-observations
+references:
+  - title: Scanner method and limits
+    reference: https://github.com/PetShopBros/lowdown-data#what-the-scanner-observes
+  - title: Scanner source code (MIT)
+    reference: https://github.com/PetShopBros/lowdown-proxy/tree/main/scanner
