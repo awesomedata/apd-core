@@ -1,0 +1,33 @@
+---
+title: Data Center Electric Rates by Utility (US Large-Load Tariffs and Special Contracts)
+homepage: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/data-center-electric-rates
+category: Energy
+description: 105 US utility filings and regulatory proceedings across 45 states, plus a multistate PJM proceeding, that set how data centers and other very large customers pay for power, including large-load tariffs, dedicated data center rate classes, special contracts, rulemakings and state laws. Each row gives the utility, regulator, docket number and link, status, filed and decision dates, next scheduled vote or deadline, customer protections (size thresholds, minimum payments, contract length, collateral, exit fees), household bill impacts as stated by the source, and the utility's reported data center load in MW with its own definition. Every row links to its source and carries a confidence flag.
+version: 2026-10-29
+keywords: data centers, electricity rates, large-load tariff, utility regulation, public utility commission, docket, PJM, ratepayers, energy policy, United States, CSV
+image:
+temporal: 2024 to present
+spatial: United States
+access_level: public
+copyrights: Metro Colo Advisory
+accrual_periodicity: irregular
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/metrocoloadvisory/metro-colo-data/blob/main/data-center-electric-rates/data-center-electric-rates-data-dictionary.txt
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+organization:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+issued_time: 2026-10-31
+sources:
+  - name: Zenodo archive (versioned)
+    access_url: https://doi.org/10.5281/zenodo.23839945
+  - name: GitHub folder (CSV and data dictionary)
+    access_url: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/data-center-electric-rates
+references:
+  - title: Data Center Electric Rates tracker (method and updates)
+    reference: https://metrocoloadvisory.com/data-center-electric-rates/
