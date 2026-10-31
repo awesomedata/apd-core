@@ -1,0 +1,23 @@
+---
+title: Fiber Database
+homepage: https://github.com/acalise/fiber-database
+category: Agriculture
+description: Dietary fiber for ~200 common foods, per typical serving and per 100 g, with total fiber split into soluble and insoluble. Derived from USDA FoodData Central with documented curation. CSV and JSON, plus a no-auth static JSON API. CC BY 4.0.
+version: 1.0.0
+keywords: food, nutrition, dietary fiber, soluble fiber, insoluble fiber, food composition, USDA
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity:
+specification: https://github.com/acalise/fiber-database
+data_quality: true
+data_dictionary: https://github.com/acalise/fiber-database
+language: English
+license: CC-BY-4.0
+publisher: FiberUp
+organization: FiberUp
+issued_time: 2026-10
+sources:
+  - USDA FoodData Central
