@@ -1,0 +1,26 @@
+---
+title: "GLP-1 Price Index (Wellchosen Health)"
+homepage: https://wellchosenhealth.com/glp-1/price-report/
+category: Healthcare
+description: "All-in monthly US cash prices for compounded and brand GLP-1 drugs (semaglutide, tirzepatide, Wegovy, Zepbound) at 34 online programs and 23 maker, pharmacy and government channels, each with source URL, checked date and FDA warning letter fields. CSV with data dictionary."
+version: 2026-10
+keywords: GLP-1, drug prices, semaglutide, tirzepatide, telehealth
+temporal:
+copyrights:
+accrual_periodicity: Monthly
+specification:
+data_dictionary: https://wellchosenhealth.com/glp-1/price-report/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+organization:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+sources:
+  - name: CSV download
+    access_url: https://wellchosenhealth.com/data/glp1-price-index/glp1-price-index.csv
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.23839034
