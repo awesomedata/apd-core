@@ -1,0 +1,31 @@
+---
+title: AI Certifications Dataset
+homepage: https://github.com/jakeboland/ai-certifications-dataset
+category: Education
+description: "JSON records of AI certifications from technology vendors and professional bodies: price rows as the issuer shows them, exam format, length, question count, passing score, validity, renewal, eligibility, languages and status, each with the issuer's source URLs and a last-checked date. A second file logs issuer changes such as price updates and retirements. Facts an issuer doesn't state are null. CC BY 4.0."
+version: 1
+keywords: AI certifications, certification exams, exam prices, certification validity, agentic AI
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: AI Course Check
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/jakeboland/ai-certifications-dataset#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AI Course Check
+    web: https://aicoursecheck.com/
+organization:
+  - name: AI Course Check
+    web: https://aicoursecheck.com/
+issued_time: 2026.10
+sources:
+  - name: Issuers' own certification pages, listed per record in source_urls
+    access_url: https://aicoursecheck.com/data/
+references:
+  - title:
+    reference:
