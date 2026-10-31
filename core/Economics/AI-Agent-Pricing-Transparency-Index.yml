@@ -1,0 +1,31 @@
+---
+title: AI Agent Pricing Transparency Index (October 2026 totals by category)
+homepage: https://github.com/AIAgentSearchai/ai-agent-pricing-transparency-index
+category: Economics
+description: Counts, by category, of how many early-stage AI agent startups publish a price before a buyer speaks to sales. 106 companies were sampled and 88 could be read on October 20, 2026, across 19 categories. Columns cover whether a pricing page exists, whether any paid price is shown, whether a quote-only plan exists, whether an enterprise price is shown, free tier or trial, and SOC 2 and ISO 27001 statements. Totals only; company-level data is withheld. The sample leans toward accelerator-backed startups and is not a random sample of the AI agent market. Re-read monthly on the same companies. Archived on Zenodo with a DOI.
+version: 1.0
+keywords: ai agents, pricing, price transparency, startups, saas, market research, csv, open data
+image:
+temporal: 2026-10-20 snapshot
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/AIAgentSearchai/ai-agent-pricing-transparency-index#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: AIAgentSearch.ai
+    web: https://aiagentsearch.ai
+organization:
+issued_time: 2026.10
+sources:
+  - name: Totals by category (CSV)
+    access_url: https://raw.githubusercontent.com/AIAgentSearchai/ai-agent-pricing-transparency-index/main/Data_Study_01_Public_Totals_by_Category_2026-10-20.csv
+  - name: Hugging Face copy
+    access_url: https://huggingface.co/datasets/AIAgentSearchai/ai-agent-pricing-transparency-index
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.23842888
