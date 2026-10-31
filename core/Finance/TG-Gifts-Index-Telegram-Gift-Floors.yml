@@ -1,0 +1,13 @@
+---
+title: TG Gifts Index - daily floor prices of Telegram collectible gifts
+homepage: https://github.com/w3radar/telegram-gift-floors
+category: Finance
+description: Daily floor price per collection of Telegram collectible gifts (Fragment, TON), plus the TG Gifts Index, a composite index of those floors. CSV and JSON, no login, CC BY 4.0.
+keywords: telegram, gifts, nft, ton, floor price, price index
+access_level: public
+language: en
+license: CC BY 4.0
+accrual_periodicity: daily
+sources:
+  - name: Fragment public pages
+    access_url: https://fragment.com
