@@ -1,0 +1,26 @@
+---
+title: "Peptide FDA and HHS Status Tracker (Wellchosen Health)"
+homepage: https://wellchosenhealth.com/peptides/
+category: Healthcare
+description: "US legal status of 27 peptides (BPC-157, TB-500 and more): FDA approval, 503A compounding category, advisory committee votes and WADA status, flagging the six named in the Oct 28, 2026 draft HHS compounding policy. CSV with data dictionary."
+version: 2026-10
+keywords: peptides, FDA, HHS, 503A compounding, drug regulation
+temporal:
+copyrights:
+accrual_periodicity: Irregular
+specification:
+data_dictionary: https://wellchosenhealth.com/peptides/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+organization:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+sources:
+  - name: CSV download
+    access_url: https://wellchosenhealth.com/data/peptide-fda-status/peptide-fda-status.csv
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.23839185

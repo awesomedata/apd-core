@@ -1,0 +1,26 @@
+---
+title: "Medicaid GLP-1 Coverage by State (Wellchosen Health)"
+homepage: https://wellchosenhealth.com/glp-1/medicaid-coverage-by-state/
+category: Healthcare
+description: "Whether each of the 51 US Medicaid programs covers GLP-1 drugs such as Wegovy and Zepbound for weight loss, with prior authorization rules, heart-risk and sleep apnea coverage, the latest policy change date and links to each state's primary documents. CSV with data dictionary."
+version: 2026-10
+keywords: Medicaid, GLP-1, obesity, prescription drug coverage, state policy
+temporal:
+copyrights:
+accrual_periodicity: Irregular
+specification:
+data_dictionary: https://wellchosenhealth.com/glp-1/medicaid-coverage-by-state/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+organization:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+sources:
+  - name: CSV download
+    access_url: https://wellchosenhealth.com/data/medicaid-glp1-coverage-by-state/medicaid-glp1-coverage-by-state.csv
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.23839866

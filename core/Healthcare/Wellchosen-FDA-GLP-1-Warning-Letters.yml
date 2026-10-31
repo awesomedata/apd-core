@@ -1,0 +1,26 @@
+---
+title: "FDA Warning Letters Citing GLP-1 Drugs (Wellchosen Health)"
+homepage: https://wellchosenhealth.com/glp-1/fda-warning-letters/
+category: Healthcare
+description: "153 FDA warning letters dated 2024 to 2026 that cite semaglutide, tirzepatide or other GLP-1 drugs, sent to telehealth companies, compounding pharmacies and online sellers, with date, recipient, what FDA cited and the fda.gov link. CSV with data dictionary."
+version: 2026-10
+keywords: FDA, warning letters, GLP-1, compounding pharmacies, drug regulation
+temporal:
+copyrights:
+accrual_periodicity: Irregular
+specification:
+data_dictionary: https://wellchosenhealth.com/glp-1/fda-warning-letters/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+organization:
+  - name: Wellchosen Health
+    web: https://wellchosenhealth.com/
+sources:
+  - name: CSV download
+    access_url: https://wellchosenhealth.com/data/fda-glp1-warning-letters/fda-glp1-warning-letters.csv
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.23839116
