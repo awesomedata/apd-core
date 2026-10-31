@@ -1,0 +1,31 @@
+---
+title: European Train Timetable Summaries
+homepage: https://glosx.app/last-train-europe/
+category: Transportation
+description: Station-to-station summaries of the official open railway timetables (GTFS) of Switzerland, Austria, Norway, Sweden, Finland and Spain. One CSV per country with first train, last train, number of direct trains per day, fastest and median journey time, for a weekday, Saturday and Sunday. Archived on Zenodo with a DOI.
+version: 1
+keywords: railway,train,timetable,GTFS,public transport,Europe,open data
+image:
+temporal: 2026
+spatial: Switzerland, Austria, Norway, Sweden, Finland, Spain
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://zenodo.org/records/23827431
+language: en
+license: CC-BY-4.0
+publisher: WoW Train (glosx.app)
+organization:
+  - name: WoW Train
+    web: https://glosx.app/
+issued_time: 2026-10-31
+sources:
+  - name: Zenodo (DOI 10.5281/zenodo.23827431)
+    access_url: https://doi.org/10.5281/zenodo.23827431
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/sebastianjasinsky/european-train-timetables-6-countries
+references:
+  - title: How late is the last train? Main city pairs in 6 European countries
+    reference: https://glosx.app/last-train-europe/
