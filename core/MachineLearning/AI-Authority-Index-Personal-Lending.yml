@@ -1,0 +1,40 @@
+---
+title: AI Authority Index, Personal Lending, Edition 1
+homepage: https://github.com/Third-Hemisphere-PL/ai-authority-index-data
+category: MachineLearning
+description: >-
+  Which Australian personal lenders five AI engines (ChatGPT, Claude, Copilot,
+  Gemini, and Perplexity) name, recommend, and caution against when asked the
+  questions borrowers ask, read from 805 AI answers. One row per company the
+  answers named (122 companies): 28 named often enough to be scored on five
+  factors (Consensus, Reputation, Influence, Source, and Presence, each out of
+  100, plus a composite score and a Star Chart cell), and 94 named too rarely
+  to score, listed with the number of answers that named them. CSV, direct
+  download, no login.
+version: "1"
+keywords: large language models, AI search, generative engine optimisation, AI visibility, brand mentions, LLM evaluation, personal lending, Australia, open data
+temporal: 2026
+spatial: Australia
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_dictionary: https://github.com/Third-Hemisphere-PL/ai-authority-index-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Third Hemisphere
+    web: https://thirdhemisphere.agency/
+organization:
+  - name: Third Hemisphere
+    web: https://thirdhemisphere.agency/
+issued_time: 2026.10
+sources:
+  - name: Zenodo (version of record, DOI 10.5281/zenodo.23809586)
+    access_url: https://doi.org/10.5281/zenodo.23809586
+  - name: Hugging Face copy
+    access_url: https://huggingface.co/datasets/jjliddle/ai-authority-index-personal-lending-edition-1
+  - name: Live JSON API (OpenAPI)
+    access_url: https://thirdhemisphere.agency/api/public/v1/openapi.json
+references:
+  - title: How the data is collected and scored (CRISP methodology)
+    reference: https://thirdhemisphere.agency/crisp-methodology
