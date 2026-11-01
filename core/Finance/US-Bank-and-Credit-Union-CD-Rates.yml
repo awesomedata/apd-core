@@ -1,0 +1,31 @@
+---
+title: US Bank and Credit Union CD Rates
+homepage: https://huggingface.co/datasets/eatfreshapple/us-bank-and-credit-union-cd-rates
+category: Finance
+description: Dated October 23, 2026 snapshot of 9,855 certificate-of-deposit and share-certificate quotes from 491 U.S. institutions, with product, term, deposit tier, observed ZIP, APY, verification time and source URL. Includes 3,013 selected regulator-term observations and index statistics for a $10,000 reference deposit. This is a selected sample rather than a representative national average; membership and geographic restrictions apply.
+version: 2026-10-23
+keywords:
+  - certificates of deposit
+  - share certificates
+  - banks
+  - credit unions
+  - interest rates
+  - annual percentage yield
+temporal: October 23, 2026 export; quotes verified within the preceding seven days
+spatial: United States
+access_level: public
+accrual_periodicity: dated snapshot
+data_dictionary: https://huggingface.co/datasets/eatfreshapple/us-bank-and-credit-union-cd-rates/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: APY Ledger
+    web: https://huggingface.co/datasets/eatfreshapple/us-bank-and-credit-union-cd-rates
+issued_time: 2026-10-23
+sources:
+  - name: Quote-level CSV
+    access_url: https://huggingface.co/datasets/eatfreshapple/us-bank-and-credit-union-cd-rates/resolve/main/rates.csv
+  - name: Index samples and provenance JSON
+    access_url: https://huggingface.co/datasets/eatfreshapple/us-bank-and-credit-union-cd-rates/resolve/main/index.json
+  - name: Archived release on Zenodo
+    access_url: https://doi.org/10.5281/zenodo.23597306
