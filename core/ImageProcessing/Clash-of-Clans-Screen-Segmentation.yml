@@ -1,0 +1,22 @@
+---
+title: Clash of Clans Screen Segmentation
+homepage: https://huggingface.co/datasets/nihatxp/clash-of-clans-screen-segmentation-sample
+category: ImageProcessing
+description: Clash of Clans attack screens with every object labelled as a polygon, including buildings with level, walls, troops and the HUD. YOLO and COCO formats.
+version:
+keywords: image segmentation, instance segmentation, game screens, YOLO, COCO
+image:
+temporal:
+spatial: 2400*1080, 1121*978
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license:
+publisher:
+organization:
+issued_time: 2026.10
+sources: []
