@@ -1,0 +1,31 @@
+---
+title: Atlas ZBE - Low Emission Zones of Spain
+homepage: https://github.com/marcc992/atlaszbe-datos
+category: Transportation
+description: Open dataset of Spain's low emission zones (121 zones in 99 municipalities). Perimeters, status, restricted vehicle labels, schedules, start dates of restrictions and fines, exceptions and the official source of each record, checked against municipal ordinances. Direct downloads in GeoJSON, JSON and CSV with no account, updated daily, with a citable monthly version archived with a DOI.
+version: 1
+keywords: low emission zones,LEZ,ZBE,Spain,transport,air quality,GeoJSON,open data
+image:
+temporal: 2026-present
+spatial: Spain
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://datos.atlaszbe.es/v1/zonas.schema.json
+data_quality: true
+data_dictionary: https://datos.atlaszbe.es/v1/
+language: es
+license: ODbL-1.0
+publisher: Atlas ZBE
+organization:
+  - name: Atlas ZBE
+    web: https://github.com/marcc992/atlaszbe-datos
+issued_time: 2026-10-26
+sources:
+  - name: Zones (GeoJSON)
+    access_url: https://datos.atlaszbe.es/v1/zonas.geojson
+  - name: Zones (CSV)
+    access_url: https://datos.atlaszbe.es/v1/zonas.csv
+  - name: Archived versions (DOI)
+    access_url: https://doi.org/10.5281/zenodo.23671028
+references:
