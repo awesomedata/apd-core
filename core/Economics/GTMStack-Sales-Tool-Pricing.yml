@@ -1,0 +1,37 @@
+---
+title: GTMStack Sales and Outbound Tool Pricing
+homepage: https://github.com/AjayNallavelli/gtmstack-tracker
+category: Economics
+description: Published plan prices for 39 B2B sales and outbound software tools (AI SDR agents, cold email, contact data and enrichment, email deliverability and warmup), one row per plan (129 plans). Each row has monthly and annual-billing USD prices, plan limits, billing notes, a free-plan flag, the vendor pricing URL it was read from and the date it was last checked. Prices a vendor does not publish are left blank (contact sales) rather than estimated. Pricing pages are re-fetched daily and dated raw snapshots plus a change log are kept in the repository, so plan and price changes can be tracked over time.
+version: 2026.11
+keywords: software pricing, SaaS pricing, B2B sales tools, sales engagement, cold email, data enrichment, email deliverability, AI SDR, price history, open data
+image:
+temporal: 2026-10-19 to present
+spatial: global (prices in USD as published by vendors)
+access_level: public
+copyrights: CC BY 4.0 (compilation and metadata; vendor prices remain each vendor's published list prices)
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/AjayNallavelli/gtmstack-tracker#open-pricing-dataset-cc-by-40
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: GTMStack Tracker
+    web: https://ajaynallavelli.github.io/gtmstack-tracker/
+organization:
+  - name: GTMStack Tracker
+    web: https://ajaynallavelli.github.io/gtmstack-tracker/
+issued_time: 2026.10
+sources:
+  - name: Pricing CSV (one row per plan)
+    access_url: https://raw.githubusercontent.com/AjayNallavelli/gtmstack-tracker/main/data/pricing.csv
+  - name: Full tool records (JSON)
+    access_url: https://ajaynallavelli.github.io/gtmstack-tracker/data/tools.json
+  - name: Price and plan change log (JSON)
+    access_url: https://ajaynallavelli.github.io/gtmstack-tracker/data/changes.json
+references:
+  - title: Dataset documentation and column list
+    reference: https://github.com/AjayNallavelli/gtmstack-tracker#open-pricing-dataset-cc-by-40
+  - title: Daily raw pricing-page snapshots
+    reference: https://github.com/AjayNallavelli/gtmstack-tracker/tree/main/data/snapshots
