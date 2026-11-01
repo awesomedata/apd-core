@@ -1,0 +1,31 @@
+---
+title: x402 API Directory (prices and daily availability of pay-per-call APIs for AI agents)
+homepage: https://huggingface.co/datasets/youraitools/x402-api-directory
+category: Software
+description: 372 web APIs that accept the x402 HTTP 402 payment protocol (pay-per-call in USDC, mostly on Base and Solana), each with category, networks, tokens, listed price and how it was verified, joined to a daily unpaid check of its example endpoint - up/down status, whether it returned a valid x402 payment request, the price actually requested, 7/30-day uptime, latency and an x402 conformance grade. No payments are made and no IPs or bodies are stored. CSV and JSON with a field dictionary and JSON Schema; dated snapshots plus a refresh script.
+version: 2026-11-01
+keywords: x402, http 402, ai agents, agent payments, api availability, uptime, api pricing, stablecoins, usdc, csv, json, open data
+temporal: daily checks since 2026-10, dated snapshots
+spatial: global
+access_level: public
+accrual_periodicity: weekly snapshots (live data daily)
+specification: https://huggingface.co/datasets/youraitools/x402-api-directory
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/youraitools/x402-api-directory
+language: en
+license: CC BY 4.0
+publisher:
+  - name: YourAITools
+    web: https://youraitools.co
+organization:
+issued_time: 2026.11
+sources:
+  - name: Listings (CSV)
+    access_url: https://huggingface.co/datasets/youraitools/x402-api-directory/resolve/main/data/listings.csv
+  - name: Daily status summary (CSV)
+    access_url: https://huggingface.co/datasets/youraitools/x402-api-directory/resolve/main/data/stats_summary.csv
+  - name: Full daily stats (JSON)
+    access_url: https://huggingface.co/datasets/youraitools/x402-api-directory/resolve/main/data/stats.json
+references:
+  - title: Zenodo record (DOI)
+    reference: https://doi.org/10.5281/zenodo.23864273
