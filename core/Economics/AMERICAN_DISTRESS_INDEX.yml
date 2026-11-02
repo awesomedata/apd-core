@@ -1,0 +1,24 @@
+title: American Distress Index
+homepage: https://americandefault.org/methodology/
+category: Economics
+description: Quarterly U.S. household financial distress composite and five domain
+  scores. Public CSV and dated JSON releases document the historical normalization,
+  sources, revisions and limitations; derived analysis is CC BY 4.0, with upstream
+  source rights separate. The score is not a household prevalence estimate or a forecast.
+version: October 2026 release
+keywords: household finance, United States, debt, delinquency, unemployment, time
+  series
+temporal: 2005-Q1 to 2026-Q2 (October 2026 release)
+access_level: public
+license: CC BY 4.0 (American Default Research derived outputs only)
+publisher:
+- name: American Default Research
+  web: https://americandefault.org/
+sources:
+- name: Public quarterly CSV
+  access_url: https://americandefault.org/api/downloads/adi.csv
+- name: Dated October 2026 release JSON
+  access_url: https://americandefault.org/api/releases/adi-2026-10.json
+references:
+- title: Methodology, sources and limitations
+  reference: https://americandefault.org/methodology/
