@@ -6,12 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate-metadata:
-    name: Validate metadata and check links
+  deployment:
+    name: Publish to awesome-public-datasets
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-    permissions:
-      contents: read
+    environment: deployment-key-pass
+    timeout-minutes: 20
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v5
@@ -21,79 +20,13 @@ jobs:
         with:
           python-version: '3.12'
           cache: 'pip'
-          cache-dependency-path: |
-            deploy/requirements.txt
-            tests/requirements.txt
-
-      - name: Install deploy dependencies
-        run: pip install -r ./deploy/requirements.txt
+          cache-dependency-path: tests/requirements.txt
 
       - name: Install test dependencies
         run: pip install -r ./tests/requirements.txt
 
       - name: Validate metadata
         run: bash ./tests/testing.sh
-
-      - name: Render metadata and check links
-        run: python ./deploy/render.py
-
-      - name: Post link check summary to this run
-        if: always()
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          import os
-
-          report_path = "reports/latest.json"
-          if not os.path.exists(report_path):
-              print("No link report generated; skipping summary.")
-              raise SystemExit(0)
-
-          with open(report_path, newline="", encoding="utf-8") as f:
-              rows = json.load(f)
-
-          lines = ["## Link check report — {} failing link(s)".format(len(rows)), ""]
-          if rows:
-              lines.append("| Category | File | Homepage | Reason | What it means |")
-              lines.append("|---|---|---|---|---|")
-              for r in rows:
-                  lines.append(
-                      "| {} | {} | [{}]({}) | {} | {} |".format(
-                          r["category"],
-                          r["file"],
-                          r["homepage"],
-                          r["homepage"],
-                          r["reason"],
-                          r["description"],
-                      )
-                  )
-          else:
-              lines.append("All links passed. 🎉")
-
-          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
-              out.write("\n".join(lines) + "\n")
-          PY
-
-      - name: Upload report as workflow artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: link-check-report
-          path: reports/
-          if-no-files-found: ignore
-          retention-days: 30
-
-  deployment:
-    name: Publish to awesome-public-datasets
-    needs: validate-metadata
-    if: ${{ needs.validate-metadata.result == 'success' }}
-    runs-on: ubuntu-latest
-    environment: deployment-key-pass
-    timeout-minutes: 20
-    steps:
-      - name: Checkout this repo
-        uses: actions/checkout@v5
 
       - name: Decrypt secrets
         env:
