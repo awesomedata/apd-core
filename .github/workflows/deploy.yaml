@@ -28,6 +28,12 @@ jobs:
       - name: Validate metadata
         run: bash ./tests/testing.sh
 
+      - name: Install render dependencies
+        run: pip install -r ./deploy/requirements.txt
+
+      - name: Render metadata
+        run: python ./deploy/render.py
+
       - name: Decrypt secrets
         env:
           ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
