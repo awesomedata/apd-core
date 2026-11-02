@@ -1,0 +1,35 @@
+---
+title: Praticidade Index 2026.1
+homepage: https://github.com/ricardocarapeto/praticidade-index
+category: GIS
+description: Public walkability and everyday-convenience ("praticidade") rankings of neighbourhoods and areas in Brazilian and Portuguese cities, about 1,150 ranked rows covering 397 areas. The index scores how many daily needs can be reached on foot. Only the published rankings are included, not the underlying source data. Available as CSV and JSON with a Frictionless datapackage.json, and archived on Zenodo with a DOI. Direct download, no login required.
+version: 2026.1
+keywords: walkability, urban planning, neighbourhoods, cities, 15-minute city, accessibility, Brazil, Portugal, open data, GIS
+image:
+temporal: 2026
+spatial: Brazil and Portugal (397 areas)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/ricardocarapeto/praticidade-index/blob/main/datapackage.json
+language: pt
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Praticidade
+    web: https://praticidade.com/
+organization:
+  - name: Praticidade
+    web: https://praticidade.com/
+issued_time: 2026.07
+sources:
+  - name: Praticidade Index 2026.1 CSV
+    access_url: https://raw.githubusercontent.com/ricardocarapeto/praticidade-index/main/data/praticidade-indice-2026-07.csv
+  - name: Praticidade Index 2026.1 JSON
+    access_url: https://raw.githubusercontent.com/ricardocarapeto/praticidade-index/main/data/praticidade-indice-2026-07.json
+references:
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23850105)
+    reference: https://doi.org/10.5281/zenodo.23850105
+  - title: Methodology and edition page
+    reference: https://praticidade.com/indice/2026-07
