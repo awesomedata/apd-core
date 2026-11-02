@@ -1,5 +1,5 @@
 title: American Distress Index
-homepage: https://americandefault.org/methodology/
+homepage: https://huggingface.co/datasets/ProPhil/american-distress-index
 category: Economics
 description: Quarterly U.S. household financial distress composite and five domain
   scores. Public CSV and dated JSON releases document the historical normalization,
