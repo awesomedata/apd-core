@@ -26,6 +26,8 @@ issued_time: 2026.11
 sources:
   - name: Latest CSV snapshot
     access_url: https://raw.githubusercontent.com/izikipizi/nizlo-msp-operations-resources/main/docs/data/public-rmm-pricing-comparison-2026-11-02.csv
+  - name: Immutable v1.33.0 CSV release asset
+    access_url: https://github.com/izikipizi/nizlo-msp-operations-resources/releases/download/v1.33.0/public-rmm-pricing-comparison-2026-11-02.csv
   - name: JSON-LD and DCAT metadata
     access_url: https://raw.githubusercontent.com/izikipizi/nizlo-msp-operations-resources/main/docs/data/public-rmm-pricing-comparison-2026-11-02.jsonld
   - name: Frictionless Data Package descriptor
