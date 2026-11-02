@@ -391,15 +391,38 @@ def write_link_check_reports(categories, reports_dir):
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Render apd-core's index.rst from the core/ YAML data, "
+            "optionally validating every homepage link along the way."
+        )
+    )
+    parser.add_argument(
+        "--validate-links",
+        action="store_true",
+        help=(
+            "Check every dataset homepage URL over the network before "
+            "rendering, and write the HTML/JSON link-check report. This "
+            "is slow (can take tens of minutes across thousands of "
+            "entries), so it's OFF by default - deployments stay fast "
+            "and just rebuild index.rst from the YAML data as-is. Pass "
+            "this flag for a standalone link-check run."
+        ),
+    )
+    args = parser.parse_args()
+
     pdir = os.path.dirname(__file__)
     template_file = os.path.join(pdir, "index.mako")
     core_dir = os.path.join(pdir, "..", "core")
-    # Where reports get written. Adjust this path to wherever your
-    # publishing step (e.g. a GitHub Pages branch checkout) expects
-    # to find them - see the accompanying workflow file.
     reports_dir = os.path.join(pdir, "..", "reports")
 
-    categories = scan_core_data(core_dir, validate_link=True, reports_dir=reports_dir)
+    categories = scan_core_data(
+        core_dir,
+        validate_link=args.validate_links,
+        reports_dir=reports_dir if args.validate_links else None,
+    )
 
     with open(template_file, 'r') as f:
         rendered = Template(f.read()).render(categories=categories)
