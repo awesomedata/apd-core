@@ -1,0 +1,32 @@
+---
+title: FPV-DB - FPV Drone Component Specifications and Motor Thrust Tables
+homepage: https://github.com/fpvdb/fpv-db-data
+category: Transportation
+description: Spec sheets for 1,150 FPV drone components (motors, propellers, LiPo and Li-ion packs, BNF quads, flight controller/ESC stacks, cameras and video transmitters), one table per type in CSV and JSON. Motor entries carry the manufacturer's own bench tables (current, RPM, thrust and efficiency per KV, prop, voltage and throttle step) for about 160 motors. Every entry lists the manufacturer or retail URL its specs were checked against; an entry missing a required field is held back instead of guessed. Regenerated daily from the site's build; tagged releases are archived on Zenodo with a DOI.
+version: 2026.10.24
+keywords: drones,FPV,UAV,multirotor,brushless motors,thrust,propellers,LiPo batteries,video transmitters,component specifications
+image:
+temporal: 2026
+spatial: Global (products sold worldwide)
+access_level: public
+copyrights: FPV-DB
+accrual_periodicity: daily
+specification: https://github.com/fpvdb/fpv-db-data#files
+data_quality: true
+data_dictionary: https://github.com/fpvdb/fpv-db-data#files
+language: en
+license: CC-BY-4.0
+publisher: FPV-DB
+organization:
+  - name: FPV-DB
+    web: https://fpv-db.com/
+issued_time: 2026-09-10
+sources:
+  - name: GitHub repository (canonical, direct CSV/JSON download)
+    access_url: https://github.com/fpvdb/fpv-db-data
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/fpvdb/fpv-components
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/fpvdbcom/fpv-drone-components
+  - name: Zenodo archive (DOI, all versions)
+    access_url: https://doi.org/10.5281/zenodo.23613812
