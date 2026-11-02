@@ -1,71 +1,99 @@
 name: Deployment
+
 on:
   push:
     branches: [ "master" ]
   workflow_dispatch:
 
 jobs:
-  deployment:
+  validate-metadata:
+    name: Validate metadata and check links
     runs-on: ubuntu-latest
-    environment: deployment-key-pass
-    timeout-minutes: 60
+    timeout-minutes: 90
+    permissions:
+      contents: read
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v5  # was @v4
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: |
+            deploy/requirements.txt
+            tests/requirements.txt
+
+      - name: Install deploy dependencies
+        run: pip install -r ./deploy/requirements.txt
+
+      - name: Install test dependencies
+        run: pip install -r ./tests/requirements.txt
 
       - name: Validate metadata
         run: bash ./tests/testing.sh
 
-      - name: Render metadata
-        run: |
-          pip install -r ./deploy/requirements.txt
-          python ./deploy/render.py
+      - name: Render metadata and check links
+        run: python ./deploy/render.py
 
-      # Renders a markdown table of every failing link directly
-      # onto this run's page. $GITHUB_STEP_SUMMARY is a file GitHub
-      # Actions provides per-run; anything written to it shows up as
-      # formatted markdown right there in the browser - no site, no
-      # branch, no admin access needed. This is what you'll actually
-      # look at: open
-      #   https://github.com/awesomedata/apd-core/actions/workflows/deploy.yaml
-      # click the newest run at the top, and scroll down.
       - name: Post link check summary to this run
+        if: always()
+        shell: bash
         run: |
           python - <<'PY'
           import json
           import os
 
-          with open("reports/latest.json", newline="", encoding="utf-8") as f:
+          report_path = "reports/latest.json"
+          if not os.path.exists(report_path):
+              print("No link report generated; skipping summary.")
+              raise SystemExit(0)
+
+          with open(report_path, newline="", encoding="utf-8") as f:
               rows = json.load(f)
 
-          lines = ["## Link check report \u2014 {} failing link(s)".format(len(rows)), ""]
+          lines = ["## Link check report — {} failing link(s)".format(len(rows)), ""]
           if rows:
               lines.append("| Category | File | Homepage | Reason | What it means |")
               lines.append("|---|---|---|---|---|")
               for r in rows:
-                  lines.append("| {} | {} | [{homepage}]({homepage}) | {} | {} |".format(
-                      r["category"], r["file"], r["reason"], r["description"], homepage=r["homepage"]
-                  ))
+                  lines.append(
+                      "| {} | {} | [{}]({}) | {} | {} |".format(
+                          r["category"],
+                          r["file"],
+                          r["homepage"],
+                          r["homepage"],
+                          r["reason"],
+                          r["description"],
+                      )
+                  )
           else:
-              lines.append("All links passed. \U0001F389")
+              lines.append("All links passed. 🎉")
 
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
               out.write("\n".join(lines) + "\n")
           PY
 
-      # Makes reports/ (latest.html + archive/) downloadable as a
-      # zip from the same run page, for whenever the inline summary
-      # above isn't enough and you want the actual HTML file open in
-      # a browser tab. GitHub keeps each run's artifact for
-      # `retention-days`, so browsing a few runs back on the Actions
-      # page effectively gives you history without needing any
-      # archive/rotation logic of our own.
       - name: Upload report as workflow artifact
-        uses: actions/upload-artifact@v6   # was @v5
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: link-check-report
           path: reports/
+          if-no-files-found: ignore
           retention-days: 30
+
+  deployment:
+    name: Publish to awesome-public-datasets
+    needs: validate-metadata
+    if: ${{ needs.validate-metadata.result == 'success' }}
+    runs-on: ubuntu-latest
+    environment: deployment-key-pass
+    timeout-minutes: 20
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v5
 
       - name: Decrypt secrets
         env:
@@ -95,5 +123,5 @@ jobs:
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          ssh-add -D
+          ssh-add -D || true
           rm -Rf *
