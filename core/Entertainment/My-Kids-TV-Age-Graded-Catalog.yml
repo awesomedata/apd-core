@@ -1,0 +1,39 @@
+---
+title: "My Kids TV: Age-Graded Children's Film & Series Catalog (Ages 4-6, 7-10, 11-13)"
+homepage: https://github.com/suboss87/my-kids-tv/tree/main/data
+category: Entertainment
+description: Curated, human-verified dataset of 800 age-graded film and TV series recommendations across three developmental age bands (4-6, 7-10, and 11-13). Filtered from 3,072 TMDB candidates with explicit rubric scores for age_fit (0-1), lasting value (0-3), must_watch (0-1), fun (0-3), composite ranking score, and 324 human review overrides.
+version: 1.2.0
+keywords: children, television, movies, age-rating, parental-controls, tmdb, media-curation, recommender-systems
+image: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/docs/images/home.jpg
+temporal: 1921-2026
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/suboss87/my-kids-tv/blob/main/data/README.md
+data_quality: true
+data_dictionary: https://github.com/suboss87/my-kids-tv/blob/main/data/README.md#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Subash Natarajan
+    web: https://github.com/suboss87/my-kids-tv
+organization:
+  - name: My Kids TV
+    web: https://github.com/suboss87/my-kids-tv
+issued_time: 2026.10.25
+sources:
+  - name: All Bands CSV (800 rows)
+    access_url: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/data/kids-titles.csv
+  - name: All Bands JSON (800 rows)
+    access_url: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/data/kids-titles.json
+  - name: Ages 4-6 CSV (86 rows)
+    access_url: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/data/4-6.csv
+  - name: Ages 7-10 CSV (314 rows)
+    access_url: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/data/7-10.csv
+  - name: Ages 11-13 CSV (400 rows)
+    access_url: https://raw.githubusercontent.com/suboss87/my-kids-tv/main/data/11-13.csv
+references:
+  - title: My Kids TV Curation Pipeline & Human Overrides
+    reference: https://github.com/suboss87/my-kids-tv/tree/main/catalog
