@@ -3,14 +3,18 @@ title: HEY Research Lab - Robinhood Chain Builder Records
 homepage: https://github.com/hey-research-lab/hey-data
 category: Finance
 description: >-
-  Daily snapshots of the public builder record of Robinhood Chain (chain id
-  4663): published projects, their ships (GitHub releases, weekly code
-  activity, contract deployments, changelog entries) and change events, each
-  record with its public source and evidence id. Activity is read from
-  builders' own sources, never from price; market data is excluded from the
-  files. projects, ships and changes are published as NDJSON (gzip) and CSV
-  with a metadata.json (rules versions, record counts) and SHA256SUMS, under
-  a dated folder per UTC day and a latest/ alias (file links below); no login.
+  Snapshots of the public builder record of Robinhood Chain (chain id 4663):
+  published projects, their ships (GitHub releases, weekly code activity,
+  contract deployments, changelog entries) and change events, each record
+  with its public source and evidence id. Activity is read from builders' own
+  sources, never from price; market data is excluded from the files. The
+  GitHub repository hey-research-lab/hey-data publishes a weekly snapshot
+  release with projects.ndjson, ships.ndjson, changes.ndjson and
+  evidence.ndjson, the same files as one gzip archive
+  (hey-data-<date>.tar.gz), metadata.json (rules versions, record counts) and
+  SHA256SUMS. The same records are also published daily at
+  heyresearch.xyz/data, as gzipped NDJSON and CSV under a dated folder per UTC
+  day and a latest/ alias (file links below); no login.
 version: "2026-11-04"
 keywords: robinhood chain, blockchain, ethereum, open source, github releases, smart contracts, developer activity, ndjson, csv
 image:
