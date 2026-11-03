@@ -2,24 +2,23 @@ name: Deployment
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
   deployment:
     name: Publish to awesome-public-datasets
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     environment: deployment-key-pass
     timeout-minutes: 20
     steps:
-      - name: Checkout this repo
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
-          cache: 'pip'
+          python-version: "3.12"
+          cache: pip
           cache-dependency-path: tests/requirements.txt
 
       - name: Install test dependencies
@@ -30,6 +29,19 @@ jobs:
 
       - name: Install render dependencies
         run: pip install -r ./deploy/requirements.txt
+
+      # The nightly "Link Validation" workflow keeps the latest results on
+      # the link-status branch. Use them for the README's OK / FIXME icons.
+      # No network checks happen here, so this step is fast.
+      - name: Load latest link status
+        run: |
+          if git fetch --depth 1 origin link-status 2>/dev/null; then
+            git show FETCH_HEAD:link-status.json > deploy/link-status.json
+            echo "Using link status from the link-status branch."
+          else
+            rm -f deploy/link-status.json
+            echo "No link status yet; all links will show OK."
+          fi
 
       - name: Render metadata
         run: python ./deploy/render.py
