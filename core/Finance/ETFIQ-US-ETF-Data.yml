@@ -1,0 +1,30 @@
+---
+title: ETFIQ US ETF Data
+homepage: https://huggingface.co/datasets/etfiq/etfiq-us-etf-data
+category: Finance
+description: Dated data on about 5,000 US-listed ETFs computed from SEC filings and issuer disclosures, including fees, net assets, returns against each fund's own benchmark, holdings summaries, fund flows by fund, category and issuer, and whether each fund delivers what its category promises.
+version: 1.0
+keywords: ETF, exchange-traded funds, fund flows, holdings, expense ratios, benchmarks, SEC filings
+image:
+temporal: 2026-11-02
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://etfiq.com/data/
+language: en
+license: ETFIQ open data licence (free reuse with attribution), https://etfiq.com/license/
+publisher:
+  - name: ETFIQ
+    web: https://etfiq.com
+organization:
+  - name: ETFIQ
+    web: https://etfiq.com
+issued_time: 2026.11
+sources:
+  - name: ETFIQ open data
+    access_url: https://etfiq.com/data/
+references:
+  - title: ETFIQ methodology
+    reference: https://etfiq.com/methodology/
