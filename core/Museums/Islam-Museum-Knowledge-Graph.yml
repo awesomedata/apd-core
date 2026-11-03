@@ -1,0 +1,22 @@
+---
+title: Islam Museum Knowledge Graph
+homepage: https://github.com/amado2k5/islam-museum
+category: Museums
+description: A knowledge graph of Islamic history published by islam.museum. It contains 46,793 sourced entries (people, places, events, concepts and objects) with accompanying prose in Arabic, English and Urdu, stored as YAML and Markdown in a public Git repository and archived at Zenodo (DOI 10.5281/zenodo.23692511).
+version:
+keywords: Islamic history, knowledge graph, digital museum, open data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: ar, en, ur
+license: CC0
+publisher:
+organization:
+issued_time:
+sources: []
