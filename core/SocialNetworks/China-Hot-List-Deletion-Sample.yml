@@ -1,0 +1,31 @@
+---
+title: China Hot-List Deletion Sample
+homepage: https://huggingface.co/datasets/ownly-network/china-news-feed-sample
+category: SocialNetworks
+description: Weekly sample of topics that left the Weibo, Baidu, Zhihu, Toutiao and Bilibili hot-search lists early while still trending and did not come back, with peak rank, rank history and the evidence behind each label, plus Chinese hot-list and news headlines with English machine translations. Lists are read logged out from outside mainland China about every five minutes. A flag marks a likely removal, not a confirmed one.
+version: 1.0
+keywords: china, censorship, weibo, baidu, hot search, trending topics, social media
+image:
+temporal: 2026-10 to present
+spatial: China
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/ownly-network/china-news-feed-sample
+language: zh, en
+license: CC BY 4.0
+publisher:
+  - name: OWNLY NETWORK LLC
+    web: https://huggingface.co/ownly-network
+organization:
+  - name: OWNLY NETWORK LLC
+    web: https://github.com/Ownly-Network
+issued_time: 2026.10
+sources:
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/ownly-network/china-news-feed-sample
+references:
+  - title:
+    reference:
