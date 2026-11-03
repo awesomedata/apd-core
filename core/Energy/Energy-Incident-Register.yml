@@ -1,0 +1,35 @@
+---
+title: Energy Incident Register
+homepage: https://energyincidentregister.com/data/
+category: Energy
+description: Public record of fires, failures and other safety incidents at battery storage, solar, wind, grid, data-centre and hybrid energy sites, compiled from public reporting with sources. One row per published entry (reference, title, asset type, severity, year, month, country), as CSV and JSON, one file for everything and one per technology. Incident counts by technology, country, year, category and severity are CC BY 4.0 and archived on Zenodo (DOI 10.5281/zenodo.23299419). Mirror on Hugging Face.
+version:
+keywords: energy safety, incidents, battery energy storage, BESS fires, solar PV, wind turbines, grid, substations, data centres, open data
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0 (incident counts); entry files free to use with credit
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://energyincidentregister.com/data/
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Energy Incident Register
+    web: https://energyincidentregister.com/
+organization:
+  - name: Energy Incident Register
+    web: https://energyincidentregister.com/
+issued_time:
+sources:
+  - name: CSV and JSON downloads
+    access_url: https://energyincidentregister.com/data/
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/EnergyIncidentRegister/energy-incident-register
+  - name: Zenodo record (incident counts, CC BY 4.0)
+    access_url: https://doi.org/10.5281/zenodo.23299419
+references:
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23299419)
+    reference: https://doi.org/10.5281/zenodo.23299419
