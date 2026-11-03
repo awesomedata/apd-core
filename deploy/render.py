@@ -1,24 +1,28 @@
 #!/usr/bin/env python
 """
-Patched apd-core/deploy/render.py - adds an HTML link-check report.
+apd-core/deploy/render.py
 
-Builds on the earlier User-Agent/timeout/reason patch. After every run,
-a report of which links failed (and why) gets written out as HTML, in
-two "tiers":
+Renders core/*/*.yaml into deploy/index.rst (the README for
+awesome-public-datasets).
 
-  reports/latest.html   <- always overwritten. This is the file you
-                            bookmark - the URL never changes, so it
-                            always shows the most recent run.
+Two modes:
 
-  reports/archive/link-check-report_<timestamp>.html
-                        <- one dated snapshot per run, so you can look
-                           back at previous runs if you want to. Only
-                           the 3 most recent snapshots are kept - older
-                           ones are deleted automatically every run.
+  python deploy/render.py
+      FAST mode (used on every deploy). Makes no network requests. The
+      OK / FIXME icon on each entry comes from deploy/link-status.json,
+      the result of the most recent nightly link check. If that file is
+      missing, every entry simply shows the OK icon.
 
-None of this touches index.rst or the .mako template - the report
-is a separate side effect that runs after the existing render step.
+  python deploy/render.py --validate-links
+      SLOW mode (used by the scheduled "Link Validation" workflow).
+      Checks every homepage, updates deploy/link-status.json, and writes
+      reports/latest.json, reports/latest.html and a dated archive copy.
+
+An entry only gets the FIXME icon after it has failed FAIL_THRESHOLD
+checks in a row, so a one-night outage or a flaky host doesn't flag a
+healthy link.
 """
+import argparse
 import glob
 import json
 import logging
@@ -51,14 +55,18 @@ REQUEST_HEADERS = {
     )
 }
 
-# Seconds to wait before giving up on a slow host. The original used
-# a hardcoded `timeout=4`, which is tight for large/slow data portals.
+# Seconds to wait on a slow host. NOTE: requests applies this to the
+# connect and to each individual read, not to the whole download.
 REQUEST_TIMEOUT = 10
 
+# Where the persisted per-link failure counts live.
+STATUS_FILE_DEFAULT = os.path.join(os.path.dirname(__file__), "link-status.json")
+
+# An entry shows the FIXME icon once it has failed this many consecutive
+# nightly checks.
+FAIL_THRESHOLD = 2
+
 # ---- human-readable descriptions for link-check failure reasons ----
-# HTTP status codes get their own table since do_validate_link() produces
-# a distinct "http_<code>" reason per status - this lets each one (including
-# every 5xx code) get its own specific, separate explanation.
 HTTP_STATUS_DESCRIPTIONS = {
     400: "Bad Request - the server couldn't understand the request as sent.",
     401: "Unauthorized - the page requires login/authentication.",
@@ -72,9 +80,10 @@ HTTP_STATUS_DESCRIPTIONS = {
     504: "Gateway Timeout - an upstream/proxy server took too long to respond.",
 }
 
-# Non-HTTP-status reasons, matched by exact string or prefix.
 REASON_DESCRIPTIONS = {
     "timeout": "No response within the timeout window - slow or unresponsive host.",
+    "ssl_error": ("The site's SSL/TLS certificate couldn't be verified "
+                  "(expired, self-signed, or missing intermediate certificate)."),
     "non_http_skipped": "Not an http(s) link, so it wasn't checked.",
     "no_homepage_field": "Entry has no homepage URL to check.",
     "unknown": "Validation didn't run or produced no result.",
@@ -97,33 +106,97 @@ def describe_reason(reason):
             code, "HTTP error {} - see status code for detail.".format(code)
         )
     if reason.startswith("request_exception:"):
-        return "Network/connection problem (DNS failure, refused connection, SSL error, etc.)."
+        return "Network/connection problem (DNS failure, refused connection, etc.)."
     if reason.startswith("unexpected_exception:") or reason.startswith("internal_error:"):
         return "Unexpected error while checking this link - see full reason for detail."
     return REASON_DESCRIPTIONS.get(reason, "No description available for this reason.")
 
 
-# ---- report rotation settings ----
-# How many past runs' reports to keep in reports/archive/ before we
-# start deleting the oldest ones.
+# How many past runs' reports to keep in reports/archive/.
 KEEP_N_ARCHIVED_REPORTS = 3
 
 
-def scan_core_data(core_dir, validate_link=False, reports_dir=None):
+# =====================================================================
+# Persisted link status
+# =====================================================================
+# link-status.json maps "<category>/<file>" to
+#   {"homepage": "<url when last checked>", "fail_streak": n, "reason": "..."}
+# Only entries that are currently failing appear in it. Recording the
+# homepage means that if someone fixes the link, the old failure record
+# is ignored immediately instead of waiting for the next nightly run.
+
+def _entry_key(category, data_obj):
+    return "{}/{}".format(category, data_obj.get("_rawFileName", ""))
+
+
+def load_status_cache(path):
+    """Load the status cache; a missing or unreadable file means 'no history'."""
+    try:
+        with open(path, "r") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        logging.warning("Ignoring unreadable status file {}: {}".format(path, e))
+        return {}
+
+
+def save_status_cache(cache, path):
+    with open(path, "w") as f:
+        json.dump(cache, f, indent=1, sort_keys=True)
+        f.write("\n")
+
+
+def _cached_streak(status_cache, key, homepage):
+    """Previous consecutive-failure count, or 0 if none / homepage changed."""
+    prev = (status_cache or {}).get(key)
+    if not isinstance(prev, dict):
+        return 0
+    if prev.get("homepage") != homepage:
+        return 0
+    try:
+        return int(prev.get("fail_streak", 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def build_status_cache(categories):
+    """Build the cache to persist: only entries that failed this run."""
+    cache = {}
+    for category, items in categories.items():
+        for d in items:
+            streak = d.get("_fail_streak", 0)
+            if streak > 0:
+                cache[_entry_key(category, d)] = {
+                    "homepage": d.get("homepage", ""),
+                    "fail_streak": streak,
+                    "reason": d.get("_status_reason", ""),
+                }
+    return cache
+
+
+def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache=None):
     """
     Scan and load data entries.
 
-    `reports_dir` - if provided (and validate_link is True), an HTML
-    report of failing links is written there after validation finishes.
-    If left as None, no report is written - this keeps the function
-    backward compatible with any other caller that doesn't care about
-    reports.
+    Every entry gets a `_status` (True = show OK icon, False = FIXME).
+
+    - validate_link=False: no network. `_status` comes from `status_cache`
+      (the last nightly result); entries with no history show OK.
+    - validate_link=True: every homepage is checked. A failure bumps the
+      entry's consecutive-failure count; `_status` turns False once that
+      reaches FAIL_THRESHOLD. A success resets the count.
+
+    `reports_dir` - if given (and validate_link is True), reports are
+    written there.
     """
-    categories = OrderedDict()  # {catetory: [yaml]}
+    status_cache = status_cache or {}
+    categories = OrderedDict()  # {category: [yaml]}
     category_names = os.listdir(core_dir)
 
     # ---- Pass 1: load all YAML files from disk (fast, no network) ----
-    all_items = []  # list of (category, data_obj) tuples
+    all_items = []  # list of (category, data_obj)
     for category in sorted(category_names):
         print("Scanned category: ", category)
         if category not in categories:
@@ -139,8 +212,11 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None):
             all_items.append((category, data_obj))
 
     if not validate_link:
-        # No network work needed - just group by category, in original order.
+        # Fast path: no network. Icons come from the last nightly check.
         for category, data_obj in all_items:
+            key = _entry_key(category, data_obj)
+            streak = _cached_streak(status_cache, key, data_obj.get("homepage"))
+            data_obj["_status"] = streak < FAIL_THRESHOLD
             categories[category].append(data_obj)
         return categories
 
@@ -160,16 +236,20 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None):
                     data_obj.get("_rawFileName"), e))
                 result = {"ok": False, "reason": "internal_error: {}".format(e)}
 
-            data_obj["_status"] = result["ok"]
+            key = _entry_key(category, data_obj)
+            prev = _cached_streak(status_cache, key, data_obj.get("homepage"))
+            streak = 0 if result["ok"] else prev + 1
+
+            data_obj["_check_ok"] = result["ok"]       # this run's raw result
+            data_obj["_fail_streak"] = streak
+            data_obj["_status"] = streak < FAIL_THRESHOLD  # what the icon shows
             data_obj["_status_reason"] = result["reason"]
             categories[category].append(data_obj)
 
-    # Concurrent validation scrambles order, so restore alphabetical order
-    # to match what the .mako template expects.
+    # Concurrent validation scrambles order, so restore alphabetical order.
     for category in categories:
         categories[category].sort(key=lambda d: d.get("_rawFileName", ""))
 
-    # ---- write the report, if a destination was given ----
     if reports_dir:
         write_link_check_reports(categories, reports_dir)
 
@@ -185,27 +265,24 @@ def do_validate_link(link):
     """
     Validate the accessibility of a homepage link.
 
-    Returns a dict {"ok": bool, "reason": str} - e.g. a 404 comes
-    back as {"ok": False, "reason": "http_404"}, a timeout as
-    {"ok": False, "reason": "timeout"}, and so on - so the *reason*
-    a link failed is preserved all the way through to the report,
-    instead of every failure collapsing into a single "FIXME".
+    Returns {"ok": bool, "reason": str}, e.g. {"ok": False, "reason":
+    "http_404"}. Only the status line and headers are read; the body is
+    never downloaded (stream=True), so a huge file can't stall a check.
     """
     ok = False
     reason = "unknown"
 
     if link:
         if link.startswith("http://") or link.startswith("https://"):
+            rsp = None
             try:
                 rsp = session.get(
                     link,
                     timeout=REQUEST_TIMEOUT,
                     headers=REQUEST_HEADERS,
+                    stream=True,
                 )
-                if 400 <= rsp.status_code < 600:
-                    ok = False
-                else:
-                    ok = True
+                ok = not (400 <= rsp.status_code < 600)
                 reason = "http_{}".format(rsp.status_code)
                 time.sleep(0.2)  # Be nice to servers
             except requests.exceptions.Timeout:
@@ -220,6 +297,9 @@ def do_validate_link(link):
             except Exception as e:
                 ok = False
                 reason = "unexpected_exception: {}".format(e)
+            finally:
+                if rsp is not None:
+                    rsp.close()
         else:
             ok = True
             reason = "non_http_skipped"
@@ -233,50 +313,38 @@ def do_validate_link(link):
 
 
 # =====================================================================
-# Everything below this line is the report-writing addition.
-# Nothing above this point is required to read/understand it, but the
-# functions above are what feed it (_status and _status_reason).
+# Report writing
 # =====================================================================
 
 def _collect_failures(categories):
-    """
-    Walk the categories dict and pull out just the entries that
-    failed validation, as a flat list of dicts.
-    """
+    """Entries whose check failed in this run, as a flat list of dicts."""
     failures = []
     for category, items in categories.items():
         for d in items:
-            # `.get("_status", True)` defaults to True (i.e. "not a
-            # failure") for any entry that was never validated, e.g.
-            # in the unlikely case validate_link ran but this
-            # particular entry didn't get a result for some reason.
-            if not d.get("_status", True):
+            if not d.get("_check_ok", True):
                 reason = d.get("_status_reason", "")
                 failures.append({
                     "category": category,
                     "file": d.get("_rawFileName", ""),
                     "title": d.get("title", ""),
                     "homepage": d.get("homepage", ""),
-                    "reason": d.get("_status_reason", ""),
+                    "reason": reason,
                     "description": describe_reason(reason),
+                    "fail_streak": d.get("_fail_streak", 1),
+                    "flagged": not d.get("_status", True),
                 })
     return failures
 
 
 def _write_html_report(failures, path, generated_at):
-    """
-    Write the failures list out as a small, self-contained HTML page
-    at `path`. No external CSS/JS/templating dependency is pulled in
-    here on purpose - it's plain inline-styled HTML so the file opens
-    correctly on its own, whether that's via GitHub Pages, a raw
-    file:// open, or anywhere else.
-    """
+    """Write the failures list as a small, self-contained HTML page."""
     def esc(value):
         return (
             str(value)
             .replace("&", "&amp;")
             .replace("<", "&lt;")
             .replace(">", "&gt;")
+            .replace('"', "&quot;")
         )
 
     rows_html = "\n".join(
@@ -287,13 +355,17 @@ def _write_html_report(failures, path, generated_at):
         "<td><a href=\"{homepage}\">{homepage}</a></td>"
         "<td>{reason}</td>"
         "<td>{description}</td>"
+        "<td>{streak}</td>"
+        "<td>{flagged}</td>"
         "</tr>".format(
             category=esc(f["category"]),
             file=esc(f["file"]),
             title=esc(f["title"]),
             homepage=esc(f["homepage"]),
             reason=esc(f["reason"]),
-            description=esc(describe_reason(f["reason"])),
+            description=esc(f["description"]),
+            streak=esc(f["fail_streak"]),
+            flagged="FIXME shown" if f["flagged"] else "not yet",
         )
         for f in failures
     )
@@ -318,111 +390,82 @@ def _write_html_report(failures, path, generated_at):
   <p class="meta">Generated {generated_at} UTC &middot; {count} failing link(s)</p>
   <table>
     <thead>
-      <tr><th>Category</th><th>File</th><th>Title</th><th>Homepage</th><th>Reason</th><th>What it means</th></tr>
+      <tr><th>Category</th><th>File</th><th>Title</th><th>Homepage</th>
+          <th>Reason</th><th>What it means</th><th>Consecutive failures</th>
+          <th>README icon</th></tr>
     </thead>
     <tbody>
-      {rows}
+{rows}
     </tbody>
   </table>
 </body>
 </html>
-""".format(generated_at=generated_at, count=len(failures), rows=rows_html)
+""".format(generated_at=esc(generated_at), count=len(failures), rows=rows_html)
 
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w") as f:
         f.write(html)
 
 
-def _prune_old_archives(archive_dir, keep_n):
-    """
-    Delete all but the `keep_n` most recent report files in
-    `archive_dir`. Relies on the timestamp being sortable as a
-    string (we use ISO-ish YYYYMMDD-HHMMSS below), so a plain
-    alphabetical sort is also a chronological sort.
-    """
-    html_files = sorted(glob.glob(os.path.join(archive_dir, "link-check-report_*.html")))
-
-    # Keep the last `keep_n` (most recent, since sorted ascending),
-    # delete everything before that.
-    for old_file in html_files[:-keep_n] if len(html_files) > keep_n else []:
+def _prune_old_archives(archive_dir, keep):
+    """Delete all but the newest `keep` archived HTML reports."""
+    files = sorted(glob.glob(os.path.join(archive_dir, "link-check-report_*.html")))
+    for old in files[:-keep] if keep > 0 else files:
         try:
-            os.remove(old_file)
-            write_msg("Pruned old report: {}\n".format(old_file))
+            os.remove(old)
         except OSError as e:
-            logging.warning("Could not delete old report {}: {}".format(old_file, e))
+            logging.warning("Could not remove old report {}: {}".format(old, e))
 
 
 def write_link_check_reports(categories, reports_dir):
-    """
-    Entry point called from scan_core_data(). Writes:
-      - reports_dir/latest.html (always overwritten)
-      - reports_dir/archive/link-check-report_<timestamp>.html
-        (one new dated file per run, oldest pruned beyond KEEP_N_ARCHIVED_REPORTS)
-    """
+    """Write latest.json, latest.html and a dated archive copy."""
     archive_dir = os.path.join(reports_dir, "archive")
     os.makedirs(archive_dir, exist_ok=True)
 
+    now = datetime.now(timezone.utc)
+    generated_at = now.strftime("%Y-%m-%d %H:%M:%S")
+    stamp = now.strftime("%Y%m%d-%H%M%S")
+
     failures = _collect_failures(categories)
 
-    now = datetime.now(timezone.utc)
-    timestamp = now.strftime("%Y%m%d-%H%M%S")
-    generated_at = now.strftime("%Y-%m-%d %H:%M:%S")
+    with open(os.path.join(reports_dir, "latest.json"), "w") as f:
+        json.dump({"generated_at": generated_at, "failures": failures}, f, indent=2)
+        f.write("\n")
 
-    # --- machine-readable data for other steps (e.g. the run-summary step) ---
-    with open(os.path.join(reports_dir, "latest.json"), "w", encoding="utf-8") as f:
-        json.dump(failures, f, indent=2)
-
-    # --- the "latest" file: stable filename, always overwritten ---
-    # This is what you bookmark - the URL for this file never
-    # changes between runs.
     _write_html_report(failures, os.path.join(reports_dir, "latest.html"), generated_at)
-
-    # --- the dated archive file for this run ---
     _write_html_report(
         failures,
-        os.path.join(archive_dir, "link-check-report_{}.html".format(timestamp)),
+        os.path.join(archive_dir, "link-check-report_{}.html".format(stamp)),
         generated_at,
     )
-
-    # --- drop anything older than the 3 most recent runs ---
     _prune_old_archives(archive_dir, KEEP_N_ARCHIVED_REPORTS)
-
-    write_msg("Wrote link check report: {} failing link(s) -> {}\n".format(
-        len(failures), reports_dir))
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description=(
-            "Render apd-core's index.rst from the core/ YAML data, "
-            "optionally validating every homepage link along the way."
-        )
-    )
-    parser.add_argument(
-        "--validate-links",
-        action="store_true",
-        help=(
-            "Check every dataset homepage URL over the network before "
-            "rendering, and write the HTML/JSON link-check report. This "
-            "is slow (can take tens of minutes across thousands of "
-            "entries), so it's OFF by default - deployments stay fast "
-            "and just rebuild index.rst from the YAML data as-is. Pass "
-            "this flag for a standalone link-check run."
-        ),
-    )
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--validate-links", action="store_true",
+                        help="Check every homepage (slow), update the status file "
+                             "and write reports/. Default: off.")
+    parser.add_argument("--status-file", default=STATUS_FILE_DEFAULT,
+                        help="Path of the link status cache (default: %(default)s)")
     args = parser.parse_args()
 
-    pdir = os.path.dirname(__file__)
+    pdir = os.path.dirname(os.path.abspath(__file__))
     template_file = os.path.join(pdir, "index.mako")
     core_dir = os.path.join(pdir, "..", "core")
-    reports_dir = os.path.join(pdir, "..", "reports")
+    reports_dir = os.path.join(pdir, "..", "reports") if args.validate_links else None
+
+    status_cache = load_status_cache(args.status_file)
 
     categories = scan_core_data(
         core_dir,
         validate_link=args.validate_links,
-        reports_dir=reports_dir if args.validate_links else None,
+        reports_dir=reports_dir,
+        status_cache=status_cache,
     )
+
+    if args.validate_links:
+        save_status_cache(build_status_cache(categories), args.status_file)
 
     with open(template_file, 'r') as f:
         rendered = Template(f.read()).render(categories=categories)
