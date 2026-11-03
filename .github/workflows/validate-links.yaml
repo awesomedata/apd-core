@@ -26,7 +26,7 @@ jobs:
   validate-links:
     name: Check links and refresh status
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120   # hard ceiling; the script stops itself well before this
     steps:
       - uses: actions/checkout@v5
 
@@ -55,7 +55,7 @@ jobs:
           cp deploy/index.rst /tmp/index.before.rst
 
       - name: Validate links
-        run: python ./deploy/render.py --validate-links
+        run: python ./deploy/render.py --validate-links --max-minutes 90
 
       - name: Did any README icon change?
         id: diff
