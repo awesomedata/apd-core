@@ -1,0 +1,43 @@
+---
+title: US Trade Economy Index - Metro & State Skilled-Trades Wages, Permits, and Commercial Building Stock
+homepage: https://tradesindex.org/
+category: Economics
+description: Derived CSV and JSON datasets covering skilled-trades labor supply, cost-adjusted wages, municipal building permit velocity, and commercial building stock across 366 US metropolitan statistical areas (MSAs), 51 states and DC, and 8 trade verticals (HVAC, plumbing, electrical, roofing, commercial construction, landscaping, painting, and structural steel). Combines BLS Occupational Employment and Wage Statistics (OEWS), Census County Business Patterns (CBP), BEA Regional Price Parities (RPP), FEMA National Structure Inventory (NSI, 9.08M commercial buildings), EIA CBECS, and 241,694 municipal building and specialty trade permits. All tables download directly as CSV and JSON with no login; archived on Zenodo under CC BY 4.0.
+version: "2026.10"
+keywords: skilled trades, labor economics, construction, HVAC, plumbing, electrical, wages, building permits, commercial buildings, BLS, Census, BEA, CSV
+image:
+temporal: 2024-2026
+spatial: United States (366 MSAs and 51 states/DC)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://tradesindex.org/methodology/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Trade Economy Index
+    web: https://tradesindex.org/
+organization:
+  - name: Level Open Research
+    web: https://github.com/levelcfo/trade-economy-index-data
+issued_time: 2026.10
+sources:
+  - name: Metro index and wage parities, 366 MSAs (CSV)
+    access_url: https://raw.githubusercontent.com/levelcfo/trade-economy-index-data/main/data/geo_metros.csv
+  - name: State index and labor supply, 51 states/DC (CSV)
+    access_url: https://raw.githubusercontent.com/levelcfo/trade-economy-index-data/main/data/geo_states.csv
+  - name: National trade verticals and sub-trades (CSV)
+    access_url: https://raw.githubusercontent.com/levelcfo/trade-economy-index-data/main/data/trades.csv
+  - name: Municipal building and specialty trade permits, 241,694 records (CSV)
+    access_url: https://raw.githubusercontent.com/levelcfo/trade-economy-index-data/main/data/permits.csv
+  - name: US commercial building stock by metro and property type (CSV)
+    access_url: https://raw.githubusercontent.com/levelcfo/trade-economy-index-data/main/data/building_stock.csv
+  - name: Hugging Face dataset mirror (CSV/JSON)
+    access_url: https://huggingface.co/datasets/LevelCFO/trade-economy-index
+references:
+  - title: Build repository and methodology
+    reference: https://github.com/levelcfo/trade-economy-index-data
+  - title: Zenodo permanent DOI archive (CC BY 4.0)
+    reference: https://doi.org/10.5281/zenodo.21762674
