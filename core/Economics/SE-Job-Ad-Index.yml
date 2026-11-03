@@ -1,0 +1,33 @@
+---
+title: SE Job Ad Index (sales engineering job ads)
+homepage: https://github.com/jacobtop-tcg/se-job-ad-index
+category: Economics
+description: One row per sales engineering job ad (sales engineer, solutions engineer or consultant, presales, value engineer, forward deployed engineer, and solutions architect with sales context) from the public job boards of 250 selected B2B software companies on Greenhouse, Lever and Ashby, read on 2026-11-03. 1,502 postings with company, title, location, region, work mode, a link to the original ad, regex-based tags for terms the ad mentions (generative AI, machine learning, MEDDIC family, proof of concept, demo, discovery, Python, SQL, cloud, value selling) and posted pay ranges where present (722 postings). A JSON summary holds all aggregate counts with their denominators. No ad text or personal data. The sample is not random and is one snapshot; limits are documented in METHOD.md.
+version: '2026-11-03'
+keywords: job postings, labor market, sales engineering, presales, salary data, pay transparency, CSV, open data
+image:
+temporal: '2026-11-03'
+spatial: Global (mostly North America and Europe)
+access_level: public
+copyrights: Jacob Top Møller
+accrual_periodicity:
+specification: https://github.com/jacobtop-tcg/se-job-ad-index/blob/main/METHOD.md
+data_quality: false
+data_dictionary: https://github.com/jacobtop-tcg/se-job-ad-index/blob/main/DATA-DICTIONARY.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Jacob Top Møller
+    web: https://github.com/jacobtop-tcg
+organization:
+  - name:
+    web:
+issued_time: '2026-11-03'
+sources:
+  - name: Postings CSV (2026-11-03)
+    access_url: https://raw.githubusercontent.com/jacobtop-tcg/se-job-ad-index/main/data/2026-11-03/postings.csv
+  - name: Summary JSON (2026-11-03)
+    access_url: https://raw.githubusercontent.com/jacobtop-tcg/se-job-ad-index/main/data/2026-11-03/summary.json
+references:
+  - title: Method and limits
+    reference: https://github.com/jacobtop-tcg/se-job-ad-index/blob/main/METHOD.md
