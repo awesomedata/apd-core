@@ -42,7 +42,7 @@ session = requests.Session()
 session.mount("http://", HTTPAdapter(max_retries=1))
 session.mount("https://", HTTPAdapter(max_retries=1))
 
-MAX_WORKERS = 15
+MAX_WORKERS = 30
 
 # A normal-looking browser User-Agent. Without this, some hosts
 # (Cloudflare-fronted sites, gov portals, bot-blocking API gateways)
@@ -58,6 +58,9 @@ REQUEST_HEADERS = {
 # Seconds to wait on a slow host. NOTE: requests applies this to the
 # connect and to each individual read, not to the whole download.
 REQUEST_TIMEOUT = 10
+
+# Retries only apply to connection setup (not to HTTP errors). Combined
+# with REQUEST_TIMEOUT, one dead host can cost ~2x REQUEST_TIMEOUT.
 
 # Where the persisted per-link failure counts live.
 STATUS_FILE_DEFAULT = os.path.join(os.path.dirname(__file__), "link-status.json")
@@ -176,7 +179,8 @@ def build_status_cache(categories):
     return cache
 
 
-def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache=None):
+def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache=None,
+                   deadline=None):
     """
     Scan and load data entries.
 
@@ -187,6 +191,10 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache
     - validate_link=True: every homepage is checked. A failure bumps the
       entry's consecutive-failure count; `_status` turns False once that
       reaches FAIL_THRESHOLD. A success resets the count.
+
+    `deadline` - optional time.monotonic() value. Once it passes, links not
+    yet started are skipped and keep their previous status, so the run
+    ends on time and still saves everything it did check.
 
     `reports_dir` - if given (and validate_link is True), reports are
     written there.
@@ -223,11 +231,16 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache
     # ---- Pass 2: validate all homepage links concurrently ----
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_item = {
-            executor.submit(do_validate_link, data_obj.get("homepage")): (category, data_obj)
+            executor.submit(_check_with_deadline, data_obj.get("homepage"), deadline): (category, data_obj)
             for category, data_obj in all_items
         }
 
+        done = 0
+        skipped = 0
         for future in as_completed(future_to_item):
+            done += 1
+            if done % 250 == 0:
+                write_msg("--- progress: {}/{} links handled\n".format(done, len(all_items)))
             category, data_obj = future_to_item[future]
             try:
                 result = future.result()
@@ -238,13 +251,27 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache
 
             key = _entry_key(category, data_obj)
             prev = _cached_streak(status_cache, key, data_obj.get("homepage"))
-            streak = 0 if result["ok"] else prev + 1
 
-            data_obj["_check_ok"] = result["ok"]       # this run's raw result
+            if result["ok"] is None:
+                # Skipped (deadline hit): carry the previous status forward
+                # untouched, and don't report it as a failure.
+                skipped += 1
+                streak = prev
+                result = {"ok": True,
+                          "reason": (status_cache.get(key) or {}).get("reason", "not_checked")
+                          if prev else "not_checked"}
+                data_obj["_check_ok"] = True
+            else:
+                streak = 0 if result["ok"] else prev + 1
+                data_obj["_check_ok"] = result["ok"]       # this run's raw result
             data_obj["_fail_streak"] = streak
             data_obj["_status"] = streak < FAIL_THRESHOLD  # what the icon shows
             data_obj["_status_reason"] = result["reason"]
             categories[category].append(data_obj)
+
+    if skipped:
+        write_msg("WARNING: deadline reached; {} link(s) were not checked this run "
+                  "and keep their previous status.\n".format(skipped))
 
     # Concurrent validation scrambles order, so restore alphabetical order.
     for category in categories:
@@ -254,6 +281,13 @@ def scan_core_data(core_dir, validate_link=False, reports_dir=None, status_cache
         write_link_check_reports(categories, reports_dir)
 
     return categories
+
+
+def _check_with_deadline(link, deadline):
+    """Run one check, or skip it ({"ok": None}) if the deadline has passed."""
+    if deadline is not None and time.monotonic() > deadline:
+        return {"ok": None, "reason": "not_checked"}
+    return do_validate_link(link)
 
 
 def write_msg(msg):
@@ -448,7 +482,11 @@ if __name__ == "__main__":
                              "and write reports/. Default: off.")
     parser.add_argument("--status-file", default=STATUS_FILE_DEFAULT,
                         help="Path of the link status cache (default: %(default)s)")
+    parser.add_argument("--max-minutes", type=float, default=None,
+                        help="Stop starting new link checks after this many minutes; "
+                             "unchecked links keep their previous status.")
     args = parser.parse_args()
+    deadline = (time.monotonic() + args.max_minutes * 60) if args.max_minutes else None
 
     pdir = os.path.dirname(os.path.abspath(__file__))
     template_file = os.path.join(pdir, "index.mako")
@@ -462,6 +500,7 @@ if __name__ == "__main__":
         validate_link=args.validate_links,
         reports_dir=reports_dir,
         status_cache=status_cache,
+        deadline=deadline,
     )
 
     if args.validate_links:
