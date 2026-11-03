@@ -28,6 +28,7 @@ import json
 import logging
 import os
 import sys
+import threading
 import time
 from collections import OrderedDict
 from datetime import datetime, timezone
@@ -41,6 +42,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 session = requests.Session()
 session.mount("http://", HTTPAdapter(max_retries=1))
 session.mount("https://", HTTPAdapter(max_retries=1))
+# Redirect chains multiply the wait on a slow host; 5 hops is plenty.
+session.max_redirects = 5
 
 MAX_WORKERS = 30
 
@@ -61,6 +64,12 @@ REQUEST_TIMEOUT = 10
 
 # Retries only apply to connection setup (not to HTTP errors). Combined
 # with REQUEST_TIMEOUT, one dead host can cost ~2x REQUEST_TIMEOUT.
+
+# Hard cap, in seconds, on ONE link check from start to finish. REQUEST_TIMEOUT
+# only limits each individual connect/read, so a server that trickles bytes,
+# a slow DNS lookup or a long redirect chain could otherwise hold a worker for
+# minutes. A check that exceeds this is recorded as a "timeout" and abandoned.
+HARD_LINK_TIMEOUT = 30
 
 # Where the persisted per-link failure counts live.
 STATUS_FILE_DEFAULT = os.path.join(os.path.dirname(__file__), "link-status.json")
@@ -287,7 +296,29 @@ def _check_with_deadline(link, deadline):
     """Run one check, or skip it ({"ok": None}) if the deadline has passed."""
     if deadline is not None and time.monotonic() > deadline:
         return {"ok": None, "reason": "not_checked"}
-    return do_validate_link(link)
+    return _check_with_hard_cap(link)
+
+
+def _check_with_hard_cap(link):
+    """
+    Run do_validate_link() in a helper daemon thread and wait at most
+    HARD_LINK_TIMEOUT seconds. If the helper is still stuck after that, give
+    up on it (a daemon thread can't block the process from exiting) and
+    report a timeout, so the worker is free to take the next link.
+    """
+    box = {}
+
+    def target():
+        box["result"] = do_validate_link(link)
+
+    t = threading.Thread(target=target, daemon=True)
+    t.start()
+    t.join(HARD_LINK_TIMEOUT)
+    if t.is_alive():
+        write_msg("Validating {} ... FIXME (timeout, hard cap {}s)\n".format(
+            link, HARD_LINK_TIMEOUT))
+        return {"ok": False, "reason": "timeout"}
+    return box.get("result", {"ok": False, "reason": "unknown"})
 
 
 def write_msg(msg):
