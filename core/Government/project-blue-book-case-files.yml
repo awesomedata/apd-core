@@ -1,6 +1,6 @@
 ---
 title: Project Blue Book UFO Case Files (Geocoded)
-homepage: https://huggingface.co/datasets/encounteratlas/project-blue-book-case-files
+homepage: https://encounteratlas.com/datasets/
 category: Government
 description: All 10,622 US Air Force Project Blue Book case files from the US National Archives (series 597821, 1947-1969), with place, state or country, year and month parsed from each folder title and 9,758 matched to coordinates via GeoNames. Each row links to the file and its first scanned page in the National Archives catalog. CSV and JSON.
 version: 1.0
