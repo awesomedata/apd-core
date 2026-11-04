@@ -1,0 +1,41 @@
+---
+title: GL-MT6000 Wi-Fi CSI 10-minute capture (80 MHz, 256 subcarriers)
+homepage: https://doi.org/10.5281/zenodo.23434789
+category: ComputerNetworks
+description: >
+  A 10-minute raw IEEE 802.11ax channel-state-information capture from a
+  GL.iNet GL-MT6000 (MediaTek MT7986A + MT7976) running OpenWrt and mt76.
+  The 5 GHz HE80 capture at channel 44 contains 57,293 chain records grouped
+  into 7,609 closed measurements, with 256 complex subcarriers across
+  2 Tx x 4 Rx chains. The archive provides eight checksummed binary parts,
+  a manifest, reassembly and data-dictionary documentation, parser and
+  analysis scripts, and explicit acquisition/privacy limits. It contains
+  no labelled human-activity ground truth.
+version: "1.0"
+keywords: Wi-Fi CSI, channel state information, IEEE 802.11ax, OpenWrt, mt76, MT7986, GL-MT6000, wireless sensing, I/Q, time series
+image: https://okwujun.pw/assets/img/heatmap-final.png
+temporal: 2026-10-10, 10 minutes
+spatial: single-device 5 GHz HE80 capture (80 MHz, channel 44)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: not planned
+specification: 24-byte header + interleaved int16 I/Q; 10-byte capture-record framing
+data_quality: true
+data_dictionary: https://okwujun.pw/en/datasets/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org/
+organization:
+  - name: Router CSI Lab
+    web: https://okwujun.pw/
+issued_time: 2026-10-17
+sources:
+  - name: Zenodo record
+    access_url: https://zenodo.org/records/23434789
+references:
+  - title: Dataset documentation, data dictionary and evidence boundaries
+    reference: https://okwujun.pw/en/datasets/
+  - title: Router CSI Toolkit v0.1.3 (MIT)
+    reference: https://github.com/jjjwu/router-csi-toolkit/releases/tag/v0.1.3
