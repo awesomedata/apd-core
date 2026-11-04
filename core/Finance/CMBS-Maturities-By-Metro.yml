@@ -1,0 +1,23 @@
+---
+title: CMBS Loan Maturities and Distress by US Metro
+homepage: https://dfxintel.com/trackers/cmbs-maturities-metros/data.csv
+category: Finance
+description: Securitized commercial real estate loans (CMBS) reaching stated maturity in the next 12 months, by US metropolitan area, with the share of that balance already not current or in special servicing. One row per metro (96 metros), giving notes maturing, balance, distressed notes, distressed balance and distressed share. Built from the SEC ABS-EE loan-level tapes that CMBS trusts file monthly; fully defeased notes are excluded, and a note with no reported status is not counted as distressed. Covers CMBS only, not bank, insurer or debt fund loans.
+version: 2026-10
+keywords: CMBS, commercial real estate, loan maturities, special servicing, delinquency, refinancing, metro, SEC ABS-EE, United States
+temporal: 12 months from 28 October 2026
+spatial: United States, by metropolitan area (CBSA)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://dfxintel.com/research/cmbs-maturities-next-12-months-by-metro-2026-10
+data_quality: true
+data_dictionary: https://dfxintel.com/research/cmbs-maturities-next-12-months-by-metro-2026-10
+language: en
+license: CC BY 4.0
+publisher:
+  - name: DFX Intelligence
+    web: https://dfxintel.com
+sources:
+  - name: SEC EDGAR ABS-EE filings (CMBS loan-level data)
+    access_url: https://www.sec.gov/edgar/search/
