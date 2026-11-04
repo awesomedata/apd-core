@@ -1,0 +1,33 @@
+---
+title: FreedomCore Atlas Symbol Coverage
+homepage: https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage
+category: Finance
+description: Daily register of 6,394 exchange-qualified listings (4,875 equities on 59 exchanges in 53 countries, 1,500 crypto assets, plus indices, commodities and FX), keyed EXCHANGE:TICKER so the 330 bare tickers shared by different instruments never merge. Each row records whether the price is live for its exchange's session (checked against the venue's trading calendar), stored but awaiting a fresh capture, stale or held, plus verified-profile, research and price-history coverage with dates. CSV and JSON, no account needed.
+version: v4
+keywords: equities,cryptocurrency,stock exchanges,ticker disambiguation,entity resolution,market data quality,data freshness,listing identifiers
+image:
+temporal: daily snapshot, 2026-
+spatial: global
+access_level: public
+copyrights: FreedomCore Atlas
+accrual_periodicity: daily
+specification: https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage/blob/main/schema.json
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage/blob/main/schema.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FreedomCore Atlas
+    web: https://atlas.freedomcore.io/
+organization:
+issued_time: 2026-06
+sources:
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage
+  - name: GitHub
+    access_url: https://github.com/freedomcoreai-lang/freedomcore-datasets
+references:
+  - title: Dataset page and methodology
+    reference: https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/
