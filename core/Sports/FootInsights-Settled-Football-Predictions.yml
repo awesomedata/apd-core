@@ -1,0 +1,31 @@
+---
+title: FootInsights Settled Football Predictions
+homepage: https://github.com/FootInsights/footinsights-data
+category: Sports
+description: Over 30,000 settled football prediction rows for 3,000+ matches in 60+ leagues and cups, kickoffs from August 2026 onwards. One row per published prediction with the kickoff time in UTC, competition, home and away teams, full-time score, market, the call, the outcome, the published home/draw/away, over 2.5 and both-teams-to-score probabilities, and the publication and settlement timestamps, so each forecast can be checked against kickoff. Append-only, losses included. Single CSV with a data dictionary, monthly DOI releases on Zenodo.
+version: 2026.11
+keywords: football, soccer, predictions, probabilities, forecast evaluation, calibration, sports analytics
+image:
+temporal: 2026-
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://github.com/FootInsights/footinsights-data#readme
+data_quality: true
+data_dictionary: https://github.com/FootInsights/footinsights-data#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FootInsights
+    web: https://footinsights.com
+organization:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (CSV)
+    access_url: https://github.com/FootInsights/footinsights-data/tree/main/data
+  - name: Zenodo (versioned releases with DOI)
+    access_url: https://doi.org/10.5281/zenodo.23471483
+references:
+  - title: CITATION.cff
+    reference: https://github.com/FootInsights/footinsights-data/blob/main/CITATION.cff
