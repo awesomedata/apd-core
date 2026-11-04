@@ -1,0 +1,38 @@
+---
+title: Upwork Jobs Data
+homepage: https://github.com/droopboop/upwork-jobs-data
+category: Economics
+description: Monthly aggregates of new job posts on the Upwork freelance marketplace. The October 2026 release covers 133,568 posts from 14 September to 25 October 2026 - hourly rates and fixed budgets offered by clients for 685 skills (P25, median, P75), posting volume by weekday and hour in US Eastern and UTC time, peak hours and days for the top 100 skills, client countries, job categories, and daily post counts since June 2025. Aggregates only, no job texts or client data; cells under 20 posts are suppressed. Plain CSV, no login.
+version: 2026.10
+keywords: freelancing, gig economy, labor economics, online labor market, Upwork, hourly rates, job postings, remote work
+temporal: 2025-06-16 to 2026-10-25
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/droopboop/upwork-jobs-data#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: flconsole
+    web: https://flconsole.com
+organization:
+  - name: flconsole
+    web: https://flconsole.com
+issued_time: 2026.10
+sources:
+  - name: Rates by skill (CSV)
+    access_url: https://raw.githubusercontent.com/droopboop/upwork-jobs-data/main/data/rates-by-skill.csv
+  - name: Posting volume by weekday and hour (CSV)
+    access_url: https://raw.githubusercontent.com/droopboop/upwork-jobs-data/main/data/best-time-overall.csv
+  - name: Peak posting times by skill (CSV)
+    access_url: https://raw.githubusercontent.com/droopboop/upwork-jobs-data/main/data/best-time-by-skill.csv
+  - name: Client countries (CSV)
+    access_url: https://raw.githubusercontent.com/droopboop/upwork-jobs-data/main/data/clients-by-country.csv
+  - name: Jobs per day (CSV)
+    access_url: https://raw.githubusercontent.com/droopboop/upwork-jobs-data/main/data/jobs-per-day.csv
+references:
+  - title: Methodology and coverage notes
+    reference: https://github.com/droopboop/upwork-jobs-data#methodology

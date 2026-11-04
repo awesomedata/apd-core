@@ -1,0 +1,35 @@
+---
+title: AI Timeline Dataset
+homepage: https://github.com/techa-ai/ai-timeline-dataset
+category: MachineLearning
+description: >-
+  4,024 dated, source-linked real-world AI events from July 2025 to today,
+  one row per event, covering model releases, research, policy, funding and
+  robotics. Each row has a date, headline, category, a one-sentence summary,
+  the primary source URL and publisher. 1,061 distinct publishers cited.
+  CSV and JSON, direct download, no login, no signup, CC BY 4.0.
+version: "2026-10-27"
+keywords: artificial intelligence, AI news, AI timeline, machine learning, open data, current events, robotics
+temporal: 2025-07-01 to present
+spatial: Worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+data_dictionary: https://github.com/techa-ai/ai-timeline-dataset#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Present of AI
+    web: https://presentofai.com
+organization:
+  - name: Present of AI
+    web: https://presentofai.com
+issued_time: 2026.10
+sources:
+  - name: CSV in the repository
+    access_url: https://raw.githubusercontent.com/techa-ai/ai-timeline-dataset/main/data/ai-timeline.csv
+  - name: JSON in the repository
+    access_url: https://raw.githubusercontent.com/techa-ai/ai-timeline-dataset/main/data/ai-timeline.json
+references:
+  - title: Dataset repository and README
+    reference: https://github.com/techa-ai/ai-timeline-dataset

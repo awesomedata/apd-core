@@ -1,0 +1,16 @@
+---
+title: AgentFEM Material Loading Memory
+homepage: https://huggingface.co/datasets/HaomingLuo/AgentFEM-Material-Loading-Memory
+category: Physics
+description: >-
+  3,788 synthetic elastoplastic loading histories for path-dependent constitutive
+  modeling. Includes multiaxial paths, cyclic loading, material-parameter variation,
+  long-horizon tests, explicit training and evaluation roles, and 128 prospectively
+  sealed test trajectories. Numerical reference data, not experimental measurements.
+keywords: solid mechanics, plasticity, constitutive modeling, loading history, time series
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Haoming Luo
+    web: https://huggingface.co/HaomingLuo

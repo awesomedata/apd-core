@@ -1,0 +1,33 @@
+---
+title: US Employer Cost Dataset 2026-2027 (Hiring Cost Atlas)
+homepage: https://github.com/onyx-digital-holdings/us-employer-cost-dataset
+category: Economics
+description: Every official input behind the cost of a US employee on top of wages, for all 50 states, DC, 12 cities and the federal level. Covers Social Security, Medicare and FUTA (incl. credit-reduction states), state unemployment insurance (new-employer rates and wage bases, by industry where set), paid family and medical leave and disability shares, workers' compensation premium index, employer health premiums, paid sick leave mandates, and 2026 plus already-announced 2027 minimum wages. 827 values across 64 jurisdictions; each value carries its official source URL, publishing agency, effective date and last-verified date. CSV and JSON in long format with a Frictionless datapackage.json.
+version: 2026.10.26
+keywords: payroll taxes, employer costs, minimum wage, unemployment insurance, SUTA, FUTA, workers compensation, paid leave, labor economics, United States
+image:
+temporal: 2024-2027
+spatial: United States (50 states, DC, 12 cities)
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: weekly verification, annual rate updates
+specification:
+data_quality: true
+data_dictionary: https://github.com/onyx-digital-holdings/us-employer-cost-dataset#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: LeadChange Group
+    web: https://leadchangegroup.com/
+organization:
+  - name: LeadChange Group
+    web: https://leadchangegroup.com/
+issued_time: 2026.10
+sources:
+  - name: Zenodo (DOI 10.5281/zenodo.23587547)
+    access_url: https://doi.org/10.5281/zenodo.23587547
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/leadchangegroup/us-employer-cost-2026-2027-hiring-cost-atlas
+references:
+  - title: Hiring Cost Atlas (interactive version and methodology)
+    reference: https://leadchangegroup.com/research/hiring-cost-atlas/
