@@ -1,0 +1,31 @@
+---
+title: StackRates VPS and Cloud Server List Prices
+homepage: https://github.com/firststategrowth/vps-prices
+category: Economics
+description: Daily list prices for VPS and cloud server plans, each read from the provider's own pricing page or price API, with the read date and source link on every row. 350 plans from 58 providers on 4 Nov 2026, growing as providers are added. Separate columns for a public IPv4 address billed on top, prices stated before VAT, and prepaid commitment terms; euro prices keep the original figure and are converted at the ECB reference rate. Plans shown as sold out are left out. Includes a dated log of list-price changes and a year-on-year file comparing each plan with the provider's pricing page as archived by the Wayback Machine around October 2025, with the archive link per row. CSV and JSON.
+version: 2026.11
+keywords: VPS, cloud computing, hosting prices, price index, IPv4, list prices, time series, web hosting
+image:
+temporal: 2025-2026
+spatial: global
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/firststategrowth/vps-prices#readme
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: StackRates (First State Growth LLC)
+    web: https://stackrates.ai/data/
+organization:
+  - name: First State Growth LLC
+    web:
+issued_time: 2026.10
+sources:
+  - name: Providers' own pricing pages and price APIs (source_url per row)
+    access_url: https://github.com/firststategrowth/vps-prices
+references:
+  - title:
+    reference:
