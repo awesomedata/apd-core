@@ -23,4 +23,4 @@ sources:
   - name: Per-state CSV files
     access_url: https://github.com/pushbuild/us-2026-election-results/tree/main/data
   - name: Live results API
-    access_url: https://api.pushbuild.com/election-night-results
+    access_url: https://pushbuild.com/apis/election-night-results.html
