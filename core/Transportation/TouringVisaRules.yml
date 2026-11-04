@@ -1,0 +1,31 @@
+---
+title: Touring Visa Rules
+homepage: https://github.com/tourproapp/touring-visa-rules
+category: Transportation
+description: Structured visa and work-permit rules for touring artists and crew across 58 destinations. Each entry separates entry requirements from work authorization, distinguishes artist versus crew guidance, includes passport-specific overrides, and links the official government or immigration source. Maintained quarterly.
+version: 0.1.0
+keywords: visa, work permit, immigration, touring, musicians, artists, travel regulation
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher:
+  - name: TourPro
+    web: https://tourpro.app
+organization:
+  - name: TourPro
+    web: https://tourpro.app
+issued_time: 2026.11
+sources:
+  - name: TourPro Visa Checker
+    access_url: https://www.tourpro.app/tools/visa-checker
+references:
+  - title:
+    reference:
