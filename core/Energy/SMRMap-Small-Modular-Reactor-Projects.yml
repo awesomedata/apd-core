@@ -1,0 +1,26 @@
+---
+title: Small Modular Reactor Projects (SMRMap)
+homepage: https://smrmap.com/downloads.html
+category: Energy
+description: >-
+  Source-linked small modular reactor project, design, organization and
+  programme records in CSV and JSON, with recorded regulatory actions,
+  schedule revisions and dated events. Published records preserve evidence
+  and date precision; announced projects are distinct from operating reactors.
+  Coverage is not a worldwide census, and an absent permission record does
+  not establish that no permission exists.
+access_level: public
+language: en
+license: CC BY 4.0; quoted source excerpts retain their owners' rights
+data_dictionary: https://smrmap.com/data/field-guide.txt
+publisher:
+  - name: SMRMap
+    web: https://smrmap.com/downloads.html
+sources:
+  - name: Reporting projects (CSV)
+    access_url: https://smrmap.com/data/reporting-projects.csv
+  - name: Structured dataset (JSON)
+    access_url: https://smrmap.com/data/smrmap-dataset.json
+references:
+  - title: License, attribution and coverage statement
+    reference: https://smrmap.com/data/LICENSE.txt

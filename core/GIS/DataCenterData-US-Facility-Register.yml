@@ -1,0 +1,30 @@
+---
+title: U.S. Data Center Facility Register (DataCenterData)
+homepage: https://datacenterdata.com/data/
+category: GIS
+description: >-
+  U.S. data center facility-register records downloadable as CSV, JSON and
+  GeoJSON, with a field dictionary, evidence labels, source links and per-field
+  reuse terms. Records include campuses, buildings, suites and unresolved
+  presences, not a census of unique sites. Reference-only values are withheld
+  from these exports and identified per row; missing coordinates remain absent.
+  The site's separate reviewed project and claim records are not included in
+  this open-data submission.
+access_level: public
+language: en
+spatial: United States
+license: >-
+  Per-field terms: CC BY 4.0 for identified DataCenterData and Compute Atlas
+  fields; separate terms for identified U.S. government-work fields. See data
+  page and dictionary for attribution and scope.
+data_dictionary: https://datacenterdata.com/data/datacenters-dictionary.json
+publisher:
+  - name: DataCenterData
+    web: https://datacenterdata.com/data/
+sources:
+  - name: Facility register (CSV)
+    access_url: https://datacenterdata.com/data/datacenters.csv
+  - name: Facility register (JSON)
+    access_url: https://datacenterdata.com/data/datacenters.json
+  - name: Facility register (GeoJSON)
+    access_url: https://datacenterdata.com/data/datacenters.geojson
