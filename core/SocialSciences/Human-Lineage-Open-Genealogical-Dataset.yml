@@ -1,0 +1,22 @@
+---
+title: Human Lineage Open Genealogical Dataset
+homepage: https://doi.org/10.5281/zenodo.23284943
+category: SocialSciences
+description: Open dump of a genealogical graph of deceased historical people with persistent external identifiers — 2.7 million persons, 480k parent-child and 135k couple relationships, names, dated and placed life facts (birth, death, burial, occupation) and identifiers (Wikidata, VIAF, GND, ISNI, LCCN, BnF). GEDCOM-X JSON Lines, versioned snapshots with DOI.
+version: 2026-10-10
+keywords: genealogy, kinship, prosopography, family tree, historical demography, GEDCOM-X, Wikidata
+image:
+temporal:
+spatial: Global
+access_level: Public
+copyrights:
+accrual_periodicity: Irregular
+specification: GEDCOM-X
+data_quality: false
+data_dictionary: https://zenodo.org/records/23284944/files/SCHEMA.md
+language: Multilingual
+license: CC BY-SA 4.0
+publisher: Human Lineage
+organization: Human Lineage
+issued_time: 2026-10-10
+sources: []
