@@ -17,10 +17,10 @@ data_dictionary: https://huggingface.co/datasets/ownly-network/china-news-feed-s
 language: zh, en
 license: CC BY 4.0
 publisher:
-  - name: OWNLY NETWORK LLC
+  - name: China News Feed
     web: https://huggingface.co/ownly-network
 organization:
-  - name: OWNLY NETWORK LLC
+  - name: China News Feed
     web: https://github.com/Ownly-Network
 issued_time: 2026.10
 sources:
