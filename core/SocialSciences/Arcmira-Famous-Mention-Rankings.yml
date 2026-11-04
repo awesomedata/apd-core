@@ -1,0 +1,17 @@
+---
+title: Arcmira Famous - Podcast and YouTube Mention Rankings
+homepage: https://huggingface.co/datasets/arcmira/podcast-youtube-mention-rankings
+category: SocialSciences
+description: Counts videos that mention each entity, by month. The September and October 2026 editions contain 420 ranked rows for people, companies, products, topics, AI companies, and AI tools across the podcasts and YouTube channels indexed by Arcmira. Each row includes the prior month's video count, the number of shows, and a link to its frozen edition.
+keywords: podcasts, YouTube, media research, mention rankings
+access_level: public
+license: CC-BY-4.0
+publisher: Arcmira
+sources:
+  - name: Rankings CSV
+    access_url: https://huggingface.co/datasets/arcmira/podcast-youtube-mention-rankings/resolve/main/rankings.csv
+references:
+  - title: Counting method
+    reference: https://arcmira.com/famous/method
+  - title: Reuse and attribution
+    reference: https://arcmira.com/famous/license
