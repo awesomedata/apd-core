@@ -1,0 +1,33 @@
+---
+title: US Fintech Lockout Index
+homepage: https://github.com/bizstartzco/us-fintech-lockout-index
+category: Finance
+description: Which countries are shut out of four US business-banking and payment providers (Mercury, Relay, Wise, Stripe) according to each provider's own published rules. 197 countries and territories scored 0 to 4, one point per provider whose published country rules exclude residents (Stripe scores half a point for preview or extended-network status). Each column links to the provider page it was read from; limitations (published rules only, approval never guaranteed) are documented. CSV and JSON, no signup.
+version: 1.0
+keywords: fintech, banking access, non-resident founders, US LLC, cross-border payments, country restrictions, financial inclusion.
+image:
+temporal: 2026
+spatial: World (197 countries and territories)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/bizstartzco/us-fintech-lockout-index/blob/main/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Bizstartz
+    web: https://github.com/bizstartzco
+organization:
+  - name: Bizstartz
+    web: https://bizstartz.com
+issued_time: 2026.10
+sources:
+  - name: CSV download
+    access_url: https://raw.githubusercontent.com/bizstartzco/us-fintech-lockout-index/main/data/us-fintech-lockout-index.csv
+  - name: JSON download
+    access_url: https://raw.githubusercontent.com/bizstartzco/us-fintech-lockout-index/main/data/us-fintech-lockout-index.json
+references:
+  - title: Method, sources and limitations
+    reference: https://github.com/bizstartzco/us-fintech-lockout-index#readme
