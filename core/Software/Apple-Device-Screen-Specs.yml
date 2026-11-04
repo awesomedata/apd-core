@@ -1,0 +1,35 @@
+---
+title: Apple Device Screen Specs
+homepage: https://github.com/aryansbtloe/apple-device-screen-specs
+category: Software
+description: "Screen specs for 175 Apple devices released 2007-2026: 55 iPhone, 46 iPad, 36 Apple Watch and 7 iPod touch models, plus partial records for 29 Mac and 2 Apple Vision Pro models. Fields include diagonal size, pixel and point resolution, scale, PPI, aspect ratio and display type, taken from Apple Tech Specs pages and the Human Interface Guidelines, with source URLs on every record. Safe-area insets (56 devices in portrait, 33 in landscape) and unofficial display corner radii (103 devices) were measured in the Xcode 27.1 Simulator, because Apple does not publish them. Values Apple does not publish are left null and listed in a gaps report. JSON, minified JSON and CSV, with a JSON Schema. Data CC BY 4.0, code MIT."
+version: 0.1.0
+keywords: apple, iphone, ipad, apple watch, screen size, display, resolution, points, pixels, ppi, safe area, corner radius, json, csv
+image:
+temporal: 2007-2026
+spatial:
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/aryansbtloe/apple-device-screen-specs/blob/main/schema/device.schema.json
+data_quality: true
+data_dictionary: https://github.com/aryansbtloe/apple-device-screen-specs#field-reference
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Alok Singh
+    web: https://github.com/aryansbtloe
+organization:
+issued_time: 2026.10
+sources:
+  - name: All devices (JSON)
+    access_url: https://raw.githubusercontent.com/aryansbtloe/apple-device-screen-specs/main/data/devices.json
+  - name: All devices (CSV)
+    access_url: https://raw.githubusercontent.com/aryansbtloe/apple-device-screen-specs/main/data/devices.csv
+  - name: Release v0.1.0
+    access_url: https://github.com/aryansbtloe/apple-device-screen-specs/releases/tag/v0.1.0
+references:
+  - title: Known gaps
+    reference: https://github.com/aryansbtloe/apple-device-screen-specs/blob/main/reports/gaps.md
+  - title: Source conflicts
+    reference: https://github.com/aryansbtloe/apple-device-screen-specs/blob/main/reports/conflicts.md
