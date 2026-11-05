@@ -1,0 +1,32 @@
+---
+title: Massachusetts Frost Dates and Hardiness Zones
+homepage: https://github.com/sackio/massachusetts-frost-dates-zones
+category: Climate+Weather
+description: Last spring and first fall frost dates (32 °F, median and 1-in-10) for 50 Massachusetts NOAA stations from the 1991-2020 U.S. Climate Normals, and the 2023 USDA plant hardiness zone for 508 Massachusetts towns and villages. Two CSV files.
+version: 2026.11
+keywords: frost dates, hardiness zones, USDA, NOAA, climate normals, Massachusetts, gardening, agriculture, open data
+temporal: 1991-2020
+spatial: Massachusetts, United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/sackio/massachusetts-frost-dates-zones#readme
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Katama Creek
+    web: https://katamacreek.com/
+organization:
+  - name: Katama Creek
+    web: https://katamacreek.com/
+issued_time: 2026.11
+sources:
+  - name: Frost dates CSV
+    access_url: https://github.com/sackio/massachusetts-frost-dates-zones/blob/main/massachusetts-frost-dates.csv
+  - name: Hardiness zones CSV
+    access_url: https://github.com/sackio/massachusetts-frost-dates-zones/blob/main/massachusetts-hardiness-zones.csv
+references:
+  - title: Town lookup (frost dates and zone)
+    reference: https://katamacreek.com/tools/massachusetts-town-frost-zone/
