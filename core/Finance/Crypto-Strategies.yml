@@ -1,0 +1,9 @@
+---
+title: Crypto-Strategies
+homepage: https://github.com/CacheCarti/Crypto-Strategies
+category: Finance
+description: A corpus of 748 open-source Python trading strategies for crypto markets. Each strategy ships with a JSON report card recording out-of-sample return, drawdown, Sharpe ratio and the validation gate it failed, so the collection can be used to study how algorithmic strategies behave out of sample rather than only in sample.
+keywords: cryptocurrency, trading strategies, backtesting, algorithmic trading, out-of-sample validation.
+license: MIT
+access_level: public
+language: en
