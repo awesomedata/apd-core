@@ -1,0 +1,32 @@
+---
+title: Your Move Free Exercise Demonstration Videos
+homepage: https://ymove.app/free-exercise-videos
+category: Sports
+description: 25 HD exercise demonstration videos (720p MP4, portrait) covering common strength exercises such as the barbell back squat, goblet squat, dumbbell row, lat pulldown and cable and machine work. Eleven clips are filmed against a white studio background and fourteen on real gym machines, each labelled with exercise name and primary muscle group. Free for commercial use, resale of the clips as a standalone library is not allowed. Useful for fitness apps, exercise recognition and pose estimation prototypes.
+version:
+keywords: exercise, fitness, strength training, gym, video, exercise demonstration, pose estimation
+image:
+temporal: 2026
+spatial: worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Free for commercial use, no resale (https://ymove.app/free-exercise-videos#licence)
+publisher:
+  - name: Your Move
+    web: https://ymove.app/
+organization:
+  - name: Your Move B.V.
+    web: https://ymove.app/
+issued_time: 2026-11-05
+sources:
+  - name: Free exercise video downloads
+    access_url: https://ymove.app/free-exercise-videos
+references:
+  - title:
+    reference:
+---
