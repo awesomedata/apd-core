@@ -1,0 +1,34 @@
+---
+title: RMM Pricing and Price-Visibility Comparison
+homepage: https://github.com/izikipizi/nizlo-msp-operations-resources/blob/main/docs/data/public-rmm-pricing-comparison-2026-11-02.csv
+category: Economics
+description: Source-dated comparison of 14 remote monitoring and management (RMM) pricing disclosures for a one-technician managed service provider at 10, 50, 100, and 500 endpoints. Rows distinguish numeric-public, free-tier-only, range-plus-quote, source-available, and quote-only visibility; unsupported cells are left blank rather than estimated, and each row retains its vendor source URL and fact-checked date. The maintainer, Nizlo, is one of the compared products.
+version: 2026-11-02
+keywords: RMM pricing, managed service providers, MSP software, SaaS pricing, pricing transparency, endpoint management, open data
+temporal: 2026-10-30 to 2026-11-02
+spatial: United States public pricing; USD
+access_level: public
+copyrights: CC BY 4.0 for the compilation, schema, and verification metadata; underlying vendor disclosures remain subject to their source terms
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/izikipizi/nizlo-msp-operations-resources/blob/main/docs/data/public-rmm-pricing-comparison-2026-11-02.jsonld
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Nizlo
+    web: https://github.com/izikipizi/nizlo-msp-operations-resources
+organization:
+  - name: Nizlo
+    web: https://github.com/izikipizi/nizlo-msp-operations-resources
+issued_time: 2026.11
+sources:
+  - name: CSV snapshot
+    access_url: https://raw.githubusercontent.com/izikipizi/nizlo-msp-operations-resources/main/docs/data/public-rmm-pricing-comparison-2026-11-02.csv
+  - name: Schema.org and DCAT JSON-LD metadata
+    access_url: https://raw.githubusercontent.com/izikipizi/nizlo-msp-operations-resources/main/docs/data/public-rmm-pricing-comparison-2026-11-02.jsonld
+references:
+  - title: Dataset methodology and limitations
+    reference: https://github.com/izikipizi/nizlo-msp-operations-resources/blob/main/docs/public-rmm-pricing-dataset.html
+  - title: Frictionless Data Package descriptor
+    reference: https://github.com/izikipizi/nizlo-msp-operations-resources/blob/main/docs/datapackage.json
