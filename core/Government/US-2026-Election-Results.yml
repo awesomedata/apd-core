@@ -1,0 +1,26 @@
+---
+title: US 2026 General Election Results by State and County
+homepage: https://github.com/pushbuild/us-2026-election-results
+category: Government
+description: Unofficial results of the November 3, 2026 US general election as each state's election office published them, one CSV per state for 40 states, statewide totals and county rows for every contest in the state's results feed (U.S. Senate, U.S. House, governor, legislature, ballot measures). Each row cites its official source URL and timestamp. Refreshed after certification. Also available live through an API.
+version: 2026-11-04
+keywords: elections, 2026 midterm elections, election results, county election results, US Senate, US House, governor, ballot measures
+temporal: 2026
+spatial: United States
+access_level: public
+data_quality: true
+data_dictionary: https://github.com/pushbuild/us-2026-election-results#readme
+language: en
+license: CC0 1.0
+publisher:
+  - name: Pushbuild
+    web: https://pushbuild.com/
+organization:
+  - name: Pushbuild
+    web: https://pushbuild.com/
+issued_time: 2026-11-04
+sources:
+  - name: Per-state CSV files
+    access_url: https://github.com/pushbuild/us-2026-election-results/tree/main/data
+  - name: Live results API
+    access_url: https://pushbuild.com/apis/election-night-results.html
