@@ -1,0 +1,34 @@
+---
+title: Licensed Health Tourism Facilities in Turkey
+homepage: https://github.com/turkclinicsguide/licensed-health-tourism-facilities-turkey
+category: Healthcare
+description: 680 hospitals and medical centres across 55 provinces on the Turkish Ministry of Health's published lists of facilities authorised to treat international patients. The Ministry publishes the lists only as PDF; this dataset converts them to CSV and JSON with name, type, province, district and address. Private practices are not included.
+version: 1.0
+keywords: healthcare, health tourism, medical tourism, Turkey, hospitals, licensed facilities
+image:
+temporal: 2026
+spatial: Turkey
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/turkclinicsguide/licensed-health-tourism-facilities-turkey/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TurkClinics Guide
+    web: https://github.com/turkclinicsguide
+organization:
+  - name: Turkish Ministry of Health (source lists)
+    web: https://shgmturizmdb.saglik.gov.tr/
+issued_time: 2026.11
+sources:
+  - name: Facilities (CSV)
+    access_url: https://raw.githubusercontent.com/turkclinicsguide/licensed-health-tourism-facilities-turkey/main/data/licensed-health-tourism-facilities-turkey.csv
+  - name: Facilities (JSON)
+    access_url: https://raw.githubusercontent.com/turkclinicsguide/licensed-health-tourism-facilities-turkey/main/data/licensed-health-tourism-facilities-turkey.json
+references:
+  - title: Zenodo record
+    reference: https://doi.org/10.5281/zenodo.23896420
+---
