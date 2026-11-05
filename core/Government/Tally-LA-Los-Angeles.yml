@@ -1,0 +1,39 @@
+---
+title: Tally LA - Los Angeles Taxes, Budgets, Programs and Votes
+homepage: https://huggingface.co/datasets/tallyla/tally-la-los-angeles-taxes-budgets-votes
+category: Government
+description: >
+  Free CSVs of City of Los Angeles and LA County tax rates, monthly tax
+  receipts (Metro's four sales taxes, Measure ULA, Measure A), City and County
+  budgets, County spending by department, public programs and grants with their
+  stated goals and reported results, State of California payments to LA
+  agencies, approved contracts, and one row per member for every recorded City
+  Council and Board of Supervisors roll call. Every figure comes from an
+  official record, and each file says where its figures come from. Refreshed
+  monthly from https://tallyla.com/downloads/, where many files update nightly.
+version:
+keywords: Los Angeles, local government, taxes, budgets, public spending, city council votes, open government
+image:
+temporal: 2018-present
+spatial: City of Los Angeles and Los Angeles County, California, United States
+access_level: public
+copyrights: Tally LA (Blac Flag LLC)
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://tallyla.com/downloads/
+language: en
+license: Other (free reuse with credit; https://tallyla.com/policies/terms/)
+publisher:
+  - name: Tally LA
+    web: https://tallyla.com/
+organization:
+  - name: Blac Flag LLC
+    web: https://tallyla.com/about/
+issued_time: 2026.11
+sources:
+  - name: Tally LA downloads
+    access_url: https://tallyla.com/downloads/
+references:
+  - title:
+    reference:
