@@ -2,7 +2,7 @@
 title: CultureTechLens Black Cultural Knowledge Graph
 homepage: https://doi.org/10.5281/zenodo.23403147
 category: Museums
-description: An open, evidence-graded knowledge graph of Black cultural history, Chicago first: people, works, places, institutions, events, and practices, every entity carrying an evidence grade and named sources. Current release v2.1 (2026) ships 3,488 verified entities and 2,595 relationships as CSV downloads; versioned releases are archived on Zenodo under a citable DOI, and the data also lives in the publisher's GitHub repository. Published by CultureTechLens NFP, a Chicago 501(c)(3) nonprofit.
+description: "An open, evidence-graded knowledge graph of Black cultural history, Chicago first: people, works, places, institutions, events, and practices, every entity carrying an evidence grade and named sources. Current release v2.1 (2026) ships 3,488 verified entities and 2,595 relationships as CSV downloads; versioned releases are archived on Zenodo under a citable DOI, and the data also lives in the publisher's GitHub repository. Published by CultureTechLens NFP, a Chicago 501(c)(3) nonprofit."
 version: 2.1
 keywords: knowledge graph, Black history, African American history, cultural heritage, Chicago, digital humanities, open data
 image:
