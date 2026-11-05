@@ -1,0 +1,44 @@
+---
+title: CryptoKeyhole On-Chain Daily Metrics for Bitcoin and Ethereum
+homepage: https://huggingface.co/datasets/cryptokeyhole/onchain-daily-metrics
+category: Finance
+description: >-
+  Daily on-chain series for Bitcoin and Ethereum, counted per UTC day from
+  self-hosted full nodes: Bitcoin Core from the 2009 genesis block, and Erigon with
+  Lighthouse from the 2015 genesis block. Bitcoin series cover blocks mined, an
+  observed hash rate estimate, difficulty, total and median fees, active addresses,
+  transaction count, UTXO count and mean block size and weight. Ethereum series cover
+  circulating supply, active addresses, transaction count, gas used, total value
+  staked and blobs posted. A second file holds the daily history of a crypto Fear and
+  Greed index for the market and Bitcoin from 2011 and for Ethereum from 2016. Both
+  files are long-format CSV with one row per series or index per UTC day, exact
+  values and a flag for days still open at snapshot time, and download directly with
+  no login or key. This is a fixed snapshot taken on 30 October 2026.
+version: 2026-10-30
+keywords: bitcoin, ethereum, blockchain, on-chain, cryptocurrency, time series, full node, hash rate, transaction fees, staking, fear and greed index, csv, cc-by-4.0
+image:
+temporal: 2009-01-03 / 2026-10-30
+spatial: global
+access_level: public
+copyrights: CC BY 4.0, credit "CryptoKeyhole" with a link to https://cryptokeyhole.com
+accrual_periodicity: irregular
+specification: https://huggingface.co/datasets/cryptokeyhole/onchain-daily-metrics
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/cryptokeyhole/onchain-daily-metrics
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: CryptoKeyhole
+    web: https://cryptokeyhole.com
+organization:
+  - name: CryptoKeyhole
+    web: https://cryptokeyhole.com
+issued_time: 2026.10
+sources:
+  - name: Hugging Face dataset (CSV files)
+    access_url: https://huggingface.co/datasets/cryptokeyhole/onchain-daily-metrics/tree/main
+  - name: Keyless JSON API (the same series, updated hourly)
+    access_url: https://cryptokeyhole.com/data-access/
+references:
+  - title: Methodology
+    reference: https://cryptokeyhole.com/methodology/
