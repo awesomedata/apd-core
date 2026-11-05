@@ -1,0 +1,30 @@
+---
+title: Daily Prayer Times for 307 Cities 2027
+homepage: https://huggingface.co/datasets/eatfreshapple/daily-prayer-times-2027
+category: SocialSciences
+description: Calculated Islamic prayer times (Fajr, sunrise, Dhuhr, Shafi and Hanafi Asr, Maghrib, Isha) for every date of 2027 in 307 cities across Pakistan, the United States, the United Kingdom, Canada, Australia, India and Bangladesh, with local and UTC timestamps and daily intervals. 112,055 city-days, plus 30,660 rows comparing six calculation methods for 14 cities. Computed with Adhan JS 4.4.6 using each country's default method; estimates, not mosque or government timetables.
+version: 1.0.0
+keywords:
+  - prayer times
+  - Islamic calendar
+  - astronomy
+  - time zones
+  - religion
+temporal: January 1 to December 31, 2027
+spatial: Pakistan, United States, United Kingdom, Canada, Australia, India and Bangladesh (307 cities)
+access_level: public
+accrual_periodicity: annual release
+data_dictionary: https://huggingface.co/datasets/eatfreshapple/daily-prayer-times-2027/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SalahTable
+    web: https://salahtable.com/open-data
+issued_time: 2026-11-02
+sources:
+  - name: Daily prayer times CSV
+    access_url: https://huggingface.co/datasets/eatfreshapple/daily-prayer-times-2027/resolve/main/prayer-times-2027.csv
+  - name: Method comparison CSV
+    access_url: https://huggingface.co/datasets/eatfreshapple/daily-prayer-times-2027/resolve/main/method-comparison-2027.csv
+  - name: Archived release on Zenodo
+    access_url: https://doi.org/10.5281/zenodo.23874864
