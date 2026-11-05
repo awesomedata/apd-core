@@ -1,0 +1,31 @@
+---
+title: H-1B Filed Wages - LCA wage percentiles by occupation, metro, employer and state
+homepage: https://github.com/aidanmcjones/h1b-filed-wages-dataset
+category: Economics
+description: Wage percentiles (p10 to p90) from U.S. Department of Labor Labor Condition Application disclosure data, FY2026 Q3, as three CSV files. Occupation x metro area (5,446 rows), employer (10,258 rows) and state (51 rows), each with certified filing counts, prevailing wage level shares and the BLS OEWS median for comparison. Wages are the bottom of each filing's offered range; the README documents the method.
+version: FY2026 Q3
+keywords: H-1B, LCA, labor condition application, wages, salaries, prevailing wage, occupations, metro areas, employers, DOL, OFLC, CSV
+image:
+temporal: FY2026 Q3
+spatial: United States, by metro area and state
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/aidanmcjones/h1b-filed-wages-dataset#readme
+language: en
+license: CC0-1.0
+publisher:
+  name: Aidan Jones
+  web: https://github.com/aidanmcjones
+organization:
+issued_time: 2026.11
+sources:
+  - name: DOL OFLC LCA Disclosure Data FY2026 Q3
+    access_url: https://www.dol.gov/agencies/eta/foreign-labor/performance
+  - name: BLS Occupational Employment and Wage Statistics, May 2025
+    access_url: https://www.bls.gov/oes/tables.htm
+references:
+  - title: Browsable pages built from the dataset
+    reference: https://filedwages.com

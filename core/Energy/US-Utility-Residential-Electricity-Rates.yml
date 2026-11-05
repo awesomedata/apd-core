@@ -1,0 +1,31 @@
+---
+title: US Utility Residential Electricity Rates - EIA-861 prices, usage and bills by utility
+homepage: https://github.com/aidanmcjones/us-utility-electricity-rates
+category: Energy
+description: Average residential electricity price (cents per kWh), monthly use and bill for 514 U.S. electric utilities from EIA Form EIA-861 (2025 data year), with each utility's 2020 price for five-year change, plus a state price series for 2020 to 2025 (306 rows). Two CSV files; the README documents the method.
+version: 2025 data year
+keywords: electricity, electricity prices, residential rates, utilities, EIA-861, cents per kWh, energy, CSV
+image:
+temporal: 2020-2025
+spatial: United States, by utility and state
+access_level: public
+copyrights:
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://github.com/aidanmcjones/us-utility-electricity-rates#readme
+language: en
+license: CC0-1.0
+publisher:
+  name: Aidan Jones
+  web: https://github.com/aidanmcjones
+organization:
+issued_time: 2026.11
+sources:
+  - name: EIA Form EIA-861 annual electric power industry report
+    access_url: https://www.eia.gov/electricity/data/eia861/
+  - name: EIA Open Data API, retail sales of electricity
+    access_url: https://www.eia.gov/opendata/
+references:
+  - title: Browsable pages built from the dataset
+    reference: https://rateandroof.com
