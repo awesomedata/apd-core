@@ -1,0 +1,33 @@
+---
+title: Polisa - Insurance market data for 18 Central and Eastern European markets
+homepage: https://polisapro.com
+category: Finance
+description: Premium by line of business, market shares, solvency ratios, combined ratios, net profit and return on equity for 349 insurers and 45 insurance groups in 18 Central and Eastern European insurance markets (Poland, Czechia, Slovakia, Hungary, Romania, Bulgaria, Croatia, Slovenia, Lithuania, Latvia, Estonia, Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo*, Moldova), financial years 2021-2025 plus 2026 quarterly figures, rebuilt from the national supervisors' statistics and the insurers' Solvency II reports (SFCR). Every figure links to its source document. Browsable site with schema.org Dataset markup per market; file downloads are planned.
+version: '2026-11'
+keywords: insurance, insurers, premiums, market share, Solvency II, SFCR, combined ratio, solvency ratio, Central and Eastern Europe, CEE, Balkans, Baltics
+image: https://polisapro.com/assets/og.png
+temporal: 2021-2026
+spatial: Poland, Czechia, Slovakia, Hungary, Romania, Bulgaria, Croatia, Slovenia, Lithuania, Latvia, Estonia, Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo*, Moldova
+access_level: public
+copyrights: Polisa's compilation, calculations, charts and texts are CC BY 4.0; the underlying figures belong to the national supervisors, insurance associations and insurers that publish them
+accrual_periodicity: quarterly (markets), annually (Solvency II figures)
+specification: https://polisapro.com/methodology
+data_quality: every figure carries a quality grade (A official per-insurer figure, B from the insurer's own report, C estimate) and a link to its source; automated checks run at every build
+data_dictionary: https://polisapro.com/methodology
+language: en
+license: CC BY 4.0 (Polisa's calculations and texts); source figures under their publishers' terms
+publisher:
+  name: Polisa
+  web: https://polisapro.com
+organization:
+  name: Polisa (independent project, Prague)
+  web: https://polisapro.com/how-we-work
+issued_time: '2026-10'
+sources:
+  - name: National insurance supervisors and associations of the 18 markets (KNF, CNB/CAP, NBS, MNB/MABISZ, ASF, FSC, HANFA, AZN/SZZ, Bank of Lithuania, Latvijas Banka, Statistics Estonia, NBS Serbia, AZOBiH, ANO, ISA, AMF, CBK, NBM)
+    access_url: https://polisapro.com/methodology
+  - name: Insurers' Solvency and Financial Condition Reports (SFCR), templates S.05.01 and S.23.01
+    access_url: https://polisapro.com/methodology
+references:
+  - title: Polisa, method and sources
+    reference: https://polisapro.com/methodology
