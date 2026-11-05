@@ -1,0 +1,31 @@
+---
+title: Canchas Mexico - Padel, Tennis and Pickleball Courts in Mexico
+homepage: https://github.com/idimetrix/canchas-mexico
+category: GIS
+description: 1,052 places in Mexico with at least one tennis, padel or pickleball court mapped in OpenStreetMap (32 states, 255 cities; 1,005 with tennis, 51 with padel, 14 with pickleball), from the OSM snapshot of 2026-09-25. One row per place with name, state, city, sports, known court count (a lower bound), WGS84 coordinates and OSM id. CSV, GeoJSON and a per-state summary, direct download, no login required. Contains no personal data.
+version: 2026.11
+keywords: courts, padel, tennis, pickleball, sports facilities, mexico, openstreetmap, geojson
+image:
+temporal: OSM snapshot 2026-09-25
+spatial: Mexico
+access_level: public
+copyrights: Contains information from OpenStreetMap, (c) OpenStreetMap contributors
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/idimetrix/canchas-mexico#columns
+language: en
+license: ODbL 1.0
+publisher:
+  - name: MeetAndPlay
+    web: https://meetandplay.mx
+organization:
+  - name:
+    web:
+issued_time: 2026.11
+sources:
+  - name: OpenStreetMap
+    access_url: https://www.openstreetmap.org
+references:
+  - title: Analysis of the data
+    reference: https://meetandplay.mx/reporte-padel-mexico
