@@ -1,0 +1,39 @@
+---
+title: Boltshorts Mobile Games Data (App Store and Google Play)
+homepage: https://github.com/phescobbar/mobile-games-data
+category: Entertainment
+description: Store facts for about 8,000 iPhone and Android games, every game in the US App Store top charts (free, paid and top grossing, overall and per game genre) plus other games with 1,000+ US App Store ratings from the same studios and the games on Boltshorts lists. One row per game with App Store and Google Play ratings and rating counts, Google Play download band, prices on both stores, the Google Play "Contains ads" and in-app purchase labels, iPhone download size, languages, age rating, release and update dates and the day's chart positions. Dated snapshots are kept, so ratings, prices and sizes can be followed over time.
+version: "2026-10-24"
+keywords: mobile games, app store, google play, iphone, android, ratings, in-app purchases, ads, app size, top charts
+image: https://boltshorts.com/og.png
+temporal: 2026-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: periodic snapshots
+specification:
+data_quality: false
+data_dictionary: https://github.com/phescobbar/mobile-games-data#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Boltshorts
+    web: https://boltshorts.com
+organization:
+  - name: Escobar Labs
+    web: https://boltshorts.com/about/
+issued_time: 2026.10.24
+sources:
+  - name: mobile-games.csv (all games, CSV download)
+    access_url: https://github.com/phescobbar/mobile-games-data/raw/main/mobile-games.csv
+  - name: Browse online, with a page per game and benchmarks per genre
+    access_url: https://boltshorts.com/data/
+  - name: Dated versions of the table
+    access_url: https://boltshorts.com/data/archive/
+  - name: US App Store game charts by day (CSV)
+    access_url: https://boltshorts.com/data/charts/
+  - name: Benchmarks by App Store genre (with one CSV per genre)
+    access_url: https://boltshorts.com/data/genres/
+references:
+  - title: Mobile game ads, prices and sizes, what the data says
+    reference: https://boltshorts.com/mobile-games-by-the-numbers/
