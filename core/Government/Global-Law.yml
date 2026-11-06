@@ -1,0 +1,22 @@
+---
+title: Global Law
+homepage: https://github.com/lexifina/global-law
+category: Government
+description: The law of 208 jurisdictions (714 corpora) as git histories. Each act is a folder with one file per provision, and every change is a commit dated the day it took effect and authored by the law that made it, so any provision can be read on any date and git blame shows which law wrote each word. Includes a command-line tool and a local MCP server.
+version:
+keywords: law, legislation, statutes, legal history, git, open government
+image:
+temporal:
+spatial: 208 jurisdictions
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification:
+data_quality: false
+data_dictionary:
+language: multilingual
+license: CC0 (the index and tools); each jurisdiction's repository states its own terms for the law text
+publisher: https://github.com/lexifina
+organization: https://github.com/lexifina
+issued_time: 2026.10
+sources: []
