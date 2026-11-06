@@ -9,6 +9,7 @@ description: >-
   Every run record carries scanDate, generatedAt, comparedAgainst, comparedAgainstComplete, comparedAgainstCoverage, baseline and feedVersion, so a number can be judged for comparability instead of taken at face value; a run whose scanDate equals comparedAgainst is a re-scan of the same upstream state and its differences are re-scan noise, not change over time.
   Counting-definition changes are logged on the method page and earlier records are kept as written, not rebuilt.
   No API key, no registration, no request quota.
+  A read-only snapshot mirror of the same JSON files is served from Hugging Face datasets at https://huggingface.co/datasets/Eidonze/longgame-public-data-series ; the GitHub repository remains the upstream of record when the two disagree.
   LIMITS. History starts 2026-10-20, so every line is short. One collection point per line. Evidence level is E0 on all lines, meaning publicly recheckable but not yet recomputed by any third party. A source that fails is recorded as an unavailable event with its HTTP status and byte count, never replaced by a stale value or a zero. Lines whose upstream has not opened yet are declared as such and publish no data. The site's method page counts 13 monitored lines, of which eleven have published data files under data/lines.
 version: rolling
 keywords: time series, public records, regulatory disclosure, climate disclosure, eidas, ai act, c2pa, sec form d, interconnection queue, mcp registry, json, open data
@@ -37,6 +38,8 @@ sources:
     access_url: https://xka0085-byte.github.io/longgame/status.json
   - name: Flat document for readers that prefer one file
     access_url: https://xka0085-byte.github.io/longgame/llms.txt
+  - name: Read-only snapshot mirror on Hugging Face datasets, same JSON files plus a derived run index
+    access_url: https://huggingface.co/datasets/Eidonze/longgame-public-data-series
 references:
   - title: Collection and gate method, including known failures and counting-definition log
     reference: https://xka0085-byte.github.io/longgame/method.html
