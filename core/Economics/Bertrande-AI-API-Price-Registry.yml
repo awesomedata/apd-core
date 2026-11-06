@@ -1,0 +1,38 @@
+---
+title: Bertrande AI API Price Registry
+homepage: https://github.com/flotvif/ai-price-registry
+category: Economics
+description: Daily-read prices and limits of AI APIs (Anthropic, OpenAI, Google, DeepSeek, Mistral, OpenRouter, AWS Bedrock and about 20 other sources), 14,000+ published parameters for about 1,500 offers, read on each vendor's own pricing page or API since 2026-08-25. Every value carries its read date, source URL and the SHA-256 fingerprint of the source page; no value is produced by a language model, and a value that cannot be read stays empty. The repository is committed once a day with files sorted by parameter id, so its git history is the price history (git log -p values.csv); changes.csv lists every confirmed change with before, after and date. Announced future prices are recorded with their effective date. Snapshots are archived on Zenodo.
+version: daily
+keywords: LLM pricing, AI API pricing, token pricing, price history, price changes, provenance, open data
+temporal: since 2026-08-25, read daily
+spatial: global (prices as published by vendors, mostly USD)
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://bertrande.com/en/methodology/
+data_quality: true
+data_dictionary: https://github.com/flotvif/ai-price-registry/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Bertrande
+    web: https://bertrande.com
+organization:
+  - name: Bertrande
+    web: https://bertrande.com
+issued_time: 2026.08
+sources:
+  - name: values.csv (current value of every parameter, git history is the price history)
+    access_url: https://raw.githubusercontent.com/flotvif/ai-price-registry/main/values.csv
+  - name: registry.csv (same rows with read date, source URL and SHA-256 fingerprint)
+    access_url: https://raw.githubusercontent.com/flotvif/ai-price-registry/main/registry.csv
+  - name: changes.csv (confirmed changes, newest first)
+    access_url: https://raw.githubusercontent.com/flotvif/ai-price-registry/main/changes.csv
+  - name: current.json (website download)
+    access_url: https://bertrande.com/data/current.json
+references:
+  - title: Methodology
+    reference: https://bertrande.com/en/methodology/
+  - title: Zenodo DOI (always resolves to the latest archived snapshot)
+    reference: https://doi.org/10.5281/zenodo.23979617
