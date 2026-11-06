@@ -1,0 +1,33 @@
+---
+title: Copper Retirement Data (AT&T and Verizon Landline Discontinuance by State)
+homepage: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/copper-retirement
+category: Government
+description: State-by-state status of AT&T and Verizon applications to the FCC to discontinue copper landline (POTS) service in the United States. Includes every logged filing with its FCC public notice, docket, grant date and earliest discontinuance date, AT&T notices per year, and the 1,060 AT&T wire centers where copper service can end from November 15, 2026. Six CSV files plus a data dictionary, each row linked to its source document.
+version: 2026-10
+keywords: copper retirement, landline, POTS, FCC, Section 214, telecommunications, AT&T, Verizon, wire centers, United States, CSV
+image:
+temporal: 2019 to present
+spatial: United States
+access_level: public
+copyrights: Metro Colo Advisory
+accrual_periodicity: irregular
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/metrocoloadvisory/metro-colo-data/blob/main/copper-retirement/copper-retirement-data-dictionary.txt
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+organization:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+issued_time: 2026-10-24
+sources:
+  - name: Zenodo archive (all files, versioned)
+    access_url: https://doi.org/10.5281/zenodo.23620111
+  - name: GitHub folder (CSV files and data dictionary)
+    access_url: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/copper-retirement
+references:
+  - title: Copper Retirement Tracker (method and updates)
+    reference: https://metrocoloadvisory.com/copper-retirement-tracker/

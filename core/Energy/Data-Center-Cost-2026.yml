@@ -1,0 +1,33 @@
+---
+title: Data Center Cost 2026 (Construction, Lease and Power Costs)
+homepage: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/data-center-cost
+category: Energy
+description: Sourced 2026 figures on what data centers cost to build, lease and power, focused on the United States. Includes construction cost per watt by market (US and worldwide), asking lease rate changes by deployment size, annual power cost per MW of IT load at different PUE levels, and a table of every figure with its value, unit, date and original source. Four CSV files plus a data dictionary.
+version: 2026-10
+keywords: data center, construction cost, cost per watt, cost per MW, PUE, electricity price, colocation, lease rates, AI infrastructure, CSV
+image:
+temporal: 2024 to present
+spatial: United States, with global construction benchmarks
+access_level: public
+copyrights: Metro Colo Advisory
+accrual_periodicity: irregular
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/metrocoloadvisory/metro-colo-data/blob/main/data-center-cost/data-center-cost-data-dictionary.txt
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+organization:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+issued_time: 2026-10-24
+sources:
+  - name: Zenodo archive (all files, versioned)
+    access_url: https://doi.org/10.5281/zenodo.23652508
+  - name: GitHub folder (CSV files and data dictionary)
+    access_url: https://github.com/metrocoloadvisory/metro-colo-data/tree/main/data-center-cost
+references:
+  - title: Data Center Cost 2026 (method and updates)
+    reference: https://metrocoloadvisory.com/data-center-cost/
