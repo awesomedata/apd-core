@@ -1,0 +1,27 @@
+---
+title: Praticidade Index 2026.1 (Brazil and Portugal)
+homepage: https://doi.org/10.5281/zenodo.23850105
+category: Transportation
+description: Walkable convenience rankings for neighbourhood-level areas in 10 cities in Brazil and Portugal (São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba, Porto Alegre, Fortaleza, Brasília, Salvador, Lisboa, Porto). 10 thematic rankings (walkability, transit, cycling, safety, families, accessibility and others) in 81 city-ranking slices, 1,150 rows covering 397 areas, with scores from 0 to 10. CSV and JSON, archived on Zenodo with a DOI.
+version: 2026.1
+keywords: walkability, urban accessibility, neighbourhoods, cities, Brazil, Portugal, 15-minute city, urban planning, open data
+temporal: 2026
+spatial: 10 cities in Brazil and Portugal
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+data_dictionary: https://github.com/ricardocarapeto/praticidade-index#data-dictionary-csv
+language: pt, en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Praticidade
+    web: https://praticidade.com/
+issued_time: 2026.07
+sources:
+  - name: GitHub repository (CSV and JSON)
+    access_url: https://github.com/ricardocarapeto/praticidade-index
+  - name: Zenodo deposit (DOI 10.5281/zenodo.23850105)
+    access_url: https://doi.org/10.5281/zenodo.23850105
+references:
+  - title: Methodology
+    reference: https://praticidade.com/metodologia
