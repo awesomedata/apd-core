@@ -1,0 +1,12 @@
+---
+title: Global iGaming Regulation by Market 2026 (iGaming Atlas open sample)
+homepage: https://doi.org/10.5281/zenodo.23959750
+category: Government
+description: "Market-level summary of online gambling regulation in 70 jurisdictions (regulator, market model, counts of operator-market relationships by licensing conclusion, number of official sources, verification date range). Aggregated counts only. Licence: CC BY 4.0. Format: CSV."
+version: v1
+format: CSV
+sources:
+  - name: Zenodo
+    url: https://zenodo.org/records/23959750
+  - name: Kaggle mirror
+    url: https://www.kaggle.com/datasets/igamingatlas/global-igaming-regulation-by-market-2026
