@@ -1,0 +1,31 @@
+---
+title: Snapchat Spotlight Statistics by Creator Size and Niche
+homepage: https://snapdatahub.com/snapchat-statistics/
+category: SocialNetworks
+description: Aggregate statistics measured from 177,290 public Snapchat Spotlight videos by 37,787 creators, 20 Jul to 18 Oct 2026. One CSV with median views, engagement and video length, split by subscriber band and by 34 niche rows. Aggregates only, no per-creator rows.
+version: 1.0
+keywords: snapchat, spotlight, creators, social media, engagement, statistics
+image:
+temporal: 2026-07-20 to 2026-10-18
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://snapdatahub.com/snapchat-statistics/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SnapDataHub
+    web: https://snapdatahub.com/
+organization:
+  - name: SnapDataHub
+    web: https://snapdatahub.com/methodology/
+issued_time: 2026.11
+sources:
+  - name: CSV
+    access_url: https://snapdatahub.com/snapchat-statistics/data.csv
+references:
+  - title:
+    reference:
