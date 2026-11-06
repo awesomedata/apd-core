@@ -1,0 +1,33 @@
+---
+title: 10ML Price-per-ml Index of Perfume Decants
+homepage: https://huggingface.co/datasets/10ml/perfume-price-per-ml-index
+category: Economics
+description: Price per ml of 1,000+ designer and niche perfumes in 3ml, 10ml and 30ml decants, with full-bottle reference prices. CSV files with a source and a read date on every value.
+version: 1.0
+keywords: perfume, fragrance, price per ml, decants, perfume samples, retail prices, consumer prices, euro
+image:
+temporal: 2026
+spatial: Europe
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: 10ML
+    web: https://10ml.com/
+organization:
+  - name: 10ML
+    web: https://10ml.com/
+issued_time: 2026.10
+sources:
+  - name: Price-per-ml index (CSV)
+    access_url: https://huggingface.co/datasets/10ml/perfume-price-per-ml-index/resolve/main/price-per-ml-index.csv
+  - name: Zenodo record (DOI 10.5281/zenodo.23348505)
+    access_url: https://zenodo.org/records/23348505
+references:
+  - title: Perfume price per ml index 2026
+    reference: https://10ml.com/guides/perfume-price-per-ml-index
