@@ -1,0 +1,54 @@
+---
+title: longgame public data series (11 monitored lines, collection runs and change log from 2026-10-20)
+homepage: https://github.com/xka0085-byte/longgame
+category: TimeSeries
+description: >-
+  Append-only time series of public regulatory, market and standards documents that cannot be re-collected once they change.
+  Each line is one JSON file under data/lines holding collect.runs (one record per collection run) and collect.events (append-only change log).
+  Eleven lines are published as of 2026-11-05, one file each under data/lines - California SB 253 / SB 261 corporate climate disclosure docket (CARB), EU eIDAS trusted lists (EU LOTL), EU AI Act risk register and GPAI code of practice, C2PA content provenance specification, US state AI statutes, compute futures listings and CFTC actions, SEC Form D filings, data-centre interconnection and load queues, MCP registry endpoint trust deltas, agent HTTP message signature directories (Web Bot Auth), and an escalation-trigger ledger.
+  Every run record carries scanDate, generatedAt, comparedAgainst, comparedAgainstComplete, comparedAgainstCoverage, baseline and feedVersion, so a number can be judged for comparability instead of taken at face value; a run whose scanDate equals comparedAgainst is a re-scan of the same upstream state and its differences are re-scan noise, not change over time.
+  Counting-definition changes are logged on the method page and earlier records are kept as written, not rebuilt.
+  No API key, no registration, no request quota.
+  A read-only snapshot mirror of the same JSON files is served from Hugging Face datasets at https://huggingface.co/datasets/Eidonze/longgame-public-data-series ; the GitHub repository remains the upstream of record when the two disagree.
+  A frozen snapshot of the 2026-11-05 release is archived on Zenodo under DOI 10.5281/zenodo.23998349 ; the DOI is the stable citation target for that snapshot, while the GitHub repository remains the upstream of record for current data.
+  LIMITS. History starts 2026-10-20, so every line is short. One collection point per line. Evidence level is E0 on all lines, meaning publicly recheckable but not yet recomputed by any third party. A source that fails is recorded as an unavailable event with its HTTP status and byte count, never replaced by a stale value or a zero. Lines whose upstream has not opened yet are declared as such and publish no data. The site's method page counts 13 monitored lines, of which eleven have published data files under data/lines.
+version: rolling
+keywords: time series, public records, regulatory disclosure, climate disclosure, eidas, ai act, c2pa, sec form d, interconnection queue, mcp registry, json, open data
+image:
+temporal: 2026-10-20 to present
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: per line, weekly or monthly collection with daily source monitoring
+specification: https://xka0085-byte.github.io/longgame/method.html
+data_quality: true
+data_dictionary: https://github.com/xka0085-byte/longgame#how-to-read-a-number
+language: en
+license: CC BY 4.0
+publisher:
+  - name: xka0085-byte
+    web: https://github.com/xka0085-byte
+organization:
+issued_time: 2026.10
+sources:
+  - name: Series files, one JSON per line with runs and change log
+    access_url: https://github.com/xka0085-byte/longgame/tree/master/data/lines
+  - name: Machine-readable feed of published series
+    access_url: https://xka0085-byte.github.io/longgame/feed.xml
+  - name: Gate result and per-file sha256 of the last published round
+    access_url: https://xka0085-byte.github.io/longgame/status.json
+  - name: Flat document for readers that prefer one file
+    access_url: https://xka0085-byte.github.io/longgame/llms.txt
+  - name: Read-only snapshot mirror on Hugging Face datasets, same JSON files plus a derived run index
+    access_url: https://huggingface.co/datasets/Eidonze/longgame-public-data-series
+  - name: Frozen 2026-11-05 release archived on Zenodo as a single tarball (fixed DOI)
+    access_url: https://doi.org/10.5281/zenodo.23998349
+references:
+  - title: Collection and gate method, including known failures and counting-definition log
+    reference: https://xka0085-byte.github.io/longgame/method.html
+  - title: Series registry and retirement rules
+    reference: https://github.com/xka0085-byte/longgame/blob/master/SERIES.md
+  - title: Citation metadata for the 2026-11-05 snapshot
+    reference: https://github.com/xka0085-byte/longgame/blob/master/CITATION.cff
+  - title: Archived snapshot with a fixed DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.23998349
