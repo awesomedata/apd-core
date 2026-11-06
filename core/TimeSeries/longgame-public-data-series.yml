@@ -10,6 +10,7 @@ description: >-
   Counting-definition changes are logged on the method page and earlier records are kept as written, not rebuilt.
   No API key, no registration, no request quota.
   A read-only snapshot mirror of the same JSON files is served from Hugging Face datasets at https://huggingface.co/datasets/Eidonze/longgame-public-data-series ; the GitHub repository remains the upstream of record when the two disagree.
+  A frozen snapshot of the 2026-11-05 release is archived on Zenodo under DOI 10.5281/zenodo.23998349 ; the DOI is the stable citation target for that snapshot, while the GitHub repository remains the upstream of record for current data.
   LIMITS. History starts 2026-10-20, so every line is short. One collection point per line. Evidence level is E0 on all lines, meaning publicly recheckable but not yet recomputed by any third party. A source that fails is recorded as an unavailable event with its HTTP status and byte count, never replaced by a stale value or a zero. Lines whose upstream has not opened yet are declared as such and publish no data. The site's method page counts 13 monitored lines, of which eleven have published data files under data/lines.
 version: rolling
 keywords: time series, public records, regulatory disclosure, climate disclosure, eidas, ai act, c2pa, sec form d, interconnection queue, mcp registry, json, open data
@@ -40,6 +41,8 @@ sources:
     access_url: https://xka0085-byte.github.io/longgame/llms.txt
   - name: Read-only snapshot mirror on Hugging Face datasets, same JSON files plus a derived run index
     access_url: https://huggingface.co/datasets/Eidonze/longgame-public-data-series
+  - name: Frozen 2026-11-05 release archived on Zenodo as a single tarball (fixed DOI)
+    access_url: https://doi.org/10.5281/zenodo.23998349
 references:
   - title: Collection and gate method, including known failures and counting-definition log
     reference: https://xka0085-byte.github.io/longgame/method.html
@@ -47,3 +50,5 @@ references:
     reference: https://github.com/xka0085-byte/longgame/blob/master/SERIES.md
   - title: Citation metadata for the 2026-11-05 snapshot
     reference: https://github.com/xka0085-byte/longgame/blob/master/CITATION.cff
+  - title: Archived snapshot with a fixed DOI (Zenodo)
+    reference: https://doi.org/10.5281/zenodo.23998349
