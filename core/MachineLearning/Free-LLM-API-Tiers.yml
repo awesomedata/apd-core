@@ -1,0 +1,34 @@
+---
+title: Free LLM API Tiers
+homepage: https://github.com/khushaljethava/freellm-apis
+category: MachineLearning
+description: >-
+  73 providers that offer free access to large language model APIs, and the 197 free models they
+  serve. Each provider row records region (global plus seven regional groups), the OpenAI-compatible
+  base URL, what sign-up requires (nothing, email, phone or a credit card), whether the free tier is
+  permanent and rate-limited or one-time credits, the credit amount in USD and its expiry, and the date
+  the entry was last checked against the provider's own pricing or documentation page. Each model row
+  records context window, modalities, and requests-per-minute, requests-per-day and tokens-per-minute
+  limits where the provider publishes them; unpublished limits are left null rather than estimated.
+  A change log (276 entries) derived from the git history lists providers added or removed and every
+  change to tier type, sign-up requirement, credits and per-model limits, dated by check. JSON, direct
+  download, no login.
+version: "2026-11-05"
+keywords: large language models, LLM API, free tier, rate limits, context window, AI pricing, OpenAI-compatible API, inference providers, open data
+temporal: 2026-06-28 to 2026-11-05
+spatial: Worldwide
+access_level: public
+accrual_periodicity: irregular
+data_dictionary: https://github.com/khushaljethava/freellm-apis/blob/main/data/schema.md
+language: en
+license: MIT
+publisher:
+  - name: freellm-apis contributors
+    web: https://github.com/khushaljethava/freellm-apis
+sources:
+  - name: Providers (JSON)
+    access_url: https://raw.githubusercontent.com/khushaljethava/freellm-apis/main/data/providers.json
+  - name: Models and rate limits (JSON)
+    access_url: https://raw.githubusercontent.com/khushaljethava/freellm-apis/main/data/models.json
+  - name: Change log (JSON)
+    access_url: https://raw.githubusercontent.com/khushaljethava/freellm-apis/main/data/changes.json
