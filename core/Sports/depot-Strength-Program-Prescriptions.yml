@@ -1,0 +1,37 @@
+---
+title: depot.fitness Strength-Training Program Prescriptions
+homepage: https://github.com/AlonDrilich/depot-strength-programs
+category: Sports
+description: What 101 strength-training programs prescribe, as data. The programs are the depot.fitness library and follow documented templates such as 5/3/1, 5x5, push/pull/legs and upper/lower. One row per program gives level, type, goals, equipment, length in weeks, training days per week, weekly prescribed sets and the progression note; one row per canonical exercise (484, spellings merged) gives how many programs use it and its typical sets, reps and rest; exercise-by-exercise prescriptions are included for the five programs that are free in full. 1,791 prescriptions over 390 training days in the 2026-10-13 snapshot. This describes what one library prescribes, not what people did, and is not a sample of all training programs. CSV and JSON, no login required.
+version: 2026.10.13
+keywords: strength training, resistance training, weightlifting, powerlifting, workout programs, exercise prescription, sets and reps, rest intervals, fitness
+image:
+temporal: 2026-10-13
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/AlonDrilich/depot-strength-programs#definitions
+language: en
+license: CC BY 4.0
+publisher:
+  - name: depot.fitness
+    web: https://depot.fitness/
+organization:
+  - name: depot.fitness
+    web: https://depot.fitness/
+issued_time: 2026.10
+sources:
+  - name: Programs (CSV, GitHub)
+    access_url: https://github.com/AlonDrilich/depot-strength-programs/blob/main/programs.csv
+  - name: Exercises (CSV, GitHub)
+    access_url: https://github.com/AlonDrilich/depot-strength-programs/blob/main/exercises.csv
+  - name: Prescriptions for the five free programs (CSV, GitHub)
+    access_url: https://github.com/AlonDrilich/depot-strength-programs/blob/main/prescriptions-free-programs.csv
+  - name: Summary numbers (JSON)
+    access_url: https://github.com/AlonDrilich/depot-strength-programs/blob/main/summary.json
+references:
+  - title: Data page with charts and method
+    reference: https://depot.fitness/data
