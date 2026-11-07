@@ -1,0 +1,29 @@
+---
+title: India IPO Grey Market Premium (GMP) vs Actual Listing (PaisaTools)
+homepage: https://github.com/nils44344/india-ipo-gmp-accuracy
+category: Finance
+description: Indian mainboard IPOs with the grey-market premium (GMP) recorded live before listing, compared with the actual listing-day close versus the issue price. No back-filling; records are written once. Columns include issue price, GMP, GMP-implied gain, actual listing gain, direction correct, and absolute gap. CSV under CC BY 4.0, plus a live JSON endpoint.
+version:
+keywords: IPO, grey market premium, GMP, listing gain, India, NSE, BSE, stock market
+image:
+temporal: 2026-09-03 -
+spatial: India
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/nils44344/india-ipo-gmp-accuracy#methodology-and-limitations-read-before-citing
+data_quality: true
+data_dictionary: https://github.com/nils44344/india-ipo-gmp-accuracy#the-data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PaisaTools
+    web: https://paisatools.co.in
+organization:
+issued_time: 2026-10-13
+sources:
+  - title: Public grey-market premium trackers (snapshot before listing) and listing-day prices
+    reference: https://paisatools.co.in/ipo/gmp-accuracy
+references:
+  - title: Live track record with methodology
+    reference: https://paisatools.co.in/ipo/gmp-accuracy
