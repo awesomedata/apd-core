@@ -1,0 +1,42 @@
+---
+title: Monero Merchant Index
+homepage: https://github.com/benwalton34533-cpu/monero-merchant-index
+category: Finance
+description: >-
+  One row per business or service that accepts Monero (XMR), about 1,800
+  listings across 20 categories (exchanges, hosting, VPNs, shops, wallets,
+  non-profits and more) and 100+ countries. Each listing is reviewed by hand
+  and records its category, KYC policy, Tor (.onion) address, year of
+  operation, country, 30-day uptime from automated checks, user rating and
+  an A-F grade computed with a published method. Daily summary snapshots
+  (totals, grade and KYC mix, Tor share, per-category and per-country
+  counts) make it possible to follow changes over time. CSV and JSON,
+  refreshed daily by a GitHub Action, no login.
+version: "2026.11.07"
+keywords: monero, cryptocurrency, merchants, payments, adoption, kyc, tor, csv, json
+image:
+temporal: 2026-11 / ongoing
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/benwalton34533-cpu/monero-merchant-index#listing-fields
+data_quality: false
+data_dictionary: https://github.com/benwalton34533-cpu/monero-merchant-index#listing-fields
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: XMRList
+    web: https://xmrlist.com/stats
+organization:
+  - name: XMRList
+    web: https://xmrlist.com
+issued_time: 2026.11
+sources:
+  - name: GitHub (CSV and JSON, daily commits)
+    access_url: https://github.com/benwalton34533-cpu/monero-merchant-index/tree/main/data
+  - name: JSON API (same data, live)
+    access_url: https://xmrlist.com/api
+references:
+  - title: CC BY 4.0
+    reference: https://creativecommons.org/licenses/by/4.0/
