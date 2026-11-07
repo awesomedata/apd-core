@@ -1,0 +1,35 @@
+---
+title: EU CBAM Default Values
+homepage: https://github.com/vedacta/cbam-default-values
+category: Climate+Weather
+description: Machine-readable copy of the European Commission's CBAM default values (Implementing Regulation (EU) 2025/2621 Annex I and IV, as corrected by (EU) 2026/1740). Direct, indirect and total embedded emissions in t CO2e per tonne of good for 11,170 CN code and country pairs across 121 countries, plus Column A and B benchmarks with the CBAM factor per year (Implementing Regulation (EU) 2025/2620). JSON and CSV, checked value by value against the Commission's Excel files.
+version: 1.0
+keywords: CBAM, carbon border adjustment, embedded emissions, default values, EU, steel, aluminium, cement, fertilisers, hydrogen
+image:
+temporal: 2026-2034
+spatial: World (121 countries of production)
+access_level: public
+copyrights: Based on European Commission data, (c) European Union, reused under Commission Decision 2011/833/EU
+accrual_periodicity: when the Commission publishes a new default values file
+specification: https://github.com/vedacta/cbam-default-values/blob/main/README.md
+data_quality: true
+data_dictionary: https://github.com/vedacta/cbam-default-values/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Vedacta
+    web: https://github.com/vedacta
+organization:
+  - name: European Commission, DG Taxation and Customs Union (original data)
+    web: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-legislation-and-guidance_en
+issued_time: 2026.10
+sources:
+  - name: default-values.csv
+    access_url: https://raw.githubusercontent.com/vedacta/cbam-default-values/main/default-values.csv
+  - name: default-values.json
+    access_url: https://raw.githubusercontent.com/vedacta/cbam-default-values/main/default-values.json
+  - name: benchmarks.json
+    access_url: https://raw.githubusercontent.com/vedacta/cbam-default-values/main/benchmarks.json
+references:
+  - title: CBAM legislation and guidance (European Commission)
+    reference: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-legislation-and-guidance_en

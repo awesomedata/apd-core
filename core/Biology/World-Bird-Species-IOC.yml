@@ -1,0 +1,33 @@
+---
+title: World Bird Species (IOC 15.2) with multilingual names and cross-database IDs
+homepage: https://huggingface.co/datasets/yunfeichen/world-bird-species
+category: Biology
+description: One record for each of the 11,064 living bird species in the IOC World Bird List v15.2 (44 orders, 250 families). Taxonomy, common names in 43 languages from the IOC multilingual list, Wikidata/eBird/GBIF/iNaturalist IDs, breeding and non-breeding ranges, subspecies, AVONET morphological and ecological traits, IUCN and CITES status. CSV and JSON. The source repository also includes an AI-drawn illustration per species with its review score.
+version: IOC 15.2
+keywords: birds, ornithology, taxonomy, biodiversity, species, multilingual names, eBird, GBIF, Wikidata, AVONET, IUCN
+image: https://raw.githubusercontent.com/alchaincyf/huashu-bird-sticker/main/previews/hero.webp
+temporal:
+spatial: global
+access_level: public
+copyrights: Compiled data MIT; IOC names CC BY 3.0; AVONET CC BY 4.0; Wikidata CC0
+accrual_periodicity:
+specification: https://github.com/alchaincyf/huashu-bird-sticker/blob/main/data/README.md
+data_quality: false
+data_dictionary: https://github.com/alchaincyf/huashu-bird-sticker/blob/main/data/README.md
+language: en
+license: MIT (compiled data) / CC BY 3.0 (IOC names) / CC BY 4.0 (AVONET)
+publisher:
+  - name: Huashu (alchaincyf)
+    web: https://github.com/alchaincyf
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: GitHub repository (data/ folder)
+    access_url: https://github.com/alchaincyf/huashu-bird-sticker/tree/main/data
+  - name: IOC World Bird List v15.2
+    access_url: https://www.worldbirdnames.org/
+references:
+  - title: AVONET, Tobias et al. 2022, Ecology Letters
+    reference: https://doi.org/10.1111/ele.13898

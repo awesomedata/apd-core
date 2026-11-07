@@ -1,0 +1,26 @@
+---
+title: Solar and Lunar Eclipses 1950-2050
+homepage: https://huggingface.co/datasets/eatfreshapple/solar-lunar-eclipses-1950-2050
+category: Physics
+description: >-
+  453 computed solar and lunar eclipses whose greatest-eclipse time falls in
+  1950-2050 UTC. CSV and JSON include peak time, apparent geocentric tropical
+  longitude, nearest lunar node, lunar stage durations and local circumstances
+  for 15 representative cities. Calculated with Astronomy Engine 2.1.19;
+  these are computed ephemeris events, not independent observations or a NASA
+  catalog. Minute resolution is not a one-minute accuracy guarantee. Includes
+  field definitions, provenance, citation metadata and SHA-256 checksums.
+version: '1'
+keywords: astronomy, eclipses, ephemeris, solar, lunar, time series
+access_level: public
+temporal: 1950-01-01/2050-12-31
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Natal Chart Lab
+sources:
+  - name: Astronomy Engine
+    access_url: https://github.com/cosinekitty/astronomy
+references:
+  - title: Version 1 archived dataset
+    reference: https://doi.org/10.5281/zenodo.23837408

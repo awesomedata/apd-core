@@ -1,0 +1,27 @@
+---
+title: What Agents Pick, default tool choices of AI coding agents
+homepage: https://github.com/nmbrthirteen/what-agents-pick-data
+category: MachineLearning
+description: 360 Claude Code runs on hint free starter repos (Next.js and FastAPI), recording which database, ORM, auth, payments, email, storage, jobs, caching, observability and deployment tools the agent installed when the prompt named none. Opus 5.5, Sonnet 5.5 and Haiku 5.5. Per run JSON and CSV with evidence, tokens and cost.
+version: 1.0
+keywords: coding agents, LLM, Claude Code, developer tools, software dependencies
+image:
+temporal: 2026-10-17 to 2026-10-18
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/nmbrthirteen/what-agents-pick-data#csv-columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: What Agents Pick
+    web: https://whatagentspick.com
+organization: []
+issued_time: '2026.10'
+sources:
+  - name: What Agents Pick
+    access_url: https://whatagentspick.com
+references: []

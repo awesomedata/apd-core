@@ -1,0 +1,37 @@
+---
+title: WordPress in Europe 2026-09 (4.1M ccTLD homepages from Common Crawl)
+homepage: https://nettingale.com/reports/
+category: ComputerNetworks
+description: Per-country aggregates for 4,096,194 homepages on the country domains of 32 European countries in Common Crawl CC-MAIN-2026-39. WordPress share, hosting companies from DNS and network records, WordPress and PHP versions, WooCommerce and cookie consent plugins. Two CSV files, one row per country and one row per host and country. No domain names.
+version: 2026-09
+keywords: WordPress, CMS, web hosting, Common Crawl, Europe, ccTLD, PHP
+image: https://nettingale.com/reports/wordpress-europe-2026-09/figure-1.png
+temporal: 2026-09
+spatial: Europe (32 countries)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://nettingale.com/reports/wordpress-europe-2026-09/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Nettingale
+    web: https://nettingale.com/
+organization:
+  - name: Nettingale
+    web: https://nettingale.com/
+issued_time: 2026.10
+sources:
+  - name: Common Crawl CC-MAIN-2026-39
+    access_url: https://commoncrawl.org/
+references:
+  - title: WordPress in Europe, hosts per country CSV
+    reference: https://nettingale.com/data/wordpress-europe-2026-09-hosts.csv
+  - title: Report with method and limits
+    reference: https://nettingale.com/reports/wordpress-europe-2026-09/
+  - title: WordPress in Germany 2026-09, hosts CSV
+    reference: https://nettingale.com/data/german-wordpress-hosting-2026-09.csv
+  - title: WordPress in Germany report with method and limits
+    reference: https://nettingale.com/reports/wordpress-germany-2026-09/

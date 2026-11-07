@@ -1,0 +1,137 @@
+name: Link Validation
+
+# Runs nightly, completely separate from the deploy workflow, so a slow
+# or flaky website can never hold up merging PRs or deploying.
+#
+# What it does:
+#   1. Checks every homepage in core/ (deploy/render.py --validate-links).
+#   2. Saves the results to deploy/link-status.json on the `link-status`
+#      branch. The Deployment workflow reads that file so the README's
+#      OK / FIXME icons reflect the latest check.
+#   3. If any icon changed, triggers a Deployment so the README is updated.
+on:
+  schedule:
+    - cron: "23 9 * * *"   # 09:23 UTC daily (03:23 Calgary, MDT/MST-ish)
+  workflow_dispatch:
+
+concurrency:
+  group: link-validation
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # push the link-status branch
+  actions: write    # trigger the Deployment workflow
+
+jobs:
+  validate-links:
+    name: Check links and refresh status
+    runs-on: ubuntu-latest
+    timeout-minutes: 120   # hard ceiling; the script stops itself well before this
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: deploy/requirements.txt
+
+      - name: Install render dependencies
+        run: pip install -r ./deploy/requirements.txt
+
+      - name: Load previous link status
+        run: |
+          if git fetch --depth 1 origin link-status 2>/dev/null; then
+            git show FETCH_HEAD:link-status.json > deploy/link-status.json
+            echo "Loaded previous link status from the link-status branch."
+          else
+            rm -f deploy/link-status.json
+            echo "No previous link status; this run is the baseline."
+          fi
+
+      - name: Render README with previous status (baseline)
+        run: |
+          python ./deploy/render.py
+          cp deploy/index.rst /tmp/index.before.rst
+
+      - name: Validate links
+        run: python ./deploy/render.py --validate-links --max-minutes 90
+
+      - name: Did any README icon change?
+        id: diff
+        run: |
+          if cmp -s /tmp/index.before.rst deploy/index.rst; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No icons changed."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Some icons changed; a redeploy will be triggered."
+          fi
+
+      - name: Post link check summary
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          try:
+              with open("reports/latest.json") as f:
+                  report = json.load(f)
+          except FileNotFoundError:
+              print("No report was produced.")
+              raise SystemExit(0)
+
+          failures = report["failures"]
+          flagged = [f for f in failures if f["flagged"]]
+          print("## Link check")
+          print()
+          print("Generated {} UTC. {} link(s) failed this run; {} now show the FIXME icon "
+                "(failed {} runs in a row).".format(
+                    report["generated_at"], len(failures), len(flagged), 2))
+          print()
+          if failures:
+              print("| Category | File | Homepage | Reason | What it means | Failures in a row |")
+              print("|---|---|---|---|---|---|")
+              for f in failures:
+                  print("| {} | {} | [{homepage}]({homepage}) | {} | {} | {} |".format(
+                      f["category"], f["file"], f["reason"], f["description"],
+                      f["fail_streak"], homepage=f["homepage"]))
+          PY
+
+      - name: Upload full report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: link-check-report
+          path: reports/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Save link status to the link-status branch
+        env:
+          REPO_URL: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+        run: |
+          set -euo pipefail
+          work="$(mktemp -d)"
+          if git ls-remote --exit-code --heads "$REPO_URL" link-status >/dev/null 2>&1; then
+            git clone --depth 1 --branch link-status "$REPO_URL" "$work"
+          else
+            git init -b link-status "$work"
+            git -C "$work" remote add origin "$REPO_URL"
+          fi
+          cp deploy/link-status.json "$work/link-status.json"
+          cd "$work"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add link-status.json
+          if git diff --cached --quiet; then
+            echo "Link status unchanged; nothing to commit."
+          else
+            git commit -m "Update link status"
+            git push origin link-status
+          fi
+
+      - name: Trigger a redeploy if the README changed
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yaml --ref master --repo "${{ github.repository }}"

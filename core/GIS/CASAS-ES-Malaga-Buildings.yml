@@ -1,0 +1,31 @@
+---
+title: CASAS.ES open data - Buildings, dwellings and year of construction of the municipalities of Malaga (Spain)
+homepage: https://github.com/casas-es/datos
+category: GIS
+description: Buildings, dwellings, population and year of construction (median and share by period) for the 103 municipalities of the province of Malaga, Spain, plus the 958 streets with the most dwellings in each municipality. Aggregated from the Spanish cadastre (Direccion General del Catastro), INE and IGN. CSV files, CC BY 4.0, archived on Zenodo with DOI 10.5281/zenodo.23856482.
+version: 1.0
+keywords: Spain, Malaga, buildings, housing, dwellings, year of construction, cadastre, municipalities, CSV
+image:
+temporal: 2026
+spatial: Province of Malaga, Spain
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/casas-es/datos#readme
+language: es
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://doi.org/10.5281/zenodo.23856482
+organization:
+  - name: CASAS.ES
+    web: https://casas.es
+issued_time: 2026.10
+sources:
+  - name: Direccion General del Catastro
+    access_url: https://www.catastro.hacienda.gob.es/
+references:
+  - title: Zenodo record (DOI 10.5281/zenodo.23856482)
+    reference: https://doi.org/10.5281/zenodo.23856482

@@ -1,0 +1,35 @@
+# Dependabot version updates for awesomedata/apd-core.
+# Docs: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates
+version: 2
+
+updates:
+  # --- GitHub Actions ---------------------------------------------------
+  # Watches the "uses:" lines in .github/workflows/ and proposes newer
+  # versions of actions such as checkout, setup-python and upload-artifact.
+  - package-ecosystem: "github-actions"
+    directory: "/"               # "/" covers .github/workflows automatically
+    schedule:
+      interval: "monthly"        # monthly keeps the PR count low
+    groups:
+      actions:                   # combine all action bumps into ONE pull request
+        patterns: ["*"]
+
+  # --- Python packages for rendering the README -------------------------
+  - package-ecosystem: "pip"
+    directory: "/deploy"         # folder containing requirements.txt
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2  # never more than 2 open PRs from this entry
+    groups:
+      render-deps:               # bundle Mako/PyYAML/requests/certifi together
+        patterns: ["*"]
+
+  # --- Python packages for the metadata tests ---------------------------
+  - package-ecosystem: "pip"
+    directory: "/tests"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+    groups:
+      test-deps:
+        patterns: ["*"]
