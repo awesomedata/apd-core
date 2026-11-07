@@ -1,0 +1,39 @@
+---
+title: KeenPage AI Task Map by Occupation
+homepage: https://github.com/keenpage/ai-task-map
+category: Economics
+description: One row per occupation for 2,000 occupations in 38 industries, summarizing 25,000 everyday work tasks that generative AI can help with. For each occupation it gives the number of listed tasks and the share whose AI result is close to ready to use, that come up at least weekly, and whose result goes to someone else. Occupation names in English and Chinese. Task lists were drafted by AI from O*NET, ESCO and common regional work, reviewed by a second model and checked by script; figures are model-assisted estimates, not survey or measured results, and do not measure how much of a job AI could replace. CSV, UTF-8.
+version: "2026-11-06"
+keywords: generative AI, occupations, work tasks, labor market, future of work, O*NET, ESCO
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: CC BY 4.0 (the CSV and its documentation only)
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/keenpage/ai-task-map/blob/main/DATA_DICTIONARY.md
+language: en, zh
+license: CC BY 4.0
+publisher:
+  - name: KeenPage
+    web: https://keenpage.com
+organization:
+  - name: KeenPage
+    web: https://keenpage.com
+issued_time: 2026.11
+sources:
+  - name: CSV on GitHub
+    access_url: https://raw.githubusercontent.com/keenpage/ai-task-map/main/data/keenpage-ai-task-map.csv
+  - name: Zenodo archive (DOI 10.5281/zenodo.24035962)
+    access_url: https://doi.org/10.5281/zenodo.24035962
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/keenpage-ai/ai-task-map
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/keenpage/keenpage-ai-task-map
+references:
+  - title: Method and limits
+    reference: https://github.com/keenpage/ai-task-map/blob/main/METHODOLOGY.md
+  - title: Sources and attribution
+    reference: https://github.com/keenpage/ai-task-map/blob/main/SOURCES.md
