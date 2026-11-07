@@ -1,0 +1,41 @@
+---
+title: Metro Colo Advisory Open Data (US Data Center Power, Cost and Copper Landline Retirement)
+homepage: https://github.com/metrocoloadvisory/metro-colo-data/tree/main
+category: Economics
+description: A collection of sourced US infrastructure datasets, one folder per dataset, each with CSV files, a data dictionary and a versioned Zenodo DOI. Data Center Electric Rates covers 105 utility filings and proceedings across 45 states on how data centers and other very large customers pay for power (large-load tariffs, data center rate classes, special contracts, rulemakings), with dockets, status, dates, customer protections and stated household bill impacts. Data Center Cost covers what it costs to build, lease and run a data center in North America in 2026 (cost per MW and per watt, lease rates, PUE and power cost, AI hardware prices, vacancy and timelines). Copper Retirement covers AT&T and Verizon FCC filings to discontinue copper landline (POTS) service by state, including the 1,060 AT&T wire centers where service can end from November 15, 2026. Every row links to its source document. New datasets are added as new folders in the same repository.
+version: 2026-11
+keywords: data centers, electricity rates, large-load tariff, utility regulation, construction cost, colocation, copper retirement, landline, POTS, FCC, telecommunications, United States, CSV
+image:
+temporal: 2019 to present
+spatial: United States
+access_level: public
+copyrights: Metro Colo Advisory
+accrual_periodicity: irregular
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/metrocoloadvisory/metro-colo-data/tree/main
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+organization:
+  - name: Metro Colo Advisory
+    web: https://metrocoloadvisory.com
+issued_time: 2026-10-24
+sources:
+  - name: GitHub repository (all datasets, CSV files and data dictionaries)
+    access_url: https://github.com/metrocoloadvisory/metro-colo-data/tree/main
+  - name: Data Center Electric Rates, Zenodo archive (versioned)
+    access_url: https://doi.org/10.5281/zenodo.23839945
+  - name: Data Center Cost 2026, Zenodo archive (versioned)
+    access_url: https://doi.org/10.5281/zenodo.23652508
+  - name: Copper Retirement Data, Zenodo archive (versioned)
+    access_url: https://doi.org/10.5281/zenodo.23620111
+references:
+  - title: Data Center Electric Rates tracker (method and updates)
+    reference: https://metrocoloadvisory.com/data-center-electric-rates/
+  - title: Data Center Cost (method and updates)
+    reference: https://metrocoloadvisory.com/data-center-cost/
+  - title: Copper Retirement Data (method and updates)
+    reference: https://metrocoloadvisory.com/copper-retirement-data/
