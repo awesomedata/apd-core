@@ -1,0 +1,42 @@
+---
+title: FinLexicon Regulated Entity & Financial Knowledge Graph Registry
+homepage: https://huggingface.co/datasets/ww23fff/wiki
+category: Finance
+description: >-
+  Structured, citation-backed dataset of regulated financial institutions, central
+  counterparties (CCPs), foreign exchange dealers, digital asset venues, and
+  supervisory licence numbers across SEC, CFTC, FCA, ASIC, MAS, FINMA, BaFin,
+  and ESMA jurisdictions. Each record links canonical entity identifiers
+  (Wikidata QID, LEI, supervisory licence numbers, and 6-dimensional compliance
+  scorecards) with machine-readable JSON-LD and CSV exports published by the
+  FinLexicon Open Knowledge Foundation under CC BY 4.0.
+version: "2026-11"
+keywords: finance, regulation, knowledge graph, basel iii, isda, brokers, exchanges, compliance, csv, json
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://finlexicon.org/.well-known/openapi.json
+data_quality: true
+data_dictionary: https://finlexicon.org/datasets
+language: en
+license: CC BY 4.0
+publisher:
+  - name: FinLexicon Open Knowledge Foundation
+    web: https://finlexicon.org
+organization:
+  - name: FinLexicon Open Knowledge Foundation
+    web: https://finlexicon.org
+issued_time: 2026.11
+sources:
+  - name: Hugging Face Dataset Repository (JSONL / Parquet / Markdown)
+    access_url: https://huggingface.co/datasets/ww23fff/wiki
+  - name: FinLexicon Live Open Data Catalog (CSV & JSON)
+    access_url: https://finlexicon.org/datasets
+references:
+  - title: FinLexicon Regulatory Verification OpenAPI 3.1.0 Specification
+    reference: https://finlexicon.org/.well-known/openapi.json
+  - title: Creative Commons Attribution 4.0 International (CC BY 4.0)
+    reference: https://creativecommons.org/licenses/by/4.0/

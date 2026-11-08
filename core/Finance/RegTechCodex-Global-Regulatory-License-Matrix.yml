@@ -1,0 +1,41 @@
+---
+title: RegTech Codex Global Financial Regulatory License & Clone-Domain Matrix
+homepage: https://regtechcodex.org/datasets
+category: Finance
+description: >-
+  Cross-jurisdictional prudential supervision dataset mapping financial
+  institution licence numbers (FCA FRN, FinCEN MSB, ASIC AFSL, MAS CMS/MPI,
+  CySEC CIF, BaFin, FINMA), client money segregation tiers (CASS 7 / SEC Rule
+  15c3-3 / MiCA), 6-dimensional institutional safety scorecards, and regulator
+  clone-firm phishing domain warnings. Available via direct CSV/JSON downloads
+  and public CORS-enabled REST/OpenAPI endpoints under CC BY 4.0.
+version: "2026-11"
+keywords: regtech, financial regulation, fca, sec, asic, mas, esma, mica, license verification, open data
+image:
+temporal: 2026
+spatial: Global, EU, UK, US, APAC
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://regtechcodex.org/.well-known/openapi.json
+data_quality: true
+data_dictionary: https://regtechcodex.org/datasets
+language: en
+license: CC BY 4.0
+publisher:
+  - name: RegTech Codex Compliance Institute
+    web: https://regtechcodex.org
+organization:
+  - name: RegTech Codex Compliance Institute
+    web: https://regtechcodex.org
+issued_time: 2026.11
+sources:
+  - name: RegTech Codex Open Datasets (CSV & JSON)
+    access_url: https://regtechcodex.org/datasets
+  - name: Hugging Face Mirror (ww23fff/wiki)
+    access_url: https://huggingface.co/datasets/ww23fff/wiki
+references:
+  - title: RegTech Codex Regulatory Verification OpenAPI 3.1.0 Specification
+    reference: https://regtechcodex.org/.well-known/openapi.json
+  - title: Creative Commons Attribution 4.0 International (CC BY 4.0)
+    reference: https://creativecommons.org/licenses/by/4.0/

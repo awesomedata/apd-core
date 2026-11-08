@@ -1,0 +1,41 @@
+---
+title: QuantCalc Institutional VaR, Volatility Surface & Exchange Contract Benchmarks
+homepage: https://quantcalctools.com/datasets
+category: Finance
+description: >-
+  Public quantitative finance benchmark dataset covering parametric and Monte
+  Carlo Value-at-Risk (VaR), Expected Shortfall (CVaR), stochastic volatility
+  calibration parameters, and multi-exchange spot/perpetual contract
+  specifications (tick size, lot step, initial/maintenance margin tiers, and
+  liquidity audit telemetry). Published in CSV and JSON formats with no login
+  required under CC BY 4.0.
+version: "2026-11"
+keywords: quantitative finance, value at risk, volatility surface, derivatives, contract specifications, margin, csv, json
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification: https://quantcalctools.com/.well-known/openapi.json
+data_quality: true
+data_dictionary: https://quantcalctools.com/datasets
+language: en
+license: CC BY 4.0
+publisher:
+  - name: QuantCalc Analytics Ltd.
+    web: https://quantcalctools.com
+organization:
+  - name: QuantCalc Analytics Ltd.
+    web: https://quantcalctools.com
+issued_time: 2026.11
+sources:
+  - name: QuantCalc Open Datasets Portal (CSV & JSON)
+    access_url: https://quantcalctools.com/datasets
+  - name: Hugging Face Mirror (ww23fff/wiki)
+    access_url: https://huggingface.co/datasets/ww23fff/wiki
+references:
+  - title: QuantCalc OpenAPI 3.1.0 Specification
+    reference: https://quantcalctools.com/.well-known/openapi.json
+  - title: Creative Commons Attribution 4.0 International (CC BY 4.0)
+    reference: https://creativecommons.org/licenses/by/4.0/
