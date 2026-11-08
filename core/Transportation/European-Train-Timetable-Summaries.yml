@@ -1,6 +1,6 @@
 ---
 title: European Train Timetable Summaries
-homepage: https://glosx.app/last-train-europe/
+homepage: https://zenodo.org/records/23827431
 category: Transportation
 description: Station-to-station summaries of the official open railway timetables (GTFS) of Switzerland, Austria, Norway, Sweden, Finland and Spain. One CSV per country with first train, last train, number of direct trains per day, fastest and median journey time, for a weekday, Saturday and Sunday. Archived on Zenodo with a DOI.
 version: 1
@@ -29,3 +29,4 @@ sources:
 references:
   - title: How late is the last train? Main city pairs in 6 European countries
     reference: https://glosx.app/last-train-europe/
+
