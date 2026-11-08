@@ -1,0 +1,11 @@
+---
+title: Clometrix
+homepage: https://www.clometrix.com/cite
+category: Finance
+description: >-
+  How much Bitcoin and Ether move in the 15 minutes after each US economic release (CPI, payrolls, FOMC, PCE, PPI), against a normal 15 minutes, since 2021. Free.
+access_level: public
+language: en
+sources:
+  - name: CSV
+    access_url: https://www.clometrix.com/cite.csv
