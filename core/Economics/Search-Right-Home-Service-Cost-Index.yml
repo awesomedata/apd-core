@@ -1,0 +1,49 @@
+---
+title: Search Right Home Service Cost Index
+homepage: https://github.com/Desmond711/searchright-cost-index
+category: Economics
+description: >-
+  113 sourced U.S. household-service cost records across 22 trades (roofing, HVAC,
+  plumbing, painting, flooring, fencing, decking, moving, auto repair, homeowners
+  insurance and more), each carrying a figure, the publisher it came from, that
+  publisher's own date, and the licence. Records are typed by figure kind so a figure
+  can only be used for the claim it supports: 15 whole-job low-high ranges, 48 annual
+  running costs, 9 worker hourly wages, 6 single averages, 2 state-average spreads,
+  1 combined benchmark, 2 unit prices and 30 records that carry no dollar figure at
+  all. The typing is the point — a per-square-foot rate or a worker's wage is published
+  as such rather than dressed up as a price for a job. One JSON file, downloaded
+  directly with no login, sign-up or key. CC BY 4.0 with per-record attribution.
+version: '2026-11'
+keywords: >-
+  cost, pricing, home improvement, home services, construction, contractor, repair,
+  renovation, consumer prices, quote, estimate, united states
+image: https://www.searchright.io/og-default.png
+temporal: '2022-2026'
+spatial: United States
+access_level: public
+copyrights: Search Right (searchright.io)
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/Desmond711/searchright-cost-index/blob/main/SCHEMA.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Search Right
+    web: https://www.searchright.io
+organization:
+  - name: Search Right
+    web: https://www.searchright.io
+issued_time: '2026-11-08'
+sources:
+  - name: BLS Occupational Employment and Wage Statistics, May 2025
+    access_url: https://www.bls.gov/oes/
+  - name: Fixr cost guides
+    access_url: https://www.fixr.com/
+  - name: Remodeling Cost vs. Value Report
+    access_url: https://www.remodeling.hw.net/
+references:
+  - title: Human-readable dataset page
+    reference: https://www.searchright.io/data
+  - title: Schema, field definitions and per-kind limits
+    reference: https://github.com/Desmond711/searchright-cost-index/blob/main/SCHEMA.md
