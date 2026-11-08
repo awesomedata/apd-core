@@ -1,0 +1,33 @@
+---
+title: US Severe Weather Warning Counts by State, County and City
+homepage: https://github.com/kanevu93/us-severe-weather-warning-counts
+category: Climate+Weather
+description: Yearly counts of tornado, severe thunderstorm and flash flood warnings issued by the US National Weather Service for every state, county, DC, Puerto Rico and 3,614 cities since 2008, with tornado counts since 1950. Also winter storm, extreme cold, heat, wildfire, air quality, hurricane, high wind and flood counts, and the share of warnings that set off Wireless Emergency Alerts. CSV files, one per state plus one for all states (6,886 rows). Direct download, no key or account.
+version:
+keywords: tornado, severe thunderstorm, flash flood, warnings, National Weather Service, NWS, counties, Wireless Emergency Alerts, CSV
+image:
+temporal: 2008-present (tornadoes 1950-present)
+spatial: United States, 50 states, DC and Puerto Rico, 3,220 counties, 3,614 cities
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://kinwarn.com/about#how-we-count
+data_quality: false
+data_dictionary: https://github.com/kanevu93/us-severe-weather-warning-counts#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Kinwarn
+    web: https://kinwarn.com
+organization:
+  - name:
+    web:
+issued_time: 2026.10
+sources:
+  - name: National Weather Service warnings via the Iowa Environmental Mesonet
+    access_url: https://mesonet.agron.iastate.edu/
+  - name: Storm Prediction Center tornado database
+    access_url: https://www.spc.noaa.gov/wcm/
+references:
+  - title: How the warnings are counted
+    reference: https://kinwarn.com/about#how-we-count
