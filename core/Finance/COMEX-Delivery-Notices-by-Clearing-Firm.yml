@@ -1,0 +1,22 @@
+---
+title: COMEX Delivery Notices by Clearing Firm - Daily gold, silver, copper, platinum and palladium notices issued and stopped per firm
+homepage: https://thevaultreport.com/comex/deliveries
+category: Finance
+description: >-
+  Daily COMEX delivery notices for gold, silver, copper, platinum and palladium
+  broken out by clearing firm: who issued, who stopped, house and customer,
+  with month-to-date totals. Taken from CME Group's daily delivery report.
+keywords: COMEX, CME, gold, silver, copper, futures delivery, clearing firms, commodities
+temporal: 2026 / ongoing
+spatial: United States
+access_level: public
+accrual_periodicity: daily
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Vault Report
+    web: https://thevaultreport.com/
+issued_time: 2026.01
+sources:
+  - name: Web page, updated each business day
+    access_url: https://thevaultreport.com/comex/deliveries
