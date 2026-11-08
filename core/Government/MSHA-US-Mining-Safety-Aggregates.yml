@@ -1,0 +1,35 @@
+---
+title: MSHA US Mining Safety Aggregates
+homepage: https://miningincidents.org/fatalities-by-year
+category: Government
+description: Three yearly and per-state tables built from US Mine Safety and Health Administration (MSHA) records. Mining fatalities by year since 1983 (total, coal, metal/non-metal) from MSHA Part 50 accident reports, with duplicate filings of the same fatal accident counted once. Civil penalty assessments by violation year since 2000 (assessed violations, proposed, assessed, paid and outstanding dollars) from MSHA assessment data. Abandoned mine features per state from USGS topographic maps, OSMRE AMLIS problem areas and MSHA's abandoned-mine list. The current year is partial; the tables refresh weekly.
+version:
+keywords: mining, mine safety, MSHA, fatalities, occupational safety, civil penalties, abandoned mines, AMLIS, USGS, coal
+image:
+temporal: 1983 to present (fatalities), 2000 to present (penalties)
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: U.S. Government Works (public domain source data)
+publisher:
+  - name: US Mine Safety and Health Administration (MSHA)
+    web: https://www.msha.gov/data-and-reports/mine-data-retrieval-system
+organization:
+  - name: Mining Incidents
+    web: https://miningincidents.org
+issued_time:
+sources:
+  - name: US mining fatalities by year, 1983 to present (CSV)
+    access_url: https://miningincidents.org/fatalities-by-year.csv
+  - name: MSHA civil penalties by violation year, 2000 to present (CSV)
+    access_url: https://miningincidents.org/penalties-by-year.csv
+  - name: Abandoned mine features by state (CSV)
+    access_url: https://miningincidents.org/abandoned-mines.csv
+references:
+  - title:
+    reference:
