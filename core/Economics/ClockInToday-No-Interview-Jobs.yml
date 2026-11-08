@@ -1,0 +1,31 @@
+---
+title: ClockInToday No-Interview Jobs Dataset
+homepage: https://github.com/crewdog77/clockintoday-data
+category: Economics
+description: Requirements and pay terms for 112 US jobs and gig platforms that hire without a job interview (delivery and rideshare apps, shift and staffing apps, online work, surveys, plasma donation and paid studies). For each platform it records minimum age, whether a criminal background check is run, vehicle needed, payout speed, reported pay with its source, and worker type (W-2 or contractor), taken from each company's own pages. Rechecked monthly. CSV.
+version: 2026.11
+keywords: gig economy, labor economics, gig work, background checks, worker classification, minimum age, payout, platform work, second-chance hiring
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://clockintoday.com/how-we-check/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: ClockInToday
+    web: https://clockintoday.com/
+organization:
+  - name: ClockInToday
+    web: https://clockintoday.com/
+issued_time: 2026.11
+sources:
+  - name: No-interview jobs dataset (CSV)
+    access_url: https://raw.githubusercontent.com/crewdog77/clockintoday-data/main/clockintoday-no-interview-jobs-data.csv
+references:
+  - title: Methodology - How we check listings
+    reference: https://clockintoday.com/how-we-check/
