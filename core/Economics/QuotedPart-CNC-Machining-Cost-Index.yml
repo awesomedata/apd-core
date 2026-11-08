@@ -1,0 +1,33 @@
+---
+title: QuotedPart CNC Machining Cost Index
+homepage: https://github.com/Helios-One-Oy/cnc-machining-cost-index
+category: Economics
+description: Monthly cost estimates for a fixed basket of 26 CNC parts (3-axis and 5-axis milling, turning, Swiss turning, laser-cut sheet) plus 2 reference parts re-priced in 10 materials, each at quantities 1, 10, 100 and 1,000 (184 rows per edition). Every row gives unit and lot price, cost per part, the share of setup, run time, material and outside finishing, setup minutes per lot, run minutes per part and lead time. Figures are produced by one pricing engine at documented default US machine rates and material prices, so they are engine estimates, not a survey of shop quotes. Published by the maker of QuotedPart, a commercial quoting tool.
+version: 2026-11
+keywords: CNC machining, manufacturing cost, cost estimation, machining price, job shop, setup time, cycle time, material cost, sheet metal, turning, milling
+image:
+temporal: 2026-11 (monthly editions)
+spatial: United States (default US rates)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://quotedpart.com/cnc-machining-cost-index#methodology
+data_quality: false
+data_dictionary: https://github.com/Helios-One-Oy/cnc-machining-cost-index#columns
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: Helios One Oy (QuotedPart)
+    web: https://quotedpart.com
+organization:
+  - name: Helios One Oy
+    web: https://quotedpart.com
+issued_time: 2026.11
+sources:
+  - name: CSV, November 2026 edition
+    access_url: https://github.com/Helios-One-Oy/cnc-machining-cost-index/tree/main/data
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.24030047)
+    reference: https://doi.org/10.5281/zenodo.24030047
+  - title: Method and charts
+    reference: https://quotedpart.com/cnc-machining-cost-index
