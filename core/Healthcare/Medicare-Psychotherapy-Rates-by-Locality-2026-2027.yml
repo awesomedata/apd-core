@@ -1,0 +1,34 @@
+---
+title: Medicare Psychotherapy Payment Rates by Locality, 2026 and 2027
+homepage: https://github.com/onlinetherapyme/online-therapy-open-data
+category: Healthcare
+description: What Medicare pays for each psychotherapy and behavioral health code (90791, 90832, 90834, 90837, 90846, 90847, 90853, 90839, 90840, 90785, 96127) in each of Medicare's 109 payment localities, for 2026 and for 2027 under the CMS physician fee schedule final rule (CMS-1848-F). Non-facility and facility rates at the full rate, the 85% rate (psychiatric NPs and PAs) and the 75% rate (LCSWs, LMFTs and LPCs). Computed from CMS's RVU, GPCI and conversion factor files and checked against the payment amounts CMS publishes. One CSV, no login.
+version: 2026.11
+keywords: Medicare, physician fee schedule, psychotherapy, CPT 90837, behavioral health, LCSW, mental health, reimbursement, CMS, locality
+temporal: 2026-2027
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: yearly, with each CMS physician fee schedule rule
+specification:
+data_quality: true
+data_dictionary: https://github.com/onlinetherapyme/online-therapy-open-data#2-medicare-psychotherapy-rates-by-locality-2026-and-2027
+language: en
+license: CC BY 4.0
+publisher:
+  - name: OnlineTherapy.me
+    web: https://onlinetherapy.me
+organization:
+  - name: OnlineTherapy.me
+    web: https://onlinetherapy.me/about
+issued_time: 2026-11
+sources:
+  - name: medicare-psychotherapy-rates-2026-2027.csv
+    access_url: https://raw.githubusercontent.com/onlinetherapyme/online-therapy-open-data/main/medicare-psychotherapy-rates-2026-2027.csv
+  - name: Zenodo record (DOI 10.5281/zenodo.24086523)
+    access_url: https://doi.org/10.5281/zenodo.24086523
+references:
+  - title: CMS Physician Fee Schedule (source files)
+    reference: https://www.cms.gov/medicare/payment/fee-schedules/physician
+  - title: Methodology and lookup by state, locality and license
+    reference: https://onlinetherapy.me/for-therapists/medicare-rates
