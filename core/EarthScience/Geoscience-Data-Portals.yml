@@ -1,0 +1,26 @@
+---
+title: Geoscience Data Portals
+homepage: https://github.com/XploraHub/geoscience-data-portals
+category: EarthScience
+description: A catalogue of government geoscience data portals used in mineral exploration, covering Australia, Canada, the United States, the UK, Ireland, the Nordic countries, Saudi Arabia and India. Each entry records what the portal holds (geological maps, geochemistry, geophysics, drillholes, reports), how to get the data, the licence as the agency states it and when it was last checked. Published as CSV, GeoJSON and QGIS connection files for the portals' WMS and WFS services, which are tested nightly.
+version: 1.1.0
+keywords: geology, geophysics, geochemistry, drillholes, mineral exploration, WMS, WFS
+image:
+temporal:
+spatial: Australia, Canada, United States, United Kingdom, Ireland, Sweden, Finland, Norway, Greenland, Saudi Arabia, India
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/XploraHub/geoscience-data-portals/tree/main/schema
+language: en
+license: CC BY 4.0
+publisher: XploraHub
+organization: XploraHub
+issued_time: 2026-11-07
+sources:
+- name: Zenodo record (DOI 10.5281/zenodo.24028841)
+  access_url: https://doi.org/10.5281/zenodo.24028841
+- name: portals.csv
+  access_url: https://github.com/XploraHub/geoscience-data-portals/blob/main/portals.csv
