@@ -1,0 +1,26 @@
+---
+title: Space Resources Organizations and Missions (SpaceMiningData)
+homepage: https://spaceminingdata.com/data.html
+category: Physics
+description: >-
+  Source-linked records of organizations, missions, authorizations, legal
+  frameworks and dated events concerning lunar, asteroid and Mars resources.
+  CSV and JSON downloads include evidence levels distinguishing demonstrated
+  work from plans and claims; lunar-site data also have a GeoJSON export.
+  Coverage is selective and includes proposals, not only flown missions or
+  demonstrated extraction.
+access_level: public
+language: en
+license: CC BY 4.0; quoted source excerpts retain their owners' rights
+publisher:
+  - name: SpaceMiningData
+    web: https://spaceminingdata.com/data.html
+sources:
+  - name: Structured dataset (JSON)
+    access_url: https://spaceminingdata.com/data/spaceminingdata.json
+  - name: Organizations (CSV)
+    access_url: https://spaceminingdata.com/data/entities.csv
+  - name: Missions (CSV)
+    access_url: https://spaceminingdata.com/data/missions.csv
+  - name: Lunar sites (GeoJSON)
+    access_url: https://spaceminingdata.com/data/lunar-sites.geo.json
