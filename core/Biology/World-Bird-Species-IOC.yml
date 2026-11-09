@@ -1,21 +1,21 @@
 ---
-title: World Bird Species (IOC 15.2) with multilingual names and cross-database IDs
+title: World Bird Species (AviList v2026) with multilingual names and cross-database IDs
 homepage: https://huggingface.co/datasets/yunfeichen/world-bird-species
 category: Biology
-description: One record for each of the 11,064 living bird species in the IOC World Bird List v15.2 (44 orders, 250 families). Taxonomy, common names in 43 languages from the IOC multilingual list, Wikidata/eBird/GBIF/iNaturalist IDs, breeding and non-breeding ranges, subspecies, AVONET morphological and ecological traits, IUCN and CITES status. CSV and JSON. The source repository also includes an AI-drawn illustration per species with its review score.
-version: IOC 15.2
-keywords: birds, ornithology, taxonomy, biodiversity, species, multilingual names, eBird, GBIF, Wikidata, AVONET, IUCN
+description: One record for each of 11,011 bird species following the AviList v2026 global checklist (45 orders, 249 families); every species not flagged as extinct or possibly extinct is included, plus 43 flagged species kept from the earlier collection. Taxonomy, common names in up to 43 languages, Avibase/eBird/Wikidata/GBIF/iNaturalist IDs where available, ranges, subspecies, AVONET morphological and ecological traits, IUCN and CITES status, and a crosswalk from IOC 15.2. CSV and JSON. The source repository also includes an AI-generated illustration per species (CC BY 4.0) with its AI review score.
+version: 2.3.1 (AviList v2026)
+keywords: birds, ornithology, taxonomy, biodiversity, species, multilingual names, AviList, eBird, Avibase, GBIF, Wikidata, AVONET, IUCN
 image: https://raw.githubusercontent.com/alchaincyf/huashu-bird-sticker/main/previews/hero.webp
 temporal:
 spatial: global
 access_level: public
-copyrights: Compiled data MIT; IOC names CC BY 3.0; AVONET CC BY 4.0; Wikidata CC0
+copyrights: Compiled data MIT; AviList CC BY 4.0; IOC names CC BY 3.0; AVONET CC BY 4.0; Wikidata CC0
 accrual_periodicity:
 specification: https://github.com/alchaincyf/huashu-bird-sticker/blob/main/data/README.md
 data_quality: false
 data_dictionary: https://github.com/alchaincyf/huashu-bird-sticker/blob/main/data/README.md
 language: en
-license: MIT (compiled data) / CC BY 3.0 (IOC names) / CC BY 4.0 (AVONET)
+license: MIT (compiled data) / CC BY 4.0 (AviList, AVONET) / CC BY 3.0 (IOC names)
 publisher:
   - name: Huashu (alchaincyf)
     web: https://github.com/alchaincyf
@@ -26,8 +26,14 @@ issued_time: 2026.10
 sources:
   - name: GitHub repository (data/ folder)
     access_url: https://github.com/alchaincyf/huashu-bird-sticker/tree/main/data
-  - name: IOC World Bird List v15.2
+  - name: AviList v2026
+    access_url: https://www.avilist.org/
+  - name: IOC World Bird List v15.2 (multilingual names)
     access_url: https://www.worldbirdnames.org/
 references:
+  - title: AviList Core Team. 2026. AviList, The Global Avian Checklist, v2026
+    reference: https://doi.org/10.2173/avilist.v2026
   - title: AVONET, Tobias et al. 2022, Ecology Letters
     reference: https://doi.org/10.1111/ele.13898
+  - title: huashu-bird-sticker on Zenodo
+    reference: https://doi.org/10.5281/zenodo.23968399
