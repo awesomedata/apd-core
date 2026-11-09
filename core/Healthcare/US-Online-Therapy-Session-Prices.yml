@@ -1,0 +1,32 @@
+---
+title: US Online Therapy Session Prices Without Insurance
+homepage: https://github.com/onlinetherapyme/online-therapy-open-data
+category: Healthcare
+description: What one therapy session costs without insurance at the 22 US online therapy services that publish a per-session self-pay price (Teladoc, MDLIVE, Doctor On Demand, Cerebral, Rula, Thriveworks, Headspace and others), as each service's own page states it. One row per service with the price as printed, the session price in dollars, the first-session price where it differs, session length, the date checked and the source page URL. Re-checked against each source page.
+version: 2026.11
+keywords: mental health, therapy cost, telehealth, online therapy, self-pay prices, healthcare prices, psychotherapy
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/onlinetherapyme/online-therapy-open-data#1-online-therapy-session-prices-without-insurance
+language: en
+license: CC BY 4.0
+publisher:
+  - name: OnlineTherapy.me
+    web: https://onlinetherapy.me
+organization:
+  - name: OnlineTherapy.me
+    web: https://onlinetherapy.me/about
+issued_time: 2026-11
+sources:
+  - name: online-therapy-session-prices.csv
+    access_url: https://raw.githubusercontent.com/onlinetherapyme/online-therapy-open-data/main/online-therapy-session-prices.csv
+  - name: Zenodo record (DOI 10.5281/zenodo.23772949)
+    access_url: https://doi.org/10.5281/zenodo.23772949
+references:
+  - title: Methodology (how each price is read and checked)
+    reference: https://onlinetherapy.me/methodology
