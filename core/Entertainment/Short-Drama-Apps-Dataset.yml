@@ -1,0 +1,39 @@
+---
+title: Short Drama Apps Dataset (App Store and Google Play)
+homepage: https://github.com/ezrocky/short-drama-apps-dataset
+category: Entertainment
+description: Store facts and aggregated user-review signals for short drama (vertical micro-drama) streaming apps such as ReelShort, DramaBox, ShortMax and FreeReels. One row per app with US App Store and Google Play ratings and rating counts, the Google Play install band, in-app prices from the App Store's top in-app purchases list, the share of a sample of recent user reviews that complain about billing, ads, paywalls and bugs or praise the shows (reviews labeled by theme automatically; only shares are published, no review text), and a data-based score with rank. Updated weekly, with a CSV snapshot kept for every month. Apple lists only the most popular in-app purchases, so the price range and the subscription flag describe that top list only.
+version: "2026-11"
+keywords: short drama, vertical drama, micro-drama, mobile apps, streaming, app store, google play, ratings, in-app purchases, subscriptions, user reviews
+image:
+temporal: 2026-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: weekly, with monthly snapshots
+specification:
+data_quality: false
+data_dictionary: https://github.com/ezrocky/short-drama-apps-dataset#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Vertical Drama Reviews
+    web: https://verticaldramareviews.com
+organization:
+  - name: Vertical Drama Reviews
+    web: https://verticaldramareviews.com/about
+issued_time: 2026.11.09
+sources:
+  - name: short-drama-apps.csv (current snapshot, CSV download)
+    access_url: https://github.com/ezrocky/short-drama-apps-dataset/raw/main/data/short-drama-apps.csv
+  - name: short-drama-apps.json (same values plus field definitions)
+    access_url: https://github.com/ezrocky/short-drama-apps-dataset/raw/main/data/short-drama-apps.json
+  - name: Monthly snapshots (CSV)
+    access_url: https://github.com/ezrocky/short-drama-apps-dataset/tree/main/data/history
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/verticaldramareviews/short-drama-apps-dataset
+  - name: Zenodo archive, DOI 10.5281/zenodo.24092219 (all versions)
+    access_url: https://doi.org/10.5281/zenodo.24092219
+references:
+  - title: Field dictionary, methodology and citation formats
+    reference: https://verticaldramareviews.com/data
