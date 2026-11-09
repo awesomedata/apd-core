@@ -1,0 +1,37 @@
+---
+title: GPU Cloud Rental Prices
+homepage: https://github.com/hundredthrun/gpu-cloud-prices
+category: Economics
+description: Public GPU rental prices (H100, H200, B200, B300, GB200, GB300, A100, L40S, MI300X, MI355X) from 25 cloud providers, normalized to USD per GPU-hour, with on-demand and spot rows kept separate. Every row carries the provider page it was read from, the date it was read, the fetch method (official API, static HTML or by hand), the price as originally listed and a confidence level. Multi-GPU node prices are divided by GPU count, and anything a provider does not publish stays blank rather than estimated. Daily history snapshots of the median price per GPU start 2026-11-04. Delivered as CSV and JSON, with mirrors on Hugging Face and Kaggle and a pandas starter notebook.
+version: 1.0
+keywords: GPU, cloud computing, pricing, H100, B200, A100, spot instances, AI infrastructure, time series
+image: https://raw.githubusercontent.com/hundredthrun/gpu-cloud-prices/main/assets/cover.png
+temporal: 2026-11-04 onward
+spatial: global
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/hundredthrun/gpu-cloud-prices#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Hundredth Run
+    web: https://github.com/hundredthrun
+organization:
+  - name: Hundredth Run
+    web: https://github.com/hundredthrun
+issued_time: 2026.11
+sources:
+  - name: GPU prices (CSV)
+    access_url: https://github.com/hundredthrun/gpu-cloud-prices/blob/main/data/gpu_prices.csv
+  - name: GPU prices with provider fetch status (JSON)
+    access_url: https://github.com/hundredthrun/gpu-cloud-prices/blob/main/data/gpu_prices.json
+  - name: Daily history snapshots
+    access_url: https://github.com/hundredthrun/gpu-cloud-prices/tree/main/data/history
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/hundredthrun/gpu-cloud-prices
+references:
+  - title: Starter notebook (pandas)
+    reference: https://github.com/hundredthrun/gpu-cloud-prices/blob/main/notebooks/gpu-cloud-prices-starter.ipynb
