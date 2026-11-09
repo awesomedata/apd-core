@@ -1,0 +1,34 @@
+---
+title: OrganWatch - US Organ Procurement Organization Oversight Data
+homepage: https://morvs.ai/voidly/organwatch/
+category: Healthcare
+description: Dossiers for all 57 US organ procurement organizations (OPOs) built from federal records - CMS performance tiers for program years 2021 and 2023, UNOS/OPTN membership and oversight actions, HRSA notices, and 513 dated, source-cited findings. Institution-level only; no patient or donor data. JSON downloads plus a keyless API.
+version: 2026.10
+keywords: organ procurement, OPO, CMS, HRSA, OPTN, UNOS, transplant, healthcare oversight, public records
+temporal: 2021-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: with each CMS performance release
+specification:
+data_quality: true
+data_dictionary: https://morvs.ai/voidly/organwatch/methodology/
+language: en
+license: CC BY 4.0
+publisher:
+  - name: MORVS
+    web: https://morvs.ai
+organization:
+  - name: AI Analytics LLC
+    web: https://morvs.ai/about/
+issued_time: 2026-07
+sources:
+  - name: OrganWatch index (JSON)
+    access_url: https://morvs.ai/organwatch/index.json
+  - name: Dataset catalog (JSON)
+    access_url: https://morvs.ai/voidly/datasets.json
+references:
+  - title: Methodology and sources
+    reference: https://morvs.ai/voidly/organwatch/methodology/
+  - title: CMS OPO Conditions for Coverage (source records)
+    reference: https://www.cms.gov/medicare/health-safety-standards/certification-compliance/organ-procurement-organizations
