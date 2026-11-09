@@ -1,0 +1,42 @@
+---
+title: PCSO Lotto Results (Philippines), updated daily
+homepage: https://huggingface.co/datasets/lottotayo/pcso-lotto-results
+category: Government
+description: "Every official draw of the Philippine Charity Sweepstakes Office (PCSO) lotto games since January 2024: Ultra Lotto 6/58, Grand Lotto 6/55, Super Lotto 6/49, Mega Lotto 6/45, Lotto 6/42, 6D, 4D, Swertres (3D) and EZ2 (2D), including the 2PM, 5PM and 9PM digit-game draws, the jackpot amount and the number of jackpot winners. One row per draw with typed columns (date, time, numbers, jackpot, winners, source URL), published as CSV and Parquet. Refreshed automatically every day within minutes of PCSO publishing the batch, by an open pipeline on GitHub that fetches PCSO's own results search. For analysis and verification, not prediction."
+version: "2026-11"
+keywords:
+  - Philippines
+  - PCSO
+  - lottery results
+  - lotto
+  - open government data
+  - time series
+  - daily update
+image:
+temporal: 2024-01-02 to present (daily)
+spatial: Philippines
+access_level: public
+copyrights: "Compilation CC BY 4.0 (attribution: Lotto Tayo, lottotayo.ph); the underlying results are public facts published by PCSO."
+accrual_periodicity: Daily
+specification: https://huggingface.co/datasets/lottotayo/pcso-lotto-results/blob/main/README.md
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/lottotayo/pcso-lotto-results/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Lotto Tayo
+    web: https://lottotayo.ph/
+organization:
+  - name: Lotto Tayo
+    web: https://lottotayo.ph/
+issued_time: "2026-11-09"
+sources:
+  - name: Dataset on Hugging Face (CSV, Parquet, dataset card)
+    access_url: https://huggingface.co/datasets/lottotayo/pcso-lotto-results
+  - name: Raw per-game JSON and the collection pipeline (GitHub)
+    access_url: https://github.com/kimken147/pcso-results-data
+  - name: Philippine Charity Sweepstakes Office results search
+    access_url: https://www.pcso.gov.ph/SearchLottoResult.aspx
+references:
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/jmzerr6mv2het/pcso-lotto-results
