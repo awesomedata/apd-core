@@ -1,0 +1,31 @@
+---
+title: US House Members' Stock Trades (Periodic Transaction Reports)
+homepage: https://huggingface.co/datasets/OptimistFi/house-stock-trades
+category: Finance
+description: Every trade disclosed by members of the US House of Representatives on their periodic transaction reports under the STOCK Act, read from the House Clerk's filings since 2015 (78,077 trades from 7,727 reports as of November 2026). One CSV of trades per year, each row linked to the filing's PDF, with the member, district and party, the owner (member, spouse, joint, dependent child), account, asset and ticker, transaction type, partial sale, trade and notification dates, amount band, capital-gains box and filing status (new or amended). filings.csv lists every report on the Clerk's roster with how many trades were read from it, or why none were. Trades read from scanned paper forms (22,429) are marked as such. Rebuilt daily. House only; Senate filings are not included.
+version: "2026-11-09"
+keywords: congress, STOCK Act, periodic transaction reports, PTR, House of Representatives, financial disclosures, stock trading, government ethics, United States
+image:
+temporal: 2015-
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://huggingface.co/datasets/OptimistFi/house-stock-trades
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/OptimistFi/house-stock-trades
+language: en
+license: CC BY 4.0
+publisher:
+  - name: OptimistFi
+    web: https://optimistfi.com
+organization:
+  - name: Office of the Clerk, US House of Representatives (source filings)
+    web: https://disclosures-clerk.house.gov/FinancialDisclosure
+issued_time: 2026-11-07
+sources:
+  - name: US House Clerk financial disclosure reports (PTRs)
+    access_url: https://disclosures-clerk.house.gov/FinancialDisclosure
+references:
+  - title:
+    reference:
