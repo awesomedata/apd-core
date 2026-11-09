@@ -1,0 +1,42 @@
+---
+title: Spring Prompt Business-Task LLM Benchmarks
+homepage: https://huggingface.co/datasets/elliscrosby/springprompt-business-benchmarks
+category: MachineLearning
+description: >-
+  Results for 47 language models from 20 developers on five benchmarks built
+  from business work rather than exam questions: writing product listings
+  from sparse feeds (CatalogBench), turning an analysis into a slide deck
+  (DeckBench), planning and analysing a user survey (SurveyBench), running a
+  simulated paid-marketing budget for twelve months (ROASBench) and timed
+  chess against Stockfish where thinking time counts (BulletBench). One row
+  per model, setting and measure, with the value, a 95% range where
+  available, date observed, sample size, reasoning setting, serving provider
+  and judge model. Also includes the public tasks for three benchmarks as
+  JSON and a combined percentile score. CSV, direct download, no login.
+version: "2026-11-09"
+keywords: large language models, LLM evaluation, benchmarks, e-commerce, marketing, business tasks, open data
+temporal: 2026-09-29 to 2026-11-04
+spatial: Worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_dictionary: https://springprompt.com/benchmarks/about
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Spring Prompt
+    web: https://springprompt.com
+organization:
+  - name: Spring Prompt
+    web: https://springprompt.com
+issued_time: 2026.11
+sources:
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/elliscrosby/springprompt-business-benchmarks
+  - name: Kaggle copy
+    access_url: https://www.kaggle.com/datasets/ellisjbc/spring-prompt-business-task-llm-benchmarks
+  - name: Current version (CSV and JSON)
+    access_url: https://springprompt.com/data
+references:
+  - title: What each benchmark tests and how it is scored
+    reference: https://springprompt.com/benchmarks/about
