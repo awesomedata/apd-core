@@ -1,0 +1,21 @@
+---
+title: Regional Price Index - Digital Subscription Prices by Country
+homepage: https://github.com/vidneat/regional-price-index-data
+category: Economics
+description: Local list prices of digital subscriptions, games and devices (AI, streaming, productivity, cloud, Steam, Apple hardware) observed across 18 country storefronts and four checkout channels (iOS App Store, Google Play, direct web, Steam). Includes FX-converted USD, gift-card-adjusted landed cost, IMF PPP and work-hour affordability, and a per-row verification tier. Every row was observed on an official storefront or vendor page; storefronts that weren't observed are left out, not estimated. CSV, JSON and a Frictionless Data Package, released monthly with a Zenodo DOI (10.5281/zenodo.23959564), plus a free CORS JSON API.
+version: 2026.11
+keywords: regional pricing, subscription prices, app store, google play, steam, purchasing power parity, price index
+image:
+temporal: 2026
+spatial: 18 countries
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/vidneat/regional-price-index-data/blob/main/data/2026-11/datapackage.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: RegionalPriceIndex.com
+    web: https://regionalpriceindex.com/
