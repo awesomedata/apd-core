@@ -1,0 +1,33 @@
+---
+title: "Anime Filler Episodes: 13 Long Anime"
+homepage: https://huggingface.co/datasets/FillerLists/anime-filler-episodes
+category: Entertainment
+description: Every episode of 13 long-running anime (One Piece, Naruto, Naruto Shippuden, Bleach, Dragon Ball, Dragon Ball Z, Fairy Tail, Black Clover, Boruto, My Hero Academia, Inuyasha, Hunter x Hunter 2011 and Jujutsu Kaisen), 4,076 episodes in all, each labelled filler, mixed, anime canon or canon. Each label is checked against two independent sources (Fandom episode wikis and Japanese or English Wikipedia), and disagreements are settled by hand with cited reviews. Rows also carry the English title, first Japanese air date, story arc and TVmaze episode ID, so the data joins with TVmaze. One CSV with every episode plus one JSON and CSV file per show.
+version: "2026-11-03"
+keywords: anime, filler episodes, canon, episode guide, television, one piece, naruto, bleach, dragon ball, tvmaze, csv, json
+image:
+temporal: 1986 to 2026 (Japanese air dates)
+spatial: Japan (original broadcasts)
+access_level: public
+copyrights: Built on TVmaze episode records (CC BY-SA 4.0) and checked against Fandom wikis (CC BY-SA 3.0) and Wikipedia (CC BY-SA 4.0); labels and arcs by FillerLists.
+accrual_periodicity: Updated when new episodes air or a label is corrected
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/FillerLists/anime-filler-episodes#fields
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: FillerLists
+    web: https://fillerlists.com/
+organization:
+  - name: FillerLists
+    web: https://fillerlists.com/
+issued_time: 2026.11.03
+sources:
+  - name: all.csv (every episode, CSV)
+    access_url: https://huggingface.co/datasets/FillerLists/anime-filler-episodes/resolve/main/data/all.csv
+  - name: shows.json (index of shows)
+    access_url: https://huggingface.co/datasets/FillerLists/anime-filler-episodes/resolve/main/data/shows.json
+references:
+  - title: How each label is decided (method and corrections)
+    reference: https://fillerlists.com/about#method
