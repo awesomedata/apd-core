@@ -1,0 +1,37 @@
+---
+title: Career Site Jobs - one day of new job postings from company career sites
+homepage: https://github.com/AnointedxWolf/career-site-jobs-sample
+category: Economics
+description: >-
+  Every job posted on one day (November 5, 2026) by 5,033 employers on their own career sites, read directly from
+  eight applicant tracking systems (Workday, Greenhouse, SmartRecruiters, Ashby, Lever, Recruitee, Workable,
+  Personio) rather than from job boards, so there are no reposts or aggregator duplicates. 31,752 rows, one per
+  posting, with title, company, location, ISO country, remote/hybrid/onsite when stated, seniority, job type,
+  department, pay range when the employer's system has a pay field, the employer's posting time and the original
+  job URL. 14,197 US postings, then India, UK, Canada, Germany, France and Australia. Known limits (pay present
+  for ~2% of rows, workplace type often unstated, repeated openings) are documented in the README.
+version: 1.0
+keywords: job postings, labour market, hiring, career sites, ATS, Workday, Greenhouse, Lever, Ashby, SmartRecruiters, CSV
+temporal: 2026-11-05
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/AnointedxWolf/career-site-jobs-sample#readme
+language: en
+license: Creative Commons Attribution 4.0
+publisher:
+  - name: Career Site Jobs
+    web: https://github.com/AnointedxWolf/career-site-jobs-sample
+organization:
+  - name: Career Site Jobs
+    web: https://github.com/AnointedxWolf/career-site-jobs-sample
+issued_time: 2026.11
+sources:
+  - name: CSV (7 MB)
+    access_url: https://github.com/AnointedxWolf/career-site-jobs-sample/blob/main/jobs-posted-2026-11-05.csv
+references:
+  - title: Column guide and known limits
+    reference: https://github.com/AnointedxWolf/career-site-jobs-sample#readme
