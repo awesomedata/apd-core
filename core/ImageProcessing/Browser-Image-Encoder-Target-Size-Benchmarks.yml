@@ -1,0 +1,35 @@
+---
+title: Browser Image Encoder Target-Size Benchmarks
+homepage: https://github.com/mingyuetutu0527-glitch/exact-size-benchmarks
+category: ImageProcessing
+description: 108 measured runs of the browser's own JPEG and WebP encoders at fixed target byte sizes from 20 KB to 1 MB, across synthetic photo, screenshot and flat-colour sources at three resolutions. Each row records the quality and downscale factor chosen by a binary search, the final output dimensions and the resulting byte size; the measurement harness and method needed to reproduce every row are included.
+version: 1.0
+keywords: image compression, JPEG, WebP, canvas, browser, target file size, benchmark
+image:
+temporal: 2026
+spatial: 800x600, 1920x1080, 4000x3000
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: MIT
+publisher:
+  - name:
+    web:
+organization:
+  - name:
+    web:
+issued_time: 2026.11
+sources:
+  - name: GitHub repository
+    access_url: https://github.com/mingyuetutu0527-glitch/exact-size-benchmarks
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.23916007
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/mingyuetutu0527/browser-encoder-benchmarks
+references:
+  - title: Method and reproducibility notes
+    reference: https://github.com/mingyuetutu0527-glitch/exact-size-benchmarks/blob/master/METHOD.md
