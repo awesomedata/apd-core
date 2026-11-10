@@ -1,0 +1,33 @@
+---
+title: Keukenprijs-index Nederland 2026
+homepage: https://github.com/alfareclame/keukenprijs-index
+category: Economics
+description: Indicative prices for a complete new kitchen in the Netherlands, per layout (4 layouts), price segment and 15 brands, in EUR incl. VAT, appliances and installation. Compiled by Keuken in Beeld, which does not sell kitchens. The figures are indicative price levels (28 observations), not transaction data. Available as JSON and CC BY 4.0 licensed.
+version: 2026
+keywords: kitchen prices, Netherlands, price index, home improvement, consumer prices, renovation, open data
+image:
+temporal: 2026
+spatial: Netherlands
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://keukeninbeeld.nl/keukenprijs-index
+language: nl
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Keuken in Beeld
+    web: https://keukeninbeeld.nl/
+organization:
+  - name: Keuken in Beeld
+    web: https://keukeninbeeld.nl/
+issued_time: 2026.09
+sources:
+  - name: Keukenprijs-index JSON
+    access_url: https://keukeninbeeld.nl/keukenprijs-index.json
+  - name: Keukenprijs-index source repository
+    access_url: https://github.com/alfareclame/keukenprijs-index
+references:
+  - title: Keukenprijs-index Nederland 2026 (documentation)
+    reference: https://keukeninbeeld.nl/keukenprijs-index
