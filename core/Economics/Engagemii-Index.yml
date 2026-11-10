@@ -1,0 +1,37 @@
+---
+title: Engagemii Index (AI visibility of companies)
+homepage: https://engagemii.com/sample
+category: Economics
+description: How visible companies are to AI assistants (ChatGPT, Claude, Perplexity, Gemini and others). Free sample of 500 US companies with an AI visibility score, which AI engines read about each company and how often, industry, location, tech stack and business relationships on record (113 columns, CSV). A second free list covers 1 million companies with website, AI visibility level (High/Medium/Low), whether AI engines read about the company in the last 30 days and whether it has business relationships on record. Both are samples of the Engagemii Index, which covers 82 million+ companies.
+version: 2026.11
+keywords: companies, business, artificial intelligence, AI search, AI visibility, marketing, sales, firmographics, web crawlers
+image:
+temporal: 2026
+spatial: United States (500 sample), worldwide (1 million list)
+access_level: public
+copyrights: CC BY 4.0, Engagemii, LLC
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/engagemii/engagemii-index-free-sample/blob/main/columns.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Engagemii
+    web: https://engagemii.com
+organization:
+  - name: Engagemii
+    web: https://engagemii.com
+issued_time: 2026.11
+sources:
+  - name: 500-company sample (CSV, GitHub)
+    access_url: https://github.com/engagemii/engagemii-index-free-sample
+  - name: 500-company sample (Kaggle)
+    access_url: https://www.kaggle.com/datasets/gregorypellitteri/ai-visibility-of-500-us-companies
+  - name: 500 sample and 1 million list (download page)
+    access_url: https://engagemii.com/sample
+  - name: 1 million company list (Databricks Marketplace, free)
+    access_url: https://marketplace.databricks.com/details/4ac9af6a-667c-4fa3-9534-45402ef73108/Engagemii_Engagemii-Index-1-Million-Companies-Free
+references:
+  - title: Engagemii Index
+    reference: https://engagemii.com
