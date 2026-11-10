@@ -1,8 +1,8 @@
 ---
 title: Polisa - Insurance market data for 18 Central and Eastern European markets
-homepage: https://polisapro.com
+homepage: https://polisapro.com/data
 category: Finance
-description: Premium by line of business, market shares, solvency ratios, combined ratios, net profit and return on equity for 349 insurers and 45 insurance groups in 18 Central and Eastern European insurance markets (Poland, Czechia, Slovakia, Hungary, Romania, Bulgaria, Croatia, Slovenia, Lithuania, Latvia, Estonia, Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo*, Moldova), financial years 2021-2025 plus 2026 quarterly figures, rebuilt from the national supervisors' statistics and the insurers' Solvency II reports (SFCR). Every figure links to its source document. Browsable site with schema.org Dataset markup per market; file downloads are planned.
+description: Premium by line of business, market shares, solvency ratios, combined ratios, net profit and return on equity for 349 insurers and 45 insurance groups in 18 Central and Eastern European insurance markets (Poland, Czechia, Slovakia, Hungary, Romania, Bulgaria, Croatia, Slovenia, Lithuania, Latvia, Estonia, Serbia, Bosnia and Herzegovina, Montenegro, North Macedonia, Albania, Kosovo*, Moldova), financial years 2021-2025 plus 2026 quarterly figures, rebuilt from the national supervisors' statistics and the insurers' Solvency II reports (SFCR). Every figure links to its source document. Free CSV and Excel downloads for every market at https://polisapro.com/data; browsable site with schema.org Dataset markup per market.
 version: '2026-11'
 keywords: insurance, insurers, premiums, market share, Solvency II, SFCR, combined ratio, solvency ratio, Central and Eastern Europe, CEE, Balkans, Baltics
 image: https://polisapro.com/assets/og.png
