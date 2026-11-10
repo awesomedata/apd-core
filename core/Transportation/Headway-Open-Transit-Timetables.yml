@@ -1,0 +1,31 @@
+---
+title: Headway Open Transit Timetables and Frequency Dataset
+homepage: https://headway.shivrajsinh.in
+category: Transportation
+description: Multi-modal open public transit timetables, route geometry, stop schedules, and frequency metrics computed from General Transit Feed Specification (GTFS) open feeds. Designed for low-latency schedule inspection and static timetable rendering.
+version: 1
+keywords: transit,GTFS,timetables,bus,train,headway,transportation,public transport,open data
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: GTFS
+data_quality: true
+data_dictionary: https://headway.shivrajsinh.in
+language: en
+license: Open Data Commons Open Database License (ODbL) / Open Data
+publisher: Headway Transit (shivrajsinh.in)
+organization:
+  - name: Headway Transit
+    web: https://headway.shivrajsinh.in
+issued_time: 2026-11-10
+sources:
+  - name: Headway Live Platform
+    access_url: https://headway.shivrajsinh.in
+  - name: GitHub Source & Parser
+    access_url: https://github.com/shivrajsinhzala/headway
+references:
+  - title: Headway High-Performance Transit Timetables
+    reference: https://headway.shivrajsinh.in

@@ -1,0 +1,31 @@
+---
+title: Stopwatch Multi-Country Public Transit Timetable Dataset
+homepage: https://transit.shivrajsinh.in
+category: Transportation
+description: Comprehensive public transit timetables and departure schedules spanning 120+ transit agencies across 6 countries (US, UK, Australia, Ireland, Canada, and India). Built from standardized open GTFS and transit feed specifications.
+version: 1
+keywords: transit,bus timetables,train schedules,GTFS,public transport,open data,ferry,tram
+image:
+temporal: 2026
+spatial: US, UK, Australia, Ireland, Canada, India
+access_level: public
+copyrights:
+accrual_periodicity: continuous
+specification: GTFS
+data_quality: true
+data_dictionary: https://transit.shivrajsinh.in
+language: en
+license: Open Data Commons Public Domain Dedication and License (PDDL)
+publisher: Stopwatch Transit (shivrajsinh.in)
+organization:
+  - name: Stopwatch Transit
+    web: https://transit.shivrajsinh.in
+issued_time: 2026-11-10
+sources:
+  - name: Stopwatch Transit Live Platform
+    access_url: https://transit.shivrajsinh.in
+  - name: GitHub Source & Pipeline
+    access_url: https://github.com/shivrajsinhzala/transit-timetables
+references:
+  - title: Stopwatch Multi-Country Transit Network Directory
+    reference: https://transit.shivrajsinh.in
