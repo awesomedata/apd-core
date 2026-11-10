@@ -1,0 +1,9 @@
+---
+title: "World Media Signals"
+homepage: "https://huggingface.co/datasets/Lilambd/world-media-signals?utm_source=awesome-public-datasets&utm_campaign=world-media-signals"
+category: "Entertainment"
+description: "Daily CSV tables on attention to films, anime, television, music and books across 32 Wikipedia language editions, plus release calendars from Wikidata."
+license: "CC BY 4.0"
+language: "Multilingual"
+access_level: "public"
+accrual_periodicity: "daily"

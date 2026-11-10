@@ -1,0 +1,9 @@
+---
+title: "World Sports Signals"
+homepage: "https://huggingface.co/datasets/Lilambd/world-sports-signals?utm_source=awesome-public-datasets&utm_campaign=world-sports-signals"
+category: "Sports"
+description: "Daily CSV tables on attention to athletes, teams, leagues and events across 32 Wikipedia language editions, plus Wikidata event dates."
+license: "CC BY 4.0"
+language: "Multilingual"
+access_level: "public"
+accrual_periodicity: "daily"
