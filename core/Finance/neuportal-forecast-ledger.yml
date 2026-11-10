@@ -1,0 +1,24 @@
+---
+title: NeuPortal Forecast Ledger (AI forecasts vs Polymarket prices, Bitcoin-timestamped)
+homepage: https://huggingface.co/datasets/neuportal/forecasts-vs-market
+category: Finance
+description: 7,426 probability forecasts by statistical models on Polymarket questions (weather, crypto, sports, markets, politics, tech), each next to the market price at the moment of the call, the resolved outcome, and the Brier score of both. Every call sits in a JSON file timestamped into Bitcoin with OpenTimestamps, so the time it existed can be checked independently. The first batch (14-26 September 2026, 1,613 calls) was sealed late and is flagged in a column. On resolved calls the market is more accurate than the models (Brier 0.161 vs 0.194).
+version: '1.0'
+keywords: forecasting, prediction markets, Polymarket, Brier score, calibration, OpenTimestamps
+image:
+temporal: 2026-09/2026-11
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/neuportal/forecasts-vs-market#columns
+language: en
+license: CC BY 4.0
+publisher: NeuPortal
+organization: NeuPortal
+issued_time: '2026-11-08'
+sources:
+  - https://doi.org/10.5281/zenodo.24051884
+  - https://github.com/neuportalai-ui/experiment-proofs
