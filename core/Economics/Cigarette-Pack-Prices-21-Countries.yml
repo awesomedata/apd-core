@@ -1,0 +1,29 @@
+---
+title: Cigarette pack prices in 21 countries, 2000-2026
+homepage: https://doi.org/10.5281/zenodo.23564712
+category: Economics
+description: Retail price of a pack of 20 cigarettes by country, brand and year (21 countries, 47 brands, 2000-2026), with a confidence level on every price. A reference file keeps only surveyed prices (official price lists and retailer lists); the full file adds interpolated and modelled values, about 70 % of its prices, flagged in the columns confidence and estimated. Open CSV and JSON, CC BY 4.0, archived on Zenodo with a DOI.
+version: 2026-11-10
+keywords: tobacco, cigarette prices, excise, taxation, public health, Europe, time series
+temporal: 2000-2026
+spatial: 21 countries (Europe, North Africa, Turkey, Australia, United States)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+data_quality: true
+language: en
+license: Creative Commons Attribution 4.0 International
+publisher:
+  - name: Bryan Schmitt
+    web: https://bryan-schmitt.com
+issued_time: 2026.10
+sources:
+  - name: Zenodo archive (CSV, JSON, README)
+    access_url: https://doi.org/10.5281/zenodo.23564712
+  - name: Reference series (surveyed prices), CSV
+    access_url: https://cigprices.com/data/cigprices-reference.csv
+references:
+  - title: Method, columns and limits
+    reference: https://cigprices.com/en/donnees
+  - title: Hugging Face mirror
+    reference: https://huggingface.co/datasets/CigPrices/cigarette-pack-prices
