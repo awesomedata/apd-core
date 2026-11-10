@@ -1,0 +1,37 @@
+---
+title: US Fair Market Rents FY2027 by County (HUD, verified)
+homepage: https://github.com/rentlimit/us-fair-market-rents
+category: Economics
+description: One CSV row per US county (3,268 rows incl. New England town groups) joining HUD FY2027 Fair Market Rents (studio to 4 bedrooms, effective 2026-10-01), the FY2026 values, HUD FY2026 Section 8 income limits (30/50/80% AMI) and Census ACS 5-Year 2020-2024 median gross rent, median renter income and rent burden (30%+/50%+) with margins of error, keyed by 5-digit county FIPS. HUD publishes these in separate spreadsheets with different keys; this file joins them and was spot-checked against the HUD and Census lookup tools. 40 documented columns.
+version: FY2027
+keywords: fair market rent, HUD, Section 8, housing choice voucher, income limits, rent burden, American Community Survey, county, FIPS, housing affordability, United States
+image:
+temporal: FY2026-FY2027 (ACS 2020-2024)
+spatial: United States (counties and county equivalents)
+access_level: public
+copyrights: CC BY 4.0 (underlying US government data is public domain)
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://github.com/rentlimit/us-fair-market-rents#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: RentLimit
+    web: https://rentlimit.com/
+organization:
+  - name: RentLimit
+    web: https://rentlimit.com/
+issued_time: 2026.11
+sources:
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/rentlimit/us-fair-market-rents-fy2027
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/plainnumbers/us-fair-market-rents-fy2027-by-county
+  - name: HUD Fair Market Rents FY2027 (original source)
+    access_url: https://www.huduser.gov/portal/datasets/fmr.html
+references:
+  - title: Methodology and verification log
+    reference: https://rentlimit.com/methodology/
+  - title: HUD income limits FY2026 (original source)
+    reference: https://www.huduser.gov/portal/datasets/il.html
