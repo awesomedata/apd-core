@@ -1,0 +1,31 @@
+---
+title: Property Tax Bills by County, 2026 (Six U.S. States)
+homepage: https://doi.org/10.5281/zenodo.24014844
+category: Economics
+description: Median real estate taxes paid and median home value for 653 counties in Arizona, California, Florida, Georgia, North Carolina and Texas, with the ratio of the two medians and in-state and six-state ranks. From U.S. Census Bureau American Community Survey 2020-2024 5-year estimates, B25103_001E and B25077_001E.
+version: 1
+keywords: property tax, home value, county, American Community Survey
+image:
+temporal: 2020-2024
+spatial: United States (AZ, CA, FL, GA, NC, TX), county level
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org
+organization:
+  - name: Dreamy Leads Research
+    web: https://huggingface.co/DreamyLeadsResearch
+issued_time: 2026.11
+sources:
+  - name: U.S. Census Bureau, American Community Survey 2020-2024 5-year estimates
+    access_url: https://api.census.gov/data/2024/acs/acs5
+references:
+  - title:
+    reference:

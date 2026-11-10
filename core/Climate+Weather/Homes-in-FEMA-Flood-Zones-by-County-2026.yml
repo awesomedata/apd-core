@@ -1,0 +1,31 @@
+---
+title: Homes in FEMA Flood Zones by County, 2026 (Six U.S. States)
+homepage: https://doi.org/10.5281/zenodo.24014944
+category: Climate+Weather
+description: Residential structures inside the FEMA Special Flood Hazard Area and NFIP residential policies in force there, for 653 counties in Arizona, California, Florida, Georgia, North Carolina and Texas (501 ranked). Compiled from OpenFEMA NFIP Residential Penetration Rates (v1), as of 2026-08-03.
+version: 1
+keywords: flood zone, FEMA, NFIP, flood insurance, county
+image:
+temporal: 2026-08-03
+spatial: United States (AZ, CA, FL, GA, NC, TX), county level
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org
+organization:
+  - name: Dreamy Leads Research
+    web: https://huggingface.co/DreamyLeadsResearch
+issued_time: 2026.11
+sources:
+  - name: FEMA, OpenFEMA Dataset - NFIP Residential Penetration Rates (v1)
+    access_url: https://www.fema.gov/openfema-data-page/nfip-residential-penetration-rates-v1
+references:
+  - title:
+    reference:
