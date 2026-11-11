@@ -1,0 +1,28 @@
+---
+title: US Data Center Moratorium Tracker
+homepage: https://pacificsoftwareventures.com/data-center-moratorium-tracker
+category: Government
+description: Tracker of US data center moratoriums, pauses, state orders and large-load power rules. Each record lists the place, what happened, the trigger or threshold, the end date, the status, the date and a link to the primary source document (order, ordinance or docket). The full table downloads as CSV with no sign-in.
+version:
+keywords: data centers, moratorium, permitting, zoning, large-load, state executive orders, local ordinances, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: Free to reuse with a link back
+publisher:
+  - name: Pacific Software Ventures
+    web: https://pacificsoftwareventures.com
+organization:
+  - name: Pacific Software Ventures
+    web: https://pacificsoftwareventures.com
+issued_time: 2026-11-04
+sources:
+  - name: Tracker table as CSV
+    access_url: https://pacificsoftwareventures.com/data-center-moratorium-tracker/data.csv
