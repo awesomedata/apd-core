@@ -1,0 +1,33 @@
+---
+title: PURSUE Declassified UAP Files (structured index and page transcriptions)
+homepage: https://github.com/tomasstankovic/uapinsight-pursue-dataset
+category: Government
+description: Structured index of every document the US Department of War has published under PURSUE (Presidential Unsealing and Reporting System for UAP Encounters) at war.gov/UFO - 478 documents from 11 agencies (FBI, CIA, NASA, Department of War, Department of Energy and others) across 7 releases, incidents from 1947 onward. Each document has the official metadata plus a structured record (summary, key findings, incident date and place, programs named, the conclusion the record itself states - explained, unresolved, under investigation or none - and the evidence it rests on). A separate file holds page-by-page transcriptions of 12,389 scanned pages. Transcriptions and analysis are machine-generated (Claude) from the official PDFs and are flagged as such; the source document link is kept for every row. CSV and JSONL, updated when a new release appears.
+version: 1.0
+keywords: UAP, UFO, declassified documents, FOIA, government records, OCR, transcription, PURSUE, AARO, FBI Vault
+temporal: 1947-2026
+access_level: public
+copyrights:
+accrual_periodicity: irregular (with each PURSUE release)
+specification:
+data_quality: false
+data_dictionary: https://github.com/tomasstankovic/uapinsight-pursue-dataset/blob/main/SCHEMA.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: uapinsight.com
+    web: https://uapinsight.com/pursue/data
+organization:
+  - name:
+    web:
+issued_time: 2026.11
+sources:
+  - name: Department of War - PURSUE releases (war.gov/UFO)
+    access_url: https://www.war.gov/ufo/
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/uapinsight/pursue-dataset
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/tomstankovi/pursue-dataset
+references:
+  - title: Schema and column documentation
+    reference: https://github.com/tomasstankovic/uapinsight-pursue-dataset/blob/main/SCHEMA.md
