@@ -1,0 +1,30 @@
+---
+title: Canada Scratch Ticket Prizes Remaining
+homepage: https://huggingface.co/datasets/lottizen/canada-scratch-ticket-prizes-remaining
+category: Entertainment
+description: Printed and unclaimed prizes per game and prize level for the scratch tickets in the prize lists of Canada's five provincial lottery operators (OLG, BCLC, Loto-Québec, Western Canada Lottery Corporation and Atlantic Lottery), as each operator publishes them, with the operator's list, its date and the time it was read on every row. Two CSVs, one row per game (name, price, launch date, whether it was on sale when read) and one row per prize level (prize, printed, remaining). Prize counts only; no operator publishes how many tickets were printed or are left. WCLC does not publish printed counts, so that column is empty for its games.
+version: "2026-11-11"
+keywords: lottery, scratch tickets, instant lottery, prizes, canada, olg, bclc, loto-quebec, wclc, atlantic lottery, csv
+image:
+temporal: The operators' current prize lists, re-read weekly
+spatial: Canada
+access_level: public
+copyrights: Figures as published by each provincial lottery operator; compiled by Lottizen.
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/lottizen/canada-scratch-ticket-prizes-remaining#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Lottizen
+    web: https://lottizen.com/
+organization:
+  - name: Lottizen
+    web: https://lottizen.com/
+issued_time: 2026.11.11
+sources:
+  - name: scratch_games.csv (one row per game)
+    access_url: https://huggingface.co/datasets/lottizen/canada-scratch-ticket-prizes-remaining/resolve/main/scratch_games.csv
+  - name: scratch_prize_levels.csv (one row per game and prize level)
+    access_url: https://huggingface.co/datasets/lottizen/canada-scratch-ticket-prizes-remaining/resolve/main/scratch_prize_levels.csv
