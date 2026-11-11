@@ -1,8 +1,8 @@
 ---
 title: College Football Win Forecasts, Graded
-homepage: https://www.kaggle.com/datasets/crystlquant/college-football-win-forecasts-graded
+homepage: https://github.com/CrystlLabs/crystlquant-data
 category: Sports
-description: 1,638 US college football games from 5 September to 11 October 2026, one row per game. Each row has the date, home and away teams, the team a price-blind forecasting model picked before kickoff, the win chance it gave that team, and the team that won. One forecast per game (the last one published before kickoff), nothing re-run after the games. No betting lines or model inputs. Games are added 30 days after they are played.
+description: 1,638 US college football games from 5 September to 11 October 2026, one row per game. Each row has the date, home and away teams, the team the CQ blind model (a forecasting model that never reads betting prices) picked before kickoff, the win chance it gave that team, and the team that won. One forecast per game (the last one published before kickoff), nothing re-run after the games. No betting lines or model inputs. Games are added 30 days after they are played.
 version: 1.0
 keywords: college football, NCAA, forecasts, win probability, forecast evaluation, calibration, sports analytics
 image:
@@ -11,9 +11,9 @@ spatial: United States
 access_level: public
 copyrights:
 accrual_periodicity: monthly, games added 30 days after they are played
-specification: https://www.kaggle.com/datasets/crystlquant/college-football-win-forecasts-graded
+specification: https://github.com/CrystlLabs/crystlquant-data#readme
 data_quality: true
-data_dictionary: https://www.kaggle.com/datasets/crystlquant/college-football-win-forecasts-graded
+data_dictionary: https://github.com/CrystlLabs/crystlquant-data#college_footballcsv
 language: en
 license: CC BY 4.0
 publisher:
@@ -22,7 +22,9 @@ publisher:
 organization:
 issued_time: 2026.11
 sources:
-  - name: Kaggle dataset (CSV)
+  - name: CSV file (direct download)
+    access_url: https://raw.githubusercontent.com/CrystlLabs/crystlquant-data/main/data/college_football.csv
+  - name: Kaggle dataset (same file)
     access_url: https://www.kaggle.com/datasets/crystlquant/college-football-win-forecasts-graded
 references:
   - title:

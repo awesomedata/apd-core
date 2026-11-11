@@ -1,0 +1,31 @@
+---
+title: Football (Soccer) Match Forecasts, Graded
+homepage: https://github.com/CrystlLabs/crystlquant-data
+category: Sports
+description: 783 football (soccer) matches from 24 August to 3 November 2026, from 35 leagues in 24 countries plus the UEFA Champions League, one row per match. Each row has the date, country, league, home and away clubs, the result the CQ blind model (a forecasting model that never reads betting prices) picked before kickoff (home win, draw or away win), the chance it gave that result, and the actual result. One forecast per match (the last one published before kickoff), nothing re-run after the matches. No betting lines or model inputs. Matches are added 7 days after they are played.
+version: 1.0
+keywords: football, soccer, forecasts, match outcome, 1X2, forecast evaluation, calibration, sports analytics
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: monthly, matches added 7 days after they are played
+specification: https://github.com/CrystlLabs/crystlquant-data#readme
+data_quality: true
+data_dictionary: https://github.com/CrystlLabs/crystlquant-data#football_soccercsv
+language: en
+license: CC BY 4.0
+publisher:
+  - name: CrystlQuant
+    web: https://crystlquant.com
+organization:
+issued_time: 2026.11
+sources:
+  - name: CSV file (direct download)
+    access_url: https://raw.githubusercontent.com/CrystlLabs/crystlquant-data/main/data/football_soccer.csv
+  - name: Kaggle dataset (same file)
+    access_url: https://www.kaggle.com/datasets/crystlquant/football-soccer-match-forecasts-graded
+references:
+  - title:
+    reference:
