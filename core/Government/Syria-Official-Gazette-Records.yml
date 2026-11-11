@@ -1,0 +1,29 @@
+---
+title: Syria Official Gazette Records
+homepage: https://doi.org/10.5281/zenodo.24122383
+category: Government
+description: Records built from the Official Gazette of the Syrian Arab Republic. One file holds 3,042 companies with a gazette notice since December 2024 (legal form, governorate, sector, capital as printed, gazette issue); the other holds 4,162 decrees, decisions and other instruments printed in 2025 and 2026 gazette issues (type, number, date, issuing body, title). Names and titles are in Arabic and English. Metadata only; each row links to the record's page with the full text.
+version: 2026.11
+keywords: Syria, official gazette, company registrations, decrees, legislation, Arabic, open government data
+temporal: 2024-12/2026-10
+spatial: Syria
+access_level: public
+data_quality: true
+data_dictionary: https://github.com/karam2022/nawafith-gazette-data/blob/main/README.md
+language: ar,en
+license: CC BY-SA 4.0
+publisher:
+  - name: Nawafith
+    web: https://gov.nawafith.net
+organization:
+  - name: Nawafith
+    web: https://gov.nawafith.net
+issued_time: 2026-11-11
+sources:
+  - name: Companies CSV
+    access_url: https://zenodo.org/records/24122383/files/nawafith-companies-since-2024-12.csv
+  - name: Decrees CSV
+    access_url: https://zenodo.org/records/24122383/files/nawafith-decrees-gazette-2025-2026.csv
+references:
+  - title: GitHub repository with column notes, coverage and limits
+    reference: https://github.com/karam2022/nawafith-gazette-data
