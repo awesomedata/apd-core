@@ -1,0 +1,30 @@
+---
+title: BrokerPays — Broker Partner Program Terms
+homepage: https://brokerpays.com/open-data/
+category: Finance
+description: Partner (IB, affiliate, white label) program terms that 207 retail forex, CFD and crypto brokers publish themselves - CPA, revenue share, rebate per lot, payout frequency, minimum payout, payout methods and excluded countries. 3,461 values for 372 programs; every value carries its source URL, the verbatim quote and the check date. Monthly medians by region and model. CSV and JSON, CC BY 4.0.
+version: 3
+keywords: forex, CFD, brokers, introducing broker, IB, affiliate programs, CPA, revenue share, rebate, payouts, open data
+temporal: 2026-
+spatial: Global
+access_level: public
+language: en
+license: CC-BY-4.0
+accrual_periodicity: monthly
+data_dictionary: https://brokerpays.com/methodology/
+organization:
+  - name: BrokerPays
+    web: https://brokerpays.com
+issued_time: 2026.10
+sources:
+  - name: Full dataset - brokers, programs, values with source, quote and date (ZIP, CSV)
+    access_url: https://brokerpays.com/data/brokerpays-open-data-v3-2026-11-08.zip
+  - name: Medians (CSV)
+    access_url: https://brokerpays.com/data/medians.csv
+  - name: Medians (JSON)
+    access_url: https://brokerpays.com/data/medians.json
+  - name: Transparency Index (CSV)
+    access_url: https://brokerpays.com/data/transparency.csv
+references:
+  - title: Zenodo DOI
+    reference: https://doi.org/10.5281/zenodo.23747117
