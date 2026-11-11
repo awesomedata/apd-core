@@ -1,0 +1,35 @@
+---
+title: Cyprus Home Asking Prices by City, Type and Bedrooms (monthly)
+homepage: https://doi.org/10.5281/zenodo.24132080
+category: Economics
+description: Monthly asking prices of homes in Cyprus - Limassol, Paphos, Larnaca, Nicosia and Famagusta's free area - by type (apartment, villa) and bedroom count. The median, mean and middle half (25th-75th percentile) per square metre and per whole home, with the number of distinct offers behind each figure and the day it is of, and each month's change against the one before. Computed from public property adverts read daily from the portals index.cy and bazaraki.com, one home offered by several agencies counted once. These are asking prices, not transaction prices. A month once over is kept as first published; each new month is a new version of the Zenodo record. CSV with a README describing every column.
+version: 2026-10
+keywords: Cyprus, housing, real estate, property prices, asking prices, price per square metre, house prices, Limassol, Paphos, Larnaca, Nicosia, Famagusta, open data
+image:
+temporal: 2026-09 onwards, monthly
+spatial: Cyprus (five districts of the Republic of Cyprus)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://zenodo.org/records/24132081/files/README.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: ailiste
+    web: https://ailiste.app/
+organization:
+  - name: ailiste
+    web: https://ailiste.app/
+issued_time: 2026.11
+sources:
+  - name: Zenodo deposit (CSV and README, DOI 10.5281/zenodo.24132080)
+    access_url: https://doi.org/10.5281/zenodo.24132080
+  - name: Kaggle
+    access_url: https://www.kaggle.com/datasets/andrejshmelovs/cyprus-home-asking-prices-monthly
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/ahmlvs/cyprus-home-asking-prices-monthly
+references:
+  - title: Monthly tables and method, in six languages
+    reference: https://ailiste.app/prices/
