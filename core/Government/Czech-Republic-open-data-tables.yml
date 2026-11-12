@@ -1,0 +1,26 @@
+---
+title: Czech Republic open data tables
+homepage: https://github.com/sth3no/czech-open-data
+category: Government
+description: 35 cleaned tables built from official Czech open data (RÚIAN territorial register, Czech Statistical Office, company register, data boxes, schools, healthcare providers, pharmacies, medicines, election results, wages, population, Czech National Bank). UTF-8 CSV with every column documented in English and Czech, a Frictionless datapackage.json, and the source, licence and reference date of each table. Free to download, no registration.
+version:
+keywords: Czech Republic, Czechia, open government data, municipalities, postcodes, RÚIAN, elections, wages, population, CSV
+image:
+temporal:
+spatial: Czech Republic
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/sth3no/czech-open-data/tree/main/docs/en
+language: en, cs
+license: Per table, mostly CC BY 4.0 from the source authority, some under SÚKL, ČNB or NKOD terms (see LICENSE.md in the repository)
+publisher:
+organization:
+issued_time: 2026.11
+sources:
+  - name: Czech Statistical Office
+    access_url: https://csu.gov.cz/
+  - name: ČÚZK (RÚIAN)
+    access_url: https://cuzk.gov.cz/
