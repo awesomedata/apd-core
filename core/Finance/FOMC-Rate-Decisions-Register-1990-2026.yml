@@ -1,0 +1,32 @@
+---
+title: FOMC rate decisions register, 1990 to 2026
+homepage: https://doi.org/10.5281/zenodo.24128716
+category: Finance
+description: All 317 Federal Open Market Committee rate decisions from 1990-02-07 to 2026-10-28 in one table (52 hikes, 58 cuts, 207 holds), with the target range before and after, the vote count, named dissenters and the direction of each dissent, the chair, and the 10-year Treasury yield on the business day before and after the decision. One row per decision, each with the Federal Reserve document it comes from. Archived on Zenodo with a DOI.
+version: '2026-11-11'
+keywords: FOMC, Federal Reserve, federal funds rate, monetary policy, interest rate decisions, FOMC dissents, 10-year Treasury yield, event study
+temporal: 1990-2026
+spatial: United States
+access_level: public
+copyrights: Public domain. Federal Reserve Board publications are in the public domain (https://www.federalreserve.gov/disclaimer.htm); DGS10 is public domain with citation requested by FRED (https://fred.stlouisfed.org/legal/). Please cite the Federal Reserve and FRED as the sources of the underlying records, and Eco3min Research for the compilation.
+language: en
+license: Public domain (Federal Reserve Board records; FRED DGS10 public domain, citation requested)
+publisher:
+- name: Eco3min Research
+  web: https://eco3min.fr/
+organization:
+- name: Eco3min Research
+  web: https://eco3min.fr/
+issued_time: '2026.11'
+sources:
+- name: fomc-rate-decisions-1990-2026.csv
+  access_url: https://zenodo.org/records/24128716/files/fomc-rate-decisions-1990-2026.csv?download=1
+references:
+- title: Zenodo deposit (DOI 10.5281/zenodo.24128716)
+  reference: https://doi.org/10.5281/zenodo.24128716
+- title: Method, charts and current version (Eco3min Research)
+  reference: https://eco3min.fr/en/every-fomc-rate-decision-since-1990/
+- title: 'Board of Governors of the Federal Reserve System: FOMC statements, minutes and Records of Policy Actions'
+  reference: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+- title: Board of Governors of the Federal Reserve System (US), Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity [DGS10], retrieved from FRED, Federal Reserve Bank of St. Louis
+  reference: https://fred.stlouisfed.org/series/DGS10
