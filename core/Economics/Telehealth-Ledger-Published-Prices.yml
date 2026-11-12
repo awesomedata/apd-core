@@ -1,0 +1,37 @@
+---
+title: Telehealth Ledger Published Telehealth Prices (US)
+homepage: https://github.com/BradyH123/telehealth-ledger-prices
+category: Economics
+description: Dated readings of the prices US telehealth programs publish on their own pages for GLP-1 medicines (compounded and brand semaglutide and tirzepatide), NAD+, sermorelin and glutathione. The 2026-11-12 snapshot has 130 price rows across 31 providers, each with the price and its basis (continuing, prepaid-effective, four-week or regular), any introductory or upfront price, commitment length, whether medication is included, the date checked and the provider page it was read from. A second file logs recorded changes since 2026-08-22 and a third counts how many tracked providers publish each fact. Coverage is the providers listed by the publisher, not a census of the market; a row is a dated reading, not a quote. The publisher earns commission from most of the providers it lists; the files carry no tracked links. Delivered as CSV with a Frictionless datapackage.json, downloadable without login.
+version: 2026-11-12
+keywords: telehealth, drug prices, GLP-1, semaglutide, tirzepatide, compounded medication, NAD+, sermorelin, consumer prices, price transparency, United States
+image:
+temporal: 2026-08 to present
+spatial: United States
+access_level: public
+copyrights: Telehealth Ledger, CC BY 4.0
+accrual_periodicity: monthly
+specification: https://github.com/BradyH123/telehealth-ledger-prices#readme
+data_quality: true
+data_dictionary: https://github.com/BradyH123/telehealth-ledger-prices/blob/main/datapackage.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Telehealth Ledger
+    web: https://github.com/BradyH123/telehealth-ledger-prices
+organization:
+  - name: Telehealth Ledger
+    web: https://github.com/BradyH123/telehealth-ledger-prices
+issued_time: 2026.11
+sources:
+  - name: Published prices (CSV, one row per program price)
+    access_url: https://raw.githubusercontent.com/BradyH123/telehealth-ledger-prices/main/data/prices.csv
+  - name: Recorded price changes (CSV, dated log)
+    access_url: https://raw.githubusercontent.com/BradyH123/telehealth-ledger-prices/main/data/price-changes.csv
+  - name: Disclosure census (CSV, providers publishing each fact)
+    access_url: https://raw.githubusercontent.com/BradyH123/telehealth-ledger-prices/main/data/disclosure-census.csv
+references:
+  - title: README, limits and funding disclosure
+    reference: https://github.com/BradyH123/telehealth-ledger-prices#readme
+  - title: Dataset licence (CC BY 4.0)
+    reference: https://github.com/BradyH123/telehealth-ledger-prices/blob/main/LICENSE
