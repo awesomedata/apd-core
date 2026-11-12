@@ -1,0 +1,45 @@
+---
+title: ORION Company-Stated Biotech Dates
+homepage: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates
+category: Healthcare
+description: >-
+  A fixed snapshot of 345 captured company statement/event records concerning
+  U.S. biotech FDA target dates, clinical timing and related disclosures. Records
+  include stated dates or periods, precision, quoted source wording and source
+  links, quote SHA-256 hashes, check/review information and available wording
+  history. Quotations may be sentences or excerpts. Missing fields and selected
+  source scope are documented. Available as CSV and JSON with field definitions,
+  a JSON schema and checksums. No predictions or price data.
+version: '1.0'
+keywords: biotechnology, FDA, PDUFA, clinical timing, company disclosures, SEC filings, quotation provenance, wording history
+temporal: 'Snapshot retrieved 2026-11-06T06:57:16.079853Z'
+spatial: United States
+access_level: public
+copyrights: >-
+  ORION-authored selection and arrangement, documentation and recorded history
+  are licensed under CC BY-NC 4.0 to the extent of ORION's rights. Company excerpts
+  and other third-party material retain their original rights. ORION claims no
+  new rights in factual dates.
+accrual_periodicity: versioned snapshots
+data_quality: false
+data_dictionary: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/blob/main/FIELDS.md
+language: en
+license: 'CC BY-NC 4.0 (ORION-authored material); third-party excerpts retain original rights'
+publisher:
+  - name: ORION
+    web: https://www.orionbiotechai.com/
+issued_time: '2026-11-08'
+sources:
+  - name: Version 1.0 CSV
+    access_url: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/releases/download/v1.0/dataset.csv
+  - name: Version 1.0 JSON
+    access_url: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/releases/download/v1.0/dataset.json
+references:
+  - title: Dataset README and evidence limits
+    reference: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/blob/main/README.md
+  - title: Rights and reuse
+    reference: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/blob/main/LICENSE.md
+  - title: Version 1.0 release
+    reference: https://github.com/jiwoo4292-png/orion-company-stated-biotech-dates/releases/tag/v1.0
+  - title: Zenodo archive (v1.0, DOI 10.5281/zenodo.24149887)
+    reference: https://doi.org/10.5281/zenodo.24149887
