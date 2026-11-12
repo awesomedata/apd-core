@@ -1,0 +1,23 @@
+---
+title: espectro - Portuguese News Register
+homepage: https://github.com/espectro-dados/dados
+category: SocialSciences
+description: Monthly CSV releases of the articles collected from the feeds of 64 Portuguese news outlets since 7 August 2026, the stories that group articles about the same event, the outlets, their owners and the dated history of each ownership record. Each release has a column schema and SHA-256 checksums. Article URLs are included; headlines and article text are not.
+version: 2026-10
+keywords:
+  - news
+  - media ownership
+  - journalism
+  - Portugal
+temporal: 2026-08-07 onwards, monthly
+spatial: Portugal
+access_level: public
+accrual_periodicity: monthly
+data_quality: false
+data_dictionary: https://oespectro.eu/dados#tabelas
+language: pt
+license: CC BY 4.0
+publisher: espectro
+organization: espectro
+sources:
+  - https://oespectro.eu/dados
