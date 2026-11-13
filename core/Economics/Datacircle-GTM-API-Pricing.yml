@@ -1,0 +1,27 @@
+---
+title: Datacircle GTM API Pricing and Benchmarks
+homepage: https://huggingface.co/datasets/waynehamadi2/datacircle
+category: Economics
+description: One row for each plan of each GTM API (data enrichment, email finder, LinkedIn profile and similar APIs), with what it costs per 1,000 calls, what it charges when it finds nothing, its rate limits, its speed and the fields it returns. The CSV lists the pages each row was read from.
+version: 1.0
+keywords: API pricing, GTM APIs, data enrichment, benchmark
+temporal: updated as providers change their plans
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Datacircle
+    web: https://datacircle.dev
+organization:
+  - name: Datacircle
+    web: https://datacircle.dev
+sources:
+  - name: CSV
+    access_url: https://datacircle.dev/datacircle.csv
+  - name: JSON
+    access_url: https://datacircle.dev/datacircle.json
+  - name: Open API, no key
+    access_url: https://api.datacircle.dev/v1
