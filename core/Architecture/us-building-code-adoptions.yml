@@ -1,0 +1,33 @@
+---
+title: U.S. Building Code Adoption Tracker
+homepage: https://www.instapreview.co/data/code-adoptions
+category: Architecture
+description: Open table of adopted model-code editions for published U.S. jurisdictions, compiled from official adoption sources and released as CSV and JSON. Fields include jurisdiction, state, IBC, IRC, IFC, IECC, NEC, IPC or UPC, IEBC, a building-code effective date when a single official date is stated, and a link to the official source. Cells are left blank when a source is missing, conflicting, or unverified. Licensed CC BY 4.0.
+version: 2026-11-13
+keywords: building codes, IBC, IRC, IFC, IECC, NEC, IPC, UPC, IEBC, code adoption, jurisdictions, United States, architecture
+image:
+temporal: 2026-11-13
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://www.instapreview.co/data/code-adoptions
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Byts & Bytes
+    web: https://bytsandbytes.com
+organization:
+  - name: InstaPreView
+    web: https://www.instapreview.co
+issued_time: 2026.11
+sources:
+  - name: CSV
+    access_url: https://www.instapreview.co/data/code-adoptions.csv
+  - name: JSON
+    access_url: https://www.instapreview.co/data/code-adoptions.json
+references:
+  - title: U.S. Building Code Adoption Tracker
+    reference: https://www.instapreview.co/data/code-adoptions
