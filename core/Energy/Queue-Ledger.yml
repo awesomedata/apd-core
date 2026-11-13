@@ -1,0 +1,24 @@
+---
+title: Queue Ledger (point-in-time US power-project pipelines)
+homepage: https://github.com/beingRealFrank/queue-ledger
+category: Energy
+description: >-
+  Daily point-in-time archive of the EIA-860M generator inventory (every planned,
+  operating, retired and canceled US generator of 1 MW or more) and the CAISO and
+  SPP interconnection queues, with a change log (new projects, status changes,
+  operating-date slips) and the original source file plus its SHA-256 kept for
+  every capture. Free download, no login.
+keywords: electricity, power plants, interconnection queue, EIA-860M, CAISO, SPP, energy transition, provenance
+spatial: United States
+access_level: public
+accrual_periodicity: daily
+language: en
+license: EIA-860M public domain; CAISO and SPP rows under their publishers' terms; code MIT
+publisher:
+  - name: Queue Ledger
+    web: https://github.com/beingRealFrank/queue-ledger
+sources:
+  - name: All records, latest (CSV)
+    access_url: https://raw.githubusercontent.com/beingRealFrank/queue-ledger/main/data/latest/all.csv
+  - name: Provenance manifest (JSONL)
+    access_url: https://raw.githubusercontent.com/beingRealFrank/queue-ledger/main/data/manifest.jsonl
