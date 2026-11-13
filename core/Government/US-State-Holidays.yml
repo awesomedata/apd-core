@@ -1,0 +1,45 @@
+---
+title: US Federal and State Holidays (State-Employee Paid Holidays, all 50 States)
+homepage: https://github.com/mz101/us-state-holidays
+category: Government
+description: >
+  US federal holidays 2025-2028 and, for all 50 states, the paid holidays of
+  state government employees 2026-2028: which federal holidays state offices
+  observe, additional state holidays, floating days, local or partial days,
+  election days, each state's weekend rule and the weekday on which state
+  offices actually close. Every state was checked against its official HR,
+  personnel or statutory source (sources listed per state). Includes a 2027
+  ranking of states by paid holidays and the 2027 long weekends and bridge
+  days per state. CSV and JSON with a Frictionless data package.
+version: 2026.11
+keywords: public holidays, state holidays, federal holidays, state employees, paid holidays, office closures, United States, calendar
+image:
+temporal: 2025-2028
+spatial: United States (federal and all 50 states)
+access_level: public
+copyrights: The Calendar (the-calendar.net)
+accrual_periodicity: annually
+specification: https://github.com/mz101/us-state-holidays/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/mz101/us-state-holidays#definitions
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Calendar
+    web: https://the-calendar.net/
+organization:
+  - name: The Calendar
+    web: https://the-calendar.net/
+issued_time: 2026.11
+sources:
+  - name: State holidays 2026-2028, all 50 states (CSV)
+    access_url: https://raw.githubusercontent.com/mz101/us-state-holidays/main/data/states/state-holidays-2026-2028.csv
+  - name: US federal holidays 2025-2028 (CSV)
+    access_url: https://raw.githubusercontent.com/mz101/us-state-holidays/main/data/federal/us-federal-holidays.csv
+  - name: Per-state profiles with sources (JSON)
+    access_url: https://github.com/mz101/us-state-holidays/tree/main/data/states
+  - name: Live JSON API
+    access_url: https://the-calendar.net/api/index.json
+references:
+  - title: Definitions and per-state official sources
+    reference: https://github.com/mz101/us-state-holidays#sources
