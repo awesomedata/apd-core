@@ -1,0 +1,35 @@
+---
+title: OffSeq Mirage Feed
+homepage: https://github.com/offseq/mirage-feed
+category: CyberSecurity
+description: Daily attacker indicators from the OffSeq Mirage honeypot fleet. Handshake-verified attacker IPs with first/last seen, targeted services, ATT&CK techniques and exploited CVEs, plus payload and C2 URLs, malware SHA-256 hashes, SSH (HASSH) and user-agent fingerprints, and the research scanners excluded from the lists. Published as plain lists, CSV, NDJSON records with a JSON Schema, STIX 2.1 and a native MISP feed; every daily build is committed to the repository's data branch with minisign-signed checksums.
+version:
+keywords: honeypot, threat intelligence, IOC, blocklist, attacker IPs, CVE exploitation, STIX, MISP
+image:
+temporal: 2026-10-22 to present
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: https://github.com/offseq/mirage-feed/blob/data/schema/record.schema.json
+data_quality: true
+data_dictionary: https://github.com/offseq/mirage-feed/blob/data/schema/record.schema.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: OffSeq
+    web: https://offseq.com/
+organization:
+  - name: OffSeq
+    web: https://offseq.com/
+issued_time: 2026.10
+sources:
+  - name: Daily builds (data branch)
+    access_url: https://github.com/offseq/mirage-feed/tree/data
+  - name: Full records, last 7 days (CSV)
+    access_url: https://feeds.offseq.com/mirage-feed/latest/attackers-7d.csv
+  - name: Daily history (JSON)
+    access_url: https://feeds.offseq.com/mirage-feed/history.json
+references:
+  - title: Feed documentation, formats and listing rules
+    reference: https://feeds.offseq.com/
