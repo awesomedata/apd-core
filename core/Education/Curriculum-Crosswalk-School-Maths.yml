@@ -1,0 +1,31 @@
+---
+title: Curriculum Crosswalk of School Mathematics (10 countries)
+homepage: https://github.com/imaginesis/curriculum-crosswalk
+category: Education
+description: "420 school maths skills mapped grade by grade to 18 official national curriculum documents of 10 countries (United States CCSS, England, Germany, France, Italy, Spain, the Netherlands, Poland, Austria, Switzerland), so you can see in which grade each country introduces a skill. CSV with curriculum codes and grade levels; archived on Zenodo with a DOI (10.5281/zenodo.23217841). CC BY 4.0."
+version: 1
+keywords: curriculum, mathematics education, curriculum alignment, crosswalk, Common Core, international comparison, K-12
+image:
+temporal: 2026
+spatial: United States, United Kingdom, Germany, France, Italy, Spain, Netherlands, Poland, Austria, Switzerland
+access_level: public
+copyrights: Imaginesis
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/imaginesis/curriculum-crosswalk#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Imaginesis
+    web: https://imaginesis.com/en/open-data
+organization:
+  - name: Imaginesis
+    web: https://imaginesis.com/
+issued_time: 2026.10
+sources:
+  - name: Official national curriculum documents (18), listed in the repository README
+    access_url: https://doi.org/10.5281/zenodo.23217841
+references:
+  - title:
+    reference:
