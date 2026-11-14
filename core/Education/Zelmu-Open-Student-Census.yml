@@ -1,0 +1,31 @@
+---
+title: Zelmu Open Student Census & Higher Ed Identity Security Dataset
+homepage: https://github.com/THEabhikmaitra/open-student-census
+category: Education
+description: "Empirical datasets on higher education student identity security, physical PVC card loss and reissue overhead across university tiers, DPDP Act 2023 privacy leakage across commercial student benefit platforms, and NAAC accreditation faculty workload audits. Distributed under CC BY 4.0."
+version: 1.0
+keywords: higher education, student identity, dpdp act 2023, naac accreditation, open data, campus security
+image:
+temporal: 2026
+spatial: India
+access_level: public
+copyrights: Zelmu Research Unit
+accrual_periodicity: annual
+specification:
+data_quality: false
+data_dictionary: https://github.com/THEabhikmaitra/open-student-census#datasets-included
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zelmu Research Unit
+    web: https://zelmu.com
+organization:
+  - name: Zelmu
+    web: https://zelmu.com
+issued_time: 2026.11
+sources:
+  - name: Zelmu Higher Education Research
+    access_url: https://zelmu.com/data/research
+references:
+  - title:
+    reference:
