@@ -1,0 +1,34 @@
+---
+title: FDA Warning Letters and OAI Inspections, 2021-2026
+homepage: https://huggingface.co/datasets/regdatalab-org/fda-warning-letters-oai-inspections
+category: Government
+description: Every FDA warning letter outside tobacco retail and every FDA inspection classified OAI (Official Action Indicated) from January 2021 to October 2026, compiled from public FDA records. Four CSV files - 2,578 warning letters with date, company, issuing office, subject and fda.gov link; 2,713 OAI inspections with end date, facility, FEI number, product type and country; the 10 most-cited Form 483 CFR sections per month; and monthly counts of warning letters, OAI inspections and Class I recalls.
+version: 2026-11
+keywords: FDA, warning letters, inspections, OAI, Form 483, CFR, GMP, regulatory compliance, FEI
+image:
+temporal: 2021-01 to 2026-10
+spatial: United States and FDA-inspected sites worldwide
+access_level: public
+copyrights: CC0 1.0 for the compiled dataset; FDA source records are US public domain
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/regdatalab-org/fda-warning-letters-oai-inspections/blob/main/README.md
+language: en
+license: CC0 1.0
+publisher:
+  - name: RegDataLab
+    web: https://www.regdatalab.com
+organization:
+  - name: Wasatch Crest Holdings LLC
+    web: https://www.regdatalab.com
+issued_time: 2026.11
+sources:
+  - name: Hugging Face dataset (warning_letters.csv, oai_inspections.csv, form483_top_cfr_sections_by_month.csv, monthly_counts.csv)
+    access_url: https://huggingface.co/datasets/regdatalab-org/fda-warning-letters-oai-inspections
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/regdatalab/fda-warning-letters-and-oai-inspections-2021-2026
+references:
+  - title: FDA Data Dashboard (source for inspection classifications)
+    reference: https://datadashboard.fda.gov/oii/cd/inspections.htm
+  - title: FDA warning letters (source)
+    reference: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters
