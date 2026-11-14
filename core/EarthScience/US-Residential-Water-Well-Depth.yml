@@ -1,0 +1,34 @@
+---
+title: U.S. Residential Water Well Depth by State and County
+homepage: https://doi.org/10.5281/zenodo.24149620
+category: EarthScience
+description: Depth statistics for domestic water wells in 35 U.S. states and 2,062 counties, aggregated from 1,044,608 well completion reports and permits published by state agencies (2000 to 2025, ranges vary by state). Each row gives the report count and the 25th, 50th and 75th percentile total depth, plus median casing depth and yield where the state records them. Every state row lists the filters applied (domestic use, date range, depth outlier cuts and any state-specific limits) and the agency source it comes from. No owner names, addresses or well locations are included. CSV, archived on Zenodo with a DOI and mirrored on GitHub.
+version: '2026-11-12'
+keywords: water wells, groundwater, well depth, domestic wells, well completion reports, hydrogeology, united states, counties
+temporal: 2000-2025
+spatial: United States (35 states)
+access_level: public
+copyrights: Compilation by Cost to Drill a Well under CC BY 4.0. Underlying well records are public records of the state agencies listed in sources.csv.
+language: en
+license: CC BY 4.0
+publisher:
+- name: Cost to Drill a Well
+  web: https://costtodrillawell.com/
+organization:
+- name: Cost to Drill a Well
+  web: https://costtodrillawell.com/
+issued_time: '2026.11'
+sources:
+- name: states.csv
+  access_url: https://zenodo.org/records/24149620/files/states.csv?download=1
+- name: counties.csv
+  access_url: https://zenodo.org/records/24149620/files/counties.csv?download=1
+- name: sources.csv
+  access_url: https://zenodo.org/records/24149620/files/sources.csv?download=1
+references:
+- title: Zenodo deposit (DOI 10.5281/zenodo.24149620)
+  reference: https://doi.org/10.5281/zenodo.24149620
+- title: GitHub repository with CSVs and README
+  reference: https://github.com/webpossible/us-water-well-depth
+- title: Method and filters
+  reference: https://costtodrillawell.com/methodology/
