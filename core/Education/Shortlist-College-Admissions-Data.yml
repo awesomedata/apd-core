@@ -1,0 +1,47 @@
+---
+title: Shortlist College Admissions and Cost Data
+homepage: https://github.com/justingleader/shortlist-college-data
+category: Education
+description: >-
+  Four CSV tables on U.S. college admissions and cost. Early decision admit rates
+  next to overall admit rates for 97 colleges, from each college's own Common Data
+  Set (2023-24 to 2025-26). Waitlist outcomes for 144 colleges (126 with a rate):
+  spots offered, spots accepted and students admitted from the waitlist (CDS
+  2024-25 and 2025-26). 194 four-year colleges whose average net price for
+  families earning under $30,000 is below $10,000 a year, with graduation rates
+  (College Scorecard, 2024-25). Early decision and early action deadlines and
+  decision release dates for 127 rounds at 105 colleges, each row with its source
+  URL and the date it was checked. Every row links to its source document. Ships
+  with a column dictionary and datapackage.json.
+version: '2026-11'
+keywords: college admissions, early decision, waitlist, net price, financial aid, Common Data Set, College Scorecard, IPEDS
+image:
+temporal: 2023-2026
+spatial: United States
+access_level: public
+copyrights: Compiled from public Common Data Set documents published by each college and from U.S. Department of Education College Scorecard and IPEDS data.
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/justingleader/shortlist-college-data#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Justin Leader
+    web: https://shortlist.college
+organization:
+issued_time: '2026.11'
+sources:
+  - name: ed-acceptance-rates.csv
+    access_url: https://github.com/justingleader/shortlist-college-data/blob/main/data/ed-acceptance-rates.csv
+  - name: waitlist-acceptance-rates.csv
+    access_url: https://github.com/justingleader/shortlist-college-data/blob/main/data/waitlist-acceptance-rates.csv
+  - name: colleges-under-10000-after-aid.csv
+    access_url: https://github.com/justingleader/shortlist-college-data/blob/main/data/colleges-under-10000-after-aid.csv
+  - name: ed-ea-release-dates.csv
+    access_url: https://github.com/justingleader/shortlist-college-data/blob/main/data/ed-ea-release-dates.csv
+references:
+  - title: U.S. Department of Education, College Scorecard data
+    reference: https://collegescorecard.ed.gov/data/
+  - title: Common Data Set Initiative
+    reference: https://commondataset.org/
