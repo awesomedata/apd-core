@@ -1,0 +1,25 @@
+---
+title: Humanoid Robots Dataset
+homepage: https://github.com/heimseiten/humanoid-robots-dataset
+category: Economics
+description: Open, sourced dataset of 60 humanoid robots with availability and price per market (EU, US, CN), height, weight, named customer deployments and a confidence rating. Each robot has a detail page with its sources. Available as CSV and JSON with identical content.
+version: 1.0
+keywords: humanoid robots, robotics, prices, availability, deployments
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Humanoid Report
+    web: https://www.thehumanoid.report/
+organization:
+  - name: The Humanoid Report
+    web: https://www.thehumanoid.report/
+issued_time: 2026.11
+sources:
+  - name: humanoids.csv
+    access_url: https://raw.githubusercontent.com/heimseiten/humanoid-robots-dataset/main/humanoids.csv
+  - name: humanoids.json
+    access_url: https://raw.githubusercontent.com/heimseiten/humanoid-robots-dataset/main/humanoids.json
+references:
+  - title: Methodology and sources
+    reference: https://www.thehumanoid.report/methodology/
