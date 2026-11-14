@@ -1,0 +1,32 @@
+---
+title: SOMA AI Emission Factors (SAEF)
+homepage: https://github.com/guillermollopis/soma-ai-emission-factors
+category: Climate+Weather
+description: Carbon and water emission factors per million tokens for estimating the footprint of AI inference, by model class and cloud region.
+version: 3.2.0
+keywords: AI, LLM, inference, carbon, water, emission factors
+temporal:
+spatial: Global, by cloud region
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/guillermollopis/soma-ai-emission-factors
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SOMA AI
+    web:
+organization:
+  - name: SOMA AI
+    web:
+issued_time: 2026
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.20443585
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/GuillermoLlopis/ai-inference-emission-factors
+references:
+  - title: Method preprint (arXiv 2606.10660)
+    reference: https://arxiv.org/abs/2606.10660
