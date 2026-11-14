@@ -1,0 +1,25 @@
+---
+title: Electric Camper Vans Dataset
+homepage: https://github.com/heimseiten/electric-camper-vans-dataset
+category: Transportation
+description: Open, sourced dataset of 44 electric campers, camper conversions and conversion kits with price and status per market, range, battery, dimensions, berths and caveats. Every price and specification points to a public source URL; unknown values are empty, never zero. Available as JSON and as a flat CSV with one row per model and market.
+version: 1.0
+keywords: electric camper van, electric vehicles, campervan, price, range
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: EV Camper Guide
+    web: https://www.evcamper.guide/
+organization:
+  - name: EV Camper Guide
+    web: https://www.evcamper.guide/
+issued_time: 2026.11
+sources:
+  - name: evcampers.json
+    access_url: https://raw.githubusercontent.com/heimseiten/electric-camper-vans-dataset/main/evcampers.json
+  - name: evcampers-markets.csv
+    access_url: https://raw.githubusercontent.com/heimseiten/electric-camper-vans-dataset/main/evcampers-markets.csv
+references:
+  - title: Methodology
+    reference: https://www.evcamper.guide/methodology/
