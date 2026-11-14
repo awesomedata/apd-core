@@ -1,0 +1,43 @@
+---
+title: U.S. federal calendars and state rates (FOMC dates, release calendar, holidays, minimum wage, sales tax)
+homepage: https://github.com/ArchieR7/fedratecalc-open-data
+category: Government
+description: Eight small tables compiled from U.S. government sources, as CSV and JSON, with ICS calendar files for the dated ones. FOMC meeting dates 2026-2027 (16 rows), FOMC rate decisions 2025-2026 (15), federal funds target rate and range changes since 1990 (110), the 2026 economic data release calendar for CPI, PPI, PCE, jobs and GDP (101), federal holidays 2026-2028 with observed dates (33), state minimum wage rates 2026-2027 (51), state-level sales tax rates (51) and average residential electricity prices by state from EIA Table 5.6.A (52). Each row carries the source URL it was taken from; rows not yet checked against the agency page are marked as pending rather than filled in.
+version: '2026-11-15'
+keywords: FOMC, Federal Reserve, federal funds rate, economic calendar, federal holidays, minimum wage, sales tax, electricity prices, iCalendar
+temporal: 1990-2028
+spatial: United States
+access_level: public
+copyrights: The compiled tables are CC BY 4.0. The underlying U.S. government figures are in the public domain.
+accrual_periodicity: Updated when a source changes (after an FOMC meeting, a new release calendar, a state rate change, a new EIA month)
+language: en
+license: CC BY 4.0
+publisher:
+- name: FedRateCalc
+  web: https://github.com/ArchieR7/fedratecalc-open-data
+organization:
+- name: FedRateCalc
+  web: https://github.com/ArchieR7/fedratecalc-open-data
+issued_time: '2026.11'
+sources:
+- name: fomc-meetings-2026-2027.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/fomc-meetings-2026-2027.csv
+- name: fed-funds-target-range-history.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/fed-funds-target-range-history.csv
+- name: us-economic-release-calendar-2026.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/us-economic-release-calendar-2026.csv
+- name: us-federal-holidays-2026-2028.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/us-federal-holidays-2026-2028.csv
+- name: state-minimum-wage-2026-2027.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/state-minimum-wage-2026-2027.csv
+- name: state-sales-tax-rates.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/state-sales-tax-rates.csv
+- name: electricity-rates-by-state.csv
+  access_url: https://raw.githubusercontent.com/ArchieR7/fedratecalc-open-data/main/data/electricity-rates-by-state.csv
+references:
+- title: 'Board of Governors of the Federal Reserve System: FOMC meeting calendars and open market operations'
+  reference: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+- title: 'U.S. Office of Personnel Management: federal holidays'
+  reference: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+- title: 'U.S. Energy Information Administration: Electric Power Monthly, Table 5.6.A'
+  reference: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
