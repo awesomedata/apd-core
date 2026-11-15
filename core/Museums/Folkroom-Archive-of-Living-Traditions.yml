@@ -1,0 +1,31 @@
+---
+title: Folkroom — Open Register & Knowledge Graph of Living Cultural Traditions
+homepage: https://folkroom.org/data
+category: Museums
+description: Open-access CC BY-SA 4.0 dataset and knowledge graph of the world's living folk music, dance-drama, textiles, craft traditions, instruments, materials, and master artists across 70+ countries, reconciled with Wikidata QIDs and UNESCO Intangible Cultural Heritage inscriptions.
+version: "2026.11"
+keywords: intangible cultural heritage, folk art, ethnomusicology, UNESCO, living traditions, knowledge graph
+image: https://folkroom.org/og.png
+temporal:
+spatial: Global
+access_level: public
+copyrights: CC BY-SA 4.0
+accrual_periodicity: daily
+specification: Schema.org Dataset, DataCite 4.5, JSON-LD, CSV, BibTeX, RIS
+data_quality: true
+data_dictionary: https://folkroom.org/api/openapi.json
+language: en
+license: CC-BY-SA-4.0
+publisher: folkroom — The Public Archive of Living Traditions
+organization: Folkroom Archive (Wikidata Q142154447)
+issued_time: "2026"
+sources:
+  - name: Curated Canonical Traditions & Entities Dataset (JSON-LD)
+    access_url: https://folkroom.org/api/v1/export?format=json
+    format: JSON
+  - name: Curated Canonical Traditions Spreadsheet (CSV)
+    access_url: https://folkroom.org/api/v1/export?format=csv
+    format: CSV
+  - name: DataCite 4.5 Repository Metadata
+    access_url: https://folkroom.org/api/v1/export?format=datacite
+    format: JSON
