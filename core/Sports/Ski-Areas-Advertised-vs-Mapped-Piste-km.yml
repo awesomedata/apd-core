@@ -1,0 +1,22 @@
+---
+title: Ski Areas Advertised vs Mapped Piste km
+homepage: https://github.com/disbullief/ski-piste-km-advertised-vs-mapped
+category: Sports
+description: Advertised piste length vs downhill runs mapped in OpenStreetMap for 65 ski areas, with the official source for every advertised figure (CSV).
+version: 1.0
+keywords: sports, skiing, ski resorts, openstreetmap, pistes
+image: none
+temporal:
+spatial: Europe, Asia
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/disbullief/ski-piste-km-advertised-vs-mapped#file
+language: en
+license: ODbL
+publisher: Snowlist
+organization:
+issued_time:
+sources: []
