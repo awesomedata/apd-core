@@ -1,0 +1,12 @@
+---
+title: No Stairs Please - Independent Small Live-Music Venues (US & BC)
+homepage: https://nostairsplease.com/
+category: GIS
+description: Open directory and structured dataset of independent small live-music venues (<400 capacity) across all 50 US states, Washington DC, and British Columbia, including step-free access notes, room layouts, stage/PA details, booking contacts, and a public MCP endpoint (https://nostairsplease.com/mcp).
+version: 2026
+keywords: live music, venues, accessibility, step-free, gis, geospatial, directory, mcp
+access_level: public
+language: en
+publisher:
+  - name: No Stairs Please
+    web: https://nostairsplease.com/
