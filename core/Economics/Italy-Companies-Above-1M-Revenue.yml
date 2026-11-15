@@ -1,0 +1,35 @@
+---
+title: Italy Companies Above EUR 1M Revenue by Province, Municipality and Industry
+homepage: https://github.com/arnold222a/atlante-imprese-italia
+category: Economics
+description: "Counts of Italian limited companies reporting revenue of at least EUR 1, 10 and 50 million, for all 107 provinces, 4,114 municipalities (with ISTAT code) and 4,962 province x 3-digit ATECO/NACE industry group pairs, with each province's share of the national total of the group. Base: 941,168 active limited companies with a financial statement for fiscal year 2023 or later, of which 264,210 (28.1%) report at least EUR 1 million. Derived from Italian Chamber of Commerce (Business Register) data; revenue is taken from each company's individual statement and assigned to the municipality of the registered office. Counts only, no company-level records. Column names in Italian, documentation in Italian and English. CSV."
+version: 2026.11
+keywords: Italy, companies, revenue, provinces, municipalities, industrial districts, ATECO, NACE, SME, economic geography
+image:
+temporal: 2023-2024
+spatial: Italy
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity:
+specification:
+data_quality: true
+data_dictionary: https://github.com/arnold222a/atlante-imprese-italia/blob/main/README_EN.md
+language: it
+license: CC-BY-4.0
+publisher:
+  - name: Clientium
+    web: https://clientium.it/atlante/
+organization:
+  - name: Clientium
+    web: https://clientium.it/atlante/
+issued_time: 2026.11
+sources:
+  - name: Provinces (CSV)
+    access_url: https://raw.githubusercontent.com/arnold222a/atlante-imprese-italia/main/province.csv
+  - name: Municipalities (CSV)
+    access_url: https://raw.githubusercontent.com/arnold222a/atlante-imprese-italia/main/comuni.csv
+  - name: Province x industry group (CSV)
+    access_url: https://raw.githubusercontent.com/arnold222a/atlante-imprese-italia/main/distretti.csv
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.24236424)
+    reference: https://doi.org/10.5281/zenodo.24236424
