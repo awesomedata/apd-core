@@ -1,0 +1,22 @@
+---
+title: Artnap Public Domain Artworks
+homepage: https://huggingface.co/datasets/artnap/public-domain-artworks
+category: Museums
+description: Metadata for about 310,000 public domain artworks gathered from museum and library open collections. Each row names the work, the museum that holds it, the license and a link to the museum record.
+version:
+keywords: art, museums, public domain, open access, paintings, prints
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC0 1.0
+publisher:
+organization:
+issued_time: 2026.11
+sources: []
