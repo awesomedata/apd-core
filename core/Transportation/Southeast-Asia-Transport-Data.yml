@@ -1,0 +1,35 @@
+---
+title: Southeast Asia Transport Data (border crossings, routes, ferries and maps)
+homepage: https://github.com/laosbustickets/southeast-asia-transport-data
+category: Transportation
+description: "Open data for six Southeast Asian countries (Laos, Thailand, Vietnam, Cambodia, the Philippines and Indonesia): international land border crossings with their visa status and sources, bus, train, ferry and fast-boat routes, inter-island ferry routes port to port, the Laos-China Railway timetable for the next 7 days, towns, ports, stations and airports with coordinates, and each country's transport map as GeoJSON and as SVG/PNG images in eight languages. CSV, JSON and GeoJSON, no login. Synced every night; each country is archived weekly on Zenodo and Harvard Dataverse with its own DOI."
+version:
+keywords: transport, border crossings, railway, bus routes, ferries, GeoJSON, open data, Southeast Asia, Laos, Thailand, Vietnam, Cambodia, Philippines, Indonesia
+image:
+temporal: 2026-10-present
+spatial: Laos, Thailand, Vietnam, Cambodia, the Philippines and Indonesia
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://github.com/laosbustickets/southeast-asia-transport-data/blob/main/datasets.json
+language: en
+license: ODbL 1.0 (data; Laos under CC BY 4.0), CC BY 4.0 (map images)
+publisher:
+  - name: Southeast Asia Transport
+    web: https://zenodo.org/communities/sea-transport-open-data/
+organization:
+  - name: OpenStreetMap contributors (coordinates)
+    web: https://www.openstreetmap.org/copyright
+issued_time: 2026.10
+sources:
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/laosbustickets/southeast-asia-transport-data
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/seatransport/southeast-asia-transport-data
+  - name: Harvard Dataverse collection
+    access_url: https://dataverse.harvard.edu/dataverse/southeast-asia-transport
+references:
+  - title: Zenodo community with the DOI of each country's archive
+    reference: https://zenodo.org/communities/sea-transport-open-data/
