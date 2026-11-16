@@ -1,0 +1,28 @@
+---
+title: openradar Labour Market Research
+homepage: https://github.com/MikhailSagalaev/openradar
+category: Economics
+description: Empirical pay medians and percentiles for IT job vacancies and freelance orders aggregated from public boards, ATS career pages, RSS and Telegram. Monthly frozen CSV/JSON slices under CC BY 4.0, with methodology, codebook, Mincerian wage regression and regional comparisons.
+version: 1.0
+keywords: labour market, wages, IT jobs, freelance, salary percentiles, Mincer regression, Russia, remote work
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: openradar
+    web: https://openradar.fun
+organization:
+  - name: openradar
+    web: https://github.com/MikhailSagalaev/openradar
+sources:
+  - name: Research dataset (CSV)
+    access_url: https://openradar.fun/research/dataset.csv
+  - name: Research report (JSON)
+    access_url: https://openradar.fun/research/report.json
+  - name: Panel index (JSON)
+    access_url: https://openradar.fun/research/index.json
+references:
+  - title: Methodology and codebook
+    reference: https://openradar.fun/research/methodology
