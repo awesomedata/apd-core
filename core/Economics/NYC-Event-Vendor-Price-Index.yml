@@ -1,0 +1,34 @@
+---
+title: NYC Event Vendor Index and Event Price Index
+homepage: https://github.com/therunup-open/nyc-event-vendor-index
+category: Economics
+description: Published prices and pricing terms of about 3,600 New York City area event vendors (photographers, DJs, caterers, florists, planners, videographers, live bands, photo booths, hair and makeup artists, cake makers), read from each vendor's own website. Every fact carries the page it came from and the date it was checked. Includes the NYC Event Price Index (price quartiles by service, area and unit, such as per guest or per hour) as CSV and JSON. Monthly releases.
+version: 2026-11
+keywords: event prices, wedding prices, small business pricing, price transparency, New York City, consumer prices, open data
+temporal: 2026
+spatial: New York City, Long Island, Westchester and northern New Jersey, USA
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/therunup-open/nyc-event-vendor-index#files
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: The Runup
+    web: https://index.therunup.ai/
+organization:
+  - name: The Runup
+    web: https://index.therunup.ai/
+issued_time: 2026.11
+sources:
+  - name: Vendors (CSV)
+    access_url: https://raw.githubusercontent.com/therunup-open/nyc-event-vendor-index/main/data/vendors.csv
+  - name: Price index by category and area (CSV)
+    access_url: https://raw.githubusercontent.com/therunup-open/nyc-event-vendor-index/main/data/price-index-by-area.csv
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/therunup/nyc-event-vendor-index
+references:
+  - title: Method
+    reference: https://index.therunup.ai/method/
