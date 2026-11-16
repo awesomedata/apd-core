@@ -1,0 +1,33 @@
+---
+title: Fixie English Morpheme Segmentation Lexicon
+homepage: https://huggingface.co/datasets/rodrigolmirco/english-morpheme-segmentation
+category: NaturalLanguage
+description: About 8,740 English words segmented into morphemes (prefix, root, suffix), with each morpheme's underlying form and type, plus a table of 171 English prefix and suffix senses with plain-English meanings, inflectional/derivational class and part-of-speech change. CSV and JSON. Derived from MorphyNet (built from English Wiktionary), filtered to high- and medium-confidence analyses.
+version: 1.0
+keywords: morphology, morphemes, morpheme segmentation, affixes, prefixes, suffixes, English, linguistics.
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://huggingface.co/datasets/rodrigolmirco/english-morpheme-segmentation#files
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/rodrigolmirco/english-morpheme-segmentation#files
+language: en
+license: CC BY-SA 3.0
+publisher:
+  - name: Fixie Tools
+    web: https://fixie.tools
+organization:
+  - name: Fixie Tools
+    web: https://fixie.tools
+issued_time: 2026-11-15
+sources:
+  - name: Zenodo (DOI 10.5281/zenodo.24264741)
+    access_url: https://doi.org/10.5281/zenodo.24264741
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/rodrigolmirco/english-morpheme-segmentation
+references:
+  - title: "Batsuren, Bella & Giunchiglia (2021). MorphyNet: a Large Multilingual Database of Derivational and Inflectional Morphology. SIGMORPHON 2021."
+    reference: https://aclanthology.org/2021.sigmorphon-1.5/
