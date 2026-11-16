@@ -1,0 +1,28 @@
+---
+title: Stafka Remote Pay Expectations 2026
+homepage: https://github.com/stafka-com/remote-pay-2026
+category: Economics
+description: Expected monthly pay (USD) stated by 348 remote executive assistants and customer support specialists in Ukraine, Georgia, Armenia and Kazakhstan, as group statistics by role, country, English level (CEFR), experience and hours, with US BLS OEWS and national average wage benchmarks and a one-day count of remote jobs open to these countries. CSV with a Frictionless datapackage.json.
+version: 2026.11
+keywords: wages,salaries,remote-work,labor-market,eastern-europe,caucasus,central-asia
+image:
+temporal: 2026-11
+spatial: Ukraine, Georgia, Armenia, Kazakhstan
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/stafka-com/remote-pay-2026/blob/main/datapackage.json
+language: en
+license: CC BY 4.0
+publisher: Stafka
+organization: Stafka
+issued_time: 2026-11-13
+sources:
+  - name: GitHub repository (CSV files)
+    access_url: https://github.com/stafka-com/remote-pay-2026/tree/main/data
+  - name: Zenodo (DOI 10.5281/zenodo.24218201)
+    access_url: https://doi.org/10.5281/zenodo.24218201
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/stafka/stafka-remote-pay-2026
