@@ -1,0 +1,23 @@
+---
+title: Error Correction Zoo
+homepage: https://github.com/errorcorrectionzoo/eczoo_data
+category: InterDisciplinary
+description: Semi-structured YAML data behind the Error Correction Zoo, covering over 1,000 classical and quantum error-correcting codes with their properties, decoders, realizations, relations, and references.
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality:
+data_dictionary:
+language:
+license: CC BY-SA 4.0
+publisher:
+organization:
+issued_time:
+sources:
+references:
