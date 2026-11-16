@@ -1,0 +1,37 @@
+---
+title: Space Industry Open Jobs and Posted Pay (SpaceJobs.Now)
+homepage: https://spacejobs.now/data
+category: Economics
+description: Daily snapshot of the open jobs and internships at about 210 space companies and agencies (launch providers, satellite and spacecraft makers, NASA contractors, European space firms), read every night from each employer's own public careers site. Counts open roles by employer and by kind of work (propulsion, GNC, avionics, software, manufacturing, test and others), new roles in the last 7 days, and the median and typical range of posted annual pay per kind of work where at least three employers state a rate. About 21,800 open roles on 16 Nov 2026. Posted pay is what listings state, not earnings or a wage survey; coverage is the employers the board reads. JSON and CSV, no key.
+version: 1.0
+keywords: space industry, aerospace, labor market, job postings, salaries, posted pay, internships, hiring
+image:
+temporal: 2026-
+spatial: United States, Europe
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://spacejobs.now/data
+language: en
+license: CC BY 4.0
+publisher:
+  - name: SpaceJobs.Now
+    web: https://spacejobs.now/
+organization:
+  - name: SpaceJobs.Now
+    web: https://spacejobs.now/
+issued_time: 2026.10
+sources:
+  - name: Open roles by employer and kind of work (JSON)
+    access_url: https://spacejobs.now/roles.json
+  - name: Posted pay by kind of work (JSON)
+    access_url: https://spacejobs.now/pay.json
+  - name: Posted pay by kind of work (CSV)
+    access_url: https://spacejobs.now/pay.csv
+  - name: Open jobs (JSON API, OpenAPI 3.1 description)
+    access_url: https://spacejobs.now/openapi.json
+references:
+  - title: Data page with field definitions and limitations
+    reference: https://spacejobs.now/data
