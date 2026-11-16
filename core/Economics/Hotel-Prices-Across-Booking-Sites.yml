@@ -1,0 +1,41 @@
+---
+title: Hotel Prices Across Booking Sites (Underbook hotel price study)
+homepage: https://github.com/DPWonder/hotel-price-study
+category: Economics
+description: >-
+  Every booking site's nightly rate that Google Hotels listed for the same
+  2-night stay at each hotel, in 17 snapshots taken September 22 to October 10,
+  2026: 7,044 priced hotel rows in 368 cities (US, Europe, the Americas,
+  Asia-Pacific), 2 adults, US market, US dollars. Each row gives the going
+  rate (the price most sites agree on), the lowest price and the site that
+  had it, whether that listing named a room and whether its room name matched
+  the room at the going rate, whether any site reported a before-tax rate, and
+  free cancellation. Two more files price the same stays again a week later.
+  One CSV per snapshot (about 1 MB in all) with a Frictionless
+  datapackage.json, checksums and a README covering the method and its known
+  limits. Direct download, no login.
+version: 1.0.0
+keywords: hotel prices, price dispersion, online travel agencies, booking sites, Google Hotels, travel, pricing, free cancellation
+temporal: 2026-09-22 to 2026-10-10 (stays 2026-10-13 to 2026-11-16)
+spatial: 368 cities in the US, Europe, the Americas and Asia-Pacific
+access_level: public
+specification: https://github.com/DPWonder/hotel-price-study/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/DPWonder/hotel-price-study#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Underbook
+    web: https://underbook.co
+organization:
+  - name: Underbook
+    web: https://underbook.co
+issued_time: "2026.10"
+sources:
+  - name: CSV files, one per snapshot
+    access_url: https://github.com/DPWonder/hotel-price-study/tree/main/data
+  - name: Google Hotels prices, retrieved through the SerpApi google_hotels engine
+    access_url: https://serpapi.com/google-hotels-api
+references:
+  - title: Study page with method, findings and corrections
+    reference: https://underbook.co/hotel-price-dispersion-study
