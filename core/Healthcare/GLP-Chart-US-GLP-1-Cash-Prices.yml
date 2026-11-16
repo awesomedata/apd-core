@@ -1,0 +1,31 @@
+---
+title: GLP Chart US GLP-1 Cash Prices
+homepage: https://github.com/glpchart/us-glp1-cash-prices
+category: Healthcare
+description: Weekly cash prices for semaglutide and tirzepatide (brand and compounded) from US online programs, May 2026 onward, read from each program's own pricing page. CSV, CC BY 4.0, DOI 10.5281/zenodo.24245067.
+version: 2026-11
+keywords: GLP-1, semaglutide, tirzepatide, drug prices, health economics, telehealth, United States
+image:
+temporal: 2026-05-25/2026-11-09
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/glpchart/us-glp1-cash-prices#data-dictionary
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GLP Chart
+    web: https://glpchart.com
+organization:
+  - name: GLP Chart
+    web: https://glpchart.com
+issued_time: 2026.11
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.24245067
+references:
+  - title: GLP Chart US GLP-1 Cash Prices
+    reference: https://doi.org/10.5281/zenodo.24245067
