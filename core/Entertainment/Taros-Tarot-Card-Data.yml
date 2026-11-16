@@ -1,0 +1,35 @@
+---
+title: "Tarot Card Data: All 78 Cards (JSON and CSV)"
+homepage: https://doi.org/10.5281/zenodo.24281833
+category: Entertainment
+description: Structured data for the 78 tarot cards with names, numbers, suits, ranks, eight keywords each, upright and reversed meanings, yes or no answers, elements and astrology, plus a public-domain image of each card from the 1909 Rider-Waite-Smith deck. 78 records as JSON and CSV, with the 78 card images (WebP) in a ZIP.
+version: 1.0.0
+keywords: tarot, tarot cards, symbolism, divination, open data
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/TaroSchenker/tarot-card-data#fields
+language: en
+license: CC BY 4.0 (card data); public domain (card images)
+publisher:
+  - name: Taro's Tarot
+    web: https://tarostarot.com/tarot-card-data
+organization:
+  - name: Known by One, LLC
+    web: https://tarostarot.com
+issued_time: 2026.11.16
+sources:
+  - name: JSON download
+    access_url: https://zenodo.org/api/records/24281833/files/tarot-cards.json/content
+  - name: CSV download
+    access_url: https://zenodo.org/api/records/24281833/files/tarot-cards.csv/content
+  - name: Card images (78 WebP, public domain)
+    access_url: https://zenodo.org/api/records/24281833/files/tarot-card-images-1909-v1.zip/content
+references:
+  - title: Source repository
+    reference: https://github.com/TaroSchenker/tarot-card-data
