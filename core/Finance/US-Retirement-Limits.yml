@@ -1,0 +1,47 @@
+---
+title: US retirement limits data
+homepage: https://github.com/Lead-partner/retirement-limits-data
+category: Finance
+description: >
+  Sourced JSON and CSV of official United States IRA, 401(k), TSP and SIMPLE
+  contribution limits (including 2026), the IRS Uniform Lifetime and Single Life
+  RMD tables, and IRC § 408(m) IRA-eligible coin and bullion rules. Each row
+  cites a primary source (IRS notices and publications, TSP, 26 CFR, and the
+  U.S. Code). Data is licensed CC BY 4.0; loaders are MIT. Not an official IRS
+  or Treasury publication.
+version: 2026.1.0
+keywords: retirement, IRA, 401k, TSP, contribution limits, RMD, IRS, 26 CFR, IRC 408(m), United States
+image:
+temporal: 1987-2026
+spatial: United States
+access_level: public
+copyrights: Compilation CC BY 4.0; underlying IRS, Treasury and other U.S. government works are U.S. government works.
+accrual_periodicity: annual
+specification: https://github.com/Lead-partner/retirement-limits-data/blob/main/schema.md
+data_quality: true
+data_dictionary: https://github.com/Lead-partner/retirement-limits-data/blob/main/schema.md
+language: en
+license: CC BY 4.0 (data), MIT (code)
+publisher:
+  - name: Lead Partner AS
+    web: https://github.com/Lead-partner
+organization:
+  - name: Lead Partner AS
+    web: https://github.com/Lead-partner
+issued_time: 2026.11
+sources:
+  - name: IRS COLA increases for dollar limitations on benefits and contributions
+    access_url: https://www.irs.gov/retirement-plans/cola-increases-for-dollar-limitations-on-benefits-and-contributions
+  - name: IRS Notice 2025-67
+    access_url: https://www.irs.gov/pub/irs-drop/n-25-67.pdf
+  - name: TSP historical contribution limits
+    access_url: https://www.tsp.gov/hr-payroll-resources/historical-info/
+  - name: 26 CFR § 1.401(a)(9)-9 Life expectancy and Uniform Lifetime tables
+    access_url: https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR6f8c3724b50e44d/section-1.401(a)(9)-9
+  - name: 26 U.S.C. § 408(m)
+    access_url: https://www.law.cornell.edu/uscode/text/26/408
+references:
+  - title: Dataset sources
+    reference: https://github.com/Lead-partner/retirement-limits-data/blob/main/SOURCES.md
+  - title: Canonical dataset JSON
+    reference: https://github.com/Lead-partner/retirement-limits-data/blob/main/data/dataset.json
