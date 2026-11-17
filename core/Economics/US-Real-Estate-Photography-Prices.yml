@@ -1,0 +1,33 @@
+---
+title: US Real Estate Photography Prices
+homepage: https://github.com/October-ai-jpg/listing-photo-data
+category: Economics
+description: Published prices of 154 US real estate photographers and photo companies in 24 metro areas, each read from the business's own pricing page on 3 November 2026. For every business - base photo package price by home size (under 1,500 / 1,500-3,000 / 3,000-4,500 sq ft), photos included, turnaround, and drone, video, twilight and 3D tour add-on prices, with the source URL, date checked and comparability notes. Median base price for a 1,500-3,000 sq ft home is $225 (middle half $195-$264). The same repository holds photo rules for 22 US MLSs and a comparison of 58 listing photo tools, each row with its source URL. CSV and JSON.
+version: 1.0
+keywords: real estate, photography, prices, services, housing, MLS, small business, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/October-ai-jpg/listing-photo-data#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: October
+    web: https://www.october-ai.com/
+organization:
+  - name: October
+    web: https://www.october-ai.com/
+issued_time: 2026.11
+sources:
+  - name: Real estate photography prices (CSV)
+    access_url: https://github.com/October-ai-jpg/listing-photo-data/blob/main/data/photographer-prices.csv
+  - name: Real estate photography prices (JSON)
+    access_url: https://github.com/October-ai-jpg/listing-photo-data/blob/main/data/photographer-prices.json
+references:
+  - title: Field list and caveats
+    reference: https://github.com/October-ai-jpg/listing-photo-data#fields
