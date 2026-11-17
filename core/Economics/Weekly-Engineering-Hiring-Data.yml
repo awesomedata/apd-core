@@ -1,0 +1,35 @@
+---
+title: Weekly Engineering Hiring Data
+homepage: https://github.com/bjhozie36-ship-it/engineering-hiring-data
+category: Economics
+description: Weekly open data on software engineering hiring at about 500 tech companies and YC startups, read from the companies' own public career pages (Greenhouse, Lever, Ashby, Workday and other applicant tracking systems). Includes open engineering roles and new roles in the last 7 days per company, roles open 30 and 90+ days, and 25th/50th/75th percentile published pay by role family and seniority. A weekly totals file builds a time series. CSV.
+version: 1.0
+keywords: jobs, hiring, labor market, software engineering, salaries, startups, Y Combinator, job postings
+image:
+temporal: 2026-
+spatial: Global, mostly United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://matrixx-hiring-signals.netlify.app/methodology.html
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Matrixx Hiring Signals
+    web: https://matrixx-hiring-signals.netlify.app/data/
+organization:
+  - name: Matrixx Hiring Signals
+    web: https://matrixx-hiring-signals.netlify.app/
+issued_time: 2026.11
+sources:
+  - name: Companies hiring (CSV)
+    access_url: https://raw.githubusercontent.com/bjhozie36-ship-it/engineering-hiring-data/main/data/companies-hiring.csv
+  - name: Salary by role and level (CSV)
+    access_url: https://raw.githubusercontent.com/bjhozie36-ship-it/engineering-hiring-data/main/data/salary-by-role-level.csv
+  - name: Weekly totals (CSV)
+    access_url: https://raw.githubusercontent.com/bjhozie36-ship-it/engineering-hiring-data/main/data/weekly-totals.csv
+references:
+  - title: Methodology
+    reference: https://matrixx-hiring-signals.netlify.app/methodology.html
