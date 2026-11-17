@@ -1,0 +1,31 @@
+---
+title: France Tempo Days and Winter Electricity Consumption
+homepage: https://huggingface.co/datasets/JourTempo/tempo-hivers-france
+category: Energy
+description: Daily colour of the French EDF Tempo electricity tariff (blue, white, red days chosen by the grid operator RTE) since September 2014, per-season summaries, day-of-year frequencies, and daily winter peak and average national consumption with temperature since 2011-2012. CSV files.
+version: 2026.11
+keywords: electricity, demand response, tariff, peak days, France, RTE, time series.
+image:
+temporal: 2011-2026
+spatial: France
+access_level: public
+copyrights: RTE (source data)
+accrual_periodicity: daily
+specification:
+data_quality: false
+data_dictionary:
+language: fr
+license: Licence Ouverte 2.0 (Etalab)
+publisher:
+  - name: Jour Tempo
+    web: https://huggingface.co/JourTempo
+organization:
+  - name: Jour Tempo
+    web: https://huggingface.co/JourTempo
+issued_time: 2026.11
+sources:
+  - name: RTE (Tempo Like Supply Contract API, éCO2mix)
+    access_url: https://data.rte-france.com/
+references:
+  - title:
+    reference:
