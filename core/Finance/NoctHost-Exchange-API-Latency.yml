@@ -1,0 +1,38 @@
+---
+title: Crypto exchange API latency by city
+homepage: https://nocthost.com/exchange-latency
+category: Finance
+description: >
+  Round trip times from cloud servers in 21 cities to the public REST APIs of
+  six crypto exchanges (Binance, Bybit, OKX, Coinbase, Kraken, Hyperliquid).
+  Each value is the median of warm HTTPS requests over one connection, measured
+  on 12 November 2026 from fresh 1 vCPU servers. CSV with one row per city and
+  exchange, plus the shell command used, so anyone can rerun it.
+version: 2026-11
+keywords: latency, crypto exchanges, trading bots, API, round trip time, Binance, Coinbase, Kraken, Hyperliquid
+image:
+temporal: 2026-11
+spatial: World
+access_level: public
+copyrights: NoctHost
+accrual_periodicity: monthly
+specification: https://nocthost.com/exchange-latency
+data_quality: true
+data_dictionary: https://nocthost.com/exchange-latency
+language: en
+license: CC BY 4.0
+publisher:
+  - name: NoctHost
+    web: https://nocthost.com
+organization:
+  - name: NoctHost
+    web: https://nocthost.com
+issued_time: 2026.11
+sources:
+  - name: CSV download
+    access_url: https://nocthost.com/exchange-latency.csv
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.24247822
+references:
+  - title: Method and results
+    reference: https://nocthost.com/blog/exchange-api-latency-21-cities
