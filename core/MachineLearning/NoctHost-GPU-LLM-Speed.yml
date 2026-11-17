@@ -1,0 +1,37 @@
+---
+title: Ollama LLM generation speed on cloud GPUs
+homepage: https://nocthost.com/gpu-llm-speed
+category: MachineLearning
+description: >
+  Tokens per second for Llama 3.1 8B and Qwen 2.5 14B (Q4_K_M) served with
+  Ollama on two rented cloud GPUs, NVIDIA RTX 4000 Ada and L4. Median of three
+  runs on a fresh server, measured on 15 November 2026, with prompt speed,
+  VRAM and the hourly price of each GPU. CSV under CC BY 4.0.
+version: 2026-11
+keywords: LLM, inference, tokens per second, Ollama, GPU, benchmark, cloud GPU, cost
+image:
+temporal: 2026-11
+spatial: World
+access_level: public
+copyrights: NoctHost
+accrual_periodicity: irregular
+specification: https://nocthost.com/gpu-llm-speed
+data_quality: true
+data_dictionary: https://nocthost.com/gpu-llm-speed
+language: en
+license: CC BY 4.0
+publisher:
+  - name: NoctHost
+    web: https://nocthost.com
+organization:
+  - name: NoctHost
+    web: https://nocthost.com
+issued_time: 2026.11
+sources:
+  - name: CSV download
+    access_url: https://nocthost.com/gpu-llm-speed.csv
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.24251441
+references:
+  - title: Method and results
+    reference: https://nocthost.com/gpu-llm-speed
