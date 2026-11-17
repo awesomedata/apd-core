@@ -1,0 +1,33 @@
+---
+title: Company formations and dissolutions in Spain (BORME)
+homepage: https://github.com/alexhb-dev/constitucion-sociedades-espana
+category: Government
+description: Monthly number of companies incorporated and dissolved in Spain since November 2024, counted from the filings published in the official Commercial Registry gazette (BORME), plus the monthly series of each of the 52 provinces and 12-month totals by CNAE activity section. Updated daily at the source; the repository keeps a monthly copy of the CSV.
+version: 1.0
+keywords: Spain, company formations, business demography, BORME, commercial registry, provinces, CNAE
+image:
+temporal: 2024.11-present
+spatial: Spain, provinces
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification: CSV, UTF-8, columns tabla, periodo, clave, nombre, constituciones, extinciones
+data_quality: true
+data_dictionary: https://github.com/alexhb-dev/constitucion-sociedades-espana#contenido-del-archivo
+language: es
+license: CC BY 4.0
+publisher:
+  - name: NifData
+    web: https://nifdata.com
+organization:
+  - name: NifData
+    web: https://nifdata.com
+issued_time: 2026.11
+sources:
+  - name: Monthly CSV (repository)
+    access_url: https://raw.githubusercontent.com/alexhb-dev/constitucion-sociedades-espana/main/nifdata-estadisticas-borme.csv
+  - name: BORME (official source)
+    access_url: https://www.boe.es/borme/
+references:
+  - title: Methodology
+    reference: https://github.com/alexhb-dev/constitucion-sociedades-espana#metodología
