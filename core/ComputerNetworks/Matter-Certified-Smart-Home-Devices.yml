@@ -1,0 +1,35 @@
+---
+title: Matter Certified Smart Home Devices
+homepage: https://github.com/mattercatalog/matter-certified-devices
+category: ComputerNetworks
+description: Matter smart-home devices matched to their Connectivity Standards Alliance (CSA) certificates on the Distributed Compliance Ledger. 2,098 certified models with brand, model, category, certificate ID, certification date and network (Thread or Wi-Fi); a 2,943-record catalog that also marks Matter claims with no matching certificate; and new Matter certifications per month.
+version:
+keywords: Matter, smart home, IoT, Thread, Wi-Fi, CSA, Distributed Compliance Ledger, device certification
+image:
+temporal: 2022-2026
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/mattercatalog/matter-certified-devices/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+- name: MatterCatalog
+  web: https://mattercatalog.com/open-data
+organization:
+- name: MatterCatalog
+  web: https://mattercatalog.com/open-data
+issued_time: 2026-11-10
+sources:
+- name: Certified models (CSV)
+  access_url: https://raw.githubusercontent.com/mattercatalog/matter-certified-devices/main/data/matter-certified-products.csv
+- name: Full catalog with certification status (CSV)
+  access_url: https://raw.githubusercontent.com/mattercatalog/matter-certified-devices/main/data/matter-catalog.csv
+- name: New certifications per month (CSV)
+  access_url: https://raw.githubusercontent.com/mattercatalog/matter-certified-devices/main/data/matter-certifications-2026-10.csv
+references:
+- title: Field definitions, method and limits
+  reference: https://github.com/mattercatalog/matter-certified-devices/blob/main/README.md
