@@ -1,0 +1,32 @@
+---
+title: Crypto Exchange Listings and the Price After Them
+homepage: https://github.com/pianist161/crypto-exchange-listings
+category: Finance
+description: Every new coin listing and delisting announced by 10 crypto exchanges (Binance, Upbit, Coinbase, Bybit, OKX, KuCoin, Gate, HTX, BingX, MEXC) since November 2024, one row per event, with the time of the announcement, the time trading opened, and the price at the start and 5 minutes, 1 hour, 24 hours and 7 days later, read from public 1-minute candles. 4,121 events, 2,390 of them with measured prices. Direct CSV download, no signup, CC BY 4.0.
+version:
+keywords:
+  - cryptocurrency
+  - exchange listings
+  - delistings
+  - event study
+  - Binance
+  - Upbit
+image:
+temporal: 2024-11 to present
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/pianist161/crypto-exchange-listings#columns-of-listingscsv
+language: en
+license: CC BY 4.0
+publisher: New Coin Listings
+organization:
+issued_time: 2026.11
+sources:
+  - name: GitHub (CSV)
+    access_url: https://github.com/pianist161/crypto-exchange-listings
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/newlisting/crypto-exchange-listings-and-price-after-listing
