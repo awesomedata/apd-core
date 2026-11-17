@@ -1,0 +1,33 @@
+---
+title: Museum Painting Colors and LRV
+homepage: https://github.com/2217040/museum-painting-colors-lrv
+category: Museums
+description: "2,501 dominant colors extracted from 414 public-domain paintings in the open-access collections of The Metropolitan Museum of Art and The Art Institute of Chicago. Each color has its hex value, CIELAB and LCh coordinates, light reflectance value (LRV, the 0-100 measure paint brands print on color cards), the share of the painting's area it covers, and a link to the museum's own record. CSV (one row per color) and JSON (grouped by painting); releases are archived on Zenodo with a DOI."
+version: 1.0
+keywords: color, colour, LRV, light reflectance value, CIELAB, paintings, art history, public domain, museums
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/2217040/museum-painting-colors-lrv#csv-columns
+language: en
+license: CC0 1.0
+publisher:
+  - name: Light & Pigment
+    web: https://lightandpigment.com/
+organization:
+  - name: Light & Pigment
+    web: https://lightandpigment.com/
+issued_time: 2026.11
+sources:
+  - name: The Metropolitan Museum of Art Open Access
+    access_url: https://www.metmuseum.org/about-the-met/policies-and-documents/open-access
+  - name: Art Institute of Chicago Open Access
+    access_url: https://www.artic.edu/open-access
+references:
+  - title: Museum Painting Colors & LRV Dataset (Zenodo, all versions)
+    reference: https://doi.org/10.5281/zenodo.24303543
