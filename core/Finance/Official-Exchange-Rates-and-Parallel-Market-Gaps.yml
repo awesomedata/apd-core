@@ -1,0 +1,36 @@
+---
+title: Official Exchange Rates and Parallel-Market Gaps
+homepage: https://github.com/sobe-tech/official-exchange-rates
+category: Finance
+description: Official exchange rates from 24 central banks (Nigeria, Egypt, Ethiopia, Iraq, Libya, Algeria, Cuba, Venezuela, Argentina, Pakistan, Bangladesh, India and others), each with the bank's own publication date and a flag for whether the bank publishes its own US-dollar rate or the figure is a cross of two banks. For the ten countries with a parallel (street) market, the gap between an observed real-life indicator (elTOQUE, DolarApi, Yadio USDT P2P median, usdmvr.com) and the official rate, rounded in steps, with its source and observation day. One CSV row per country, refreshed weekly. Direct download, no signup, CC BY 4.0, DOI 10.5281/zenodo.24309247.
+version:
+keywords:
+  - exchange rates
+  - central bank
+  - official exchange rate
+  - parallel market
+  - black market premium
+  - emerging markets
+image:
+temporal: current snapshot, refreshed weekly
+spatial: 24 countries (Africa, Middle East, Latin America, South and Central Asia, Europe)
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/sobe-tech/official-exchange-rates#columns
+language: en
+license: CC BY 4.0
+publisher: SOBE OÜ
+organization:
+issued_time: 2026.11
+sources:
+  - name: GitHub (CSV)
+    access_url: https://github.com/sobe-tech/official-exchange-rates
+  - name: Zenodo (DOI 10.5281/zenodo.24309247)
+    access_url: https://doi.org/10.5281/zenodo.24309247
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/sobeinvest/official-exchange-rates
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/sobetech/official-exchange-rates-and-parallel-market-gaps
