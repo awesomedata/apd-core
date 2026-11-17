@@ -1,0 +1,32 @@
+---
+title: AI Video Clip Cost by Model
+homepage: https://github.com/AZERIA-IT/ai-video-clip-cost
+category: MachineLearning
+description: >-
+  Cost of one AI video clip per model, in credits and US dollars, from the public
+  price page of an AI video studio (Twistavo). Each row is one model and one
+  subscription plan: the price of a 5-second clip, and of a 10-second clip where
+  the model offers one. Columns cover the model, its provider family, the default
+  resolution, the sound option, the plan and its prices. CSV and JSON, direct
+  download, no login.
+keywords: AI video generation, text-to-video, image-to-video, cost per clip, pricing, credits, video models
+access_level: public
+copyrights: CC BY 4.0
+data_dictionary: https://github.com/AZERIA-IT/ai-video-clip-cost#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AZERIA IT SAS
+    web: https://github.com/AZERIA-IT
+organization:
+  - name: AZERIA IT SAS
+    web: https://github.com/AZERIA-IT
+issued_time: 2026.11
+sources:
+  - name: CSV in the repository
+    access_url: https://raw.githubusercontent.com/AZERIA-IT/ai-video-clip-cost/main/data/clip-cost.csv
+  - name: JSON in the repository
+    access_url: https://raw.githubusercontent.com/AZERIA-IT/ai-video-clip-cost/main/data/clip-cost.json
+references:
+  - title: Dataset DOI (Zenodo, latest version)
+    reference: https://doi.org/10.5281/zenodo.24272619
