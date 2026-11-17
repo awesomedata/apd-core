@@ -1,0 +1,33 @@
+---
+title: 'AI Crawler Access Study: robots.txt and llms.txt of 261 major websites'
+homepage: https://airanked.ai/research/ai-crawler-access-report
+category: ComputerNetworks
+description: robots.txt and llms.txt of 285 major websites (261 readable) checked against 14 AI user agents plus Googlebot as a control, split into training, AI search and user fetch agents. One CSV row per domain with site category, fetch status, allowed or blocked status for each agent at the homepage path, and llms.txt status. Finds that 35% of readable sites block at least one AI training crawler and 21% block at least one AI search crawler, with CCBot and Bytespider blocked most (28.7% each) and OAI-SearchBot least (11.5%).
+version: 1.0
+keywords: robots.txt, llms.txt, ai crawlers, gptbot, oai-searchbot, claudebot, perplexitybot, ccbot, bytespider, bot blocking, internet measurement
+image:
+temporal: 2026.10
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://airanked.ai/research/ai-crawler-access-report
+data_quality: true
+data_dictionary: https://airanked.ai/research/ai-crawler-access-report
+language: en
+license: CC BY 4.0
+publisher:
+- name: AI Ranked
+  web: https://airanked.ai
+organization:
+- name: AI Ranked
+  web: https://airanked.ai
+issued_time: 2026.10
+sources:
+- name: Dataset (CSV, 285 rows, one per domain)
+  access_url: https://airanked.ai/research/ai-crawler-access-data.csv
+- name: Study page with method and results
+  access_url: https://airanked.ai/research/ai-crawler-access-report
+references:
+- title: Which AI crawlers do top websites block? A study of 261 sites
+  reference: https://airanked.ai/research/ai-crawler-access-report
