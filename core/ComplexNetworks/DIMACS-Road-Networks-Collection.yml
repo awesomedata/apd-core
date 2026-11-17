@@ -1,8 +1,8 @@
 ---
-title: DIMACS Road Networks Collection
-homepage: http://www.dis.uniroma1.it/challenge9/download.shtml
+title: DIMACS Implementation Challenges
+homepage: https://dimacs.rutgers.edu/programs/implementation-challenges
 category: ComplexNetworks
-description:
+description: "The DIMACS Implementation Challenges help understand and improve the practical performance of algorithms for important problems, particularly those that are hard in the theoretical sense. The Challenges aid in determining realistic algorithm performance where worst-case analysis is overly pessimistic and probabilistic models are too unrealistic."
 version:
 keywords:
 image:
@@ -12,7 +12,7 @@ access_level:
 copyrights:
 accrual_periodicity:
 specification:
-data_quality: false
+data_quality: 
 data_dictionary:
 language:
 license:
