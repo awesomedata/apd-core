@@ -1,0 +1,22 @@
+---
+title: GTM APIs, the best plan for each
+homepage: https://zenodo.org/records/24058653
+category: Economics
+description: Every plan of every GTM API we found, one row each, with what it costs per 1,000, what it charges when it finds nothing, its rate limits, its speed and the fields it returns. Free to download as CSV or JSON, no sign-up.
+version: 1.0.0
+keywords: GTM APIs, API pricing, API plans, benchmark, price per 1,000
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Datacircle
+    web: https://datacircle.dev
+organization:
+  - name: Datacircle
+    web: https://datacircle.dev
+issued_time: 2026.11
+sources:
+  - name: Sheet as CSV
+    access_url: https://datacircle.dev/datacircle.csv
+  - name: Sheet as JSON
+    access_url: https://datacircle.dev/datacircle.json
