@@ -1,0 +1,32 @@
+---
+title: "Vampire Crawlers Guide Data: cards, evolutions, relics and bosses"
+homepage: https://github.com/thedogb/vampire-crawlers-guide-data
+category: Entertainment
+description: Hand-checked game data for Vampire Crawlers, The Turbo Wildcard from Vampire Survivors. Thirteen plain-CSV tables covering 21 cards, 17 damage rows, 18 evolutions, 62 gems, 19 relics, 16 Arcana, 19 Power Ups, 182 Town Hall unlocks, 161 achievements, 65 enemies, 45 resistance rows, 77 bosses and 25 boss notes, 727 data rows in total. Each file has a header row and a documented column list in the repository README.
+version: "1.0"
+keywords: video games, game data, cards, evolutions, relics, bosses, achievements, CSV, roguelike
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: Vampire Crawlers Guide contributors; game names and mechanics belong to their respective owners. The data tables are released under CC BY-SA 4.0.
+accrual_periodicity: Irregular, updated when the game patches change values
+specification:
+data_quality: false
+data_dictionary: https://github.com/thedogb/vampire-crawlers-guide-data#files
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: Vampire Crawlers Guide
+    web: https://github.com/thedogb/vampire-crawlers-guide-data
+organization:
+  - name: Vampire Crawlers Guide
+    web: https://github.com/thedogb/vampire-crawlers-guide-data
+issued_time: 2026.11.18
+sources:
+  - name: Thirteen CSV tables (one folder)
+    access_url: https://github.com/thedogb/vampire-crawlers-guide-data/tree/main/data
+  - name: Versioned snapshot v1.0.0
+    access_url: https://github.com/thedogb/vampire-crawlers-guide-data/releases/tag/v1.0.0
+references:
+  - title: Column definitions and row counts
+    reference: https://github.com/thedogb/vampire-crawlers-guide-data#files
