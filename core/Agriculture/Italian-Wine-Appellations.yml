@@ -1,0 +1,33 @@
+---
+title: Italian Wine Appellations (DOCG, DOC, IGT)
+homepage: https://github.com/lmenegon/denominazioni-vino-italiano
+category: Agriculture
+description: All 522 Italian wine appellations (79 DOCG, 332 DOC, 111 IGT) from the official lists of the Italian Ministry of Agriculture (MASAF), with region, wine type, grape varieties and percentages, production area and styles checked against the production rules. CSV and JSON, text in Italian.
+version: 2026-10
+keywords: wine, Italy, appellations, DOCG, DOC, IGT, PDO, PGI, grape varieties, agriculture, open data
+image:
+temporal:
+spatial: Italy
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/lmenegon/denominazioni-vino-italiano#readme
+language: it
+license: CC BY 4.0
+publisher:
+  - name: WikiVino
+    web: https://wikivino.it
+organization:
+  - name: WikiVino
+    web: https://wikivino.it
+issued_time: 2026.11
+sources:
+  - name: denominazioni.csv
+    access_url: https://raw.githubusercontent.com/lmenegon/denominazioni-vino-italiano/main/denominazioni.csv
+  - name: denominazioni.json
+    access_url: https://raw.githubusercontent.com/lmenegon/denominazioni-vino-italiano/main/denominazioni.json
+references:
+  - title: Source lists (MASAF, wine PDO and PGI)
+    reference: https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/4625
