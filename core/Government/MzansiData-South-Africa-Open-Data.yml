@@ -1,0 +1,35 @@
+---
+title: MzansiData South Africa Open Data (population, unemployment, inflation, crime victims, AI use)
+homepage: https://github.com/bridgewaiv/mzansidata-open-data
+category: Government
+description: Cleaned, documented CSV tables of South African official statistics, each with a Frictionless datapackage.json, a README data dictionary and a CITATION.cff. Five packages - mid-year population by province 2002 to 2026 (Stats SA P0302), unemployment from the Quarterly Labour Force Survey Q1 2008 to Q2 2026 for the country, provinces and metros (Stats SA P0211), monthly CPI inflation with headline since 1922 (Stats SA P0141), crime victims survey results 2018/19 to 2025/26 (Stats SA P0341), and South African Claude usage from the Anthropic Economic Index. Direct downloads, no login.
+version: 2026.11.2
+keywords: South Africa, Stats SA, population, unemployment, QLFS, inflation, CPI, crime victims, GPSJS, provinces, metros, Anthropic Economic Index
+image:
+temporal: 1922-2026
+spatial: South Africa
+access_level: public
+copyrights: Stats SA tables - acknowledge Stats SA as the source of the basic data and state that analysis is your own processing (Stats SA copyright notice, https://www.statssa.gov.za/?page_id=425). Anthropic Economic Index tables - CC BY 4.0.
+accrual_periodicity: with each Stats SA release (quarterly for QLFS, monthly for CPI, annually for population and the victims survey)
+specification: Frictionless Data Package
+data_quality: true
+data_dictionary: https://github.com/bridgewaiv/mzansidata-open-data/blob/main/README.md
+language: en
+license: Stats SA copyright notice (use with acknowledgement); CC BY 4.0 for the Anthropic Economic Index package
+publisher:
+  - name: MzansiData
+    web: https://mzansidata.co.za
+organization:
+  - name: MzansiData
+    web: https://mzansidata.co.za/about
+issued_time: 2026-11
+sources:
+  - name: GitHub repository (CSV, datapackage.json, README, CITATION.cff)
+    access_url: https://github.com/bridgewaiv/mzansidata-open-data
+  - name: Downloads page with checksums
+    access_url: https://mzansidata.co.za/data/downloads
+references:
+  - title: Statistics South Africa, copyright and disclaimer
+    reference: https://www.statssa.gov.za/?page_id=425
+  - title: Anthropic Economic Index
+    reference: https://www.anthropic.com/economic-index
