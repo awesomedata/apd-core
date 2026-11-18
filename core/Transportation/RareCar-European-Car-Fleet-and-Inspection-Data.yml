@@ -1,0 +1,29 @@
+---
+title: RareCar European Car Fleet and Inspection Data
+homepage: https://github.com/MagnumOpusSaga/rarecar-open-data
+category: Transportation
+description: Aggregated CSV files on passenger cars on the road by make and model, and periodic roadworthiness-test (MOT/APK/STK/katsastus) failure rates by model and year of first use, for Finland, the United Kingdom, the Netherlands, Estonia and Czechia. Derived from official open government vehicle registers; no registration numbers or personal data.
+version: 1
+keywords: cars,vehicles,MOT,roadworthiness,inspection,vehicle register,Europe,open data
+image:
+temporal: 2025-2026
+spatial: Finland, United Kingdom, Netherlands, Estonia, Czechia
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://github.com/MagnumOpusSaga/rarecar-open-data#files
+data_quality: true
+data_dictionary: https://github.com/MagnumOpusSaga/rarecar-open-data#files
+language: en
+license: Mixed (OGL-3.0, CC-BY-4.0, CC0-1.0, CC-BY-SA-4.0 per country)
+publisher: RareCar
+organization:
+  - name: RareCar
+    web: https://rarecar.eu/
+issued_time: 2026-11-18
+sources:
+  - name: RareCar open data repository
+    access_url: https://github.com/MagnumOpusSaga/rarecar-open-data
+references:
+  - title: Method and sources
+    reference: https://rarecar.eu/uk/methodology/
