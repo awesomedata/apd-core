@@ -1,0 +1,11 @@
+---
+title: NomyParts Drone and eVTOL Components
+homepage: https://www.nomyparts.com/data/
+category: Transportation
+description: Open catalog of about 340 components for professional drones and eVTOL aircraft from 114 manufacturers, with specifications in SI units, the source of each value and links to official product pages. CSV and JSON, updated with every release; DOI 10.5281/zenodo.24167633.
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+  - name: NomyParts
+    web: https://www.nomyparts.com/
