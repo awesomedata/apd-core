@@ -1,0 +1,31 @@
+---
+title: NomyParts Drone and eVTOL Components
+homepage: https://huggingface.co/datasets/NomyParts/uav-evtol-components
+category: Transportation
+description: Open catalog of about 385 components for professional drones (UAS) and eVTOL aircraft from over 100 manufacturers in 6 categories (propulsion, avionics, communications, sensors, structures, payload), with specifications in SI units, the source of each value and links to the official product pages. CSV and JSON, no login required.
+version:
+keywords: drones,UAV,UAS,eVTOL,aerospace,components,specifications,avionics,propulsion,sensors
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://www.nomyparts.com/data/
+language: en
+license: CC BY 4.0
+publisher: NomyParts
+organization:
+  - name: NomyParts
+    web: https://www.nomyparts.com/
+issued_time: 2026
+sources:
+  - name: CSV
+    access_url: https://www.nomyparts.com/data/components.csv
+  - name: JSON
+    access_url: https://www.nomyparts.com/data/components.json
+references:
+  - title: Zenodo archive (DOI)
+    reference: https://doi.org/10.5281/zenodo.24167633
