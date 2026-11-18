@@ -1,0 +1,31 @@
+---
+title: GameQuant App Store Top Charts, daily, United States
+homepage: https://doi.org/10.5281/zenodo.24352610
+category: Software
+description: Daily top 25 positions of every App Store chart (Top Free, Top Paid, Top Grossing, Top Grossing iPad) in every category of the United States store, 42 categories including all game genres, for 30 consecutive days from 2026-10-19 to 2026-11-17. One row per app, chart, category and day with rank, App Store app ID, app name and App Store link. 94,500 rows, 5,543 distinct apps, no gaps in any chart.
+version: "2026-11-17"
+keywords: app store, ios, mobile apps, mobile games, top charts, app rankings, time series
+image:
+temporal: 2026-10-19/2026-11-17
+spatial: United States
+access_level: public
+copyrights: Copyright (C) 2026 GameQuant
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://zenodo.org/records/24352610/files/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GameQuant
+    web: https://gamequant.io
+organization:
+  - name: GameQuant
+    web: https://gamequant.io
+issued_time: 2026.11.18
+sources:
+  - name: gamequant_appstore_top25_us_2026-10-19_2026-11-17.csv (CSV, 10.8 MB)
+    access_url: https://zenodo.org/records/24352610/files/gamequant_appstore_top25_us_2026-10-19_2026-11-17.csv?download=1
+references:
+  - title: Zenodo record with README and citation
+    reference: https://doi.org/10.5281/zenodo.24352610
