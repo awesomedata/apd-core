@@ -1,0 +1,33 @@
+---
+title: USB-C Charger x Device Compatibility and Charging Time
+homepage: https://github.com/2217040/usb-c-charger-compatibility
+category: Energy
+description: "Every pair of 52 phones, tablets, laptops and handheld consoles and 20 chargers (1,040 pairs): whether it charges, the power the two negotiate over USB Power Delivery, PPS, AVS or vendor protocols, whether that is the device's full speed, what limits the power (charger, device or a missing protocol), and estimated 0-50% and 0-100% charging times. Built from manufacturers' published specifications by the engine behind canitcharge.com; CSV, refreshed weekly, each refresh archived on Zenodo with a DOI."
+version: 1.0
+keywords: USB-C, USB Power Delivery, PPS, charging, charger compatibility, smartphones, laptops, consumer electronics
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://github.com/2217040/usb-c-charger-compatibility/blob/main/datapackage.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Can It Charge?
+    web: https://canitcharge.com/
+organization:
+  - name: Can It Charge?
+    web: https://canitcharge.com/
+issued_time: 2026.10
+sources:
+  - name: Can It Charge? method (manufacturer specifications)
+    access_url: https://canitcharge.com/how-we-calculate/
+references:
+  - title: USB-C Charger x Device Compatibility and Charging Time (Zenodo, all versions)
+    reference: https://doi.org/10.5281/zenodo.24344396
+  - title: Findings from every charger x device pair
+    reference: https://canitcharge.com/charger-study/
