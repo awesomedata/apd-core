@@ -1,0 +1,51 @@
+---
+title: AI Model Deprecation and Retirement Dates by Provider
+homepage: https://github.com/joelp22-maker/referencesource-data/tree/main/ai-model-deprecation-and-retirement
+category: MachineLearning
+description: >-
+  Every date quoted from the provider page that states it. 955 records covering
+  919 AI API model IDs from lifecycle pages published by 20 companies:
+  OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent
+  Platform's open-model and partner-model schedules), Microsoft Azure/Foundry,
+  AWS Bedrock, Together AI, Alibaba Cloud Model Studio, Mistral AI, Groq, IBM
+  watsonx.ai, Oracle OCI Generative AI, Databricks, SambaNova, Nebius Token
+  Factory, Cerebras, Cohere, xAI, DeepSeek, Moonshot AI and GitHub Copilot.
+  Every record carries the source URL and the verbatim line from that page; a
+  record also carries a shutdown date (922 of 943), a recommended replacement
+  (531) and the date the deprecation was announced (291) where the provider
+  states them, and is omitted rather than guessed where it does not. 76 model
+  IDs have two or more providers publishing different shutdown dates for the
+  same ID - grok-3 retires 2026-05-01 on Azure/Foundry and May 15, 2026 on
+  xAI's own API - and those records show every version with its own source and
+  quote rather than picking one. No single original exists; each provider
+  publishes only its own page.
+version: '2026-09-22'
+keywords: machine learning, large language models, LLM, API, deprecation, model retirement, software lifecycle
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Reference Source
+    web: https://referencesource.org/
+organization:
+  - name: Reference Source
+    web: https://referencesource.org/
+issued_time:
+sources:
+  - name: data.json (canonical, always current)
+    access_url: https://referencesource.org/ai-model-deprecation-and-retirement/data.json
+  - name: data.json (GitHub mirror, CC-BY-4.0)
+    access_url: https://raw.githubusercontent.com/joelp22-maker/referencesource-data/main/ai-model-deprecation-and-retirement/data.json
+  - name: CSV
+    access_url: https://referencesource.org/ai-model-deprecation-and-retirement/data.csv
+references:
+  - title: Dataset page, human-readable, with every source cited per record
+    reference: https://referencesource.org/ai-model-deprecation-and-retirement/
