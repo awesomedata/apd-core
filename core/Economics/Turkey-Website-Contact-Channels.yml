@@ -1,0 +1,37 @@
+---
+title: Turkey Business Website Contact Channels
+homepage: https://github.com/Pinlyx/turkey-website-contact-channels
+category: Economics
+description: "Which contact channels Turkish businesses offer on their websites, measured on a random sample of 5,014 business homepages fetched on 19 November 2026 (6,000 domains drawn from 256,184 reachable business domains in a Türkiye catalogue built from Overture Maps places, one record per domain, parked pages removed). Flags per site for WhatsApp chat links and plugins, around twenty live chat tools, Telegram, Messenger, social profile links, phone and email links, forms and contact pages. Summary by province and sector with sample sizes and 95% confidence intervals: WhatsApp on 38.9% of sites, live chat on 2.2%, no instant messaging channel on 59.9%. Includes an anonymised row file (no domains), the crawler and the analysis script. CSV, JSON and JSONL."
+version: 2026.11
+keywords: Turkey, small business, SME, WhatsApp, live chat, customer communication, websites, conversational commerce
+image:
+temporal: 2026
+spatial: Turkey
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://pinlyx.com/research/turkey-website-whatsapp-live-chat-2026
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Pinlyx
+    web: https://pinlyx.com/
+organization:
+  - name: Pinlyx
+    web: https://pinlyx.com/
+issued_time: 2026.11
+sources:
+  - name: Summary by province and sector (CSV)
+    access_url: https://raw.githubusercontent.com/Pinlyx/turkey-website-contact-channels/main/data/turkey-website-contact-channels-2026.csv
+  - name: Summary (JSON)
+    access_url: https://raw.githubusercontent.com/Pinlyx/turkey-website-contact-channels/main/data/turkey-website-contact-channels-2026.json
+  - name: Anonymised site rows (JSONL)
+    access_url: https://raw.githubusercontent.com/Pinlyx/turkey-website-contact-channels/main/data/rows-anonymised.jsonl
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.24370950)
+    reference: https://doi.org/10.5281/zenodo.24370950
+  - title: Method, province and sector tables
+    reference: https://pinlyx.com/research/turkey-website-whatsapp-live-chat-2026
