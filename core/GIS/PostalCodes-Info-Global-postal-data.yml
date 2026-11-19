@@ -1,0 +1,54 @@
+---
+title: PostalCodes.info Global Postal Code and Centroid Open Data
+homepage: https://postalcodes.info/datasets
+category: GIS
+description: Open-access global postal code, administrative hierarchy (ISO-3166 / Admin1 / Admin2), and WGS84 coordinate reference covering 249 countries and territories. Provides free 50-row CC0 CSV sample extracts for every country, a documented Free Tier JSON REST API (100 requests/day without credit card), an OpenAPI 3.1.0 specification, interactive Haversine radius and distance calculators, and Zenodo-archived methodology and benchmark records.
+version: "2026-11"
+keywords:
+  - postal codes
+  - ZIP codes
+  - geocoding
+  - GIS
+  - WGS84 coordinates
+  - administrative hierarchy
+  - Haversine radius
+  - open data
+  - API
+image:
+temporal: Continuously maintained global postal and administrative reference; see methodology and benchmark DOIs.
+spatial: Global (249 ISO-3166 countries and territories)
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://postalcodes.info/openapi.yaml
+data_quality: true
+data_dictionary: https://postalcodes.info/docs
+language: en
+license: CC0-1.0 (sample extracts)
+publisher:
+  - name: PostalCodes.info
+    web: https://postalcodes.info/
+organization:
+issued_time: "2026-11-02"
+sources:
+  - name: PostalCodes.info global dataset catalog and free CSV samples
+    access_url: https://postalcodes.info/datasets
+  - name: Spain (ES) free CSV sample
+    access_url: https://postalcodes.info/datasets?sample=ES
+  - name: United States (US) free CSV sample
+    access_url: https://postalcodes.info/datasets?sample=US
+  - name: Netherlands (NL) free CSV sample
+    access_url: https://postalcodes.info/datasets?sample=NL
+  - name: Germany (DE) free CSV sample
+    access_url: https://postalcodes.info/datasets?sample=DE
+references:
+  - title: Developer API documentation and Free Tier key generator
+    reference: https://postalcodes.info/docs
+  - title: OpenAPI 3.1.0 specification
+    reference: https://postalcodes.info/openapi.yaml
+  - title: Cross-border postal code radius calculator
+    reference: https://postalcodes.info/postal-code-radius-calculator
+  - title: Zenodo dataset DOI
+    reference: https://zenodo.org/records/19493709
+  - title: Zenodo methodology note
+    reference: https://zenodo.org/records/19930578
