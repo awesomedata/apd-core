@@ -1,0 +1,53 @@
+---
+title: South African financial, tax and market reference data
+homepage: https://github.com/tradeanswers/south-africa-financial-data
+category: Finance
+description: >
+  233 CSV tables on South African personal and company tax (SARS brackets,
+  rebates, CGT, PAYE, VAT, retirement and TFSA limits), SARB repo and prime
+  rate history, inflation, the rand exchange rate, exchange control
+  allowances, JSE trading costs and hours, payments and FSCA regulation.
+  Each table links to a page that lists its official sources and the date
+  its figures were last checked. Data is licensed CC BY 4.0 and archived on
+  Zenodo with DOI 10.5281/zenodo.24361562. Not an official SARS, SARB or
+  FSCA publication.
+version: 1.0
+keywords: South Africa, tax, SARS, SARB, repo rate, inflation, rand, JSE, FSCA, exchange control
+image:
+temporal: 2000-2026
+spatial: South Africa
+access_level: public
+copyrights: Compilation CC BY 4.0; underlying figures are published by SARS, the South African Reserve Bank, the FSCA, the JSE, Statistics South Africa and National Treasury.
+accrual_periodicity: monthly
+specification: https://github.com/tradeanswers/south-africa-financial-data/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/tradeanswers/south-africa-financial-data/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TradeAnswers
+    web: https://www.tradeanswers.co.za
+organization:
+  - name: TradeAnswers
+    web: https://www.tradeanswers.co.za
+issued_time: 2026.11
+sources:
+  - name: South African Revenue Service (SARS)
+    access_url: https://www.sars.gov.za/
+  - name: South African Reserve Bank (SARB)
+    access_url: https://www.resbank.co.za/
+  - name: Financial Sector Conduct Authority (FSCA)
+    access_url: https://www.fsca.co.za/
+  - name: Johannesburg Stock Exchange (JSE)
+    access_url: https://www.jse.co.za/
+  - name: Statistics South Africa
+    access_url: https://www.statssa.gov.za/
+  - name: National Treasury
+    access_url: https://www.treasury.gov.za/
+references:
+  - title: Dataset on Zenodo (DOI)
+    reference: https://doi.org/10.5281/zenodo.24361562
+  - title: Data and reference pages with sources for every table
+    reference: https://www.tradeanswers.co.za/data-reference.html
+  - title: Dataset on Kaggle
+    reference: https://www.kaggle.com/datasets/tradeanswers/south-african-financial-and-tax-reference-data
