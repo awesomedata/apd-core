@@ -1,0 +1,29 @@
+---
+title: US County Housing Market Snapshot
+homepage: https://neighborhoodnumbers.com/
+category: Economics
+description: One row per US county (3,072 counties) — median sale price, median list price, price per square foot, days on market, sold-above-list rate, price-drop rate, and year-over-year change for each, through the latest closed month. Sourced from Redfin's published market data and republished as a single clean per-county snapshot instead of Redfin's raw ZIP-level feed. Direct CSV download, no login; also mirrored on Kaggle, Hugging Face and GitHub.
+version: 1.0
+keywords: housing market, real estate data, home prices, median sale price, days on market, county housing data, Redfin data, real estate market trends
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/rrh1441/us-county-housing-market-snapshot
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Neighborhood Numbers
+    web: https://neighborhoodnumbers.com/
+sources:
+  - name: Redfin Data Center
+    access_url: https://www.redfin.com/news/data-center/
+references:
+  - title: GitHub mirror
+    reference: https://github.com/rrh1441/us-county-housing-market-snapshot
+  - title: Kaggle mirror
+    reference: https://www.kaggle.com/datasets/ryanheger/us-county-housing-market-snapshot
