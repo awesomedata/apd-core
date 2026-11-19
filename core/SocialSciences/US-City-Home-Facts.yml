@@ -1,0 +1,31 @@
+---
+title: U.S. City Home Facts (Housing Age, Heating, Climate, Trade Wages)
+homepage: https://github.com/ratedeed/us-city-home-facts
+category: SocialSciences
+description: Cross-referenced municipal dataset for 705 U.S. cities across 51 states combining U.S. Census Bureau ACS 2020-2024 housing age and heating fuel tables, NOAA 1991-2020 climate normals, BLS OEWS May 2025 home-service trade wages for 292 metro areas, plus verified state trade licensing boards and city building-permit portals. Four CSV tables with Frictionless Data Package metadata.
+version: 2026.11
+keywords: housing, census, acs, climate, noaa, wages, bls, united-states, cities, municipal, licensing, permits
+image:
+temporal: 1991-2026
+spatial: United States
+access_level: public
+copyrights: U.S. Census Bureau, NOAA, BLS (source data)
+accrual_periodicity: irregular
+specification: https://github.com/ratedeed/us-city-home-facts/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/ratedeed/us-city-home-facts/blob/main/datapackage.json
+language: en
+license: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+publisher:
+  - name: RateDeed
+    web: https://www.ratedeed.com/research
+organization:
+  - name: RateDeed
+    web: https://www.ratedeed.com/research
+issued_time: 2026-11-06
+sources:
+  - name: U.S. Census Bureau ACS 2020-2024, NOAA Climate Normals 1991-2020, BLS OEWS May 2025
+    access_url: https://github.com/ratedeed/us-city-home-facts
+references:
+  - title: U.S. City Home Facts Open Dataset & JSON API Documentation
+    reference: https://www.ratedeed.com/developers/city-data
