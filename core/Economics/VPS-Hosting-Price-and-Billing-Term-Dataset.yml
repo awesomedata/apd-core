@@ -1,0 +1,42 @@
+---
+title: VPS Hosting Price and Billing-Term Dataset
+homepage: https://github.com/666break/vps-price-dataset
+category: Economics
+description: Published VPS hosting prices and the billing terms printed next to them, for 26 hosting providers, as CSV. Covers plan pricing with per-GB, per-vCPU and per-GB-storage unit prices, add-on costs (backups, snapshots, extra IPv4), first-term versus renewal prices with the renewal ratio, promotional offers with their conditions, datacenter-region price tables, contract-term totals, entry-tier hourly and monthly rates, payment methods as each provider page prints them, backup tier retention windows, included traffic allowances, disk extension costs, bandwidth overage units, and managed-database metering objects. Every row carries the official provider URL it was read from and the date it was checked. Where a provider does not publish a figure the cell says so, and where a page could not be read the row records the HTTP status instead of guessing. Ships with an offline checker that re-derives the file checksums and recomputes the per-unit arithmetic, and a CLI for querying the tables.
+version: 1.0.0
+keywords: VPS, VPS hosting, cheap VPS hosting, cloud hosting, server hosting, hosting prices, server pricing, price comparison, renewal price, price per GB RAM, bandwidth overage, backup pricing, payment methods, cloud cost, infrastructure cost, open data
+temporal: 2026
+spatial: global (prices in USD and EUR as published by providers)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: CSV, one header row, UTF-8, LF line endings; manifest.json records row count, column count, byte count and md5 for each file
+data_quality: true
+data_dictionary: https://github.com/666break/vps-price-dataset/blob/main/data/open/DATA_DICTIONARY.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: ServerBudget
+    web: https://serverbudget.com/
+organization:
+  - name: ServerBudget
+    web: https://serverbudget.com/
+issued_time: 2026.11
+sources:
+  - name: VPS plan and add-on pricing CSV
+    access_url: https://raw.githubusercontent.com/666break/vps-price-dataset/main/data/open/vps-plan-pricing.csv
+  - name: Renewal price comparison CSV
+    access_url: https://raw.githubusercontent.com/666break/vps-price-dataset/main/data/open/renewal-price-comparison.csv
+  - name: Promotion offers CSV
+    access_url: https://raw.githubusercontent.com/666break/vps-price-dataset/main/data/open/coupon-offers.csv
+  - name: Provider payment methods CSV
+    access_url: https://raw.githubusercontent.com/666break/vps-price-dataset/main/data/open/provider-payment-methods.csv
+  - name: File manifest with row counts, byte counts and checksums
+    access_url: https://raw.githubusercontent.com/666break/vps-price-dataset/main/data/open/manifest.json
+references:
+  - title: Repository README and usage instructions
+    reference: https://github.com/666break/vps-price-dataset
+  - title: Per-dataset data dictionary (columns, units, sources, method)
+    reference: https://github.com/666break/vps-price-dataset/blob/main/data/open/DATA_DICTIONARY.md
+  - title: Data provenance notes
+    reference: https://github.com/666break/vps-price-dataset/blob/main/data/open/data-provenance.md
