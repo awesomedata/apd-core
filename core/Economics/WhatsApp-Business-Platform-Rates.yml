@@ -1,0 +1,21 @@
+---
+title: WhatsApp Business Platform per-message rates
+homepage: https://github.com/tobachat/whatsapp-api-rates
+category: Economics
+description: Meta's per-message rates for the WhatsApp Business Platform for all 47 markets in the 16 currencies Meta bills in, split into marketing, utility, authentication and service messages, plus the volume tiers and a table that maps 141 countries to their market. Each row carries the effective date, the date it was checked and the source URL. A new version is published each time Meta changes the rate card (quarterly at most), and earlier cards stay in the repository. CSV and JSON, archived on Zenodo with a DOI.
+version: 2.0.1
+keywords: WhatsApp, WhatsApp Business API, messaging, pricing, rate card, telecommunications
+temporal: since 2026-10-01, updated when Meta changes the rate card
+spatial: 47 markets, 141 countries
+access_level: public
+accrual_periodicity: quarterly
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tobachat
+    web: https://github.com/tobachat
+sources:
+  - name: Current rates, all currencies (CSV and JSON)
+    access_url: https://github.com/tobachat/whatsapp-api-rates/tree/main/data/latest
+  - name: Zenodo archive (DOI)
+    access_url: https://doi.org/10.5281/zenodo.23710440
