@@ -1,0 +1,32 @@
+title: Infusion Reimbursement Index (commercial contracted rates for infused drugs)
+homepage: https://carecostestimate.com/infusion-index
+category: Healthcare
+description: What US commercial health insurers contract to pay for infused and injected (J-code) drugs, indexed to the Medicare Part B payment limit (100 = ASP + 6%). Built from the Transparency-in-Coverage machine-readable files published by 37 insurer filings (vintage 2026-Q2). Includes a per-drug reference table (806 HCPCS codes with median, low and high index across insurers and Part B spend), a 57-insurer scorecard, and a 37-filing fee-schedule census. Contracted rates, not paid claims. CSV, CC BY 4.0, with a Zenodo DOI.
+version: 2.1
+keywords: drug pricing, reimbursement, price transparency, transparency in coverage, health insurance, medicare part b, average sales price, j-codes, infusion, buy and bill
+image:
+temporal: 2026-Q2
+spatial: USA
+access_level: public
+copyrights: CareCost, LLC
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/erinheit451/infusion-reimbursement-index#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: CareCost
+    web: https://carecostestimate.com
+organization:
+  - name: CareCost
+    web: https://carecostestimate.com
+issued_time: 2026.09
+sources:
+  - name: Zenodo (DOI 10.5281/zenodo.23050217)
+    access_url: https://doi.org/10.5281/zenodo.23050217
+  - name: GitHub (CSV)
+    access_url: https://github.com/erinheit451/infusion-reimbursement-index
+references:
+  - title: The Infusion Reimbursement Index - methodology
+    reference: https://carecostestimate.com/infusion-index/methodology.html
