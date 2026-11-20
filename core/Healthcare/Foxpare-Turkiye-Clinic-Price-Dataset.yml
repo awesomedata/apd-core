@@ -1,0 +1,33 @@
+---
+title: Foxpare Türkiye Clinic Price Dataset (hair transplant and dental)
+homepage: https://foxpare.com/data
+category: Healthcare
+description: Monthly dataset of the package prices that hair transplant and dental providers in Türkiye publish on their own websites, each with its source URL and the date it was read. The November 2026 edition covers 99 hair transplant packages from 37 providers and 247 dental packages from 20 providers. Prices are kept in the provider's own currency, with EUR values at the ECB reference rate. Starting prices as published, not quotes; no rankings.
+version: "2026-11"
+keywords: healthcare prices, price transparency, medical tourism, hair transplant, dental, Türkiye, Turkey, health tourism
+image:
+temporal: 2026-present
+spatial: Türkiye
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://foxpare.com/data
+data_quality: true
+data_dictionary: https://foxpare.com/data
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Foxpare
+    web: https://foxpare.com
+organization:
+  - name: Foxpare
+    web: https://foxpare.com
+issued_time: "2026-11-11"
+sources:
+  - name: Dataset on Zenodo (DOI 10.5281/zenodo.24178239)
+    access_url: https://doi.org/10.5281/zenodo.24178239
+  - name: Hair transplant price index
+    access_url: https://foxpare.com/price-index
+references:
+  - title: Data page and method
+    reference: https://foxpare.com/data
