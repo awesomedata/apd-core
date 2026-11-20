@@ -1,0 +1,26 @@
+---
+title: Security Posture of .lt Websites
+homepage: https://github.com/aguardlt/lt-web-security-survey
+category: CyberSecurity
+description: Anonymised row-per-host dataset from a passive security survey of 125,935 hostnames under the Lithuanian .lt top-level domain (home page inspected on 73,386). Per host it records the detected CMS and WordPress version branch, web server, hosting network, HTTPS and security headers, mail records (SPF, DMARC) and a list of exposure findings with severity. Contains no domain names, IP addresses, URLs or file paths. CSV with summary tables.
+version: 2026-11-16
+keywords: web security,wordpress,cms,tld survey,lithuania,exposure,security headers,dmarc,spf
+image:
+temporal: 2026-11-14 to 2026-11-16
+spatial: Lithuania (.lt top-level domain)
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/aguardlt/lt-web-security-survey#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AGuard.lt
+    web: https://aguard.lt
+organization:
+issued_time: 2026.11
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.24282572
