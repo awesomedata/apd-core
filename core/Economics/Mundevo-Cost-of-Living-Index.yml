@@ -1,0 +1,51 @@
+---
+title: Mundevo Cost of Living Index
+homepage: https://github.com/mundevo/mundevo-cost-of-living-index
+category: Economics
+description: >
+  Cost-of-living index (New York = 100) and rent index for 104 cities in 49
+  countries, computed from a fixed one-person monthly basket (new-lease
+  one-bedroom rent, food, transport pass, electricity and heating,
+  leisure, out-of-pocket healthcare). A second file gives, for every city and
+  basket line, the publisher, source URL, reference period, method and an
+  evidence tier (official, official-adjusted, contrasted, estimated) - 961 rows
+  in all. Also includes the payroll-tax burden at the average wage (OECD Taxing
+  Wages where available) and homicide rate, UHC service coverage and PM2.5 with
+  the 0-100 indices derived from them. Rent sources are not official for 54
+  cities; the card lists this and other limitations. Two CSV files, no signup.
+version: 2026.11
+keywords: cost of living, rent, price index, cities, purchasing power, housing, relocation, PPP
+image:
+temporal: 2023-2026 (each row carries its own reference period)
+spatial: World (104 cities, 49 countries)
+access_level: public
+copyrights: Underlying figures belong to the publishers named per row; World Bank and Eurostat inputs CC BY 4.0; contains modified Copernicus Atmosphere Monitoring Service information
+accrual_periodicity: irregular (re-released when a source refresh moves the data)
+specification:
+data_quality: true
+data_dictionary: https://github.com/mundevo/mundevo-cost-of-living-index#readme
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Mundevo
+    web: https://www.mundevo.com
+organization:
+  - name: Mundevo
+    web: https://www.mundevo.com
+issued_time: 2026.11
+sources:
+  - name: National statistics offices, rent boards and transport authorities (per row)
+    access_url: https://www.mundevo.com/sources
+  - name: World Bank (ICP 2021, World Development Indicators)
+    access_url: https://data.worldbank.org
+  - name: Eurostat (household electricity prices)
+    access_url: https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_204/default/table
+  - name: US Bureau of Labor Statistics (Consumer Expenditure Survey)
+    access_url: https://www.bls.gov/cex/
+  - name: OECD Taxing Wages
+    access_url: https://www.oecd.org/en/publications/taxing-wages_20725124.html
+  - name: Copernicus Atmosphere Monitoring Service (via Open-Meteo on AWS)
+    access_url: https://registry.opendata.aws/open-meteo/
+references:
+  - title: Methodology
+    reference: https://www.mundevo.com/methodology
