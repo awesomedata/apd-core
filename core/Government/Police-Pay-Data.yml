@@ -1,0 +1,31 @@
+---
+title: Police Pay Data
+homepage: https://github.com/thepoliceindex/police-pay-data
+category: Government
+description: Police and sheriff department pay from public payroll records - salary ranges, median regular and total pay, overtime, rank pay and pension formulas for California, New Jersey and New York (NYPD), plus state trooper pay schedules. Each row carries its public source.
+version: 2025
+keywords: police pay, police salaries, sheriff pay, overtime, pension, public payroll, California, New Jersey, law enforcement
+image:
+temporal: 2025-2026
+spatial: California, New Jersey, New York, US state police
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/thepoliceindex/police-pay-data/blob/main/README.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: The Police Index
+    web: https://thepoliceindex.com
+organization:
+  - name: The Police Index
+    web: https://thepoliceindex.com
+issued_time: 2026
+sources:
+  - name: California State Controller; data.nj.gov; NYC Open Data
+    access_url: https://github.com/thepoliceindex/police-pay-data
+references:
+  - title: Archived dataset with DOI
+    reference: https://doi.org/10.5281/zenodo.24211898
