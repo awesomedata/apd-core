@@ -1,0 +1,14 @@
+---
+title: Bible Data from Christian Pure - Bible places, subjects, saints and Easter dates
+homepage: https://github.com/christianpure/bible-data
+category: SocialSciences
+description: The 1,246 places the Bible names, with coordinates, how sure each site is, Pleiades and Wikidata identifiers and each name in 11 languages; over 6,500 Bible subjects with their verse references (no Bible text); 378 saints with Western and Orthodox feast days, patronages and 1,090 sources; Paul's journeys by Roman road and sea (69 stops, 65 legs); 22 churches compared on 55 questions from their own documents; Western and Orthodox Easter dates from 1900 to 2099. CSV, JSON and GeoJSON with Frictionless datapackages. DOI 10.5281/zenodo.24396556.
+keywords: bible, christianity, religion, historical geography, gazetteer, saints, church calendar
+spatial: Middle East and Mediterranean
+access_level: public
+accrual_periodicity: monthly
+data_quality: false
+language: en, ar, de, es, fr, it, nl, pt, ru, zh, ja
+license: CC-BY-4.0 (Easter dates CC0-1.0)
+publisher: Christian Pure (christianpure.com)
+issued_time: 2026.11
