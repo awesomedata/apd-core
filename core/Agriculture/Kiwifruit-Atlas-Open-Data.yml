@@ -1,0 +1,35 @@
+---
+title: Kiwifruit Atlas Open Data
+homepage: https://doi.org/10.5281/zenodo.23931196
+category: Agriculture
+description: Kiwifruit production in tonnes for every country and year from FAOSTAT, plus a register of the sources and licences behind each figure. Available as CSV, archived on Zenodo with a DOI.
+version: 2026.11
+keywords: kiwifruit, Actinidia, fruit production, FAOSTAT, horticulture, agricultural statistics, open data, agriculture
+image:
+temporal: 1961-2024
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary:
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Kiwifruit Atlas
+    web: https://kiwifruitatlas.com/
+organization:
+  - name: Kiwifruit Atlas
+    web: https://kiwifruitatlas.com/
+issued_time: 2026.11
+sources:
+  - name: Kiwifruit production by country and year (CSV)
+    access_url: https://kiwifruitatlas.com/api/industry/production.csv
+  - name: Sources and licences register (CSV)
+    access_url: https://kiwifruitatlas.com/api/sources.csv
+references:
+  - title: Zenodo deposit (DOI 10.5281/zenodo.23931196)
+    reference: https://doi.org/10.5281/zenodo.23931196
+  - title: Open data page
+    reference: https://kiwifruitatlas.com/data
