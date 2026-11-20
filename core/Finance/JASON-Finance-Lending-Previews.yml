@@ -1,0 +1,11 @@
+---
+title: J.A.S.O.N. Finance, Lending and Fraud Evaluation Previews
+homepage: https://huggingface.co/datasets/Dynamicresponselabs/JASON-Finance-Lending-Previews
+category: Finance
+description: Free synthetic (fictional) conversation previews for testing AI assistants in finance, lending, collections and fraud-response settings.
+keywords: finance, lending, collections, fraud, AI evaluation, synthetic conversations
+access_level: public
+language: en
+publisher:
+  - name: Dynamic Response Labs
+    web: https://huggingface.co/Dynamicresponselabs
