@@ -1,0 +1,34 @@
+---
+title: Mining Project Economics (open sample)
+homepage: https://github.com/StefanWinterToo/mining-project-economics
+category: Finance
+description: Post-tax NPV, post-tax IRR and initial capex from published mining studies (PEA, pre-feasibility and feasibility studies), one row per project with its most recent study, extracted from company technical reports (NI 43-101, JORC, S-K 1300). Covers gold, copper, uranium, lithium, graphite, silver, nickel and other projects. Studies at least 12 months old, refreshed quarterly. Single CSV, direct download, no signup, CC BY 4.0.
+version:
+keywords:
+  - mining
+  - gold
+  - copper
+  - uranium
+  - lithium
+  - NPV
+  - IRR
+  - capex
+  - feasibility study
+  - project finance
+image:
+temporal: 2015 to 2025
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary: https://github.com/StefanWinterToo/mining-project-economics#file
+language: en
+license: CC BY 4.0
+publisher: Mining Stocks
+organization:
+issued_time: 2026-11-03
+sources:
+  - name: GitHub (CSV)
+    access_url: https://github.com/StefanWinterToo/mining-project-economics/blob/main/mining-project-economics.csv
