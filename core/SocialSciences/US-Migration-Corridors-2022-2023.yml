@@ -1,0 +1,41 @@
+title: US Migration Corridors 2022-2023
+
+homepage: https://doi.org/10.5281/zenodo.24297049
+
+category: SocialSciences
+
+description: All 2,544 interstate migration corridors in the IRS Statistics of Income 2022-2023 data, with households and people moved and the total and average adjusted gross income (AGI) each corridor carried, plus netted two-way corridor pairs and top-25 rankings. New York to Florida is the largest money corridor at $5.75 billion in total AGI moved, and Illinois to Florida movers carry the highest average income at $223,120 per household. CSV download, no login required.
+
+version: 1.0
+
+keywords: migration, IRS, demographics, population movement, adjusted gross income, United States
+
+image:
+
+temporal: 2022-2023
+
+spatial: United States
+
+access_level: public
+
+copyrights: CC BY 4.0
+
+accrual_periodicity:
+
+specification: https://doi.org/10.5281/zenodo.24297049
+
+data_quality: true
+
+data_dictionary:
+
+language: en
+
+license: CC BY 4.0
+
+publisher: MoveNoble
+
+organization: MoveNoble
+
+issued_time: 2026.11
+
+sources: []
