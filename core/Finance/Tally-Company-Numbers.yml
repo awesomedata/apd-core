@@ -1,0 +1,42 @@
+---
+title: Tally company and open-source numbers
+homepage: https://tallycatalog.com
+category: Finance
+description: >
+  A daily-updated public record of figures about companies and open-source
+  projects: valuations, funding rounds, quarterly and annual revenue from SEC
+  filings, plan and API prices, open roles, GitHub stars and weekly npm and
+  PyPI downloads. About 790 numbers on 230 subjects with 49,000 dated values
+  back to 2005. Every value carries its date and the address of the page it
+  was read from. Two CSV files hold the whole record; each number also has
+  JSON and CSV addresses. Compilation licensed CC BY 4.0.
+version: 2026-11-21.5
+keywords: startups, valuation, funding, revenue, SEC filings, open source, GitHub stars, time series
+image:
+temporal: 2005-2026
+spatial: Global
+access_level: public
+copyrights: Compilation CC BY 4.0; the facts are not claimed, and quoted text remains its source's.
+accrual_periodicity: daily
+specification: https://github.com/verkyyi/tally-data#files
+data_quality: true
+data_dictionary: https://github.com/verkyyi/tally-data#files
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tally
+    web: https://tallycatalog.com
+organization:
+  - name: Tally
+    web: https://tallycatalog.com
+issued_time: 2026.11
+sources:
+  - name: Snapshot repository (numbers.csv, history.csv)
+    access_url: https://github.com/verkyyi/tally-data
+  - name: Live file, one row per number
+    access_url: https://tallycatalog.com/data/numbers.csv
+  - name: Live file, one row per dated value
+    access_url: https://tallycatalog.com/data/history.csv
+references:
+  - title: How each number is obtained, and the corrections log
+    reference: https://tallycatalog.com/corrections
