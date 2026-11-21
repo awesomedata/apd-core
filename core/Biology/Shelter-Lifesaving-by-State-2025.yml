@@ -1,0 +1,41 @@
+title: Shelter Lifesaving by State 2025
+
+homepage: https://doi.org/10.5281/zenodo.24297214
+
+category: Biology
+
+description: Best Friends Animal Society 2025 shelter-lifesaving data for all 50 U.S. states and the District of Columbia — each state's no-kill gap (the additional dogs and cats that would need to be saved for every shelter in the state to reach a 90% save rate), its share of the national gap, whether the state is already no-kill statewide, and its 2025 save rate. The national save rate is 82.5%; Texas alone accounts for 78,800 animals (19.9%) of the gap. CSV download, no login required.
+
+version: 1.0
+
+keywords: animal shelter, no-kill, animal welfare, dogs, cats, save rate, United States
+
+image:
+
+temporal: 2025
+
+spatial: United States
+
+access_level: public
+
+copyrights: CC BY 4.0
+
+accrual_periodicity:
+
+specification: https://doi.org/10.5281/zenodo.24297214
+
+data_quality: true
+
+data_dictionary:
+
+language: en
+
+license: CC BY 4.0
+
+publisher: Wagopedia
+
+organization: Wagopedia
+
+issued_time: 2026.11
+
+sources: []
