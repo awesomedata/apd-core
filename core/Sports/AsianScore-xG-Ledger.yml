@@ -1,0 +1,31 @@
+---
+title: AsianScore Verifiable Football & NBA xG Prediction Ledger
+homepage: https://github.com/AIYIXIU/asianscore-xg-ledger-dataset
+category: Sports
+description: Open pre-match football and NBA probability predictions locked 8-10 minutes before kickoff with SHA-256 input fingerprints and settled against official final scores via Brier score. Includes CSV and JSON ledger snapshots, league accuracy summaries, Dixon-Coles bivariate Poisson xG and market de-vigging reference scripts, and a Zenodo archive (DOI 10.5281/zenodo.24441036).
+version: 1.0.0
+keywords: football, soccer, nba, basketball, expected goals, brier score, probability calibration, sports analytics
+image:
+temporal: 2026-present
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://github.com/AIYIXIU/asianscore-xg-ledger-dataset#readme
+data_quality: true
+data_dictionary: https://github.com/AIYIXIU/asianscore-xg-ledger-dataset/blob/main/dataset-metadata.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AsianScore
+    web: https://asianscore.com/
+organization:
+issued_time: "2026.11"
+sources:
+  - name: GitHub repository (CSV and JSON ledger files)
+    access_url: https://github.com/AIYIXIU/asianscore-xg-ledger-dataset
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.24441036)
+    reference: https://doi.org/10.5281/zenodo.24441036
+  - title: CITATION.cff
+    reference: https://github.com/AIYIXIU/asianscore-xg-ledger-dataset/blob/main/CITATION.cff
