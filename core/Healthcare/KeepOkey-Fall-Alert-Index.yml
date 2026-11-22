@@ -1,0 +1,50 @@
+title: KeepOkey Fall Alert Index — November 2026
+homepage: https://doi.org/10.5281/zenodo.24417882
+category: Healthcare
+description: >-
+  Published claims about US fall-alert devices and services, including call
+  recipients, unanswered-call handling, prices, fees, contracts, returns and
+  battery terms. Contains 1,121 provider-product-field claim records across
+  22 fields and 31 provider entries. Records include source URLs, verbatim
+  quotations and capture dates from 2026-11-20 to 2026-11-21. Official sources
+  take priority; third-party exceptions are labelled. Documentary data,
+  without sensor recordings or measured detection performance.
+version: "2.0.2"
+keywords:
+  - medical alerts
+  - fall detection
+  - wearable devices
+  - published claims
+image: null
+temporal: "2026-11-20/2026-11-21"
+spatial: United States
+access_level: public
+copyrights: >-
+  Compilation licensed CC BY 4.0. Quoted source material remains attributable
+  to its respective rights holders; the compilation license does not
+  relicense third-party source pages.
+accrual_periodicity: null
+specification:
+  - https://zenodo.org/records/24417882/files/keepokey-fall-alert-index-2026-11-wide.csv?download=1
+  - https://zenodo.org/records/24417882/files/keepokey-fall-alert-index-2026-11-long.csv?download=1
+data_quality: >-
+  Source quotations and non-coded values were checked against saved text,
+  followed by semantic review. Missing accepted evidence is coded as not
+  stated. Provider claims are not independent product tests; the collection
+  does not rank providers or measure detection accuracy or response reliability.
+data_dictionary: https://zenodo.org/records/24417882/files/DATA-DICTIONARY.md?download=1
+language: English
+license: CC BY 4.0
+publisher:
+  name: KeepOkey
+  web: https://doi.org/10.5281/zenodo.24417882
+organization:
+  name: null
+  web: null
+issued_time: "2026.11"
+sources:
+  - name: Source URLs, quotations and capture dates in long-form claim records
+    access_url: https://zenodo.org/records/24417882/files/keepokey-fall-alert-index-2026-11-long.csv?download=1
+references:
+  - title: Versioned dataset, method and documentation
+    reference: https://doi.org/10.5281/zenodo.24417882
