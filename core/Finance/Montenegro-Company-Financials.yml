@@ -1,0 +1,41 @@
+---
+title: Montenegro Company Financial Statements (2015-2025)
+homepage: https://huggingface.co/datasets/stevyhacker/montenegro-companies-financials
+category: Finance
+description: >
+  Normalized tabular dataset of 196,747 official annual corporate financial
+  statements across 40,072 active companies in Montenegro (2015-2025), compiled
+  from Tax Administration of Montenegro (IRMS) and Central Registry of Business
+  Entities (CRPS) public filings. Includes revenue, net profit, employee count,
+  average gross salary, NACE activity code, sector, and municipality in Parquet
+  and CSV formats under CC BY 4.0.
+version: 2026.1
+keywords: montenegro, corporate financials, companies, revenue, profit, employment, CRPS, IRMS, balkans, open data
+image:
+temporal: 2015-2025
+spatial: Montenegro
+access_level: public
+copyrights: Compilation CC BY 4.0; underlying public filings from Tax Administration of Montenegro (IRMS) and CRPS.
+accrual_periodicity: annual
+specification: https://huggingface.co/datasets/stevyhacker/montenegro-companies-financials/raw/main/schema.md
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/stevyhacker/montenegro-companies-financials/raw/main/schema.md
+language: en, cnr
+license: CC BY 4.0
+publisher:
+  - name: BizStats.me
+    web: https://bizstats.me/datasets/companies/
+organization:
+  - name: BizStats.me
+    web: https://bizstats.me/datasets/companies/
+issued_time: 2026.11
+sources:
+  - name: Tax Administration of Montenegro (IRMS)
+    access_url: https://irms.tax.gov.me/
+  - name: Central Registry of Business Entities of Montenegro (CRPS)
+    access_url: https://portal.crps.me/
+references:
+  - title: BizStats.me Companies Dataset Catalog
+    reference: https://bizstats.me/datasets/companies/
+  - title: OpenAPI 3.1 Specification
+    reference: https://api.bizstats.me/v1/openapi.json
