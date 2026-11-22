@@ -1,0 +1,30 @@
+title: WIMSTA Body-Composition Formula Registry
+homepage: https://wimsta.com/registry/
+category: Healthcare
+description: A machine-readable registry of 15 published body-composition and energy-expenditure formulas - body fat (Deurenberg, CUN-BAE, US Navy, RFM, Covert Bailey, Gallagher ranges), BMI (WHO, Trefethen), waist-to-height ratio (Ashwell), maximum heart rate (Fox, Tanaka, Gulati) and basal metabolic rate (Harris-Benedict 1919 and 1984 revision, Katch-McArdle). Each record gives the equation, coefficients, units, input ranges, sex coding, the derivation sample, reported error, limitations and the primary source, with notes on how the coefficients were verified against the original publication. One JSON file, open CORS, no authentication.
+version: 2026.08.11
+keywords: body composition, body fat, bmi, basal metabolic rate, max heart rate, anthropometry, equations, coefficients, nutrition, fitness
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: WIMSTA
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://wimsta.com/registry/
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: WIMSTA
+    web: https://wimsta.com
+organization:
+  - name: WIMSTA
+    web: https://wimsta.com
+issued_time: 2026.08
+sources:
+  - name: JSON download
+    access_url: https://wimsta.com/api/registry.json
+references:
+  - title: How WIMSTA calculates (methodology)
+    reference: https://wimsta.com/method/
