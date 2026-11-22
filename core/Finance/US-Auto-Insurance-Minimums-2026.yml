@@ -1,0 +1,33 @@
+---
+title: US Auto Insurance Minimum Coverage, No-Fault & SR-22 Dataset (2026)
+homepage: https://zenodo.org/records/24434170
+category: Finance
+description: Structured 2026 dataset covering statutory minimum auto insurance liability limits, mandatory PIP and UM/UIM add-ons, pure/choice no-fault vs. at-fault tort systems, and SR-22/FR-44 filing requirements across all 50 US states and Washington, D.C.
+version: 2026.2.0
+keywords: auto-insurance, car-insurance, finance, us-states, open-data, sr-22, no-fault
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: MIT License
+accrual_periodicity: Annual
+specification: https://github.com/insurance-panda/us-auto-insurance-data/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/insurance-panda/us-auto-insurance-data#readme
+language: en
+license: MIT License
+publisher:
+  - name: Insurance Panda
+    web: https://www.insurancepanda.com/
+organization:
+  - name: Insurance Panda
+    web: https://www.insurancepanda.com/
+issued_time: 2026.11
+sources:
+  - name: GitHub Repository (CSV, JSON, Markdown)
+    access_url: https://github.com/insurance-panda/us-auto-insurance-data
+  - name: Zenodo Archive (DOI)
+    access_url: https://zenodo.org/records/24434170
+references:
+  - title: Insure.com Minimum Car Insurance Coverage Levels by State
+    reference: https://www.insure.com/car-insurance/minimum-coverage-levels.html
