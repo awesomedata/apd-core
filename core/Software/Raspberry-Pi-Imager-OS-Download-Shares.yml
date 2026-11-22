@@ -11,9 +11,9 @@ spatial: global
 access_level: public
 copyrights:
 accrual_periodicity: weekly
-specification: https://github.com/raspberry-tips/rpi-os-trends#dateien
+specification: https://github.com/raspberry-tips/rpi-os-trends#files
 data_quality: true
-data_dictionary: https://github.com/raspberry-tips/rpi-os-trends#dateien
+data_dictionary: https://github.com/raspberry-tips/rpi-os-trends#files
 language: en
 license: CC-BY-4.0
 publisher:
