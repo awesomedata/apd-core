@@ -1,0 +1,37 @@
+---
+title: Raspberry Pi Imager OS Download Shares (2021-2026)
+homepage: https://github.com/raspberry-tips/rpi-os-trends
+category: Software
+description: Time series of which operating systems people write to SD cards and SSDs with the official Raspberry Pi Imager, reconstructed from the public statistics page rpi-imager-stats.raspberrypi.com. That page only ever shows the current rolling 30-day window, so the history from October 2021 onwards was rebuilt from 104 Internet Archive captures and has been extended by a weekly scraper since May 2026 (94 dates up to November 2026). Three dimensions are recorded - operating system, host architecture of the computer running the Imager (not the bitness of the image), and Imager UI locale. Values are shares of Imager downloads, not of the installed base. The repository documents two pitfalls of the source - a table header without a tr wrapper that made an earlier parser silently drop the top-ranked OS, and a change in late 2023 when the source started reporting 64-bit Raspberry Pi OS separately, which shows up as a break in the series rather than a user trend. The scraper aborts when the OS shares sum to less than 80 percent.
+version: 2026.11.01
+keywords: raspberry pi, raspberry pi os, operating systems, linux distributions, single-board computers, software adoption, time series, csv, json, open data
+image:
+temporal: 2021-10-26 to present
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: weekly
+specification: https://github.com/raspberry-tips/rpi-os-trends#dateien
+data_quality: true
+data_dictionary: https://github.com/raspberry-tips/rpi-os-trends#dateien
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Philipp Schweizer (raspberry.tips)
+    web: https://github.com/raspberry-tips
+organization:
+issued_time: 2026.10
+sources:
+  - name: Full time series, one row per date, dimension and label (CSV)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-os-trends/master/data/history.csv
+  - name: Full time series (JSON)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-os-trends/master/data/history.json
+  - name: Latest snapshot, all dimensions and time windows (JSON)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-os-trends/master/data/rpi_os_stats.json
+  - name: Versioned archive on Zenodo (concept DOI, always the latest release)
+    access_url: https://doi.org/10.5281/zenodo.23269998
+references:
+  - title: Original source, Raspberry Pi Imager statistics
+    reference: https://rpi-imager-stats.raspberrypi.com/
+  - title: Charts and method description
+    reference: https://raspberry.tips/en/raspberry-pi-os-statistics

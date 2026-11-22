@@ -1,0 +1,35 @@
+---
+title: Raspberry Pi Official List Prices and Production Lifecycle (2012-2026)
+homepage: https://github.com/raspberry-tips/rpi-prices-lifecycle
+category: Economics
+description: Every official US list price of Raspberry Pi boards, Compute Modules and Pico microcontrollers since the 2012 launch (134 price records), including the six memory-driven price rounds from October 2025 to November 2026, plus the production guarantees, end-of-life notices and last-time-buy dates of 45 Raspberry Pi products. Every row carries its primary source URL (raspberrypi.com announcements dated by their published time, official product briefs, obsolescence notices, archived product pages). Only manufacturer list prices are used, no shop or marketplace prices. A basis column states whether a price was named in the source, calculated from an announced increase, or an explicit assumption. Conflicts between official sources (for example two different production-until dates for the Raspberry Pi 5) are kept and documented rather than resolved. The JSON file adds price events, the history of extended guarantees and the US CPI-U series used for inflation adjustment. Useful for hardware pricing research, the DRAM price shock of 2025-2026, product lifecycle and obsolescence planning, and teaching with a small, fully sourced dataset.
+version: 1.2
+keywords: raspberry pi, single-board computers, hardware prices, price history, product lifecycle, end of life, obsolescence, dram prices, inflation, csv, json, open data
+image:
+temporal: 2012-02-29 to 2026-11
+spatial: global (USD list prices)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://github.com/raspberry-tips/rpi-prices-lifecycle#method
+data_quality: true
+data_dictionary: https://github.com/raspberry-tips/rpi-prices-lifecycle#files
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Philipp Schweizer (raspberry.tips)
+    web: https://github.com/raspberry-tips
+organization:
+issued_time: 2026.10
+sources:
+  - name: Price records, one row per product, date and variant (CSV)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-prices-lifecycle/main/data/prices.csv
+  - name: Production guarantees and end-of-life dates, one row per product (CSV)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-prices-lifecycle/main/data/lifecycle.csv
+  - name: Complete dataset incl. price events, conflicts and CPI series (JSON)
+    access_url: https://raw.githubusercontent.com/raspberry-tips/rpi-prices-lifecycle/main/data/prices_lifecycle.json
+  - name: Versioned archive on Zenodo (concept DOI, always the latest release)
+    access_url: https://doi.org/10.5281/zenodo.23336491
+references:
+  - title: Interactive charts and method description
+    reference: https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-prices-lifecycle
