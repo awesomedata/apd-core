@@ -1,0 +1,31 @@
+---
+title: OpenPlaceRules place-rules registry
+homepage: https://openplacerules.github.io/data/seed.json
+category: GIS
+description: A JSON registry of documented rules for camera glasses, recording, AI capture, robots and drones at physical places. 269 entries in 34 jurisdictions, each citing a public source URL. Direct download, no login. Licence ODbL-1.0.
+version: 0.3.0
+keywords: place rules, museums, heritage, photography, drones, robots, camera glasses, geodata
+image:
+temporal:
+spatial: worldwide (34 jurisdictions)
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification: https://openplacerules.github.io/spec/place-rules.schema.json
+data_quality: false
+data_dictionary:
+language: en
+license: ODbL-1.0
+publisher:
+  - name: OpenPlaceRules
+    web: https://openplacerules.github.io
+organization:
+  - name:
+    web:
+issued_time: 2026.11
+sources:
+  - name: Public official and labelled-secondary sources cited in each entry
+    access_url: https://github.com/openplacerules/openplacerules.github.io/tree/main/data
+references:
+  - title: place-rules/0.1 specification
+    reference: https://openplacerules.github.io/spec.html
