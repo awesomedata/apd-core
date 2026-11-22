@@ -1,0 +1,28 @@
+---
+title: PeptaHub Peptide Publication Trends
+homepage: https://peptahub.com/research-trends
+category: Biology
+description: Annual PubMed publication counts for 156 peptide compounds from 2000 to 2026, published as an open reference for research-trend analysis.
+keywords: peptides, pubmed, publication trends, bibliometrics
+image:
+temporal: 2000-2026
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://peptahub.com/research-trends
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PeptaHub
+    web: https://peptahub.com
+organization:
+  - name: PeptaHub
+    web: https://peptahub.com
+sources:
+  - name: Peptide publication trends dataset (JSON)
+    access_url: https://peptahub.com/research-trends/dataset.json
+references:
+  - title:
+    reference:
