@@ -1,0 +1,37 @@
+---
+title: Crypto Payment Gateways Dataset
+homepage: https://github.com/ShieldZCash/crypto-payment-gateways-dataset
+category: Finance
+description: >
+  Hand-verified JSON and CSV of 96 crypto payment gateways, classified by
+  custody model (custodial vs non-custodial), per-transaction platform fee,
+  merchant KYC requirement, coin coverage, fiat settlement and Lightning
+  support. Every fee figure links to the provider's official pricing page or
+  docs it was read from. Includes a frozen 50-gateway study cohort (August 2026)
+  plus the living list, re-checked monthly. Data CC BY 4.0.
+version: 1.5.0
+keywords: cryptocurrency, payments, payment gateways, fees, custody, KYC, Bitcoin, Lightning Network, stablecoins
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://github.com/ShieldZCash/crypto-payment-gateways-dataset/blob/main/DATA.md
+data_quality: true
+data_dictionary: https://github.com/ShieldZCash/crypto-payment-gateways-dataset/blob/main/data/crypto-payment-gateways.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Shieldz
+    web: https://shieldz.cash
+organization:
+  - name: Shieldz
+    web: https://shieldz.cash
+issued_time: 2026.08
+sources:
+  - name: Provider pricing pages and documentation (one source_url per row)
+    access_url: https://github.com/ShieldZCash/crypto-payment-gateways-dataset/blob/main/data/crypto-payment-gateways.csv
+references:
+  - title: Study write-up and methodology
+    reference: https://shieldz.cash/blog/custody-gap-crypto-payment-gateways

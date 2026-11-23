@@ -1,0 +1,37 @@
+---
+title: Cross-Chain Swap Apps Dataset
+homepage: https://github.com/ShieldZCash/cross-chain-swap-dataset
+category: Finance
+description: >
+  Hand-verified JSON and CSV of 81 active cross-chain cryptocurrency swap apps
+  (wallets, aggregators, front-ends and instant exchanges), classified by who
+  holds funds during the swap, user KYC, the app's own fee, routing, native
+  Bitcoin and Solana support and chain coverage, with the 32 underlying
+  protocols listed separately. Every verified fee links to the official page it
+  was read from; liveness is re-checked monthly. Data CC BY 4.0.
+version: 1.1.0
+keywords: cryptocurrency, cross-chain, bridges, DEX aggregators, swaps, fees, custody, KYC, DeFi
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification: https://github.com/ShieldZCash/cross-chain-swap-dataset/blob/main/DATA.md
+data_quality: true
+data_dictionary: https://github.com/ShieldZCash/cross-chain-swap-dataset/blob/main/data/cross-chain-swaps.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Shieldz
+    web: https://shieldz.cash
+organization:
+  - name: Shieldz
+    web: https://shieldz.cash
+issued_time: 2026.10
+sources:
+  - name: App and protocol fee pages and documentation (one source_url per row)
+    access_url: https://github.com/ShieldZCash/cross-chain-swap-dataset/blob/main/data/cross-chain-swaps.csv
+references:
+  - title: Write-up and methodology
+    reference: https://shieldz.cash/blog/81-cross-chain-swap-apps-compared
