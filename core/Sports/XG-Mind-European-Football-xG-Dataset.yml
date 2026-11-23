@@ -1,0 +1,24 @@
+---
+title: XG Mind European Football Match Results & xG Dataset (4,000+ Completed Fixtures)
+homepage: https://github.com/ddzyx/xgmind-football-xg-dataset
+category: Sports
+description: Weekly updated, normalized historical match statistics and expected goals (xG) benchmark covering 4,000+ completed fixtures across major European competitions (Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League, Europa League). Includes full-time/half-time scores, xG, shots, shots on target, corners, and possession in CSV and Parquet formats.
+version: 2026.11
+keywords: football, soccer, expected goals, xg, sports analytics, match results, parquet
+temporal: 2024-2026
+spatial: Europe
+access_level: public
+accrual_periodicity: weekly refresh
+language: en
+license: CC BY 4.0
+publisher:
+  - name: XG Mind
+    web: https://xgmind.com
+sources:
+  - name: GitHub CSV & Parquet Repository
+    access_url: https://github.com/ddzyx/xgmind-football-xg-dataset
+  - name: Figshare Archival DOI (10.6084/m9.figshare.33583846)
+    access_url: https://doi.org/10.6084/m9.figshare.33583846
+references:
+  - title: XG Mind Methodology & Public Verification Ledger
+    reference: https://xgmind.com/methodology/
