@@ -1,0 +1,50 @@
+---
+# DO NOT OPEN THE PR until homepage is a real Zenodo DOI.
+# The string below is a placeholder so the file can be reviewed locally.
+title: US GLP-1 Cash Prices by Drug, Dose and Seller (monthly)
+homepage: https://doi.org/REPLACE-WITH-ZENODO-DOI
+category: Healthcare
+description: >-
+  Monthly US self-pay (cash) prices for GLP-1 medicines (Zepbound, Wegovy pen
+  and pill, Foundayo, Ozempic and Ozempic pill, Mounjaro, Trulicity, compounded
+  semaglutide and tirzepatide) by dose and seller, across manufacturer
+  pharmacies, retail pharmacies, telehealth programs and a government coupon.
+  Each row gives the medicine price, required fees and the all-in monthly
+  total, with the seller page it was read from and the check date. November
+  2026 release: 298 rows, 25 sellers. Compounded drugs are not FDA-approved.
+  CSV and JSON, no login.
+version: 2026-11
+keywords: GLP-1, semaglutide, tirzepatide, drug prices, prescription drug costs, telehealth, compounded medication, health economics, United States, open data
+image:
+temporal: 2026-11 onwards, monthly
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://penandpill.com/how-we-check
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Pen & Pill
+    web: https://penandpill.com/
+organization:
+  - name: Pen & Pill
+    web: https://penandpill.com/
+issued_time: 2026.11
+sources:
+  - name: Live CSV
+    access_url: https://penandpill.com/glp1-price-index.csv
+  - name: Live JSON
+    access_url: https://penandpill.com/glp1-prices.json
+  # After publish, add:
+  # - name: Zenodo deposit (CSV)
+  #   access_url: https://doi.org/<zenodo DOI>
+  # - name: Hugging Face
+  #   access_url: https://huggingface.co/datasets/penandpill/glp1-price-index
+references:
+  - title: Method and monthly tables
+    reference: https://penandpill.com/glp1-price-index
+  - title: How prices are checked
+    reference: https://penandpill.com/how-we-check
