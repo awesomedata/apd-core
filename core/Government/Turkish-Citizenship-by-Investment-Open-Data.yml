@@ -1,0 +1,34 @@
+---
+title: Turkish Citizenship by Investment Open Data
+homepage: https://github.com/Ralegal/turkish-cbi-data
+category: Government
+description: Reference data on Türkiye's citizenship-by-investment programme under Turkish Citizenship Law No. 5901. Qualifying investment thresholds and the instrument behind each change since 2017, route conditions, government transaction costs, required documents, Hague Apostille status by country, and long-format statistics on citizenship acquisitions, foreign property purchases and 2026 enforcement action. Every figure names its source and an as-of date; figures no authority publishes are recorded as null rather than estimated, and sources.json indexes the primary instruments with a verification status per citation.
+version: 1.4.1
+keywords: Türkiye, Turkey, citizenship by investment, investment migration, nationality law, real estate, residence permit, legal data
+temporal: 2013-2026
+spatial: Türkiye
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification: https://github.com/Ralegal/turkish-cbi-data/blob/main/datapackage.json
+data_quality: true
+data_dictionary: https://github.com/Ralegal/turkish-cbi-data/blob/main/datapackage.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Ra Legal
+    web: https://ralegal.com.tr
+organization:
+  - name: Ra Legal (maintainer Rüzgar Sevimli)
+    web: https://github.com/Ralegal
+issued_time: 2026-11-13
+sources:
+  - name: Statistics (JSON)
+    access_url: https://raw.githubusercontent.com/Ralegal/turkish-cbi-data/main/data/statistics.json
+  - name: Government costs (CSV)
+    access_url: https://raw.githubusercontent.com/Ralegal/turkish-cbi-data/main/data/government-costs.csv
+references:
+  - title: Zenodo archive, DOI 10.5281/zenodo.24372293
+    reference: https://doi.org/10.5281/zenodo.24372293
+  - title: Source register with verification status
+    reference: https://github.com/Ralegal/turkish-cbi-data/blob/main/data/sources.json
