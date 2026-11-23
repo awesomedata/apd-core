@@ -1,0 +1,30 @@
+---
+title: Planetary Retrograde Stations 1900-2050 (JPL DE421)
+homepage: https://github.com/cazimi-live/retrograde-ephemeris
+category: Physics
+description: >-
+  Computed minute-resolution UTC times of every retrograde and direct
+  station, pre-shadow and post-shadow boundary and Sun conjunction or
+  opposition for the eight planets from Mercury to Pluto (2024-2030), plus all
+  476 Mercury retrograde cycles 1900-2050. Positions are apparent geocentric
+  ecliptic longitude of date from NASA JPL DE421 via Skyfield; a station is
+  the minute the longitude rate changes sign. JSON with field definitions,
+  sidereal (Lahiri) longitudes, the generating script (MIT) and a CITATION.cff.
+  Mercury stations are cross-checked against JPL Horizons.
+version: '2026.11.06'
+keywords: astronomy, ephemeris, planets, retrograde motion, stationary points, time series
+access_level: public
+temporal: 1900-01-01/2050-12-31
+language: en
+license: CC BY 4.0
+publisher:
+- name: Cazimi
+  web: https://cazimi.live/methodology
+sources:
+- name: NASA JPL DE421 via Skyfield
+  access_url: https://github.com/cazimi-live/retrograde-ephemeris/tree/main/tools
+references:
+- title: Archived dataset (Zenodo DOI)
+  reference: https://doi.org/10.5281/zenodo.24011806
+- title: Cross-check against JPL Horizons
+  reference: https://cazimi.live/accuracy
