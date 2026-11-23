@@ -1,0 +1,32 @@
+---
+title: Consumer AI Hardware 24-Month Cost Dataset
+homepage: https://github.com/poirot1226/aihardwaredb-open-data
+category: Economics
+description: Document-verified dataset of 34 consumer AI wearables (AI voice recorders, smart rings, AI glasses, pins, and pendants) covering hardware retail price, 24-month Free, Annual Pro, and Unlimited subscription totals, recording privacy indicators, offline storage and export support, BYOK availability, and lifecycle status (active, discontinued, or service_shutdown). Available in CSV and JSON with an accompanying JSON Schema (v1.1).
+version: '1.1.0'
+keywords: consumer ai hardware, wearables, subscription pricing, total cost of ownership, ai voice recorders, smart rings, smart glasses, dataset
+temporal: 2026
+spatial: Global
+access_level: public
+accrual_periodicity: monthly
+data_quality: true
+data_dictionary: https://raw.githubusercontent.com/poirot1226/aihardwaredb-open-data/main/v1/schema.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AIHardwareDB
+    web: https://aihardwaredb.com/data/
+organization:
+  - name: AIHardwareDB
+    web: https://aihardwaredb.com/data/
+issued_time: '2026.11'
+sources:
+  - name: Consumer AI Hardware 24-Month Cost Dataset CSV (v1.1)
+    access_url: https://raw.githubusercontent.com/poirot1226/aihardwaredb-open-data/main/v1/hardware.csv
+  - name: Consumer AI Hardware 24-Month Cost Dataset JSON (v1.1)
+    access_url: https://raw.githubusercontent.com/poirot1226/aihardwaredb-open-data/main/v1/hardware.json
+  - name: JSON Schema (v1.1)
+    access_url: https://raw.githubusercontent.com/poirot1226/aihardwaredb-open-data/main/v1/schema.json
+references:
+  - title: Scoring and Cost Audit Methodology
+    reference: https://aihardwaredb.com/methodology/
