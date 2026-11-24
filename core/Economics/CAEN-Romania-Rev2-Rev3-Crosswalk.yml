@@ -1,0 +1,33 @@
+---
+title: CAEN Romania Rev.2 to Rev.3 Crosswalk
+homepage: https://github.com/leadgenro/caen-romania
+category: Economics
+description: Romania's official economic activity classification (CAEN, the national version of NACE) in machine-readable form. Full Rev.2 and Rev.3 structures with Romanian and English titles for every section, division, group and class, plus the 975-link Rev.2 to Rev.3 correspondence (one-to-one, splits, merges, many-to-many) and the 25 class numbers whose meaning changed between revisions. Built reproducibly from the INS correspondence table and structure PDFs and the Eurostat NACE files, which are kept in the repository with checksums. CSV and JSON, plus small Python and JavaScript packages.
+version: 2026.10
+keywords: CAEN, NACE, NACE Rev.2.1, activity classification, crosswalk, concordance, Romania, official statistics.
+image:
+temporal: CAEN Rev.2 (2008-2024), CAEN Rev.3 (from 2025)
+spatial: Romania
+access_level: public
+copyrights: Institutul National de Statistica (INS); Eurostat (English titles)
+accrual_periodicity: irregular
+specification: https://github.com/leadgenro/caen-romania#files
+data_quality: false
+data_dictionary: https://github.com/leadgenro/caen-romania#files
+language: ro, en
+license: Data under the Open Government Licence for Romania v1.0 (INS) and Eurostat reuse terms; code under MIT
+publisher:
+  - name: leadgenro
+    web: https://github.com/leadgenro
+organization:
+  - name: Institutul National de Statistica (INS)
+    web: https://insse.ro/cms/ro/caen
+issued_time: 2026.10
+sources:
+  - name: INS, Tabel corespondenta CAEN Rev.2 - CAEN Rev.3 (September 2026)
+    access_url: https://insse.ro/cms/ro/caen
+  - name: Eurostat, NACE Rev.2 and NACE Rev.2.1
+    access_url: https://ec.europa.eu/eurostat/web/nace
+references:
+  - title:
+    reference:
