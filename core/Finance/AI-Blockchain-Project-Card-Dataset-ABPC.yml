@@ -42,4 +42,4 @@ sources:
     access_url: https://github.com/DecAIHub/papers/tree/main/project-card-schema
 references:
   - title: "Descriptor: AI-Blockchain Project-Card Dataset (ABPC)"
-    reference: Kadochnikov, N. N. (2026). IEEE Data Descriptions, 1-12. https://doi.org/10.1109/IEEEDATA.2026.3740408
+    reference: Kadochnikov, N. N. (2026). IEEE Data Descriptions, 3, 752-764. https://doi.org/10.1109/IEEEDATA.2026.3740408
