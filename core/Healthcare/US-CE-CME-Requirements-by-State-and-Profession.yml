@@ -1,0 +1,32 @@
+---
+title: US Continuing Education (CE/CME) Requirements by State and Profession
+homepage: https://doi.org/10.17632/z8kmpbw95c
+category: Healthcare
+description: License renewal rules for 14 US health professions (physicians, physician assistants, nurse practitioners, nurses, pharmacists, pharmacy technicians, dentists, dental hygienists, veterinarians, veterinary technicians, psychologists, social workers, counselors and marriage and family therapists) in the 50 states, DC and Puerto Rico. Each rule gives the required CE/CME hours, renewal period, mandatory topics, reporting method, the official state board source and the date it was checked. CSV and JSON, CC BY 4.0.
+version: 1.0
+keywords: continuing education, CME, license renewal, nursing, pharmacy, state boards
+image:
+temporal: 2026
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: MedCE Hub
+    web: https://medcehub.com/
+organization:
+  - name: MedCE Hub
+    web: https://medcehub.com/
+issued_time: 2026.11
+sources:
+  - name: Mendeley Data
+    access_url: https://doi.org/10.17632/z8kmpbw95c
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.23924694
+references:
+  - title:
+    reference:
