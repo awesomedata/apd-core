@@ -1,1 +1,39 @@
-
+---
+title: FreeTender Global Public Tenders (monthly)
+homepage: https://freetender.net/open-data
+category: Government
+description: Monthly open dataset of public procurement notices (tenders, RFQs, RFPs, EOIs and grant calls) collected by FreeTender from official government e-procurement portals, public sector companies, development banks and UN agencies in 190+ countries. One gzipped CSV per month with 17 summary fields per notice — buyer, country (ISO 3166-1), region, city, sector, sub-sector, notice type, procurement type, publication date, closing date, stated value and currency (ISO 4217), source portal and the source's licence — plus a link to each notice. Over 1 million notices since August 2026 (about 440,000 in October 2026). Titles are in the original language. No contact details or full notice text. Also archived on Zenodo with a DOI and published on Kaggle.
+version: "2026-11"
+keywords: procurement, public procurement, government contracts, tenders, RFP, RFQ, EOI, grants, development banks, World Bank, United Nations, open data, worldwide, CSV
+image: https://freetender.net/opengraph-image
+temporal: 2026-08-present
+spatial: Worldwide (190+ countries)
+access_level: public
+copyrights: FreeTender
+accrual_periodicity: monthly (current month refreshed daily)
+specification: https://freetender.net/developers
+data_quality: true
+data_dictionary: https://freetender.net/open-data
+language: en (titles in original languages)
+license: CC-BY-4.0
+publisher:
+  - name: FreeTender
+    web: https://freetender.net
+organization:
+issued_time: "2026-10-22"
+sources:
+  - name: National and state e-procurement portals (e.g. CPPP and GeM in India, SAM.gov in the US, PNCP in Brazil)
+    web: https://freetender.net/open-data
+  - name: TED (Tenders Electronic Daily)
+    web: https://ted.europa.eu
+  - name: UN Global Marketplace (UNGM)
+    web: https://www.ungm.org
+  - name: World Bank procurement notices
+    web: https://projects.worldbank.org/en/projects-operations/procurement
+references:
+  - title: Zenodo archive (DOI, monthly versions)
+    reference: https://doi.org/10.5281/zenodo.24243810
+  - title: Kaggle dataset
+    reference: https://www.kaggle.com/datasets/freetender/freetender-global-public-tenders
+  - title: Data feeds and documentation (JSON Feed, RSS, ICS)
+    reference: https://freetender.net/developers
