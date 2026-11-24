@@ -1,0 +1,36 @@
+---
+title: Maneki Web3 & Crypto Jobs Dataset
+homepage: https://www.maneki.work/data
+category: Economics
+description: A continuously-updated dataset of live Web3, crypto and blockchain job postings aggregated from company career pages and normalized into one clean schema (title, company, location, work mode, seniority, skills, salary, posting dates). A public sample of the 100 most recent active jobs is refreshed daily, alongside aggregate statistics (total counts, salary coverage, freshness). Each record links to the original posting and the hiring company. Useful for labor-market research on the crypto industry, salary benchmarking and building job tools. Available as JSON on GitHub, Hugging Face and Kaggle; full dataset and API available on request.
+version: 2
+keywords: web3 jobs, crypto jobs, blockchain jobs, job postings, labor market, tech salaries, remote work, hiring
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://www.maneki.work/data
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Maneki
+    web: https://www.maneki.work
+organization:
+  - name: Maneki
+    web: https://www.maneki.work
+issued_time: 2026.11
+sources:
+  - name: Public sample (JSON, refreshed daily)
+    access_url: https://raw.githubusercontent.com/Maneki-Work/jobs-data/main/sample.json
+  - name: Aggregate statistics (JSON)
+    access_url: https://raw.githubusercontent.com/Maneki-Work/jobs-data/main/meta.json
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/Manekiwork/web3-crypto-jobs
+  - name: Kaggle dataset
+    access_url: https://www.kaggle.com/datasets/manekiwork/maneki-web3-crypto-jobs
+references:
+  - title: Dataset documentation and license
+    reference: https://www.maneki.work/data
