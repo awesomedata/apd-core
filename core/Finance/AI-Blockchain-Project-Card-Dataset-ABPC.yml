@@ -1,0 +1,45 @@
+---
+title: AI-Blockchain Project-Card Dataset (ABPC)
+homepage: https://doi.org/10.5281/zenodo.22800707
+category: Finance
+description: >-
+  Structured cards for 845 AI-branded crypto projects in which every cited source
+  is linked to the field it supports and tagged with a provenance tier: Tier-1
+  (the project's own documentation, code and on-chain sources), Tier-2
+  (aggregators) or Tier-3 (third-party media). The February 2026 snapshot holds
+  4,371 evidence entries (3,707 Tier-1), Internet Archive copies for 84.5% of
+  cited sources, and 463 negative-evidence rows recording claims for which no
+  primary source was found. Each record has a passport (category, chain, type,
+  token type, AI component, use case, launch date) with canonical values and the
+  curator's original wording, canonical URLs for fifteen link types, the evidence
+  table and evidence gaps. All 845 records validate against the published JSON
+  Schema. Described in a peer-reviewed data descriptor in IEEE Data Descriptions
+  (2026).
+version: 1.1.0
+keywords: cryptocurrency, blockchain, artificial intelligence, AI-washing, crypto projects, evidence provenance, source reliability, claim verification, negative evidence, link rot, JSON Schema
+image:
+temporal: 2026-02-03 / 2026-02-11
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity:
+specification: https://github.com/DecAIHub/papers/tree/main/project-card-schema
+data_quality: false
+data_dictionary: https://zenodo.org/records/22800707/files/project_card.schema.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: DecAIHub
+    web: https://decaihub.io
+organization:
+  - name: Nikita N. Kadochnikov (independent researcher)
+    web: https://orcid.org/0009-0004-5996-7934
+issued_time: 2026.09
+sources:
+  - name: Zenodo deposit v1.1.0 (JSON, per-card JSON, JSON Schema, mapping tables)
+    access_url: https://zenodo.org/records/22800707
+  - name: Replication code (MIT)
+    access_url: https://github.com/DecAIHub/papers/tree/main/project-card-schema
+references:
+  - title: "Descriptor: AI-Blockchain Project-Card Dataset (ABPC)"
+    reference: Kadochnikov, N. N. (2026). IEEE Data Descriptions, 1-12. https://doi.org/10.1109/IEEEDATA.2026.3740408
