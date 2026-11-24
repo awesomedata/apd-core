@@ -1,0 +1,28 @@
+---
+title: Recent UK public tenders (Find a Tender + Contracts Finder snapshot)
+homepage: https://huggingface.co/datasets/Publicrecords/uk-tenders-recent
+category: Government
+description: 120 UK government tender releases on 2026-11-24 from the official Find a Tender and Contracts Finder OCDS feeds - ocid, title, status, buyer, value, deadline, published date and source. Licensed under Open Government Licence v3.0.
+version: 2026-11-24
+keywords: UK tenders, Find a Tender, Contracts Finder, OCDS, procurement, public contracts
+temporal: 2026
+spatial: United Kingdom
+access_level: public
+data_quality: true
+language: en
+license: Open Government Licence v3.0
+publisher:
+  - name: Public Records
+    web: https://huggingface.co/Publicrecords
+organization:
+  - name: Crown copyright / publishing authorities
+    web: https://www.find-tender.service.gov.uk/
+issued_time: 2026-11-24
+sources:
+  - name: CSV snapshot (Hugging Face)
+    access_url: https://huggingface.co/datasets/Publicrecords/uk-tenders-recent
+  - name: Official Find a Tender OCDS API
+    access_url: https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages
+references:
+  - title: Fresh queryable feed (Apify Actor)
+    reference: https://apify.com/publicrecords/uk-find-a-tender-scraper

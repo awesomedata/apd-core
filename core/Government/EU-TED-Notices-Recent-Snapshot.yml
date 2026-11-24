@@ -1,0 +1,28 @@
+---
+title: Recent EU TED procurement notices snapshot
+homepage: https://huggingface.co/datasets/Publicrecords/eu-ted-notices-recent
+category: Government
+description: 10 EU Tenders Electronic Daily notices published on or after 2026-11-01, read 2026-11-24 from the official TED search API - publication number, title, buyer, deadline, country, CPV and source link.
+version: 2026-11-24
+keywords: TED, EU procurement, tenders, CPV, official notices
+temporal: 2026
+spatial: European Union
+access_level: public
+data_quality: true
+language: en
+license: TED legal notice
+publisher:
+  - name: Public Records
+    web: https://huggingface.co/Publicrecords
+organization:
+  - name: Publications Office of the European Union
+    web: https://ted.europa.eu/
+issued_time: 2026-11-24
+sources:
+  - name: CSV snapshot (Hugging Face)
+    access_url: https://huggingface.co/datasets/Publicrecords/eu-ted-notices-recent
+  - name: Official TED API
+    access_url: https://api.ted.europa.eu/v3/notices/search
+references:
+  - title: Fresh queryable feed (Apify Actor)
+    reference: https://apify.com/publicrecords/eu-ted-notices-scraper
