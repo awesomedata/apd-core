@@ -1,0 +1,28 @@
+---
+title: US Federal Contract Awards Top 100 (USAspending snapshot)
+homepage: https://huggingface.co/datasets/Publicrecords/us-federal-contract-awards-top100
+category: Government
+description: The 100 largest US federal contract awards (types A-D) with transactions between 2026-10-01 and 2026-11-23, ranked by total award amount - recipient, agency, sub-agency, dates, NAICS, description. Read from the public USAspending API.
+version: 2026-11-24
+keywords: government contracts, procurement, USAspending, federal spending
+temporal: 2026
+spatial: United States
+access_level: public
+data_quality: true
+language: en
+license: CC0 1.0
+publisher:
+  - name: Public Records
+    web: https://apify.com/publicrecords
+organization:
+  - name: Public Records
+    web: https://apify.com/publicrecords
+issued_time: 2026-11-24
+sources:
+  - name: CSV snapshot (Hugging Face)
+    access_url: https://huggingface.co/datasets/Publicrecords/us-federal-contract-awards-top100
+  - name: CSV snapshot (GitHub)
+    access_url: https://github.com/GeminiGeorge22/us-public-data-snapshots/tree/master/us-federal-awards-recent
+references:
+  - title: Fresh daily feed (Apify Actor)
+    reference: https://apify.com/publicrecords/usaspending-awards-scraper
