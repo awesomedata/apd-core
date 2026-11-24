@@ -1,0 +1,31 @@
+---
+title: State of AI Agencies
+homepage: https://github.com/seanaherndrexel/state-of-ai-agencies
+category: Economics
+description: Counts from 388 AI agency listings read on 6 November 2026, covering team size, hourly rates, service categories and locations. Five CSV files, downloadable with no login.
+version: Q4 2026
+keywords: AI agencies, hourly rates, team size, services market, business directory
+image:
+temporal: 2026
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: false
+data_dictionary:
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AI Agency Search
+    web: https://github.com/seanaherndrexel/state-of-ai-agencies
+organization:
+  - name: AI Agency Search
+    web:
+issued_time: 2026.11
+sources:
+  - name:
+    access_url:
+references:
+  - title:
+    reference:
