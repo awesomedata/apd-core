@@ -1,0 +1,14 @@
+---
+title: UK Home Battery Data
+homepage: https://github.com/NewBegin-gif/uk-home-battery-data
+category: Energy
+description: Public CSVs for UK home battery research. Includes a November 2026 snapshot of advertised battery hardware prices and separate DESNZ/MCS tables for monthly retrofit installations and installed costs by capacity band and financial year.
+spatial: United Kingdom
+access_level: public
+language: en
+license: CC BY 4.0 (retail price data) and Open Government Licence v3.0 (DESNZ/MCS tables)
+sources:
+  - name: DESNZ and MCS domestic battery installation statistics
+    access_url: https://www.gov.uk/government/statistics/mcs-certified-domestic-battery-installation-statistics
+  - name: November 2026 retail price snapshot on Zenodo
+    access_url: https://doi.org/10.5281/zenodo.24415440
