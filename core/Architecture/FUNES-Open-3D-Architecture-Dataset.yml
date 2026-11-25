@@ -1,7 +1,7 @@
 ---
 title: FUNES Open 3D Architecture Dataset
 homepage: https://zenodo.org/records/24435910
-category: Museums
+category: Architecture
 description: Open multi-view photogrammetry dataset of 20 historic and modern buildings across six countries (10,594 high-resolution photos captured in under an hour per site, ~75 GB total), including COLMAP SfM camera poses, sparse point clouds, and reference OBJ/PLY meshes (Zenodo DOI 10.5281/zenodo.24435910).
 version: "1.0"
 keywords: 3D architecture, cultural heritage, photogrammetry, multi-view stereo, COLMAP, 3D Gaussian Splatting, NeRF, digital museum
@@ -26,8 +26,6 @@ issued_time: "2026-01"
 sources:
   - name: Google Drive Official Archive (~75 GB, 20 per-building ZIPs)
     access_url: https://drive.google.com/drive/folders/1YGBLjINI2JPrpAE3iCDpxER6agJtC6lq?usp=sharing
-  - name: Hugging Face Dataset Card
-    access_url: https://huggingface.co/datasets/FUNESWORLD/open-3d-architecture-dataset
   - name: GitHub Companion Repository
     access_url: https://github.com/Funes-World/open-3d-architecture-dataset
 references:
