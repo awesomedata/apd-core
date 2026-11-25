@@ -1,0 +1,35 @@
+---
+title: US IVF Clinic Price Postings
+homepage: https://doi.org/10.5281/zenodo.23017008
+category: Healthcare
+description: A census of every US fertility clinic location in the CDC's assisted reproductive technology (ART) clinic data, recording whether the clinic's own website publishes a self-pay price for an IVF cycle. Where it does (about a third of locations), the row gives the amount, what the clinic says the price includes and excludes, and the clinic page it was read from; where it does not, the page that was checked. Every row carries the date it was read and the CDC clinic ID, so it joins to the CDC's ART success-rate and clinic-profile tables. Amounts are each clinic's own package and are neither averaged nor ranked. Released with a report that compares price posting with a 2019 review of SART member clinic websites.
+version: "2026-09-28"
+keywords: IVF, in vitro fertilization, fertility clinics, price transparency, healthcare prices, self-pay, assisted reproductive technology, CDC ART, United States, CSV
+image:
+temporal: Clinic websites checked from September 2026 on
+spatial: United States (49 states, the District of Columbia and Puerto Rico)
+access_level: public
+copyrights: Clinic identity from the CDC ART clinic data (US Government work, public domain); prices as each clinic publishes them on its own website
+accrual_periodicity: irregular snapshots on Zenodo under one concept DOI; the live CSV is re-checked continuously
+specification: CSV (UTF-8) with a Frictionless Data descriptor (datapackage.json) and a README defining every field
+data_quality: true
+data_dictionary: https://ivfcost.co/data/ivf-clinic-prices
+language: en
+license: CC BY 4.0
+publisher:
+  - name: IVFcost.co
+    web: https://ivfcost.co
+organization:
+  - name: IVFcost.co
+    web: https://ivfcost.co
+issued_time: "2026-09-28"
+sources:
+  - name: Snapshot files on Zenodo (concept DOI, resolves to the newest version)
+    access_url: https://doi.org/10.5281/zenodo.23017008
+  - name: Live CSV, re-checked continuously
+    access_url: https://ivfcost.co/data/ivf-clinic-prices.csv
+  - name: CDC Assisted Reproductive Technology clinic data
+    access_url: https://www.cdc.gov/art/
+references:
+  - title: "Online IVF price posting by U.S. fertility clinics: a census of 457 CDC-reporting clinic locations, September 2026 (report on the first snapshot)"
+    reference: https://doi.org/10.5281/zenodo.23056772
