@@ -1,0 +1,10 @@
+---
+title: PetrolCast Fuel Prices
+homepage: https://github.com/PetrolCast/fuel-prices
+category: Energy
+description: Official retail fuel prices (petrol, diesel, LPG, kerosene, heating oil) for 40 countries in one CSV of 134,719 rows, with the tax split where the publisher gives it. A second file lists each publisher and its licence.
+spatial: 40 countries
+access_level: public
+language: en
+license: CC BY 4.0
+sources: []
