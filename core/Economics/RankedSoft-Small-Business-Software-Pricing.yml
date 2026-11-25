@@ -1,0 +1,35 @@
+---
+title: RankedSoft Small-Business Software Pricing
+homepage: https://github.com/rankedsoft-data/smb-software-pricing
+category: Economics
+description: Summary pricing figures for 175 categories of small-business software computed from the published pricing pages of 1,675 products, giving the median, lowest and highest entry price per month, and the share offering a free plan, a free trial or charging a setup fee. Every underlying price read from the vendor's own pricing page and dated; nothing estimated. Archived with DOI 10.5281/zenodo.24533573.
+version: 2026.11
+keywords: software pricing, SaaS pricing, small business, subscription pricing, price data, open data
+temporal: 2026
+spatial: global (prices in USD as published by vendors)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/rankedsoft-data/smb-software-pricing/blob/main/README.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: RankedSoft
+    web: https://rankedsoft.com/
+organization:
+  - name: RankedSoft
+    web: https://rankedsoft.com/
+issued_time: 2026.11
+sources:
+  - name: Category summary, CSV
+    access_url: https://raw.githubusercontent.com/rankedsoft-data/smb-software-pricing/main/rankedsoft-summary.csv
+  - name: Zenodo archive
+    access_url: https://zenodo.org/records/24533573
+references:
+  - title: Methodology and data dictionary
+    reference: https://github.com/rankedsoft-data/smb-software-pricing/blob/main/README.md
+  - title: Zenodo deposit (DOI 10.5281/zenodo.24533573)
+    reference: https://doi.org/10.5281/zenodo.24533573
+---
