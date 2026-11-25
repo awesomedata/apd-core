@@ -1,676 +1,666 @@
 {
  "Agriculture/Furrow-Farmland-Price-Index.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22212366",
   "reason": "http_403"
  },
  "Agriculture/Hyperspectral-Benchmark-Dataset-On-Soil-Moisture.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.1227837",
   "reason": "http_403"
  },
  "Biology/ENCODE-project.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.encodeproject.org",
   "reason": "http_405"
  },
  "Biology/Stowers-Institute-Original-Data-Repository.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.stowers.org/stowers-odr",
   "reason": "http_403"
  },
  "Chemistry/moleculefinder-molecules-in-everyday-products.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23605767",
   "reason": "http_403"
  },
+ "Climate+Weather/Brazilian-Weather.yml": {
+  "fail_streak": 1,
+  "homepage": "https://data.sinda.coene.inpe.br/",
+  "reason": "http_403"
+ },
  "Climate+Weather/CCPI.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5683/SP3/SFYABX",
   "reason": "http_403"
  },
  "Climate+Weather/Climate-Data-from-UEA-updated-monthly.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://www.uea.ac.uk/groups-and-centres/climatic-research-unit/data",
   "reason": "http_405"
  },
  "Climate+Weather/NASA-Global-Imagery-Browse-Services.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api",
   "reason": "http_403"
  },
  "Climate+Weather/kanari-wildfire-ignitions.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://kanari.io/opendata/feux.csv",
   "reason": "request_exception: HTTPSConnectionPool(host='kanari.io', port=443): Max retries exceeded with url: /opendata/feux.csv (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='kanari.io', port=443): Read timed out. (read timeout=10)\"))"
  },
+ "ComplexNetworks/Protein.yml": {
+  "fail_streak": 1,
+  "homepage": "https://web.archive.org/web/20240412112159/http://vlado.fmf.uni-lj.si/pub/networks/data/bio/Yeast/Yeast.htm",
+  "reason": "http_429"
+ },
  "ComplexNetworks/Small-Network-Data.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://websites.umich.edu/~mejn/netdata/",
   "reason": "http_403"
  },
  "ComputerNetworks/GL-MT6000-WiFi-CSI.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23434789",
   "reason": "http_403"
  },
+ "ComputerNetworks/MIRAGE-2019.yml": {
+  "fail_streak": 1,
+  "homepage": "http://traffic.comics.unina.it/mirage/",
+  "reason": "timeout"
+ },
  "ComputerNetworks/Merklemap-DNS-Records-dataset.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.merklemap.com/dns-records-database",
   "reason": "http_404"
  },
  "DataChallenges/TravisTorrent-Dataset.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://travistorrent.testroots.org/",
   "reason": "request_exception: HTTPSConnectionPool(host='bantenlogin.id', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='bantenlogin.id', port=443): Failed to resolve 'bantenlogin.id' ([Errno -2] Name or service not known)\"))"
  },
  "EarthScience/AQUASTAT.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en",
   "reason": "request_exception: Exceeded 5 redirects."
  },
  "EarthScience/EOSDIS.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://www.earthdata.nasa.gov/about/esdis/eosdis",
   "reason": "http_403"
  },
  "EarthScience/Integrated-Marine-Observing-System-IMOS.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://imos.aodn.org.au",
   "reason": "ssl_error"
  },
  "EarthScience/Smithsonian-Institution-Global-Volcano-and-Eruption-Database.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://volcano.si.edu/",
   "reason": "http_403"
  },
  "EarthScience/US-Hard-Water-and-Water-Quality-Statistics.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23534609",
   "reason": "http_403"
  },
  "Economics/ASEAN Stats.yml": {
-  "fail_streak": 21,
+  "fail_streak": 22,
   "homepage": "https://data.aseanstats.org/",
   "reason": "request_exception: HTTPSConnectionPool(host='data.aseanstats.org', port=443): Max retries exceeded with url: / (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
  },
  "Economics/CEPII Database.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp",
   "reason": "http_403"
  },
  "Economics/China-Aluminum-Daily-Prices.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.aluminium-china.com/api/prices/today.csv",
   "reason": "http_429"
  },
  "Economics/Cyprus-Home-Asking-Prices-Monthly.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.24132080",
   "reason": "http_403"
  },
  "Economics/Factory-Census-US-Manufacturing.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22774984",
   "reason": "http_403"
  },
  "Economics/Humanoid-Robots-Prices-and-Specs.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://humanoidstore.co/data",
   "reason": "http_429"
  },
  "Economics/Open-Jobs.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://backend.dehnbostele.workers.dev/data/",
   "reason": "http_500"
  },
  "Economics/Penn World Table.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.rug.nl/ggdc/productivity/pwt/?lang=en/",
   "reason": "http_400"
  },
  "Economics/Polymarket-Kalshi-Price-Gaps.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://github.com/softdevfz/polymarket-kalshi-price-gaps",
   "reason": "http_404"
  },
  "Economics/Say-on-Pay-Vote-Results-US-Public-Companies.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22650198",
   "reason": "http_403"
  },
  "Economics/SupPrice-Index-German-Supplement-Prices.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22017250",
   "reason": "http_403"
  },
  "Economics/TechRole-Index-Russian-IT-Labor-Market.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://techrole.ru/open-data-daily",
   "reason": "ssl_error"
  },
  "Economics/The-Observatory-of-Economic-Complexity.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://atlas.media.mit.edu/en/",
   "reason": "request_exception: HTTPConnectionPool(host='atlas.media.mit.edu', port=80): Max retries exceeded with url: /en/ (Caused by NameResolutionError(\"HTTPConnection(host='atlas.media.mit.edu', port=80): Failed to resolve 'atlas.media.mit.edu' ([Errno -2] Name or service not known)\"))"
  },
  "Economics/World KLEMS.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.worldklems.net/wkanalytical",
   "reason": "http_404"
  },
  "Economics/besteor-global-employment-dataset.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://besteor.co/data",
   "reason": "http_429"
  },
  "Education/BackPR-US-Youth-Program-Data.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23577823",
   "reason": "http_403"
  },
  "Education/Cert-Atlas.yml": {
-  "fail_streak": 18,
+  "fail_streak": 19,
   "homepage": "https://atlas.quizforge.ai/",
   "reason": "http_403"
  },
  "Education/College-Scorecard-Data.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://collegescorecard.ed.gov/data/",
   "reason": "http_403"
  },
  "Education/Make-Data-Count.yml": {
-  "fail_streak": 21,
+  "fail_streak": 22,
   "homepage": "https://makedatacount.org/data-citation/",
   "reason": "request_exception: HTTPSConnectionPool(host='makedatacount.org', port=443): Max retries exceeded with url: /data-citation/ (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
  },
  "Education/PISA.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.oecd.org/pisa/",
   "reason": "http_403"
  },
  "Energy/ECO.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.vs.inf.ethz.ch/res/show.html?what=eco-data",
   "reason": "http_500"
  },
  "Energy/UDEC.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://ukrstat.gov.ua/operativ/menu/menu_e/energ.htm",
   "reason": "ssl_error"
  },
  "Energy/US-Power-Outage-Burden-by-State.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23548861",
   "reason": "http_403"
  },
  "Entertainment/Deckaura-Tarot-Card-Meanings.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.19475329",
   "reason": "http_403"
  },
  "Entertainment/LyricsWeb-Song-Title-Originality-and-Reuse.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23559663",
   "reason": "http_403"
  },
  "Entertainment/PC-Game-System-Requirements-FPS.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23162308",
   "reason": "http_403"
  },
  "Finance/FOMC-Rate-Decisions-Register-1990-2026.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.24128716",
   "reason": "http_403"
  },
  "Finance/SEC-EDGAR.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.sec.gov/edgar/about",
   "reason": "http_403"
  },
  "Finance/St-Louis-Federal.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://fred.stlouisfed.org/",
   "reason": "request_exception: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=10)\"))"
  },
  "GIS/Geo-Wiki-Project.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://geo-wiki.org/",
   "reason": "http_404"
  },
- "GIS/Large-scale-international-boundaries-from--the-U.S.-Department-of-State.yml": {
-  "fail_streak": 7,
-  "homepage": "https://geodata.state.gov/geonetwork/srv/eng/catalog.search#/metadata/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
-  "reason": "timeout"
- },
  "Government/Antwerp-Belgium.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.antwerpen.be/open-data",
   "reason": "http_403"
  },
  "Government/Brazil-Consumer-Complaints-per-100k-Customers.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22940647",
   "reason": "http_403"
  },
  "Government/Finland.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.opendata.fi/en",
   "reason": "http_403"
  },
  "Government/Greece-Public-Procurement-OCDS.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://diavgis.gr",
   "reason": "http_403"
  },
  "Government/Guardian-world-governments.yml": {
-  "fail_streak": 2,
+  "fail_streak": 3,
   "homepage": "http://www.guardian.co.uk/world-government-data",
   "reason": "http_403"
  },
  "Government/Helsinki-Region-Finland.yml": {
-  "fail_streak": 5,
+  "fail_streak": 6,
   "homepage": "https://hri.fi/en_gb/",
   "reason": "http_403"
  },
  "Government/Indian-Government-Data.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.gov.in/",
   "reason": "request_exception: HTTPSConnectionPool(host='data.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='data.gov.in', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
  },
  "Government/Istanbul-Municipality-Open-Data.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.ibb.gov.tr",
   "reason": "timeout"
  },
  "Government/Italy.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://www.dati.gov.it/",
   "reason": "http_403"
  },
  "Government/Jail-deaths-in-America.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.reuters.com/investigates/special-report/usa-jails-graphic/",
   "reason": "http_401"
  },
  "Government/Laval-QC-Canada.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://www.laval.ca/organisation-municipale/politiques-plans-daction/",
   "reason": "http_403"
  },
  "Government/Lithuania-Repeat-Sales-House-Price-Index-PSBKI.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.lb.lt/lt/pasikartojanciu-sandoriu-busto-kainu-indeksas",
   "reason": "http_403"
  },
  "Government/MassGIS-Massachusetts-U.S..yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.mass.gov/orgs/massgis-bureau-of-geographic-information",
   "reason": "http_403"
  },
  "Government/Metropolitain-Transportation-Commission-MTC-California-US.yml": {
-  "fail_streak": 15,
+  "fail_streak": 16,
   "homepage": "http://mtc.ca.gov/tools-resources/data-tools/open-data-library",
   "reason": "http_403"
  },
  "Government/OECD.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.oecd.org/",
   "reason": "http_403"
  },
  "Government/Open-Data-for-Africa.yml": {
-  "fail_streak": 11,
+  "fail_streak": 12,
   "homepage": "https://dataportal.opendataforafrica.org/",
   "reason": "http_403"
  },
  "Government/Open-Government-Data-OGD-Platform-India.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.gov.in/",
   "reason": "request_exception: HTTPSConnectionPool(host='data.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='data.gov.in', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
  },
  "Government/OpenDataSofts-list-of-1600-open-data.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.opendatasoft.com/blog/2015/11/02/how-we-put-together-a-list-of-1600-open-data-portals-around-the-world-to-help-open-data-community",
   "reason": "http_404"
  },
  "Government/Pass2port-CBI-RBI-Programmes.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23689530",
   "reason": "http_403"
  },
  "Government/ProductGuru-Consumer-Product-Recalls-by-Barcode.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22685727",
   "reason": "http_403"
  },
- "Government/Quebec-Province-of-Canada.yml": {
-  "fail_streak": 1,
-  "homepage": "https://www.donneesquebec.ca/recherche/dataset",
-  "reason": "http_405"
- },
  "Government/Romania.yml": {
-  "fail_streak": 7,
+  "fail_streak": 8,
   "homepage": "https://data.gov.ro/",
   "reason": "timeout"
  },
  "Government/State-of-Utah-US.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.utah.gov/government/data.html",
   "reason": "http_404"
  },
  "Government/Syria-Official-Gazette-Records.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.24122383",
   "reason": "http_403"
  },
  "Government/Tunisia.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.data.gov.tn/fr/",
   "reason": "ssl_error"
  },
  "Government/U.S.-CDC-Public-Health-datasets.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.cdc.gov/nchs/data_access/ftp_data.htm",
   "reason": "http_403"
  },
  "Government/Ukraine.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://data.gov.ua/",
   "reason": "http_403"
  },
  "Government/Vienna-Austria.yml": {
-  "fail_streak": 2,
+  "fail_streak": 3,
   "homepage": "https://open.wien.gv.at/site/open-data/",
   "reason": "http_500"
  },
  "Government/Vilnius-Lithuania.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://opendata.vilnius.lt",
   "reason": "http_403"
  },
  "Healthcare/Dietly-Food-Nutrition-Database.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.getdietly.com/api",
   "reason": "http_525"
  },
  "Healthcare/ENCLAI-Disease-Surveillance.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.21855170",
   "reason": "http_403"
  },
  "Healthcare/OpenPaymentsData-Healthcare-financial-relationship-data.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://openpaymentsdata.cms.gov",
   "reason": "http_403"
  },
  "Healthcare/SuplerMed-Supplement-Drug-Interactions.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.21532404",
   "reason": "http_403"
  },
- "Healthcare/wayfinder-atlas.yml": {
-  "fail_streak": 1,
-  "homepage": "https://www.thewayfinder.health/atlas",
-  "reason": "http_402"
- },
  "ImageProcessing/Animals-with-attributes.yml": {
-  "fail_streak": 19,
+  "fail_streak": 20,
   "homepage": "http://attributes.kyb.tuebingen.mpg.de/",
   "reason": "request_exception: HTTPConnectionPool(host='attributes.kyb.tuebingen.mpg.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='attributes.kyb.tuebingen.mpg.de', port=80): Failed to resolve 'attributes.kyb.tuebingen.mpg.de' ([Errno -2] Name or service not known)\"))"
  },
  "ImageProcessing/CCAgT.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.17632/wg4bpm33hj.2",
   "reason": "http_403"
  },
  "ImageProcessing/DAVID.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://mediatum.ub.tum.de/1596437",
   "reason": "http_429"
  },
  "ImageProcessing/ETH_Entomological_Collection_Fine_Grained_Butterfly_Images.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.3929/ethz-b-000365379",
   "reason": "http_403"
  },
- "ImageProcessing/HumanEva-Dataset.yml": {
-  "fail_streak": 23,
-  "homepage": "http://humaneva.is.tue.mpg.de/",
-  "reason": "timeout"
- },
  "ImageProcessing/ImageNet.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.image-net.org/",
   "reason": "timeout"
  },
  "ImageProcessing/Long-duration-stitched-and-unstitched-8K-30-fps-stereoscopic-360deg-videos.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://dx.doi.org/10.21227/6htp-py25",
   "reason": "http_403"
  },
  "ImageProcessing/MV-ROI.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://mediatum.ub.tum.de/1548761",
   "reason": "http_429"
  },
  "ImageProcessing/Massive-Visual-Memory-Stimuli-MIT.yml": {
-  "fail_streak": 11,
+  "fail_streak": 12,
   "homepage": "http://olivalab.mit.edu/MM/stimuli.html",
   "reason": "request_exception: HTTPConnectionPool(host='olivalab.mit.edu', port=80): Max retries exceeded with url: /MM/stimuli.html (Caused by NewConnectionError(\"HTTPConnection(host='olivalab.mit.edu', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))"
  },
  "ImageProcessing/SVIRO.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://sviro.kl.dfki.de",
   "reason": "ssl_error"
  },
  "MachineLearning/Discogs-Monthly-Data.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://data.discogs.com/",
   "reason": "http_403"
  },
+ "MachineLearning/MovieLens-Data-Sets.yml": {
+  "fail_streak": 1,
+  "homepage": "http://grouplens.org/datasets/movielens/",
+  "reason": "request_exception: HTTPConnectionPool(host='grouplens.org', port=80): Max retries exceeded with url: /datasets/movielens/ (Caused by ReadTimeoutError(\"HTTPConnectionPool(host='grouplens.org', port=80): Read timed out. (read timeout=10)\"))"
+ },
  "MachineLearning/Registered-Meteorites-on-Earth.yml": {
-  "fail_streak": 19,
+  "fail_streak": 20,
   "homepage": "http://publichealthintelligence.org/content/registered-meteorites-has-impacted-earth-visualized",
   "reason": "http_403"
  },
  "Museums/CultureTechLens-Black-Cultural-Knowledge-Graph.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23403147",
   "reason": "http_403"
  },
  "Museums/Natural-History-Museum-London-Data-Portal.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.nhm.ac.uk/",
   "reason": "http_403"
  },
  "Museums/The-Getty-vocabularies.yml": {
-  "fail_streak": 6,
+  "fail_streak": 7,
   "homepage": "https://vocab.getty.edu/",
   "reason": "http_403"
  },
  "NaturalLanguage/Gutenberg-eBooks-List.yml": {
-  "fail_streak": 9,
+  "fail_streak": 10,
   "homepage": "https://www.gutenberg.org/ebooks/offline_catalogs.html",
   "reason": "timeout"
  },
  "NaturalLanguage/Noisy-Speech.yml": {
-  "fail_streak": 2,
+  "fail_streak": 3,
   "homepage": "https://datashare.is.ed.ac.uk/handle/10283/2791",
   "reason": "request_exception: HTTPSConnectionPool(host='datashare.ed.ac.uk', port=443): Max retries exceeded with url: /handle/10283/2791 (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
  },
  "NaturalLanguage/WordNet-databases-and-tools.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://wordnet.princeton.edu/download",
   "reason": "http_403"
  },
  "Neuroscience/Study-Forrest.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://studyforrest.org",
   "reason": "http_404"
  },
  "Physics/Launches-and-Satellites-Since-Sputnik.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23184904",
   "reason": "http_403"
  },
- "ProstateCancer/Prostate-R.yml": {
-  "fail_streak": 1,
-  "homepage": "https://web.stanford.edu/~hastie/ElemStatLearn/datasets/prostate.data",
-  "reason": "timeout"
- },
  "ProstateCancer/US_cancer_statistics_public_use_database.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.cdc.gov/cancer/uscs/public-use",
   "reason": "http_403"
  },
  "PublicDomains/GrandComics.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.comics.org",
   "reason": "http_403"
  },
  "PublicDomains/Reddit-Datasets.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.reddit.com/r/datasets",
   "reason": "http_403"
  },
  "PublicDomains/UFO-Reports.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://nuforc.org/databank/",
   "reason": "http_403"
  },
  "SearchEngines/OpenDataNetwork.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.opendatanetwork.com/",
   "reason": "request_exception: HTTPSConnectionPool(host='www.opendatanetwork.com', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.opendatanetwork.com', port=443): Read timed out. (read timeout=10)\"))"
  },
- "SocialNetworks/2021_Portuguese_Elections_Twitter_Dataset_57M_tweets_1M_users.yml": {
-  "fail_streak": 1,
-  "homepage": "https://github.com/msramalho/election-watch/blob/master/datasets/01_portuguese_presidential_elections_2021_01_24.md",
-  "reason": "http_429"
- },
  "SocialNetworks/China-Biographical-Database.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://projects.iq.harvard.edu/cbdb",
   "reason": "http_403"
  },
  "SocialSciences/Banned-Books-Open-Censorship-Core.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.banned-books.org/dataset",
   "reason": "http_403"
  },
  "SocialSciences/Brightcast-Global-Hope-Index.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.brightcast.news/open-data",
   "reason": "http_404"
  },
  "SocialSciences/Canadian-Legal-Information-Institute.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.canlii.org/en/index.php",
   "reason": "http_403"
  },
  "SocialSciences/German-Social-Survey.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.gesis.org/en/home",
   "reason": "http_403"
  },
  "SocialSciences/Institute-for-Demographic-Studies.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.ined.fr/en/",
   "reason": "timeout"
  },
  "SocialSciences/International-Networks-Archive.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "http://www.princeton.edu/~ina/",
   "reason": "http_403"
  },
  "SocialSciences/Measured-World.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://measuredworld.com",
   "reason": "http_403"
  },
  "SocialSciences/StackExchange-Data-Explorer.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://data.stackexchange.com/help",
   "reason": "http_403"
  },
- "SocialSciences/WorldPop-project.yml": {
+ "SocialSciences/UN-Civil-Society-Database.yml": {
   "fail_streak": 1,
-  "homepage": "https://hub.worldpop.org/",
-  "reason": "request_exception: HTTPSConnectionPool(host='hub.worldpop.org', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='hub.worldpop.org', port=443): Read timed out. (read timeout=10)\"))"
+  "homepage": "http://esango.un.org/civilsociety/",
+  "reason": "http_404"
  },
  "Software/AI-Tools-Radar.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.22730450",
   "reason": "http_403"
  },
  "Software/Libraries.io-Open-Source-Repository-and-Dependency-Metadata.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.1068916",
   "reason": "http_403"
  },
  "Software/source{d}-pull-request-review-comments.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://github.com/src-d/datasets/blob/master/ReviewComments",
   "reason": "http_429"
  },
  "Sports/BetBetter-AFL-Player-Match-Statistics.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.21612783",
   "reason": "http_403"
  },
  "Sports/Lahmans-Baseball-Database.yml": {
-  "fail_streak": 1,
+  "fail_streak": 2,
   "homepage": "https://sabr.org/lahman-database/",
   "reason": "timeout"
  },
  "Sports/Padel-Snipe-World-Padel-Clubs-Atlas.yml": {
-  "fail_streak": 20,
+  "fail_streak": 21,
   "homepage": "https://padelsnipe.com/fr/world",
   "reason": "http_429"
  },
  "Transportation/Airlines-OD-Data-1987~2008.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.7910/DVN/HG7NV7",
   "reason": "http_403"
  },
  "Transportation/FAA-Wildlife-Strikes-Aggregated-1990-2026.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.21347859",
   "reason": "http_403"
  },
  "Transportation/Flight-Fare-History.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23290391",
   "reason": "http_403"
  },
  "Transportation/Hubway-Million-Rides-in-MA.yml": {
-  "fail_streak": 9,
+  "fail_streak": 10,
   "homepage": "http://hubwaydatachallenge.org/trip-history-data/",
   "reason": "http_404"
  },
  "Transportation/Praticidade-Index.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23850105",
   "reason": "http_403"
  },
  "Transportation/Transport-for-London-TFL.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://tfl.gov.uk/info-for/open-data-users/our-open-data",
   "reason": "http_403"
  },
  "Transportation/U.S.-Bureau-of-Transportation-Statistics-BTS.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.bts.gov/browse-statistical-products-and-data",
   "reason": "http_403"
  },
  "Transportation/U.S.-National-Highway-Traffic-Safety-Administation-Fatalities-since-1975.yml": {
-  "fail_streak": 23,
+  "fail_streak": 24,
   "homepage": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars",
   "reason": "http_403"
  },
  "Transportation/US-Vehicle-Owner-Complaints-by-Model-Component-2010-2025.yml": {
-  "fail_streak": 8,
+  "fail_streak": 9,
   "homepage": "https://doi.org/10.5281/zenodo.23662820",
   "reason": "http_403"
  }
