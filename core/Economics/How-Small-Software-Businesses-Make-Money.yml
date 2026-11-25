@@ -1,0 +1,31 @@
+---
+title: How Small Software Businesses Make Money
+homepage: https://github.com/HZC20030712/how-small-software-businesses-make-money
+category: Economics
+description: A weekly-refreshed dataset of 738 small software businesses, one row per product, recording verified monthly recurring revenue band, 30-day revenue growth, pricing model, billing interval and category. Published as CSV and JSON so the numbers can be re-used and checked without scraping. Each row carries the observation date, and the licence is CC BY 4.0 with attribution.
+version: 1.0
+keywords: saas, recurring revenue, mrr, pricing, small business benchmarking, indie software, open data
+image:
+temporal: 2026
+spatial: global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification:
+data_quality: true
+data_dictionary: https://github.com/HZC20030712/how-small-software-businesses-make-money#data-dictionary
+language: en
+license: CC BY 4.0
+publisher:
+  - name: MoneyPeel
+    web: https://moneypeel.com
+organization:
+  - name: MoneyPeel
+    web: https://moneypeel.com
+issued_time: 2026.11
+sources:
+  - name: Public product pages, pricing pages and published revenue signals
+    access_url: https://github.com/HZC20030712/how-small-software-businesses-make-money
+references:
+  - title: Dataset repository
+    reference: https://github.com/HZC20030712/how-small-software-businesses-make-money
