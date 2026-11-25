@@ -7,8 +7,9 @@ description: >-
   Includes resolutions, decisions, tallies, individual member votes, movers and
   seconders, and links to the City's voting summaries and adopted minutes.
   Voting summaries are cross-checked against the minutes, with comparison status
-  included in each record. Available through a free, paginated JSON API without
-  registration or an API key; filter by council term, member, outcome or topic.
+  included in each record. Complete council-term downloads are available as CSV
+  and JSON without registration or an API key. A free, paginated JSON API also
+  supports filtering by council term, member, outcome or topic.
 keywords: Prince George, British Columbia, Canada, municipal government, council votes, civic data
 spatial: Prince George, British Columbia, Canada
 access_level: public
@@ -21,6 +22,10 @@ publisher:
   - name: Prince George Pulse
     web: https://princegeorgepulse.ca
 sources:
+  - name: Complete CSV voting records for the 2022-2026 council term
+    access_url: https://princegeorgepulse.ca/civic/council-votes/?term=2022-2026&download=csv
+  - name: Complete JSON voting records for the 2022-2026 council term
+    access_url: https://princegeorgepulse.ca/civic/council-votes/?term=2022-2026&download=json
   - name: Paginated JSON voting records for the 2022-2026 council term
     access_url: https://princegeorgepulse.ca/api/v1/council/votes?term=2022-2026&limit=500
   - name: City of Prince George meetings, agendas and minutes
