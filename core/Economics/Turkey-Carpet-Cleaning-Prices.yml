@@ -1,0 +1,33 @@
+---
+title: Turkey Carpet Cleaning (Halı Yıkama) Prices by Province and District
+homepage: https://github.com/hali-yikama-fabrikalari/turkiye-hali-yikama-fiyatlari-2026
+category: Economics
+description: Per-square-metre prices for professional carpet cleaning in Turkey, aggregated for 24 carpet types at national, province (81) and district (682) level, with the minimum, mean and maximum price and the number of companies behind each figure, plus company counts per province and district. Compiled in November 2026 from the price lists of 421 of the 4,561 carpet cleaning companies listed in a Turkish price comparison directory. Means are omitted where fewer than three companies publish a price, and prices exclude pick-up and delivery fees. The files hold aggregated figures only, with no company names or contact details. Five CSV files, archived on Zenodo with a DOI.
+version: 2026.11
+keywords: carpet cleaning, service prices, consumer prices, regional prices, price data, Turkey, Türkiye, open data
+temporal: 2026-11
+spatial: Turkey (81 provinces, 682 districts)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+data_quality: true
+data_dictionary: https://github.com/hali-yikama-fabrikalari/turkiye-hali-yikama-fiyatlari-2026#dosyalar
+language: tr
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Halı Yıkama Fabrikaları
+    web: https://haliyikamafabrikalari.com
+organization:
+  - name: Halı Yıkama Fabrikaları
+    web: https://haliyikamafabrikalari.com
+issued_time: 2026.11
+sources:
+  - name: District-level CSV
+    access_url: https://raw.githubusercontent.com/hali-yikama-fabrikalari/turkiye-hali-yikama-fiyatlari-2026/main/ilce_hali_yikama_fiyatlari.csv
+  - name: Zenodo archive
+    access_url: https://zenodo.org/records/24520867
+references:
+  - title: Current figures and methodology (Turkish)
+    reference: https://haliyikamafabrikalari.com/hali-yikama-fiyatlari
+  - title: Zenodo deposit (DOI 10.5281/zenodo.24520867)
+    reference: https://doi.org/10.5281/zenodo.24520867
