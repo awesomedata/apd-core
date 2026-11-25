@@ -1,37 +1,51 @@
 ---
-title: Statistics of the World — Global Economic Data for 218 Countries
+title: Statistics of the World, Global Economic Data for 217 Countries
 homepage: https://statisticsoftheworld.com/
 category: Economics
 description: >
-  440+ economic, demographic, health, education, and environmental indicators
-  for 218 countries covering 1960-2026. Aggregates data from IMF World Economic
-  Outlook, World Bank WDI, WHO, FRED, and United Nations. Free REST API available
-  at statisticsoftheworld.com/api-docs. Includes GDP, population, inflation,
-  unemployment, trade, government debt, life expectancy, and more.
-version:
-keywords: GDP, population, inflation, unemployment, economic data, country statistics, IMF, World Bank, macroeconomics, free API
+  335 economic, demographic, health, education and environmental indicators
+  for 217 countries and territories, from the IMF, World Bank, WHO, OECD,
+  United Nations, Eurostat, ILOSTAT and national statistics offices, with a
+  free JSON API (1,000 requests a day without a key). An open bulk file of
+  316 high-frequency series (1.5 million readings, each tagged with its source
+  licence) is published on Hugging Face and archived on Zenodo with a DOI.
+version: 2026.11.20
+keywords: GDP, population, inflation, unemployment, exchange rates, commodity prices, interest rates, country statistics, IMF, World Bank, OECD, macroeconomics, time series, free API
 image:
-temporal: 1960-2026
-spatial: World (218 countries)
+temporal: 1960 onward for most indicators; the open file has series from 1901 and published forecasts to 2029
+spatial: World (217 countries and territories, plus regional aggregates)
 access_level: Public
-copyrights: CC BY 4.0
-accrual_periodicity: Weekly
-specification:
+copyrights: Each publisher keeps the rights to its data
+accrual_periodicity: Daily
+specification: https://statisticsoftheworld.com/api-docs
 data_quality: true
-data_dictionary:
+data_dictionary: https://huggingface.co/datasets/dregon03/statistics-of-the-world/blob/main/snapshot-2026-11-20/datapackage.json
 language: English
-license: https://creativecommons.org/licenses/by/4.0/
+license: >
+  Varies by source. The open data file is CC BY 4.0 for Statistics of the
+  World's own work, and each reading keeps its source licence (see its licence
+  column). Other indicators follow their publishers' terms.
 publisher:
   - name: Statistics of the World
     web: https://statisticsoftheworld.com
 organization:
   - name: Statistics of the World
     web: https://statisticsoftheworld.com
-issued_time:
+issued_time: 2026.04
 sources:
+  - name: Open data file on Hugging Face
+    access_url: https://huggingface.co/datasets/dregon03/statistics-of-the-world
+  - name: Open data file on Zenodo (DOI 10.5281/zenodo.24486852)
+    access_url: https://doi.org/10.5281/zenodo.24486852
   - name: IMF World Economic Outlook
     access_url: https://www.imf.org/en/Publications/WEO
   - name: World Bank World Development Indicators
     access_url: https://data.worldbank.org
   - name: WHO Global Health Observatory
     access_url: https://www.who.int/data/gho
+  - name: OECD Data Explorer
+    access_url: https://data-explorer.oecd.org
+  - name: Eurostat
+    access_url: https://ec.europa.eu/eurostat/data/database
+  - name: ILOSTAT
+    access_url: https://ilostat.ilo.org/data/
