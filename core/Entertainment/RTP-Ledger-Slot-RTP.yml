@@ -1,0 +1,33 @@
+---
+title: RTP Ledger Slot RTP Dataset
+homepage: https://github.com/rtpledger/rtp-ledger-dataset
+category: Entertainment
+description: >
+  2,625 source-backed primary return-to-player (RTP) records for online slot
+  games, with provider, source links, source status and check dates. CSV and
+  JSON, CC BY 4.0, downloadable from the repository and from a versioned
+  Zenodo DOI with no login.
+version: 2026-09-26
+keywords: slot machines, return to player, RTP, gambling research, open data
+image:
+temporal: 2026-09-26
+spatial:
+access_level: public
+copyrights: CC-BY-4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/rtpledger/rtp-ledger-dataset#fields-csv
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: RTP Ledger
+    web: https://github.com/rtpledger
+organization:
+issued_time: 2026.09
+sources:
+  - name: Zenodo (DOI 10.5281/zenodo.24121304)
+    access_url: https://doi.org/10.5281/zenodo.24121304
+references:
+  - title: How to contribute a new data entry
+    reference: https://github.com/awesomedata/apd-core/blob/master/CONTRIBUTING.md
