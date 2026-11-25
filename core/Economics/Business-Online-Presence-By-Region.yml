@@ -1,0 +1,33 @@
+---
+title: Business Online Presence by Region
+homepage: https://github.com/Pinlyx/business-online-presence-by-region
+category: Economics
+description: "How many local businesses list a website, region by region. 50,928,232 open places from Overture Maps (release 2026-11-18.0) in 15 countries (US, BR, DE, GB, FR, MX, ES, ID, TR, CA, RU, CH, AT, PT, LU), assigned by point-in-polygon to 294 first-level regions, Spanish provinces and French departements, and to 120 city districts in New York City, Toronto, Madrid, Istanbul and Izmir using the official district boundaries published by those cities. Shares of places with a website and with an Instagram profile, plus places and websites per 1,000 residents using official population tables from data.gv.at, opendata.swiss (BFS), datos.gob.es (INE), data.gouv.fr (INSEE), datos.madrid.es, NYC Open Data, City of Toronto Open Data and the Istanbul and Izmir open data portals. Example: Manhattan 102.9 business websites per 1,000 residents, the Bronx 16.2. CSV and JSON with the list of official sources and the DuckDB pipeline."
+version: 2026.11
+keywords: small business, local business, websites, digital presence, regional statistics, Overture Maps, population, New York City, Toronto, Madrid, Istanbul, Europe
+image:
+temporal: 2026
+spatial: World (15 countries)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: annual
+specification:
+data_quality: true
+data_dictionary: https://pinlyx.com/research/business-online-presence-by-region-2026
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Pinlyx
+    web: https://pinlyx.com/
+organization:
+  - name: Pinlyx
+    web: https://pinlyx.com/
+issued_time: 2026.11
+sources:
+  - name: Countries, regions and city districts (CSV)
+    access_url: https://raw.githubusercontent.com/Pinlyx/business-online-presence-by-region/main/data/business-online-presence-by-region-2026.csv
+  - name: Full tables and source list (JSON)
+    access_url: https://raw.githubusercontent.com/Pinlyx/business-online-presence-by-region/main/data/business-online-presence-by-region-2026.json
+references:
+  - title: Zenodo archive (DOI 10.5281/zenodo.24519450)
+    reference: https://doi.org/10.5281/zenodo.24519450
