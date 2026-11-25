@@ -1,0 +1,25 @@
+---
+title: EU Compliance Deadlines and Product Recall Statistics
+homepage: https://github.com/InfinityTech-Enterprise-Solutions/autoregix-open-data
+category: Government
+description: About 160 dates on which EU rules for businesses start to apply, each with status, topic, the act, its CELEX number and EUR-Lex link, in English and German, plus weekly counts of EU Safety Gate alerts for the last 52 weeks by product category, risk, country of origin and law breached.
+keywords: European Union, regulation, compliance, deadlines, EUR-Lex, CELEX, product safety, Safety Gate, recalls
+temporal: 2018-2035
+spatial: European Union
+access_level: public
+accrual_periodicity: weekly
+data_quality: true
+data_dictionary: https://github.com/InfinityTech-Enterprise-Solutions/autoregix-open-data#deadlines
+language: en,de
+license: CC BY 4.0
+publisher:
+  - name: Autoregix
+    web: https://autoregix.com/en/open-data/
+issued_time: 2026-11-25
+sources:
+  - name: Deadlines (CSV)
+    access_url: https://raw.githubusercontent.com/InfinityTech-Enterprise-Solutions/autoregix-open-data/main/data/deadlines.csv
+  - name: Deadlines (JSON)
+    access_url: https://raw.githubusercontent.com/InfinityTech-Enterprise-Solutions/autoregix-open-data/main/data/deadlines.json
+  - name: Recall statistics (JSON)
+    access_url: https://raw.githubusercontent.com/InfinityTech-Enterprise-Solutions/autoregix-open-data/main/data/recalls.json
