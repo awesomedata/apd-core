@@ -6,7 +6,7 @@ description: Which countries and US states require adult websites to check visit
 version: 2026-11-11
 keywords: age verification, online safety, legislation, regulation, US states, countries
 image:
-temporal: 2022-2026
+temporal:
 spatial: 50 US states, 62 countries
 access_level: public
 copyrights:
