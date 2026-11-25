@@ -1,0 +1,37 @@
+---
+title: AI Training Jobs and Pay
+homepage: https://github.com/WebforMike/ai-training-jobs-pay
+category: Economics
+description: Open AI training roles (RLHF, model evaluation, data annotation, expert data, language and voice work) read from the public job boards of 13 platforms, with each role's stated pay normalized to hourly. One row per role with platform, field, language, places, stated pay and unit, credentials required, hours and dates, plus median listed pay by field and by platform and a daily series of role counts and medians since October 2026. "Up to" ceilings are flagged and kept out of medians; reposts across platforms are counted once. CSV and JSON.
+version: 2026-11-23
+keywords: AI training, RLHF, data annotation, gig work, platform labor, wages, labor economics, crowd work
+image:
+temporal: 2026-10 to present
+spatial: Worldwide
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://huggingface.co/datasets/AI-Training-Pay/ai-training-jobs-pay
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AI Training Pay (Hokuto Labs)
+    web: https://www.aitrainingpay.com/open-data
+organization:
+  - name: Hokuto Labs
+    web: https://www.aitrainingpay.com/about
+issued_time: 2026.11
+sources:
+  - name: Roles (CSV)
+    access_url: https://github.com/WebforMike/ai-training-jobs-pay/blob/main/data/roles.csv
+  - name: Pay by field (CSV)
+    access_url: https://github.com/WebforMike/ai-training-jobs-pay/blob/main/data/pay-by-field.csv
+  - name: Daily trends (CSV)
+    access_url: https://github.com/WebforMike/ai-training-jobs-pay/blob/main/data/trends.csv
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/AI-Training-Pay/ai-training-jobs-pay
+references:
+  - title: Methodology
+    reference: https://www.aitrainingpay.com/methodology
