@@ -1,0 +1,35 @@
+---
+title: Apple Store In-Store Pickup Restock & Telemetry Dataset
+homepage: https://github.com/yangjwlove-dev/apple-store-pickup-restock-dataset
+category: TimeSeries
+description: An open CC BY 4.0 empirical dataset of 818 timestamped Apple Store in-store pickup restock transitions (810 closed windows with measured sellout durations), local-hour histograms, and 5,259,265 polling latency quantiles across 31 hub stores in the US, UK, China, and Japan.
+version: 1.0.0
+keywords: retail inventory, restock telemetry, time series, in-store pickup, polling latency
+image:
+temporal: 2026-11
+spatial: United States, United Kingdom, China, Japan
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/yangjwlove-dev/apple-store-pickup-restock-dataset/blob/main/DATA_DESCRIPTOR.md
+data_quality: true
+data_dictionary: true
+language: en
+license: CC BY 4.0
+publisher:
+  - name: RestockCheck Open Telemetry Project
+    web: https://zenodo.org/records/24523167
+organization:
+  - name: RestockCheck Open Telemetry Project
+    web: https://dataverse.harvard.edu/dataverse/restockcheck-telemetry
+issued_time: 2026.11
+sources:
+  - name: Zenodo Archival Record (DOI 10.5281/zenodo.24523167)
+    access_url: https://zenodo.org/records/24523167
+  - name: Harvard Dataverse Record (DOI 10.7910/DVN/MZFTCB)
+    access_url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MZFTCB
+references:
+  - title: Technical Data Descriptor (v1.0.0)
+    reference: doi:10.5281/zenodo.24523167
+  - title: Harvard Dataverse Archival Copy
+    reference: doi:10.7910/DVN/MZFTCB
