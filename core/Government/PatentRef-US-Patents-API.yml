@@ -1,0 +1,22 @@
+---
+title: PatentRef US Patents API
+homepage: https://patentref.io/docs/
+category: Government
+description: "PatentsView-compatible API and weekly snapshot for US patent grants since 1976: claims, citations, CPC, claim trees and maintenance-fee status. Free key. Data from PatentsView and the USPTO under CC BY 4.0."
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: CC BY 4.0
+publisher:
+organization:
+issued_time:
+sources: []
