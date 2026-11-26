@@ -1,0 +1,43 @@
+---
+title: Prop firm challenge rules
+homepage: https://github.com/matanalabs/prop-firm-rules
+category: Finance
+description: >
+  Dated, sourced dataset of the published rules of 28 proprietary-trading-firm
+  evaluation ("challenge") programs from 11 firms: profit target per phase,
+  daily loss limit, maximum loss and its drawdown type (static, end-of-day
+  trailing or intraday trailing), best-day (consistency) rule, minimum trading
+  days, time limit and profit split, with dollar amounts for every account
+  size. Each program links to the firm's official rules page and carries a
+  last-checked date. JSON, CSV and a JSON Schema (draft 2020-12) validated in
+  CI. Not affiliated with any of the firms.
+version: '2026-11-21'
+keywords: prop firm, proprietary trading, funded account, evaluation, challenge rules, drawdown, trailing drawdown, daily loss limit, consistency rule, futures, forex
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: Compilation by Matana Labs, CC BY 4.0. Firm and program names are trademarks of their owners.
+accrual_periodicity: irregular (updated when a firm changes its rules)
+specification: https://github.com/matanalabs/prop-firm-rules/blob/main/schema/prop-firm-rules.schema.json
+data_quality: true
+data_dictionary: https://github.com/matanalabs/prop-firm-rules#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Matana Labs
+    web: https://github.com/matanalabs
+organization:
+  - name: Matana Labs
+    web: https://github.com/matanalabs
+issued_time: 2026.11
+sources:
+  - name: prop-firm-rules.json
+    access_url: https://raw.githubusercontent.com/matanalabs/prop-firm-rules/main/data/prop-firm-rules.json
+  - name: prop-firm-rules.csv
+    access_url: https://raw.githubusercontent.com/matanalabs/prop-firm-rules/main/data/prop-firm-rules.csv
+references:
+  - title: JSON Schema
+    reference: https://github.com/matanalabs/prop-firm-rules/blob/main/schema/prop-firm-rules.schema.json
+  - title: Rule update requests (issue template)
+    reference: https://github.com/matanalabs/prop-firm-rules/issues
