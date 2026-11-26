@@ -1,0 +1,35 @@
+---
+title: GPU Cloud Rental Prices and Price Changes
+homepage: https://github.com/Dani-Onil/gpu-cloud-prices
+category: Economics
+description: Weekly snapshots of the on-demand prices that 21 GPU clouds and marketplaces (CoreWeave, Lambda, Nebius, Runpod, Crusoe, Vast.ai and smaller neoclouds) publish for H100, H200, B200, B300 and other GPUs, in US dollars per GPU-hour. Each row keeps the provider's own pricing page as its source and what the price covers (instance size, billing, spot or marketplace). Includes a dated log of list price changes with old price, new price and the date the change applies, and a weekly median index per GPU. CSV and JSON, updated every Monday since November 2026.
+version: 1.0
+keywords: GPU, cloud computing, rental prices, price history, H100, B200, AI infrastructure, neoclouds, time series
+image:
+temporal: 2026-11-09 to present, weekly
+spatial: global (prices in USD as published by providers)
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: weekly
+specification: CSV and JSON
+data_quality: true
+data_dictionary: https://github.com/Dani-Onil/gpu-cloud-prices/blob/main/README.md
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Metacortex Technologies S.L. (bestneoclouds.com)
+    web: https://bestneoclouds.com/
+organization:
+  - name: Metacortex Technologies S.L.
+    web: https://bestneoclouds.com/
+issued_time: 2026.11
+sources:
+  - name: Weekly price history CSV
+    access_url: https://raw.githubusercontent.com/Dani-Onil/gpu-cloud-prices/main/gpu-price-history.csv
+  - name: Price change log CSV
+    access_url: https://raw.githubusercontent.com/Dani-Onil/gpu-cloud-prices/main/gpu-price-changes.csv
+  - name: Current prices JSON
+    access_url: https://raw.githubusercontent.com/Dani-Onil/gpu-cloud-prices/main/gpu-prices.json
+references:
+  - title: Data dictionary and method
+    reference: https://github.com/Dani-Onil/gpu-cloud-prices/blob/main/README.md
