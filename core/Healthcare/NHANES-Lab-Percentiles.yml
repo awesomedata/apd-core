@@ -1,0 +1,33 @@
+---
+title: NHANES Lab Percentiles
+homepage: https://github.com/caraulani/nhanes-lab-percentiles
+category: Healthcare
+description: Survey-weighted percentiles for 479 blood and urine laboratory analytes measured in the US National Health and Nutrition Examination Survey (NHANES), 2011-2012 to August 2021-August 2023. Results by sex and age band, and for adults by race and Hispanic origin, for all examined participants and for a reference subset without common conditions. Each value comes with sample size, sum of weights and share below the limit of detection; the 2.5th, 50th and 97.5th percentiles carry design-based 95% confidence limits. CSV, with the code that produces it.
+version: 1.0.0
+keywords: nhanes, laboratory tests, biomarkers, percentiles, reference intervals, survey statistics, public health
+image:
+temporal: 2011-2023
+spatial: USA
+access_level: public
+copyrights: LifeFrom, Julian Caraulani
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/caraulani/nhanes-lab-percentiles/blob/main/METHODS.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: LifeFrom
+    web: https://lifefrom.ai
+organization:
+  - name: LifeFrom
+    web: https://lifefrom.ai
+issued_time: 2026.11
+sources:
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.24543296
+  - name: NHANES public-use files (NCHS, CDC)
+    access_url: https://wwwn.cdc.gov/nchs/nhanes/
+references:
+  - title: Interactive tables and charts
+    reference: https://lifefrom.ai/research/open-data/population-percentiles
