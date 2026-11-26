@@ -1,0 +1,32 @@
+title: Korean Professional League Standings
+homepage: https://doi.org/10.5281/zenodo.24557150
+category: Sports
+description: League tables for seven South Korean professional leagues (KBO baseball, K League 1 and 2 football, KBL and WKBL basketball, men's and women's V-League volleyball) with English and Korean team names, compiled from published match results. One CSV row per team per table, including the K League 1 Final A and Final B split tables. Archived on Zenodo with a DOI and mirrored on Hugging Face.
+version: 2026-11-26
+keywords: sports, standings, KBO, K League, KBL, WKBL, V-League, South Korea, baseball, football, basketball, volleyball
+image:
+temporal: 2026 and 2026-27 seasons (snapshot 2026-11-26)
+spatial: South Korea
+access_level: public
+copyrights:
+accrual_periodicity: irregular (new snapshot versions)
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/golmun-tv/korean-league-standings
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org/records/24557150
+organization:
+  - name: GOLMUN TV
+    web: https://thesportswave.net/developers
+issued_time: 2026.11
+sources:
+  - name: Zenodo record
+    access_url: https://zenodo.org/records/24557150
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/golmun-tv/korean-league-standings
+references:
+  - title:
+    reference:
