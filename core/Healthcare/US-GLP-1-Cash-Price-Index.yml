@@ -1,0 +1,35 @@
+---
+title: US GLP-1 Cash Price Index (tirzepatide and semaglutide)
+homepage: https://doi.org/10.5281/zenodo.24523119
+category: Healthcare
+description: What US providers charge patients paying cash for the GLP-1 medicines tirzepatide and semaglutide, compounded and brand-name (Zepbound, Mounjaro, Wegovy, Ozempic). One row per provider, product, plan and price, each read on the provider's own web page, with the price exactly as the page states it, the cost per 30 days where the page states a plan length or supply, the plan, any fee billed beside the price (a membership or a visit), the form (injection or tablet), the day it was read and the page's address. The November 2026 edition holds 1,224 prices from 510 providers, read on 24 November 2026. Promotional, first-month and coupon prices are left out. A new edition is published each month and never changed afterwards.
+version: "2026-11"
+keywords: GLP-1, tirzepatide, semaglutide, Zepbound, Wegovy, Ozempic, Mounjaro, compounded medication, drug prices, cash prices, telehealth, price transparency, United States, CSV
+image:
+temporal: Prices read on 24 November 2026 (November 2026 edition); monthly editions from then on
+spatial: United States
+access_level: public
+copyrights: Prices as each provider publishes them on its own website; compiled by GLP1Prices.co
+accrual_periodicity: monthly editions under one concept DOI on Zenodo; the live index is re-read daily
+specification: CSV (UTF-8) with a README defining every column
+data_quality: true
+data_dictionary: https://github.com/founden-bot/glp1-price-index
+language: en
+license: CC BY 4.0
+publisher:
+  - name: GLP1Prices.co
+    web: https://glp1pricesco.founden.co
+organization:
+  - name: GLP1Prices.co
+    web: https://glp1pricesco.founden.co
+issued_time: "2026-11-25"
+sources:
+  - name: Monthly editions on Zenodo (concept DOI, resolves to the newest)
+    access_url: https://doi.org/10.5281/zenodo.24523119
+  - name: November 2026 edition CSV
+    access_url: https://glp1pricesco.founden.co/reports/november-2026/prices.csv
+  - name: Live JSON API (re-read daily)
+    access_url: https://glp1pricesco.founden.co/api/v1/prices?medication=tirzepatide
+references:
+  - title: "GLP-1 Price Index: November 2026 (the report the edition belongs to, with its method and findings)"
+    reference: https://glp1pricesco.founden.co/reports/november-2026
