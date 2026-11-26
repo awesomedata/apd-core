@@ -1,0 +1,20 @@
+---
+title: Australian Food Advertised Prices (Suppliers Net open data)
+homepage: https://github.com/Dragoonhawx/suppliers-net-open-data
+category: Economics
+description: Monthly snapshots of the lowest and highest prices Australian sellers advertise on their own public web pages for everyday foods, in AUD excluding GST per kilogram or per dozen, with the number of listings and sellers behind each span and the dates they were read. Also counts of listed food suppliers by state and category. Spans are not averages or market rates. No single seller's price is included. CSV with a data package description.
+version: 2026.11
+keywords: food prices, Australia, wholesale, advertised prices, suppliers, seafood, meat, produce, AUD
+temporal: 2026-11
+spatial: Australia
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+data_quality: true
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher: [{name: Suppliers Net, web: "https://suppliers.net/"}]
+organization: [{name: Suppliers Net, web: "https://suppliers.net/"}]
+issued_time: 2026.11
+sources: [{name: Staples price history CSV, access_url: "https://github.com/Dragoonhawx/suppliers-net-open-data/blob/main/staples_history.csv"}, {name: Supplier coverage history CSV, access_url: "https://github.com/Dragoonhawx/suppliers-net-open-data/blob/main/coverage_history.csv"}]
+references: [{title: Suppliers Net open data on Kaggle, reference: "https://www.kaggle.com/datasets/gabrieldfoley/suppliers-net-open-data-australian-food-prices"}]
