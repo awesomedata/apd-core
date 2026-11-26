@@ -1,0 +1,35 @@
+---
+title: Published Terms of Medical-Travel Clinics 2026 (warranty, redo, aftercare)
+homepage: https://github.com/BuGa/medtourism-published-terms-2026
+category: Healthcare
+description: >-
+  What 684 clinics in 23 countries that sell treatment to international
+  patients state on their own websites about four terms: warranty, who pays
+  for a redo (revision policy), aftercare after the patient returns home, and
+  the named treating doctor. Observed 21 September to 30 October 2026, from
+  2,740 price observations. Counts of clinics that state, partly state or do
+  not state each term, aggregated by treatment (14 treatments, e.g. dental
+  implants, crowns and veneers, IVF, hair transplant, laser eye surgery) and by
+  country, plus the share of clinics publishing a fixed price. Three small CSV
+  files, direct download, no login.
+version: "2026.10 (corrected 2026.11.02)"
+keywords: medical tourism, health tourism, patient safety, warranty, revision policy, aftercare, dental implants, IVF, price transparency, clinics
+temporal: 2026-09-21 to 2026-10-30
+spatial: 23 countries (Mexico, Spain, Poland, Hungary, Turkey, Thailand, Czech Republic, Colombia, Germany, India, United Arab Emirates, Switzerland and others)
+access_level: public
+accrual_periodicity: one-off snapshot
+specification: CSV
+data_quality: true
+data_dictionary: https://github.com/BuGa/medtourism-published-terms-2026#columns
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: MedTourism Research
+    web: https://medtourism.guide/
+issued_time: "2026.11"
+sources:
+  - name: Clinics' own websites (price, treatment and international-patient pages)
+    access_url: https://medtourism.guide/method/
+references:
+  - title: Study page with method and corrections
+    reference: https://medtourism.guide/research/published-terms-2026/
