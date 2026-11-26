@@ -1,0 +1,31 @@
+---
+title: US National Register of Historic Places Open Data
+homepage: https://github.com/Gobig2026/national-register-open-data
+category: Government
+description: One CSV of 99,881 records from the US National Register of Historic Places (99,845 listed, 36 removed since 22 May 2026). Fields include reference number, name, category, address, county, state, listing date, status, coordinates where public, Wikidata ID and nomination link. Built on National Park Service data. Independent, not affiliated with the National Park Service.
+version:
+keywords: National Register of Historic Places, historic preservation, heritage, United States, NPS, Wikidata
+image:
+temporal: 1966-2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/Gobig2026/national-register-open-data/blob/main/DATA_DICTIONARY.md
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Historic Places Atlas
+    web: https://historicplacesatlas.com
+organization:
+  - name:
+    web:
+issued_time: 2026.11
+sources:
+  - name: National Park Service, National Register of Historic Places
+    access_url: https://www.nps.gov/subjects/nationalregister/database-research.htm
+references:
+  - title:
+    reference:
