@@ -1,0 +1,29 @@
+---
+title: Contractor Website Statistics 2026
+homepage: https://huggingface.co/datasets/zentarai/contractor-website-statistics-2026
+category: Economics
+description: Findings from 2,137 US contractor homepages (HVAC, plumbing, electrical, roofing and other trades) loaded as an iPhone in October 2026. Covers tap-to-call links, contact forms, online booking, chat or text options, license numbers, financing and 24/7 claims, local business schema and website platform shares. Delivered as a CSV with one figure per row, its sample size and the study it came from. Aggregate figures only; no business is named.
+version: 1.0
+keywords: small business, contractors, home services, websites, local SEO, web technology, United States
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://huggingface.co/datasets/zentarai/contractor-website-statistics-2026
+language: en
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Nova Solutions
+    web: https://www.advai.cloud/
+issued_time: 2026.11
+sources:
+  - name: CSV (Hugging Face)
+    access_url: https://huggingface.co/datasets/zentarai/contractor-website-statistics-2026/resolve/main/data.csv
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.24089756
+references:
+  - title: Method and full write-up
+    reference: https://www.advai.cloud/contractor-website-statistics
