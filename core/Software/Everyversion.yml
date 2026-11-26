@@ -1,0 +1,35 @@
+---
+title: Everyversion - Version History, Download Links and Checksums of 442 Desktop Apps
+homepage: https://github.com/cristiangguasch/everyversion
+category: Software
+description: Release history of 442 popular apps for Windows, macOS and Linux, built from the winget-pkgs, Homebrew Cask and Flathub catalogs and some publishers' own release feeds. One JSON record per app lists up to 100 versions per platform, and for each version every installer with its official download URL, file name, architecture and SHA-256 checksum, plus release date, license, publisher and category. Checksums of the latest installers are re-computed by downloading the files, and code signatures and VirusTotal results are recorded. Fields that the sources do not provide are left out rather than guessed. A JSON Schema describes the record format. The data is in the repository and also served as static JSON files with no key or login.
+version: 1.0
+keywords: software, versions, release history, installers, sha-256, checksums, winget, homebrew, flathub, windows, macos, linux, json, open data
+image:
+temporal: current, updated regularly
+spatial: global
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification: https://everyversion.net/schema/app.schema.json
+data_quality: true
+data_dictionary: https://everyversion.net/schema/app.schema.json
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Cristian Gonzalez Guasch
+    web: https://cristianguasch.com/
+organization:
+issued_time: 2026.11
+sources:
+  - name: One JSON record per app (repository folder)
+    access_url: https://github.com/cristiangguasch/everyversion/tree/main/data/apps
+  - name: Index of all apps (JSON)
+    access_url: https://everyversion.net/api/v1/apps.json
+  - name: Categories with their apps (JSON)
+    access_url: https://everyversion.net/api/v1/categories.json
+references:
+  - title: API documentation and examples
+    reference: https://everyversion.net/api/
+  - title: How the data is collected and checked
+    reference: https://github.com/cristiangguasch/everyversion#how-it-works
