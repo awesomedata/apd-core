@@ -1,0 +1,38 @@
+---
+title: AI Signal LLM API Pricing Dataset
+homepage: https://github.com/alvaroluceroo/llm-api-pricing-dataset
+category: Economics
+description: API prices of current large language models as each maker publishes them (85 models from 9 makers as of 2026-11-25; 81 with a per-token price, 4 checked to publish none), one row per model, with input, output and cached-input prices per 1M tokens in USD. Every row carries the maker's page it was read from (sourceUrl) and the day it was last verified (verifiedAt). A separate file logs price changes with their date and source (38 entries as of 2026-11-25, since 2026-09-01). Available as JSON and CSV, mirrored on Hugging Face, with releases archived on Zenodo.
+version: 2026.11.25
+keywords: LLM pricing, AI API pricing, token pricing, model pricing, price changes, open data
+temporal: since 2026-09 (price-change log), regenerated when the published data changes
+spatial: global (USD as published by the makers)
+access_level: public
+copyrights:
+accrual_periodicity: irregular (on each change of the published data)
+specification: https://github.com/alvaroluceroo/llm-api-pricing-dataset#fields-of-modelsjson
+data_quality: true
+data_dictionary: https://github.com/alvaroluceroo/llm-api-pricing-dataset#fields-of-modelsjson
+language: en
+license: CC BY 4.0
+publisher:
+  - name: AI Signal
+    web: https://github.com/alvaroluceroo/llm-api-pricing-dataset
+organization:
+  - name: AI Signal
+    web: https://github.com/alvaroluceroo/llm-api-pricing-dataset
+issued_time: 2026.10
+sources:
+  - name: Model prices JSON (GitHub)
+    access_url: https://raw.githubusercontent.com/alvaroluceroo/llm-api-pricing-dataset/main/models.json
+  - name: Model prices CSV (GitHub)
+    access_url: https://raw.githubusercontent.com/alvaroluceroo/llm-api-pricing-dataset/main/models.csv
+  - name: Price changes JSON (GitHub)
+    access_url: https://raw.githubusercontent.com/alvaroluceroo/llm-api-pricing-dataset/main/price-changes.json
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/alvaroluceroo/llm-api-pricing
+references:
+  - title: Methodology
+    reference: https://aisignalhq.com/methodology/
+  - title: Zenodo DOI (all versions)
+    reference: https://doi.org/10.5281/zenodo.24525641
