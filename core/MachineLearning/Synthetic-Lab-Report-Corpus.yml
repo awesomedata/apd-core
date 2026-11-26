@@ -1,0 +1,35 @@
+---
+title: Synthetic Lab Report Corpus
+homepage: https://huggingface.co/datasets/lifefrom/lab-report-corpus
+category: MachineLearning
+description: 4,000 invented laboratory reports in the formats of six countries and five languages, each rendered as a clean PDF, a scan and a phone photo, with a computed answer key for every printed result (value, unit, reference range, flag) and labelled hard cases such as censored values, unit changes and tables split across pages. For evaluating and training OCR, document AI and LLM systems that read lab reports. No patient data.
+version: 1.0.0
+keywords: document ai, ocr, information extraction, synthetic data, laboratory reports, benchmark, medical documents
+image:
+temporal: 2026
+spatial: USA, UK, Germany, Spain, Romania, France
+access_level: public
+copyrights: LifeFrom, Julian Caraulani
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/caraulani/lab-reading-bench
+language: en, de, es, ro, fr
+license: CC-BY-4.0
+publisher:
+  - name: LifeFrom
+    web: https://lifefrom.ai
+organization:
+  - name: LifeFrom
+    web: https://lifefrom.ai
+issued_time: 2026.11
+sources:
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/lifefrom/lab-report-corpus
+  - name: Generator and benchmark code
+    access_url: https://github.com/caraulani/lab-reading-bench
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.24341108
+references:
+  - title: Corpus page
+    reference: https://lifefrom.ai/research/open-data/report-corpus
