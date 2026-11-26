@@ -1,0 +1,35 @@
+---
+title: AI Story Apps Benchmark 2026
+homepage: https://github.com/ouba-studio/ai-story-apps-benchmark-2026
+category: Entertainment
+description: Open benchmark dataset evaluating 10 consumer interactive fiction and AI story apps on time-to-first-story, free-tier turn wall, ad frames, reply latency, login wall, and 15-turn context memory recall, paired with a companion late-2026 iOS/web alternatives dataset. Includes CSV, JSON, Frictionless Data Package descriptors, and reproducible build scripts.
+version: "2026-11-25"
+keywords: interactive fiction, storytelling, benchmark, ai story apps, narrative, visual novel, evaluation, dataset
+image:
+temporal: 2026-11
+spatial: Global
+access_level: public
+copyrights:
+accrual_periodicity: periodic snapshots
+specification:
+data_quality: false
+data_dictionary: https://github.com/ouba-studio/ai-story-apps-benchmark-2026#schema
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Ouba Studio
+    web: https://www.ouba.art
+organization:
+  - name: Ouba Studio
+    web: https://github.com/ouba-studio
+issued_time: 2026.11.25
+sources:
+  - name: benchmark_results_2026_11_15.csv (10-app stopwatch benchmark)
+    access_url: https://raw.githubusercontent.com/ouba-studio/ai-story-apps-benchmark-2026/main/data/primary-10-app/benchmark_results_2026_11_15.csv
+  - name: Harvard Dataverse permanent archive (DOI 10.7910/DVN/YEBHQR)
+    access_url: https://doi.org/10.7910/DVN/YEBHQR
+  - name: Zenodo archive (DOI 10.5281/zenodo.24511974)
+    access_url: https://doi.org/10.5281/zenodo.24511974
+references:
+  - title: Methodology & Benchmark Report
+    reference: https://www.ouba.art/i-tested-ai-story-apps
