@@ -1,0 +1,33 @@
+---
+title: Official Museum Audio-Guide Languages
+homepage: https://github.com/michaelmirkin/museum-audio-guide-languages
+category: Museums
+description: Which languages the official audio guide of 73 major museums in 15 cities (Paris, Rome, Florence, Vienna, Amsterdam, London, New York, Tokyo, Athens and others) is available in, with partial languages, price, format (rented device or own phone), the museum page each row was read from, and the date it was checked. One CSV row per museum.
+version: 2026-11
+keywords: museums, audio guide, languages, accessibility, tourism, travel
+image:
+temporal: 2026
+spatial: Europe, United States, Japan, Indonesia
+access_level: public
+copyrights:
+accrual_periodicity: when museums change their guides (each row dated)
+specification:
+data_quality: true
+data_dictionary: https://github.com/michaelmirkin/museum-audio-guide-languages#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Tales of Museums
+    web: https://talesof.app/museums/guides/audio-guide-languages
+organization:
+  - name: Tales of Museums
+    web: https://talesof.app/museums
+issued_time: 2026.11
+sources:
+  - name: CSV
+    access_url: https://github.com/michaelmirkin/museum-audio-guide-languages/blob/main/audio-guide-languages.csv
+  - name: Readable table with notes
+    access_url: https://talesof.app/museums/guides/audio-guide-languages
+references:
+  - title:
+    reference:
