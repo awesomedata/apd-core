@@ -1,0 +1,31 @@
+---
+title: Open Anatomy Quiz Sets
+homepage: https://github.com/AnthonyTuil/open-anatomy-quiz-sets
+category: Education
+description: "JSON and CSV records of 254 human anatomy structures (136 muscles, 96 bones, 22 organs) used in anatomy courses: English name, Latin name from Terminologia Anatomica 2 where available, kind, layer, muscle actions, a one-line summary, and the study themes and difficulty levels each structure belongs to. A second file groups them into 17 regional themes (shoulder, hand, thorax, skeleton...) with three levels and named groups such as the rotator cuff. Useful for flashcards, quizzes and lab practical checklists. No 3D models. CC BY-SA 4.0."
+version: 1.0.0
+keywords: anatomy, human anatomy, muscles, bones, terminologia anatomica, medical education, flashcards, quiz
+image:
+temporal: 2026
+spatial: Global
+access_level: public
+copyrights: Anatomy Atlas 3D
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/AnthonyTuil/open-anatomy-quiz-sets#files
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: Anatomy Atlas 3D
+    web: https://anatomyatlas3d.app/
+organization:
+  - name: Anatomy Atlas 3D
+    web: https://anatomyatlas3d.app/
+issued_time: 2026.11
+sources:
+  - name: Terminologia Anatomica 2 names; summaries checked against Z-Anatomy (CC BY-SA 4.0) and OpenStax Anatomy and Physiology
+    access_url: https://github.com/AnthonyTuil/open-anatomy-quiz-sets
+references:
+  - title:
+    reference:
