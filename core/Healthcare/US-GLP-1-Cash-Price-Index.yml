@@ -18,18 +18,18 @@ language: en
 license: CC BY 4.0
 publisher:
   - name: GLP1Prices.co
-    web: https://glp1pricesco.founden.co
+    web: https://glp1prices.co
 organization:
   - name: GLP1Prices.co
-    web: https://glp1pricesco.founden.co
+    web: https://glp1prices.co
 issued_time: "2026-11-25"
 sources:
   - name: Monthly editions on Zenodo (concept DOI, resolves to the newest)
     access_url: https://doi.org/10.5281/zenodo.24523119
   - name: November 2026 edition CSV
-    access_url: https://glp1pricesco.founden.co/reports/november-2026/prices.csv
+    access_url: https://glp1prices.co/reports/november-2026/prices.csv
   - name: Live JSON API (re-read daily)
-    access_url: https://glp1pricesco.founden.co/api/v1/prices?medication=tirzepatide
+    access_url: https://glp1prices.co/api/v1/prices?medication=tirzepatide
 references:
   - title: "GLP-1 Price Index: November 2026 (the report the edition belongs to, with its method and findings)"
-    reference: https://glp1pricesco.founden.co/reports/november-2026
+    reference: https://glp1prices.co/reports/november-2026
