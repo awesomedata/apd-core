@@ -1,0 +1,28 @@
+---
+title: US Open Federal Grants (Grants.gov snapshot)
+homepage: https://huggingface.co/datasets/Publicrecords/us-open-federal-grants
+category: Government
+description: All 787 open (posted) US federal grant opportunities on Grants.gov on 2026-11-24 - id, number, title, agency, open and close dates, Assistance Listing numbers and links. Read from the public Grants.gov search2 API.
+version: 2026-11-24
+keywords: grants, federal grants, Grants.gov, funding opportunities, NIH, NSF
+temporal: 2026
+spatial: United States
+access_level: public
+data_quality: true
+language: en
+license: CC0 1.0
+publisher:
+  - name: Public Records
+    web: https://apify.com/publicrecords
+organization:
+  - name: Public Records
+    web: https://apify.com/publicrecords
+issued_time: 2026-11-24
+sources:
+  - name: CSV snapshot (Hugging Face)
+    access_url: https://huggingface.co/datasets/Publicrecords/us-open-federal-grants
+  - name: CSV snapshot (GitHub)
+    access_url: https://github.com/GeminiGeorge22/us-public-data-snapshots/tree/master/us-federal-grants-open
+references:
+  - title: Fresh daily feed (Apify Actor)
+    reference: https://apify.com/publicrecords/grants-gov-scraper

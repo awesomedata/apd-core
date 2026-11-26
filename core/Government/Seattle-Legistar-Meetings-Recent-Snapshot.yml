@@ -1,0 +1,28 @@
+---
+title: Recent Seattle City Council meetings (Legistar snapshot)
+homepage: https://huggingface.co/datasets/Publicrecords/legistar-seattle-meetings-recent
+category: Government
+description: 40 recent Seattle legislative events read 2026-11-24 from the official Legistar API - event id, date, time, body, agenda status, location, minutes status and source URL. Released under CC0.
+version: 2026-11-24
+keywords: Legistar, Seattle, city council, meetings, agendas, public records
+temporal: 2026
+spatial: Seattle, Washington, United States
+access_level: public
+data_quality: true
+language: en
+license: CC0 1.0
+publisher:
+  - name: Public Records
+    web: https://huggingface.co/Publicrecords
+organization:
+  - name: City of Seattle (Legistar)
+    web: https://seattle.legistar.com/
+issued_time: 2026-11-24
+sources:
+  - name: CSV snapshot (Hugging Face)
+    access_url: https://huggingface.co/datasets/Publicrecords/legistar-seattle-meetings-recent
+  - name: Official Legistar API
+    access_url: https://webapi.legistar.com/v1/seattle/Events
+references:
+  - title: Fresh feed for any Legistar city (Apify Actor)
+    reference: https://apify.com/publicrecords/legistar-meetings-scraper
