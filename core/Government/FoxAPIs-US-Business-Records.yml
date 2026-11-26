@@ -1,0 +1,10 @@
+---
+title: US Business Records (Form D raises, WARN layoff notices, 8-K officer changes, SBIR awards)
+homepage: https://github.com/OsakaSaul/foxapis-datasets
+category: Government
+description: Four datasets compiled weekly from US government records (SEC Form D notices, state WARN layoff notices, officer and director changes reported on SEC Form 8-K, and SBIR and STTR awards without recipient names). Each is a CSV and Parquet file for the last 12 months and the last 7 days.
+keywords: SEC, Form D, WARN, layoffs, 8-K, SBIR, STTR, United States
+access_level: public
+accrual_periodicity: weekly
+language: en
+license: CC BY 4.0 for the compilation; the underlying government records keep their sources' terms
