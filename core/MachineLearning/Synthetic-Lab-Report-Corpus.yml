@@ -3,7 +3,7 @@ title: Synthetic Lab Report Corpus
 homepage: https://huggingface.co/datasets/lifefrom/lab-report-corpus
 category: MachineLearning
 description: 4,000 invented laboratory reports in the formats of six countries and five languages, each rendered as a clean PDF, a scan and a phone photo, with a computed answer key for every printed result (value, unit, reference range, flag) and labelled hard cases such as censored values, unit changes and tables split across pages. For evaluating and training OCR, document AI and LLM systems that read lab reports. No patient data.
-version: 0.5.0
+version: 1.0.0
 keywords: document ai, ocr, information extraction, synthetic data, laboratory reports, benchmark, medical documents
 image:
 temporal: 2026
