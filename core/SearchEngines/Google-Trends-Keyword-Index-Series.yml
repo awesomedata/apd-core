@@ -1,0 +1,27 @@
+---
+title: Google Trends Keyword Index Series (US, 53 weeks + related queries)
+homepage: https://keywordtrendsguide.com/data/
+category: SearchEngines
+description: Weekly Google Trends normalised index (0-100) for "keyword trends", US, 53 weeks, plus 87 top and rising related queries across four seed terms; served as raw CSV with the reproducible pull script, partial weeks flagged
+version:
+keywords:
+  - google-trends
+  - search-interest
+  - keyword-research
+  - seo
+  - time-series
+image:
+temporal: 2025-11-23/2026-11-22
+spatial: US
+access_level: open
+copyrights:
+accrual_periodicity: weekly
+specification:
+data_quality: false
+data_dictionary: https://keywordtrendsguide.com/data/README.md
+language: en
+license:
+publisher:
+organization:
+issued_time: 2026-11-26
+sources: []
