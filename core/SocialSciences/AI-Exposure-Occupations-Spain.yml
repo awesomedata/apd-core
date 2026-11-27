@@ -1,0 +1,37 @@
+---
+title: AI Exposure by Occupation in Spain (ocupacionesia.com)
+homepage: https://ocupacionesia.com/fuentes/#descargas
+category: SocialSciences
+description: >-
+  Open dataset scoring 502 Spanish occupations (CNO-11, mapped to ISCO-08) by
+  exposure to generative AI. It combines the ILO global exposure index, usage
+  data from the Anthropic Economic Index and employment from the INE Labour
+  Force Survey (EPA, 2011-2025). Task descriptions are translated to Spanish.
+  Three CSV files: occupations with exposure scores, ILO tasks with scores,
+  and employment by occupational subgroup.
+version: 2026-11
+keywords: artificial intelligence, generative AI, labour market, occupations, employment, Spain, ILO, CNO-11, ISCO-08
+temporal: 2011-2025
+spatial: Spain
+access_level: public
+copyrights: CC BY 4.0 (cite ocupacionesia.com and the original sources INE, ILO and Anthropic Economic Index)
+accrual_periodicity: quarterly
+specification: https://ocupacionesia.com/fuentes/
+data_quality: true
+data_dictionary: https://ocupacionesia.com/fuentes/
+language: es
+license: CC BY 4.0
+publisher:
+  - name: Lluís Ridao
+    web: https://lluisridao.com/
+organization:
+  - name: ocupacionesia.com
+    web: https://ocupacionesia.com/
+issued_time: 2026.11
+sources:
+  - name: Occupations with AI exposure scores (CSV)
+    access_url: https://ocupacionesia.com/wp-content/uploads/2026/11/ocupacionesia-ocupaciones-2026.csv
+  - name: ILO tasks translated to Spanish with exposure scores (CSV)
+    access_url: https://ocupacionesia.com/wp-content/uploads/2026/11/ocupacionesia-tareas-oit-es.csv
+  - name: Employment by occupational subgroup, EPA 2011-2025 (CSV)
+    access_url: https://ocupacionesia.com/wp-content/uploads/2026/11/ocupacionesia-empleo-epa-subgrupos.csv
