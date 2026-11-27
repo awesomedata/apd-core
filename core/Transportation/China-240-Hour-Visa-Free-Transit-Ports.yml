@@ -1,0 +1,33 @@
+---
+title: China 240-Hour Visa-Free Transit Nationalities, 65 Entry Ports & 30-Day Entry Exemption Datasets
+homepage: https://doi.org/10.5281/zenodo.24612164
+category: Transportation
+description: CC BY 4.0 UTF-8 CSV tables compiled from official Chinese National Immigration Administration (NIA), Ministry of Foreign Affairs (MFA), and municipal metro notices (checked Oct–Nov 2026). Includes 57 eligible nationalities and 65 designated entry ports across 24 provincial-level regions for China's 240-hour visa-free transit policy (with 6 partial-province stay-area boundaries), 50 countries under the 30-day unilateral entry exemption with 2026-12-31 expiry notes, and 8-city metro contactless card and QR payment support. Archived on Zenodo with DOI and mirrored on GitHub at https://github.com/hongcsd/china-travel-open-data.
+version: "2026.11"
+keywords: china,visa-free-transit,240-hour-transit,ports,border-crossing,metro-payments,transportation,open-data
+image:
+temporal: 2026-10/2026-11
+spatial: China
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: true
+data_dictionary: https://github.com/hongcsd/china-travel-open-data
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: Zenodo
+    web: https://zenodo.org
+organization:
+  - name: PandaWander Editorial Team
+    web: https://pandawander.com/data/
+issued_time: "2026-11-27"
+sources:
+  - name: National Immigration Administration (NIA)
+    access_url: https://en.nia.gov.cn/
+  - name: Ministry of Foreign Affairs of the People's Republic of China (MFA)
+    access_url: https://cs.mfa.gov.cn/
+references:
+  - title: Zenodo Archival Record (DOI 10.5281/zenodo.24612164)
+    reference: https://zenodo.org/records/24612164
