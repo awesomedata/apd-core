@@ -1,0 +1,26 @@
+---
+title: WattAnalysis China Energy Open Data
+homepage: https://github.com/guanlan119123-tech/wattanalysis-open-data
+category: Energy
+description: A public snapshot of China energy data compiled by WattAnalysis from primary sources, in 235 single-series CSV/JSON files with a data dictionary. It covers NEA industry statistics (installed capacity and generation by source, utilisation hours, grid and power investment, electricity consumption by sector), customs trade series for coal, gas, LNG and battery cells, 63 energy policy documents with 59 tracked measures, aggregated energy-storage tender series, and cross-source composite price series for cells and lithium carbonate. Statistical calibers are never spliced (NBS above-scale, NEA full-caliber and Customs full-coverage are kept as separate series; conflicting source values are recorded in parallel). The frozen November 2026 snapshot is archived on Zenodo under DOI 10.5281/zenodo.24519660; the live API at wattanalysis.com/data is updated monthly.
+version: 2026.11
+keywords: China, energy statistics, electricity, energy storage, tenders, policy documents, NEA, open data
+image:
+temporal:
+spatial: China
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification: https://doi.org/10.5281/zenodo.24519660
+data_quality: false
+data_dictionary: https://github.com/guanlan119123-tech/wattanalysis-open-data/blob/main/DATA-DICTIONARY.md
+language: en
+license: CC BY-NC 4.0
+publisher:
+  - name: WattAnalysis
+    web: https://wattanalysis.com
+organization:
+  - name: WattAnalysis
+    web: https://wattanalysis.com
+issued_time: 2026.11
+sources: []
