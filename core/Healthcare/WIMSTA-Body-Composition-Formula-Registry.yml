@@ -1,0 +1,36 @@
+title: WIMSTA Body-Composition Formula Registry
+homepage: https://wimsta.com/registry/
+category: Healthcare
+description: A machine-readable registry of 26 published body-composition and energy-expenditure formulas - body fat (Deurenberg, CUN-BAE, US Navy, RFM, Covert Bailey, Gallagher ranges), BMI (WHO, Trefethen), waist-to-height ratio (Ashwell), maximum heart rate (Tanaka, Gulati, Fox, Nes, Londeree and Moeschberger, Inbar), basal metabolic rate (Mifflin-St Jeor, Harris-Benedict 1919 and 1984 revision, Katch-McArdle), ideal body weight (Devine, Robinson, Miller, Peterson) and body surface area (Mosteller, Du Bois, Haycock). Each record gives the equation, coefficients, units, input ranges, sex coding, the derivation sample, reported error, limitations and the primary source, with notes on how the coefficients were verified against the original publication. One JSON file, open CORS, no authentication. Archived on Zenodo (DOI 10.5281/zenodo.24588774), with test vectors and npm/PyPI packages (wimsta-formulas).
+version: 2026.11.27.1
+keywords: body composition, body fat, bmi, basal metabolic rate, max heart rate, ideal body weight, body surface area, anthropometry, equations, coefficients
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: WIMSTA
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/getwimsta/formulas/blob/main/data/DATA_DICTIONARY.md
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: WIMSTA
+    web: https://wimsta.com
+organization:
+  - name: WIMSTA
+    web: https://wimsta.com
+issued_time: 2026.08
+sources:
+  - name: JSON download
+    access_url: https://wimsta.com/api/registry.json
+  - name: Zenodo archive (DOI 10.5281/zenodo.24588774)
+    access_url: https://doi.org/10.5281/zenodo.24588774
+  - name: GitHub repository (data, test vectors)
+    access_url: https://github.com/getwimsta/formulas
+references:
+  - title: How WIMSTA calculates (methodology)
+    reference: https://wimsta.com/method/
+  - title: How to cite (DOI)
+    reference: https://wimsta.com/registry/#how-to-cite
