@@ -1,0 +1,29 @@
+---
+title: Official Phone Numbers for Calling Home from Abroad
+homepage: https://github.com/founden-bot/calling-home-from-abroad
+category: Government
+description: The phone numbers that government agencies (tax offices, pension and benefits services, immigration, consulates), banks and airlines in 89 countries publish for people calling from outside the country, because their domestic hotlines (short codes, 0800 and 1-800 numbers) usually do not connect from abroad. 998 lines, each with the organisation, what the line is for, the number as published and in E.164 form, the published hours and their time zone, a note for callers abroad, the source page on the organisation's own website and the date it was read. CSV and JSON, archived on Zenodo with a DOI.
+version: 2026-11-27
+keywords: phone numbers, government services, expats, citizens abroad, banks, customer service, international calling
+image:
+temporal:
+spatial: 89 countries
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/founden-bot/calling-home-from-abroad#calling-home-from-abroad-official-phone-numbers
+language: en
+license: CC BY 4.0
+publisher:
+  - name: InternationalCall.co
+    web: https://internationalcall.co/call/from-abroad
+organization:
+issued_time: 2026.11
+sources:
+  - name: The organisations' own websites (one source URL per record)
+    access_url: https://github.com/founden-bot/calling-home-from-abroad
+  - name: Zenodo archive (DOI 10.5281/zenodo.24369439)
+    access_url: https://doi.org/10.5281/zenodo.24369439
+references:

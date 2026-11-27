@@ -1,0 +1,29 @@
+---
+title: International Dialing Codes and Trunk Prefix Rules
+homepage: https://github.com/founden-bot/international-dialing-codes
+category: ComputerNetworks
+description: How to dial each of 241 countries and territories from abroad. For every destination, the international calling code, what happens to the national trunk prefix (dropped, kept or absent, and whether the rule applies to all numbers), the rule in one sentence, and a real example number in both its local and international form. Derived from libphonenumber metadata and checked against national numbering plans where the two disagree. Available as CSV and JSON, archived on Zenodo with a DOI.
+version: 2026-11-27
+keywords: telephony, phone numbers, country calling codes, E.164, trunk prefix, international dialing, libphonenumber
+image:
+temporal:
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/founden-bot/international-dialing-codes#international-dialing-codes
+language: en
+license: CC BY 4.0
+publisher:
+  - name: InternationalCall.co
+    web: https://internationalcall.co/call/international-dialing-codes
+organization:
+issued_time: 2026.10
+sources:
+  - name: libphonenumber
+    access_url: https://github.com/google/libphonenumber
+  - name: Zenodo archive (DOI 10.5281/zenodo.23105930)
+    access_url: https://doi.org/10.5281/zenodo.23105930
+references:
