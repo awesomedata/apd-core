@@ -1,0 +1,36 @@
+---
+title: Türkiye Home Services Price Index (Usta Pazarı)
+homepage: https://doi.org/10.5281/zenodo.24599356
+category: Economics
+description: Estimated price ranges and median winning-quote prices for 60 home and business service categories in Türkiye (moving, painting, cleaning, electrical work, gas installation, boiler service, flooring, tiling, renovation and more), in Turkish lira. Each range belongs to a stated sample job and comes from the Usta Pazarı price calculator; medians are computed from publicly posted sample jobs and are given only where at least 15 samples exist. Updated monthly; CSV and JSON, archived on Zenodo with a DOI.
+version: 2026.11
+keywords: prices, price index, home services, service prices, Türkiye, Turkey, consumer prices, open data, economics
+temporal: 2025-2026
+spatial: Türkiye
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/ustapazari/turkiye-hizmet-fiyat-endeksi/blob/main/README.md
+language: tr
+license: https://creativecommons.org/licenses/by/4.0/
+publisher:
+  - name: Usta Pazarı
+    web: https://ustapazari.com/
+organization:
+  - name: Usta Pazarı
+    web: https://ustapazari.com/
+issued_time: 2026.11
+sources:
+  - name: Price index CSV (November 2026)
+    access_url: https://raw.githubusercontent.com/ustapazari/turkiye-hizmet-fiyat-endeksi/main/veri/hizmet-fiyat-endeksi-2026-11.csv
+  - name: Price index JSON (November 2026)
+    access_url: https://raw.githubusercontent.com/ustapazari/turkiye-hizmet-fiyat-endeksi/main/veri/hizmet-fiyat-endeksi-2026-11.json
+references:
+  - title: GitHub repository
+    reference: https://github.com/ustapazari/turkiye-hizmet-fiyat-endeksi
+  - title: Hugging Face dataset
+    reference: https://huggingface.co/datasets/ustapazari/turkiye-hizmet-fiyat-endeksi
+  - title: Zenodo deposit (DOI 10.5281/zenodo.24599356)
+    reference: https://doi.org/10.5281/zenodo.24599356
