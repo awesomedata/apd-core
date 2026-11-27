@@ -1,0 +1,35 @@
+---
+title: US Prescription Peptide and NAD+ Prices by Online Clinic
+homepage: https://doi.org/10.5281/zenodo.24281285
+category: Healthcare
+description: What US online clinics charge for prescribed peptides and NAD+ (BPC-157, sermorelin, NAD+, GHK-Cu, tesamorelin, CJC-1295, ipamorelin, TB-500, MOTS-c, PT-141, glutathione, semax, selank, epitalon and others) and peptide stacks. One row per clinic, product and price, each read on the clinic's own web page, with the price exactly as the page states it, what it comes to per 30 days and how that was worked out, the form (injection, nasal spray, cream, tablet), plan length, members-only and first-month flags, any fee charged beside the price, whether an HSA or FSA card works, and the day it was read. About 2,400 prices from 460 clinics across 25 compounds and 5 stacks, with companion tables of each compound's FDA standing (approval and 503A compounding category, quoted from FDA pages) and research counts (PubMed, ClinicalTrials.gov, FDA adverse event reports, recalls and warning letters). Products sold "for research use only" are left out.
+version: "2026-11"
+keywords: peptides, NAD+, BPC-157, sermorelin, GHK-Cu, tesamorelin, compounded medication, drug prices, telehealth, price transparency, FDA, United States, CSV
+image:
+temporal: Prices read from 14 November 2026; the snapshot is refreshed weekly
+spatial: United States
+access_level: public
+copyrights: Prices as each clinic publishes them on its own website; compiled by PeptideCompare.co
+accrual_periodicity: weekly snapshot on GitHub and Hugging Face, dated versions on Zenodo; the live figures are checked daily
+specification: CSV (UTF-8) with a README defining every column
+data_quality: true
+data_dictionary: https://github.com/founden-bot/us-peptide-prices
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PeptideCompare.co
+    web: https://peptidecompare.co
+organization:
+  - name: PeptideCompare.co
+    web: https://peptidecompare.co
+issued_time: "2026-11-16"
+sources:
+  - name: Dated versions on Zenodo (concept DOI, resolves to the newest)
+    access_url: https://doi.org/10.5281/zenodo.24281285
+  - name: Weekly CSV snapshot (GitHub)
+    access_url: https://github.com/founden-bot/us-peptide-prices/tree/main/data
+  - name: Live JSON API
+    access_url: https://peptidecompare.co/api/v1/prices?compound=nad-plus
+references:
+  - title: "What US online clinics charge for prescribed peptide and NAD+ therapies: a snapshot of 461 clinics, November 2026"
+    reference: https://doi.org/10.5281/zenodo.24367452
