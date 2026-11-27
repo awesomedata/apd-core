@@ -1,0 +1,33 @@
+---
+title: Charitology Global Charity Index & Public Funding Flows
+homepage: https://github.com/theguysaccount/charitology
+category: SocialSciences
+description: Open-source dataset compiling 3,338,544 dated official charity and nonprofit registration records across 31 national/sub-national jurisdictions on five continents (including US IRS EO BMF, UK Charity Commission/OSCR/CCNI, Canada CRA, Australia ACNC, New Zealand, France RNA, Germany, Italy 5 per mille, Poland, Slovakia, Hungary, Slovenia, Croatia, Austria, Norway, Denmark, Sweden, Finland, Colombia, Hong Kong, Japan, India, South Africa, and more), plus 48 public funding-flow datasets (5-country European percentage tax-assignment observatory, EU Transparency Register civil-society grants, UN OCHA FTS humanitarian funding gaps, and OpenFEMA disaster captures). Preserves original legal forms, native currencies, explicit null vs. zero missingness, verbatim data-anomaly ledgers, and SHA-256 provenance manifests. Static JSON and CSV endpoints available with zero authentication.
+version: 2026.11
+keywords: charity, nonprofit, philanthropy, civil society, charity registries, open government, funding flows, grants, tax assignment, IRS 990, EU Transparency Register, humanitarian aid.
+image: https://raw.githubusercontent.com/theguysaccount/charitology/main/docs/screenshots/global-charity-index.png
+temporal: 2016-2026
+spatial: Global (31 jurisdictions across 5 continents)
+access_level: public
+copyrights: Original public registry records retain their respective government/regulator attribution and reuse terms; Charitology schemas and compilations are CC BY 4.0.
+accrual_periodicity: irregular
+specification: https://github.com/theguysaccount/charitology#whats-here
+data_quality: false
+data_dictionary: https://charitology.com/api/v1/charity-index.json
+language: en
+license: CC BY 4.0 (content/compilations), MIT (code); underlying official registry extracts preserve source licenses
+publisher:
+  - name: Charitology
+    web: https://github.com/theguysaccount/charitology
+organization:
+  - name: Charitology (Open Project)
+    web: https://charitology.com/
+issued_time: 2026.11
+sources:
+  - name: Global Charity Index Catalog JSON (31 jurisdictions, 3,338,544 records)
+    access_url: https://charitology.com/api/v1/charity-index.json
+  - name: Public Funding Flows Catalog JSON (48 datasets)
+    access_url: https://charitology.com/api/v1/funding-flows.json
+references:
+  - title: Charitology Public API Index (42 static JSON endpoints)
+    reference: https://charitology.com/api/v1/index.json
