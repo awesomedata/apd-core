@@ -1,0 +1,28 @@
+---
+title: World Airport Database - ready-to-query airport data (SQLite + CSV + JSON)
+homepage: https://github.com/Loggableim/world-airports-db
+category: Transportation
+description: Ready-to-query airport database repackaged from daily OurAirports dumps. Single indexed SQLite file with a flat airports_searchable table (86,389 rows - ICAO/IATA/GPS codes, name, type, municipality, ISO and human-readable region/country, coordinates, elevation, runway count, frequency count, longest runway) plus country/region rollups; flat CSV (~12 MB) and an 8,799-airport IATA-subset as JSON/CSV for travel-app search. Monthly releases, fixed filenames, sha256 checksums, 9-point verification suite per release. Public domain (CC0), no attribution required.
+version: v2026.11
+keywords:
+  - airports
+  - aviation
+  - geospatial
+  - sqlite
+  - open data
+image:
+temporal:
+spatial: Global
+access_level: public
+copyrights: Public Domain
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/Loggableim/world-airports-db/blob/main/README.md
+language:
+license: Public Domain
+publisher: World Airport Database (packaging layer over OurAirports data)
+organization:
+issued_time:
+sources:
+  - https://davidmegginson.github.io/ourairports-data/
