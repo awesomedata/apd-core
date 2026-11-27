@@ -1,0 +1,19 @@
+---
+title: S&P 500 Drawdowns of 10% or More Since 1927
+homepage: https://www.kaggle.com/datasets/trifectasignals/sp-500-drawdowns-since-1927
+category: Finance
+description: Every S&P 500 drawdown episode of 10% or more from 1927 onward, plus the index's full daily underwater series. The episode table (27 episodes) gives the peak date, trough date, depth and recovery date of each fall of 10% or more, from the 1929-32 crash (-86.2%, recovered September 1954) to the current open episode. The daily file holds 24,844 closes from December 30, 1927 onward, each with the index's percentage below its running peak. Two CSV files; the dataset page documents the columns and the episode method.
+version: '1.0'
+keywords: S&P 500, drawdowns, bear markets, stock market history, underwater series, market crashes, SPX
+temporal: 1927-2026
+spatial: United States
+access_level: public
+language: en
+license: CC BY 4.0
+publisher:
+- name: Trifecta Signals
+  web: https://trifectasignals.com/
+organization:
+- name: Trifecta Signals
+  web: https://trifectasignals.com/
+issued_time: '2026.11'
