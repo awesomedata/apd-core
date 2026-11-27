@@ -1,0 +1,31 @@
+---
+title: Age Verification Laws for Adult Websites
+homepage: https://github.com/pornsleuth/age-verification-laws
+category: Government
+description: Which countries and US states require adult websites to check visitors' age, prohibit adult sites, or have a law passed but not yet in force. One row per place (50 US states and 62 countries) with status, law name, effective date and a source link.
+version: 2026-11-11
+keywords: age verification, online safety, legislation, regulation, US states, countries
+image:
+temporal:
+spatial: 50 US states, 62 countries
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/pornsleuth/age-verification-laws#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: PornSleuth
+    web: https://github.com/pornsleuth
+organization:
+  - name: PornSleuth
+    web: https://github.com/pornsleuth
+issued_time: 2026.11
+sources:
+  - name: CSV
+    access_url: https://github.com/pornsleuth/age-verification-laws/blob/main/age-verification-laws.csv
+references:
+  - title:
+    reference:
