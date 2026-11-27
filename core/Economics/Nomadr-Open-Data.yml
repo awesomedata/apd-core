@@ -1,0 +1,33 @@
+---
+title: Nomadr Open Data (338 Places for Digital Nomads)
+homepage: https://github.com/GetNomadr/nomadr-open-data
+category: Economics
+description: Free download of Nomadr's headline facts for every place we cover. 338 places, 35 fields, CSV and JSON.
+version: v2026.11.26
+keywords: digital nomads, cost of living, visas, safety, remote work
+image:
+temporal:
+spatial: Worldwide
+access_level: public
+copyrights: Nomadr (getnomadr.com)
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/GetNomadr/nomadr-open-data#fields
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Nomadr
+    web: https://getnomadr.com
+organization:
+  - name: Nomadr
+    web: https://getnomadr.com
+issued_time: 2026.11
+sources:
+  - name: Zenodo
+    access_url: https://doi.org/10.5281/zenodo.24550778
+  - name: Hugging Face
+    access_url: https://huggingface.co/datasets/nomadr/nomadr-open-data
+references:
+  - title:
+    reference:
