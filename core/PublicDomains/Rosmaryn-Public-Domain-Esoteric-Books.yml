@@ -1,0 +1,22 @@
+---
+title: Rosmaryn public domain esoteric books
+homepage: https://library.rosmaryn.app/donnees/
+category: PublicDomains
+description: 3,296 public domain books and open access articles on esotericism, astrology, alchemy and related subjects, in 33 languages, presented by Rosmaryn Library. CSV and JSON.
+version:
+keywords: public domain, books, esotericism, astrology, alchemy
+image:
+temporal:
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language: multilingual
+license: CC BY 4.0
+publisher: Rosmaryn
+organization: Rosmaryn
+issued_time:
+sources: []
