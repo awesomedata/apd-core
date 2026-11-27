@@ -1,0 +1,22 @@
+---
+title: PatentRef US Patent Snapshot (SQLite)
+homepage: https://doi.org/10.5281/zenodo.23250455
+category: Government
+description: "SQLite snapshot of US patent grants since 1976, the same files the PatentRef API serves: patents, claims, citations, CPC, inventors, assignees and maintenance-fee status. Plain HTTPS download with no account or key; file list, sizes and SHA-256 on Zenodo. Data from PatentsView and the USPTO under CC BY 4.0."
+version:
+keywords:
+image:
+temporal:
+spatial:
+access_level:
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary:
+language:
+license: CC BY 4.0
+publisher:
+organization:
+issued_time:
+sources: []
