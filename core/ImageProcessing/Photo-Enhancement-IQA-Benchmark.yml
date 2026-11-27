@@ -1,0 +1,37 @@
+---
+title: Open Image Enhancement, Deblurring & Pixel-Art Scaling Baseline Dataset
+homepage: https://github.com/yangjwlove-dev/photo-enhancement-iqa-benchmark
+category: ImageProcessing
+description: A reproducible CC BY 4.0 open baseline dataset and objective Image Quality Assessment (IQA) suite of 40 CC0/Public Domain paired before/after images across 6 restoration and scaling tasks (old photo denoising, 2x/4x upscaling, Gaussian/JPEG deblurring, historical text clarity, and 4x RGBA pixel-art scaling), generated with deterministic local open-source algorithms (OpenCV, Pillow, scikit-image, NumPy) with SHA-256 checksums and full provenance.
+version: 1.0.0
+keywords: image quality assessment, super-resolution, deblurring, denoising, pixel art, image restoration, public domain, benchmark
+image:
+temporal: 2026-11
+spatial: Global
+access_level: public
+copyrights: CC BY 4.0
+accrual_periodicity: irregular
+specification: https://github.com/yangjwlove-dev/photo-enhancement-iqa-benchmark/blob/main/DATA_DESCRIPTOR.md
+data_quality: true
+data_dictionary: true
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Open IQA Benchmarks
+    web: https://zenodo.org/records/24531976
+organization:
+  - name: Open IQA Benchmarks
+    web: https://dataverse.harvard.edu/dataverse/open-iqa-benchmarks
+issued_time: 2026.11
+sources:
+  - name: Zenodo Archival Record (DOI 10.5281/zenodo.24531976)
+    access_url: https://zenodo.org/records/24531976
+  - name: Harvard Dataverse Record (DOI 10.7910/DVN/WY4TAA)
+    access_url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WY4TAA
+  - name: GitHub Repository (v1.0.0)
+    access_url: https://github.com/yangjwlove-dev/photo-enhancement-iqa-benchmark/releases/tag/v1.0.0
+references:
+  - title: Technical Data Descriptor (v1.0.0)
+    reference: doi:10.5281/zenodo.24531976
+  - title: Harvard Dataverse Archival Copy
+    reference: doi:10.7910/DVN/WY4TAA
