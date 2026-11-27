@@ -1,0 +1,34 @@
+---
+title: US Online Menopause Treatment Prices
+homepage: https://menocost.com/data
+category: Healthcare
+description: What US online menopause services charge for menopause hormone therapy (estradiol as a patch, gel, spray, pill or vaginal product, progesterone, combined products, compounded hormones, testosterone for women) and for the non-hormonal hot flash prescriptions (Veozah, Lynkuet, low-dose paroxetine), one row per price at about 75 services. Every price is read on the selling service's own page, in its own words, with the page it was read on, the day it was read and the last day a daily check still found it there; facts a page does not state are left empty. Each row gives the price for 30 days, any membership charged on top, what starting costs, and whether the service says it bills insurance or takes HSA and FSA cards. Companion tables give what US pharmacies pay per unit for the same medicines week by week (CMS NADAC), what Medicaid and Medicare drug plans paid by state (CMS), FDA label status (DailyMed) and the medicines on seven insurers' own drug lists.
+version: "2026-11-26"
+keywords: menopause, hormone therapy, HRT, estradiol, progesterone, Veozah, telehealth, price transparency, healthcare prices, self-pay, NADAC, Medicaid, Medicare Part D, United States, CSV
+image:
+temporal: Prices read from November 2026 on, re-checked daily; pharmacy costs weekly from January 2026
+spatial: United States
+access_level: public
+copyrights: Prices as each service publishes them on its own website; CMS and FDA tables are US Government works (public domain)
+accrual_periodicity: daily (prices re-checked every day and re-read at least every 30 days); CMS tables weekly and monthly
+specification: CSV (UTF-8) and JSON with a column guide; README defining every field
+data_quality: true
+data_dictionary: https://github.com/founden-bot/us-menopause-treatment-prices#columns-of-the-price-file
+language: en
+license: CC BY 4.0
+publisher:
+  - name: MenoCost.com
+    web: https://menocost.com
+organization:
+  - name: MenoCost.com
+    web: https://menocost.com
+issued_time: "2026-11-16"
+sources:
+  - name: Live CSV of prices, rebuilt from the same records as the site
+    access_url: https://menocost.com/data/menopause-treatment-prices.csv
+  - name: Daily mirror on GitHub (all tables)
+    access_url: https://github.com/founden-bot/us-menopause-treatment-prices
+  - name: Hugging Face dataset
+    access_url: https://huggingface.co/datasets/menocost/us-menopause-treatment-prices
+  - name: CMS National Average Drug Acquisition Cost (NADAC)
+    access_url: https://data.medicaid.gov/dataset/nadac-national-average-drug-acquisition-cost
