@@ -1,0 +1,33 @@
+---
+title: "Airport data: IATA codes, coordinates and flights"
+homepage: https://github.com/whatflieswhere/airport-data
+category: Transportation
+description: Over 3,000 airports worldwide with scheduled passenger flights,
+  with IATA and ICAO codes, name, city, country, latitude and longitude, and
+  each airport's destinations, countries served, airlines and weekly flights,
+  counted from the flights airlines have on sale. One CSV under CC BY 4.0, no
+  login. A new version every quarter, each archived on Zenodo with its own
+  DOI; mirrored on Hugging Face and Kaggle.
+version:
+keywords: airports,airport codes,IATA,ICAO,flights,airlines,aviation,geospatial
+image:
+temporal: 2026-
+spatial: Worldwide
+access_level: public
+copyrights:
+accrual_periodicity: quarterly
+specification:
+data_quality: true
+data_dictionary: https://github.com/whatflieswhere/airport-data#columns
+language: en
+license: CC-BY-4.0
+publisher: Zenodo
+organization: WhatFliesWhere
+issued_time: 2026-11-26
+sources:
+  - name: Zenodo (all versions)
+    access_url: https://doi.org/10.5281/zenodo.24569008
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/whatflieswhere/airport-data
+  - name: Kaggle mirror
+    access_url: https://www.kaggle.com/datasets/whatflieswhere/airport-data-iata-codes-coordinates-and-flights
