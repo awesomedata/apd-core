@@ -1,0 +1,16 @@
+---
+title: VPS Scouter VPS Price Data
+homepage: https://github.com/vpsscouter/vps-price-data
+category: Economics
+description: Open CSV and JSON data on virtual private server plans and provider pricing, including billing terms, renewal prices when available, and last checked dates. Includes a methodology and changelog.
+keywords: VPS, hosting, prices, cloud computing, pricing
+access_level: public
+accrual_periodicity: weekly
+language: en
+license: CC BY 4.0
+publisher:
+  - name: VPS Scouter
+    web: https://vpsscouter.com
+sources:
+  - name: Archived snapshot
+    access_url: https://doi.org/10.5281/zenodo.24544685
