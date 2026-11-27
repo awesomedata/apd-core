@@ -1,0 +1,35 @@
+---
+title: SaaS Launch Survival, Web Directory Authority (DR3 vs DR4), and Cloud TCO Datasets (2026)
+homepage: https://github.com/best-directories/saas-launch-datasets-2026
+category: Economics
+description: Open CC-BY-4.0 collection of 20 tabular CSV datasets (8,140 rows) packaged with a Frictionless Data manifest (datapackage.json) and CITATION.cff. Includes anonymized survival and HTTP/DNS failure forensics across 1,889 indie SaaS launches from Jan to Nov 2026 (live HTTP recheck 2026-11-25), Ahrefs DR3 vs DR4 authority snapshots across 1,667 web directories (2026-11-26), a 2,801-domain directory link-health audit (2,405 active, 217 dead, 179 zombie), and 16 managed-vs-self-hosted cloud TCO scenarios.
+version: 1.0.0
+keywords: SaaS, startups, startup mortality, web directories, domain rating, cloud TCO, economics, open data.
+image:
+temporal: 2026-01 to 2026-11
+spatial: Global
+access_level: public
+copyrights: SaaSCity Research
+accrual_periodicity: irregular
+specification: https://github.com/best-directories/saas-launch-datasets-2026/blob/main/datapackage.json
+data_quality: false
+data_dictionary: https://github.com/best-directories/saas-launch-datasets-2026#complete-dataset-catalog
+language: en
+license: CC-BY-4.0
+publisher:
+  - name: SaaSCity Research
+    web: https://saascity.io
+organization:
+  - name: SaaSCity
+    web: https://saascity.io/best-saas-directories
+issued_time: 2026.11
+sources:
+  - name: SaaSCity Open Datasets Repository (v1.0.0)
+    access_url: https://github.com/best-directories/saas-launch-datasets-2026
+  - name: Best SaaS Directories Index (DR3 vs DR4 Audit)
+    access_url: https://saascity.io/best-saas-directories
+references:
+  - title: Indie SaaS Launch Survival Study (2026)
+    reference: https://saascity.io/blog/saas-launch-survival-study-top-1-percent-vs-dead-startups
+  - title: Migrating from Vercel and Supabase to Self-Hosting TCO Study (2026)
+    reference: https://saascity.io/blog/migrating-from-vercel-supabase-to-self-hosting
