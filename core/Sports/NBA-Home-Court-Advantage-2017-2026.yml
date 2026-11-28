@@ -1,0 +1,37 @@
+---
+title: NBA Home-Court Advantage 2017-2026
+homepage: https://github.com/MrBridgeHQ/mrbridge-datasets/tree/main/nba-home-court-2017-2026
+category: Sports
+description: "Every NBA regular-season game across ten seasons, 2016-17 through 2025-26 (11,777 games). One row per game with ESPN event id, date, season, home and away team, final score, margin, home-win flag, neutral-site flag and venue. The 2020-21 season was played largely without fans, which makes the file usable as a natural experiment on crowd effect. Season-by-season aggregate tables for scoring and margins are included. CSV and JSON, no login."
+version: v1
+keywords: NBA, basketball, home-court advantage, game results, sports analytics
+image:
+temporal: 2016-2026
+spatial: United States, Canada
+access_level: public
+copyrights:
+accrual_periodicity:
+specification:
+data_quality: false
+data_dictionary: https://github.com/MrBridgeHQ/mrbridge-datasets/blob/main/nba-home-court-2017-2026/README.md
+language: en
+license: CC BY-SA 4.0
+publisher:
+  - name: MrBridge
+    web: https://github.com/MrBridgeHQ
+organization:
+  - name:
+    web:
+issued_time: 2026
+sources:
+  - name: Game-level results (CSV)
+    access_url: https://github.com/MrBridgeHQ/mrbridge-datasets/blob/main/nba-home-court-2017-2026/nba-home-court-2017-2026.csv
+  - name: Game-level results (JSON)
+    access_url: https://github.com/MrBridgeHQ/mrbridge-datasets/blob/main/nba-home-court-2017-2026/nba-home-court-2017-2026.json
+  - name: Zenodo archive
+    access_url: https://doi.org/10.5281/zenodo.20936430
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/Mr-Bridge/nba-home-court-2017-2026
+references:
+  - title:
+    reference:
