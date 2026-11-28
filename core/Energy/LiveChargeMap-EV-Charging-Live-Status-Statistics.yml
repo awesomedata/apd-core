@@ -1,0 +1,28 @@
+---
+title: LiveChargeMap EV Charging Live-Status Statistics
+homepage: https://livechargemap.com/stats
+category: Energy
+description: Daily snapshot, by country and region, of public EV charging networks - number of locations and charge points, and the share of charge points that publish live availability (available, stale, out of service, no live data). Built from operators' and governments' open OCPI and national access point feeds. Direct CSV and JSON downloads, no account needed.
+version: 1
+keywords: electric vehicles,EV charging,charge points,OCPI,availability,open data,energy,mobility
+image:
+temporal: 2026-present
+spatial: Worldwide; about 170 countries and regions
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality: true
+data_dictionary: https://livechargemap.com/stats
+language: en
+license: CC-BY-4.0
+publisher: PHAIDON GROUP LTD
+organization:
+  - name: LiveChargeMap
+    web: https://livechargemap.com/
+issued_time: 2026-11-28
+sources:
+  - name: Statistics (CSV)
+    access_url: https://livechargemap.com/stats.csv
+  - name: Statistics (JSON)
+    access_url: https://livechargemap.com/stats.json
