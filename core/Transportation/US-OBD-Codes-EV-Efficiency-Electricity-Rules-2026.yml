@@ -1,0 +1,33 @@
+---
+title: US OBD-II Codes, Symptoms, EV Efficiency, Residential Electricity Prices and State Vehicle Rules (2026)
+homepage: https://github.com/ThisBug/askmycar-data
+category: Transportation
+description: Five CC0 reference tables compiled from U.S. official sources, 233 rows in total. 52 OBD-II trouble codes with severity and drivability notes, 36 OBD symptom records, 51 state/DC residential electricity price and public charging-infrastructure rows, 83 EPA 2026 EV efficiency trims (range, MPGe, kWh/100 mi, 240 V charge time, annual fuel cost), and 11 state vehicle-rule records (window tint, inspection, EV fees, child seat, helmet) each carrying a statute or official source URL. Direct CSV and JSON download, no login required.
+version: v1.0
+keywords: OBD-II, diagnostic trouble codes, symptoms, EV efficiency, MPGe, residential electricity price, charging stations, vehicle rules, United States
+image:
+temporal: 2026
+spatial: United States
+access_level: public
+copyrights:
+accrual_periodicity: irregular
+specification:
+data_quality: false
+data_dictionary: https://github.com/ThisBug/askmycar-data/blob/v1.0/README.md
+language: en
+license: CC0-1.0
+publisher:
+  - name: ThisBug
+    web: https://github.com/ThisBug/askmycar-data
+organization:
+issued_time: 2026-11
+sources:
+  - name: EIA Electric Power Monthly Table 5.6.A (residential electricity prices)
+    access_url: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+  - name: AFDC charging station and port counts by state
+    access_url: https://afdc.energy.gov/stations/states
+  - name: EPA fueleconomy.gov vehicle efficiency records
+    access_url: https://www.fueleconomy.gov/
+references:
+  - title: Repository README, per-table column dictionary
+    reference: https://github.com/ThisBug/askmycar-data/blob/v1.0/README.md
