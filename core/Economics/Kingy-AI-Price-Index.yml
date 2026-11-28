@@ -1,0 +1,37 @@
+---
+title: Kingy AI Price Index
+homepage: https://github.com/kingy-ai/open-data/tree/main/datasets/kingy-ai-price-index
+category: Economics
+description: Monthly US-dollar list prices for API tokens of eight AI developers' flagship, mid-range and small text models, plus consumer AI subscription plans, with a median index per tier. 35 monthly editions from January 2024; editions before September 2026 were reconstructed from Internet Archive snapshots and are marked as such. Every price row carries its source URL, archive snapshot URL and the SHA-256 of the archived page. List prices only, not usage-weighted. CSV and JSON, no login.
+version: 2026-11
+keywords: AI pricing, LLM API prices, price index, token prices, AI subscriptions
+image:
+temporal: 2024-01 to present
+spatial:
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: false
+data_dictionary: https://github.com/kingy-ai/open-data/blob/main/datasets/kingy-ai-price-index/schema.json
+language: en
+license: CC BY 4.0
+publisher:
+  - name: Kingy AI
+    web: https://kingy.ai
+organization:
+  - name: Kingy AI
+    web: https://kingy.ai
+issued_time: 2026.11
+sources:
+  - name: prices.csv
+    access_url: https://github.com/kingy-ai/open-data/raw/main/datasets/kingy-ai-price-index/prices.csv
+  - name: index-series.csv
+    access_url: https://github.com/kingy-ai/open-data/raw/main/datasets/kingy-ai-price-index/index-series.csv
+  - name: Hugging Face mirror
+    access_url: https://huggingface.co/datasets/kingy-ai/kingy-ai-price-index
+  - name: Zenodo archive (DOI, all versions)
+    access_url: https://doi.org/10.5281/zenodo.23962530
+references:
+  - title: Method
+    reference: https://kingy.ai/ai-price-index/#method
